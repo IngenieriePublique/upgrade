@@ -5,7 +5,7 @@ Tableau d'état (à mettre à jour à la fin de chaque séance). Le plan détail
 | Phase | État |
 |---|---|
 | 0 Cadrage (S0) | fait le 2026-10-11 (squelette, git, CLAUDE.md, docs/decisions.md) ; dépôt GitHub non créé (accord à demander) |
-| 1 Noyau (S1-S2) | à faire |
+| 1 Noyau (S1-S2) | fait le 2026-10-11 en une séance : PWA hors ligne, routeur, `store.js`, `srs.js`, révision, Aujourd'hui, export/import, sauvegarde dans un dossier, 49 cartes de sigles sourcées, workflows Pages/validation prêts. **Reste à faire par l'utilisateur** : créer le dépôt GitHub « upgrade » et pousser (déploiement Pages). Reste à compléter plus tard : 49 → ~60 sigles |
 | 2 Brief (S3-S4) | à faire |
 | 3 Sprint candidature (S5) | à faire, à terminer avant mi-novembre 2026 |
 | 4 Territoires (S6-S8) | à faire |
@@ -121,4 +121,4 @@ Calendrier cible : usage des cartes dès la semaine 1, Brief en semaine 2-3, spr
 Lire `CLAUDE.md` et `PLAN.md` d'abord ; une phase par séance ; ne jamais pousser sur GitHub ni changer un réglage système sans accord ; aucun téléchargement important sans accord ; contenu factuel toujours issu de sources récupérées ; réponses en français ; chemins relatifs ; Python avec `-I` pour les scripts qui lisent des données téléchargées.
 
 ## Questions restant ouvertes (non bloquantes)
-Nom public du site ; compte GitHub à utiliser ; choix final du fournisseur d'IA gratuite (S0) ; priorité entre concours et contractuel (S5).
+Compte GitHub à utiliser ; choix final du fournisseur d'IA gratuite (phase 2) ; priorité entre concours et contractuel (S5). Tranchées : nom public « Upgrade » ; dépôt GitHub créé à la main (pas de `gh`).

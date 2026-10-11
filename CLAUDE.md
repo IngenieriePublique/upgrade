@@ -25,5 +25,13 @@
 ## Architecture cible
 Voir « Architecture » dans `PLAN.md` (dossiers `site/`, `content/`, `scripts/`, `tests/`, `.github/workflows/`). Décisions techniques clés : cartes SVG précalculées en Python (Lambert-93), répétition espacée maison de type SM-2 avec journal complet des révisions (migration FSRS possible), dictée sur papier avec marquage des fautes à l'écran, Brief plafonné à 13 items par jour.
 
+## Fonctionnement du noyau (phase 1)
+- `site/js/srs.js` : fonctions pures (SM-2 à 4 notes). L'état d'une carte se **déduit toujours du journal** (`replay`) ; `store.js` écrit journal + état dans une même transaction IndexedDB. Ne jamais modifier l'état sans écrire au journal.
+- Contenu : `content/cartes/<paquet>.json` (source de vérité, 2 sources minimum par carte) → `python scripts/build_content.py` valide et écrit `site/data/cartes/`. Un nouveau paquet = un fichier de plus, rien d'autre à déclarer.
+- Tests : `python -m unittest discover -s tests -t .` et `tests/index.html` dans le navigateur (serveur : `python -m http.server 8765 --bind 127.0.0.1` ; le port 8000 est pris sur cette machine).
+- Sur localhost le service worker est désactivé (sinon on voit d'anciens fichiers) ; `?sw` l'active. Ne jamais passer `null` à `replaceChildren`/`append` (écrit « null ») : utiliser `fill()` de `ui.js`.
+- Sites bloquant les robots (403) : ademe.fr, prefectures-regions.gouv.fr. Certificat incomplet côté Python : cnfpt.fr. Vérifier ces liens à la main.
+- Brief (phase 2) : `scripts/fetch_sigles.py` et `find_second_sources.py` montrent la méthode (API Wikipédia + Wikidata P856 + liens externes vérifiés) réutilisable pour les fiches.
+
 ## Etat
-Phase 0 terminée. Prochaine séance : phase 1 (Noyau, S1-S2).
+Phases 0 et 1 terminées (2026-10-11). Dépôt GitHub non créé (l'utilisateur le crée à la main sur github.com, nom « upgrade », public, puis `git remote add origin ...` et push : demander l'accord avant). Prochaine séance : phase 2 (Brief, S3), ou, avant, pratique : l'utilisateur fait ses cartes quelques jours.

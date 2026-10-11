@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Tests JS</title>
+<style>body{font:15px system-ui;margin:1.5rem;max-width:60rem}p{margin:.2rem 0}</style></head>
+<body><div id="out">Exécution…</div>
+<script type="module">
+  import { run } from './runner.js';
+  import './srs.test.js';
+  import './store.test.js';
+  import './sources.test.js';
+  run(document.getElementById('out'));
+</script></body></html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upgrade</title>
+  <meta name="description" content="Boucle quotidienne finie de 60 minutes : cartes à répétition espacée, actualité, curriculum.">
+  <meta name="theme-color" content="#1f3a5f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="saut" href="#app">Aller au contenu</a>
+  <header class="haut">
+    <a class="marque" href="#/">Upgrade</a>
+    <nav aria-label="Navigation principale">
+      <a data-route="/" href="#/">Aujourd'hui</a>
+      <a data-route="/cartes" href="#/cartes">Cartes</a>
+      <a data-route="/sauvegarde" href="#/sauvegarde">Sauvegarde</a>
+    </nav>
+    <div id="timer" aria-live="polite"></div>
+  </header>
+  <main id="app" tabindex="-1"><p class="chargement">Chargement…</p></main>
+  <footer class="bas"><span id="version"></span> · Données locales à ce navigateur · Textes de sources citées (Wikipédia : CC BY-SA)</footer>
+  <noscript><p class="alerte">Cette application demande JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

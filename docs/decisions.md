@@ -16,5 +16,10 @@ Python 3.14.1, git 2.56, Edge 155, voix système fr-FR « Microsoft Hortense Des
 ## GitHub Actions : risque confirmé
 Dans un dépôt public, les workflows planifiés sont désactivés automatiquement après 60 jours sans activité du dépôt (documentation GitHub). Parades prévues en phase 2 : le workflow `brief.yml` committe les données du Brief (activité), plus `workflow_dispatch` et repli local `python scripts/build_brief.py`.
 
+## Décisions de la séance S1 (2026-10-11)
+- Nom public du site : **Upgrade**. Dépôt GitHub créé à la main (pas d'installation de `gh`) : opération unique, authentification par Git Credential Manager au premier push. Le workflow `brief.yml` (phase 2) se déclenchera depuis l'interface GitHub (Actions > Run workflow).
+- Sigles : 49 cartes livrées sur ~60 visés. Écartées faute de seconde source vérifiable : INET et plusieurs candidats (DRAC, DRAAF, CCAS, SEM, DSP, CGCT, CAF, PNR, ORT, ACV). À compléter en croisière.
+- Méthode de sourçage : Wikipédia (intro, CC BY-SA) + site officiel (Wikidata P856) ou page institutionnelle dont l'adresse répond et contient le sujet. Faits périssables marqués et date de revue 2026-10-11.
+
 ## Questions encore ouvertes
-Nom public du site ; compte GitHub ; installer `gh` ou non ; fournisseur d'IA ; concours ou contractuel (phase 3).
+Compte GitHub ; fournisseur d'IA (phase 2) ; concours ou contractuel (phase 3).

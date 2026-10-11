@@ -1,0 +1,898 @@
+{
+ "cartes": [
+  {
+   "id": "sigles-anct",
+   "type": "basique",
+   "recto": "ANCT",
+   "verso": "Agence nationale de la cohésion des territoires\nÉtablissement public créé en 2019, opérationnel depuis le 1er janvier 2020. Il cible d'abord les territoires cumulant des difficultés (géographiques, démographiques, économiques, sociales, d'accès aux services publics). Il a remplacé le CGET.",
+   "sources": [
+    {
+     "titre": "Agence nationale de la cohésion des territoires — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_nationale_de_la_coh%C3%A9sion_des_territoires"
+    },
+    {
+     "titre": "Site officiel de l'ANCT",
+     "url": "https://anct.gouv.fr"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-dgcl",
+   "type": "basique",
+   "recto": "DGCL",
+   "verso": "Direction générale des collectivités locales\nAdministration centrale (sous ce nom depuis 1960) qui instruit et met en œuvre les relations entre l'État et les collectivités territoriales, avec de larges compétences financières (dont les concours financiers de l'État). Tutelle transférée en 2018 aux ministères de l'aménagement du territoire, du logement et de la ville.",
+   "sources": [
+    {
+     "titre": "Direction générale des Collectivités locales — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_des_Collectivit%C3%A9s_locales"
+    },
+    {
+     "titre": "Site de la DGCL (ministère)",
+     "url": "https://www.collectivites-locales.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-dgfip",
+   "type": "basique",
+   "recto": "DGFiP",
+   "verso": "Direction générale des Finances publiques\nDirection du ministère de l'Économie et des Finances : gère la fiscalité de l'État et des collectivités (règles, recouvrement, contentieux), pilote la politique immobilière de l'État, gère le cadastre et la publicité foncière.",
+   "sources": [
+    {
+     "titre": "Direction générale des Finances publiques — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_des_Finances_publiques"
+    },
+    {
+     "titre": "Cour des comptes : la DGFiP dix ans après la fusion",
+     "url": "https://www.ccomptes.fr/fr/publications/la-dgfip-dix-ans-apres-la-fusion"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-crc-crtc",
+   "type": "basique",
+   "recto": "CRC / CRTC",
+   "verso": "Chambre régionale des comptes (aujourd'hui chambres régionales et territoriales des comptes)\nJuridictions financières, créées en 1982 avec la décentralisation, qui vérifient les comptes des collectivités locales et d'autres organismes publics (CCAS, hôpitaux, OPH, chambres consulaires…) et de certains organismes privés. Elles forment avec la Cour des comptes un ensemble de juridictions financières. 23 chambres : 13 en métropole, 10 en outre-mer.",
+   "sources": [
+    {
+     "titre": "Chambre régionale des comptes — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Cour des comptes : une CRTC (exemple Antilles-Guyane)",
+     "url": "https://www.ccomptes.fr/fr/crtc-antilles-guyane-ctc-saint-barthelemy-et-saint-martin/organisation"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-ceser",
+   "type": "basique",
+   "recto": "CESER",
+   "verso": "Conseil économique, social et environnemental régional\nInstitution consultative présente dans chaque région : ses membres (les « forces vives ») donnent des avis sur des questions relevant des compétences du conseil régional. Héritier des CoDER supprimés en 1972 ; s'appelait CESR avant la loi Grenelle II du 12 juillet 2010.",
+   "sources": [
+    {
+     "titre": "Conseil économique, social et environnemental régional — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Conseil_%C3%A9conomique,_social_et_environnemental_r%C3%A9gional"
+    },
+    {
+     "titre": "Vie-publique : rôle du CESER",
+     "url": "https://www.vie-publique.fr/decouverte-institutions/institutions/collectivites-territoriales/competences-collectivites-territoriales/quel-est-role-du-conseil-economique-social-environnemental-regional-ceser.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-dreets",
+   "type": "basique",
+   "recto": "DREETS",
+   "verso": "Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités\nService déconcentré de l'État dans chaque région métropolitaine, commun à plusieurs ministères (affaires sociales, économie et finances, travail et emploi). Sous l'autorité du préfet de région ; sous celle de la direction générale du Travail pour l'inspection du travail.",
+   "sources": [
+    {
+     "titre": "Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_r%C3%A9gionale_de_l%27%C3%89conomie,_de_l%27Emploi,_du_Travail_et_des_Solidarit%C3%A9s"
+    },
+    {
+     "titre": "Cour des comptes : la création des DREETS et des DDETS",
+     "url": "https://www.ccomptes.fr/fr/publications/la-creation-des-dreets-et-des-ddets"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ddets",
+   "type": "basique",
+   "recto": "DDETS",
+   "verso": "Direction départementale de l'emploi, du travail et des solidarités\nService déconcentré de l'État, direction départementale interministérielle (DDI) auprès du préfet de département : cohésion sociale, emploi, insertion sociale et professionnelle, accès et maintien dans le logement, travail.",
+   "sources": [
+    {
+     "titre": "Direction départementale de l'emploi, du travail et des solidarités — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_d%C3%A9partementale_de_l%27emploi,_du_travail_et_des_solidarit%C3%A9s"
+    },
+    {
+     "titre": "Cour des comptes : la création des DREETS et des DDETS",
+     "url": "https://www.ccomptes.fr/fr/publications/la-creation-des-dreets-et-des-ddets"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ddt-m",
+   "type": "basique",
+   "recto": "DDT(M)",
+   "verso": "Direction départementale des Territoires (et de la Mer)\nService déconcentré de l'État créé le 1er janvier 2010, direction départementale interministérielle auprès du préfet de département (aménagement et développement durable des territoires). Issue de la fusion des DDE, des DDAF et, sur le littoral, des affaires maritimes ; le « M » s'ajoute dans les départements côtiers.",
+   "sources": [
+    {
+     "titre": "Direction départementale des Territoires — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_d%C3%A9partementale_des_Territoires"
+    },
+    {
+     "titre": "Ministère de la Transition écologique : services déconcentrés",
+     "url": "https://www.ecologie.gouv.fr/services-deconcentres-du-ministere"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-dreal",
+   "type": "basique",
+   "recto": "DREAL",
+   "verso": "Direction régionale de l'Environnement, de l'Aménagement et du Logement (DEAL en outre-mer)\nService déconcentré de l'État en région, sous la double tutelle du ministère de la Transition écologique et de celui de l'Aménagement du territoire (appellations de décembre 2024). Compétences fixées par le décret n° 2009-235 du 27 février 2009 modifié.",
+   "sources": [
+    {
+     "titre": "Direction régionale de l'Environnement, de l'Aménagement et du Logement — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_r%C3%A9gionale_de_l%27Environnement,_de_l%27Am%C3%A9nagement_et_du_Logement"
+    },
+    {
+     "titre": "Ministère de la Transition écologique : services déconcentrés",
+     "url": "https://www.ecologie.gouv.fr/services-deconcentres-du-ministere"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-epci",
+   "type": "basique",
+   "recto": "EPCI",
+   "verso": "Établissement public de coopération intercommunale\nStructure regroupant plusieurs communes pour exercer des compétences en commun : la forme la plus aboutie d'intercommunalité (Code général des collectivités territoriales, 5e partie). Deux types : à fiscalité propre (métropoles, communautés urbaines, d'agglomération, de communes) et sans fiscalité propre (syndicats).",
+   "sources": [
+    {
+     "titre": "Établissement public de coopération intercommunale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89tablissement_public_de_coop%C3%A9ration_intercommunale"
+    },
+    {
+     "titre": "Préfecture de la Creuse : les EPCI à fiscalité propre",
+     "url": "https://www.creuse.gouv.fr/Actions-de-l-Etat/Collectivites-territoriales/Intercommunalite/Les-etablissements-publics-de-cooperation-intercommunale-EPCI-a-fiscalite-propre"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-petr",
+   "type": "basique",
+   "recto": "PETR",
+   "verso": "Pôle d'équilibre territorial et rural\nÉtablissement public (syndicat mixte) regroupant plusieurs EPCI à fiscalité propre dans un périmètre d'un seul tenant ; créé en janvier 2014 pour faire coopérer territoires ruraux et petites et moyennes villes. Selon la Cour des comptes (2022), il manque souvent d'ambition et de fonctionnement démocratique et n'est pas devenu le « guichet unique » prévu.",
+   "sources": [
+    {
+     "titre": "Pôle d'équilibre territorial et rural — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/P%C3%B4le_d%27%C3%A9quilibre_territorial_et_rural"
+    },
+    {
+     "titre": "Vie-publique : que sont les PETR ?",
+     "url": "https://www.vie-publique.fr/decouverte-institutions/institutions/collectivites-territoriales/intercommunalite-cooperation-locale/que-sont-poles-equilibre-territoriaux-ruraux.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-cper",
+   "type": "basique",
+   "recto": "CPER",
+   "verso": "Contrat de plan État-région\nDocument par lequel l'État (le préfet de région, via le SGAR) et la région s'engagent sur la programmation et le financement pluriannuels de projets d'aménagement du territoire. Créé par la loi du 29 juillet 1982 sur la planification ; appelé « contrat de projets » de 2006 à 2014, puis de nouveau CPER.",
+   "sources": [
+    {
+     "titre": "Contrat de plan État-région — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Contrat_de_plan_%C3%89tat-r%C3%A9gion"
+    },
+    {
+     "titre": "Ministère de la Transition écologique : contrats de plan État-région",
+     "url": "https://www.ecologie.gouv.fr/politiques-publiques/contrats-plan-etat-region"
+    },
+    {
+     "titre": "DGCL : contractualisations",
+     "url": "https://www.collectivites-locales.gouv.fr/animer-les-territoires/cohesion-territoriale-et-lamenagement-du-territoire/amenagement-du-territoire-et-ruralites/contractualisations"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-feder",
+   "type": "basique",
+   "recto": "FEDER",
+   "verso": "Fonds européen de développement régional\nL'un des fonds structurels et d'investissement européens ; il renforce la cohésion économique et sociale de l'Union en corrigeant les déséquilibres régionaux.",
+   "sources": [
+    {
+     "titre": "Fonds européen de développement régional — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Fonds_europ%C3%A9en_de_d%C3%A9veloppement_r%C3%A9gional"
+    },
+    {
+     "titre": "Europe en France",
+     "url": "https://www.europe-en-france.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-fse",
+   "type": "basique",
+   "recto": "FSE+",
+   "verso": "Fonds social européen plus\nFonds structurel de l'UE pour la cohésion sociale et le bien-être économique : cofinance des projets locaux, régionaux et nationaux en faveur de l'emploi, de sa qualité et de l'inclusion sur le marché du travail. Environ 10 % du budget de l'UE.",
+   "sources": [
+    {
+     "titre": "Fonds social européen plus — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Fonds_social_europ%C3%A9en_plus"
+    },
+    {
+     "titre": "FSE en France : le programme national",
+     "url": "https://fse.gouv.fr/le-programme-national-fse"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-feader",
+   "type": "basique",
+   "recto": "FEADER",
+   "verso": "Fonds européen agricole pour le développement rural\nFonds européen qui finance le second pilier de la politique agricole commune (développement rural) ; le premier pilier porte sur les mesures de marché et les aides de surface.",
+   "sources": [
+    {
+     "titre": "Fonds européen agricole pour le développement rural — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Fonds_europ%C3%A9en_agricole_pour_le_d%C3%A9veloppement_rural"
+    },
+    {
+     "titre": "Ministère de l'Agriculture : le FEADER",
+     "url": "https://agriculture.gouv.fr/pac-fonds-europeen-agricole-pour-le-developpement-rural-feader"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-dgf",
+   "type": "basique",
+   "recto": "DGF",
+   "verso": "Dotation globale de fonctionnement\nPrincipal concours financier de l'État au budget des collectivités territoriales : globale, libre d'emploi, fixée chaque année par la loi de finances. Elle comprend une part forfaitaire et une part de péréquation. Plus de 27 Md€ par an (chiffre à recontrôler).",
+   "sources": [
+    {
+     "titre": "Dotation globale de fonctionnement — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Dotation_globale_de_fonctionnement"
+    },
+    {
+     "titre": "DGCL : présentation de la DGF",
+     "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/execution-des-recettes-et-des-depenses-locales/recettes-locales/dotations/dotation-globale-de-fonctionnement/presentation-de-la-dotation-globale-de-fonctionnement"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-detr",
+   "type": "basique",
+   "recto": "DETR",
+   "verso": "Dotation d'équipement des territoires ruraux\nSubvention d'investissement de l'État aux collectivités rurales éligibles (créée en 2011), attribuée par le préfet après avis d'une commission d'élus du département. Base légale dans le CGCT (art. L. 2334-33, R. 2334-19 à R. 2334-35). Taux et seuils fixés chaque année par département.",
+   "sources": [
+    {
+     "titre": "Préfecture de la Haute-Savoie : la DETR",
+     "url": "https://www.haute-savoie.gouv.fr/Politiques-publiques/Vos-aides/Collectivites-locales/Dotation-d-equipement-des-territoires-ruraux"
+    },
+    {
+     "titre": "Préfecture de Meurthe-et-Moselle : la DETR",
+     "url": "https://www.meurthe-et-moselle.gouv.fr/Actions-de-l-Etat/Collectivites-locales/Concours-financiers/La-dotation-d-equipement-des-territoires-ruraux-DETR"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-dsil",
+   "type": "basique",
+   "recto": "DSIL",
+   "verso": "Dotation de soutien à l'investissement local\nSubvention d'investissement de l'État aux communes et intercommunalités (CGCT, art. L. 2334-42), créée en 2016 puis pérennisée. Thèmes : rénovation énergétique, mise aux normes, mobilité et logement, numérique, bâtiments scolaires, accueil de population nouvelle. Peut aussi financer des projets inscrits dans les contrats État-collectivités (CRTE, PVD, ACV). Cumul avec la DETR exceptionnel.",
+   "sources": [
+    {
+     "titre": "Préfecture de Meurthe-et-Moselle : la DSIL",
+     "url": "https://www.meurthe-et-moselle.gouv.fr/Actions-de-l-Etat/Collectivites-locales/Concours-financiers/La-dotation-de-soutien-a-l-investissement-local-DSIL"
+    },
+    {
+     "titre": "Préfecture du Tarn : la DSIL",
+     "url": "https://www.tarn.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefecture/L-Etat-au-service-des-collectivites-locales/Dotations-de-l-Etat/FCTVA-DETR-DSIL-Fonds-vert-FNADT-DSID-DSEC/DSIL/Dotation-de-soutien-a-l-investissement-local-DSIL"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-zan",
+   "type": "basique",
+   "recto": "ZAN",
+   "verso": "Zéro artificialisation nette\nObjectif de ralentir l'artificialisation des sols puis de la compenser. Notion née en 2018 (plan biodiversité), reprise en 2020 par la Convention citoyenne pour le climat puis par la loi Climat et résilience (2021). Deux échéances : 2030 (diviser par deux le rythme d'artificialisation par rapport à 2011-2021) et 2050 (artificialisation nette nulle).",
+   "sources": [
+    {
+     "titre": "Zéro artificialisation nette — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Z%C3%A9ro_artificialisation_nette"
+    },
+    {
+     "titre": "Ministère de la Transition écologique : artificialisation des sols",
+     "url": "https://www.ecologie.gouv.fr/artificialisation-des-sols"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-sraddet",
+   "type": "basique",
+   "recto": "SRADDET",
+   "verso": "Schéma régional d'aménagement, de développement durable et d'égalité des territoires\nSchéma régional de planification institué par la loi NOTRe ; remplace le SRADDT et fusionne plusieurs schémas sectoriels (déchets, intermodalité, climat-air-énergie, cohérence écologique). Document stratégique et prospectif : il ne fixe pas de règles d'usage des sols, contrairement aux documents d'urbanisme.",
+   "sources": [
+    {
+     "titre": "Schéma régional d'aménagement, de développement durable et d'égalité des territoires — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Sch%C3%A9ma_r%C3%A9gional_d%27am%C3%A9nagement,_de_d%C3%A9veloppement_durable_et_d%27%C3%A9galit%C3%A9_des_territoires"
+    },
+    {
+     "titre": "Cerema : contenu du SRADDET",
+     "url": "https://www.cerema.fr/fr/actualites/contenu-du-sraddet-fascicule"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-scot",
+   "type": "basique",
+   "recto": "SCoT",
+   "verso": "Schéma de cohérence territoriale\nDocument d'urbanisme à l'échelle de plusieurs communes ou groupements : un projet de territoire qui met en cohérence les politiques d'habitat, de mobilité, d'aménagement commercial, d'environnement et de paysage (Code de l'urbanisme, art. L. 141-1 et suivants).",
+   "sources": [
+    {
+     "titre": "Schéma de cohérence territoriale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Sch%C3%A9ma_de_coh%C3%A9rence_territoriale"
+    },
+    {
+     "titre": "Cerema : SCoT et PLUi",
+     "url": "https://www.cerema.fr/fr/actualites/integrer-enjeux-air-energie-climat-scot-plui"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-cerema",
+   "type": "basique",
+   "recto": "Cerema",
+   "verso": "Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement\nÉtablissement public administratif créé le 1er janvier 2014, sous la tutelle de deux ministères (transition écologique, aménagement du territoire). Les collectivités siègent à ses instances de gouvernance. Siège à Lyon.",
+   "sources": [
+    {
+     "titre": "Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Centre_d%27%C3%A9tudes_et_d%27expertise_sur_les_risques,_l%27environnement,_la_mobilit%C3%A9_et_l%27am%C3%A9nagement"
+    },
+    {
+     "titre": "Site officiel du Cerema",
+     "url": "https://www.cerema.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-ditp",
+   "type": "basique",
+   "recto": "DITP",
+   "verso": "Direction interministérielle de la Transformation publique\nDirection chargée de mettre en œuvre le programme de transformation publique et les politiques prioritaires du Gouvernement. Wikipédia signale en 2026 l'annonce de sa transformation en « direction des Services publics » : à recontrôler.",
+   "sources": [
+    {
+     "titre": "Direction interministérielle de la Transformation publique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_interminist%C3%A9rielle_de_la_Transformation_publique"
+    },
+    {
+     "titre": "Site de la transformation publique",
+     "url": "https://www.modernisation.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-dinum",
+   "type": "basique",
+   "recto": "DINUM",
+   "verso": "Direction interministérielle du Numérique\nDirection rattachée au Premier ministre qui élabore la stratégie numérique de l'État et pilote sa mise en œuvre ; considérée comme la direction des systèmes d'information de l'État.",
+   "sources": [
+    {
+     "titre": "Direction interministérielle du Numérique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_interminist%C3%A9rielle_du_Num%C3%A9rique"
+    },
+    {
+     "titre": "Site officiel de la DINUM",
+     "url": "https://www.numerique.gouv.fr/dinum/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-insee",
+   "type": "basique",
+   "recto": "INSEE",
+   "verso": "Institut national de la statistique et des études économiques\nOrganisme créé en 1946 qui collecte, produit, analyse et diffuse l'information sur l'économie et la société françaises (comptabilité nationale, démographie, chômage, indice des prix). Direction générale du ministère de l'Économie ; indépendance garantie par la loi depuis le 4 août 2008.",
+   "sources": [
+    {
+     "titre": "Institut national de la statistique et des études économiques — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Institut_national_de_la_statistique_et_des_%C3%A9tudes_%C3%A9conomiques"
+    },
+    {
+     "titre": "Site officiel de l'Insee",
+     "url": "https://www.insee.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-cnfpt",
+   "type": "basique",
+   "recto": "CNFPT",
+   "verso": "Centre national de la fonction publique territoriale\nÉtablissement public paritaire et déconcentré : forme tous les agents de la fonction publique territoriale, organise les concours et examens professionnels de catégorie A+ et observe l'évolution des métiers territoriaux.",
+   "sources": [
+    {
+     "titre": "Centre national de la fonction publique territoriale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Centre_national_de_la_fonction_publique_territoriale"
+    },
+    {
+     "titre": "Site officiel du CNFPT",
+     "url": "https://www.cnfpt.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ofgl",
+   "type": "basique",
+   "recto": "OFGL",
+   "verso": "Observatoire des finances et de la gestion publique locales\nFormation spécialisée du comité des finances locales ; il remplace l'OFL créé par la loi du 4 février 1995. Ses données ouvertes sont sur data.ofgl.fr.",
+   "sources": [
+    {
+     "titre": "Observatoire des finances et de la gestion publique locales — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Observatoire_des_finances_et_de_la_gestion_publique_locales"
+    },
+    {
+     "titre": "DGCL : l'OFGL",
+     "url": "https://www.collectivites-locales.gouv.fr/ofgl"
+    },
+    {
+     "titre": "data.ofgl.fr",
+     "url": "https://data.ofgl.fr/pages/accueil/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-dares",
+   "type": "basique",
+   "recto": "DARES",
+   "verso": "Direction de l'Animation de la recherche, des Études et des Statistiques\nDirection du ministère du Travail qui produit analyses, études et statistiques publiques sur le travail, l'emploi, la formation professionnelle et le dialogue social.",
+   "sources": [
+    {
+     "titre": "Direction de l'Animation de la recherche, des Études et des Statistiques — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_de_l%27Animation_de_la_recherche,_des_%C3%89tudes_et_des_Statistiques"
+    },
+    {
+     "titre": "Site de la Dares",
+     "url": "https://dares.travail-emploi.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ademe",
+   "type": "basique",
+   "recto": "ADEME",
+   "verso": "Agence de la transition écologique (nommée Agence de l'environnement et de la maîtrise de l'énergie jusqu'en avril 2020)\nÉtablissement public à caractère industriel et commercial créé en 1991, voué à la protection de l'environnement et surtout à la maîtrise de l'énergie.",
+   "sources": [
+    {
+     "titre": "Agence de l'environnement et de la maîtrise de l'énergie — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_de_l%27environnement_et_de_la_ma%C3%AEtrise_de_l%27%C3%A9nergie"
+    },
+    {
+     "titre": "data.gouv.fr : page de l'ADEME",
+     "url": "https://www.data.gouv.fr/fr/organizations/534fff4ca3a7292c64a77c95/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-anah",
+   "type": "basique",
+   "recto": "ANAH",
+   "verso": "Agence nationale de l'habitat\nÉtablissement public administratif de l'État qui met en œuvre la politique d'amélioration du parc de logements privés existants, centrée sur les publics modestes : aides aux propriétaires et copropriétés pour des travaux, conventions de loyers maîtrisés avec les bailleurs.",
+   "sources": [
+    {
+     "titre": "Agence nationale de l'habitat — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_nationale_de_l%27habitat"
+    },
+    {
+     "titre": "Site officiel de l'Anah",
+     "url": "https://www.anah.gouv.fr"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-anru",
+   "type": "basique",
+   "recto": "ANRU",
+   "verso": "Agence nationale pour la rénovation urbaine\nÉtablissement public industriel et commercial créé par la loi du 1er août 2003 (ministre Borloo) pour financer et mettre en œuvre le programme national de rénovation urbaine (PNRU).",
+   "sources": [
+    {
+     "titre": "Agence nationale pour la rénovation urbaine — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_nationale_pour_la_r%C3%A9novation_urbaine"
+    },
+    {
+     "titre": "Site officiel de l'ANRU",
+     "url": "https://www.anru.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-cdc",
+   "type": "basique",
+   "recto": "CDC",
+   "verso": "Caisse des dépôts et consignations\nInstitution financière publique fondée en 1816. Le groupe remplit des missions d'intérêt général en appui des politiques de l'État et des collectivités et peut exercer des activités concurrentielles. Contrôlée par une commission de surveillance qui rend compte au Parlement.",
+   "sources": [
+    {
+     "titre": "Caisse des dépôts et consignations — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Caisse_des_d%C3%A9p%C3%B4ts_et_consignations"
+    },
+    {
+     "titre": "Site officiel de la Caisse des Dépôts",
+     "url": "https://www.caissedesdepots.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ars",
+   "type": "basique",
+   "recto": "ARS",
+   "verso": "Agence régionale de santé\nÉtablissement public administratif de l'État qui met en œuvre la politique de santé dans sa région ; créées le 1er avril 2010 par la loi HPST du 21 juillet 2009 pour un pilotage unifié de la santé en région.",
+   "sources": [
+    {
+     "titre": "Agence régionale de santé — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_r%C3%A9gionale_de_sant%C3%A9"
+    },
+    {
+     "titre": "Portail des ARS",
+     "url": "https://www.ars.sante.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-adcf",
+   "type": "basique",
+   "recto": "AdCF",
+   "verso": "Intercommunalités de France (ex-Assemblée des communautés de France, AdCF)\nAssociation de collectivités fondée en 1989 qui représente les élus intercommunaux : promotion de la coopération intercommunale, appui juridique et technique, études.",
+   "sources": [
+    {
+     "titre": "Intercommunalités de France — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Intercommunalit%C3%A9s_de_France"
+    },
+    {
+     "titre": "Site d'Intercommunalités de France",
+     "url": "https://www.intercommunalites.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-amf-maires",
+   "type": "basique",
+   "recto": "AMF (maires)",
+   "verso": "Association des maires de France et des présidents d'intercommunalité\nAssociation loi de 1901 créée en 1907, reconnue d'utilité publique en 1933 ; plus de 34 000 adhérents (chiffre à recontrôler).",
+   "sources": [
+    {
+     "titre": "Association des maires de France — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Association_des_maires_de_France"
+    },
+    {
+     "titre": "Site de l'AMF",
+     "url": "https://www.amf.asso.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-pvd",
+   "type": "basique",
+   "recto": "PVD",
+   "verso": "Petites Villes de demain\nProgramme lancé en octobre 2020 pour redynamiser 1 600 petites villes (communes de moins de 20 000 habitants), dans le prolongement d'Action cœur de ville (2017, 222 villes moyennes). Programme sur six ans (2020-2026), 3 milliards d'euros.",
+   "sources": [
+    {
+     "titre": "Petites Villes de demain — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Petites_Villes_de_demain"
+    },
+    {
+     "titre": "ANCT : Petites villes de demain",
+     "url": "https://anct.gouv.fr/programmes-dispositifs/petites-villes-de-demain"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-p-le-emploi-jusqu-au-31-12-2023",
+   "type": "basique",
+   "recto": "Pôle emploi (jusqu'au 31/12/2023)",
+   "verso": "France Travail\nÉtablissement public administratif chargé de l'emploi, créé en 2008 par la fusion de l'ANPE et des Assédic ; il a pris le nom de France Travail le 1er janvier 2024.",
+   "sources": [
+    {
+     "titre": "France Travail — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/France_Travail"
+    },
+    {
+     "titre": "Site de France Travail",
+     "url": "https://www.francetravail.org/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-hceres",
+   "type": "basique",
+   "recto": "HCERES",
+   "verso": "Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur\nAutorité publique indépendante créée par la loi de 2013 : évalue établissements, formations et équipes de recherche (les enseignants-chercheurs sont évalués par le CNU). Des discussions parlementaires sur sa suppression ont commencé en 2025.",
+   "sources": [
+    {
+     "titre": "Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Haut_Conseil_de_l%27%C3%A9valuation_de_la_recherche_et_de_l%27enseignement_sup%C3%A9rieur"
+    },
+    {
+     "titre": "Site du Hcéres",
+     "url": "https://www.hceres.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-lolf",
+   "type": "basique",
+   "recto": "LOLF",
+   "verso": "Loi organique relative aux lois de finances\nCadre juridique des lois de finances, parfois appelée « Constitution financière » ; promulguée le 1er août 2001, elle remplace le cadre de 1959 et s'applique à toute l'administration depuis 2006.",
+   "sources": [
+    {
+     "titre": "Loi organique relative aux lois de finances — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Loi_organique_relative_aux_lois_de_finances"
+    },
+    {
+     "titre": "Vie-publique : la mise en œuvre de la LOLF",
+     "url": "https://www.vie-publique.fr/rapport/27645-la-mise-en-oeuvre-de-la-loi-organique-relative-aux-lois-de-finances-re"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-loi-notre",
+   "type": "basique",
+   "recto": "Loi NOTRe",
+   "verso": "Loi du 7 août 2015 portant nouvelle organisation territoriale de la République\nActe III de la décentralisation (présidence Hollande) : renforce les compétences des régions et des EPCI, institue le SRADDET et supprime la clause générale de compétence des départements et des régions rétablie en 2014 par la loi MAPTAM.",
+   "sources": [
+    {
+     "titre": "Loi portant nouvelle organisation territoriale de la République — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Loi_portant_nouvelle_organisation_territoriale_de_la_R%C3%A9publique"
+    },
+    {
+     "titre": "Assemblée nationale : dossier NOTRe",
+     "url": "https://www.assemblee-nationale.fr/14/dossiers/delimitation_regions_organisation_territoriale.asp"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-loi-maptam",
+   "type": "basique",
+   "recto": "Loi MAPTAM",
+   "verso": "Loi du 27 janvier 2014 de modernisation de l'action publique territoriale et d'affirmation des métropoles (aussi « MAPAM »)\nActe III de la décentralisation : crée les CTAP, réorganise le régime des métropoles et rétablit la clause générale de compétence des départements et régions (supprimée ensuite par la loi NOTRe).",
+   "sources": [
+    {
+     "titre": "Loi de modernisation de l'action publique territoriale et d'affirmation des métropoles — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Loi_de_modernisation_de_l%27action_publique_territoriale_et_d%27affirmation_des_m%C3%A9tropoles"
+    },
+    {
+     "titre": "Sénat : projet de loi MAPAM",
+     "url": "https://www.senat.fr/leg/pjl12-495.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-loi-3ds",
+   "type": "basique",
+   "recto": "Loi 3DS",
+   "verso": "Loi du 21 février 2022 relative à la différenciation, la décentralisation, la déconcentration et portant diverses mesures de simplification de l'action publique locale\nLoi promulguée sous la présidence Macron pour rendre plus fluides les rapports entre l'État et les collectivités territoriales.",
+   "sources": [
+    {
+     "titre": "Loi relative à la différenciation, la décentralisation, la déconcentration et portant diverses mesures de simplification de l'action publique locale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Loi_relative_%C3%A0_la_diff%C3%A9renciation,_la_d%C3%A9centralisation,_la_d%C3%A9concentration_et_portant_diverses_mesures_de_simplification_de_l%27action_publique_locale"
+    },
+    {
+     "titre": "Sénat : projet de loi 3DS",
+     "url": "https://www.senat.fr/leg/pjl20-588.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-qpv",
+   "type": "basique",
+   "recto": "QPV",
+   "verso": "Quartier prioritaire de la politique de la ville\nZone urbaine pauvre ciblée par la politique de la ville. Environ 1 600 quartiers et plus de 6 millions d'habitants (8,1 % de la population) en 2024.",
+   "sources": [
+    {
+     "titre": "Quartier prioritaire de la politique de la ville — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Quartier_prioritaire_de_la_politique_de_la_ville"
+    },
+    {
+     "titre": "Système d'information géographique de la politique de la ville",
+     "url": "https://sig.ville.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-crte",
+   "type": "basique",
+   "recto": "CRTE",
+   "verso": "Contrat de relance et de transition écologique\nContrat entre l'État et les acteurs territoriaux, à l'échelle d'un bassin de vie, fondé sur un projet de territoire partagé (axes stratégiques, programme d'action, gouvernance). Lancé par la circulaire du Premier ministre du 20 novembre 2020.",
+   "sources": [
+    {
+     "titre": "Contrat de relance et de transition écologique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Contrat_de_relance_et_de_transition_%C3%A9cologique"
+    },
+    {
+     "titre": "ANCT : les CRTE",
+     "url": "https://agence-cohesion-territoires.gouv.fr/crte"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-sdis",
+   "type": "basique",
+   "recto": "SDIS",
+   "verso": "Service départemental d'incendie et de secours\nÉtablissement public administratif doté d'une assemblée délibérante, qui gère les sapeurs-pompiers à l'échelle du département ; désigné en général avec le numéro du département.",
+   "sources": [
+    {
+     "titre": "Service départemental d'incendie et de secours — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Service_d%C3%A9partemental_d%27incendie_et_de_secours"
+    },
+    {
+     "titre": "Cour des comptes : les SDIS",
+     "url": "https://www.ccomptes.fr/fr/publications/les-services-departementaux-dincendie-et-de-secours"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-spl",
+   "type": "basique",
+   "recto": "SPL",
+   "verso": "Société publique locale\nSociété anonyme détenue exclusivement par des collectivités et leurs groupements, qui réalise les missions qu'ils lui confient par un contrat de la commande publique ; elle peut contracter avec ses actionnaires sans mise en concurrence. Créée pour compléter les sociétés d'économie mixte locales ; reste soumise aux règles sur les aides d'État.",
+   "sources": [
+    {
+     "titre": "Société publique locale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_publique_locale"
+    },
+    {
+     "titre": "Sénat : dossier législatif sur les SPL",
+     "url": "https://www.senat.fr/dossier-legislatif/ppl08-253.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-sgar",
+   "type": "basique",
+   "recto": "SGAR",
+   "verso": "Secrétaire général pour les affaires régionales\nHaut fonctionnaire de la préfecture de région qui, sous l'autorité du préfet de région, coordonne la politique de l'État en matière de développement économique et d'aménagement du territoire et les relations entre l'État et le conseil régional. Par extension, désigne aussi ses services, qui assurent notamment les études et la prospective, la coordination des programmes européens et le suivi du CPER.",
+   "sources": [
+    {
+     "titre": "Secrétaire général pour les Affaires régionales — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Secr%C3%A9taire_g%C3%A9n%C3%A9ral_pour_les_Affaires_r%C3%A9gionales"
+    },
+    {
+     "titre": "Préfecture de région Normandie : le SGAR",
+     "url": "https://www.seine-maritime.gouv.fr/Services-de-l-Etat/L-Etat-en-Normandie/La-prefecture-de-la-region-Normandie/Secretariat-General-pour-les-Affaires-Regionales"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "sigles-ctap",
+   "type": "basique",
+   "recto": "CTAP",
+   "verso": "Conférence territoriale de l'action publique\nInstance régionale de concertation entre collectivités, créée par la loi MAPTAM de 2014 pour favoriser l'exercice concerté des compétences. Présidée par le président du conseil régional ; y siègent les présidents des conseils départementaux, des grands EPCI et des élus des communes. Un rapport du Sénat (2019) juge son efficacité limitée.",
+   "sources": [
+    {
+     "titre": "Loi de modernisation de l'action publique territoriale et d'affirmation des métropoles — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Loi_de_modernisation_de_l%27action_publique_territoriale_et_d%27affirmation_des_m%C3%A9tropoles"
+    },
+    {
+     "titre": "Préfecture de l'Isère : la CTAP",
+     "url": "https://www.isere.gouv.fr/Politiques-publiques/Collectivites-territoriales/Instances-consultatives/Conference-territoriale-de-l-action-publique-CTAP"
+    },
+    {
+     "titre": "Sénat : rapport sur le rôle des départements (2019)",
+     "url": "https://www.senat.fr/rap/r19-706/r19-70616.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sigles-sfe",
+   "type": "basique",
+   "recto": "SFE",
+   "verso": "Société française de l'évaluation\nAssociation fondée en 1999 pour développer l'évaluation, surtout celle des politiques publiques : formations, Journées françaises de l'évaluation, prix de thèse de master en évaluation des politiques publiques.",
+   "sources": [
+    {
+     "titre": "Site de la SFE",
+     "url": "https://www.sfe-asso.fr/"
+    },
+    {
+     "titre": "Banque des Territoires : l'évaluation des politiques publiques",
+     "url": "https://www.banquedesterritoires.fr/evaluation-des-politiques-publiques-les-collectivites-font-preuve-dappetence"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  }
+ ]
+}

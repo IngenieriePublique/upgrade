@@ -1,0 +1,25 @@
+name: Validation du contenu
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tests Python (validation des cartes, scripts)
+        run: python -m unittest discover -s tests -t .
+      - name: Les données publiées correspondent au contenu source
+        run: |
+          python scripts/build_content.py
+          git diff --exit-code site/data

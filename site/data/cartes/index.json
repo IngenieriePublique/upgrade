@@ -1,0 +1,11 @@
+{
+ "paquets": [
+  {
+   "id": "sigles",
+   "titre": "Sigles de l'action publique territoriale",
+   "description": "Administrations, dispositifs, lois et fonds que l'on croise dans les offres, les rapports et les entretiens.",
+   "fichier": "sigles.json",
+   "nombre": 49
+  }
+ ]
+}
