@@ -1,0 +1,401 @@
+{
+ "id": "c01-evaluation-definition",
+ "parcours": "C",
+ "ordre": 1,
+ "titre": "Qu'est-ce qu'évaluer une politique publique ? Définition, finalités et histoire française",
+ "accroche": "Évaluer n'est ni contrôler ni auditer : c'est juger une action publique d'après ses effets. Savoir le dire en trois phrases, avec les repères historiques et juridiques, est le socle de tout entretien dans ton futur métier.",
+ "duree_min": 90,
+ "perissable": true,
+ "perissable_note": "Les repères historiques et juridiques (décret de 1990, article 24 de la Constitution, CEC 2009) sont stables. Le nombre d'évaluations recensées par la Cour des comptes (plus de 900) évolue ; les structures de l'État (DITP, France Stratégie) ont changé en 2025-2026 : voir le kit C6.",
+ "revu": "2026-10-12",
+ "fiche": [
+  {
+   "titre": "Une définition, trois finalités",
+   "paragraphes": [
+    "En France, un décret de 1990 fixe la définition officielle : évaluer une politique, c'est rechercher si les moyens juridiques, administratifs ou financiers mis en œuvre permettent de produire les effets attendus de cette politique et d'atteindre les objectifs qui lui sont fixés. Le rapport Deleau (1985) ajoutait qu'évaluer, c'est aussi reconnaître et mesurer les effets propres de la politique, c'est-à-dire séparer ce qui lui est dû de ce qui dépend d'autres facteurs, extérieurs à elle. La Cour des comptes résume la démarche d'une phrase : porter une appréciation sur l'impact d'une politique, à partir de données et de méthodes scientifiques.",
+    "L'évaluation poursuit trois finalités. Une finalité cognitive : connaître, décrire et mesurer la réalité d'un programme, sa réponse à un besoin, l'atteinte de ses objectifs, sans encore juger. Une finalité normative : porter un jugement sur les réussites et les échecs, à partir de critères explicites et de données. Une finalité instrumentale : alimenter la décision, par exemple réorienter la stratégie ou adapter la mise en œuvre. Un bon commanditaire sait laquelle des trois il vise, car elle commande les questions posées et le niveau de preuve exigé.",
+    "Selon le moment, on parle d'évaluation ex ante (avant le début de l'intervention), intermédiaire ou finale (pendant ou à la fin) et ex post (après l'arrêt). Elle peut être interne (auto-évaluation par les responsables, ou service spécialisé), externe (confiée à des tiers : cabinet, laboratoire, autorité indépendante) ou mixte. Les destinataires sont d'abord les autorités publiques, mais aussi les assemblées élues, les partenaires, la communauté scientifique et les citoyens."
+   ]
+  },
+  {
+   "titre": "Ce que l'évaluation n'est pas",
+   "paragraphes": [
+    "L'évaluation n'est pas le contrôle de légalité ni l'inspection, qui regardent la conformité d'un processus interne à la loi ou aux règles de bonne gestion. Elle ne se confond pas non plus avec l'audit de performance, qui s'intéresse aux réalisations et aux conséquences directes et immédiates : les radars routiers ont-ils fait baisser la vitesse des véhicules ? L'évaluation, elle, se concentre sur les impacts : ont-ils réduit durablement le nombre de morts et de blessés ?",
+    "La différence tient donc à l'objet (les effets externes de la politique, non le fonctionnement interne de l'administration) et à la question de causalité : le changement observé est-il dû à l'intervention, ou à autre chose ? C'est cette question, et non la simple mesure d'un indicateur, qui fait le métier d'évaluateur. Dans la pratique, les administrations combinent les registres : un rapport de la Cour des comptes peut mêler contrôle de régularité, audit de performance et évaluation d'impact.",
+    "Autre distinction utile : l'évaluation ne tranche pas les choix politiques. Elle éclaire la décision en disant ce qui a fonctionné, pour qui et pourquoi ; elle ne dit pas si le but poursuivi est légitime. La Cour des comptes précise elle-même que son rôle n'est pas de commenter le bien-fondé des choix politiques."
+   ]
+  },
+  {
+   "titre": "Un siècle d'idées en dix repères",
+   "paragraphes": [
+    "L'évaluation naît aux États-Unis dans les années 1960, avec les grands programmes sociaux de la « Grande Société » du président Johnson : on y expérimente, avec des groupes de bénéficiaires et de non-bénéficiaires suivis sur la durée, une approche scientifique de la politique publique (étude Coleman de 1966 sur l'égalité des chances scolaires). Comme ces études arrivent après le temps politique, l'évaluation se transforme dans les années 1970-1980 en outil d'aide à la décision, puis s'adosse à la « nouvelle gestion publique » qui cherche le meilleur rapport coût-efficacité. Dans les années 1990, elle s'ouvre aux parties prenantes et devient un outil de dialogue.",
+    "En France, la rationalisation des choix budgétaires (RCB, 1968), inspirée du PPBS américain, est la première démarche évaluative d'État ; elle est abandonnée au début des années 1980. L'État s'empare de l'évaluation à la fin des années 1980 : le gouvernement Rocard veut l'intégrer au cycle des politiques ; la loi instituant le RMI prévoit pour la première fois une évaluation indépendante ; le décret de 1990 crée le Conseil scientifique de l'évaluation, remplacé en 1998 par le Conseil national de l'évaluation, supprimé en 2008 dans le cadre de la RGPP.",
+    "Deux moteurs diffusent ensuite la pratique : la Commission européenne, qui rend obligatoire l'évaluation des programmes financés par les fonds structurels, et les contrats de plan État-Région, évalués dès 1993 pour la période 1994-1998. Les conseils régionaux deviennent ainsi des acteurs majeurs. En 1999 naissent la Société française d'évaluation (SFE) et, à l'Assemblée nationale, la Mission d'évaluation et de contrôle (MEC). La révision constitutionnelle de 2008 ajoute à l'article 24 que le Parlement « évalue les politiques publiques » ; le Comité d'évaluation et de contrôle des politiques publiques (CEC) est créé en 2009 ; la Cour des comptes reçoit en 2011 la mission d'évaluer, et elle tient aujourd'hui une plateforme publique qui recense plus de 900 évaluations de politiques nationales publiées depuis 2008."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "Cour des comptes, « Plateforme des évaluations de politique publique »",
+  "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique",
+  "type": "plateforme publique (fiches d'une page)",
+  "duree": "30 min",
+  "pourquoi": "Ouvre trois évaluations de thèmes différents et lis leur fiche d'une page : repère la question posée, la méthode et la conclusion. C'est le meilleur entraînement à reconnaître une évaluation par rapport à un audit."
+ },
+ "debat": [
+  "Un rapport qui compte les logements construits grâce à une aide fiscale est-il une évaluation, ou seulement un suivi de réalisations ?",
+  "L'évaluation doit-elle être confiée à des tiers indépendants, ou est-elle plus utile quand elle est faite en interne par ceux qui mettent en œuvre la politique ?",
+  "Faut-il rendre l'évaluation obligatoire pour toute nouvelle politique, au risque d'en faire un simple rituel administratif ?"
+ ],
+ "sources": [
+  {
+   "titre": "Wikipédia : Évaluation des politiques publiques",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+  },
+  {
+   "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+   "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+  },
+  {
+   "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+   "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "c01-evaluation-definition-01",
+   "recto": "Définition officielle française de l'évaluation d'une politique (décret de 1990).",
+   "verso": "Rechercher si les moyens juridiques, administratifs ou financiers mis en œuvre permettent de produire les effets attendus de la politique et d'atteindre les objectifs qui lui sont fixés.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-02",
+   "recto": "Que veut dire « reconnaître et mesurer les effets propres » d'une politique (rapport Deleau, 1985) ?",
+   "verso": "Distinguer ce qui est dû à la politique de ce qui dépend d'autres facteurs extérieurs : c'est la question de la causalité.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-03",
+   "recto": "Les trois finalités de l'évaluation.",
+   "verso": "Cognitive (connaître et mesurer), normative (juger à partir de critères explicites), instrumentale (éclairer la décision et améliorer).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-04",
+   "recto": "Évaluation ex ante, intermédiaire, finale, ex post : quand ?",
+   "verso": "Ex ante : avant l'intervention. Intermédiaire : pendant. Finale : à la fin. Ex post : après son arrêt.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-05",
+   "recto": "Évaluation interne, externe, mixte : différence ?",
+   "verso": "Interne : faite par les responsables ou un service spécialisé de l'organisation. Externe : confiée à des tiers (cabinet, laboratoire, autorité indépendante). Mixte : les deux.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-06",
+   "recto": "En quoi l'évaluation diffère-t-elle du contrôle de légalité et de l'inspection ?",
+   "verso": "Ils vérifient la conformité d'un processus interne aux règles ; l'évaluation juge les effets externes de la politique et cherche les liens de causalité.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-07",
+   "recto": "En quoi l'évaluation diffère-t-elle de l'audit de performance ?",
+   "verso": "L'audit regarde les réalisations et résultats directs et immédiats ; l'évaluation se concentre sur les impacts et la causalité (exemple : radars routiers, baisse de la vitesse contre baisse durable des morts).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-08",
+   "recto": "Où et quand naît l'évaluation des politiques publiques ?",
+   "verso": "Aux États-Unis, dans les années 1960, avec les programmes sociaux de la « Grande Société » de Johnson ; diffusion en Europe vingt ans plus tard.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-09",
+   "recto": "Qu'est-ce que la RCB (1968) ?",
+   "verso": "La rationalisation des choix budgétaires, inspirée du PPBS américain : première démarche évaluative d'État en France, centrée sur le coût-efficacité ex ante, abandonnée au début des années 1980.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-10",
+   "recto": "Quel organe interministériel d'évaluation a été créé en 1990, remplacé en 1998, supprimé en 2008 ?",
+   "verso": "Le Conseil scientifique de l'évaluation (1990), remplacé par le Conseil national de l'évaluation (1998), supprimé en 2008 dans le cadre de la RGPP.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-11",
+   "recto": "Quels deux moteurs diffusent l'évaluation en France dans les années 1990 ?",
+   "verso": "L'obligation européenne d'évaluer les programmes financés par les fonds structurels, et l'évaluation des contrats de plan État-Région (dès 1993) qui fait des régions des acteurs majeurs.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-12",
+   "recto": "1999 : deux créations importantes pour l'évaluation en France.",
+   "verso": "La Société française d'évaluation (SFE) et, à l'Assemblée nationale, la Mission d'évaluation et de contrôle (MEC).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-13",
+   "recto": "Que dit l'article 24 de la Constitution depuis 2008 sur l'évaluation ?",
+   "verso": "« Le Parlement vote la loi. Il contrôle l'action du Gouvernement. Il évalue les politiques publiques. »",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-14",
+   "recto": "Que dit l'article 47-2 de la Constitution sur la Cour des comptes ?",
+   "verso": "Elle assiste le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances et de l'application des lois de financement de la sécurité sociale, ainsi que dans l'évaluation des politiques publiques.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-15",
+   "recto": "Qu'est-ce que le CEC ?",
+   "verso": "Le Comité d'évaluation et de contrôle des politiques publiques de l'Assemblée nationale, créé en 2009 par le règlement de l'Assemblée après la réforme constitutionnelle de 2008.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c01-evaluation-definition-16",
+   "recto": "Combien d'évaluations de politiques nationales la Cour des comptes recense-t-elle sur sa plateforme ?",
+   "verso": "Plus de 900 (944 lors de la dernière lecture), publiées depuis 2008, chacune résumée en une page.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"
+    },
+    {
+     "titre": "Cour des comptes : Plateforme des évaluations de politique publique",
+     "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2 et 48)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-12"
+  }
+ ]
+}

@@ -157,6 +157,42 @@
    "perissable": true,
    "revu": "2026-10-11",
    "fichier": "b04-analyse-financiere.json"
+  },
+  {
+   "id": "c01-evaluation-definition",
+   "parcours": "C",
+   "ordre": 1,
+   "titre": "Qu'est-ce qu'évaluer une politique publique ? Définition, finalités et histoire française",
+   "accroche": "Évaluer n'est ni contrôler ni auditer : c'est juger une action publique d'après ses effets. Savoir le dire en trois phrases, avec les repères historiques et juridiques, est le socle de tout entretien dans ton futur métier.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "c01-evaluation-definition.json"
+  },
+  {
+   "id": "c02-criteres-evaluation",
+   "parcours": "C",
+   "ordre": 2,
+   "titre": "Les critères d'évaluation : six critères OCDE (2019) et grille française classique",
+   "accroche": "Pertinence, cohérence, efficacité, efficience, impact, durabilité : chaque critère est une question posée à la politique. Les connaître avec leurs définitions exactes permet de lire n'importe quel cahier des charges d'évaluation.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "c02-criteres-evaluation.json"
+  },
+  {
+   "id": "c03-chaine-resultats",
+   "parcours": "C",
+   "ordre": 3,
+   "titre": "Chaîne de résultats, théorie du changement et indicateurs",
+   "accroche": "Moyens, activités, produits, réalisations, impacts : cinq mots que tout évaluateur emploie, et que l'on confond sans cesse. Savoir dessiner la logique d'une politique est le premier geste du métier.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "c03-chaine-resultats.json"
   }
  ]
 }

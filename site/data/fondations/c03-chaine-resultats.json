@@ -1,0 +1,333 @@
+{
+ "id": "c03-chaine-resultats",
+ "parcours": "C",
+ "ordre": 3,
+ "titre": "Chaîne de résultats, théorie du changement et indicateurs",
+ "accroche": "Moyens, activités, produits, réalisations, impacts : cinq mots que tout évaluateur emploie, et que l'on confond sans cesse. Savoir dessiner la logique d'une politique est le premier geste du métier.",
+ "duree_min": 90,
+ "perissable": false,
+ "perissable_note": "Vocabulaire du glossaire de l'OCDE (deuxième édition, 2023), qui fait référence pour l'évaluation du développement et sert de base à de nombreux guides ; les administrations françaises emploient parfois d'autres traductions (réalisations, résultats, impacts) : toujours vérifier le guide du commanditaire.",
+ "revu": "2026-10-12",
+ "fiche": [
+  {
+   "titre": "La chaîne de résultats en cinq maillons",
+   "paragraphes": [
+    "Le glossaire de l'OCDE définit la chaîne de résultats comme la suite de relations de cause à effet qui détermine, dans une intervention, les différentes étapes menant à l'atteinte des objectifs visés. Elle commence par les moyens (ou ressources, intrants : les ressources financières, humaines, matérielles et institutionnelles utilisées), se poursuit par les activités, leurs produits (ou extrants), puis les réalisations (ou effets directs) et enfin les impacts.",
+    "Les produits sont les biens, équipements ou services issus de l'intervention : ils relèvent de l'équipe chargée de la mise en œuvre et lui sont imputables. Les réalisations (outcomes) sont les effets à court et moyen terme des produits : changements de capacités, de comportements. Les impacts sont les répercussions de plus haut niveau, les effets ultimes ou changements de long terme, positifs ou négatifs, voulus ou non. Exemple : pour un programme de formation de demandeurs d'emploi, les moyens sont le budget et les formateurs ; l'activité, les sessions ; le produit, le nombre de personnes formées ; la réalisation, l'accès à l'emploi des personnes formées ; l'impact, la baisse durable du chômage de longue durée sur le territoire.",
+    "Cette distinction n'est pas de la théorie : elle décide de ce que l'on peut raisonnablement imputer à un service. Un produit se compte et se pilote ; un impact dépend aussi du contexte économique, des autres politiques, du comportement des bénéficiaires. D'où l'importance de dire, dans un rapport, à quel maillon de la chaîne on se situe."
+   ]
+  },
+  {
+   "titre": "La théorie du changement et la logique d'intervention",
+   "paragraphes": [
+    "La théorie du changement est la manière dont une intervention est censée conduire, ou conduit, à un changement. Elle représente la façon d'appréhender le changement dans un contexte donné, avec les hypothèses explicites ou implicites sur les liens de causalité entre moyens, activités et résultats, souvent complétées par les éléments probants et les risques. Pour Wikipédia, c'est une méthode de planification qui part de la mission ultime, puis cartographie les étapes préalables nécessaires, en explicitant par de courtes phrases pourquoi chaque étape est la conséquence de la précédente.",
+    "Deux caractéristiques en font un outil d'évaluation puissant. D'abord, elle distingue les résultats escomptés des résultats réels. Ensuite, elle peut être construite au début d'une initiative, pour guider la planification, ou a posteriori, en relisant les documents stratégiques, en auditionnant les acteurs et en analysant les données : c'est ce qui se fait souvent dans les évaluations qui cherchent à comprendre ce qui a marché ou non.",
+    "Les hypothèses sont les conditions nécessaires pour que les relations de cause à effet fonctionnent ; le glossaire précise qu'elles sont non testées et qu'elles peuvent affecter la pertinence, l'avancement ou le succès. Repérer et tester les hypothèses d'une politique (« les chômeurs formés trouveront un emploi parce que les entreprises du bassin recrutent ») est souvent plus utile que de calculer un indicateur supplémentaire."
+   ]
+  },
+  {
+   "titre": "Indicateurs, situation de référence, suivi et évaluabilité",
+   "paragraphes": [
+    "Un indicateur est une variable ou un facteur d'intérêt, quantitatif ou qualitatif, lié à l'intervention et à ses résultats ou au contexte. Le glossaire de l'OCDE insiste : un indicateur est toujours approximatif, ce n'est pas une mesure exacte ; il doit être interprété et expliqué. Il doit fournir un moyen simple, vérifiable et fiable de suivre les changements. Un indicateur n'a de sens que rapporté à une situation de référence : les conditions qui prévalaient avant l'intervention ou en début de période, au regard desquelles les changements peuvent être mesurés.",
+    "Le suivi est un processus continu de collecte d'informations sur des indicateurs, qui renseigne sur l'avancement de la mise en œuvre et l'atteinte des résultats escomptés. L'évaluation va plus loin : elle porte un jugement sur la valeur de l'intervention et sur ses causes. Un bon suivi est la condition d'une bonne évaluation, mais ne la remplace pas.",
+    "Avant de lancer une évaluation, on vérifie son évaluabilité, c'est-à-dire la mesure dans laquelle l'intervention peut être évaluée de façon fiable et crédible : objectifs clairs, données disponibles, situation de référence documentée. Si la politique n'a ni objectifs précis ni suivi, la première étape est souvent de reconstruire sa logique d'intervention, ce que fait la théorie du changement. Le mandat (termes de référence) rédigé ensuite précise le but, le périmètre, les méthodes, les ressources, le calendrier et le rendu attendus."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "OCDE, « Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats » (2023, trilingue)",
+  "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf",
+  "type": "glossaire de référence (anglais, français, espagnol)",
+  "duree": "40 min",
+  "pourquoi": "Lis les entrées « chaîne de résultats », « produits », « réalisations », « impacts », « indicateur », « hypothèses » et « théorie du changement », puis dessine la chaîne de résultats d'une politique de ton choix (une aide à la rénovation énergétique, par exemple)."
+ },
+ "debat": [
+  "Peut-on honnêtement imputer à un service départemental une baisse du chômage, ou seulement le nombre de personnes formées ?",
+  "Une théorie du changement reconstruite après coup par l'évaluateur est-elle une analyse rigoureuse ou une rationalisation commode ?",
+  "Faut-il limiter le nombre d'indicateurs d'une politique, au risque d'ignorer des effets importants que l'on ne mesure pas ?"
+ ],
+ "sources": [
+  {
+   "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+   "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+  },
+  {
+   "titre": "Wikipédia : Théorie du changement",
+   "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "c03-chaine-resultats-01",
+   "recto": "Quels sont les cinq maillons de la chaîne de résultats (OCDE) ?",
+   "verso": "Moyens (intrants), activités, produits (extrants), réalisations (effets directs), impacts.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-02",
+   "recto": "Moyens (intrants) : définition.",
+   "verso": "Les ressources financières, humaines, matérielles et institutionnelles utilisées pour l'intervention, y compris celles des autres organisations concernées.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-03",
+   "recto": "Produits (extrants) : définition et particularité.",
+   "verso": "Biens, équipements ou services résultant de l'intervention ; ils relèvent de l'équipe de mise en œuvre et lui sont imputables.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-04",
+   "recto": "Réalisations (outcomes) : définition.",
+   "verso": "Effets à court et moyen terme des produits, souvent des changements de capacités ou de comportements.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-05",
+   "recto": "Impacts : définition.",
+   "verso": "Répercussions à plus haut niveau des réalisations : effets ultimes ou changements de long terme, positifs ou négatifs, voulus ou non.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-06",
+   "recto": "Programme de formation de chômeurs : donne un exemple de produit, de réalisation et d'impact.",
+   "verso": "Produit : nombre de personnes formées. Réalisation : retour à l'emploi des personnes formées. Impact : baisse durable du chômage de longue durée sur le territoire.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-07",
+   "recto": "Pourquoi distinguer produits et impacts quand on évalue un service ?",
+   "verso": "Un produit se compte et se pilote ; un impact dépend aussi du contexte économique, des autres politiques et des comportements. On n'impute pas les mêmes choses à un service.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-08",
+   "recto": "Théorie du changement : définition (OCDE).",
+   "verso": "La manière dont une intervention est censée conduire, ou conduit, à un changement, avec les hypothèses explicites ou implicites sur les liens de causalité entre moyens, activités et résultats.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-09",
+   "recto": "Quelles sont les deux caractéristiques de la théorie du changement selon Wikipédia ?",
+   "verso": "Elle distingue les résultats escomptés des résultats réels, et elle fixe l'objectif final avant de choisir les modes d'action.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-10",
+   "recto": "Une théorie du changement peut-elle être construite après coup ?",
+   "verso": "Oui : en relisant les documents stratégiques, en auditionnant les acteurs et en analysant les données, souvent dans une évaluation pour comprendre ce qui a fonctionné ou non.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-11",
+   "recto": "Qu'est-ce qu'une hypothèse dans le vocabulaire de l'évaluation ?",
+   "verso": "Une condition nécessaire, non testée, pour que les relations de cause à effet fonctionnent ; elle peut affecter la pertinence, l'avancement ou le succès.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-12",
+   "recto": "Indicateur : définition et limite essentielle.",
+   "verso": "Variable quantitative ou qualitative d'intérêt, liée à l'intervention, à ses résultats ou à son contexte ; toujours approximatif, il doit être interprété et expliqué.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-13",
+   "recto": "Qu'est-ce qu'une situation de référence (baseline) ?",
+   "verso": "Les conditions existant avant l'intervention ou en début de période, au regard desquelles les changements peuvent être mesurés, suivis et évalués.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-14",
+   "recto": "Suivi et évaluation : quelle différence ?",
+   "verso": "Le suivi est la collecte continue d'informations sur des indicateurs pour renseigner l'avancement et les résultats ; l'évaluation juge la valeur de l'intervention et ses causes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-15",
+   "recto": "Qu'est-ce que l'évaluabilité ?",
+   "verso": "La mesure dans laquelle une intervention peut être évaluée de façon fiable et crédible (objectifs clairs, données, situation de référence).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c03-chaine-resultats-16",
+   "recto": "Que contient le mandat (termes de référence) d'une évaluation ?",
+   "verso": "Le but et le périmètre, les méthodes, la référence de jugement, les ressources et le temps alloués, les exigences de rendu.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Wikipédia : Théorie du changement",
+     "url": "https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_changement"
+    }
+   ],
+   "revu": "2026-10-12"
+  }
+ ]
+}

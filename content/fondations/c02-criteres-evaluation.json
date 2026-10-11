@@ -1,0 +1,71 @@
+{
+  "id": "c02-criteres-evaluation",
+  "parcours": "C",
+  "ordre": 2,
+  "titre": "Les critères d'évaluation : six critères OCDE (2019) et grille française classique",
+  "accroche": "Pertinence, cohérence, efficacité, efficience, impact, durabilité : chaque critère est une question posée à la politique. Les connaître avec leurs définitions exactes permet de lire n'importe quel cahier des charges d'évaluation.",
+  "duree_min": 90,
+  "perissable": false,
+  "perissable_note": "Définitions du comité d'aide au développement de l'OCDE, révisées en décembre 2019 (le critère de cohérence est ajouté, les autres redéfinis). Les définitions françaises traditionnelles viennent d'une synthèse encyclopédique : elles varient d'un guide à l'autre.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "À quoi servent les critères",
+      "paragraphes": [
+        "Un critère d'évaluation est un point de vue sur la politique évaluée. Il sert à passer de la question diffuse « est-ce que ça marche ? » à des questions précises, qui structurent le référentiel d'évaluation (la grille d'analyse) et le cahier des charges. Les critères ne sont pas des méthodes : ils disent ce qu'on cherche à juger, non comment on le mesure.",
+        "Une démarche rigoureuse choisit ses critères en fonction de l'objet évalué, puis en tire des questions évaluatives, enfin des indicateurs et des méthodes. Pour les politiques d'aide au développement, le référentiel le plus répandu est celui de l'OCDE ; les administrations françaises et les programmes européens utilisent des grilles voisines, avec des variations de vocabulaire qu'il faut connaître pour ne pas se tromper de question."
+      ]
+    },
+    {
+      "titre": "Les six critères de l'OCDE (2019)",
+      "paragraphes": [
+        "La pertinence demande si l'intervention fait ce qu'il faut : dans quelle mesure ses objectifs et sa conception répondent aux besoins, aux politiques et aux priorités des bénéficiaires, du pays et des partenaires, et continuent de le faire si les circonstances changent. La cohérence demande dans quelle mesure l'intervention s'accorde avec les autres : c'est la compatibilité avec les autres interventions menées dans un pays, un secteur ou une institution, qu'il s'agisse de cohérence interne ou de cohérence avec les autres politiques.",
+        "L'efficacité demande si l'intervention atteint ses objectifs : dans quelle mesure elle a atteint, ou devrait atteindre, ses objectifs et ses résultats, y compris les résultats différenciés selon les groupes. L'efficience demande si les ressources sont bien utilisées : dans quelle mesure l'intervention produit ses résultats de façon économique et dans les délais. L'impact demande quelle différence l'intervention fait : dans quelle mesure elle a produit ou devrait produire des effets de niveau supérieur, significatifs, positifs ou négatifs, voulus ou non. La durabilité demande si les bénéfices vont durer : dans quelle mesure les bénéfices nets de l'intervention se poursuivent, ou sont susceptibles de se poursuivre.",
+        "La révision de 2019 a apporté trois changements : l'ajout de la cohérence, l'ajout d'une dimension temporelle à la pertinence (réexaminer si le contexte change) et une attention aux résultats différenciés et à l'équité pour l'efficacité. L'OCDE insiste aussi sur un usage réfléchi : tous les critères ne s'appliquent pas à toutes les évaluations, et les critères ne sont pas à appliquer mécaniquement, mais à adapter aux questions utiles pour le commanditaire."
+      ]
+    },
+    {
+      "titre": "La grille française classique et les pièges de vocabulaire",
+      "paragraphes": [
+        "La grille française traditionnelle distingue la pertinence (les objectifs couvrent-ils les dimensions du problème ?), l'utilité (la justification de l'intervention tient-elle compte des effets attendus et des autres effets, notamment négatifs ?), la cohérence interne (les objectifs stratégiques et opérationnels sont-ils reliés logiquement, complémentaires et non redondants ?), la cohérence externe (l'intervention est-elle compatible avec les politiques des autres institutions sur le même territoire ?), l'efficacité (les effets attendus ont-ils été produits grâce aux actions menées, et non à un heureux concours de circonstances ?), l'efficience (les effets ont-ils été obtenus à un coût raisonnable, par exemple en comparaison d'autres interventions ?), la durabilité (les résultats sont-ils durables ?) et parfois la capacitance (l'action a-t-elle fait progresser les capacités des opérateurs ?).",
+        "Piège principal : le mot « impact ». Dans la chaîne de résultats, les impacts sont les effets de long terme, de niveau supérieur ; dans le langage courant, « impact » désigne tout effet. Le glossaire de l'OCDE signale expressément la confusion fréquente entre « impacts » et « résultats ». Deuxième piège : efficacité et efficience, qu'on confond constamment. L'efficacité compare résultats et objectifs ; l'efficience compare résultats et ressources. Une politique peut être efficace mais pas efficiente (elle atteint son but, à un coût déraisonnable), ou efficiente mais inefficace (elle coûte peu, mais n'atteint pas son but).",
+        "Dernier réflexe de métier : partir de la question et non du critère. « Le dispositif touche-t-il ceux qu'il visait ? » relève de la pertinence et de l'efficacité ; « les deux régions financent-elles les mêmes actions ? » relève de la cohérence externe ; « que restera-t-il après la fin du financement ? » relève de la durabilité."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "OCDE, « Better Criteria for Better Evaluation » (2019) et « Appliquer les critères d'évaluation avec discernement » (2021)",
+    "url": "https://www.oecd.org/en/publications/2019/12/better-criteria-for-better-evaluation_f7a307eb.html",
+    "type": "document de référence (OCDE, comité d'aide au développement)",
+    "duree": "45 min",
+    "pourquoi": "Lis les définitions et les questions types de chaque critère, puis invente pour chacun une question évaluative sur une politique territoriale que tu connais. Le document est en anglais ; l'OCDE publie aussi la version française."
+  },
+  "debat": [
+    "Une politique peut-elle être jugée pertinente mais inefficace, ou efficace mais incohérente avec les autres politiques du territoire ?",
+    "Faut-il toujours appliquer les six critères, ou choisir ceux qui répondent aux questions du commanditaire ?",
+    "L'efficience peut-elle être mesurée honnêtement pour une politique dont les effets principaux ne sont pas monétisables ?"
+  ],
+  "sources": [
+    {"titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"},
+    {"titre": "OCDE : Better Criteria for Better Evaluation (2019)", "url": "https://www.oecd.org/en/publications/2019/12/better-criteria-for-better-evaluation_f7a307eb.html"},
+    {"titre": "Wikipédia : Évaluation des politiques publiques (section méthodologie)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"}
+  ],
+  "cartes": [
+    {"id": "c02-criteres-evaluation-01", "recto": "Quels sont les six critères d'évaluation de l'OCDE depuis 2019 ?", "verso": "Pertinence, cohérence, efficacité, efficience, impact, durabilité.", "perissable": false},
+    {"id": "c02-criteres-evaluation-02", "recto": "Quel critère a été ajouté par la révision de 2019 ?", "verso": "La cohérence (les cinq autres existaient déjà, certains redéfinis).", "perissable": false},
+    {"id": "c02-criteres-evaluation-03", "recto": "Pertinence (OCDE) : définition et question type.", "verso": "Mesure dans laquelle les objectifs et la conception répondent aux besoins, politiques et priorités, et continuent de le faire si les circonstances changent. Question : l'intervention fait-elle ce qu'il faut ?", "perissable": false},
+    {"id": "c02-criteres-evaluation-04", "recto": "Cohérence (OCDE) : définition.", "verso": "Compatibilité de l'intervention avec les autres interventions menées au sein d'un pays, d'un secteur ou d'une institution. Question : s'accorde-t-elle bien avec les autres ?", "perissable": false},
+    {"id": "c02-criteres-evaluation-05", "recto": "Efficacité (OCDE) : définition et nouveauté de 2019.", "verso": "Mesure dans laquelle l'intervention a atteint, ou devrait atteindre, ses objectifs et ses résultats, y compris les résultats différenciés selon les groupes (attention à l'équité).", "perissable": false},
+    {"id": "c02-criteres-evaluation-06", "recto": "Efficience (OCDE) : définition.", "verso": "Mesure dans laquelle l'intervention produit, ou devrait produire, ses résultats de façon économique et dans les délais. Question : les ressources sont-elles bien utilisées ?", "perissable": false},
+    {"id": "c02-criteres-evaluation-07", "recto": "Impact (OCDE) : définition.", "verso": "Mesure dans laquelle l'intervention a produit ou devrait produire des effets de niveau supérieur, significatifs, positifs ou négatifs, voulus ou non. Question : quelle différence fait-elle ?", "perissable": false},
+    {"id": "c02-criteres-evaluation-08", "recto": "Durabilité (OCDE) : définition.", "verso": "Mesure dans laquelle les bénéfices nets de l'intervention perdurent ou sont susceptibles de perdurer. Question : les bénéfices vont-ils durer ?", "perissable": false},
+    {"id": "c02-criteres-evaluation-09", "recto": "Efficacité contre efficience : quelle différence ?", "verso": "Efficacité : résultats comparés aux objectifs. Efficience : résultats comparés aux ressources utilisées (coût, délai).", "perissable": false},
+    {"id": "c02-criteres-evaluation-10", "recto": "Exemple d'une politique efficace mais non efficiente.", "verso": "Elle atteint son objectif, mais à un coût déraisonnable par rapport à d'autres interventions possibles.", "perissable": false},
+    {"id": "c02-criteres-evaluation-11", "recto": "Cohérence interne contre cohérence externe (grille française).", "verso": "Interne : les objectifs stratégiques et opérationnels du programme sont reliés logiquement, complémentaires et non redondants. Externe : l'intervention correspond ou contribue aux autres politiques de l'institution ou des autres institutions du territoire, sans les contredire.", "perissable": false},
+    {"id": "c02-criteres-evaluation-12", "recto": "Qu'est-ce que l'utilité dans la grille française ?", "verso": "Vérifier la justification de l'intervention au regard non seulement des effets attendus mais aussi des autres effets, notamment négatifs.", "perissable": false},
+    {"id": "c02-criteres-evaluation-13", "recto": "Qu'est-ce que la « capacitance » ?", "verso": "Traduction de capacity building : l'action a-t-elle fait progresser les capacités et compétences des opérateurs qui y ont participé ? Surtout utilisée pour les opérateurs locaux de politiques internationales.", "perissable": false},
+    {"id": "c02-criteres-evaluation-14", "recto": "Quelle confusion de vocabulaire le glossaire de l'OCDE signale-t-il pour « impact » ?", "verso": "« Impacts » et « résultats » sont parfois employés l'un pour l'autre ; les impacts devraient désigner les résultats de niveau supérieur (effets de long terme).", "perissable": false},
+    {"id": "c02-criteres-evaluation-15", "recto": "Quelle différence entre un critère et une question évaluative ?", "verso": "Le critère est un point de vue (pertinence, efficacité...) ; la question évaluative est une question précise tirée du critère pour la politique évaluée (« le dispositif touche-t-il ceux qu'il visait ? »).", "perissable": false},
+    {"id": "c02-criteres-evaluation-16", "recto": "Que recommande l'OCDE sur l'usage des critères ?", "verso": "Les appliquer avec discernement : tous les critères ne s'appliquent pas à toutes les évaluations, et ils servent à formuler des questions utiles, pas à remplir une grille mécaniquement.", "perissable": false}
+  ]
+}
