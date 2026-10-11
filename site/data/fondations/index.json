@@ -97,6 +97,30 @@
    "perissable": true,
    "revu": "2026-10-11",
    "fichier": "a04-collectivites.json"
+  },
+  {
+   "id": "a05-intercommunalite",
+   "parcours": "A",
+   "ordre": 5,
+   "titre": "L'intercommunalité : EPCI, syndicats, métropoles, PETR",
+   "accroche": "La plupart des politiques locales (développement économique, mobilité, eau, urbanisme) se décident aujourd'hui à l'échelle d'une intercommunalité : un chargé de mission territorial travaille presque toujours avec un EPCI.",
+   "duree_min": 120,
+   "nombre_cartes": 21,
+   "perissable": true,
+   "revu": "2026-10-11",
+   "fichier": "a05-intercommunalite.json"
+  },
+  {
+   "id": "b01-lolf-lois-de-finances",
+   "parcours": "B",
+   "ordre": 1,
+   "titre": "La LOLF et les lois de finances : comment le budget de l'État est voté",
+   "accroche": "Missions, programmes, PAP, RAP, « loi de finances initiale », « 49.3 budgétaire » : le vocabulaire des finances publiques vient de ce cadre, et c'est aussi la logique de performance que tu devras évaluer.",
+   "duree_min": 120,
+   "nombre_cartes": 18,
+   "perissable": true,
+   "revu": "2026-10-11",
+   "fichier": "b01-lolf-lois-de-finances.json"
   }
  ]
 }
