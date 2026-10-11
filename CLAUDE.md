@@ -10,7 +10,7 @@
 - Python 3.14 : éviter les paquets à extension C sans wheel. Scripts qui lisent des données téléchargées : `python -I`.
 - Aucune donnée personnelle dans le dépôt (il sera public) : la progression de l'utilisateur vit dans le navigateur (IndexedDB) et dans des sauvegardes JSON hors dépôt.
 - **Demander l'accord avant** : création ou push du dépôt GitHub, téléchargement volumineux, installation d'un outil, réglage système (blocage des réseaux sociaux : l'utilisateur l'applique lui-même, on lui donne les instructions).
-- Git : l'identité locale du dépôt est « IngenieriePublique <341136821+IngenieriePublique@users.noreply.github.com> » (déjà configurée, un simple `git commit` suffit). Le dépôt est public : **ne jamais écrire l'adresse mail personnelle de l'utilisateur** (fichiers, User-Agent des scripts, commits).
+- Git : l'identité locale du dépôt est « IngenieriePublique <341136821+IngenieriePublique@users.noreply.github.com> » (déjà configurée, un simple `git commit` suffit). Le dépôt est public : **ne jamais écrire l'adresse mail personnelle ni le prénom de l'utilisateur** (fichiers, User-Agent des scripts, commits, noms de chemins : écrire « l'utilisateur » et `C:\Users\<utilisateur>`). Si un commit doit être refait, utiliser `git -c user.name=IngenieriePublique -c user.email=341136821+IngenieriePublique@users.noreply.github.com commit ...`.
 
 ## Règles de contenu (anti-hallucination)
 - Une fiche n'est jamais écrite de mémoire : récupérer les sources (Wikipédia/Wikidata, Vie-publique, Légifrance, INSEE, Cour des comptes, data.gouv, INAO), reformuler ce qui a été lu, citer au moins 2 sources, marquer les faits périssables (noms, taux, barèmes) avec une date de revue. Valider avec `scripts/validate_content.py` (à écrire en phase 5).
@@ -19,7 +19,7 @@
 
 ## Contexte machine et projets voisins
 - Windows 11, PowerShell/Git Bash, Python 3.14.1, git 2.56, Edge 155 (voix françaises natives installées : Hortense ; voix « Natural » en ligne dans Edge à tester en phase 6). `gh` (GitHub CLI) n'est pas installé.
-- **Projet VEILLE** (`C:/Users/<utilisateur>\Desktop\Projet VEILLE\Code`) : veille d'offres d'emploi, `data/veille.db`, colonne `offres.tag` (oui / peut-etre / non). À utiliser **en lecture seule** pour la matrice de compétences (phase 3). Embeddings `bge-m3` via Ollama déjà installés.
+- **Projet VEILLE** (`C:\Users\<utilisateur>\Desktop\Projet VEILLE\Code`) : veille d'offres d'emploi, `data/veille.db`, colonne `offres.tag` (oui / peut-etre / non). À utiliser **en lecture seule** pour la matrice de compétences (phase 3). Embeddings `bge-m3` via Ollama déjà installés.
 - **Projet AUTONOMIE** : sans rapport ; ne pas y toucher.
 
 ## Architecture cible
