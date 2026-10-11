@@ -1,0 +1,566 @@
+{
+ "id": "a04-collectivites",
+ "parcours": "A",
+ "ordre": 4,
+ "titre": "Les collectivités territoriales : communes, départements, régions et statuts particuliers",
+ "accroche": "Savoir ce qu'est exactement un « département » (circonscription de l'État ou collectivité ?) et combien de collectivités existent évite les confusions classiques en entretien et dans une note.",
+ "duree_min": 120,
+ "perissable": true,
+ "perissable_note": "Les effectifs de collectivités changent (fusions de communes, collectivités uniques, Alsace). Chiffres : Wikipédia (article « Collectivité territoriale ») et DGCL en 2026 ; à recontrôler à chaque rentrée.",
+ "revu": "2026-10-11",
+ "fiche": [
+  {
+   "titre": "Ce que dit la Constitution (article 72)",
+   "paragraphes": [
+    "Les collectivités territoriales de la République sont les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer régies par l'article 74. Toute autre collectivité est créée par la loi, éventuellement en remplacement de plusieurs des précédentes. Ce sont des personnes morales de droit public, distinctes de l'État, qui exercent sur leur territoire des compétences que la loi leur confie.",
+    "Quatre principes à citer. La subsidiarité : les collectivités « ont vocation à prendre les décisions pour l'ensemble des compétences qui peuvent le mieux être mises en œuvre à leur échelon ». La libre administration : elles s'administrent par des conseils élus et disposent d'un pouvoir réglementaire pour leurs compétences. L'expérimentation : sous conditions, elles peuvent déroger à titre expérimental et pour une durée limitée aux règles qui encadrent leurs compétences. L'absence de tutelle : aucune collectivité ne peut exercer une tutelle sur une autre, mais la loi peut autoriser l'une d'elles (le « chef de file ») à organiser les modalités de l'action commune quand une compétence en exige plusieurs.",
+    "L'article 72-1 donne aux habitants un droit de pétition pour inscrire une question à l'ordre du jour de l'assemblée locale et permet à la collectivité de soumettre un projet à référendum local. L'article 72-2 fixe les règles de ressources (part déterminante de recettes propres, compensation des transferts de compétences)."
+   ]
+  },
+  {
+   "titre": "Combien de collectivités ? Le piège des chiffres",
+   "paragraphes": [
+    "Selon l'article « Collectivité territoriale (France) » de Wikipédia, la France compte en 2026 : 14 régions (12 en métropole et 2 en outre-mer), 94 départements (92 en métropole, dont la collectivité européenne d'Alsace, et 2 outre-mer), environ 34 875 communes, 6 collectivités à statut particulier et 5 collectivités d'outre-mer. Les six collectivités à statut particulier sont le Département-Région de Mayotte, les collectivités territoriales de Martinique et de Guyane, la collectivité de Corse, la métropole de Lyon et la Ville de Paris. Les cinq collectivités d'outre-mer de l'article 74 sont Saint-Pierre-et-Miquelon, Wallis-et-Futuna, la Polynésie française, Saint-Barthélemy et Saint-Martin. La Nouvelle-Calédonie et les TAAF sont qualifiées de collectivités sui generis. Pourquoi 94 départements alors qu'on dit 101 ? Parce que 101 est le nombre de circonscriptions départementales (le jeu Territoires en compte 101) ; certaines ne sont plus des collectivités départementales distinctes (Paris, la Corse, Mayotte, la Guyane, la Martinique, la fusion des deux départements alsaciens).",
+    "Les régions suivent la même logique : 18 régions administratives (13 métropolitaines, dont la Corse, et 5 d'outre-mer) depuis le 1er janvier 2016, après 27 en 2015, mais seulement 14 collectivités régionales au sens strict. Les sources comptent donc différemment : toujours préciser « circonscription » ou « collectivité »."
+   ]
+  },
+  {
+   "titre": "La commune, le département, la région",
+   "paragraphes": [
+    "La commune est à la fois une collectivité territoriale (conseil municipal élu au suffrage universel direct, maire élu par le conseil) et une circonscription administrative. Les fusions volontaires y sont anciennes mais furent peu suivies avant la loi du 16 décembre 2010 qui crée le statut de commune nouvelle (environ 1 100 communes supprimées par fusion entre 1971 et 2009), puis la loi du 16 mars 2015 qui l'encourage financièrement.",
+    "Le département a une double nature : une circonscription de l'État administrée par un préfet, et une collectivité dotée d'un conseil départemental et d'un président qui prépare et exécute ses délibérations. Il n'y a pas toujours coïncidence entre les deux périmètres : le Rhône, par exemple, a perdu au profit de la métropole de Lyon les communes de l'ancien Grand Lyon au 1er janvier 2015 tout en restant une circonscription de l'État, dont les services couvrent les deux.",
+    "La région est issue des lois de 1982 à partir des circonscriptions d'action régionale de 1960 ; elle est inscrite dans la Constitution depuis 2003. Elle a deux assemblées : le conseil régional (délibérante) et le conseil économique, social et environnemental régional, le CESER (consultative). Selon les lois récentes, la région est chef de file pour l'aménagement, le développement économique et la planification de la transition écologique."
+   ]
+  },
+  {
+   "titre": "Qui contrôle ? Qui coordonne ?",
+   "paragraphes": [
+    "Depuis 1982, le préfet exerce un contrôle de légalité a posteriori ; la chambre régionale des comptes contrôle les comptes et la gestion. Les collectivités se coordonnent dans les conférences territoriales de l'action publique (CTAP) créées par la loi MAPTAM de 2014 pour clarifier l'exercice des compétences entre collectivités. Tu retrouveras ces acteurs dans les kits sur les finances locales et sur le contrôle."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "DGCL, « Structures territoriales » et tableau de répartition des compétences (collectivites-locales.gouv.fr)",
+  "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/structures-territoriales",
+  "type": "site officiel (tableau PDF en téléchargement)",
+  "duree": "30 min",
+  "pourquoi": "Le tableau synthétique communes, EPCI, départements, régions, État, mis à jour en juillet 2025, est la meilleure aide-mémoire pour répondre à « qui est compétent pour… ? » : parcours-le domaine par domaine."
+ },
+ "debat": [
+  "Faut-il supprimer l'un des échelons (département ou région) pour simplifier l'action publique ? Que perdrait-on en proximité ou en capacité d'investissement ?",
+  "Le droit à l'expérimentation (article 72) est-il suffisamment utilisé ? Quel exemple de politique locale gagnerait à être testée avant d'être généralisée ?",
+  "Une commune de 200 habitants et une métropole de 800 000 habitants relèvent du même régime constitutionnel : est-ce tenable ?"
+ ],
+ "sources": [
+  {
+   "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+   "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  {
+   "titre": "Wikipédia : Collectivité territoriale (France)",
+   "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+  },
+  {
+   "titre": "Wikipédia : Département français",
+   "url": "https://fr.wikipedia.org/wiki/Département_français"
+  },
+  {
+   "titre": "Wikipédia : Région française",
+   "url": "https://fr.wikipedia.org/wiki/Région_française"
+  },
+  {
+   "titre": "Wikipédia : Commune nouvelle",
+   "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+  },
+  {
+   "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+   "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "a04-collectivites-01",
+   "recto": "Quelles sont les cinq catégories de collectivités territoriales de l'article 72 ?",
+   "verso": "Les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer régies par l'article 74.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-02",
+   "recto": "Que dit le principe de subsidiarité de l'article 72 ?",
+   "verso": "Les collectivités territoriales ont vocation à prendre les décisions pour l'ensemble des compétences qui peuvent le mieux être mises en œuvre à leur échelon.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-03",
+   "recto": "Que recouvre la libre administration des collectivités ?",
+   "verso": "Elles s'administrent librement par des conseils élus et disposent d'un pouvoir réglementaire pour l'exercice de leurs compétences, dans les conditions prévues par la loi.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-04",
+   "recto": "Que permet le droit à l'expérimentation de l'article 72 ?",
+   "verso": "Les collectivités ou leurs groupements peuvent, si la loi ou le règlement l'a prévu, déroger à titre expérimental, pour un objet et une durée limités, aux règles qui régissent leurs compétences, sauf quand sont en cause les conditions essentielles d'une liberté publique ou d'un droit constitutionnel.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-05",
+   "recto": "Une collectivité peut-elle exercer une tutelle sur une autre ? Et le « chef de file » ?",
+   "verso": "Non : aucune collectivité n'exerce de tutelle sur une autre. Mais quand une compétence exige plusieurs collectivités, la loi peut autoriser l'une d'elles ou un groupement à organiser les modalités de leur action commune : c'est le chef de file.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-06",
+   "recto": "Que créent les articles 72-1 de la Constitution pour les habitants d'une collectivité ?",
+   "verso": "Un droit de pétition pour demander l'inscription d'une question à l'ordre du jour de l'assemblée locale, la possibilité pour la collectivité de soumettre un projet de délibération à référendum local, et des consultations pour créer une collectivité à statut particulier ou modifier ses limites.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-07",
+   "recto": "Quelle est la nature juridique d'une collectivité territoriale ?",
+   "verso": "Une personne morale de droit public distincte de l'État, qui exerce sur son territoire les compétences que la loi lui confie.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-08",
+   "recto": "Combien de communes en France au 1er janvier 2026 (DGCL), et pourquoi ce nombre est-il stable cette année-là ?",
+   "verso": "34 875 communes. La loi ne permet pas de créer de commune nouvelle l'année précédant les élections municipales.",
+   "sources": [
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a04-collectivites-09",
+   "recto": "Quelles sont les six collectivités à statut particulier (2026) ?",
+   "verso": "Le Département-Région de Mayotte, la collectivité territoriale de Martinique, la collectivité territoriale de Guyane, la collectivité de Corse, la métropole de Lyon et la Ville de Paris.",
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a04-collectivites-10",
+   "recto": "Quelles sont les cinq collectivités d'outre-mer de l'article 74 ?",
+   "verso": "Saint-Pierre-et-Miquelon, Wallis-et-Futuna, la Polynésie française, Saint-Barthélemy et Saint-Martin. La Nouvelle-Calédonie (titre XIII) et les TAAF sont à part (sui generis).",
+   "sources": [
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a04-collectivites-11",
+   "recto": "Combien de départements et de régions en 2026 selon qu'on compte les collectivités ou les circonscriptions ?",
+   "verso": "Collectivités : 94 départements (92 en métropole dont la collectivité européenne d'Alsace, 2 outre-mer) et 14 régions (12 en métropole, 2 outre-mer). Circonscriptions : 101 départements et 18 régions (13 métropolitaines et 5 d'outre-mer).",
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a04-collectivites-12",
+   "recto": "Pourquoi un département est-il à la fois une circonscription et une collectivité ?",
+   "verso": "Circonscription : territoire de compétence des services de l'État, administré par un préfet. Collectivité : personne morale distincte de l'État, avec un conseil départemental et un président qui prépare et exécute ses délibérations. Les deux périmètres ne coïncident pas toujours (par exemple le Rhône et la métropole de Lyon).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Liste des préfectures de France",
+     "url": "https://fr.wikipedia.org/wiki/Liste_des_préfectures_de_France"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-13",
+   "recto": "Comment est composée l'exécutif de la commune et par qui est-il élu ?",
+   "verso": "Le conseil municipal est élu au suffrage universel direct ; le maire est élu par le conseil municipal.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Commune (France)",
+     "url": "https://fr.wikipedia.org/wiki/Commune_(France)"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-14",
+   "recto": "Qu'est-ce qu'une commune nouvelle, et quelle loi l'a créée ?",
+   "verso": "Une commune issue de la fusion de plusieurs communes. Statut créé par la loi du 16 décembre 2010 de réforme des collectivités territoriales (RCT), encouragé financièrement par la loi du 16 mars 2015.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (articles 72, 72-1, 72-2, 74)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    },
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "DGCL : BIS 206, structures territoriales au 1er janvier 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-15",
+   "recto": "Combien de communes ont fusionné entre 1971 et 2009 (loi Marcellin) ?",
+   "verso": "Environ 1 100 : un succès très limité comparé à la plupart des pays européens.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Commune nouvelle",
+     "url": "https://fr.wikipedia.org/wiki/Commune_nouvelle"
+    },
+    {
+     "titre": "Wikipédia : Commune (France)",
+     "url": "https://fr.wikipedia.org/wiki/Commune_(France)"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-16",
+   "recto": "Quels organes dirigent le département ?",
+   "verso": "Le conseil départemental (organe délibérant) et son président, qui prépare et exécute les délibérations ; il est assisté de vice-présidents et d'un bureau, et de services départementaux.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Département français",
+     "url": "https://fr.wikipedia.org/wiki/Département_français"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-17",
+   "recto": "D'où viennent les régions, et depuis quand sont-elles dans la Constitution ?",
+   "verso": "Créées en 1982 à partir des circonscriptions d'action régionale de 1960 (elles-mêmes issues des programmes d'action régionale de 1956) ; inscrites dans la Constitution depuis 2003.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Lois Defferre",
+     "url": "https://fr.wikipedia.org/wiki/Lois_Defferre"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-18",
+   "recto": "Combien d'assemblées une région a-t-elle, et lesquelles ?",
+   "verso": "Deux : le conseil régional (assemblée délibérante) et le conseil économique, social et environnemental régional, CESER (assemblée consultative). Les autres collectivités n'en ont qu'une.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Collectivité territoriale (France)",
+     "url": "https://fr.wikipedia.org/wiki/Collectivité_territoriale_(France)"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-19",
+   "recto": "Combien de régions françaises avant et après le 1er janvier 2016 ?",
+   "verso": "27 en 2015 (22 en métropole, 5 outre-mer) ; 18 depuis le 1er janvier 2016 : 13 en métropole (dont la Corse) et 5 d'outre-mer.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Région française",
+     "url": "https://fr.wikipedia.org/wiki/Région_française"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a04-collectivites-20",
+   "recto": "Quel organe de concertation la loi MAPTAM a-t-elle créé entre collectivités, et à quoi sert-il ?",
+   "verso": "La conférence territoriale de l'action publique (CTAP) : un organe de concertation entre collectivités, créé pour clarifier l'exercice des compétences.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Loi de modernisation de l'action publique territoriale et d'affirmation des métropoles",
+     "url": "https://fr.wikipedia.org/wiki/Loi_de_modernisation_de_l'action_publique_territoriale_et_d'affirmation_des_métropoles"
+    },
+    {
+     "titre": "Ministère de la Cohésion des territoires : projet de loi 3DS",
+     "url": "https://www.cohesion-territoires.gouv.fr/projet-de-loi-3ds"
+    }
+   ],
+   "revu": "2026-10-11"
+  }
+ ]
+}

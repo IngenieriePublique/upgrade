@@ -1,0 +1,8 @@
+[
+  {"id": "A", "titre": "Institutions et action publique", "description": "République, État déconcentré, décentralisation, collectivités, contractualisation, fonds européens, aménagement.", "jours": [1]},
+  {"id": "B", "titre": "Finances publiques et locales", "description": "Budget, fiscalité et dotations, analyse financière des collectivités, comptabilité, contrôle.", "jours": [1]},
+  {"id": "C", "titre": "Évaluation et pilotage", "description": "Critères, théorie du changement, méthodes, indicateurs, acteurs de l'évaluation, restitution.", "jours": [3]},
+  {"id": "D", "titre": "Histoire, géographie, géopolitique", "description": "Repères pour comprendre le monde et la France qui parlent dans les entretiens et les notes.", "jours": [2]},
+  {"id": "E", "titre": "Arts, lettres, idées", "description": "Œuvres, courants, penseurs et notions de sciences sociales : la culture qui sert dans une conversation.", "jours": [2]},
+  {"id": "F", "titre": "Métier et marché", "description": "Recruteurs, parcours, outils et réseau du métier d'évaluateur et de chargé de mission territoriale.", "jours": [6]}
+]

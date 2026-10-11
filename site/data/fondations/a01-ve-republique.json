@@ -1,0 +1,663 @@
+{
+ "id": "a01-ve-republique",
+ "parcours": "A",
+ "ordre": 1,
+ "titre": "La Ve République : qui décide quoi",
+ "accroche": "Tu entendras « article 49.3 », « QPC » ou « le Parlement évalue » dans tous les entretiens et les rapports : ce kit donne la mécanique exacte, avec les articles à citer.",
+ "duree_min": 120,
+ "perissable": true,
+ "perissable_note": "Les décomptes d'événements (dissolutions, gouvernements renversés) sont ceux de l'article Wikipédia consulté le 2026-10-11 ; à recontrôler après tout nouvel événement. Les articles de la Constitution cités sont ceux du texte en vigueur après la révision du 8 mars 2024.",
+ "revu": "2026-10-11",
+ "fiche": [
+  {
+   "titre": "Un régime né de l'instabilité",
+   "paragraphes": [
+    "La Ve République est le régime en vigueur depuis la Constitution du 4 octobre 1958, approuvée par référendum le 28 septembre précédent. Elle a été rédigée en pleine guerre d'Algérie pour mettre fin à l'instabilité gouvernementale de la IVe République et elle renforce le pouvoir exécutif. Deux idées s'y rencontrent : celle d'un Premier ministre fort, inspirée du modèle britannique (Michel Debré), et celle d'un président garant des institutions (le général de Gaulle).",
+    "Les spécialistes la qualifient de régime parlementaire à exécutif fort, ou semi-présidentiel : le Gouvernement est responsable devant le Parlement, mais le président dispose d'une légitimité propre. Elle est l'une des constitutions les plus stables de l'histoire de France, malgré vingt-cinq révisions."
+   ]
+  },
+  {
+   "titre": "Le président de la République",
+   "paragraphes": [
+    "Il « veille au respect de la Constitution » et assure, « par son arbitrage », le fonctionnement régulier des pouvoirs publics et la continuité de l'État (article 5). Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités.",
+    "Depuis le référendum de 1962, il est élu au suffrage universel direct ; depuis le référendum de 2000 pour cinq ans (contre sept auparavant) ; depuis la révision de 2008, nul ne peut exercer plus de deux mandats consécutifs (article 6). Il nomme le Premier ministre et, sur la proposition de celui-ci, les autres membres du Gouvernement (article 8), préside le conseil des ministres (article 9), promulgue les lois (article 10) et peut soumettre certains projets au référendum (article 11).",
+    "Ses pouvoirs propres les plus connus sont la dissolution de l'Assemblée nationale, après consultation du Premier ministre et des présidents des assemblées (article 12 : élections vingt à quarante jours après, pas de nouvelle dissolution dans l'année qui suit) et les pouvoirs exceptionnels de l'article 16, réservés aux menaces graves et immédiates qui interrompent le fonctionnement régulier des pouvoirs publics. Six dissolutions ont eu lieu depuis 1958 selon Wikipédia (1962, 1968, 1981, 1988, 1997, 2024)."
+   ]
+  },
+  {
+   "titre": "Le Gouvernement et sa responsabilité devant le Parlement",
+   "paragraphes": [
+    "Le Gouvernement « détermine et conduit la politique de la nation » et dispose de l'administration et de la force armée (article 20). Le Premier ministre dirige son action, assure l'exécution des lois et exerce le pouvoir réglementaire (article 21). Cette distinction compte pour le terrain : c'est le Gouvernement, et non le président, qui a la main sur l'administration, donc sur les préfets et les services déconcentrés.",
+    "Le Gouvernement est responsable devant l'Assemblée nationale (articles 49 et 50). Une motion de censure doit être signée par un dixième des députés, ne peut être votée que quarante-huit heures après son dépôt et n'est adoptée qu'à la majorité des membres composant l'Assemblée (49, alinéa 2). Le célèbre « 49.3 » (alinéa 3) permet au Premier ministre d'engager la responsabilité du Gouvernement sur un projet de loi de finances ou de financement de la sécurité sociale, puis sur un autre texte par session : le texte est alors considéré comme adopté, sauf si une motion de censure, déposée dans les vingt-quatre heures, est votée. Trois gouvernements sont tombés par ce mécanisme ou un vote de confiance : Pompidou (1962), Barnier (décembre 2024) et Bayrou (septembre 2025), d'après Wikipédia."
+   ]
+  },
+  {
+   "titre": "Le Parlement : voter, contrôler, évaluer",
+   "paragraphes": [
+    "L'article 24 donne trois missions au Parlement : il vote la loi, contrôle l'action du Gouvernement et évalue les politiques publiques. Cette dernière mission date de la révision de 2008 : c'est le fondement constitutionnel de l'évaluation que tu veux pratiquer. L'article 47-2 ajoute que la Cour des comptes assiste le Parlement et le Gouvernement dans l'évaluation des politiques publiques.",
+    "Le Parlement comprend l'Assemblée nationale (577 députés au plus, élus au suffrage direct) et le Sénat (348 membres au plus, élus au suffrage indirect), qui « assure la représentation des collectivités territoriales de la République ». Les domaines de la loi sont listés à l'article 34 : droits civiques, nationalité, crimes et délits, et, point essentiel pour les finances locales, « l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures ». Le Gouvernement peut demander l'autorisation de légiférer par ordonnances pour un temps limité (article 38) ; l'ordonnance devient caduque si la loi de ratification n'est pas déposée à temps."
+   ]
+  },
+  {
+   "titre": "Les contre-pouvoirs : le Conseil constitutionnel",
+   "paragraphes": [
+    "Le Conseil constitutionnel compte neuf membres nommés pour neuf ans, non renouvelables : trois par le président de la République, trois par le président de l'Assemblée nationale, trois par le président du Sénat ; le Conseil se renouvelle par tiers tous les trois ans et les anciens présidents de la République en sont membres de droit (article 56).",
+    "Avant la promulgation, une loi peut lui être déférée par le président de la République, le Premier ministre, les présidents des deux assemblées, soixante députés ou soixante sénateurs (article 61) ; il statue en un mois (huit jours en cas d'urgence). Depuis la révision du 23 juillet 2008 et l'entrée en vigueur de la question prioritaire de constitutionnalité le 1er mars 2010, tout justiciable peut soutenir, à l'occasion d'un procès, qu'une loi déjà en vigueur porte atteinte aux droits et libertés garantis par la Constitution (article 61-1) ; le Conseil d'État ou la Cour de cassation décide de renvoyer ou non la question. Une disposition déclarée inconstitutionnelle ne peut pas être promulguée (article 62)."
+   ]
+  },
+  {
+   "titre": "Pourquoi ça compte pour l'action publique territoriale",
+   "paragraphes": [
+    "L'article premier précise que l'organisation de la République « est décentralisée ». L'article 72 énumère les collectivités territoriales (communes, départements, régions, collectivités à statut particulier, collectivités d'outre-mer) et leur reconnaît la libre administration par des conseils élus et un pouvoir réglementaire pour leurs compétences. L'article 72-2 garantit que leurs recettes propres représentent une part déterminante de leurs ressources et que tout transfert de compétence s'accompagne de ressources équivalentes. Tu retrouveras ces principes dans le kit sur la décentralisation et dans ceux sur les finances locales."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "Constitution du 4 octobre 1958, texte intégral en vigueur (Conseil constitutionnel)",
+  "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur",
+  "type": "texte officiel",
+  "duree": "40 min",
+  "pourquoi": "Lire les titres II à V et les articles 1, 24, 34, 47-2, 49 et 72 dans le texte : une fois que tu les as lus, tu cites la Constitution au lieu de la résumer."
+ },
+ "debat": [
+  "Le président devrait-il rester élu au suffrage universel direct, ou le régime serait-il plus équilibré en revenant à un choix par le Parlement ?",
+  "L'article 49 alinéa 3 est-il un outil légitime de stabilité ou un contournement du débat parlementaire ?",
+  "Le Parlement a-t-il vraiment les moyens d'évaluer les politiques publiques (article 24) sans s'appuyer sur la Cour des comptes et l'administration ?"
+ ],
+ "sources": [
+  {
+   "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+   "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  {
+   "titre": "Wikipédia : Cinquième République (France)",
+   "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+  },
+  {
+   "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+   "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+  },
+  {
+   "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+   "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "a01-ve-republique-01",
+   "recto": "Article 1er de la Constitution : quels sont les quatre caractères de la République, et que dit-il de son organisation ?",
+   "verso": "Indivisible, laïque, démocratique et sociale. Son organisation est décentralisée.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-02",
+   "recto": "Quel est le rôle du président de la République selon l'article 5 ?",
+   "verso": "Il veille au respect de la Constitution et assure, par son arbitrage, le fonctionnement régulier des pouvoirs publics et la continuité de l'État. Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-03",
+   "recto": "Comment le président est-il élu, pour combien de temps, et combien de mandats consécutifs au plus (article 6) ?",
+   "verso": "Au suffrage universel direct, pour cinq ans, deux mandats consécutifs au plus.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-04",
+   "recto": "Qui nomme le Premier ministre, et qui nomme les autres ministres (article 8) ?",
+   "verso": "Le président nomme le Premier ministre. Les autres membres du Gouvernement sont nommés par le président sur la proposition du Premier ministre.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-05",
+   "recto": "Que dit l'article 20 sur le Gouvernement ?",
+   "verso": "Le Gouvernement détermine et conduit la politique de la nation, dispose de l'administration et de la force armée, et est responsable devant le Parlement (articles 49 et 50).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-06",
+   "recto": "Quels pouvoirs l'article 21 donne-t-il au Premier ministre ?",
+   "verso": "Il dirige l'action du Gouvernement, assure l'exécution des lois, exerce le pouvoir réglementaire et nomme aux emplois civils et militaires (sous réserve de l'article 13).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-07",
+   "recto": "Dissolution de l'Assemblée nationale (article 12) : après quelles consultations, et quelles limites ?",
+   "verso": "Après consultation du Premier ministre et des présidents des deux assemblées. Les élections ont lieu 20 à 40 jours après ; pas de nouvelle dissolution dans l'année qui suit ces élections.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-08",
+   "recto": "Dans quelles conditions le président peut-il user des pouvoirs exceptionnels de l'article 16 ?",
+   "verso": "Quand les institutions, l'indépendance de la nation, l'intégrité du territoire ou les engagements internationaux sont menacés de façon grave et immédiate et que le fonctionnement régulier des pouvoirs publics est interrompu ; après consultation officielle du Premier ministre, des présidents des assemblées et du Conseil constitutionnel.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-09",
+   "recto": "Quelles sont les trois missions du Parlement selon l'article 24 ?",
+   "verso": "Voter la loi, contrôler l'action du Gouvernement, évaluer les politiques publiques.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-10",
+   "recto": "Combien de députés et de sénateurs au plus, et comment sont-ils élus ? Que représente le Sénat ?",
+   "verso": "577 députés au plus, élus au suffrage direct ; 348 sénateurs au plus, élus au suffrage indirect. Le Sénat assure la représentation des collectivités territoriales de la République.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-11",
+   "recto": "Motion de censure (article 49, alinéa 2) : combien de signataires, quel délai de vote, quelle majorité ?",
+   "verso": "Signée par au moins un dixième des députés ; vote au plus tôt 48 heures après le dépôt ; adoptée à la majorité des membres composant l'Assemblée nationale.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-12",
+   "recto": "Que permet l'article 49, alinéa 3 (le « 49.3 ») ?",
+   "verso": "Le Premier ministre engage la responsabilité du Gouvernement sur un projet de loi de finances ou de financement de la sécurité sociale, puis sur un autre texte par session : le texte est adopté sauf si une motion de censure, déposée dans les 24 heures, est votée.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-13",
+   "recto": "Qui fixe « l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures » (article 34) ?",
+   "verso": "La loi. Le pouvoir de créer un impôt appartient au Parlement.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-14",
+   "recto": "Qu'est-ce qu'une ordonnance de l'article 38, et quand devient-elle caduque ?",
+   "verso": "Une mesure du domaine de la loi prise par le Gouvernement en conseil des ministres, après avis du Conseil d'État, sur autorisation du Parlement pour un délai limité. Elle devient caduque si le projet de loi de ratification n'est pas déposé avant la date fixée par la loi d'habilitation.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-15",
+   "recto": "Composition du Conseil constitutionnel (article 56) ?",
+   "verso": "Neuf membres, nommés pour neuf ans non renouvelables, renouvelés par tiers tous les trois ans : trois nommés par le président de la République, trois par le président de l'Assemblée nationale, trois par le président du Sénat. Les anciens présidents de la République en sont membres de droit.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-16",
+   "recto": "Qui peut saisir le Conseil constitutionnel d'une loi avant sa promulgation (article 61) ?",
+   "verso": "Le président de la République, le Premier ministre, le président de l'Assemblée nationale, le président du Sénat, soixante députés ou soixante sénateurs. Il statue en un mois (huit jours en cas d'urgence demandée par le Gouvernement).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-17",
+   "recto": "Qu'est-ce que la QPC (article 61-1), quand est-elle entrée en vigueur ?",
+   "verso": "La question prioritaire de constitutionnalité : à l'occasion d'un procès, un justiciable soutient qu'une loi en vigueur porte atteinte aux droits et libertés garantis par la Constitution ; le Conseil d'État ou la Cour de cassation renvoie ou non la question au Conseil constitutionnel. Créée par la révision du 23 juillet 2008, en vigueur depuis le 1er mars 2010.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 61-1)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Question prioritaire de constitutionnalité",
+     "url": "https://fr.wikipedia.org/wiki/Question_prioritaire_de_constitutionnalité"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-18",
+   "recto": "Quel rôle l'article 47-2 donne-t-il à la Cour des comptes ?",
+   "verso": "Elle assiste le Parlement dans le contrôle de l'action du Gouvernement, le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances et de financement de la sécurité sociale et dans l'évaluation des politiques publiques, et informe les citoyens par ses rapports publics. Les comptes publics doivent être réguliers et sincères.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-19",
+   "recto": "Comment révise-t-on la Constitution (article 89) ?",
+   "verso": "Initiative du président (sur proposition du Premier ministre) ou des parlementaires ; vote en termes identiques par les deux assemblées, puis référendum, ou, si le président le décide, adoption par le Parlement réuni en Congrès à la majorité des trois cinquièmes des suffrages exprimés.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-20",
+   "recto": "Quelles sont les collectivités territoriales de la République (article 72) ?",
+   "verso": "Les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer régies par l'article 74. Elles s'administrent librement par des conseils élus et disposent d'un pouvoir réglementaire pour leurs compétences.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-21",
+   "recto": "Que garantit l'article 72-2 en matière de ressources des collectivités ?",
+   "verso": "Des ressources dont elles disposent librement, avec une part déterminante de recettes propres, et la compensation à due concurrence de tout transfert ou création de compétence : toute nouvelle charge s'accompagne de ressources équivalentes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-22",
+   "recto": "Depuis quand le président est-il élu au suffrage universel direct, et depuis quand pour cinq ans ?",
+   "verso": "Élection directe depuis le référendum de 1962 (premier scrutin en 1965) ; mandat de cinq ans (au lieu de sept) depuis le référendum de 2000.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 6)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-23",
+   "recto": "Qu'est-ce qu'une cohabitation ?",
+   "verso": "La coexistence d'un président et d'un Premier ministre issu de la majorité parlementaire, politiquement opposés. Le Gouvernement ne dépend alors plus du président mais du Parlement ; le président garde un droit de regard coutumier sur le « domaine réservé » (affaires étrangères et défense).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Cohabitation (politique)",
+     "url": "https://fr.wikipedia.org/wiki/Cohabitation_(politique)"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a01-ve-republique-24",
+   "recto": "Combien de dissolutions de l'Assemblée nationale depuis 1958, et en quelles années (selon Wikipédia au 2026-10-11) ?",
+   "verso": "Six : 1962, 1968, 1981, 1988, 1997 et 2024.",
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution du 4 octobre 1958 (texte en vigueur)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Cinquième République (France)",
+     "url": "https://fr.wikipedia.org/wiki/Cinquième_République_(France)"
+    },
+    {
+     "titre": "Wikipédia : Constitution française du 4 octobre 1958",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_française_du_4_octobre_1958"
+    },
+    {
+     "titre": "Wikipédia : Évaluation des politiques publiques (entrée dans la Constitution en 2008)",
+     "url": "https://fr.wikipedia.org/wiki/Évaluation_des_politiques_publiques"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  }
+ ]
+}

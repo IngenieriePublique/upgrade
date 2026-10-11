@@ -14,6 +14,8 @@ import * as oral from './modules/oral.js';
 import * as reseau from './modules/reseau.js';
 import * as choix from './modules/choix.js';
 import * as territoires from './modules/territoires.js';
+import * as fondations from './modules/fondations.js';
+import { notesParKit, ajouterCartesKit } from './fondations.js';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -29,6 +31,18 @@ async function loadDecks() {
   }));
 }
 
+// Les cartes des kits « commencés » rejoignent la révision (un paquet Fondations par parcours).
+async function ajouterCartesDesKits(store, decks) {
+  const index = await loadJson('data/fondations/index.json');
+  const ouverts = [...notesParKit(await store.notes('kit'))].filter(([, n]) => n.data?.startedAt).map(([id]) => id);
+  for (const id of ouverts) {
+    const meta = index.kits.find((k) => k.id === id);
+    if (!meta) continue; // kit retiré du curriculum : sa note reste, ses cartes disparaissent
+    const kit = await loadJson(`data/fondations/${meta.fichier}`);
+    ajouterCartesKit(decks, index.parcours.find((p) => p.id === kit.parcours), kit);
+  }
+}
+
 async function main() {
   const outlet = document.getElementById('app');
   document.getElementById('version').textContent = `v${VERSION}`;
@@ -39,6 +53,7 @@ async function main() {
   try {
     store = await openStore();
     decks = await loadDecks();
+    await ajouterCartesDesKits(store, decks);
   } catch (e) {
     outlet.replaceChildren(h('div', { class: 'carte erreur' }, h('h1', null, 'Impossible de démarrer'), h('p', null, String(e.message ?? e)),
       h('p', { class: 'petit' }, 'Vérifie que le navigateur autorise le stockage du site (pas de navigation privée) et recharge la page.')));
@@ -50,6 +65,8 @@ async function main() {
     { path: '/brief', render: brief.render },
     { path: '/cartes', render: cartes.renderListe },
     { path: '/cartes/reviser', render: cartes.renderRevision },
+    { path: '/fondations', render: fondations.renderListe },
+    { path: '/fondations/kit', render: fondations.renderKit },
     { path: '/territoires', render: territoires.renderMenu },
     { path: '/territoires/jeu', render: territoires.renderJeu },
     { path: '/territoires/plusmoins', render: territoires.renderPlusMoins },

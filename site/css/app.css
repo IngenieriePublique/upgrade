@@ -187,3 +187,12 @@ main:has(.carte-svg) { max-width: 56rem; }
 .fait dt { color: var(--doux); } .fait dd { margin: 0; }
 @media (max-width: 30rem) { .fait { grid-template-columns: 1fr; gap: 0; } }
 blockquote { margin: .4rem 0; padding-left: .8rem; border-left: 3px solid var(--bord); }
+
+/* Fondations */
+.kits { list-style: none; padding: 0; margin: .4rem 0; display: grid; gap: .35rem; }
+.kit { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; padding: .3rem 0; border-bottom: 1px solid var(--bord); }
+.statut { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; padding: .1rem .5rem; border-radius: 99px; border: 1px solid var(--bord); color: var(--doux); }
+.kit.en-cours .statut { border-color: var(--n1); color: var(--n1); }
+.kit.termine .statut { border-color: var(--ok); color: var(--ok); }
+.fiche h2 { margin-top: 1.4rem; font-size: 1.15rem; }
+.fiche p, .fiche li { max-width: 42rem; }

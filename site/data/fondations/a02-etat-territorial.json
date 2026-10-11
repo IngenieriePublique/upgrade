@@ -1,0 +1,636 @@
+{
+ "id": "a02-etat-territorial",
+ "parcours": "A",
+ "ordre": 2,
+ "titre": "L'État dans les territoires : préfet, SGAR, services déconcentrés",
+ "accroche": "Dans un département ou une région, l'État et les collectivités travaillent côte à côte : savoir qui, côté État, décide de quoi te dit à quelle porte frapper.",
+ "duree_min": 120,
+ "perissable": true,
+ "perissable_note": "Les noms des directions et les effectifs bougent avec chaque réforme (DREETS et DDETS en 2021, statut des préfets en 2023, regroupements en cours). Chiffres de Wikipédia et du Sénat à la date de revue ; vérifier l'organigramme de la préfecture concernée avant un entretien.",
+ "revu": "2026-10-11",
+ "fiche": [
+  {
+   "titre": "Déconcentration et décentralisation : ne pas confondre",
+   "paragraphes": [
+    "La déconcentration consiste, pour l'État, à répartir agents et compétences entre son administration centrale et ses services déconcentrés (préfectures, directions régionales et départementales). Ces services n'ont pas de personnalité morale propre : ils restent l'État. La décentralisation, elle, transfère des compétences à des collectivités territoriales qui ont une personnalité morale, des élus et un budget. Les deux ne s'opposent pas : la loi du 6 février 1992 sur l'administration territoriale de la République dispose que cette administration « est assurée par les collectivités territoriales et par les services déconcentrés de l'État »."
+   ]
+  },
+  {
+   "titre": "Le préfet : représentant de l'État",
+   "paragraphes": [
+    "La fonction est définie par l'article 72 de la Constitution : dans les collectivités territoriales, le représentant de l'État, représentant de chacun des membres du Gouvernement, « a la charge des intérêts nationaux, du contrôle administratif et du respect des lois ». Elle a été créée par la loi du 28 pluviôse an VIII (17 février 1800), sous Bonaparte, qui organise la déconcentration autour du département, avec des sous-préfets dans les arrondissements. Elle succède aux intendants de l'Ancien Régime.",
+    "Le préfet de département dirige les administrations civiles de l'État dans le département et assure le contrôle administratif des communes, du département et des établissements publics. Depuis le décret du 16 février 2010, il est placé sous l'autorité du préfet de région, sauf dans quelques domaines importants : police administrative, contrôle de légalité, supervision administrative des communes et de leurs groupements, police des étrangers. La France compte 101 préfectures et 234 sous-préfectures (Wikipédia, liste des préfectures).",
+    "Le statut change : une réforme de l'encadrement supérieur de l'État (ordonnance du 2 juin 2021, décret du 6 avril 2022, en vigueur au 1er janvier 2023) éteint les corps des préfets et des sous-préfets au profit d'emplois de préfet et de sous-préfet, dans une logique de métier plutôt que de corps, selon le rapport du Sénat de 2022."
+   ]
+  },
+  {
+   "titre": "Le SGAR : le bras de la région pour l'économie et l'aménagement",
+   "paragraphes": [
+    "Le secrétaire général pour les affaires régionales travaille dans la préfecture de région, sous l'autorité du préfet de région. Il coordonne la politique de l'État en matière de développement économique et d'aménagement du territoire, ainsi que les relations entre l'État et le conseil régional. Il négocie le contrat de plan État-région sous l'autorité du préfet, selon le mandat du Premier ministre sur proposition de l'ANCT, et gère une grande partie des fonds européens (FEDER, FSE, FEADER) lorsque la région n'a pas obtenu la qualité d'autorité de gestion, que la loi MAPTAM de 2014 lui permet de demander. Deux appellations particulières : SGARE en Grand Est (qui ajoute les affaires européennes) et SGAPP en Île-de-France. C'est l'un des employeurs que tu cibles : un SGAR recrute des chargés de mission qui suivent contrats, fonds et évaluations."
+   ]
+  },
+  {
+   "titre": "Les services déconcentrés : la réforme de 2010 et ses suites",
+   "paragraphes": [
+    "Avant 2010, selon le Sénat, l'État déconcentré comptait pas moins de 35 directions et services régionaux et départementaux, chacun rendant compte à son ministère. La réorganisation de l'administration territoriale de l'État (RéATE), dans le cadre de la révision générale des politiques publiques (2007-2012), a ramené à huit les entités régionales (DRFiP, DIRECCTE, DREAL, DRJSCS, DRAAF, DRAC, ARS, rectorat) et créé deux ou trois directions départementales interministérielles (DDI) par département. Elle a aussi renforcé le préfet : le préfet de région a un pouvoir d'instruction sur le préfet de département, et le contrôle de légalité est remonté du sous-préfet à la préfecture.",
+    "Les DDI, créées par un décret du 3 décembre 2009 et effectives depuis le 1er janvier 2010, sont placées sous l'autorité du préfet de département mais dépendent pour leurs moyens des directions régionales qui gèrent les budgets opérationnels de programme. Depuis 2020, elles relèvent du ministre de l'Intérieur. Chaque département métropolitain compte aujourd'hui une direction départementale des territoires (DDT, ou DDTM s'il a une façade maritime : aménagement, urbanisme, logement, agriculture, environnement), une direction départementale de l'emploi, du travail et des solidarités (DDETS, créée le 1er avril 2021) et une direction départementale de la protection des populations (DDPP). Dans les départements de moins de 400 000 habitants, DDETS et DDPP fusionnent en DDETS-PP. Au total, 238 DDI regroupent environ 32 000 agents d'après Wikipédia. Il n'y a pas de DDI outre-mer.",
+    "Au niveau régional, la DREETS (direction régionale de l'économie, de l'emploi, du travail et des solidarités) est le service commun aux ministères des Affaires sociales, de l'Économie et du Travail, sous l'autorité du préfet de région. D'autres services déconcentrés restent hors des DDI : agences régionales de santé, rectorats, directions des finances publiques."
+   ]
+  },
+  {
+   "titre": "Quinze ans de réformes, peu d'évaluations",
+   "paragraphes": [
+    "Le rapport d'information du Sénat de septembre 2022, « À la recherche de l'État dans les territoires », constate que les réformes s'enchaînent sans se compléter ni être évaluées : après la RGPP et la RéATE est venue l'initiative « Action publique 2022 ». Collectivités comme agents de l'État ont le sentiment de subir les changements. Les rapporteurs relèvent une ingénierie territoriale « en berne » malgré la création de l'ANCT, un contrôle de légalité vécu comme tatillon et des agences d'État perçues comme envahissantes. Ils proposent de s'appuyer sur la subsidiarité, la différenciation, la contractualisation et une meilleure représentation des élus locaux dans les opérateurs de l'État. Pour un futur évaluateur, c'est un terrain tout trouvé : l'absence d'évaluation rigoureuse de réformes qui, elles, se succèdent."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "Sénat, « À la recherche de l'État dans les territoires » (rapport d'information n° 909, 2021-2022)",
+  "url": "https://www.senat.fr/rap/r21-909/r21-909.html",
+  "type": "rapport parlementaire",
+  "duree": "40 min (avant-propos et partie I)",
+  "pourquoi": "Un état des lieux récent, du point de vue des élus locaux, avec la chronologie des réformes ; il te donne le vocabulaire et les critiques que tu entendras en entretien."
+ },
+ "debat": [
+  "Faut-il revenir à des services déconcentrés plus spécialisés par ministère, ou poursuivre l'interministérialité autour du préfet ?",
+  "Le préfet doit-il garder le contrôle de légalité des actes des collectivités, ou ce contrôle devrait-il être confié à un autre acteur (juge, chambre régionale des comptes) ?",
+  "Comment évaluer une réforme de l'organisation de l'État alors que la suivante arrive avant que la précédente soit terminée ?"
+ ],
+ "sources": [
+  {
+   "titre": "Wikipédia : Préfet (France)",
+   "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+  },
+  {
+   "titre": "Wikipédia : Direction départementale interministérielle",
+   "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+  },
+  {
+   "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+   "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+  },
+  {
+   "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+   "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+  },
+  {
+   "titre": "Wikipédia : Déconcentration",
+   "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+  },
+  {
+   "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+   "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "a02-etat-territorial-01",
+   "recto": "Quelle différence entre déconcentration et décentralisation ?",
+   "verso": "Déconcentration : l'État répartit agents et compétences entre son administration centrale et ses services locaux, sans personnalité morale propre. Décentralisation : des compétences sont transférées à des collectivités territoriales dotées de la personnalité morale, d'élus et d'un budget.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-02",
+   "recto": "Que dit l'article 72 de la Constitution sur le représentant de l'État dans les collectivités ?",
+   "verso": "Il représente chacun des membres du Gouvernement et « a la charge des intérêts nationaux, du contrôle administratif et du respect des lois ».",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-03",
+   "recto": "Quand et par qui la fonction de préfet a-t-elle été créée ?",
+   "verso": "Par la loi du 28 pluviôse an VIII (17 février 1800), sous Bonaparte, premier consul, pour organiser la déconcentration autour du département, avec des sous-préfets dans les arrondissements.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-04",
+   "recto": "Quelles sont les principales missions du préfet de département ?",
+   "verso": "Il dirige les administrations civiles de l'État dans le département, assure le contrôle administratif du département, des communes et des établissements publics, représente le Gouvernement et met en œuvre les politiques nationales.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-05",
+   "recto": "Le préfet de département est-il sous l'autorité du préfet de région ? Avec quelles exceptions ?",
+   "verso": "Oui depuis le décret du 16 février 2010, sauf pour la police administrative, le contrôle de légalité, la supervision administrative des communes et de leurs groupements, et la police des étrangers.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-06",
+   "recto": "Combien de préfectures et de sous-préfectures en France (liste de Wikipédia au 2026-10-11) ?",
+   "verso": "101 préfectures (96 en métropole, 5 outre-mer) et 234 sous-préfectures.",
+   "sources": [
+    {
+     "titre": "Wikipédia : Liste des préfectures de France",
+     "url": "https://fr.wikipedia.org/wiki/Liste_des_préfectures_de_France"
+    },
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a02-etat-territorial-07",
+   "recto": "Qu'est-ce que le SGAR et où travaille-t-il ?",
+   "verso": "Le secrétaire général pour les affaires régionales : à la préfecture de région, sous l'autorité du préfet de région, il coordonne la politique de l'État en matière de développement économique et d'aménagement du territoire et les relations avec le conseil régional.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-08",
+   "recto": "Quelles responsabilités concrètes a le SGAR pour les contrats et les fonds européens ?",
+   "verso": "Il négocie le contrat de plan État-région (mandat du Premier ministre, sur proposition de l'ANCT) et gère une grande partie des fonds européens (FEDER, FSE, FEADER) quand la région n'est pas autorité de gestion, statut qu'elle peut demander depuis la loi MAPTAM de 2014.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-09",
+   "recto": "Comment s'appellent le SGAR de la région Grand Est et celui de l'Île-de-France ?",
+   "verso": "SGARE (secrétaire général pour les affaires régionales et européennes) en Grand Est ; SGAPP (secrétaire général aux politiques publiques) en Île-de-France.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-10",
+   "recto": "Comment le préfet et le sous-préfet sont-ils devenus des « emplois » plutôt que des corps ?",
+   "verso": "Par la réforme de l'encadrement supérieur de l'État : ordonnance du 2 juin 2021 (corps des administrateurs de l'État) puis décret du 6 avril 2022, en vigueur au 1er janvier 2023. Les corps de préfet et de sous-préfet s'éteignent ; il reste des emplois de préfet et de sous-préfet.",
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9095.html"
+    },
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a02-etat-territorial-11",
+   "recto": "Qu'est-ce que la RéATE et dans quel cadre est-elle née ?",
+   "verso": "La réorganisation de l'administration territoriale de l'État (2010), menée dans le cadre de la révision générale des politiques publiques (2007-2012) : elle a regroupé des dizaines de services en huit entités régionales et deux ou trois directions départementales, et renforcé le préfet.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9091.html"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-12",
+   "recto": "Combien de directions et services régionaux et départementaux avant la RéATE de 2010 (selon le Sénat) ?",
+   "verso": "35 directions et services, chacune se vivant comme l'émanation d'un ministère et rendant compte à son administration centrale.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9091.html"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-13",
+   "recto": "Quelles étaient en 2010 les huit entités régionales créées par la RéATE ?",
+   "verso": "DRFiP, DIRECCTE, DREAL, DRJSCS, DRAAF, DRAC, ARS et le rectorat d'académie (en 2021, la DREETS a regroupé la DIRECCTE et une partie des missions de la DRJSCS).",
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9091.html"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a02-etat-territorial-14",
+   "recto": "Que sont les DDI, depuis quand, et à qui rendent-elles compte ?",
+   "verso": "Les directions départementales interministérielles : créées par décret du 3 décembre 2009, effectives depuis le 1er janvier 2010. Placées sous l'autorité du préfet de département ; depuis 2020 elles relèvent du ministre de l'Intérieur.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-15",
+   "recto": "Quelles directions départementales trouve-t-on dans un département métropolitain aujourd'hui ?",
+   "verso": "Une DDT (ou DDTM s'il est littoral), une DDETS et une DDPP ; dans les départements de moins de 400 000 habitants, DDETS et DDPP fusionnent en DDETS-PP.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-16",
+   "recto": "Quelles sont les missions d'une DDT(M) ?",
+   "verso": "Aménagement et urbanisme, logement, habitat et construction, agriculture et forêt, préservation de l'environnement (eau, espaces naturels, faune et flore, déchets, nuisances) ; elle regroupe les anciens services de l'Équipement, de l'Agriculture et des Affaires maritimes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-17",
+   "recto": "Combien de DDI et d'agents en tout (selon Wikipédia au 2026-10-11) ?",
+   "verso": "238 DDI regroupant environ 32 000 agents : 66 DDT, 26 DDTM, 50 DDETS, 50 DDPP et 46 DDETS-PP. Il n'y a pas de DDI outre-mer.",
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "a02-etat-territorial-18",
+   "recto": "Qu'est-ce que la DREETS et sous quelle autorité est-elle placée ?",
+   "verso": "Direction régionale de l'économie, de l'emploi, du travail et des solidarités : service déconcentré commun aux ministères des Affaires sociales, de l'Économie et des Finances, du Travail et de l'Emploi. Elle est placée sous l'autorité du préfet de région (et de la direction générale du Travail pour l'inspection du travail).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Wikipédia : Préfet (France)",
+     "url": "https://fr.wikipedia.org/wiki/Préfet_(France)"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    },
+    {
+     "titre": "Wikipédia : Direction régionale de l'Économie, de l'Emploi, du Travail et des Solidarités",
+     "url": "https://fr.wikipedia.org/wiki/Direction_régionale_de_l'Économie,_de_l'Emploi,_du_Travail_et_des_Solidarités"
+    },
+    {
+     "titre": "Wikipédia : Secrétaire général pour les Affaires régionales",
+     "url": "https://fr.wikipedia.org/wiki/Secrétaire_général_pour_les_Affaires_régionales"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    },
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-909.html"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-19",
+   "recto": "Article 1er de la loi ATR du 6 février 1992 : qui assure l'administration territoriale de la République ?",
+   "verso": "Les collectivités territoriales et les services déconcentrés de l'État : les deux sont liés.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9091.html"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-20",
+   "recto": "Quel est le principal reproche du Sénat (2022) aux réformes de l'État territorial depuis quinze ans ?",
+   "verso": "Elles s'enchaînent sans se compléter ni être évaluées, au point que collectivités et agents de l'État ont le sentiment de les subir ; les rapporteurs pointent aussi une ingénierie territoriale en berne, un contrôle de légalité jugé tatillon et des agences d'État jugées envahissantes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Sénat : À la recherche de l'État dans les territoires (rapport d'information n° 909, 2022)",
+     "url": "https://www.senat.fr/rap/r21-909/r21-9091.html"
+    },
+    {
+     "titre": "Wikipédia : Direction départementale interministérielle",
+     "url": "https://fr.wikipedia.org/wiki/Direction_départementale_interministérielle"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "a02-etat-territorial-21",
+   "recto": "Combien d'agents de l'État dans les services déconcentrés en 2015 et quelles catégories dominent ?",
+   "verso": "Environ 1,31 million d'équivalents temps plein : surtout des enseignants (environ 875 000), puis la police et la gendarmerie (environ 242 000) et les finances publiques (environ 92 000).",
+   "sources": [
+    {
+     "titre": "Wikipédia : Liste des services déconcentrés de l'État français",
+     "url": "https://fr.wikipedia.org/wiki/Liste_des_services_déconcentrés_de_l'État_français"
+    },
+    {
+     "titre": "Wikipédia : Déconcentration",
+     "url": "https://fr.wikipedia.org/wiki/Déconcentration"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  }
+ ]
+}

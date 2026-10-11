@@ -1,19 +1,26 @@
 // Service worker : fonctionnement hors ligne. Les fichiers du site sont servis depuis le cache
 // puis rafraîchis en arrière-plan (la version à jour apparaît au chargement suivant).
 // Changer VERSION à chaque déploiement qui modifie la liste CORE.
-const VERSION = 'upgrade-0.4.0';
+const VERSION = 'upgrade-0.5.0';
 const CORE = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css', 'icons/icon.svg',
   'js/app.js', 'js/version.js', 'js/srs.js', 'js/store.js', 'js/ui.js', 'js/router.js', 'js/timer.js', 'js/backup.js',
-  'js/ia.js', 'js/data.js', 'js/territoires.js', 'js/carte-svg.js', 'js/candidature.js', 'js/recorder.js',
+  'js/ia.js', 'js/data.js', 'js/territoires.js', 'js/carte-svg.js', 'js/fondations.js', 'js/candidature.js', 'js/recorder.js',
   'js/modules/aujourdhui.js', 'js/modules/brief.js', 'js/modules/cartes.js', 'js/modules/sauvegarde.js',
-  'js/modules/sprint.js', 'js/modules/radar.js', 'js/modules/recit.js', 'js/modules/oral.js', 'js/modules/reseau.js', 'js/modules/choix.js', 'js/modules/territoires.js',
-  'data/cartes/index.json', 'data/territoires/data.json', 'data/geo/france.json', 'data/brief/latest.json', 'data/brief/index.json',
+  'js/modules/sprint.js', 'js/modules/radar.js', 'js/modules/recit.js', 'js/modules/oral.js', 'js/modules/reseau.js', 'js/modules/choix.js', 'js/modules/territoires.js', 'js/modules/fondations.js',
+  'data/cartes/index.json', 'data/fondations/index.json', 'data/territoires/data.json', 'data/geo/france.json', 'data/brief/latest.json', 'data/brief/index.json',
   'data/radar/employeurs.json', 'data/radar/note-carriere.json', 'data/oral/questions.json', 'data/oral/gabarits.json',
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then(async (c) => {
+    await c.addAll(CORE);
+    // Les kits du curriculum sont lisibles hors ligne : on les met en cache d'après l'index (sans bloquer l'installation).
+    try {
+      const index = await (await fetch('data/fondations/index.json')).json();
+      await c.addAll(index.kits.map((k) => `data/fondations/${k.fichier}`));
+    } catch (err) { /* l'index est déjà en cache ; les kits seront mis en cache à la première lecture */ }
+  }).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
