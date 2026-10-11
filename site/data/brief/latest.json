@@ -1,7 +1,7 @@
 {
  "version": 1,
  "date": "2026-10-11",
- "genere": "2026-10-11T20:12Z",
+ "genere": "2026-10-11T21:09Z",
  "plafond": 13,
  "items": [
   {
@@ -14,7 +14,7 @@
    "chapo": "Le ministre de l’économie défend un déficit ramené à 5 % « quoi qu’il en coûte », alors que les députés ont rejeté en commission la partie recettes du texte, qui sera discuté mardi dans l’Hémicycle.",
    "theme": "finances",
    "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
-   "score": 7.09,
+   "score": 7.07,
    "payant": true,
    "reprises": 3
   },
@@ -28,7 +28,7 @@
    "chapo": "Le statut, qui rencontre un vif succès depuis sa création, en 2008, présente de nombreux « risques » pour ses bénéficiaires et pour les finances publiques, selon une « évaluation » publiée, vendredi…",
    "theme": "evaluation",
    "question": "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
-   "score": 6.06,
+   "score": 6.04,
    "payant": true
   },
   {
@@ -41,7 +41,7 @@
    "chapo": "Dans un courrier détaillé, le ministère de l'Intérieur reproche à l'association présidée par le polémiste d'extrême droite de provoquer la violence \"envers les personnes juives, immigrées, les femmes…",
    "theme": "defaut",
    "question": "Qui y gagne, qui y perd, et qui n'est pas dans la discussion ?",
-   "score": 5.24,
+   "score": 5.22,
    "reprises": 4
   },
   {
@@ -54,7 +54,7 @@
    "chapo": "Il a également promis une réponse spécifique aux stations-service des communes les plus isolées, afin qu'elles puissent baisser les prix du gazole.",
    "theme": "finances",
    "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
-   "score": 5.09
+   "score": 5.07
   },
   {
    "id": "7039fc13d8",
@@ -66,7 +66,7 @@
    "chapo": "DÉCRYPTAGE - David Amiel accuse les députés de la commission des finances d’avoir voté en faveur de mesures dégradant le déficit public de 8 milliards d’euros.",
    "theme": "finances",
    "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
-   "score": 4.76,
+   "score": 4.74,
    "payant": true
   },
   {
@@ -79,21 +79,21 @@
    "chapo": "L’homme qui menaçait de commettre cette attaque a été arrêté, ont annoncé le premier ministre et le ministre de l’intérieur.",
    "theme": "institutions",
    "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
-   "score": 5.82,
+   "score": 5.8,
    "payant": true,
    "reprises": 5
   },
   {
-   "id": "b2c5f954e8",
+   "id": "ccb606138e",
    "rubrique": "monde",
-   "titre": "Les houthis du Yémen revendiquent plusieurs attaques contre des infrastructures saoudiennes depuis samedi",
-   "lien": "https://www.franceinfo.fr/monde/proche-orient/yemen/les-houthis-du-yemen-revendiquent-plusieurs-attaques-contre-des-infrastructures-saoudiennes-depuis-samedi_8232964.html",
-   "source": "franceinfo",
-   "date": "2026-10-11T19:02Z",
-   "chapo": "Les rebelles proches du régime iranien mettent la pression sur l'Arabie Saoudite.",
+   "titre": "Les Houthis revendiquent plusieurs frappes contre l'aéroport de Riyad",
+   "lien": "https://www.france24.com/fr/moyen-orient/20261011-les-houthis-revendiquent-plusieurs-frappes-contre-l-a%C3%A9roport-de-riyad-arabie-saoudite",
+   "source": "France 24",
+   "date": "2026-10-11T20:35Z",
+   "chapo": "Les autorités saoudiennes ont fait état de blessés lors d'une nouvelle attaque contre l'aéroport international de Riyad survenue dimanche, au lendemain d'un assaut contre ce même aéroport…",
    "theme": "defaut",
-   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
-   "score": 5.28,
+   "question": "Quel chiffre ou quel fait vérifierais-je avant d'en parler à quelqu'un ?",
+   "score": 5.29,
    "reprises": 5
   },
   {
@@ -106,8 +106,8 @@
    "chapo": "Le président des Etats-Unis n'a livré aucun détail sur cet accord annoncé, alors qu'il appelait Kiev à cesser de frapper les infrastructure énergétiques russes, et que Moscou cible régulièrement…",
    "theme": "international",
    "question": "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
-   "score": 5.26,
-   "reprises": 5
+   "score": 5.24,
+   "reprises": 4
   },
   {
    "id": "c5f4547414",
@@ -119,21 +119,22 @@
    "chapo": "Le Premier ministre espagnol Pedro Sánchez a promis samedi de \"renforcer\" la législation sur le logement s'il obtient une majorité absolue aux élections législatives prévues le 29 novembre.",
    "theme": "social",
    "question": "Quel effet inattendu cette mesure pourrait-elle avoir ?",
-   "score": 5.24,
+   "score": 5.22,
    "reprises": 2
   },
   {
-   "id": "f72e86dfef",
+   "id": "3a9bc66548",
    "rubrique": "monde",
-   "titre": "Le pape annonce qu'il va être opéré d'un nodule au poumon prochainement",
-   "lien": "https://www.france24.com/fr/vid%C3%A9o/20261011-le-pape-annonce-qu-il-va-%C3%AAtre-op%C3%A9r%C3%A9-d-un-nodule-au-poumon-prochainement",
-   "source": "France 24",
-   "date": "2026-10-11T16:02Z",
-   "chapo": "Natalia Mendoza, notre correspondante à Rome, décrypte la situation.",
+   "titre": "L’accord Trump-Poutine sur le diesel revient à “financer le terrorisme”",
+   "lien": "https://www.courrierinternational.com/article/vu-d-ukraine-l-accord-trump-poutine-sur-le-diesel-revient-a-financer-le-terrorisme_277797",
+   "source": "Courrier international",
+   "date": "2026-10-11T14:21Z",
+   "chapo": "Depuis l’annonce de l’accord entre Washington et Moscou sur des livraisons de carburant russe, les dirigeants et les médias ukrainiens ne décolèrent pas.",
    "theme": "defaut",
-   "question": "Quel chiffre ou quel fait vérifierais-je avant d'en parler à quelqu'un ?",
-   "score": 5.21,
-   "reprises": 4
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 5.16,
+   "payant": true,
+   "reprises": 6
   },
   {
    "id": "4939fcc28d",
@@ -169,7 +170,7 @@
    "chapo": "Depuis le 8 octobre 2026, toutes les entreprises, en France métropolitaine ainsi que dans les départements et régions d’outre-mer, peuvent joindre la Direction générale des Finances publiques (DGFiP)…",
    "theme": "finances",
    "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
-   "score": 5.86
+   "score": 5.85
   }
  ],
  "dossier": {
@@ -194,9 +195,12 @@
   "licence": "CC BY-SA 4.0"
  },
  "sources": {
-  "ok": 36,
+  "ok": 34,
   "total": 36,
-  "echecs": []
+  "echecs": [
+   "ccomptes-actualites",
+   "ccomptes-publications"
+  ]
  },
  "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
 }
