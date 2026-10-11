@@ -1,0 +1,689 @@
+{
+ "id": "b03-recettes-locales",
+ "parcours": "B",
+ "ordre": 3,
+ "titre": "Les recettes locales : fiscalité, TVA, DGF et péréquation",
+ "accroche": "Une évaluation de politique locale ne vaut rien si l'on ignore d'où vient l'argent : taux votés, impôts dont la collectivité a perdu le pouvoir, dotations de l'État, péréquation. Ce kit donne le panier de recettes à jour.",
+ "duree_min": 120,
+ "perissable": true,
+ "perissable_note": "Les recettes locales sont réformées presque chaque année en loi de finances (taxe d'habitation, CVAE, DMTO, contribution des collectivités au redressement). Montants et parts : DGCL (Guide du maire 2026) et Cour des comptes (juillet 2026) ; à recontrôler après chaque loi de finances.",
+ "revu": "2026-10-11",
+ "fiche": [
+  {
+   "titre": "Trois familles de recettes",
+   "paragraphes": [
+    "Les ressources des collectivités se rangent en quatre natures (Wikipédia) : ressources propres (fiscalité locale, redevances, produits du domaine), dotations et subventions de l'État, emprunts, revenus du patrimoine et services rendus. La Constitution (article 72-2) impose que les recettes fiscales et les autres ressources propres représentent « une part déterminante » des ressources de chaque catégorie de collectivités ; une loi organique de 2004 a fixé ce plancher au niveau constaté en 2003.",
+    "Pour les communes, la fiscalité représente les deux tiers des recettes de fonctionnement. La taxe foncière sur les propriétés bâties (TFPB) pèse plus de 71 % des impôts et taxes communaux, la taxe d'habitation 5 % seulement. Les groupements (EPCI) s'appuient surtout sur les impositions des entreprises : cotisation foncière des entreprises (18 % de leurs impôts et taxes), taxe d'enlèvement des ordures ménagères (20 %), versement mobilité (11 %) et une fraction de TVA (34 %) qui compense la perte de la CVAE. Les concours de l'État pèsent 25 % des recettes de fonctionnement des groupements en 2024, contre 34 % de leurs ressources auparavant."
+   ]
+  },
+  {
+   "titre": "Les impôts locaux après les réformes",
+   "paragraphes": [
+    "La taxe d'habitation sur les résidences principales a été supprimée par la loi de finances pour 2020, pour tous les contribuables sur la période 2020-2023 ; elle subsiste sur les résidences secondaires (et, sur délibération, sur les logements vacants) et la loi de finances pour 2025 la recentre sur ces dernières. En contrepartie, la part départementale de la TFPB est transférée aux communes depuis 2021 : la TFPB est aujourd'hui le principal impôt à pouvoir de taux des communes. Les taux de THRS, de TFPB, de TFPNB et de CFE sont votés librement par les communes et EPCI, dans des règles de plafonnement et de lien entre taux.",
+    "La CFE, assise sur la valeur locative des immobilisations corporelles, est l'ancienne part foncière de la taxe professionnelle supprimée en 2010 ; la cotisation sur la valeur ajoutée des entreprises (CVAE), seconde composante de la contribution économique territoriale, a été réduite depuis 2021 puis supprimée pour les collectivités (régions en 2021, départements et bloc communal en 2023) avec compensation par une fraction de TVA ; sa suppression définitive est prévue pour 2030. S'y ajoutent l'imposition forfaitaire sur les entreprises de réseaux (IFER), la taxe d'aménagement, la taxe d'enlèvement des ordures ménagères (ou la redevance) et, pour les départements, les droits de mutation à titre onéreux (DMTO), volatils : en 2025, la plupart des départements ont relevé le taux à 5 %, ce que permettait la loi de finances pour 2025 (Cour des comptes, juillet 2026). Les taux augmentent plus fortement dans les deux années qui suivent les élections municipales."
+   ]
+  },
+  {
+   "titre": "La dotation globale de fonctionnement",
+   "paragraphes": [
+    "La DGF, créée en 1979, regroupe en un concours unique et libre d'emploi des versements de l'État autrefois dispersés. Elle est le pivot des relations financières entre l'État et les collectivités : elle donne des ressources stables et prévisibles, et apporte un soutien aux communes qui ont des charges élevées et peu de ressources (péréquation verticale). Elle a représenté 12,8 milliards d'euros pour les communes en 2025 (174 euros par habitant), soit 14 % de leurs recettes de fonctionnement en moyenne ; son total national était de 27,2 milliards en 2024 d'après Wikipédia.",
+    "Elle comprend la dotation forfaitaire (6,7 milliards en 2025, environ 52 % du montant) et les dotations de péréquation (environ 48 %, contre 37 % en 2017) : dotation de solidarité urbaine et de cohésion sociale (pour les communes urbaines en difficulté), dotation de solidarité rurale (2,38 milliards en 2025, surtout pour les communes de moins de 10 000 habitants, avec une fraction « bourg-centre » de 793 millions), dotation nationale de péréquation. La dotation forfaitaire varie surtout avec la population et subit un « écrêtement » qui finance, au sein de l'enveloppe fermée, la hausse de la péréquation. Les critères sont de ressources et de charges : population, logements sociaux, quartiers prioritaires, potentiel financier, effort fiscal, superficie, zone de montagne.",
+    "Le comité des finances locales (43 membres dont 15 maires élus pour trois ans) répartit une partie de l'enveloppe et suit la répartition ; la DGCL publie les montants avant le 31 mars (sinon la date limite de vote des budgets est repoussée d'autant) et notifie par arrêté fin mai ou en juin, ce qui ouvre le droit au recours."
+   ]
+  },
+  {
+   "titre": "Ce que dit l'actualité financière",
+   "paragraphes": [
+    "En 2025 et 2026, les collectivités contribuent au redressement des finances publiques, surtout par des prélèvements sur leurs recettes au profit de l'État et de la sécurité sociale : 4,3 milliards d'euros nets en 2025 selon la Cour des comptes, 3,5 milliards prévus en 2026, avec un dispositif de mise en réserve (le DILICO) que la Cour recommande d'éteindre et de remplacer par des fonds de réserve nationaux, et une répartition qu'elle juge peu équitable. C'est la matière première de nombreuses évaluations : à quelles conditions la contribution est-elle soutenable, et pour qui ?"
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "DGCL, Guide du maire 2026, chapitre 5 : fiches sur la fiscalité (5.2.4) et la DGF (5.2.5)",
+  "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf",
+  "type": "guide officiel",
+  "duree": "50 min",
+  "pourquoi": "Les fiches décrivent chaque impôt et chaque composante de la DGF avec les montants 2025 ; elles te donnent les ordres de grandeur à connaître pour discuter du financement d'un territoire."
+ },
+ "debat": [
+  "Les collectivités doivent-elles garder un pouvoir de taux sur la taxe foncière, seul impôt important dont elles fixent encore le taux ?",
+  "Remplacer des impôts locaux par des fractions de TVA protège-t-il l'autonomie financière, ou la réduit-il ?",
+  "La DGF devrait-elle davantage tenir compte des charges de centralité des villes moyennes, ou des besoins des communes rurales ?"
+ ],
+ "sources": [
+  {
+   "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+   "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+  },
+  {
+   "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+   "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+  },
+  {
+   "titre": "Wikipédia : Finances locales en France",
+   "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+  },
+  {
+   "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+   "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+  },
+  {
+   "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+   "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "b03-recettes-locales-01",
+   "recto": "Quelles sont les quatre natures de ressources des collectivités ?",
+   "verso": "Les ressources propres (fiscalité locale, redevances, produits du domaine), les dotations et subventions de l'État, les emprunts, les revenus du patrimoine et les produits des services rendus.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-02",
+   "recto": "Que garantit l'article 72-2 sur les ressources propres ?",
+   "verso": "Que les recettes fiscales et autres ressources propres représentent, pour chaque catégorie de collectivités, une part déterminante de l'ensemble de leurs ressources ; la loi organique du 29 juillet 2004 a fixé ce plancher au niveau constaté en 2003.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-03",
+   "recto": "Quelle part des recettes de fonctionnement des communes la fiscalité représente-t-elle, et quel est son principal impôt ?",
+   "verso": "Les deux tiers. La taxe foncière sur les propriétés bâties (TFPB) représente plus de 71 % des impôts et taxes des communes, la taxe d'habitation 5 %.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-04",
+   "recto": "Quelles sont les principales ressources fiscales des EPCI (groupements) ?",
+   "verso": "Surtout les impositions des entreprises : la cotisation foncière des entreprises (18 % de leurs impôts et taxes), la taxe d'enlèvement des ordures ménagères (20 %), le versement mobilité (11 %) et une fraction de TVA (34 %) qui compense la perte de la CVAE.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-05",
+   "recto": "Quel poids des concours de l'État dans les recettes de fonctionnement des EPCI en 2024 ?",
+   "verso": "25 %, après avoir représenté 34 % de leurs ressources.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-06",
+   "recto": "Qu'est devenue la taxe d'habitation ?",
+   "verso": "Supprimée sur les résidences principales par la loi de finances pour 2020, sur 2020-2023. Elle subsiste sur les résidences secondaires (THRS) et, sur délibération, sur les logements vacants ; la loi de finances pour 2025 la recentre sur les résidences secondaires.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-07",
+   "recto": "Qu'a reçu le bloc communal en contrepartie de la suppression de la taxe d'habitation ?",
+   "verso": "La part départementale de la taxe foncière sur les propriétés bâties, transférée aux communes à compter de 2021 (article 16 de la loi de finances pour 2020). La TFPB est aujourd'hui le principal impôt à pouvoir de taux des communes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-08",
+   "recto": "Quels impôts locaux ont un taux voté librement par les communes et EPCI ?",
+   "verso": "La taxe d'habitation sur les résidences secondaires, la taxe foncière sur les propriétés bâties, la taxe foncière sur les propriétés non bâties et la cotisation foncière des entreprises, dans le respect des règles de plafonnement et de lien entre les taux.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-09",
+   "recto": "Qu'est-ce que la CFE et quelle est sa base ?",
+   "verso": "La cotisation foncière des entreprises, ancienne part foncière de la taxe professionnelle (supprimée en 2010) : première composante de la contribution économique territoriale. Sa base est la valeur locative des immobilisations corporelles passibles de taxe foncière ; une cotisation minimale existe.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-10",
+   "recto": "Qu'est-ce que la CET, et quelles sont ses deux composantes ?",
+   "verso": "La contribution économique territoriale, qui a remplacé la taxe professionnelle en 2010 : la cotisation foncière des entreprises (CFE) et la cotisation sur la valeur ajoutée des entreprises (CVAE).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-11",
+   "recto": "Où en est la CVAE pour les collectivités ?",
+   "verso": "Réduite depuis 2021 ; les régions (dès 2021) puis les départements et le bloc communal (2023) ne perçoivent plus de CVAE et sont compensés par une fraction de TVA. La suppression définitive, reportée, est prévue pour 2030 (taux maximal 0,28 % en 2025-2027, 0,19 % en 2028, 0,09 % en 2029).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-12",
+   "recto": "TEOM ou REOM : quelle différence ?",
+   "verso": "La taxe d'enlèvement des ordures ménagères (TEOM) est annexée à la taxe foncière ; la redevance (REOM) est payée selon l'usage. Communes ou EPCI choisissent l'une ou l'autre si le service n'est pas financé par le budget général ; depuis 2013, la TEOM peut avoir une part incitative (volume, poids, nombre d'enlèvements).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-13",
+   "recto": "Qu'est-ce que l'IFER ?",
+   "verso": "L'imposition forfaitaire sur les entreprises de réseaux, créée après la suppression de la taxe professionnelle pour limiter des effets d'aubaine dans l'énergie, le transport ferroviaire et les télécommunications ; dix composantes (éoliennes, centrales, transformateurs, stations radioélectriques, réseaux de gaz, matériel roulant ferroviaire…).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-14",
+   "recto": "Qu'est-ce que la taxe d'aménagement ?",
+   "verso": "Une taxe d'urbanisme due pour les opérations de construction, d'aménagement ou de modification de bâtiments nécessitant une autorisation. Elle est instituée de plein droit dans les communes dotées d'un PLU ou d'un POS, et dans les communautés urbaines et métropoles ; les autres l'instituent par délibération.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-15",
+   "recto": "Pourquoi les taux d'imposition varient-ils avec le calendrier électoral ?",
+   "verso": "Les deux années qui suivent les élections municipales, les taux augmentent sensiblement plus que d'habitude (cycle électoral). Cet effet a été plus faible sur la mandature 2020-2026 que sur les précédentes.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-16",
+   "recto": "Que s'est-il passé pour les DMTO des départements en 2025 ?",
+   "verso": "Les droits de mutation à titre onéreux ont rebondi avec le retournement du marché immobilier et le relèvement du taux à 5 % par la plupart des départements, comme le permettait la loi de finances pour 2025.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-17",
+   "recto": "Qu'est-ce que la DGF, depuis quand, et quels sont ses deux objectifs ?",
+   "verso": "La dotation globale de fonctionnement, créée en 1979, regroupe en un concours unique et libre d'emploi des versements de l'État autrefois dispersés. Objectifs : des ressources stables et prévisibles, et un soutien particulier aux communes à fortes charges et faibles ressources (péréquation verticale).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-18",
+   "recto": "Quel est le montant de la DGF des communes en 2025, et son poids moyen dans leurs recettes de fonctionnement ?",
+   "verso": "12,8 milliards d'euros (174 euros par habitant en moyenne), soit 14 % des recettes de fonctionnement en moyenne. (DGF totale nationale : 27,2 milliards en 2024.)",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-19",
+   "recto": "De quoi se compose la DGF des communes, et quel est le poids de chaque partie ?",
+   "verso": "De la dotation forfaitaire (6,7 milliards en 2025, environ 52 %) et des dotations de péréquation (environ 48 %, contre 37 % en 2017) : DSU (communes urbaines), DSR (principalement communes de moins de 10 000 habitants), DNP.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-20",
+   "recto": "À quoi sert la dotation de solidarité rurale ? Quel montant en 2025 ?",
+   "verso": "À soutenir les communes rurales (principalement de moins de 10 000 habitants), en trois fractions dont la « bourg-centre » (793 millions pour les charges de centralité). Montant total 2,38 milliards d'euros en 2025.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-21",
+   "recto": "Qu'est-ce que l'écrêtement de la dotation forfaitaire ?",
+   "verso": "Une minoration qui finance, au sein d'une DGF répartie en enveloppe fermée, la progression d'autres composantes (la péréquation verticale) ; elle frappe la dotation forfaitaire des communes et la dotation de compensation des EPCI, et est calculée selon la population et le potentiel fiscal.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-22",
+   "recto": "Qui est le comité des finances locales (CFL) ?",
+   "verso": "Une instance de concertation entre l'État et les collectivités depuis 1979 : 43 membres dont 15 maires élus pour trois ans. Il contrôle la répartition de la DGF, peut relever les dotations de péréquation et rend un avis sur les décrets.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-23",
+   "recto": "Quand la DGF est-elle connue des collectivités, et que se passe-t-il en cas de retard ?",
+   "verso": "Les montants doivent être publiés avant le 31 mars ; en cas de retard, la date limite d'adoption des budgets est décalée d'autant de jours. La notification juridique se fait par un arrêté unique fin mai ou juin, qui ouvre le droit au recours.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  },
+  {
+   "id": "b03-recettes-locales-24",
+   "recto": "Quelle contribution les collectivités ont-elles apportée au redressement des finances publiques (Cour des comptes, juillet 2026) ?",
+   "verso": "4,3 milliards d'euros nets en 2025 (effet de trésorerie de 1,7 milliard) ; 3,5 milliards prévus en 2026 (2,4 milliards en trésorerie). La Cour recommande d'éteindre le DILICO, de créer des fonds de réserve par niveau et de répartir les transferts de l'État (TVA, DGF) selon des critères péréquateurs.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "DGCL : Guide du maire 2026, chapitre 5, Gérer votre budget",
+     "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/Chapitre%205_DGCL_Guide-du-Maire_2026.pdf"
+    },
+    {
+     "titre": "Cour des comptes : Les finances publiques locales, résultats 2025 et perspectives 2026 (juillet 2026)",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+    },
+    {
+     "titre": "Wikipédia : Finances locales en France",
+     "url": "https://fr.wikipedia.org/wiki/Finances_locales_en_France"
+    },
+    {
+     "titre": "Wikipédia : Cotisation sur la valeur ajoutée des entreprises",
+     "url": "https://fr.wikipedia.org/wiki/Cotisation_sur_la_valeur_ajoutée_des_entreprises"
+    },
+    {
+     "titre": "Conseil constitutionnel : Constitution (article 72-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    }
+   ],
+   "revu": "2026-10-11"
+  }
+ ]
+}

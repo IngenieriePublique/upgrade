@@ -18,7 +18,12 @@ ESC = re.compile(rb"\\([nrtbf()\\]|[0-7]{1,3})")
 def _decode(b):
     def sub(m):
         g = m.group(1)
-        return {b"n": b"\n", b"r": b"\r", b"t": b"\t", b"b": b"\b", b"f": b"\f"}.get(g, g if g in (b"(", b")", b"\\") else bytes([int(g, 8) & 255]))
+        simples = {b"n": b"\n", b"r": b"\r", b"t": b"\t", b"b": b"\b", b"f": b"\f"}
+        if g in simples:
+            return simples[g]
+        if g in (b"(", b")", b"\\"):
+            return g
+        return bytes([int(g, 8) & 255])
     return ESC.sub(sub, b).decode("cp1252", errors="replace")
 
 

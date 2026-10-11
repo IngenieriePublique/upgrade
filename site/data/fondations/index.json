@@ -121,6 +121,30 @@
    "perissable": true,
    "revu": "2026-10-11",
    "fichier": "b01-lolf-lois-de-finances.json"
+  },
+  {
+   "id": "b02-budget-local",
+   "parcours": "B",
+   "ordre": 2,
+   "titre": "Le budget d'une collectivité : sections, principes, calendrier, M57",
+   "accroche": "Lire un budget local (fonctionnement, investissement, équilibre réel, DOB, compte financier unique) est la base de toute analyse financière : sans elle, un rapport de la chambre régionale des comptes reste illisible.",
+   "duree_min": 120,
+   "nombre_cartes": 21,
+   "perissable": true,
+   "revu": "2026-10-11",
+   "fichier": "b02-budget-local.json"
+  },
+  {
+   "id": "b03-recettes-locales",
+   "parcours": "B",
+   "ordre": 3,
+   "titre": "Les recettes locales : fiscalité, TVA, DGF et péréquation",
+   "accroche": "Une évaluation de politique locale ne vaut rien si l'on ignore d'où vient l'argent : taux votés, impôts dont la collectivité a perdu le pouvoir, dotations de l'État, péréquation. Ce kit donne le panier de recettes à jour.",
+   "duree_min": 120,
+   "nombre_cartes": 24,
+   "perissable": true,
+   "revu": "2026-10-11",
+   "fichier": "b03-recettes-locales.json"
   }
  ]
 }
