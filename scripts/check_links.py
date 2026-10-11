@@ -17,7 +17,7 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (UpgradeBot/0.1; projet personnel)", "Accept-Language": "fr"}
-A_LA_MAIN = ("ademe.fr", "prefectures-regions.gouv.fr", "cnfpt.fr", "legifrance.gouv.fr", "u-bordeaux.fr")
+A_LA_MAIN = ("ademe.fr", "oecd.org", "europa.eu", "prefectures-regions.gouv.fr", "cnfpt.fr", "legifrance.gouv.fr", "u-bordeaux.fr")
 
 
 def urls_de(obj):

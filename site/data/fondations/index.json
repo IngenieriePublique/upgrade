@@ -265,6 +265,42 @@
    "perissable": false,
    "revu": "2026-10-12",
    "fichier": "c08-conduire-evaluation.json"
+  },
+  {
+   "id": "d01-union-europeenne",
+   "parcours": "D",
+   "ordre": 1,
+   "titre": "L'Union européenne : dates clés, institutions et manière de décider",
+   "accroche": "Les fonds, les normes et le droit que l'on évalue ou applique dans les territoires viennent largement de Bruxelles. Savoir dater les traités et distinguer Conseil européen, Conseil de l'UE et Commission évite les confusions les plus fréquentes en entretien.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "d01-union-europeenne.json"
+  },
+  {
+   "id": "e01-action-publique",
+   "parcours": "E",
+   "ordre": 1,
+   "titre": "Penser l'action publique : de la politique publique à la gouvernance, de Lipsky aux données",
+   "accroche": "Une politique ne se réduit pas à la décision d'en haut : elle se transforme en route, dans les guichets et dans les territoires. Quelques notions de sociologie politique donnent à un évaluateur le vocabulaire pour dire pourquoi.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "e01-action-publique.json"
+  },
+  {
+   "id": "f01-entrer-fonction-publique-territoriale",
+   "parcours": "F",
+   "ordre": 1,
+   "titre": "Entrer dans la fonction publique territoriale : statut, concours d'attaché et contrats",
+   "accroche": "Concours ou contrat ? Pour viser un poste de chargé de mission dans une collectivité, il faut connaître les cadres d'emplois, les trois voies du concours d'attaché et les règles des contrats, pour choisir sa stratégie en connaissance de cause.",
+   "duree_min": 90,
+   "nombre_cartes": 15,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "f01-entrer-fonction-publique-territoriale.json"
   }
  ]
 }

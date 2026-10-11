@@ -1,0 +1,71 @@
+{
+  "id": "e01-action-publique",
+  "parcours": "E",
+  "ordre": 1,
+  "titre": "Penser l'action publique : de la politique publique à la gouvernance, de Lipsky aux données",
+  "accroche": "Une politique ne se réduit pas à la décision d'en haut : elle se transforme en route, dans les guichets et dans les territoires. Quelques notions de sociologie politique donnent à un évaluateur le vocabulaire pour dire pourquoi.",
+  "duree_min": 90,
+  "perissable": false,
+  "perissable_note": "Notions stables de science politique et de sociologie de l'action publique, présentées d'après une synthèse encyclopédique complétée par un article sur la street-level bureaucracy. Les approches sont débattues ; ce kit en donne des repères, pas un état de l'art.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Qu'est-ce qu'une politique publique ?",
+      "paragraphes": [
+        "Une politique publique est une intervention de l'État ou d'une autre autorité publique (banque centrale, collectivité territoriale) destinée à avoir un effet sur la société ou un territoire : c'est la modalité d'action de la puissance publique. Jean-Claude Thoenig la définit comme l'intervention d'une autorité investie de puissance publique et de légitimité gouvernementale sur un domaine spécifique de la société ou du territoire. On peut aussi la décrire comme un ensemble d'actions coordonnées, réalisées par une puissance publique, pour obtenir la modification ou l'évolution d'une situation donnée.",
+        "Le sens varie selon la discipline. La sociologie politique l'analyse par ses acteurs, les étapes de sa mise en place et ses conséquences (on parle alors de sociologie de l'action publique) ; la science administrative cherche à l'évaluer selon sa capacité à atteindre les objectifs fixés et l'efficacité des moyens ; l'économie considère, avec Pigou et Coase, qu'une intervention est légitime quand il y a défaillance de marché et que ses coûts sont inférieurs aux avantages pour la société. Les domaines sont variés : infrastructure, santé, famille, logement, emploi, formation, recherche, fonction publique.",
+        "L'idée de politique publique n'a pas toujours eu le même sens. En France, des années 1950 aux années 1960-1970, on l'étudiait comme une intervention émanant de l'État seul, selon une approche « volontariste » ou « décisionniste » : le décideur serait un tireur qui atteint une cible en mobilisant les ressources de l'État. Cette métaphore a été critiquée pour quatre raisons : elle idéalise une conception logique et rationnelle, néglige l'étape de réalisation, se focalise sur les décideurs alors que les phénomènes sont des constructions collectives, et oublie les intervenants extérieurs à l'État."
+      ]
+    },
+    {
+      "titre": "L'action publique : acteurs, mise en œuvre, gouvernance",
+      "paragraphes": [
+        "Les approches sociologiques (corporatisme sectoriel de Bruno Jobert et Pierre Muller, pluralisme, néocorporatisme) montrent que les politiques sectorielles se construisent entre l'État et des groupes organisés. Pierre Muller et Bruno Jobert distinguent un référentiel global (le rôle de l'État dans la société) et des référentiels sectoriels (les missions propres à chaque politique). À partir des années 1960, des centres français de sociologie, dont le Centre d'étude et de recherche sur la vie locale de Bordeaux, étudient le fonctionnement concret de l'administration et insistent sur le rôle des collectivités locales dans la mise en œuvre.",
+        "Dans les années 1980-1990, la perte de centralité de l'État (moindre capacité à diriger l'économie, fragmentation des sociétés, espaces politiques supranationaux) conduit à parler d'action publique plutôt que de politique publique : un enchevêtrement de structures nationales, européennes et locales, où l'État perd du pouvoir coercitif mais gagne en capacité de régulation et de mobilisation des acteurs et des ressources. Certains décrivent le passage d'une logique de gouvernement, pyramidale et hiérarchisée, à une logique de gouvernance, où les acteurs se coordonnent pour atteindre des buts négociés collectivement. La politique de la ville, développée à partir des années 1990 sous l'égide de l'État avec les collectivités, en est un exemple de politique ancrée dans le local.",
+        "Le sociologue américain Michael Lipsky a, avec la « street-level bureaucracy » (1969, puis 1980), renouvelé l'étude de la mise en œuvre. Les fonctionnaires de première ligne (policiers, enseignants, travailleurs sociaux, agents d'accueil) sont en contact direct avec les usagers et disposent d'un pouvoir discrétionnaire. Ils devraient répondre aux besoins individuels mais doivent, en pratique, traiter les usagers collectivement, car les exigences du travail interdisent les réponses individualisées. Cette approche remet en cause la vision descendante (top-down) : les décideurs au sommet éclipsent les stratagèmes que les agents de terrain inventent pour appliquer la politique. En France, ces études se sont développées au début des années 1990, avec l'essor du nouveau management public."
+      ]
+    },
+    {
+      "titre": "Politiques fondées sur les données : promesses et limites",
+      "paragraphes": [
+        "Une politique axée sur les données (data-driven policy) ou fondée sur les preuves (evidence-based policy) est conçue sur la base de données existantes, de preuves et d'une analyse rationnelle, avec l'appui des technologies de l'information pour cerner les problèmes et dégager des solutions efficaces. Elle suppose des compétences techniques, des moyens financiers et humains que les collectivités ne possèdent pas toujours, et une intégration dans les processus de travail existants, avec formation des agents.",
+        "Les limites sont réelles. Chaque donnée est produite dans un but spécifique, par un acteur précis, à un endroit et à un moment précis : elle se transpose mal. Selon Antoine Courmont (chaire Villes et numériques de Sciences Po), les principaux freins à la réutilisation sont l'absence, dans le jeu de données initial, des informations nécessaires, l'échelle initiale de la donnée, qui correspond au périmètre de compétence de l'institution, et l'absence d'uniformité des données. Enfin toute donnée est « réductionniste » : choisir de mesurer un fait, c'est choisir de s'y concentrer. Pour un évaluateur, c'est la raison de combiner chiffres et enquêtes de terrain, et de lire un indicateur comme une approximation et non comme une vérité."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Wikipédia, « Street-level bureaucracy » (article sur Michael Lipsky et la mise en œuvre)",
+    "url": "https://fr.wikipedia.org/wiki/Street-level_bureaucracy",
+    "type": "article de référence (licence CC BY-SA)",
+    "duree": "30 min",
+    "pourquoi": "Lis l'article, puis choisis un guichet que tu connais (mairie, France Travail, accueil d'un conseil départemental) et décris trois arrangements que les agents font pour appliquer une règle à des usagers très différents. C'est un excellent matériau pour un entretien d'information."
+  },
+  "debat": [
+    "Les agents de première ligne appliquent-ils la politique décidée en haut, ou la font-ils réellement en l'interprétant ?",
+    "La gouvernance en réseau remplace-t-elle le gouvernement par l'État, ou cache-t-elle simplement une perte de responsabilité politique ?",
+    "Une politique fondée sur les données est-elle forcément plus rationnelle, ou seulement plus chiffrée ?"
+  ],
+  "sources": [
+    {"titre": "Wikipédia : Politique publique", "url": "https://fr.wikipedia.org/wiki/Politique_publique"},
+    {"titre": "Wikipédia : Street-level bureaucracy", "url": "https://fr.wikipedia.org/wiki/Street-level_bureaucracy"},
+    {"titre": "Wikipédia : Michael Lipsky", "url": "https://fr.wikipedia.org/wiki/Michael_Lipsky"}
+  ],
+  "cartes": [
+    {"id": "e01-action-publique-01", "recto": "Qu'est-ce qu'une politique publique ?", "verso": "Une intervention de l'État ou d'une autre autorité publique (collectivité, banque centrale) pour avoir un effet sur la société ou un territoire.", "perissable": false},
+    {"id": "e01-action-publique-02", "recto": "Définition de Jean-Claude Thoenig.", "verso": "Les interventions d'une autorité investie de puissance publique et de légitimité gouvernementale sur un domaine spécifique de la société ou du territoire.", "perissable": false},
+    {"id": "e01-action-publique-03", "recto": "Que fait la sociologie de l'action publique ?", "verso": "Elle analyse une politique par ses acteurs, les étapes de sa mise en place et ses conséquences.", "perissable": false},
+    {"id": "e01-action-publique-04", "recto": "Quel critère de légitimité d'une politique publique Pigou et Coase proposent-ils ?", "verso": "Une défaillance de marché, et des coûts de l'intervention inférieurs aux avantages qu'elle procure à la société.", "perissable": false},
+    {"id": "e01-action-publique-05", "recto": "Qu'est-ce que la métaphore du « tireur » ?", "verso": "L'approche décisionniste : le décideur atteint une cible en mobilisant les ressources de l'État.", "perissable": false},
+    {"id": "e01-action-publique-06", "recto": "Quatre critiques de l'approche décisionniste.", "verso": "Elle idéalise une rationalité logique, néglige la réalisation, se focalise sur les décideurs au lieu des constructions collectives, oublie les intervenants extérieurs à l'État.", "perissable": false},
+    {"id": "e01-action-publique-07", "recto": "Référentiel global et référentiel sectoriel (Jobert et Muller).", "verso": "Global : le rôle de l'État dans la société. Sectoriel : les missions propres à chaque politique publique.", "perissable": false},
+    {"id": "e01-action-publique-08", "recto": "Pourquoi parle-t-on d'action publique plutôt que de politique publique ?", "verso": "Parce que l'État a perdu sa centralité : les politiques s'inscrivent dans un enchevêtrement de structures nationales, européennes et locales, où l'État régule et mobilise plus qu'il ne commande.", "perissable": false},
+    {"id": "e01-action-publique-09", "recto": "Gouvernement et gouvernance : différence.", "verso": "Gouvernement : organisation pyramidale et hiérarchisée. Gouvernance : les acteurs se coordonnent pour atteindre des buts négociés collectivement.", "perissable": false},
+    {"id": "e01-action-publique-10", "recto": "Qu'est-ce qu'un « street-level bureaucrat » ?", "verso": "Un fonctionnaire de première ligne en contact quotidien avec les usagers (policier, enseignant, travailleur social, agent d'accueil), qui exerce un pouvoir discrétionnaire.", "perissable": false},
+    {"id": "e01-action-publique-11", "recto": "Qui est Michael Lipsky et quelles sont ses œuvres clés ?", "verso": "Politiste américain ; « Toward a theory of street-level bureaucracy » (1969) et « Street-Level Bureaucracy: Dilemmas of the Individual in Public Services » (1980).", "perissable": false},
+    {"id": "e01-action-publique-12", "recto": "Quelle tension Lipsky identifie-t-il chez les agents de première ligne ?", "verso": "Ils devraient répondre aux besoins individuels mais doivent traiter les usagers collectivement, car les exigences du travail interdisent les réponses individualisées.", "perissable": false},
+    {"id": "e01-action-publique-13", "recto": "Approche descendante (top-down) et ce que lui oppose Lipsky.", "verso": "Dans le top-down, la politique se décide au sommet et s'applique ; Lipsky place les agents de terrain au cœur de l'analyse, car leurs pratiques réinventent la mise en œuvre.", "perissable": false},
+    {"id": "e01-action-publique-14", "recto": "Qu'est-ce qu'une politique fondée sur les preuves ou les données ?", "verso": "Une politique conçue à partir de données existantes, de preuves et d'une analyse rationnelle, avec l'appui des technologies de l'information.", "perissable": false},
+    {"id": "e01-action-publique-15", "recto": "Pourquoi toute donnée est-elle « réductionniste » ?", "verso": "Choisir de mesurer un fait, c'est choisir de s'y concentrer : la donnée ne donne qu'une vision limitée et orientée du problème.", "perissable": false},
+    {"id": "e01-action-publique-16", "recto": "Trois freins à la réutilisation des données selon Antoine Courmont.", "verso": "L'absence des informations nécessaires dans le jeu initial, l'échelle initiale (le périmètre de compétence de l'institution), l'absence d'uniformité des données.", "perissable": false}
+  ]
+}

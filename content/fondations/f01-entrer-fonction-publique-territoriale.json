@@ -1,0 +1,73 @@
+{
+  "id": "f01-entrer-fonction-publique-territoriale",
+  "parcours": "F",
+  "ordre": 1,
+  "titre": "Entrer dans la fonction publique territoriale : statut, concours d'attaché et contrats",
+  "accroche": "Concours ou contrat ? Pour viser un poste de chargé de mission dans une collectivité, il faut connaître les cadres d'emplois, les trois voies du concours d'attaché et les règles des contrats, pour choisir sa stratégie en connaissance de cause.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "Statuts et règles de recrutement : synthèses de Wikipédia et guides des centres de gestion de la Gironde (conditions d'accès 2026, recrutement des agents contractuels, avril 2023). Les épreuves, durées et dates changent à chaque session : les revérifier dans l'avis d'ouverture du centre de gestion avant toute inscription.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Trois fonctions publiques, un statut",
+      "paragraphes": [
+        "La fonction publique française comprend la fonction publique de l'État (FPE), la fonction publique territoriale (FPT, qui rassemble les agents des régions, départements, communes et intercommunalités, y compris syndicats) et la fonction publique hospitalière (FPH). Le code général de la fonction publique (CGFP), dont la codification a été autorisée par la loi de transformation de la fonction publique du 6 août 2019, rassemble l'ensemble des règles applicables.",
+        "Dans la FPT, les fonctionnaires sont regroupés en cadres d'emplois : des fonctionnaires qui exercent des missions de même nature, avec un niveau de responsabilité comparable et des règles statutaires communes. Chaque cadre d'emplois est créé par un décret en Conseil d'État portant statut particulier et il structure la carrière. Le cadre d'emplois des attachés territoriaux est de catégorie A, celui des cadres. Il comporte les grades d'attaché, attaché principal, directeur territorial (en voie d'extinction) et attaché hors classe, avec des missions très variées : administration générale (ressources humaines, finances, marchés publics), action sanitaire et sociale, informatique, animation.",
+        "Le concours est la principale procédure de recrutement dans la fonction publique : il répond à l'article 6 de la Déclaration des droits de l'homme de 1789, selon lequel tous les citoyens sont également admissibles aux emplois publics selon leur capacité, sans autre distinction que celle de leurs vertus et de leurs talents. Les concours sont soumis à des conditions de publicité et de transparence."
+      ]
+    },
+    {
+      "titre": "Le concours d'attaché territorial : trois voies, cinq spécialités",
+      "paragraphes": [
+        "Les concours d'accès au cadre d'emplois des attachés comprennent un concours externe, un concours interne et un troisième concours, chacun avec une ou plusieurs des cinq spécialités : administration générale, gestion du secteur sanitaire et social, analyste, animation, et urbanisme et développement des territoires. Le candidat choisit sa spécialité à l'inscription. Selon le centre de gestion de la Gironde, le concours externe est ouvert aux titulaires d'une licence, ou d'un diplôme classé au moins au niveau 6 (master compris), ou d'une qualification reconnue équivalente ; le concours interne s'adresse aux fonctionnaires et agents des collectivités, de l'État et de leurs établissements publics, et le troisième concours à des candidats justifiant d'activités antérieures dans les conditions que fixe le statut particulier (à lire dans l'avis d'ouverture).",
+        "L'organisation des concours est assurée par les centres de gestion depuis 2007 : l'ouverture est arrêtée par le président du centre, publiée au Journal officiel au moins deux mois avant la date limite d'inscription. Depuis la réforme de 2010, le concours est plus professionnalisé : l'épreuve de culture générale porte sur le milieu territorial et les problèmes des collectivités, la note de synthèse demeure et porte sur la spécialité, et l'oral privilégie les mises en situation professionnelle. Pour la session 2026, l'arrêté d'ouverture des concours de la Gironde couvre les centres de gestion de Nouvelle-Aquitaine ; les épreuves écrites de la session sont annoncées au 19 novembre 2026 : les inscriptions 2026 sont closes, il faut donc viser la session suivante.",
+        "Être admis ne vaut pas recrutement. Le lauréat est inscrit sur une liste d'aptitude, de valeur nationale, pour trois ans (avec une démarche à faire pour être maintenu) ; il doit ensuite être nommé stagiaire par une collectivité qui publie un poste, ce qui suppose de candidater et de passer des entretiens. Le concours attire des candidats très diplômés, d'un niveau désormais équivalent à celui des instituts régionaux d'administration, et beaucoup de préparationnaires passent en parallèle les deux. À côté, certains cadres d'emplois techniques (ingénieurs, urbanistes) ont leurs propres concours."
+      ]
+    },
+    {
+      "titre": "Le contrat : une porte d'entrée fréquente",
+      "paragraphes": [
+        "Les collectivités peuvent recruter des contractuels dans des cas encadrés par le CGFP. Pour des besoins permanents (article L332-8), le contrat dure trois ans au plus, renouvelable dans la limite de six ans ; au-delà, le contrat est renouvelé pour une durée indéterminée. À partir de six ans de services publics sur des fonctions de la même catégorie hiérarchique, l'employeur doit proposer un CDI, mais le décompte exige de rester chez le même employeur avec des interruptions de moins de quatre mois, d'après les guides des centres de gestion. Un contrat de projet (article L332-24 et suivants) est un contrat à durée déterminée dont le terme est la réalisation d'un projet ou d'une opération déterminée ; il est ouvert aux catégories A, B et C, d'un an renouvelable dans la limite de six ans.",
+        "Pour une personne qui veut évaluer des politiques, ces contrats correspondent aux postes de chargé de mission, de chargé d'évaluation ou de chargé de mission contractualisation, qui sont souvent ouverts aux contractuels de catégorie A. L'arbitrage entre concours et contrat dépend de la stabilité recherchée, de la mobilité entre collectivités (le statut la facilite) et du rythme des concours. La note de décision de la phase « sprint candidature » de ce site est faite pour cela : on choisit après avoir parlé à des agents des deux types, pas avant."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Centre de gestion de la Gironde, « Les cas de recrutement des agents contractuels » et conditions d'accès aux concours 2026",
+    "url": "https://www.cdg33.fr/wp-content/uploads/ressources/20230427_web._recrutement-agents-contractuels.pdf",
+    "type": "guide pratique d'un centre de gestion (PDF)",
+    "duree": "30 min",
+    "pourquoi": "Lis le tableau des cas de recrutement (durées, renouvellements, catégories) et repère ceux qui correspondent à un poste de chargé de mission ; consulte aussi le site du centre de gestion de ta région pour le calendrier du prochain concours d'attaché."
+  },
+  "debat": [
+    "Le concours garantit-il l'égalité d'accès aux emplois publics, ou favorise-t-il les candidats les mieux préparés et les plus diplômés ?",
+    "La montée des contrats dans la fonction publique territoriale affaiblit-elle le statut ou le complète-t-elle utilement ?",
+    "Un chargé de mission qui évalue la politique de sa propre collectivité peut-il rester libre de ses jugements s'il est contractuel et renouvelé chaque année ?"
+  ],
+  "sources": [
+    {"titre": "Wikipédia : Attachés territoriaux", "url": "https://fr.wikipedia.org/wiki/Attach%C3%A9s_territoriaux"},
+    {"titre": "Wikipédia : Cadre d'emplois", "url": "https://fr.wikipedia.org/wiki/Cadre_d%27emplois"},
+    {"titre": "Wikipédia : Fonction publique française", "url": "https://fr.wikipedia.org/wiki/Fonction_publique_fran%C3%A7aise"},
+    {"titre": "Wikipédia : Concours administratif en France", "url": "https://fr.wikipedia.org/wiki/Concours_administratif_en_France"},
+    {"titre": "Centre de gestion de la Gironde : Conditions d'accès aux concours 2026", "url": "https://cdg33.fr/wp-content/uploads/ressources/20241015_-Conditions-dacces_-2026.pdf"},
+    {"titre": "Centre de gestion de la Gironde : Le recrutement des agents contractuels (avril 2023)", "url": "https://www.cdg33.fr/wp-content/uploads/ressources/20230427_web._recrutement-agents-contractuels.pdf"}
+  ],
+  "cartes": [
+    {"id": "f01-entrer-fonction-publique-territoriale-01", "recto": "Les trois fonctions publiques.", "verso": "État (FPE), territoriale (FPT : régions, départements, communes, intercommunalités et syndicats), hospitalière (FPH).", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-02", "recto": "Qu'est-ce que le CGFP ?", "verso": "Le code général de la fonction publique, qui rassemble l'ensemble des règles applicables ; sa codification a été autorisée par la loi de transformation de la fonction publique du 6 août 2019.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-03", "recto": "Qu'est-ce qu'un cadre d'emplois ?", "verso": "Un ensemble de fonctionnaires territoriaux exerçant des missions de même nature, avec un niveau de responsabilité comparable et des règles statutaires communes ; créé par décret en Conseil d'État.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-04", "recto": "Catégorie et grades des attachés territoriaux.", "verso": "Catégorie A (cadres) ; grades : attaché, attaché principal, directeur territorial (en voie d'extinction), attaché hors classe.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-05", "recto": "Pourquoi le concours est-il la voie normale de recrutement ?", "verso": "Il garantit l'égalité de traitement des candidats et répond à l'article 6 de la DDHC de 1789 (égale admissibilité aux emplois publics selon la capacité).", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-06", "recto": "Les trois voies du concours d'attaché territorial.", "verso": "Concours externe, concours interne, troisième concours.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-07", "recto": "Les cinq spécialités du concours d'attaché.", "verso": "Administration générale ; gestion du secteur sanitaire et social ; analyste ; animation ; urbanisme et développement des territoires.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-08", "recto": "Condition de diplôme du concours externe d'attaché.", "verso": "Licence ou diplôme de niveau 6 minimum (ou qualification équivalente reconnue) ; un master convient.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-09", "recto": "À qui s'adresse le concours interne ?", "verso": "Aux fonctionnaires et agents des collectivités territoriales, de l'État et de leurs établissements publics.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-10", "recto": "Qui organise les concours d'attaché territorial depuis 2007 ?", "verso": "Les centres de gestion (avant : le Centre national de la fonction publique territoriale).", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-11", "recto": "Qu'a changé la réforme de 2010 du concours d'attaché ?", "verso": "Plus de professionnalisation : culture générale sur le milieu territorial, suppression des épreuves techniques, note de synthèse sur la spécialité, oral par mises en situation professionnelle.", "perissable": true},
+    {"id": "f01-entrer-fonction-publique-territoriale-12", "recto": "Être lauréat du concours vaut-il recrutement ?", "verso": "Non : on est inscrit sur une liste d'aptitude de valeur nationale, pour trois ans, puis il faut être nommé stagiaire par une collectivité.", "perissable": false},
+    {"id": "f01-entrer-fonction-publique-territoriale-13", "recto": "Contrat pour besoins permanents (L332-8) : durée.", "verso": "Trois ans au plus, renouvelable dans la limite de six ans ; au-delà, contrat à durée indéterminée.", "perissable": true},
+    {"id": "f01-entrer-fonction-publique-territoriale-14", "recto": "Quand l'employeur doit-il proposer un CDI ?", "verso": "À partir de six ans de services publics sur des fonctions de la même catégorie hiérarchique, chez le même employeur, avec des interruptions de moins de quatre mois.", "perissable": true},
+    {"id": "f01-entrer-fonction-publique-territoriale-15", "recto": "Qu'est-ce qu'un contrat de projet ?", "verso": "Un CDD dont le terme est la réalisation d'un projet ou d'une opération déterminée, ouvert aux catégories A, B et C, d'un an renouvelable jusqu'à six ans.", "perissable": true}
+  ]
+}

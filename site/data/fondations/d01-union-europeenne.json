@@ -1,0 +1,400 @@
+{
+ "id": "d01-union-europeenne",
+ "parcours": "D",
+ "ordre": 1,
+ "titre": "L'Union européenne : dates clés, institutions et manière de décider",
+ "accroche": "Les fonds, les normes et le droit que l'on évalue ou applique dans les territoires viennent largement de Bruxelles. Savoir dater les traités et distinguer Conseil européen, Conseil de l'UE et Commission évite les confusions les plus fréquentes en entretien.",
+ "duree_min": 90,
+ "perissable": true,
+ "perissable_note": "Dates et traités sont stables. Le nombre d'États membres (27 depuis 2020) et les perspectives d'élargissement évoluent ; les compositions de la Commission et du Parlement changent à chaque mandat (non traitées ici). Revu le 2026-10-12.",
+ "revu": "2026-10-12",
+ "fiche": [
+  {
+   "titre": "Une construction par étapes (1950-2020)",
+   "paragraphes": [
+    "La déclaration du 9 mai 1950 de Robert Schuman, alors ministre français des Affaires étrangères, est considérée comme le texte fondateur de la construction européenne. En 1951, six États (France, Allemagne de l'Ouest, Italie, Belgique, Pays-Bas, Luxembourg) créent par le traité de Paris la Communauté européenne du charbon et de l'acier (CECA). Après l'échec de la Communauté européenne de défense, rejetée en 1954 par le Parlement français, la Communauté économique européenne (CEE) est instaurée en 1957 par le traité de Rome.",
+    "Les élargissements se succèdent : le Danemark, l'Irlande et le Royaume-Uni en 1973, la Grèce en 1981, l'Espagne et le Portugal en 1986, l'Autriche, la Finlande et la Suède en 1995, puis plusieurs vagues vers l'Est. La Croatie devient en 2013 le 28e État membre ; après la sortie du Royaume-Uni, effective à minuit le 31 janvier 2020, l'Union compte 27 États. Le traité de Maastricht, signé le 7 février 1992 et entré en vigueur le 1er novembre 1993, crée officiellement l'« Union européenne » et établit des règles pour la future monnaie unique, la politique étrangère et de sécurité et la coopération en justice et affaires intérieures. En 1993 est lancé le marché unique et ses quatre libertés : circulation des personnes, des biens, des services et des capitaux.",
+    "L'accord de Schengen prend effet en 1995 entre sept pays, dont la France. Le traité d'Amsterdam suit en 1999. Après le refus par référendum des Français et des Néerlandais du projet de constitution européenne, les institutions sont réformées par le traité de Lisbonne, entré en vigueur le 1er décembre 2009 : l'Union est depuis régie par le traité sur l'Union européenne (dit de Maastricht) et le traité sur le fonctionnement de l'Union européenne (dit de Rome), dans leur version actuelle. L'Union reçoit le prix Nobel de la paix le 12 octobre 2012, pour sa contribution à la paix, à la réconciliation, à la démocratie et aux droits de l'Homme en Europe."
+   ]
+  },
+  {
+   "titre": "Les institutions : qui fait quoi",
+   "paragraphes": [
+    "L'Union est dotée de sept institutions principales. Le Conseil européen réunit les chefs d'État et de gouvernement ; il donne l'impulsion et fixe les grandes orientations ; son président est élu pour deux ans et demi. La Commission européenne est le moteur de l'Union : son président, élu par le Conseil européen pour cinq ans et approuvé par un vote du Parlement européen, nomme 27 commissaires, responsables devant le Parlement qui peut les censurer par un vote à la majorité des deux tiers.",
+    "Le Conseil de l'Union européenne, où se réunissent les ministres des États membres par portefeuille, représente les gouvernements ; sa présidence tourne tous les six mois. Le Parlement européen est co-législateur avec le Conseil et vote le budget ; ses membres sont élus directement tous les cinq ans. La Cour de justice de l'Union européenne garantit le respect du droit de l'Union et l'uniformité de son interprétation. La Cour des comptes européenne contrôle l'usage correct et légal du budget de l'Union, et la Banque centrale européenne est responsable de la politique monétaire et de l'euro.",
+    "Parmi les autres organes, le Comité européen des régions est consultatif : il est composé d'élus et de responsables territoriaux et s'exprime sur les politiques qui concernent directement les autorités locales et régionales, ce qui en fait un lieu naturel de rencontre pour un chargé de mission territorial. La Banque européenne d'investissement finance des projets d'investissement, et le médiateur européen traite les plaintes des citoyens contre la mauvaise administration des institutions."
+   ]
+  },
+  {
+   "titre": "Comment l'Union décide, et ce qui touche les territoires",
+   "paragraphes": [
+    "Deux principes guident les décisions depuis Maastricht : la subsidiarité (l'Union n'agit que si les États ne peuvent pas atteindre les objectifs aussi bien par eux-mêmes) et la proportionnalité (privilégier les moyens d'action les moins contraignants pour les États). Dans les domaines où l'Union a des compétences propres, la Commission propose un règlement ou une directive ; le Conseil de l'Union et le Parlement européen l'adoptent ou le rejettent ; les États transposent, et la Cour de justice vérifie les transpositions. Le règlement s'applique directement ; la directive, moins contraignante, fixe des objectifs que chaque État traduit dans son droit, ce qui explique les retards de transposition qu'on voit dans les rapports de la Cour des comptes.",
+    "Pour un évaluateur territorial, l'Union est présente de trois façons : par les fonds de la politique de cohésion (voir le kit sur les fonds européens), par l'obligation d'évaluer les programmes qu'elle finance, et par le droit (marchés publics, aides d'État, environnement) qui encadre les décisions des collectivités. Sa nature est débattue : elle n'est pas un État, car elle n'a pas de compétence générale ni de monopole de la violence légitime, mais elle a une monnaie commune et une citoyenneté ; on la qualifie souvent d'entité sui generis, de gouvernance à plusieurs niveaux."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "Union européenne, « Histoire de l'Union européenne » (portail officiel)",
+  "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr",
+  "type": "portail officiel, chronologie par décennie",
+  "duree": "40 min",
+  "pourquoi": "Lis les décennies 1990-1999 et 2010-2019, puis construis ta propre frise de douze dates (traités, élargissements, crises) à réviser avec les cartes ci-dessous."
+ },
+ "debat": [
+  "L'Union européenne est-elle plutôt une organisation de coopération entre États ou une fédération en formation ?",
+  "Le principe de subsidiarité protège-t-il vraiment les collectivités locales, ou sert-il surtout les États ?",
+  "Faut-il élargir l'Union à de nouveaux pays avant d'avoir réformé ses règles de décision ?"
+ ],
+ "sources": [
+  {
+   "titre": "Wikipédia : Union européenne",
+   "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+  },
+  {
+   "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+   "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+  },
+  {
+   "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+   "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "d01-union-europeenne-01",
+   "recto": "Quel texte est considéré comme fondateur de la construction européenne ?",
+   "verso": "La déclaration de Robert Schuman, ministre français des Affaires étrangères, le 9 mai 1950.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-02",
+   "recto": "En quelle année et par quel traité est créée la CECA, avec quels pays ?",
+   "verso": "En 1951 (traité de Paris) par la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-03",
+   "recto": "Quel traité de 1957 institue la CEE ?",
+   "verso": "Le traité de Rome.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-04",
+   "recto": "Pourquoi la Communauté européenne de défense échoue-t-elle ?",
+   "verso": "Le Parlement français rejette sa ratification le 30 août 1954 (opposition conjointe des gaullistes et des communistes).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-05",
+   "recto": "Élargissements de 1973, 1981, 1986 et 1995.",
+   "verso": "1973 : Danemark, Irlande, Royaume-Uni. 1981 : Grèce. 1986 : Espagne et Portugal. 1995 : Autriche, Finlande, Suède.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-06",
+   "recto": "Traité de Maastricht : dates et apport principal.",
+   "verso": "Signé le 7 février 1992, en vigueur le 1er novembre 1993 ; crée l'Union européenne et prépare la monnaie unique, la politique étrangère et de sécurité et la coopération justice-intérieur.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-07",
+   "recto": "Les quatre libertés du marché unique (1993).",
+   "verso": "Libre circulation des personnes, des biens, des services et des capitaux.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-08",
+   "recto": "Quand entre en vigueur le traité de Lisbonne et que change-t-il ?",
+   "verso": "Le 1er décembre 2009 ; l'Union est régie par le TUE (Maastricht) et le TFUE (Rome) dans leur version actuelle, et les institutions sont réformées.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-09",
+   "recto": "Date effective du Brexit et nombre d'États membres ensuite.",
+   "verso": "Minuit le 31 janvier 2020 ; l'Union compte 27 États.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-10",
+   "recto": "Quel est le 28e État membre et quand adhère-t-il ?",
+   "verso": "La Croatie, en 2013 (avant le Brexit, qui ramène à 27).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-11",
+   "recto": "Rôle du Conseil européen.",
+   "verso": "Réunit les chefs d'État et de gouvernement, donne l'impulsion et fixe les grandes orientations ; son président est élu pour deux ans et demi.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-12",
+   "recto": "Comment est désigné le président de la Commission européenne ?",
+   "verso": "Élu par le Conseil européen pour cinq ans et approuvé par un vote du Parlement européen, qui peut aussi censurer la Commission (deux tiers).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-13",
+   "recto": "Conseil européen ou Conseil de l'Union européenne : différence ?",
+   "verso": "Le Conseil européen réunit les chefs d'État et de gouvernement (orientations) ; le Conseil de l'Union réunit les ministres par portefeuille et légifère avec le Parlement.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-14",
+   "recto": "Rôle du Comité européen des régions.",
+   "verso": "Organe consultatif d'élus et responsables territoriaux, qui s'exprime sur les politiques concernant directement les autorités locales et régionales.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-15",
+   "recto": "Subsidiarité et proportionnalité : principes depuis Maastricht.",
+   "verso": "Subsidiarité : l'Union n'agit que si les États ne peuvent atteindre l'objectif aussi bien seuls. Proportionnalité : privilégier les moyens les moins contraignants.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "d01-union-europeenne-16",
+   "recto": "Règlement ou directive : différence ?",
+   "verso": "Le règlement s'applique directement ; la directive fixe des objectifs que chaque État transpose dans son droit (la Cour de justice vérifie les transpositions).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Wikipédia : Union européenne",
+     "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 1990-1999",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-1999_fr"
+    },
+    {
+     "titre": "Union européenne (portail officiel) : Histoire de l'Union européenne 2010-2019",
+     "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2010-2019_fr"
+    }
+   ],
+   "revu": "2026-10-12"
+  }
+ ]
+}
