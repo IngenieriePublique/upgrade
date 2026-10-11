@@ -1,0 +1,64 @@
+{
+  "id": "a06-contractualisation",
+  "parcours": "A",
+  "ordre": 6,
+  "titre": "La contractualisation État-collectivités : CPER, CPIER et CRTE",
+  "accroche": "Depuis 1982, l'État et les régions programment ensemble leurs grands investissements par contrat. Le CPER est le cadre le plus évalué de l'aménagement du territoire, et celui dont on te parlera dans un entretien avec un SGAR ou une région.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "Montants et état d'avancement : page du ministère de la Transition écologique (mise à jour le 25 avril 2023) et note du Sénat sur le projet de loi de finances pour 2026. Les engagements financiers évoluent chaque année ; revérifier avant de citer un chiffre en entretien.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Le contrat de plan État-région en bref",
+      "paragraphes": [
+        "Un contrat de plan État-région (CPER) est le document par lequel l'État et une région s'engagent sur la programmation et le financement pluriannuels de projets importants d'aménagement du territoire : infrastructures, soutien à des filières d'avenir, enseignement supérieur. Il vient de la loi du 29 juillet 1982 portant réforme de la planification, due à Michel Rocard. Conçu à l'origine pour assurer la cohérence entre le plan national et le plan de chaque région, il a gagné son autonomie et a fini par déterminer lui-même le contenu des plans de région, à cause de l'importance des montants en jeu ; plan national et plans de région ont disparu au cours des années 1990.",
+        "Les CPER sont élaborés simultanément pour toutes les régions et ont une durée identique : sept générations se sont succédé. En 2006, ils sont devenus « contrats de projets » (génération 2007-2013) avec un contenu restreint, et leur durée de sept ans a été calée sur celle des fonds européens (FEDER, FSE). La dénomination CPER est revenue en 2014 (génération 2015-2020). La génération 2021-2027 est la septième, articulée avec les contrats de relance et de transition écologique (CRTE). Pour la génération 2015-2020, l'État a contractualisé 13,7 milliards d'euros pour les CPER hexagonaux, hors crédits de l'ANRU, avec un taux d'engagement des autorisations d'engagement de 93 % selon la note du Sénat sur le projet de loi de finances pour 2026.",
+        "Les contrats de plan interrégionaux (CPIER) de fleuve ou de massif sont signés à l'échelle d'un massif montagneux ou d'un bassin hydrographique : ils assurent la cohérence au-delà des frontières régionales et traitent des enjeux propres (prévention des inondations, prédateurs comme le loup, l'ours ou le lynx). L'évaluation des CPER a commencé dès 1993, pour la période 1994-1998, et elle est devenue une exigence pour toutes les contractualisations ; les conseils régionaux sont ainsi devenus des acteurs majeurs de l'évaluation."
+      ]
+    },
+    {
+      "titre": "La génération 2021-2027 et les CRTE",
+      "paragraphes": [
+        "Selon le ministère de la Transition écologique, la génération 2021-2027 repose sur quatre principes : une démarche ascendante partant des attentes des territoires ; un périmètre élargi à de nouvelles thématiques (santé, agriculture, sports, éducation et jeunesse, égalité femmes-hommes, mer et littoral) pour accompagner les transitions écologique, numérique, productive et démographique ; la différenciation territoriale, avec des contenus différents selon les enjeux régionaux ; une articulation étroite avec les fonds européens 2021-2027 et le plan de relance 2021-2022.",
+        "Sur les 28 milliards d'euros que l'État devait mobiliser dans les CPER 2021-2027, 8,6 milliards de crédits régionalisés du plan de relance avaient vocation à alimenter le volet relance. L'accord de partenariat signé le 28 septembre 2020 par le Premier ministre et les présidents des conseils régionaux fixe un engagement minimum au niveau national de 20 milliards d'euros de l'État et 20 milliards des régions. Les projets se concentrent sur six volets dits « investissements dans l'avenir » : mobilité multimodale, enseignement supérieur-recherche-innovation, transition écologique et énergétique, numérique, innovation-filières d'avenir-usine du futur, et territoires.",
+        "Au niveau infrarégional, les contrats de relance et de transition écologique (CRTE) peuvent être la déclinaison du volet territorial du CPER. L'ANCT, agence créée par la loi de juillet 2019, pilote la contractualisation territoriale. Point d'attention : la note du Sénat sur le projet de loi de finances pour 2026 souligne que les crédits du programme finançant les CPER et CPIER 2021-2027 avaient été fortement diminués en 2025, puis doublés en 2026 (+108,31 %), sans suffire à couvrir les engagements contractuels de l'État, et qu'aucun crédit n'est alloué à la finalisation des CPER 2015-2020. Le rapporteur y voit une rupture de la parole de l'État : c'est un thème d'évaluation en soi, car l'écart entre engagement et paiement est une des questions classiques que posent les chambres des comptes."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Ministère de la Transition écologique, « Contrats de plan État-Région »",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/contrats-plan-etat-region",
+    "type": "page institutionnelle (4 minutes de lecture)",
+    "duree": "20 min",
+    "pourquoi": "Lis les quatre principes de la génération 2021-2027 et la liste des six volets, puis cherche le CPER de la région Nouvelle-Aquitaine (ou celle de ton choix) sur le site de la région pour repérer ses priorités."
+  },
+  "debat": [
+    "Un contrat entre l'État et une région engage-t-il vraiment l'État, quand ses crédits de paiement sont votés chaque année dans le budget ?",
+    "La différenciation territoriale des CPER renforce-t-elle l'égalité des territoires ou creuse-t-elle les écarts entre régions riches et régions pauvres ?",
+    "Faut-il confier l'évaluation des CPER à l'État, aux régions ou à un tiers indépendant ?"
+  ],
+  "sources": [
+    {"titre": "Ministère de la Transition écologique : Contrats de plan État-Région (mise à jour le 25 avril 2023)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/contrats-plan-etat-region"},
+    {"titre": "Sénat : Projet de loi de finances pour 2026, note de présentation, mission Cohésion des territoires (programmes 112 et 162)", "url": "https://www.senat.fr/fileadmin/cru-1759398938/Commissions/Finances/2025-2026/PLF_2026/NP/Cohesion_des_territoires_P112_et_P162_NP_PLF_2026.pdf"},
+    {"titre": "Wikipédia : Contrat de plan État-région", "url": "https://fr.wikipedia.org/wiki/Contrat_de_plan_%C3%89tat-r%C3%A9gion"},
+    {"titre": "Wikipédia : Évaluation des politiques publiques (l'évaluation des CPER depuis 1993)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"}
+  ],
+  "cartes": [
+    {"id": "a06-contractualisation-01", "recto": "Qu'est-ce qu'un CPER ?", "verso": "Le document par lequel l'État et une région s'engagent sur la programmation et le financement pluriannuels de projets importants d'aménagement du territoire.", "perissable": false},
+    {"id": "a06-contractualisation-02", "recto": "D'où vient le CPER (loi, année, personnalité) ?", "verso": "De la loi du 29 juillet 1982 portant réforme de la planification, due à Michel Rocard.", "perissable": false},
+    {"id": "a06-contractualisation-03", "recto": "Que s'est-il passé pour le plan national et les plans de région dans les années 1990 ?", "verso": "Ils ont disparu : le CPER avait gagné son autonomie et déterminait lui-même le contenu des plans de région.", "perissable": false},
+    {"id": "a06-contractualisation-04", "recto": "Quelles dénominations les CPER ont-ils portées en 2006-2014 ?", "verso": "« Contrats de projets État-région » pour la génération 2007-2013 ; le nom CPER est revenu en 2014 pour la génération 2015-2020.", "perissable": false},
+    {"id": "a06-contractualisation-05", "recto": "Pourquoi les contrats de projets 2007-2013 duraient-ils sept ans ?", "verso": "Pour caler leur calendrier sur celui des fonds européens (FEDER, FSE).", "perissable": false},
+    {"id": "a06-contractualisation-06", "recto": "Quelle génération de CPER couvre 2021-2027 ?", "verso": "La septième, articulée avec les contrats de relance et de transition écologique (CRTE).", "perissable": false},
+    {"id": "a06-contractualisation-07", "recto": "Les quatre principes de la génération 2021-2027.", "verso": "Démarche ascendante, périmètre élargi à de nouvelles thématiques, différenciation territoriale, articulation étroite avec les fonds européens et le plan de relance.", "perissable": false},
+    {"id": "a06-contractualisation-08", "recto": "Quels montants prévoit l'accord de partenariat du 28 septembre 2020 ?", "verso": "Un engagement minimum national de 20 milliards d'euros de l'État et 20 milliards des régions.", "perissable": true},
+    {"id": "a06-contractualisation-09", "recto": "Combien l'État devait-il mobiliser dans les CPER 2021-2027, dont combien du plan de relance ?", "verso": "28 milliards d'euros, dont 8,6 milliards de crédits régionalisés du plan de relance.", "perissable": true},
+    {"id": "a06-contractualisation-10", "recto": "Les six volets des CPER 2021-2027 (« investissements dans l'avenir »).", "verso": "Mobilité multimodale ; enseignement supérieur, recherche et innovation ; transition écologique et énergétique ; numérique ; innovation, filières d'avenir et usine du futur ; territoires.", "perissable": false},
+    {"id": "a06-contractualisation-11", "recto": "Qu'est-ce qu'un CPIER ?", "verso": "Un contrat de plan interrégional État-régions de fleuve ou de massif, signé à l'échelle d'un massif ou d'un bassin hydrographique.", "perissable": false},
+    {"id": "a06-contractualisation-12", "recto": "Qu'est-ce qu'un CRTE ?", "verso": "Un contrat de relance et de transition écologique, signé au niveau local sous l'égide de l'ANCT ; il peut décliner le volet territorial du CPER, sans enveloppe de crédits dédiée.", "perissable": true},
+    {"id": "a06-contractualisation-13", "recto": "Combien l'État a-t-il contractualisé pour les CPER hexagonaux 2015-2020 (hors ANRU) ?", "verso": "13,7 milliards d'euros, avec un taux d'engagement de 93 % des autorisations d'engagement.", "perissable": true},
+    {"id": "a06-contractualisation-14", "recto": "Quelle critique le Sénat adresse-t-il au financement des CPER dans le PLF 2026 ?", "verso": "Les crédits, doublés en 2026 après une forte baisse en 2025, restent insuffisants pour couvrir les engagements contractuels de l'État ; rien n'est alloué à la finalisation des CPER 2015-2020.", "perissable": true},
+    {"id": "a06-contractualisation-15", "recto": "Depuis quand évalue-t-on les CPER ?", "verso": "Depuis 1993, pour la période 1994-1998 ; l'exigence s'est étendue à toutes les contractualisations et a fait des régions des acteurs majeurs de l'évaluation.", "perissable": false}
+  ]
+}

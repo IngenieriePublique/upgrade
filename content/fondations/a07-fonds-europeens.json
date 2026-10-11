@@ -1,0 +1,65 @@
+{
+  "id": "a07-fonds-europeens",
+  "parcours": "A",
+  "ordre": 7,
+  "titre": "Les fonds européens en France : politique de cohésion, FEDER, FSE+ et autorités de gestion",
+  "accroche": "Les régions gèrent des milliards d'euros de fonds européens, assortis d'une obligation d'évaluation : ce sont de grands commanditaires d'évaluations et des employeurs de chargés de mission. Il faut savoir qui gère quoi.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "Chiffres de la période 2021-2027 (site Europe en France de l'ANCT, Sénat). La période suivante (2028-2034) est en négociation : le Sénat décrit une proposition de fonds unique, non adoptée. Revérifier les montants et le calendrier avant de les citer.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "La politique de cohésion en une page",
+      "paragraphes": [
+        "La politique régionale de l'Union européenne, ou politique de cohésion économique, sociale et territoriale, vise l'harmonisation et la cohésion du développement des régions européennes. À l'initiative de la Commission présidée par Jacques Delors, la cohésion économique et sociale est inscrite dans l'Acte unique européen en 1986. Le Fonds européen de développement régional (FEDER), créé en 1975, est l'un des fonds structurels et d'investissement européens : il vise à renforcer la cohésion économique et sociale en corrigeant les déséquilibres régionaux.",
+        "Les fonds fonctionnent selon le principe du cofinancement : un projet aidé par le FEDER doit aussi recevoir d'autres financements, nationaux ou régionaux, et le taux de cofinancement varie selon le niveau de développement de la région, les régions moins développées bénéficiant de taux plus élevés. Les fonds sont répartis entre les régions et pays de l'Union selon des critères comme le PIB par habitant, et ce sont les autorités régionales et nationales qui sont généralement chargées de la sélection et de la gestion des projets.",
+        "Dans les années 1990, la Commission européenne devient prescriptrice d'évaluation et rend obligatoire l'évaluation des programmes et projets qu'elle finance, notamment au titre des fonds structurels. C'est l'un des deux moteurs de la diffusion de l'évaluation en France, avec les contrats de plan État-région. Un chargé de mission évaluation d'une région travaille donc souvent à la fois sur le CPER et sur les programmes européens."
+      ]
+    },
+    {
+      "titre": "Qui gère quoi en France pour 2021-2027",
+      "paragraphes": [
+        "Le FEDER représente environ 9,1 milliards d'euros pour la France sur la période 2021-2027. Les programmes régionaux FEDER-FSE+-FTJ sont élaborés selon une approche stratégique territoriale, en articulation avec les autres politiques de la région. Pour 2021-2027, ce sont les régions qui exercent la fonction d'autorité de gestion des programmes régionaux, ce qui les rend responsables de la sélection des projets, du paiement et du contrôle. L'Agence nationale de la cohésion des territoires (ANCT) est l'autorité nationale de coordination des fonds européens et du FEDER.",
+        "Le Fonds social européen plus (FSE+), fonds privilégié de l'Union pour la formation professionnelle, l'emploi et l'inclusion, est un fonds en gestion partagée : l'État le gère à hauteur de 65 % avec le programme national « Emploi, inclusion, jeunesse, compétences », les régions gérant le reste. Le Fonds pour une transition juste (FTJ) concerne 10 territoires de 6 régions françaises, confrontés à de graves difficultés socio-économiques du fait de la transition vers la neutralité climatique : les régions gèrent les mesures économiques, l'État les mesures d'emploi et de compétences (30 % de l'enveloppe).",
+        "La coopération territoriale européenne (Interreg) est à part : la France participe à 22 programmes couvrant 22 espaces de coopération, avec 3,2 milliards d'euros pour financer des projets avec d'autres pays européens. D'autres programmes, comme Erasmus+, sont gérés directement par la Commission européenne, sans passer par l'État ni les régions. Les départements, métropoles et EPCI peuvent intervenir comme organismes intermédiaires pour une partie de la gestion.",
+        "Pour la suite, la période 2028-2034 est en préparation : le Sénat décrit une proposition de fonds unique, dotée de 453 milliards d'euros au niveau européen pour la politique de cohésion. Il s'agit d'un projet de la Commission, non adopté : tout ce qui concerne les futures règles (et leur effet sur le rôle des régions) est à suivre dans la presse spécialisée."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Europe en France, « Fonds européen de développement régional » et « Europe forme et emploie »",
+    "url": "https://www.europe-en-france.gouv.fr/fr/europe-forme-emploie",
+    "type": "portail officiel des fonds européens (ANCT)",
+    "duree": "30 min",
+    "pourquoi": "Parcours le portail : programmes régionaux, FSE+, FTJ, projets financés. Cherche le programme FEDER-FSE+ de ta région et repère son autorité de gestion, ses priorités et un exemple de projet financé."
+  },
+  "debat": [
+    "La gestion des fonds européens par les régions rend-elle la politique de cohésion plus efficace, ou ajoute-t-elle de la complexité administrative ?",
+    "Un fonds unique à partir de 2028 menace-t-il l'autonomie des régions dans le choix de leurs priorités ?",
+    "Comment évaluer l'impact d'un fonds qui finance des centaines de petits projets très différents ?"
+  ],
+  "sources": [
+    {"titre": "Europe en France (ANCT) : Fonds européen de développement régional", "url": "https://www.europe-en-france.gouv.fr/en/node/20001"},
+    {"titre": "Europe en France (ANCT) : L'Europe forme et emploie (FSE+, FTJ)", "url": "https://www.europe-en-france.gouv.fr/fr/europe-forme-emploie"},
+    {"titre": "Europe en France (ANCT) : Les programmes Interreg 2021-2027", "url": "https://www.europe-en-france.gouv.fr/fr/programmes-europeens-2021-2027/programmes-interreg-2021-2027-cooperation-territoriale-europeenne-en-france"},
+    {"titre": "Sénat : Fonds européen de développement régional et Fonds de cohésion", "url": "https://www.senat.fr/ue/pac/EUR000004267.html"},
+    {"titre": "Sénat : Les enjeux pour les outre-mer du prochain cadre financier pluriannuel (2028-2034)", "url": "https://www.senat.fr/rap/r25-426/r25-4264.html"},
+    {"titre": "Wikipédia : Politique régionale de l'Union européenne", "url": "https://fr.wikipedia.org/wiki/Politique_r%C3%A9gionale_de_l%27Union_europ%C3%A9enne"}
+  ],
+  "cartes": [
+    {"id": "a07-fonds-europeens-01", "recto": "Objectif de la politique de cohésion de l'Union européenne.", "verso": "L'harmonisation et la cohésion du développement des régions européennes (cohésion économique, sociale et territoriale).", "perissable": false},
+    {"id": "a07-fonds-europeens-02", "recto": "Quand la cohésion économique et sociale est-elle inscrite dans les traités, et sous quelle impulsion ?", "verso": "Dans l'Acte unique européen de 1986, à l'initiative de la Commission présidée par Jacques Delors.", "perissable": false},
+    {"id": "a07-fonds-europeens-03", "recto": "Qu'est-ce que le FEDER et depuis quand existe-t-il ?", "verso": "Le Fonds européen de développement régional, créé en 1975, qui corrige les déséquilibres régionaux pour renforcer la cohésion économique et sociale.", "perissable": false},
+    {"id": "a07-fonds-europeens-04", "recto": "Principe de cofinancement du FEDER.", "verso": "Un projet aidé doit aussi recevoir d'autres financements, nationaux ou régionaux ; le taux varie selon le niveau de développement de la région.", "perissable": false},
+    {"id": "a07-fonds-europeens-05", "recto": "Montant du FEDER pour la France en 2021-2027.", "verso": "Environ 9,1 milliards d'euros.", "perissable": true},
+    {"id": "a07-fonds-europeens-06", "recto": "Qui est autorité de gestion des programmes régionaux 2021-2027 ?", "verso": "Les régions : elles sélectionnent les projets, paient et contrôlent.", "perissable": false},
+    {"id": "a07-fonds-europeens-07", "recto": "Rôle de l'ANCT pour les fonds européens.", "verso": "Autorité nationale de coordination des fonds européens et du FEDER.", "perissable": false},
+    {"id": "a07-fonds-europeens-08", "recto": "Qu'est-ce que le FSE+ et qui le gère ?", "verso": "Le fonds de l'Union pour la formation professionnelle, l'emploi et l'inclusion ; l'État le gère à 65 % (programme national « Emploi, inclusion, jeunesse, compétences »), les régions pour le reste.", "perissable": true},
+    {"id": "a07-fonds-europeens-09", "recto": "Qu'est-ce que le FTJ et combien de territoires français sont éligibles ?", "verso": "Le Fonds pour une transition juste : 10 territoires de 6 régions confrontés à la transition vers la neutralité climatique ; régions pour l'économique, État pour l'emploi et les compétences (30 % de l'enveloppe).", "perissable": true},
+    {"id": "a07-fonds-europeens-10", "recto": "Qu'est-ce qu'Interreg ?", "verso": "Les programmes de coopération territoriale européenne : la France participe à 22 programmes, avec 3,2 milliards d'euros pour des projets avec d'autres pays européens.", "perissable": true},
+    {"id": "a07-fonds-europeens-11", "recto": "Erasmus+ est-il géré par l'État ou par les régions ?", "verso": "Ni l'un ni l'autre : il est géré directement par la Commission européenne ; l'agence Erasmus+ France déploie le volet éducation et formation.", "perissable": false},
+    {"id": "a07-fonds-europeens-12", "recto": "Quel lien entre fonds européens et évaluation en France ?", "verso": "Depuis les années 1990, la Commission impose l'évaluation des programmes qu'elle finance (fonds structurels) : c'est l'un des deux moteurs de la diffusion de l'évaluation en France.", "perissable": false},
+    {"id": "a07-fonds-europeens-13", "recto": "Quelle réforme est proposée pour la politique de cohésion après 2027 ?", "verso": "Un fonds unique pour 2028-2034, avec 453 milliards d'euros pour la cohésion au niveau européen selon le Sénat ; projet non adopté.", "perissable": true}
+  ]
+}
