@@ -145,6 +145,18 @@
    "perissable": true,
    "revu": "2026-10-11",
    "fichier": "b03-recettes-locales.json"
+  },
+  {
+   "id": "b04-analyse-financiere",
+   "parcours": "B",
+   "ordre": 4,
+   "titre": "L'analyse financière d'une collectivité : épargne, dette, seuils d'alerte",
+   "accroche": "Épargne brute, capacité de désendettement, taux d'épargne : ces ratios servent à juger si une collectivité peut investir, et reviennent dans tous les rapports des chambres régionales des comptes et dans les entretiens d'évaluation.",
+   "duree_min": 120,
+   "nombre_cartes": 20,
+   "perissable": true,
+   "revu": "2026-10-11",
+   "fichier": "b04-analyse-financiere.json"
   }
  ]
 }
