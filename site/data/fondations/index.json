@@ -111,6 +111,30 @@
    "fichier": "a05-intercommunalite.json"
   },
   {
+   "id": "a06-contractualisation",
+   "parcours": "A",
+   "ordre": 6,
+   "titre": "La contractualisation État-collectivités : CPER, CPIER et CRTE",
+   "accroche": "Depuis 1982, l'État et les régions programment ensemble leurs grands investissements par contrat. Le CPER est le cadre le plus évalué de l'aménagement du territoire, et celui dont on te parlera dans un entretien avec un SGAR ou une région.",
+   "duree_min": 90,
+   "nombre_cartes": 15,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "a06-contractualisation.json"
+  },
+  {
+   "id": "a07-fonds-europeens",
+   "parcours": "A",
+   "ordre": 7,
+   "titre": "Les fonds européens en France : politique de cohésion, FEDER, FSE+ et autorités de gestion",
+   "accroche": "Les régions gèrent des milliards d'euros de fonds européens, assortis d'une obligation d'évaluation : ce sont de grands commanditaires d'évaluations et des employeurs de chargés de mission. Il faut savoir qui gère quoi.",
+   "duree_min": 90,
+   "nombre_cartes": 13,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "a07-fonds-europeens.json"
+  },
+  {
    "id": "b01-lolf-lois-de-finances",
    "parcours": "B",
    "ordre": 1,
