@@ -1,0 +1,4946 @@
+[
+ {
+  "code": "01",
+  "nom": "Ain",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Bourg-en-Bresse",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Belley",
+   "Gex",
+   "Nantua"
+  ],
+  "voisins": [
+   "38",
+   "39",
+   "69",
+   "71",
+   "73",
+   "74"
+  ],
+  "population": {
+   "valeur": 679344,
+   "annee": 2023
+  },
+  "superficie_km2": 5762.0,
+  "article": "Ain (département)",
+  "intro": "Le département de l'Ain (/ɛ̃/) est un département français de la région Auvergne-Rhône-Alpes, dont le nom vient de l'Ain, rivière qui le traverse du nord au sud. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 01. Sa préfecture est Bourg-en-Bresse.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Ain (département)",
+    "url": "https://fr.wikipedia.org/wiki/Ain_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3083"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "02",
+  "nom": "Aisne",
+  "region": "32",
+  "outre_mer": false,
+  "prefecture": "Laon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Château-Thierry",
+   "Saint-Quentin",
+   "Soissons",
+   "Vervins"
+  ],
+  "voisins": [
+   "08",
+   "51",
+   "59",
+   "60",
+   "77",
+   "80"
+  ],
+  "population": {
+   "valeur": 523342,
+   "annee": 2023
+  },
+  "superficie_km2": 7369.0,
+  "article": "Aisne (département)",
+  "intro": "L'Aisne (/ɛn/) est un département français situé dans la région Hauts-de-France, qui tient son nom de la rivière éponyme qui le traverse. Son chef-lieu est Laon, et ses sous-préfectures sont Soissons, Saint-Quentin, Château-Thierry et Vervins. Il fait partie de l'ancienne région administrative de Picardie, culturelle et historique de Picardie au nord, et de Champagne au sud.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Aisne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Aisne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3093"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "03",
+  "nom": "Allier",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Moulins",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Montluçon",
+   "Vichy"
+  ],
+  "voisins": [
+   "18",
+   "23",
+   "42",
+   "58",
+   "63",
+   "71"
+  ],
+  "population": {
+   "valeur": 333298,
+   "annee": 2023
+  },
+  "superficie_km2": 7340.0,
+  "article": "Allier (département)",
+  "intro": "L'Allier (/a.lje/) est un département du centre de la France situé dans la région Auvergne-Rhône-Alpes, dont la préfecture est Moulins. Code Insee et de La Poste du département : 03. \nCe département correspond à une large partie de l'ancienne province du Bourbonnais.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Allier (département)",
+    "url": "https://fr.wikipedia.org/wiki/Allier_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3113"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "04",
+  "nom": "Alpes-de-Haute-Provence",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Digne-les-Bains",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Barcelonnette",
+   "Castellane",
+   "Forcalquier"
+  ],
+  "voisins": [
+   "05",
+   "06",
+   "26",
+   "83",
+   "84"
+  ],
+  "population": {
+   "valeur": 168054,
+   "annee": 2023
+  },
+  "superficie_km2": 6925.0,
+  "article": "Alpes-de-Haute-Provence",
+  "intro": "Les Alpes-de-Haute-Provence (/alp(ə) də ot pʁo.vɑ̃s/), appelées Basses-Alpes jusqu'en 1970, en provençal respectivement Aups-d'Aut-Provenço (prononciation : « Aw d'Awt'-prouvince ») et Bassas-Aups (prononciation : « Basse-Aw »), sont un département français de la région Provence-Alpes-Côte d'Azur. L'Insee et La Poste lui attribuent le code 04. Sa préfecture est Digne-les-Bains.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Alpes-de-Haute-Provence",
+    "url": "https://fr.wikipedia.org/wiki/Alpes-de-Haute-Provence"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3131"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "05",
+  "nom": "Hautes-Alpes",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Gap",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Briançon"
+  ],
+  "voisins": [
+   "04",
+   "26",
+   "38",
+   "73"
+  ],
+  "population": {
+   "valeur": 143467,
+   "annee": 2023
+  },
+  "superficie_km2": 5549.0,
+  "article": "Hautes-Alpes",
+  "intro": "Les Hautes-Alpes (/ot.z‿alp/ ou /o.tə.z‿alp/) sont un département français de la région Provence-Alpes-Côte d'Azur. L'Insee et La Poste lui attribuent le code 05. Son chef-lieu est Gap.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Hautes-Alpes",
+    "url": "https://fr.wikipedia.org/wiki/Hautes-Alpes"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3125"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "06",
+  "nom": "Alpes-Maritimes",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Nice",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Grasse"
+  ],
+  "voisins": [
+   "04",
+   "83"
+  ],
+  "population": {
+   "valeur": 1128418,
+   "annee": 2023
+  },
+  "superficie_km2": 4299.0,
+  "article": "Alpes-Maritimes",
+  "intro": "Les Alpes-Maritimes (prononcé /alp(ə) ma.ʁi.tim/) sont un département français de la région Provence-Alpes-Côte d'Azur.\nLes habitants des Alpes-Maritimes sont appelés Maralpins, mais cette appellation est rarement employée. On utilise plus fréquemment Azuréens, pour désigner la population vivant sur la bande côtière azuréenne allant de Menton à Théoule-sur-Mer, sur la Côte d'Azur.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Alpes-Maritimes",
+    "url": "https://fr.wikipedia.org/wiki/Alpes-Maritimes"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3139"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "07",
+  "nom": "Ardèche",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Privas",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Largentière",
+   "Tournon-sur-Rhône"
+  ],
+  "voisins": [
+   "26",
+   "30",
+   "38",
+   "42",
+   "43",
+   "48",
+   "84"
+  ],
+  "population": {
+   "valeur": 334231,
+   "annee": 2023
+  },
+  "superficie_km2": 5529.0,
+  "article": "Ardèche (département)",
+  "intro": "Le département de l'Ardèche (/aʁ.dɛʃ/) est un département français situé dans la région Auvergne-Rhône-Alpes. Sa préfecture est Privas. Il doit son nom à la rivière Ardèche qui le traverse d'ouest en est et ses habitants s'appellent les « Ardéchois ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Ardèche (département)",
+    "url": "https://fr.wikipedia.org/wiki/Ardèche_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3148"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "08",
+  "nom": "Ardennes",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Charleville-Mézières",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Rethel",
+   "Sedan",
+   "Vouziers"
+  ],
+  "voisins": [
+   "02",
+   "51",
+   "55"
+  ],
+  "population": {
+   "valeur": 265893,
+   "annee": 2023
+  },
+  "superficie_km2": 5229.0,
+  "article": "Ardennes (département)",
+  "intro": "Les Ardennes (/aʁ.dɛn/) sont un département français de la région Grand Est, auparavant rattaché à l'ancienne entité régionale de Champagne-Ardenne. Sa préfecture est Charleville-Mézières et sa plus grande agglomération est Ardenne Métropole qui regroupe depuis 2014 les communes de Charleville-Mézières et Sedan ainsi que 56 autres pour un total de 121 253 habitants. En 2021, il s'agit de la 7e agglomération de la région Grand Est.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Ardennes (département)",
+    "url": "https://fr.wikipedia.org/wiki/Ardennes_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3164"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "09",
+  "nom": "Ariège",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Foix",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Pamiers",
+   "Saint-Girons"
+  ],
+  "voisins": [
+   "11",
+   "31",
+   "66"
+  ],
+  "population": {
+   "valeur": 155722,
+   "annee": 2023
+  },
+  "superficie_km2": 4890.0,
+  "article": "Ariège (département)",
+  "intro": "L'Ariège (/a.ʁjɛʒ/ ; en occitan : Arièja) est un département français de la région Occitanie, nommé d'après la rivière homonyme, situé dans le sud de la France. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 09. Sa préfecture est Foix, qui se trouve à 772 kilomètres de Paris à vol d'oiseau.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Ariège (département)",
+    "url": "https://fr.wikipedia.org/wiki/Ariège_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3184"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "10",
+  "nom": "Aube",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Troyes",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bar-sur-Aube",
+   "Nogent-sur-Seine"
+  ],
+  "voisins": [
+   "21",
+   "51",
+   "52",
+   "77",
+   "89"
+  ],
+  "population": {
+   "valeur": 310447,
+   "annee": 2023
+  },
+  "superficie_km2": 6004.0,
+  "article": "Aube (département)",
+  "intro": "L'Aube (/ob/) est un département français de la région Grand Est dont le nom vient de l'Aube, premier affluent notable de la Seine (rive droite). L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 10. Les habitants de ce département sont appelés les Aubois.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Aube (département)",
+    "url": "https://fr.wikipedia.org/wiki/Aube_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3194"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "11",
+  "nom": "Aude",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Carcassonne",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Limoux",
+   "Narbonne"
+  ],
+  "voisins": [
+   "09",
+   "31",
+   "34",
+   "66",
+   "81"
+  ],
+  "population": {
+   "valeur": 379648,
+   "annee": 2023
+  },
+  "superficie_km2": 6139.0,
+  "article": "Aude (département)",
+  "intro": "L'Aude (prononcé /od/) est un département français de la région Occitanie, qui se situe dans le Sud de la France. Sa préfecture est Carcassonne, mais sa plus grande ville est Narbonne.\nLe nom vient du fleuve l'Aude.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Aude (département)",
+    "url": "https://fr.wikipedia.org/wiki/Aude_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3207"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "12",
+  "nom": "Aveyron",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Rodez",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Millau",
+   "Villefranche-de-Rouergue"
+  ],
+  "voisins": [
+   "15",
+   "30",
+   "34",
+   "46",
+   "48",
+   "81",
+   "82"
+  ],
+  "population": {
+   "valeur": 279609,
+   "annee": 2023
+  },
+  "superficie_km2": 8735.0,
+  "article": "Aveyron (département)",
+  "intro": "L'Aveyron (/a.ve.ʁɔ̃/) est un département français situé dans la région Occitanie, dans le Sud de la France. Il doit son nom à la rivière Aveyron qui le traverse. Ses habitants sont appelés les « Aveyronnais » et les « Aveyronnaises » ou parfois « Rouergats ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Aveyron (département)",
+    "url": "https://fr.wikipedia.org/wiki/Aveyron_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3216"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "13",
+  "nom": "Bouches-du-Rhône",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Marseille",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Aix-en-Provence",
+   "Arles",
+   "Istres"
+  ],
+  "voisins": [
+   "30",
+   "83",
+   "84"
+  ],
+  "population": {
+   "valeur": 2087658,
+   "annee": 2023
+  },
+  "superficie_km2": 5087.0,
+  "article": "Bouches-du-Rhône",
+  "intro": "Les Bouches-du-Rhône (/buʃ.dy.ʁon/) sont un département français situé en région Provence-Alpes-Côte d'Azur, sur la côte méditerranéenne dans le Sud-Est de la France . Ses habitants sont appelés les Bucco-Rhodaniens. L'Insee et La Poste lui attribuent le code 13.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Bouches-du-Rhône",
+    "url": "https://fr.wikipedia.org/wiki/Bouches-du-Rhône"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3240"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "14",
+  "nom": "Calvados",
+  "region": "28",
+  "outre_mer": false,
+  "prefecture": "Caen",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bayeux",
+   "Lisieux",
+   "Vire Normandie"
+  ],
+  "voisins": [
+   "27",
+   "50",
+   "61"
+  ],
+  "population": {
+   "valeur": 709441,
+   "annee": 2023
+  },
+  "superficie_km2": 5548.0,
+  "article": "Calvados (département)",
+  "intro": "Le Calvados [kalvados, kalvadɔs] est un département français de la région Normandie. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 14. Son chef-lieu est Caen.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Calvados (département)",
+    "url": "https://fr.wikipedia.org/wiki/Calvados_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3249"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "15",
+  "nom": "Cantal",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Aurillac",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Mauriac",
+   "Saint-Flour"
+  ],
+  "voisins": [
+   "12",
+   "19",
+   "43",
+   "46",
+   "48",
+   "63"
+  ],
+  "population": {
+   "valeur": 144196,
+   "annee": 2023
+  },
+  "superficie_km2": 5726.0,
+  "article": "Cantal (département)",
+  "intro": "Le Cantal (/kɑ̃.tal/) est un département français faisant partie de la région Auvergne-Rhône-Alpes. Il doit son nom au massifs volcaniques du Cantal qui occupent le centre de son territoire. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 15.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Cantal (département)",
+    "url": "https://fr.wikipedia.org/wiki/Cantal_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3259"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "16",
+  "nom": "Charente",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Angoulême",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Cognac",
+   "Confolens"
+  ],
+  "voisins": [
+   "17",
+   "24",
+   "79",
+   "86",
+   "87"
+  ],
+  "population": {
+   "valeur": 352683,
+   "annee": 2023
+  },
+  "superficie_km2": 5956.0,
+  "article": "Charente (département)",
+  "intro": "La Charente (/ʃa.ʁɑ̃t/) est un département français situé dans le Sud-Ouest de la France, dans la moitié nord de la région Nouvelle-Aquitaine. Traversé d'est en ouest par le cours supérieur et moyen de la Charente, il doit son nom au fleuve. Le département de la Charente fait partie de l'académie de Poitiers et du ressort de la cour d'appel de Bordeaux.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Charente (département)",
+    "url": "https://fr.wikipedia.org/wiki/Charente_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3266"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "17",
+  "nom": "Charente-Maritime",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "La Rochelle",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Jonzac",
+   "Rochefort",
+   "Saintes",
+   "Saint-Jean-d'Angély"
+  ],
+  "voisins": [
+   "16",
+   "24",
+   "33",
+   "79",
+   "85"
+  ],
+  "population": {
+   "valeur": 672279,
+   "annee": 2023
+  },
+  "superficie_km2": 6864.0,
+  "article": "Charente-Maritime",
+  "intro": "La Charente-Maritime (/ʃa.ʁɑ̃t.ma.ʁi.tim/), appelée Charente-Inférieure jusqu'en 1941, est un département français situé dans le Sud-Ouest de la France et dans la moitié nord de la région Nouvelle-Aquitaine. Il appartient géographiquement au « Midi atlantique ». Ce département est divisé en cinq arrondissements et porte le numéro 17 dans la numérotation départementale française.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Charente-Maritime",
+    "url": "https://fr.wikipedia.org/wiki/Charente-Maritime"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3278"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "18",
+  "nom": "Cher",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Bourges",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Saint-Amand-Montrond",
+   "Vierzon"
+  ],
+  "voisins": [
+   "03",
+   "23",
+   "36",
+   "41",
+   "45",
+   "58"
+  ],
+  "population": {
+   "valeur": 298660,
+   "annee": 2023
+  },
+  "superficie_km2": 7235.0,
+  "article": "Cher (département)",
+  "intro": "Le Cher (/ʃɛʁ/) est un département français de la région Centre-Val de Loire qui tient son nom de la rivière Cher. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 18. Sa préfecture est Bourges et les sous-préfectures sont Vierzon et Saint-Amand-Montrond.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Cher (département)",
+    "url": "https://fr.wikipedia.org/wiki/Cher_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3286"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "19",
+  "nom": "Corrèze",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Tulle",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Brive-la-Gaillarde",
+   "Ussel"
+  ],
+  "voisins": [
+   "15",
+   "23",
+   "24",
+   "46",
+   "63",
+   "87"
+  ],
+  "population": {
+   "valeur": 240826,
+   "annee": 2023
+  },
+  "superficie_km2": 5857.0,
+  "article": "Corrèze (département)",
+  "intro": "La Corrèze (prononciation : /kɔ.ʁɛz/) est un département du Sud-Ouest de la France dans la région Nouvelle-Aquitaine, qui tire son nom de la rivière qui le traverse. La préfecture est Tulle, bien que Brive-la-Gaillarde soit sa ville la plus peuplée.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 19.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Corrèze (département)",
+    "url": "https://fr.wikipedia.org/wiki/Corrèze_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3326"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "21",
+  "nom": "Côte-d'Or",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Dijon",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Beaune",
+   "Montbard"
+  ],
+  "voisins": [
+   "10",
+   "39",
+   "52",
+   "58",
+   "70",
+   "71",
+   "89"
+  ],
+  "population": {
+   "valeur": 540100,
+   "annee": 2023
+  },
+  "superficie_km2": 8763.0,
+  "article": "Côte-d'Or",
+  "intro": "La Côte-d'Or (/kot(ə).d‿ɔʁ/) est un département français parmi les huit que compte la région Bourgogne-Franche-Comté. Sa préfecture, Dijon, est aussi le chef-lieu de la Bourgogne-Franche-Comté.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 21.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Côte-d'Or",
+    "url": "https://fr.wikipedia.org/wiki/Côte-d'Or"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3342"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "22",
+  "nom": "Côtes-d'Armor",
+  "region": "53",
+  "outre_mer": false,
+  "prefecture": "Saint-Brieuc",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Dinan",
+   "Guingamp",
+   "Lannion"
+  ],
+  "voisins": [
+   "29",
+   "35",
+   "56"
+  ],
+  "population": {
+   "valeur": 611859,
+   "annee": 2023
+  },
+  "superficie_km2": 6878.0,
+  "article": "Côtes-d'Armor",
+  "intro": "Les Côtes-d'Armor (/kot d‿aʁmɔʁ/  ; en gallo : Côtes d'Ahaot, en breton : Aodoù-an-Arvor (/ˈoːdu ãˈnarvor/), appelées Côtes-du-Nord jusqu'en 1990, est un département français situé en région Bretagne.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 22. Sa préfecture et sa plus grande ville est Saint-Brieuc.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Côtes-d'Armor",
+    "url": "https://fr.wikipedia.org/wiki/Côtes-d'Armor"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3349"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "23",
+  "nom": "Creuse",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Guéret",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Aubusson"
+  ],
+  "voisins": [
+   "03",
+   "18",
+   "19",
+   "36",
+   "63",
+   "87"
+  ],
+  "population": {
+   "valeur": 115527,
+   "annee": 2023
+  },
+  "superficie_km2": 5565.0,
+  "article": "Creuse (département)",
+  "intro": "La Creuse (/kʁøz/) est un département français situé dans la région Nouvelle-Aquitaine et ayant appartenu, avant 2016, à la région Limousin avant la disparition de cette dernière.\nIl succède à la province de la Marche dont il reprend une grande partie du territoire. La Creuse est située dans le nord-ouest du Massif central et tire son nom de la rivière Creuse qui la traverse.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Creuse (département)",
+    "url": "https://fr.wikipedia.org/wiki/Creuse_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3353"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "24",
+  "nom": "Dordogne",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Périgueux",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bergerac",
+   "Nontron",
+   "Sarlat-la-Canéda"
+  ],
+  "voisins": [
+   "16",
+   "17",
+   "19",
+   "33",
+   "46",
+   "47",
+   "87"
+  ],
+  "population": {
+   "valeur": 417614,
+   "annee": 2023
+  },
+  "superficie_km2": 9060.0,
+  "article": "Dordogne (département)",
+  "intro": "La Dordogne (/dɔʁ.dɔɲ/) est un département français de la région Nouvelle-Aquitaine correspondant en grande partie au Périgord, situé dans le Sud-Ouest de la France. Il doit son nom au fleuve éponyme qui le traverse. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 24.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Dordogne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Dordogne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3357"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "25",
+  "nom": "Doubs",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Besançon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Montbéliard",
+   "Pontarlier"
+  ],
+  "voisins": [
+   "39",
+   "70",
+   "90"
+  ],
+  "population": {
+   "valeur": 547163,
+   "annee": 2023
+  },
+  "superficie_km2": 5234.0,
+  "article": "Doubs (département)",
+  "intro": "Le Doubs (/du/) est un département français de la région Bourgogne-Franche-Comté qui tient son nom de la rivière Doubs. Il fait partie de la région historique et culturelle de la Franche-Comté. Son chef-lieu (préfecture) est la ville de Besançon et il compte deux sous-préfectures situées dans les villes de Montbéliard et de Pontarlier.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Doubs (département)",
+    "url": "https://fr.wikipedia.org/wiki/Doubs_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3361"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "26",
+  "nom": "Drôme",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Valence",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Die",
+   "Nyons"
+  ],
+  "voisins": [
+   "04",
+   "05",
+   "07",
+   "38",
+   "84"
+  ],
+  "population": {
+   "valeur": 524207,
+   "annee": 2023
+  },
+  "superficie_km2": 6530.0,
+  "article": "Drôme (département)",
+  "intro": "La Drôme (/dʁom/) est un département français situé dans le sud-est du pays et dont le nom vient de la rivière Drôme. Il fait partie de la région Auvergne-Rhône-Alpes. Sa préfecture est Valence.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Drôme (département)",
+    "url": "https://fr.wikipedia.org/wiki/Drôme_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3364"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "27",
+  "nom": "Eure",
+  "region": "28",
+  "outre_mer": false,
+  "prefecture": "Évreux",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Les Andelys",
+   "Bernay"
+  ],
+  "voisins": [
+   "14",
+   "28",
+   "60",
+   "61",
+   "76",
+   "78",
+   "95"
+  ],
+  "population": {
+   "valeur": 602714,
+   "annee": 2023
+  },
+  "superficie_km2": 6040.0,
+  "article": "Eure (département)",
+  "intro": "L'Eure (/œʁ/) est un département français de la région Normandie. Il tire son nom de l'Eure, rivière qui le traverse avant de rejoindre la Seine. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 27.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Eure (département)",
+    "url": "https://fr.wikipedia.org/wiki/Eure_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3372"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "28",
+  "nom": "Eure-et-Loir",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Chartres",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Châteaudun",
+   "Dreux",
+   "Nogent-le-Rotrou"
+  ],
+  "voisins": [
+   "27",
+   "41",
+   "45",
+   "61",
+   "72",
+   "78",
+   "91"
+  ],
+  "population": {
+   "valeur": 433129,
+   "annee": 2023
+  },
+  "superficie_km2": 5880.0,
+  "article": "Eure-et-Loir",
+  "intro": "L'Eure-et-Loir (/œʁ‿e.lwaʁ/) est un département français dont la préfecture, Chartres, est située à 90 km à l'ouest-sud-ouest de Paris. Les villes de Dreux, Châteaudun et Nogent-le-Rotrou en sont les sous-préfectures. Il fait partie de la région Centre-Val de Loire.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Eure-et-Loir",
+    "url": "https://fr.wikipedia.org/wiki/Eure-et-Loir"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3377"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "29",
+  "nom": "Finistère",
+  "region": "53",
+  "outre_mer": false,
+  "prefecture": "Quimper",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Brest",
+   "Châteaulin",
+   "Morlaix"
+  ],
+  "voisins": [
+   "22",
+   "56"
+  ],
+  "population": {
+   "valeur": 933455,
+   "annee": 2023
+  },
+  "superficie_km2": 6733.0,
+  "article": "Finistère",
+  "intro": "Le Finistère (/fi.nis.tɛʁ/  ; en breton : Penn-ar-Bed, /ˌpɛnarˈbeːt/) est un département français situé en région Bretagne. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 29.\nQuimper, la deuxième agglomération du Finistère, en est le chef-lieu, et Brest (première agglomération), Morlaix et Châteaulin, respectivement premier, troisième et quatrième arrondissements, en sont les sous-préfectures.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Finistère",
+    "url": "https://fr.wikipedia.org/wiki/Finistère"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3389"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "2A",
+  "nom": "Corse-du-Sud",
+  "region": "94",
+  "outre_mer": false,
+  "prefecture": "Ajaccio",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Sartène"
+  ],
+  "voisins": [
+   "2B"
+  ],
+  "population": {
+   "valeur": 168306,
+   "annee": 2023
+  },
+  "superficie_km2": 4014.0,
+  "article": "Corse-du-Sud",
+  "intro": "La Corse-du-Sud est une circonscription départementale française, partie de la collectivité de Corse. Son code officiel attribué par l'Institut national de la statistique et des études économiques (Insee) est 2A. Sa préfecture est Ajaccio.\nÀ la suite de la réforme des territoires de 2015, les deux départements de l'île (celui de Haute-Corse et celui de Corse-du-Sud) ont fusionné le 1er janvier 2018 avec la collectivité territoriale de Corse, qui exerce déjà les compétences d'une région à statut particulier, pour former la nouvelle collectivité de Corse.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Corse-du-Sud",
+    "url": "https://fr.wikipedia.org/wiki/Corse-du-Sud"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3336"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "2B",
+  "nom": "Haute-Corse",
+  "region": "94",
+  "outre_mer": false,
+  "prefecture": "Bastia",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Calvi",
+   "Corte"
+  ],
+  "voisins": [
+   "2A"
+  ],
+  "population": {
+   "valeur": 187180,
+   "annee": 2023
+  },
+  "superficie_km2": 4666.0,
+  "article": "Haute-Corse",
+  "intro": "La Haute-Corse est une circonscription départementale française formée de la partie nord-est de l'île de Corse. Elle fait partie de la collectivité de Corse. Son code officiel, attribué par l'Institut national de la statistique et des études économiques (Insee), est 2B. Sa préfecture est Bastia.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Corse",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Corse"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3334"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "30",
+  "nom": "Gard",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Nîmes",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Alès",
+   "Le Vigan"
+  ],
+  "voisins": [
+   "07",
+   "12",
+   "13",
+   "34",
+   "48",
+   "84"
+  ],
+  "population": {
+   "valeur": 770940,
+   "annee": 2023
+  },
+  "superficie_km2": 5853.0,
+  "article": "Gard",
+  "intro": "Le Gard (/ɡaʁ/) est un département français situé dans la région Occitanie (anciennement en Languedoc-Roussillon). Il tient son nom de la rivière le Gardon (« Gard » en occitan), localement appelée le Gardon, qui le traverse. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 30.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Gard",
+    "url": "https://fr.wikipedia.org/wiki/Gard"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12515"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "31",
+  "nom": "Haute-Garonne",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Toulouse",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Muret",
+   "Saint-Gaudens"
+  ],
+  "voisins": [
+   "09",
+   "11",
+   "32",
+   "65",
+   "81",
+   "82"
+  ],
+  "population": {
+   "valeur": 1471468,
+   "annee": 2023
+  },
+  "superficie_km2": 6309.0,
+  "article": "Haute-Garonne",
+  "intro": "La Haute-Garonne (/ot.ga.ʁɔn/) est un département situé dans le Languedoc et en Gascogne dans la région Occitanie. Sa préfecture est la ville de Toulouse, qui est aussi le chef-lieu de la région Occitanie. Ses habitants sont appelés les « Haut-Garonnais » et les « Haut-Garonnaises ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Garonne",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Garonne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12538"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "32",
+  "nom": "Gers",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Auch",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Condom",
+   "Mirande"
+  ],
+  "voisins": [
+   "31",
+   "40",
+   "47",
+   "64",
+   "65",
+   "82"
+  ],
+  "population": {
+   "valeur": 192645,
+   "annee": 2023
+  },
+  "superficie_km2": 6257.0,
+  "article": "Gers (département)",
+  "intro": "Le Gers (/ʒɛʁs/ ou /ʒɛʁ/) est un département français de Gascogne en région Occitanie. Sa préfecture est la ville d'Auch. Il tire son nom de la rivière Gers, affluent de la Garonne.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Gers (département)",
+    "url": "https://fr.wikipedia.org/wiki/Gers_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12517"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "33",
+  "nom": "Gironde",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Bordeaux",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Arcachon",
+   "Blaye",
+   "Langon",
+   "Lesparre-Médoc",
+   "Libourne"
+  ],
+  "voisins": [
+   "17",
+   "24",
+   "40",
+   "47"
+  ],
+  "population": {
+   "valeur": 1690493,
+   "annee": 2023
+  },
+  "superficie_km2": 9975.6,
+  "article": "Gironde (département)",
+  "intro": "La Gironde (/ʒiʁɔ̃d/ ) est un département français situé dans le Sud-Ouest de la France, en région Nouvelle-Aquitaine. Son chef-lieu est Bordeaux, qui est aussi chef-lieu de région. De 1793 à 1795, il a porté le nom de département du Bec-d'Ambès en raison des vicissitudes politiques du début de la Première République.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Gironde (département)",
+    "url": "https://fr.wikipedia.org/wiki/Gironde_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12526"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "34",
+  "nom": "Hérault",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Montpellier",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Béziers",
+   "Lodève"
+  ],
+  "voisins": [
+   "11",
+   "12",
+   "30",
+   "81"
+  ],
+  "population": {
+   "valeur": 1230289,
+   "annee": 2023
+  },
+  "superficie_km2": 6224.0,
+  "article": "Hérault (département)",
+  "intro": "L'Hérault (/e.ʁo/ ; en occitan : Erau [e'raw]) est un département français de la région Occitanie qui tire son nom de l'Hérault, un fleuve côtier qui le traverse. Ses habitants et habitantes portent le gentilé d'« Héraultais » et « Héraultaises ». L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 34.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Hérault (département)",
+    "url": "https://fr.wikipedia.org/wiki/Hérault_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12545"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "35",
+  "nom": "Ille-et-Vilaine",
+  "region": "53",
+  "outre_mer": false,
+  "prefecture": "Rennes",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Fougères",
+   "Redon",
+   "Saint-Malo"
+  ],
+  "voisins": [
+   "22",
+   "44",
+   "49",
+   "50",
+   "53",
+   "56"
+  ],
+  "population": {
+   "valeur": 1120666,
+   "annee": 2023
+  },
+  "superficie_km2": 6775.0,
+  "article": "Ille-et-Vilaine",
+  "intro": "L'Ille-et-Vilaine  (/il‿e.vi.lɛn/ ; en breton : Il-ha-Gwilen ; en gallo : « Ile-e-Vilaine ») est un département français situé en région Bretagne. Il porte le numéro 35 dans la numérotation départementale française. Il est situé dans l'est de la région Bretagne et fait partie de la Haute-Bretagne.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Ille-et-Vilaine",
+    "url": "https://fr.wikipedia.org/wiki/Ille-et-Vilaine"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12549"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "36",
+  "nom": "Indre",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Châteauroux",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Le Blanc",
+   "La Châtre",
+   "Issoudun"
+  ],
+  "voisins": [
+   "18",
+   "23",
+   "37",
+   "41",
+   "86",
+   "87"
+  ],
+  "population": {
+   "valeur": 216069,
+   "annee": 2023
+  },
+  "superficie_km2": 6791.0,
+  "article": "Indre (département)",
+  "intro": "L'Indre (/ɛ̃dʁ/) est un département français de la région Centre-Val de Loire qui tire son nom de l'Indre, une rivière qui le traverse. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 36.\nLe chef-lieu du département est Châteauroux et les sous-préfectures sont : Le Blanc, La Châtre et Issoudun.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Indre (département)",
+    "url": "https://fr.wikipedia.org/wiki/Indre_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12553"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "37",
+  "nom": "Indre-et-Loire",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Tours",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Chinon",
+   "Loches"
+  ],
+  "voisins": [
+   "36",
+   "41",
+   "49",
+   "72",
+   "86"
+  ],
+  "population": {
+   "valeur": 619362,
+   "annee": 2023
+  },
+  "superficie_km2": 6127.0,
+  "article": "Indre-et-Loire",
+  "intro": "L'Indre-et-Loire (/ɛ̃.dʁ‿e.lwaʁ/) est un département français situé en région Centre-Val de Loire. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 37. Peuplé de 619 362 habitants, le département a pour préfecture Tours et correspond approximativement à l'ancienne province de Touraine.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Indre-et-Loire",
+    "url": "https://fr.wikipedia.org/wiki/Indre-et-Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12556"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "38",
+  "nom": "Isère",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Grenoble",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "La Tour-du-Pin",
+   "Vienne"
+  ],
+  "voisins": [
+   "01",
+   "05",
+   "07",
+   "26",
+   "42",
+   "69",
+   "73"
+  ],
+  "population": {
+   "valeur": 1298990,
+   "annee": 2023
+  },
+  "superficie_km2": 7431.0,
+  "article": "Isère (département)",
+  "intro": "L'Isère (/i.zɛʁ/ ; en francoprovençal : Isara) est un département français de la région Auvergne-Rhône-Alpes, tirant son nom de la rivière Isère (affluent de la rive gauche du Rhône). L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 38. Sa préfecture est Grenoble.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Isère (département)",
+    "url": "https://fr.wikipedia.org/wiki/Isère_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12559"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "39",
+  "nom": "Jura",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Lons-le-Saunier",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Dole",
+   "Saint-Claude"
+  ],
+  "voisins": [
+   "01",
+   "21",
+   "25",
+   "70",
+   "71"
+  ],
+  "population": {
+   "valeur": 257973,
+   "annee": 2023
+  },
+  "superficie_km2": 4999.0,
+  "article": "Jura (département)",
+  "intro": "Le Jura (/ʒy.ʁa/) est un département français nommé d'après le massif du Jura, du gaulois « juris » qui signifie « forêt de montagne ». Frontalier du canton de Vaud en Suisse, il constitue l'un des huit départements que comprend la région Bourgogne-Franche-Comté. Il fait partie de la région historique et culturelle de Franche-Comté, dont il constitue le deuxième département le plus peuplé.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Jura (département)",
+    "url": "https://fr.wikipedia.org/wiki/Jura_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3120"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "40",
+  "nom": "Landes",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Mont-de-Marsan",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Dax"
+  ],
+  "voisins": [
+   "32",
+   "33",
+   "47",
+   "64"
+  ],
+  "population": {
+   "valeur": 433570,
+   "annee": 2023
+  },
+  "superficie_km2": 9243.0,
+  "article": "Landes (département)",
+  "intro": "Les Landes (/lɑ̃d/ ; en gascon : Las Lanas /ləs 'lanəs/) sont un département du Sud-Ouest de la France, relevant géographiquement du « Midi atlantique ». Il tient son nom de vastes landes dont il était à l'origine principalement constitué, largement remplacées aujourd'hui par une monoculture intensive du pin maritime.\nRattaché administrativement à la région Nouvelle-Aquitaine, il est divisé en deux arrondissements et porte le numéro 40 dans la numérotation départementale française.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Landes (département)",
+    "url": "https://fr.wikipedia.org/wiki/Landes_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12563"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "41",
+  "nom": "Loir-et-Cher",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Blois",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Romorantin-Lanthenay",
+   "Vendôme"
+  ],
+  "voisins": [
+   "18",
+   "28",
+   "36",
+   "37",
+   "45",
+   "72"
+  ],
+  "population": {
+   "valeur": 328543,
+   "annee": 2023
+  },
+  "superficie_km2": 6343.0,
+  "article": "Loir-et-Cher",
+  "intro": "Le Loir-et-Cher (/lwa.ʁ‿e.ʃɛʁ/) est un département français situé dans la région Centre-Val de Loire. Son nom provient de deux rivières le traversant, le Loir au nord et le Cher au sud. Sa préfecture est Blois.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Loir-et-Cher",
+    "url": "https://fr.wikipedia.org/wiki/Loir-et-Cher"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12564"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "42",
+  "nom": "Loire",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Saint-Étienne",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Montbrison",
+   "Roanne"
+  ],
+  "voisins": [
+   "03",
+   "07",
+   "38",
+   "43",
+   "63",
+   "69",
+   "71"
+  ],
+  "population": {
+   "valeur": 774133,
+   "annee": 2023
+  },
+  "superficie_km2": 4781.0,
+  "article": "Loire (département)",
+  "intro": "La Loire (/lwaʁ/), (Lêre en forézien (arpitan), Lèire en ancien forézien, Leire ou Léger en occitan) est un département français de la région Auvergne-Rhône-Alpes. Il doit son nom au fleuve qui le traverse du sud au nord sur plus de 100 km. Les habitants sont appelés « Ligériens » et « Ligériennes », dérivés du nom latin du fleuve, « Liger ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Loire (département)",
+    "url": "https://fr.wikipedia.org/wiki/Loire_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12569"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "43",
+  "nom": "Haute-Loire",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Le Puy-en-Velay",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Brioude",
+   "Yssingeaux"
+  ],
+  "voisins": [
+   "07",
+   "15",
+   "42",
+   "48",
+   "63"
+  ],
+  "population": {
+   "valeur": 228654,
+   "annee": 2023
+  },
+  "superficie_km2": 4977.0,
+  "article": "Haute-Loire",
+  "intro": "La Haute-Loire (/ot(ə).lwaʁ/, « Léger-Naut/Léier » en occitan) est un département français situé en région Auvergne-Rhône-Alpes, dans le sud-est du Massif central. Ses habitants sont appelés les « Altiligériens » (ou « Hauts-Ligériens »). L'Institut national de la statistique et des études économiques (Insee) et La Poste attribuent au département le code 43.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Loire",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12572"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "44",
+  "nom": "Loire-Atlantique",
+  "region": "52",
+  "outre_mer": false,
+  "prefecture": "Nantes",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Châteaubriant",
+   "Saint-Nazaire"
+  ],
+  "voisins": [
+   "35",
+   "49",
+   "56",
+   "85"
+  ],
+  "population": {
+   "valeur": 1487570,
+   "annee": 2023
+  },
+  "superficie_km2": 6809.0,
+  "article": "Loire-Atlantique",
+  "intro": "La Loire-Atlantique (/lwa.ʁ‿at.lɑ̃.tik/), dénommée Loire-Inférieure jusqu'en 1957, est un département français de la région Pays de la Loire. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 44. Sa préfecture est Nantes.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Loire-Atlantique",
+    "url": "https://fr.wikipedia.org/wiki/Loire-Atlantique"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3068"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "45",
+  "nom": "Loiret",
+  "region": "24",
+  "outre_mer": false,
+  "prefecture": "Orléans",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Montargis",
+   "Pithiviers"
+  ],
+  "voisins": [
+   "18",
+   "28",
+   "41",
+   "58",
+   "77",
+   "89",
+   "91"
+  ],
+  "population": {
+   "valeur": 691268,
+   "annee": 2023
+  },
+  "superficie_km2": 6775.0,
+  "article": "Loiret (département)",
+  "intro": "Le département du Loiret (/lwa.ʁε/ ) est un département français de la région Centre-Val de Loire. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 45. Sa préfecture est Orléans et c'est aussi le chef-lieu de la région.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Loiret (département)",
+    "url": "https://fr.wikipedia.org/wiki/Loiret_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12574"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "46",
+  "nom": "Lot",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Cahors",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Figeac",
+   "Gourdon"
+  ],
+  "voisins": [
+   "12",
+   "15",
+   "19",
+   "24",
+   "47",
+   "82"
+  ],
+  "population": {
+   "valeur": 176473,
+   "annee": 2023
+  },
+  "superficie_km2": 5217.0,
+  "article": "Lot (département)",
+  "intro": "Le Lot (/lɔt/) est un département du Sud-Ouest de la France, situé dans la région Occitanie, qui tire son nom de la rivière Lot. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 46. La préfecture, la plus grande ville et le centre économique du département est Cahors.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Lot (département)",
+    "url": "https://fr.wikipedia.org/wiki/Lot_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12576"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "47",
+  "nom": "Lot-et-Garonne",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Agen",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Marmande",
+   "Nérac",
+   "Villeneuve-sur-Lot"
+  ],
+  "voisins": [
+   "24",
+   "32",
+   "33",
+   "40",
+   "46",
+   "82"
+  ],
+  "population": {
+   "valeur": 333602,
+   "annee": 2023
+  },
+  "superficie_km2": 5361.0,
+  "article": "Lot-et-Garonne",
+  "intro": "Le Lot-et-Garonne (/lɔ.t‿e.ga.ʁɔn/, ou /lɔ.t‿e.ga.ˈʁɔ.nə/ localement) est un département français. Il se trouve en région Nouvelle-Aquitaine, en Guyenne, pour la rive droite de la Garonne et en Gascogne pour la rive gauche. Son nom vient de deux cours d'eau : le Lot et la Garonne.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Lot-et-Garonne",
+    "url": "https://fr.wikipedia.org/wiki/Lot-et-Garonne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12578"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "48",
+  "nom": "Lozère",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Mende",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Florac Trois Rivières"
+  ],
+  "voisins": [
+   "07",
+   "12",
+   "15",
+   "30",
+   "43"
+  ],
+  "population": {
+   "valeur": 76486,
+   "annee": 2023
+  },
+  "superficie_km2": 5166.9,
+  "article": "Lozère (département)",
+  "intro": "La Lozère (/lo.zɛʁ(ə)/) est un département français situé dans le nord-est de la région Occitanie. Il correspond approximativement à l'ancien Gévaudan. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 48.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Lozère (département)",
+    "url": "https://fr.wikipedia.org/wiki/Lozère_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12580"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "49",
+  "nom": "Maine-et-Loire",
+  "region": "52",
+  "outre_mer": false,
+  "prefecture": "Angers",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Cholet",
+   "Saumur",
+   "Segré-en-Anjou Bleu"
+  ],
+  "voisins": [
+   "35",
+   "37",
+   "44",
+   "53",
+   "72",
+   "79",
+   "85",
+   "86"
+  ],
+  "population": {
+   "valeur": 833776,
+   "annee": 2023
+  },
+  "superficie_km2": 7166.0,
+  "article": "Maine-et-Loire",
+  "intro": "Le département de Maine-et-Loire (/mɛn‿e.lwaʁ/) est un département français du Val de Loire dans la région des Pays de la Loire. Créé en 1790, son territoire reprend en grande partie celui de l'ancienne province d'Anjou. Avec 7 107 km2, c'est le 1er département des Pays de la Loire et le 16e département de France par sa superficie et le 27e par sa population avec 833 776 habitants appelés « Angevins » en référence à la province d'Anjou.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Maine-et-Loire",
+    "url": "https://fr.wikipedia.org/wiki/Maine-et-Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12584"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "50",
+  "nom": "Manche",
+  "region": "28",
+  "outre_mer": false,
+  "prefecture": "Saint-Lô",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Avranches",
+   "Cherbourg-en-Cotentin",
+   "Coutances"
+  ],
+  "voisins": [
+   "14",
+   "35",
+   "53",
+   "61"
+  ],
+  "population": {
+   "valeur": 497522,
+   "annee": 2023
+  },
+  "superficie_km2": 5938.0,
+  "article": "Manche (département)",
+  "intro": "La Manche (/mɑ̃ʃ/) est un département français de la région Normandie. Son nom provient de la mer qui le borde sur tout son pourtour nord et ouest, et le quart nord-est. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 50.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Manche (département)",
+    "url": "https://fr.wikipedia.org/wiki/Manche_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12589"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "51",
+  "nom": "Marne",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Châlons-en-Champagne",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Épernay",
+   "Reims",
+   "Vitry-le-François"
+  ],
+  "voisins": [
+   "02",
+   "08",
+   "10",
+   "52",
+   "55",
+   "77"
+  ],
+  "population": {
+   "valeur": 563076,
+   "annee": 2023
+  },
+  "superficie_km2": 8162.0,
+  "article": "Marne (département)",
+  "intro": "La Marne (/maʁn/) est un département français, qui doit son nom à la Marne, rivière qui l'arrose. Il fait partie de la région Grand Est ; avant 2016, il appartenait à l'ancienne entité régionale de Champagne-Ardenne et relève de la Champagne historique. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 51.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Marne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Marne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12594"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "52",
+  "nom": "Haute-Marne",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Chaumont",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Langres",
+   "Saint-Dizier"
+  ],
+  "voisins": [
+   "10",
+   "21",
+   "51",
+   "55",
+   "70",
+   "88"
+  ],
+  "population": {
+   "valeur": 168331,
+   "annee": 2023
+  },
+  "superficie_km2": 6211.0,
+  "article": "Haute-Marne",
+  "intro": "La Haute-Marne (/ot.maʁn/) est un département français de la région Grand Est, situé dans la partie sud-ouest de celle-ci. Elle faisait auparavant partie de l'ancienne entité régionale de Champagne-Ardenne. L’Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 52.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Marne",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Marne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12607"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "53",
+  "nom": "Mayenne",
+  "region": "52",
+  "outre_mer": false,
+  "prefecture": "Laval",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Château-Gontier-sur-Mayenne",
+   "Mayenne"
+  ],
+  "voisins": [
+   "35",
+   "49",
+   "50",
+   "61",
+   "72"
+  ],
+  "population": {
+   "valeur": 305468,
+   "annee": 2023
+  },
+  "superficie_km2": 5175.0,
+  "article": "Mayenne (département)",
+  "intro": "La Mayenne (/ma.jɛn/) est un département français de la région Pays de la Loire. Ses habitants sont les « Mayennais » et les « Mayennaises ». L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 53.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Mayenne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Mayenne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12620"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "54",
+  "nom": "Meurthe-et-Moselle",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Nancy",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Lunéville",
+   "Toul",
+   "Val de Briey"
+  ],
+  "voisins": [
+   "55",
+   "57",
+   "67",
+   "88"
+  ],
+  "population": {
+   "valeur": 732236,
+   "annee": 2023
+  },
+  "superficie_km2": 5246.0,
+  "article": "Meurthe-et-Moselle",
+  "intro": "La Meurthe-et-Moselle (/mœʁ.t‿e.mo.zɛl/) est un département français. Il fait partie de la région historique et culturelle de la Lorraine et appartient à la région administrative du Grand Est. La préfecture du département est Nancy.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Meurthe-et-Moselle",
+    "url": "https://fr.wikipedia.org/wiki/Meurthe-et-Moselle"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12626"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "55",
+  "nom": "Meuse",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Bar-le-Duc",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Commercy",
+   "Verdun"
+  ],
+  "voisins": [
+   "08",
+   "51",
+   "52",
+   "54",
+   "88"
+  ],
+  "population": {
+   "valeur": 180290,
+   "annee": 2023
+  },
+  "superficie_km2": 6211.0,
+  "article": "Meuse (département)",
+  "intro": "La Meuse ([møz] ) est un département français. Il fait partie de la région historique et culturelle de Lorraine et fait aujourd'hui partie de la région administrative du Grand Est. Le département doit son nom au fleuve qui le traverse du sud au nord, la Meuse.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Meuse (département)",
+    "url": "https://fr.wikipedia.org/wiki/Meuse_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12631"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "56",
+  "nom": "Morbihan",
+  "region": "53",
+  "outre_mer": false,
+  "prefecture": "Vannes",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Lorient",
+   "Pontivy"
+  ],
+  "voisins": [
+   "22",
+   "29",
+   "35",
+   "44"
+  ],
+  "population": {
+   "valeur": 783390,
+   "annee": 2023
+  },
+  "superficie_km2": 6823.0,
+  "article": "Morbihan",
+  "intro": "Le Morbihan (/mɔʁ.bi.(j)ɑ̃/  ; en breton : Mor-Bihan /ˈmoːʁ ˈbi(h)ãn/) est un département français situé en région Bretagne, qui doit son nom au golfe du Morbihan. Il correspond pour l'essentiel au royaume, devenu comté puis baillie, de Broërec et plus anciennement à la cité des Vénètes.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 56.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Morbihan",
+    "url": "https://fr.wikipedia.org/wiki/Morbihan"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12642"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "57",
+  "nom": "Moselle",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Metz",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Forbach",
+   "Sarrebourg",
+   "Sarreguemines",
+   "Thionville"
+  ],
+  "voisins": [
+   "54",
+   "67"
+  ],
+  "population": {
+   "valeur": 1051309,
+   "annee": 2023
+  },
+  "superficie_km2": 6216.0,
+  "article": "Moselle (département)",
+  "intro": "La Moselle (prononcé /mo.zɛl/ ) est un département français de la région Grand Est. Il fait historiquement et culturellement partie de la Lorraine. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 57.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Moselle (département)",
+    "url": "https://fr.wikipedia.org/wiki/Moselle_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12652"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "58",
+  "nom": "Nièvre",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Nevers",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Château-Chinon",
+   "Clamecy",
+   "Cosne-Cours-sur-Loire"
+  ],
+  "voisins": [
+   "03",
+   "18",
+   "21",
+   "45",
+   "71",
+   "89"
+  ],
+  "population": {
+   "valeur": 201417,
+   "annee": 2023
+  },
+  "superficie_km2": 6817.0,
+  "article": "Nièvre (département)",
+  "intro": "La Nièvre (/njɛvʁ/) est un département français situé dans le sud-ouest de la région Bourgogne-Franche-Comté, dans le centre du pays, et doit son nom à la rivière qui le traverse.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 58. Sa préfecture est Nevers.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Nièvre (département)",
+    "url": "https://fr.wikipedia.org/wiki/Nièvre_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12657"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "59",
+  "nom": "Nord",
+  "region": "32",
+  "outre_mer": false,
+  "prefecture": "Lille",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Avesnes-sur-Helpe",
+   "Cambrai",
+   "Douai",
+   "Dunkerque",
+   "Valenciennes"
+  ],
+  "voisins": [
+   "02",
+   "62",
+   "80"
+  ],
+  "population": {
+   "valeur": 2615635,
+   "annee": 2023
+  },
+  "superficie_km2": 5742.8,
+  "article": "Nord (département français)",
+  "intro": "Le Nord (/nɔʁ/) est le département français comprenant les territoires les plus septentrionaux de la France. Lille en est la préfecture et la plus grande ville. L'Institut de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 59.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Nord (département français)",
+    "url": "https://fr.wikipedia.org/wiki/Nord_(département_français)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12661"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "60",
+  "nom": "Oise",
+  "region": "32",
+  "outre_mer": false,
+  "prefecture": "Beauvais",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Clermont",
+   "Compiègne",
+   "Senlis"
+  ],
+  "voisins": [
+   "02",
+   "27",
+   "76",
+   "77",
+   "80",
+   "95"
+  ],
+  "population": {
+   "valeur": 829899,
+   "annee": 2023
+  },
+  "superficie_km2": 5860.0,
+  "article": "Oise (département)",
+  "intro": "L'Oise (/waz/ ; en picard: Oése) est un département français de la région culturelle et historique de Picardie, aujourd'hui Hauts-de-France, dont le nom provient de la rivière qui le traverse. Ses habitants étaient appelés les Oisiens et officiellement les Isariens depuis 2004. Sa préfecture est Beauvais, qui est la plus grande ville du département.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Oise (département)",
+    "url": "https://fr.wikipedia.org/wiki/Oise_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12675"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "61",
+  "nom": "Orne",
+  "region": "28",
+  "outre_mer": false,
+  "prefecture": "Alençon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Argentan",
+   "Mortagne-au-Perche"
+  ],
+  "voisins": [
+   "14",
+   "27",
+   "28",
+   "50",
+   "53",
+   "72"
+  ],
+  "population": {
+   "valeur": 275201,
+   "annee": 2023
+  },
+  "superficie_km2": 6103.0,
+  "article": "Orne (département)",
+  "intro": "L'Orne (/ɔʁn/) est un département français de la région Normandie, ainsi nommé d'après le fleuve qui y prend sa source. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 61. Sa préfecture est Alençon.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Orne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Orne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12679"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "62",
+  "nom": "Pas-de-Calais",
+  "region": "32",
+  "outre_mer": false,
+  "prefecture": "Arras",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Béthune",
+   "Boulogne-sur-Mer",
+   "Calais",
+   "Lens",
+   "Montreuil-sur-Mer",
+   "Saint-Omer"
+  ],
+  "voisins": [
+   "59",
+   "80"
+  ],
+  "population": {
+   "valeur": 1457905,
+   "annee": 2023
+  },
+  "superficie_km2": 6706.0,
+  "article": "Pas-de-Calais",
+  "intro": "Le Pas-de-Calais (/pɑ.d(ə).ka.lɛ/) est un département français, situé dans la région Hauts-de-France, qui doit son nom au détroit qui le sépare de l'Angleterre, le pas de Calais (sans majuscule à « pas » et sans trait d'union). La préfecture de ce département est Arras. L'Insee et La Poste lui attribuent le code 62.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Pas-de-Calais",
+    "url": "https://fr.wikipedia.org/wiki/Pas-de-Calais"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12689"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "63",
+  "nom": "Puy-de-Dôme",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Clermont-Ferrand",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Ambert",
+   "Issoire",
+   "Riom",
+   "Thiers"
+  ],
+  "voisins": [
+   "03",
+   "15",
+   "19",
+   "23",
+   "42",
+   "43"
+  ],
+  "population": {
+   "valeur": 664453,
+   "annee": 2023
+  },
+  "superficie_km2": 7970.0,
+  "article": "Puy-de-Dôme",
+  "intro": "Le Puy-de-Dôme (/pɥi.d(ə).dom/) est un département de la région Auvergne-Rhône-Alpes, situé au centre de la France. Son nom lui vient du puy de Dôme, un volcan éteint.\nIl correspond de façon assez éloignée à l'ancien Bas-Pays d'Auvergne, une subdivision administrative de la province d'Auvergne sous l'Ancien Régime.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Puy-de-Dôme",
+    "url": "https://fr.wikipedia.org/wiki/Puy-de-Dôme"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12694"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "64",
+  "nom": "Pyrénées-Atlantiques",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Pau",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bayonne",
+   "Oloron-Sainte-Marie"
+  ],
+  "voisins": [
+   "32",
+   "40",
+   "65"
+  ],
+  "population": {
+   "valeur": 706564,
+   "annee": 2023
+  },
+  "superficie_km2": 7645.0,
+  "article": "Pyrénées-Atlantiques",
+  "intro": "Les Pyrénées-Atlantiques (/pi.ʁe.ne(z‿)at.lɑ̃.tik/), appelées Basses-Pyrénées jusqu'en 1969, sont un département français situé à l'extrême sud-ouest du territoire de la France métropolitaine, dans la région Nouvelle-Aquitaine. Il tire son nom de la chaîne montagneuse qui le traverse au sud et de l'océan Atlantique qui le borde à l'ouest. Il est subdivisé en trois arrondissements et sa préfecture est la ville de Pau.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Pyrénées-Atlantiques",
+    "url": "https://fr.wikipedia.org/wiki/Pyrénées-Atlantiques"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12703"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "65",
+  "nom": "Hautes-Pyrénées",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Tarbes",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Argelès-Gazost",
+   "Bagnères-de-Bigorre"
+  ],
+  "voisins": [
+   "31",
+   "32",
+   "64"
+  ],
+  "population": {
+   "valeur": 231349,
+   "annee": 2023
+  },
+  "superficie_km2": 4464.0,
+  "article": "Hautes-Pyrénées",
+  "intro": "Les Hautes-Pyrénées (/ot pi.ʁe.ne/, localement : /ˈɔ.tə.pi.ʁe.ne/) sont un département français de la région Occitanie. Sa préfecture est la ville de Tarbes. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 65.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Hautes-Pyrénées",
+    "url": "https://fr.wikipedia.org/wiki/Hautes-Pyrénées"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12700"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "66",
+  "nom": "Pyrénées-Orientales",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Perpignan",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Céret",
+   "Prades"
+  ],
+  "voisins": [
+   "09",
+   "11"
+  ],
+  "population": {
+   "valeur": 496855,
+   "annee": 2023
+  },
+  "superficie_km2": 4116.0,
+  "article": "Pyrénées-Orientales",
+  "intro": "Les Pyrénées-Orientales (/pi.ʁe.ne.z‿ɔʁ.jɑ̃.tal/ ; en catalan : Pirineus Orientals ; en occitan : Pirenèus Orientals) sont un département français situés au sud de la région Occitanie. Sa limite méridionale correspond à la frontière avec l'Espagne (province de Gérone, Catalogne). Son territoire correspond à l'ancienne province du Roussillon, qui faisait partie de la principauté de Catalogne jusqu'en 1659, agrandie du pays du Fenouillèdes (pays de tradition languedocienne).",
+  "sources": [
+   {
+    "titre": "Wikipédia : Pyrénées-Orientales",
+    "url": "https://fr.wikipedia.org/wiki/Pyrénées-Orientales"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12709"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "67",
+  "nom": "Bas-Rhin",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Strasbourg",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Haguenau",
+   "Molsheim",
+   "Saverne",
+   "Sélestat"
+  ],
+  "voisins": [
+   "54",
+   "57",
+   "68",
+   "88"
+  ],
+  "population": {
+   "valeur": 1163810,
+   "annee": 2023
+  },
+  "superficie_km2": 4755.0,
+  "article": "Bas-Rhin",
+  "intro": "Le Bas-Rhin (/bɑ.ʁɛ̃/) est un département français situé dans la région Grand Est. C'est une circonscription administrative, territoire de compétence des services de l'État, dont la préfecture est située à Strasbourg. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 67.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Bas-Rhin",
+    "url": "https://fr.wikipedia.org/wiki/Bas-Rhin"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12717"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "68",
+  "nom": "Haut-Rhin",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Colmar",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Altkirch",
+   "Mulhouse",
+   "Thann"
+  ],
+  "voisins": [
+   "67",
+   "88",
+   "90"
+  ],
+  "population": {
+   "valeur": 770738,
+   "annee": 2023
+  },
+  "superficie_km2": 3525.0,
+  "article": "Haut-Rhin",
+  "intro": "Le Haut-Rhin (/o.ʁɛ̃/) est un département français. C'est une circonscription administrative, territoire de compétence des services de l'État, dont la préfecture est située à Colmar.\nLe Haut-Rhin était également une collectivité territoriale, à savoir une personne morale de droit public différente de l'État, investie d'une mission d'intérêt général concernant le département, compris en tant que territoire.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haut-Rhin",
+    "url": "https://fr.wikipedia.org/wiki/Haut-Rhin"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12722"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "69",
+  "nom": "Rhône",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Lyon",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Villefranche-sur-Saône"
+  ],
+  "voisins": [
+   "01",
+   "38",
+   "42",
+   "71"
+  ],
+  "population": {
+   "valeur": 1893692,
+   "annee": 2021
+  },
+  "superficie_km2": null,
+  "article": "Rhône (département)",
+  "intro": "Le Rhône ou le département du Rhône est un département français de la région Auvergne-Rhône-Alpes. Ses habitants sont appelés les « Rhodaniens et Rhodaniennes ». L'Institut national de la statistique et des études économiques (Insee) lui attribue le code officiel géographique 69D.\nDepuis le 1er janvier 2015, le département est distinct de la métropole de Lyon bien que le siège du conseil départemental y soit toujours situé.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Rhône (département)",
+    "url": "https://fr.wikipedia.org/wiki/Rhône_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q46130"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "70",
+  "nom": "Haute-Saône",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Vesoul",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Lure"
+  ],
+  "voisins": [
+   "21",
+   "25",
+   "39",
+   "52",
+   "88",
+   "90"
+  ],
+  "population": {
+   "valeur": 233185,
+   "annee": 2023
+  },
+  "superficie_km2": 5360.0,
+  "article": "Haute-Saône",
+  "intro": "La Haute-Saône (/ot.son/) est un département français appartenant à la région de Bourgogne-Franche-Comté. Il fait partie de la région historique et culturelle de la Franche-Comté. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 70.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Saône",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Saône"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12730"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "71",
+  "nom": "Saône-et-Loire",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Mâcon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Autun",
+   "Chalon-sur-Saône",
+   "Charolles",
+   "Louhans"
+  ],
+  "voisins": [
+   "01",
+   "03",
+   "21",
+   "39",
+   "42",
+   "58",
+   "69"
+  ],
+  "population": {
+   "valeur": 550310,
+   "annee": 2023
+  },
+  "superficie_km2": 8575.0,
+  "article": "Saône-et-Loire",
+  "intro": "La Saône-et-Loire ([so.n‿e lwaʁ]) est un département français de la région Bourgogne-Franche-Comté dont la préfecture est Mâcon. Par ses quelque 550 000 habitants en 2022, elle est le département le plus peuplé de la région.\nL'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 71.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Saône-et-Loire",
+    "url": "https://fr.wikipedia.org/wiki/Saône-et-Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12736"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "72",
+  "nom": "Sarthe",
+  "region": "52",
+  "outre_mer": false,
+  "prefecture": "Le Mans",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "La Flèche",
+   "Mamers"
+  ],
+  "voisins": [
+   "28",
+   "37",
+   "41",
+   "49",
+   "53",
+   "61"
+  ],
+  "population": {
+   "valeur": 566733,
+   "annee": 2023
+  },
+  "superficie_km2": 6206.0,
+  "article": "Sarthe (département)",
+  "intro": "La Sarthe (/saʁt/) est un département français de la région Pays de la Loire. Ses habitants sont appelés les « Sarthois ». L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 72.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Sarthe (département)",
+    "url": "https://fr.wikipedia.org/wiki/Sarthe_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12740"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "73",
+  "nom": "Savoie",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Chambéry",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Albertville",
+   "Saint-Jean-de-Maurienne"
+  ],
+  "voisins": [
+   "01",
+   "05",
+   "38",
+   "74"
+  ],
+  "population": {
+   "valeur": 448226,
+   "annee": 2023
+  },
+  "superficie_km2": 6028.0,
+  "article": "Savoie (département)",
+  "intro": "La Savoie (/sa.vwa/, en savoyard : « Savouè ») est un département français de la région Auvergne-Rhône-Alpes, dont le chef-lieu est la ville de Chambéry. Ses habitants sont connus sous le nom de « Savoyards ». L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 73.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Savoie (département)",
+    "url": "https://fr.wikipedia.org/wiki/Savoie_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12745"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "74",
+  "nom": "Haute-Savoie",
+  "region": "84",
+  "outre_mer": false,
+  "prefecture": "Annecy",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bonneville",
+   "Saint-Julien-en-Genevois",
+   "Thonon-les-Bains"
+  ],
+  "voisins": [
+   "01",
+   "73"
+  ],
+  "population": {
+   "valeur": 861158,
+   "annee": 2023
+  },
+  "superficie_km2": 4388.0,
+  "article": "Haute-Savoie",
+  "intro": "La Haute-Savoie (/ot sa.vwa/) est un département français faisant partie de la région Auvergne-Rhône-Alpes. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 74. Le département comprend le nord de la région historique de la Savoie.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Savoie",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Savoie"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12751"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "75",
+  "nom": "Paris",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Paris",
+  "prefecture_region": true,
+  "sous_prefectures": [],
+  "voisins": [
+   "92",
+   "93",
+   "94"
+  ],
+  "population": {
+   "valeur": 2103778,
+   "annee": 2023
+  },
+  "superficie_km2": 105.4,
+  "article": "Paris",
+  "intro": "Paris est la capitale de la France (de facto) et le chef-lieu de la région Île-de-France. Elle est située au centre du bassin qui porte son nom, sur une boucle de la Seine, entre les confluents avec la Marne et l'Oise. Ville mondiale, elle compte parmi les métropoles les plus importantes d'Europe.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Paris",
+    "url": "https://fr.wikipedia.org/wiki/Paris"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q90"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "76",
+  "nom": "Seine-Maritime",
+  "region": "28",
+  "outre_mer": false,
+  "prefecture": "Rouen",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Dieppe",
+   "Le Havre"
+  ],
+  "voisins": [
+   "27",
+   "60",
+   "80"
+  ],
+  "population": {
+   "valeur": 1260964,
+   "annee": 2023
+  },
+  "superficie_km2": 6278.0,
+  "article": "Seine-Maritime",
+  "intro": "La Seine-Maritime, dénommée Seine-Inférieure jusqu'au 17 janvier 1955, est un département français de la région Normandie, dont il héberge plus du tiers de la population. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 76.\nSa préfecture est Rouen et sa plus grande ville est Le Havre.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Seine-Maritime",
+    "url": "https://fr.wikipedia.org/wiki/Seine-Maritime"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12758"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "77",
+  "nom": "Seine-et-Marne",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Melun",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Fontainebleau",
+   "Meaux",
+   "Provins",
+   "Torcy"
+  ],
+  "voisins": [
+   "02",
+   "10",
+   "45",
+   "51",
+   "60",
+   "89",
+   "91",
+   "93",
+   "94",
+   "95"
+  ],
+  "population": {
+   "valeur": 1468108,
+   "annee": 2023
+  },
+  "superficie_km2": 5915.0,
+  "article": "Seine-et-Marne",
+  "intro": "La Seine-et-Marne (/sɛ.n‿e.maʁn/) est un département français de la région Île-de-France. Il tire son nom du fleuve Seine et de la rivière Marne. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 77.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Seine-et-Marne",
+    "url": "https://fr.wikipedia.org/wiki/Seine-et-Marne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12753"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "78",
+  "nom": "Yvelines",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Versailles",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Mantes-la-Jolie",
+   "Rambouillet",
+   "Saint-Germain-en-Laye"
+  ],
+  "voisins": [
+   "27",
+   "28",
+   "91",
+   "92",
+   "95"
+  ],
+  "population": {
+   "valeur": 1485086,
+   "annee": 2023
+  },
+  "superficie_km2": 2284.0,
+  "article": "Yvelines",
+  "intro": "Les Yvelines (/iv.lin/ ou /i.və.lin/) sont un département français situé à l'ouest de Paris, dans sa grande couronne, en région Île-de-France. Il s'étend sur 2 284 km2 et compte 259 communes. Avec 1 485 086 habitants en 2023, le département est le plus peuplé de la grande couronne et le troisième le plus riche de France.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Yvelines",
+    "url": "https://fr.wikipedia.org/wiki/Yvelines"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12820"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "79",
+  "nom": "Deux-Sèvres",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Niort",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bressuire",
+   "Parthenay"
+  ],
+  "voisins": [
+   "16",
+   "17",
+   "49",
+   "85",
+   "86"
+  ],
+  "population": {
+   "valeur": 375229,
+   "annee": 2023
+  },
+  "superficie_km2": 5999.0,
+  "article": "Deux-Sèvres",
+  "intro": "Les Deux-Sèvres (/dø.sɛvʁ/ ; « Deùs Saevres » en poitevin-saintongeais) sont un département du Centre-Ouest de la France, situé en région Nouvelle-Aquitaine.\nLe département doit son nom à la Sèvre Nantaise, dernier grand affluent de la Loire, et à la Sèvre Niortaise, fleuve côtier qui se jette dans l'océan Atlantique au niveau de l'anse de l'Aiguillon. À ce titre, il est l'un des rares départements français portant le nom de deux cours d'eau qui ne sont pas confluents.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Deux-Sèvres",
+    "url": "https://fr.wikipedia.org/wiki/Deux-Sèvres"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12765"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "80",
+  "nom": "Somme",
+  "region": "32",
+  "outre_mer": false,
+  "prefecture": "Amiens",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Abbeville",
+   "Montdidier",
+   "Péronne"
+  ],
+  "voisins": [
+   "02",
+   "59",
+   "60",
+   "62",
+   "76"
+  ],
+  "population": {
+   "valeur": 565413,
+   "annee": 2023
+  },
+  "superficie_km2": 6170.0,
+  "article": "Somme (département)",
+  "intro": "La Somme (/sɔm/ ; en picard : Sonme) est un département français situé dans la région Hauts-de-France. Son nom provient de la Somme, le fleuve traversant son territoire. Formant auparavant, avec l'Aisne et l'Oise, l'ancienne région Picardie, il constitue donc depuis 2016, avec les deux départements du Nord-Pas-de-Calais, la région Hauts-de-France.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Somme (département)",
+    "url": "https://fr.wikipedia.org/wiki/Somme_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12770"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "81",
+  "nom": "Tarn",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Albi",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Castres"
+  ],
+  "voisins": [
+   "11",
+   "12",
+   "31",
+   "34",
+   "82"
+  ],
+  "population": {
+   "valeur": 397352,
+   "annee": 2023
+  },
+  "superficie_km2": 5758.0,
+  "article": "Tarn (département)",
+  "intro": "Le Tarn (/taʁn/) est un département français de la région Occitanie, traversé par la rivière Tarn qui lui a donné son nom. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 81. Ses habitants sont nommés les « Tarnais » et « Tarnaises », sa préfecture est Albi, et Castres en est l'unique sous-préfecture.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Tarn (département)",
+    "url": "https://fr.wikipedia.org/wiki/Tarn_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12772"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "82",
+  "nom": "Tarn-et-Garonne",
+  "region": "76",
+  "outre_mer": false,
+  "prefecture": "Montauban",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Castelsarrasin"
+  ],
+  "voisins": [
+   "12",
+   "31",
+   "32",
+   "46",
+   "47",
+   "81"
+  ],
+  "population": {
+   "valeur": 265817,
+   "annee": 2023
+  },
+  "superficie_km2": 3718.0,
+  "article": "Tarn-et-Garonne",
+  "intro": "Le Tarn-et-Garonne (/taʁ.n‿e.ɡa.ʁɔn/, localement : /taʁ.n‿e.ɡa.ˈʁɔ.nə/ ; en occitan : Tarn e Garona) est un département français faisant partie de la région Occitanie. Il tire son nom du fleuve Garonne et de son affluent le Tarn. Sa préfecture est Montauban, et son unique sous-préfecture est Castelsarrasin.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Tarn-et-Garonne",
+    "url": "https://fr.wikipedia.org/wiki/Tarn-et-Garonne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12779"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "83",
+  "nom": "Var",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Toulon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Brignoles",
+   "Draguignan"
+  ],
+  "voisins": [
+   "04",
+   "06",
+   "13",
+   "84"
+  ],
+  "population": {
+   "valeur": 1119307,
+   "annee": 2023
+  },
+  "superficie_km2": 5973.0,
+  "article": "Var (département)",
+  "intro": "Le Var (/vaʁ/) est un département français situé en région Provence-Alpes-Côte d'Azur, il doit son nom au fleuve côtier qui constituait jadis sa limite orientale mais qui ne l'arrose plus aujourd'hui.\nIl est le seul département français à avoir eu dans l'histoire quatre chefs-lieux différents : Brignoles, Grasse, Draguignan et enfin Toulon. Le chef-lieu du département est ainsi Toulon, tandis que Draguignan et Brignoles en sont les sous-préfectures.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Var (département)",
+    "url": "https://fr.wikipedia.org/wiki/Var_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12789"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "84",
+  "nom": "Vaucluse",
+  "region": "93",
+  "outre_mer": false,
+  "prefecture": "Avignon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Apt",
+   "Carpentras"
+  ],
+  "voisins": [
+   "04",
+   "07",
+   "13",
+   "26",
+   "30",
+   "83"
+  ],
+  "population": {
+   "valeur": 572056,
+   "annee": 2023
+  },
+  "superficie_km2": 3567.0,
+  "article": "Vaucluse (département)",
+  "intro": "Le Vaucluse [voklyz] (parfois appelé la Vaucluse selon un usage traditionnel) est un département français situé dans la région Provence-Alpes-Côte d'Azur. Lors de sa création en 1793, il se voit attribuer le numéro 89 dans la liste des 130 départements français de 1811. Depuis 1946, l'Insee et la Poste lui attribuent le code 84.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Vaucluse (département)",
+    "url": "https://fr.wikipedia.org/wiki/Vaucluse_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12792"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "85",
+  "nom": "Vendée",
+  "region": "52",
+  "outre_mer": false,
+  "prefecture": "La Roche-sur-Yon",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Fontenay-le-Comte",
+   "Les Sables-d'Olonne"
+  ],
+  "voisins": [
+   "17",
+   "44",
+   "49",
+   "79"
+  ],
+  "population": {
+   "valeur": 713609,
+   "annee": 2023
+  },
+  "superficie_km2": 6720.0,
+  "article": "Vendée (département)",
+  "intro": "La Vendée (/vɑ̃.de/) est un département français traversé par la rivière éponyme, affluent de la Sèvre Niortaise. Il est situé dans la région des Pays de la Loire et dans la province historique du Poitou, le département correspondant à l'ancien Bas-Poitou. L'Institut national de la statistique et des études économiques (INSEE) et La Poste lui attribuent le code 85.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Vendée (département)",
+    "url": "https://fr.wikipedia.org/wiki/Vendée_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12798"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "86",
+  "nom": "Vienne",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Poitiers",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Châtellerault",
+   "Montmorillon"
+  ],
+  "voisins": [
+   "16",
+   "36",
+   "37",
+   "49",
+   "79",
+   "87"
+  ],
+  "population": {
+   "valeur": 438897,
+   "annee": 2023
+  },
+  "superficie_km2": 6990.0,
+  "article": "Vienne (département)",
+  "intro": "La Vienne (/vjɛn/ ) est un département français traversé par la rivière éponyme, la Vienne. Il est le cinquième département le plus étendu de la région Nouvelle-Aquitaine et le 17e plus grand département de France métropolitaine.\nLes habitants de la Vienne sont appelés les « Poitevins » ou « Viennois » (ce dernier nom est assez peu utilisé par les habitants du département).",
+  "sources": [
+   {
+    "titre": "Wikipédia : Vienne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Vienne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12804"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "87",
+  "nom": "Haute-Vienne",
+  "region": "75",
+  "outre_mer": false,
+  "prefecture": "Limoges",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Bellac",
+   "Rochechouart"
+  ],
+  "voisins": [
+   "16",
+   "19",
+   "23",
+   "24",
+   "36",
+   "86"
+  ],
+  "population": {
+   "valeur": 373167,
+   "annee": 2023
+  },
+  "superficie_km2": 5520.0,
+  "article": "Haute-Vienne",
+  "intro": "La Haute-Vienne (/ot vjɛn/ ou /otə vjɛn/) est un département français, situé dans la région Nouvelle-Aquitaine. Sa préfecture et sa principale ville est Limoges. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 87.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Haute-Vienne",
+    "url": "https://fr.wikipedia.org/wiki/Haute-Vienne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12808"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "88",
+  "nom": "Vosges",
+  "region": "44",
+  "outre_mer": false,
+  "prefecture": "Épinal",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Neufchâteau",
+   "Saint-Dié-des-Vosges"
+  ],
+  "voisins": [
+   "52",
+   "54",
+   "55",
+   "67",
+   "68",
+   "70",
+   "90"
+  ],
+  "population": {
+   "valeur": 357248,
+   "annee": 2023
+  },
+  "superficie_km2": 5874.0,
+  "article": "Vosges (département)",
+  "intro": "Les Vosges (/voːʒ/ ) est un département français de la région Grand Est, situé dans la région historique de Lorraine. Elles tirent leur nom du massif des Vosges, qui occupe une grande partie de leur territoire. Son chef-lieu est Épinal.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Vosges (département)",
+    "url": "https://fr.wikipedia.org/wiki/Vosges_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3105"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "89",
+  "nom": "Yonne",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Auxerre",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Avallon",
+   "Sens"
+  ],
+  "voisins": [
+   "10",
+   "21",
+   "45",
+   "58",
+   "77"
+  ],
+  "population": {
+   "valeur": 332267,
+   "annee": 2023
+  },
+  "superficie_km2": 7427.0,
+  "article": "Yonne (département)",
+  "intro": "L'Yonne (/jɔn/) est un département français, situé dans la région administrative Bourgogne-Franche-Comté. Il est traversé, du sud vers le nord, par la rivière qui lui a donné son nom, l'Yonne, affluent de la Seine, qui la rejoint à Montereau-Fault-Yonne (Seine-et-Marne). L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 89.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Yonne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Yonne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12816"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "90",
+  "nom": "Territoire de Belfort",
+  "region": "27",
+  "outre_mer": false,
+  "prefecture": "Belfort",
+  "prefecture_region": false,
+  "sous_prefectures": [],
+  "voisins": [
+   "25",
+   "68",
+   "70",
+   "88"
+  ],
+  "population": {
+   "valeur": 140255,
+   "annee": 2023
+  },
+  "superficie_km2": 609.4,
+  "article": "Territoire de Belfort",
+  "intro": "Le Territoire de Belfort est un département français créé en 1922 à partir de l'arrondissement de Belfort, seule partie du Haut-Rhin et de l'Alsace restée à la France après la défaite de 1871. Il était à l'origine nommé « Arrondissement subsistant du Haut-Rhin ». En 1919, il ne réintègre pas le Haut-Rhin, et devient officiellement un département français le 18 février 1922, le préfet Abel Jean Bertrand Maisonobe étant nommé et installé le 11 mars 1922.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Territoire de Belfort",
+    "url": "https://fr.wikipedia.org/wiki/Territoire_de_Belfort"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12782"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "91",
+  "nom": "Essonne",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Évry-Courcouronnes",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Étampes",
+   "Palaiseau"
+  ],
+  "voisins": [
+   "28",
+   "45",
+   "77",
+   "78",
+   "92",
+   "94"
+  ],
+  "population": {
+   "valeur": 1338485,
+   "annee": 2023
+  },
+  "superficie_km2": 1804.0,
+  "article": "Essonne (département)",
+  "intro": "Le département de l'Essonne (/ɛ.sɔn/ ) est un département français situé au sud de Paris, dans la région Île-de-France. Il est pour partie intégré à la métropole du Grand Paris et tire son nom de la rivière Essonne dont le cours traverse le territoire du département selon un axe sud-nord jusqu'à sa confluence avec la Seine.\nOfficiellement créé le 1er janvier 1968 par démembrement de l'ancienne Seine-et-Oise, il porte le code Insee et postal 91 et couvre un territoire de 1 804 km2 occupé en 2023 par 1 338 485 habitants.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Essonne (département)",
+    "url": "https://fr.wikipedia.org/wiki/Essonne_(département)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3368"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "92",
+  "nom": "Hauts-de-Seine",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Nanterre",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Antony",
+   "Boulogne-Billancourt"
+  ],
+  "voisins": [
+   "75",
+   "78",
+   "91",
+   "93",
+   "94",
+   "95"
+  ],
+  "population": {
+   "valeur": 1654712,
+   "annee": 2023
+  },
+  "superficie_km2": 176.0,
+  "article": "Hauts-de-Seine",
+  "intro": "Les Hauts-de-Seine (/o d(ə) sɛn/) sont un département français constituant, depuis leur création en 1968, essentiellement la proche banlieue ouest de la métropole du Grand Paris, en région Île-de-France. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 92. Ses habitants, au nombre de 1 654 712 lors du recensement de 2023, sont appelés les Altoséquanais.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Hauts-de-Seine",
+    "url": "https://fr.wikipedia.org/wiki/Hauts-de-Seine"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12543"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "93",
+  "nom": "Seine-Saint-Denis",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Bobigny",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Le Raincy",
+   "Saint-Denis"
+  ],
+  "voisins": [
+   "75",
+   "77",
+   "92",
+   "94",
+   "95"
+  ],
+  "population": {
+   "valeur": 1704316,
+   "annee": 2023
+  },
+  "superficie_km2": 236.0,
+  "article": "Seine-Saint-Denis",
+  "intro": "La Seine-Saint-Denis (prononciation : /sɛn sɛ̃ də.ni/) est un département français limitrophe de Paris (nord-est) et inclus dans la métropole du Grand Paris (MGP). Il appartient à la petite couronne de la région Île-de-France. L'Institut national de la statistique et des études économiques (Insee) et La Poste lui attribuent le code 93.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Seine-Saint-Denis",
+    "url": "https://fr.wikipedia.org/wiki/Seine-Saint-Denis"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12761"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "94",
+  "nom": "Val-de-Marne",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Créteil",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "L'Haÿ-les-Roses",
+   "Nogent-sur-Marne"
+  ],
+  "voisins": [
+   "75",
+   "77",
+   "91",
+   "92",
+   "93"
+  ],
+  "population": {
+   "valeur": 1426929,
+   "annee": 2023
+  },
+  "superficie_km2": 245.0,
+  "article": "Val-de-Marne",
+  "intro": "Le Val-de-Marne (prononcé : /val.də.maʁn/) est un département français inclus dans la métropole du Grand Paris et qui fait partie de la région Île-de-France. Il doit son nom à la Marne, rivière qui coule sur son territoire. Sa préfecture est Créteil, et ses deux sous-préfectures sont L'Haÿ-les-Roses et Nogent-sur-Marne.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Val-de-Marne",
+    "url": "https://fr.wikipedia.org/wiki/Val-de-Marne"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12788"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "95",
+  "nom": "Val-d'Oise",
+  "region": "11",
+  "outre_mer": false,
+  "prefecture": "Cergy",
+  "prefecture_region": false,
+  "sous_prefectures": [
+   "Argenteuil",
+   "Pontoise",
+   "Sarcelles"
+  ],
+  "voisins": [
+   "27",
+   "60",
+   "77",
+   "78",
+   "92",
+   "93"
+  ],
+  "population": {
+   "valeur": 1281653,
+   "annee": 2023
+  },
+  "superficie_km2": 1246.0,
+  "article": "Val-d'Oise",
+  "intro": "Le Val-d'Oise (/val d‿waz/) est un département français appartenant à la région Île-de-France, créé en 1968 à la suite du démembrement du département de Seine-et-Oise. Il constitue la partie nord de l'agglomération parisienne. C'est un des départements de la grande couronne du Bassin parisien.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Val-d'Oise",
+    "url": "https://fr.wikipedia.org/wiki/Val-d'Oise"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12784"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "971",
+  "nom": "Guadeloupe",
+  "region": "01",
+  "outre_mer": true,
+  "prefecture": "Basse-Terre",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Pointe-à-Pitre"
+  ],
+  "voisins": [],
+  "population": {
+   "valeur": 384160,
+   "annee": 2023
+  },
+  "superficie_km2": 1628.0,
+  "article": "Guadeloupe",
+  "intro": "La Guadeloupe (en créole guadeloupéen : Gwadloup) est un archipel des Caraïbes formant un département et région d'outre-mer français. La partie principale (Karukera en langues amérindiennes) en forme de papillon est composée de deux îles : la Grande-Terre à l'est et la Basse-Terre à l'ouest, séparées par un bras de mer, appelé « la Rivière Salée ». Le chef-lieu est Basse-Terre et la capitale économique est Pointe-à-Pitre.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Guadeloupe",
+    "url": "https://fr.wikipedia.org/wiki/Guadeloupe"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17012"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "972",
+  "nom": "Martinique",
+  "region": "02",
+  "outre_mer": true,
+  "prefecture": "Fort-de-France",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Le Marin",
+   "Saint-Pierre",
+   "La Trinité"
+  ],
+  "voisins": [],
+  "population": {
+   "valeur": 360630,
+   "annee": 2023
+  },
+  "superficie_km2": 1128.0,
+  "article": "Martinique",
+  "intro": "La Martinique (en créole martiniquais Matinik ou Matnik ; anciennement appelée Iguanacaera ou Jouanacaera - l'île aux iguanes en langue caribe - ou encore Mantinino en caribe d'Hispaniola) est une collectivité territoriale unique française située en mer des Caraïbes et plus précisément dans l'archipel des Petites Antilles. Son chef-lieu est Fort-de-France. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2015 dans le cadre d'une collectivité territoriale unique — la collectivité territoriale de Martinique — dont l'organe délibérant est l'assemblée de Martinique.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Martinique",
+    "url": "https://fr.wikipedia.org/wiki/Martinique"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17054"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "973",
+  "nom": "Guyane",
+  "region": "03",
+  "outre_mer": true,
+  "prefecture": "Cayenne",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Saint-Laurent-du-Maroni",
+   "Saint-Georges"
+  ],
+  "voisins": [],
+  "population": {
+   "valeur": 293996,
+   "annee": 2023
+  },
+  "superficie_km2": 83534.0,
+  "article": "Guyane",
+  "intro": "La Guyane (/gɥijan/  ; en créole guyanais : Lagwiyann) est une collectivité territoriale unique française située en Amérique du Sud, bordée au nord par l'océan Atlantique, limitrophe du Brésil au sud-est et au sud et du Suriname à l'ouest, c'est le plus petit territoire sur le continent sud-américain autant en superficie qu'en nombre d'habitants. La Guyane est la seule collectivité française d'outre-mer de nature continentale. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2015 dans le cadre d'une collectivité territoriale unique — la collectivité territoriale de Guyane — dont l'organe délibérant est l'assemblée de Guyane.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Guyane",
+    "url": "https://fr.wikipedia.org/wiki/Guyane"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3769"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "974",
+  "nom": "La Réunion",
+  "region": "04",
+  "outre_mer": true,
+  "prefecture": "Saint-Denis",
+  "prefecture_region": true,
+  "sous_prefectures": [
+   "Saint-Benoît",
+   "Saint-Paul",
+   "Saint-Pierre"
+  ],
+  "voisins": [],
+  "population": {
+   "valeur": 889679,
+   "annee": 2023
+  },
+  "superficie_km2": 2512.0,
+  "article": "La Réunion",
+  "intro": "La Réunion est une île volcanique située dans l'ouest de l'océan Indien, à l'est de l'Afrique, dans l'hémisphère sud. Elle constitue un département et région d'outre-mer français.\nD'une superficie de 2 512 km2, La Réunion est située dans l'archipel des Mascareignes à 172 km à l'ouest-sud-ouest de l'île Maurice et à 679 km à l'est-sud-est de Madagascar.",
+  "sources": [
+   {
+    "titre": "Wikipédia : La Réunion",
+    "url": "https://fr.wikipedia.org/wiki/La_Réunion"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17070"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "976",
+  "nom": "Mayotte",
+  "region": "06",
+  "outre_mer": true,
+  "prefecture": "Mamoudzou",
+  "prefecture_region": true,
+  "sous_prefectures": [],
+  "voisins": [],
+  "population": {
+   "valeur": 320901,
+   "annee": 2024
+  },
+  "superficie_km2": 374.0,
+  "article": "Mayotte",
+  "intro": "Mayotte (en mahorais : Maoré) est une collectivité territoriale unique française. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2011 dans le cadre d'une collectivité territoriale unique — le Département-Région de Mayotte — dont l'organe délibérant est le conseil départemental de Mayotte. Son code Insee est le 976R.\nSur le plan géographique, Mayotte fait partie de l'archipel des Comores, dans le Nord du canal du Mozambique (océan Indien) et au nord-ouest de Madagascar.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Mayotte",
+    "url": "https://fr.wikipedia.org/wiki/Mayotte"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17063"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   },
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   }
+  ],
+  "revu": "2026-10-11"
+ }
+]

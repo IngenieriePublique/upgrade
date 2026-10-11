@@ -18,7 +18,8 @@ function blocs(now, dues, sprint = null) {
       note: '13 items au plus, une question à poser par item. Chaque article s\'ouvre dans un nouvel onglet.' },
     { id: 'cartes', titre: 'Cartes', min: 12, lien: '#/cartes/reviser',
       note: dues ? `${plural(dues, 'carte à voir', 'cartes à voir')}.` : 'Rien à réviser pour le moment.' },
-    { id: 'territoires', titre: 'Territoires', min: 5, avenir: 'Phase 4 : dix questions de jeu sur la carte.' },
+    { id: 'territoires', titre: 'Territoires', min: 5, lien: '#/territoires/jeu?mode=quotidien',
+      note: 'Dix questions au plus : placer, nommer, numéros, préfectures, voisins. La carte de maîtrise est dans l\'onglet Territoires.' },
     sprint
       ? { id: 'profond', titre: `Sprint candidature (jusqu'au 15 novembre)`, min: 25, lien: sprint.lien,
         note: `${sprint.jours} jour${sprint.jours > 1 ? 's' : ''} restant${sprint.jours > 1 ? 's' : ''}. Prochaine étape : ${sprint.titre}.` }

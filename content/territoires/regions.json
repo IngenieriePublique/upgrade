@@ -1,0 +1,715 @@
+[
+ {
+  "code": "01",
+  "nom": "Guadeloupe",
+  "departements": [
+   "971"
+  ],
+  "prefecture": "Basse-Terre",
+  "outre_mer": true,
+  "population": {
+   "valeur": 384160,
+   "annee": 2023
+  },
+  "superficie_km2": 1628.0,
+  "article": "Guadeloupe",
+  "intro": "La Guadeloupe (en créole guadeloupéen : Gwadloup) est un archipel des Caraïbes formant un département et région d'outre-mer français. La partie principale (Karukera en langues amérindiennes) en forme de papillon est composée de deux îles : la Grande-Terre à l'est et la Basse-Terre à l'ouest, séparées par un bras de mer, appelé « la Rivière Salée ». Le chef-lieu est Basse-Terre et la capitale économique est Pointe-à-Pitre.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Guadeloupe",
+    "url": "https://fr.wikipedia.org/wiki/Guadeloupe"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17012"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "02",
+  "nom": "Martinique",
+  "departements": [
+   "972"
+  ],
+  "prefecture": "Fort-de-France",
+  "outre_mer": true,
+  "population": {
+   "valeur": 360630,
+   "annee": 2023
+  },
+  "superficie_km2": 1128.0,
+  "article": "Martinique",
+  "intro": "La Martinique (en créole martiniquais Matinik ou Matnik ; anciennement appelée Iguanacaera ou Jouanacaera - l'île aux iguanes en langue caribe - ou encore Mantinino en caribe d'Hispaniola) est une collectivité territoriale unique française située en mer des Caraïbes et plus précisément dans l'archipel des Petites Antilles. Son chef-lieu est Fort-de-France. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2015 dans le cadre d'une collectivité territoriale unique — la collectivité territoriale de Martinique — dont l'organe délibérant est l'assemblée de Martinique.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Martinique",
+    "url": "https://fr.wikipedia.org/wiki/Martinique"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17054"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "03",
+  "nom": "Guyane",
+  "departements": [
+   "973"
+  ],
+  "prefecture": "Cayenne",
+  "outre_mer": true,
+  "population": {
+   "valeur": 293996,
+   "annee": 2023
+  },
+  "superficie_km2": 83534.0,
+  "article": "Guyane",
+  "intro": "La Guyane (/gɥijan/  ; en créole guyanais : Lagwiyann) est une collectivité territoriale unique française située en Amérique du Sud, bordée au nord par l'océan Atlantique, limitrophe du Brésil au sud-est et au sud et du Suriname à l'ouest, c'est le plus petit territoire sur le continent sud-américain autant en superficie qu'en nombre d'habitants. La Guyane est la seule collectivité française d'outre-mer de nature continentale. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2015 dans le cadre d'une collectivité territoriale unique — la collectivité territoriale de Guyane — dont l'organe délibérant est l'assemblée de Guyane.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Guyane",
+    "url": "https://fr.wikipedia.org/wiki/Guyane"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q3769"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "04",
+  "nom": "La Réunion",
+  "departements": [
+   "974"
+  ],
+  "prefecture": "Saint-Denis",
+  "outre_mer": true,
+  "population": {
+   "valeur": 889679,
+   "annee": 2023
+  },
+  "superficie_km2": 2512.0,
+  "article": "La Réunion",
+  "intro": "La Réunion est une île volcanique située dans l'ouest de l'océan Indien, à l'est de l'Afrique, dans l'hémisphère sud. Elle constitue un département et région d'outre-mer français.\nD'une superficie de 2 512 km2, La Réunion est située dans l'archipel des Mascareignes à 172 km à l'ouest-sud-ouest de l'île Maurice et à 679 km à l'est-sud-est de Madagascar.",
+  "sources": [
+   {
+    "titre": "Wikipédia : La Réunion",
+    "url": "https://fr.wikipedia.org/wiki/La_Réunion"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17070"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "06",
+  "nom": "Mayotte",
+  "departements": [
+   "976"
+  ],
+  "prefecture": "Mamoudzou",
+  "outre_mer": true,
+  "population": {
+   "valeur": 320901,
+   "annee": 2024
+  },
+  "superficie_km2": 374.0,
+  "article": "Mayotte",
+  "intro": "Mayotte (en mahorais : Maoré) est une collectivité territoriale unique française. Ses compétences, identiques aux autres régions et départements de France, sont regroupées depuis 2011 dans le cadre d'une collectivité territoriale unique — le Département-Région de Mayotte — dont l'organe délibérant est le conseil départemental de Mayotte. Son code Insee est le 976R.\nSur le plan géographique, Mayotte fait partie de l'archipel des Comores, dans le Nord du canal du Mozambique (océan Indien) et au nord-ouest de Madagascar.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Mayotte",
+    "url": "https://fr.wikipedia.org/wiki/Mayotte"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q17063"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "11",
+  "nom": "Île-de-France",
+  "departements": [
+   "75",
+   "77",
+   "78",
+   "91",
+   "92",
+   "93",
+   "94",
+   "95"
+  ],
+  "prefecture": "Paris",
+  "outre_mer": false,
+  "population": {
+   "valeur": 12463067,
+   "annee": 2023
+  },
+  "superficie_km2": 12012.0,
+  "article": "Île-de-France",
+  "intro": "L'Île-de-France est une région historique et administrative française. Il s'agit d'une région très fortement peuplée, qui représente à elle seule 18,8 % de la population de la France métropolitaine sur seulement 2,2 % de sa superficie, ce qui en fait la région la plus peuplée (12,46 millions d'habitants en 2023) et la plus densément peuplée (1 038 hab/km2) de France. Son chef-lieu est Paris, capitale de la France, et sa deuxième ville la plus importante par sa population est Saint-Denis.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Île-de-France",
+    "url": "https://fr.wikipedia.org/wiki/Île-de-France"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q13917"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "24",
+  "nom": "Centre-Val de Loire",
+  "departements": [
+   "18",
+   "28",
+   "36",
+   "37",
+   "41",
+   "45"
+  ],
+  "prefecture": "Orléans",
+  "outre_mer": false,
+  "population": {
+   "valeur": 2587031,
+   "annee": 2023
+  },
+  "superficie_km2": 39151.0,
+  "article": "Centre-Val de Loire",
+  "intro": "Le Centre-Val de Loire (appelé Centre jusqu'au 16 janvier 2015) est une région administrative du Centre-Ouest de la France qui regroupe trois provinces historiques : le Berry, l'Orléanais (incluant les pays blésois, dunois et vendômois), ainsi que la Touraine. L'extrémité nord-nord-ouest du territoire faisait partie d'une quatrième province : le Perche ; l'extrémité sud-est, d'une cinquième province : le Bourbonnais. Une partie de la région se situe dans la région naturelle du Val de Loire.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Centre-Val de Loire",
+    "url": "https://fr.wikipedia.org/wiki/Centre-Val_de_Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q13947"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "27",
+  "nom": "Bourgogne-Franche-Comté",
+  "departements": [
+   "21",
+   "25",
+   "39",
+   "58",
+   "70",
+   "71",
+   "89",
+   "90"
+  ],
+  "prefecture": "Dijon",
+  "outre_mer": false,
+  "population": {
+   "valeur": 2802670,
+   "annee": 2023
+  },
+  "superficie_km2": 47784.0,
+  "article": "Bourgogne-Franche-Comté",
+  "intro": "La Bourgogne-Franche-Comté (parfois abrégée BFC) est une région administrative située dans le quart nord-est de la France. Elle est issue de la fusion administrative, le 1er janvier 2016, des deux anciennes régions de Bourgogne et de Franche-Comté. Ses habitants sont appelés les « Bourguignons » et les « Francs-Comtois ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Bourgogne-Franche-Comté",
+    "url": "https://fr.wikipedia.org/wiki/Bourgogne-Franche-Comté"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18578267"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "28",
+  "nom": "Normandie",
+  "departements": [
+   "14",
+   "27",
+   "50",
+   "61",
+   "76"
+  ],
+  "prefecture": "Rouen",
+  "outre_mer": false,
+  "population": {
+   "valeur": 3345842,
+   "annee": 2023
+  },
+  "superficie_km2": 29906.0,
+  "article": "Normandie (région administrative)",
+  "intro": "La Normandie est une région administrative française. Située dans le nord-ouest de la France métropolitaine, elle est bordée par la Manche. Elle s'étend sur 29 906 km2 et compte, en 2023, 3 345 842 habitants.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Normandie (région administrative)",
+    "url": "https://fr.wikipedia.org/wiki/Normandie_(région_administrative)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18677875"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "32",
+  "nom": "Hauts-de-France",
+  "departements": [
+   "02",
+   "59",
+   "60",
+   "62",
+   "80"
+  ],
+  "prefecture": "Lille",
+  "outre_mer": false,
+  "population": {
+   "valeur": 5992194,
+   "annee": 2023
+  },
+  "superficie_km2": 31813.0,
+  "article": "Hauts-de-France",
+  "intro": "Les Hauts-de-France (/o də fʁɑ̃s/) sont une région administrative du nord de la France, créée par la réforme territoriale de 2014. Résultat de la fusion du Nord-Pas-de-Calais et de la Picardie (elles-mêmes créées en 1972 et 1960), elle s'est d'abord appelée provisoirement « Nord-Pas-de-Calais-Picardie ».\nElle s'étend sur 31 806 km2 et compte cinq départements : l'Aisne, le Nord, l'Oise, le Pas-de-Calais et la Somme.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Hauts-de-France",
+    "url": "https://fr.wikipedia.org/wiki/Hauts-de-France"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18677767"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "44",
+  "nom": "Grand Est",
+  "departements": [
+   "08",
+   "10",
+   "51",
+   "52",
+   "54",
+   "55",
+   "57",
+   "67",
+   "68",
+   "88"
+  ],
+  "prefecture": "Strasbourg",
+  "outre_mer": false,
+  "population": {
+   "valeur": 5563378,
+   "annee": 2023
+  },
+  "superficie_km2": 57433.0,
+  "article": "Grand Est",
+  "intro": "Le Grand Est est une région administrative française résultant de la fusion, le 1er janvier 2016, des anciennes régions administratives Alsace, Champagne-Ardenne et Lorraine. Elle compte plus de cinq millions d'habitants. Sa plus grande ville est Strasbourg, qui est aussi le chef-lieu de la région.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Grand Est",
+    "url": "https://fr.wikipedia.org/wiki/Grand_Est"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18677983"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "52",
+  "nom": "Pays de la Loire",
+  "departements": [
+   "44",
+   "49",
+   "53",
+   "72",
+   "85"
+  ],
+  "prefecture": "Nantes",
+  "outre_mer": false,
+  "population": {
+   "valeur": 3907156,
+   "annee": 2023
+  },
+  "superficie_km2": 32082.0,
+  "article": "Pays de la Loire",
+  "intro": "Les Pays de la Loire sont une région du Grand Ouest français regroupant les départements de la Loire-Atlantique, de Maine-et-Loire, de la Mayenne, de la Sarthe et de la Vendée. La préfecture de région est Nantes.\nBordée à l'ouest par le golfe de Gascogne (océan Atlantique), elle est délimitée au nord par les régions Bretagne et Normandie, à l'est par le Centre-Val de Loire avec lequel elle partage la région naturelle du Val de Loire et au sud par la Nouvelle-Aquitaine.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Pays de la Loire",
+    "url": "https://fr.wikipedia.org/wiki/Pays_de_la_Loire"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q16994"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "53",
+  "nom": "Bretagne",
+  "departements": [
+   "22",
+   "29",
+   "35",
+   "56"
+  ],
+  "prefecture": "Rennes",
+  "outre_mer": false,
+  "population": {
+   "valeur": 3449370,
+   "annee": 2023
+  },
+  "superficie_km2": 27208.0,
+  "article": "Bretagne (région administrative)",
+  "intro": "La région Bretagne (en breton : « rannvro Breizh » ; en gallo : « rejion Bertègn ») est une région française composée des départements des Côtes-d'Armor, du Finistère, d'Ille-et-Vilaine et du Morbihan. Sa préfecture et sa plus grande ville sont Rennes.\nLa première délimitation de la région par un texte officiel figure dans un arrêté ministériel du 28 novembre 1956 dans le cadre des « programmes d'action régionale » ; ses compétences sont élargies par les lois Defferre en 1982.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Bretagne (région administrative)",
+    "url": "https://fr.wikipedia.org/wiki/Bretagne_(région_administrative)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q12130"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "75",
+  "nom": "Nouvelle-Aquitaine",
+  "departements": [
+   "16",
+   "17",
+   "19",
+   "23",
+   "24",
+   "33",
+   "40",
+   "47",
+   "64",
+   "79",
+   "86",
+   "87"
+  ],
+  "prefecture": "Bordeaux",
+  "outre_mer": false,
+  "population": {
+   "valeur": 6150451,
+   "annee": 2023
+  },
+  "superficie_km2": 84061.0,
+  "article": "Nouvelle-Aquitaine",
+  "intro": "La Nouvelle-Aquitaine  est une région administrative française, créée par la réforme territoriale de 2015 et effective au 1er janvier 2016, après les élections régionales de décembre 2015. Ses habitants sont appelés les « Néo-Aquitains ».\nRésultant de la fusion des anciennes régions Aquitaine, Limousin et Poitou-Charentes, elle a été dénommée à ses débuts « Aquitaine-Limousin-Poitou-Charentes ».",
+  "sources": [
+   {
+    "titre": "Wikipédia : Nouvelle-Aquitaine",
+    "url": "https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18678082"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "76",
+  "nom": "Occitanie",
+  "departements": [
+   "09",
+   "11",
+   "12",
+   "30",
+   "31",
+   "32",
+   "34",
+   "46",
+   "48",
+   "65",
+   "66",
+   "81",
+   "82"
+  ],
+  "prefecture": "Toulouse",
+  "outre_mer": false,
+  "population": {
+   "valeur": 6124653,
+   "annee": 2023
+  },
+  "superficie_km2": 72724.0,
+  "article": "Occitanie (région administrative)",
+  "intro": "L'Occitanie (en occitan : Occitània /utsiˈtanjɔ/, en catalan : Occitània /uksiˈtaniə/) est une région administrative du sud de la France continentale, résultant de la fusion des précédentes régions Languedoc-Roussillon et Midi-Pyrénées. Créée par la réforme territoriale de 2014, elle comporte treize départements. Son chef-lieu est Toulouse.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Occitanie (région administrative)",
+    "url": "https://fr.wikipedia.org/wiki/Occitanie_(région_administrative)"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18678265"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "84",
+  "nom": "Auvergne-Rhône-Alpes",
+  "departements": [
+   "01",
+   "03",
+   "07",
+   "15",
+   "26",
+   "38",
+   "42",
+   "43",
+   "63",
+   "69",
+   "73",
+   "74"
+  ],
+  "prefecture": "Lyon",
+  "outre_mer": false,
+  "population": {
+   "valeur": 8205557,
+   "annee": 2023
+  },
+  "superficie_km2": 69711.0,
+  "article": "Auvergne-Rhône-Alpes",
+  "intro": "Auvergne-Rhône-Alpes est une région administrative française située dans le quart sud-est de la France métropolitaine. Elle est créée par la loi du 16 janvier 2015 relative à la délimitation des régions, à la suite des élections régionales de 2015 en Auvergne-Rhône-Alpes. Regroupant les anciennes régions Auvergne et Rhône-Alpes, elle se compose de 12 départements et d'une métropole à statut de collectivité territoriale ; sa superficie est de 69 711 km2 et sa population s'élevait à 8 205 557 habitants en 2023 ; son chef-lieu est Lyon.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Auvergne-Rhône-Alpes",
+    "url": "https://fr.wikipedia.org/wiki/Auvergne-Rhône-Alpes"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q18338206"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "93",
+  "nom": "Provence-Alpes-Côte d'Azur",
+  "departements": [
+   "04",
+   "05",
+   "06",
+   "13",
+   "83",
+   "84"
+  ],
+  "prefecture": "Marseille",
+  "outre_mer": false,
+  "population": {
+   "valeur": 5218960,
+   "annee": 2023
+  },
+  "superficie_km2": 31400.0,
+  "article": "Provence-Alpes-Côte d'Azur",
+  "intro": "La Provence-Alpes-Côte d'Azur, parfois désignée par l'acronyme PACA [pa.ka] , est une région administrative du Sud-Est de la France. Son chef-lieu est Marseille, la deuxième commune la plus peuplée de France et la ville-centre de la troisième unité urbaine en population.\nLa région est baignée au sud par la mer Méditerranée.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Provence-Alpes-Côte d'Azur",
+    "url": "https://fr.wikipedia.org/wiki/Provence-Alpes-Côte_d'Azur"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q15104"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "94",
+  "nom": "Corse",
+  "departements": [
+   "2A",
+   "2B"
+  ],
+  "prefecture": "Ajaccio",
+  "outre_mer": false,
+  "population": {
+   "valeur": 355486,
+   "annee": 2023
+  },
+  "superficie_km2": 8680.0,
+  "article": "Corse",
+  "intro": "La Corse (en corse et en italien Corsica) ou l'île de Beauté est une île située en mer Méditerranée, à l'ouest de la péninsule italienne, au nord de la Sardaigne et au sud-est de la France hexagonale. Elle constitue une région française qui bénéficie du statut de collectivité territoriale unique depuis 2018.\nD'une superficie de 8 722 km2, la Corse est située dans le bassin méditerranéen et fait partie de la région géographique italienne.",
+  "sources": [
+   {
+    "titre": "Wikipédia : Corse",
+    "url": "https://fr.wikipedia.org/wiki/Corse"
+   },
+   {
+    "titre": "Wikidata : population et superficie",
+    "url": "https://www.wikidata.org/wiki/Q14112"
+   },
+   {
+    "titre": "Wikipédia : Liste des préfectures de France (CC BY-SA)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9fectures_de_France"
+   },
+   {
+    "titre": "Découpage administratif (API geo.api.gouv.fr, INSEE COG, Etalab)",
+    "url": "https://geo.api.gouv.fr/departements"
+   }
+  ],
+  "revu": "2026-10-11"
+ }
+]

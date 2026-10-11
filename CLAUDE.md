@@ -48,5 +48,11 @@ Voir « Architecture » dans `PLAN.md` (dossiers `site/`, `content/`, `scripts/`
 - Pendant le sprint, le bloc « profond » de Aujourd'hui pointe vers la prochaine étape du sprint (voir `aujourdhui.js`).
 - Les Edit du harnais peuvent introduire des fins de ligne CRLF : vérifier `git ls-files --eol` et normaliser en LF.
 
+## Fonctionnement des Territoires (phase 4)
+- Détails dans `docs/territoires.md`. Données : `python -I scripts/fetch_territoires.py` (télécharge dans `data_local/`, hors dépôt) puis `python -I scripts/build_geo.py` → `content/territoires/*.json`, `site/data/territoires/data.json`, `site/data/geo/france.json`. Pas exécuté en intégration continue (réseau). Briques pures et testées : `scripts/geo_lib.py`.
+- `scripts/wiki_lib.py` : outil générique de sourçage (extraits, sections, identifiants Wikidata, SPARQL) en ligne de commande, à réutiliser pour toute fiche ou carte ; les cartes sont toujours rédigées à partir des extraits lus.
+- Jeu : `site/js/territoires.js` (logique pure), `site/js/carte-svg.js` (carte), `site/js/modules/territoires.js` (écrans `#/territoires/...`). Chaque élément du jeu est une carte SM-2 d'identifiant `terr-<mode>-<code>` dans le même magasin que les autres cartes.
+- Les `check_links.py` sur Wikidata renvoient des 429 (limite de débit) : faux échecs.
+
 ## Etat
 Phases 0, 1, 2 et 3 (outils) terminées (2026-10-11). Dépôt GitHub créé et poussé (2026-10-11) : https://github.com/IngenieriePublique/upgrade (remote `origin`, branche `main` ; demander l'accord avant tout push). À faire côté GitHub : activer Pages et Actions pour que le cron du Brief tourne. Phase 3 : le contenu personnel (pitch, histoires STAR, entraînements, cibles, premier entretien d'information, décision provisoire) est à produire par l'utilisateur avant le 2026-11-15 ; la séance suivante peut l'y aider (relecture de ses textes collés dans le chat). Prochaine séance de code : phase 4 (Territoires), après au moins deux séances de contenu ou de pratique (règle 70/30). Reportés : matrice de compétences VEILLE (trop peu d'offres taguées), compléter les sigles (49 → ~60), employeurs 33+ du radar.

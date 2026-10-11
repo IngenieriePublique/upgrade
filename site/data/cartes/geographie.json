@@ -1,0 +1,603 @@
+{
+ "cartes": [
+  {
+   "id": "geographie-loire-longueur",
+   "recto": "Quel est le plus long fleuve qui s'écoule entièrement en France, et quelle est sa longueur ?",
+   "verso": "La Loire, environ 1 006 km.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Loire",
+     "url": "https://fr.wikipedia.org/wiki/Loire"
+    },
+    {
+     "titre": "Wikidata : Loire",
+     "url": "https://www.wikidata.org/wiki/Q1469"
+    }
+   ]
+  },
+  {
+   "id": "geographie-loire-cours",
+   "recto": "Où la Loire prend-elle sa source et où se jette-t-elle ?",
+   "verso": "Elle naît sur le versant sud du mont Gerbier-de-Jonc (Ardèche, sud-est du Massif central). Elle se jette dans l'océan Atlantique par un estuaire situé en Loire-Atlantique (Pays de la Loire).",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Loire",
+     "url": "https://fr.wikipedia.org/wiki/Loire"
+    },
+    {
+     "titre": "Wikidata : Loire",
+     "url": "https://www.wikidata.org/wiki/Q1469"
+    }
+   ]
+  },
+  {
+   "id": "geographie-seine",
+   "recto": "Seine : où naît-elle, quelles grandes villes arrose-t-elle, où se jette-t-elle ?",
+   "verso": "Source à Source-Seine (Côte-d'Or), sur le plateau de Langres. Elle arrose Troyes, Paris, Rouen et Le Havre, puis se jette dans la Manche entre Le Havre et Honfleur. Longueur : environ 775 km.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Seine",
+     "url": "https://fr.wikipedia.org/wiki/Seine"
+    },
+    {
+     "titre": "Wikidata : Seine",
+     "url": "https://www.wikidata.org/wiki/Q1471"
+    }
+   ]
+  },
+  {
+   "id": "geographie-garonne-cours",
+   "recto": "Garonne : où naît-elle, quelles grandes villes arrose-t-elle, où finit-elle ?",
+   "verso": "Elle naît dans les Pyrénées espagnoles, passe par Toulouse puis Bordeaux et se jette dans l'océan Atlantique. Son estuaire commun avec la Dordogne s'appelle la Gironde.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Garonne",
+     "url": "https://fr.wikipedia.org/wiki/Garonne"
+    },
+    {
+     "titre": "Wikidata : Garonne",
+     "url": "https://www.wikidata.org/wiki/Q5077"
+    }
+   ]
+  },
+  {
+   "id": "geographie-garonne-departements",
+   "recto": "Quels trois départements portent le nom de la Garonne ?",
+   "verso": "La Haute-Garonne, le Lot-et-Garonne et le Tarn-et-Garonne.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Garonne",
+     "url": "https://fr.wikipedia.org/wiki/Garonne"
+    },
+    {
+     "titre": "Wikidata : Garonne",
+     "url": "https://www.wikidata.org/wiki/Q5077"
+    }
+   ]
+  },
+  {
+   "id": "geographie-rhone",
+   "recto": "Rhône : où naît-il, quelle est sa longueur, comment traverse-t-il la Suisse ?",
+   "verso": "Il naît dans le glacier du Rhône (Valais, Suisse) et mesure 812 km : un tiers en Suisse, deux tiers en France. Il se jette dans le lac Léman et en sort à Genève, puis rejoint la mer Méditerranée.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Rhône",
+     "url": "https://fr.wikipedia.org/wiki/Rhône"
+    },
+    {
+     "titre": "Wikidata : Rhône",
+     "url": "https://www.wikidata.org/wiki/Q602"
+    }
+   ]
+  },
+  {
+   "id": "geographie-rhin",
+   "recto": "Rhin : quelle place parmi les fleuves d'Europe, et quel rapport avec l'Alsace ?",
+   "verso": "Fleuve international d'environ 1 233 km, deuxième plus long d'Europe après le Danube (hors Russie). Il longe l'est de l'Alsace sur toute la longueur de la région et se jette dans la mer du Nord.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Rhin",
+     "url": "https://fr.wikipedia.org/wiki/Rhin"
+    },
+    {
+     "titre": "Wikidata : Rhin",
+     "url": "https://www.wikidata.org/wiki/Q584"
+    }
+   ]
+  },
+  {
+   "id": "geographie-meuse",
+   "recto": "Meuse : où naît-elle, quels pays traverse-t-elle, où se jette-t-elle ?",
+   "verso": "Elle naît au Châtelet-sur-Meuse (France), traverse la France, la Belgique et les Pays-Bas, et se jette dans la mer du Nord après environ 950 km.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Meuse (fleuve)",
+     "url": "https://fr.wikipedia.org/wiki/Meuse_(fleuve)"
+    },
+    {
+     "titre": "Wikidata : Meuse",
+     "url": "https://www.wikidata.org/wiki/Q41986"
+    }
+   ]
+  },
+  {
+   "id": "geographie-dordogne",
+   "recto": "Comment naît la Dordogne, et où finit-elle ?",
+   "verso": "Elle naît sur les flancs du puy de Sancy (1 885 m, monts Dore), par la réunion de deux torrents, la Dore et la Dogne. Elle conflue avec la Garonne pour former l'estuaire de la Gironde.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Dordogne (rivière)",
+     "url": "https://fr.wikipedia.org/wiki/Dordogne_(fleuve)"
+    },
+    {
+     "titre": "Wikidata : Dordogne",
+     "url": "https://www.wikidata.org/wiki/Q208174"
+    }
+   ]
+  },
+  {
+   "id": "geographie-adour",
+   "recto": "Adour : où naît-il et où se jette-t-il ?",
+   "verso": "Il naît dans le massif du pic du Midi de Bigorre, au col du Tourmalet (Hautes-Pyrénées), et se jette dans le golfe de Gascogne entre Tarnos (Landes) et Anglet (Pyrénées-Atlantiques). Longueur : 308 km environ.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Adour",
+     "url": "https://fr.wikipedia.org/wiki/Adour"
+    },
+    {
+     "titre": "Wikidata : Adour",
+     "url": "https://www.wikidata.org/wiki/Q207366"
+    }
+   ]
+  },
+  {
+   "id": "geographie-charente",
+   "recto": "Charente (le fleuve) : où naît-il, quels départements traverse-t-il, où se jette-t-il ?",
+   "verso": "Il naît à Chéronnac (Haute-Vienne), traverse la Charente, une petite partie de la Vienne, de nouveau la Charente puis la Charente-Maritime, et se jette dans le golfe de Gascogne entre Port-des-Barques et Fouras.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Charente (fleuve)",
+     "url": "https://fr.wikipedia.org/wiki/Charente_(fleuve)"
+    },
+    {
+     "titre": "Wikidata : Charente",
+     "url": "https://www.wikidata.org/wiki/Q123362"
+    }
+   ]
+  },
+  {
+   "id": "geographie-marne",
+   "recto": "Quelle est la plus longue rivière de France (hors fleuves), et de quel cours d'eau est-elle l'affluent ?",
+   "verso": "La Marne, environ 514 km : principal affluent de la Seine. Elle naît sur le plateau de Langres (Haute-Marne) et rejoint la Seine entre Charenton-le-Pont et Alfortville (Val-de-Marne).",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Marne (rivière)",
+     "url": "https://fr.wikipedia.org/wiki/Marne_(rivière)"
+    },
+    {
+     "titre": "Wikidata : Marne",
+     "url": "https://www.wikidata.org/wiki/Q41983"
+    }
+   ]
+  },
+  {
+   "id": "geographie-saone",
+   "recto": "La Saône est le principal affluent de quel fleuve ?",
+   "verso": "Du Rhône (rive droite). Elle mesure près de 480 km, ce qui en fait le neuvième cours d'eau le plus long de France.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Saône",
+     "url": "https://fr.wikipedia.org/wiki/Saône"
+    },
+    {
+     "titre": "Wikidata : Saône",
+     "url": "https://www.wikidata.org/wiki/Q187834"
+    }
+   ]
+  },
+  {
+   "id": "geographie-massif-central",
+   "recto": "Massif central : quelle surface et quel point culminant ?",
+   "verso": "Environ 85 000 km², soit 15 % du territoire métropolitain : c'est le massif le plus vaste du pays. Point culminant : le puy de Sancy, 1 885 m.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Massif central",
+     "url": "https://fr.wikipedia.org/wiki/Massif_central"
+    },
+    {
+     "titre": "Wikidata : Massif central",
+     "url": "https://www.wikidata.org/wiki/Q190695"
+    }
+   ]
+  },
+  {
+   "id": "geographie-alpes",
+   "recto": "Alpes : quel est le point culminant, et combien de sommets de plus de 4 000 m ?",
+   "verso": "Le mont Blanc, environ 4 806 m. On compte 82 sommets majeurs de plus de 4 000 m : 48 en Suisse, 38 en Italie et 24 en France (certains sont partagés entre deux pays).",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Alpes",
+     "url": "https://fr.wikipedia.org/wiki/Alpes"
+    },
+    {
+     "titre": "Wikidata : Alpes",
+     "url": "https://www.wikidata.org/wiki/Q1286"
+    }
+   ]
+  },
+  {
+   "id": "geographie-pyrenees",
+   "recto": "Pyrénées : quel est le point culminant, et que séparent-elles ?",
+   "verso": "Le pic d'Aneto, 3 404 m (côté espagnol). Elles séparent la péninsule Ibérique, au sud, du reste de l'Europe continentale, au nord, de la Méditerranée au golfe de Gascogne.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Pyrénées",
+     "url": "https://fr.wikipedia.org/wiki/Pyrénées"
+    },
+    {
+     "titre": "Wikidata : Pyrénées",
+     "url": "https://www.wikidata.org/wiki/Q12431"
+    }
+   ]
+  },
+  {
+   "id": "geographie-jura",
+   "recto": "Massif du Jura : où se situe-t-il, quelle forme, quel point culminant ?",
+   "verso": "À la frontière franco-suisse, au nord-ouest des Alpes et au sud des Vosges, en croissant sur plus de 360 km. Il culmine au crêt de la Neige, environ 1 720 m.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Massif du Jura",
+     "url": "https://fr.wikipedia.org/wiki/Massif_du_Jura"
+    },
+    {
+     "titre": "Wikidata : massif du Jura",
+     "url": "https://www.wikidata.org/wiki/Q178611"
+    }
+   ]
+  },
+  {
+   "id": "geographie-vosges",
+   "recto": "Massif des Vosges : que sépare-t-il, de quoi est-il fait, où culmine-t-il ?",
+   "verso": "Il sépare le plateau lorrain de la plaine d'Alsace. Il est surtout constitué de grès et de granite et culmine au Grand Ballon, 1 424 m.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Massif des Vosges",
+     "url": "https://fr.wikipedia.org/wiki/Massif_des_Vosges"
+    },
+    {
+     "titre": "Wikidata : massif des Vosges",
+     "url": "https://www.wikidata.org/wiki/Q187843"
+    }
+   ]
+  },
+  {
+   "id": "geographie-morvan",
+   "recto": "Morvan : quelle particularité, quelle région, quelle altitude ?",
+   "verso": "C'est la plus petite zone de montagne de France, en surface comme en altitude (de 400 à 901 m, le Haut Folin culminant à 901 m). Il est en Bourgogne-Franche-Comté, aux confins de la Côte-d'Or, de la Nièvre, de la Saône-et-Loire et de l'Yonne.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Morvan",
+     "url": "https://fr.wikipedia.org/wiki/Morvan"
+    },
+    {
+     "titre": "Wikidata : Morvan",
+     "url": "https://www.wikidata.org/wiki/Q586512"
+    }
+   ]
+  },
+  {
+   "id": "geographie-massif-armoricain",
+   "recto": "Massif armoricain : quels territoires couvre-t-il, d'où vient son nom ?",
+   "verso": "Basses montagnes de l'Ouest : Bretagne, ouest de la Normandie et des Pays de la Loire, nord-ouest des Deux-Sèvres (et îles Anglo-Normandes). Son nom vient de l'ancienne Armorique, entre la Loire et la Seine. Son point culminant, le mont des Avaloirs, est à environ 416 m.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Massif armoricain",
+     "url": "https://fr.wikipedia.org/wiki/Massif_armoricain"
+    },
+    {
+     "titre": "Wikidata : Massif armoricain",
+     "url": "https://www.wikidata.org/wiki/Q1980627"
+    }
+   ]
+  },
+  {
+   "id": "geographie-corse",
+   "recto": "Corse : quelle mer, quelle superficie, quel statut ?",
+   "verso": "Île de la mer Méditerranée, 8 722 km². Région française à statut de collectivité territoriale unique depuis 2018.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Corse",
+     "url": "https://fr.wikipedia.org/wiki/Corse"
+    },
+    {
+     "titre": "Wikidata : Corse",
+     "url": "https://www.wikidata.org/wiki/Q14112"
+    }
+   ]
+  },
+  {
+   "id": "geographie-iles-classement",
+   "recto": "Quelles sont les quatre plus grandes îles de la France métropolitaine, dans l'ordre ?",
+   "verso": "1. la Corse ; 2. l'île d'Oléron (174 km²) ; 3. Belle-Île-en-Mer ; 4. l'île de Ré.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Île d'Oléron",
+     "url": "https://fr.wikipedia.org/wiki/Île_d'Oléron"
+    },
+    {
+     "titre": "Wikipédia : Île de Ré",
+     "url": "https://fr.wikipedia.org/wiki/Île_de_Ré"
+    },
+    {
+     "titre": "Wikipédia : Belle-Île-en-Mer",
+     "url": "https://fr.wikipedia.org/wiki/Belle-Île-en-Mer"
+    }
+   ]
+  },
+  {
+   "id": "geographie-oleron",
+   "recto": "Île d'Oléron : dans quel département, quelle taille, quelles voisines ?",
+   "verso": "En Charente-Maritime (Nouvelle-Aquitaine), dans le golfe de Gascogne : 174 km², plus de 22 000 habitants permanents. Elle fait partie de l'archipel charentais avec Ré, Aix, Madame et Nôle ; le pertuis de Maumusson la sépare de la presqu'île d'Arvert.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Île d'Oléron",
+     "url": "https://fr.wikipedia.org/wiki/Île_d'Oléron"
+    },
+    {
+     "titre": "Wikidata : île d'Oléron",
+     "url": "https://www.wikidata.org/wiki/Q292568"
+    }
+   ]
+  },
+  {
+   "id": "geographie-re",
+   "recto": "Île de Ré : quel département, quelle ancienne province, quel archipel ?",
+   "verso": "Charente-Maritime (Nouvelle-Aquitaine). Elle faisait partie de l'ancienne province d'Aunis et appartient à l'archipel charentais.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Île de Ré",
+     "url": "https://fr.wikipedia.org/wiki/Île_de_Ré"
+    },
+    {
+     "titre": "Wikidata : île de Ré",
+     "url": "https://www.wikidata.org/wiki/Q292384"
+    }
+   ]
+  },
+  {
+   "id": "geographie-belle-ile",
+   "recto": "Belle-Île-en-Mer : dans quel département et à quelle distance de quel port ?",
+   "verso": "Dans le Morbihan (sud de la Bretagne), à 12,3 km au sud de Quiberon. C'est la troisième plus grande île de la métropole après la Corse et Oléron.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Belle-Île-en-Mer",
+     "url": "https://fr.wikipedia.org/wiki/Belle-Île-en-Mer"
+    },
+    {
+     "titre": "Wikidata : Belle-Île-en-Mer",
+     "url": "https://www.wikidata.org/wiki/Q815838"
+    }
+   ]
+  },
+  {
+   "id": "geographie-ouessant",
+   "recto": "Ouessant : quelle commune, quel département, quel bourg principal ?",
+   "verso": "Commune insulaire du Finistère (Bretagne), dans l'océan Atlantique. Le bourg principal est Lampaul.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Ouessant",
+     "url": "https://fr.wikipedia.org/wiki/Ouessant"
+    },
+    {
+     "titre": "Wikidata : Ouessant",
+     "url": "https://www.wikidata.org/wiki/Q202378"
+    }
+   ]
+  },
+  {
+   "id": "geographie-noirmoutier",
+   "recto": "Île de Noirmoutier : quel département, et comment y accède-t-on ?",
+   "verso": "En Vendée. Par la chaussée submersible du passage du Gois et, depuis 1971, par un pont. Elle compte quatre communes.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Île de Noirmoutier",
+     "url": "https://fr.wikipedia.org/wiki/Île_de_Noirmoutier"
+    },
+    {
+     "titre": "Wikidata : île de Noirmoutier",
+     "url": "https://www.wikidata.org/wiki/Q292346"
+    }
+   ]
+  },
+  {
+   "id": "geographie-yeu",
+   "recto": "Île d'Yeu : quel département, et quelle singularité historique ?",
+   "verso": "En Vendée (Pays de la Loire). Avec Noirmoutier et l'île du Pilier, c'est l'une des trois seules îles de l'ancienne province du Poitou.",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Île d'Yeu",
+     "url": "https://fr.wikipedia.org/wiki/Île_d'Yeu"
+    },
+    {
+     "titre": "Wikidata : île d'Yeu",
+     "url": "https://www.wikidata.org/wiki/Q1970151"
+    }
+   ]
+  },
+  {
+   "id": "geographie-polynesie",
+   "recto": "Polynésie française : quel statut, quel océan, quelle composition ?",
+   "verso": "Collectivité d'outre-mer (« pays d'outre-mer ») dans le sud de l'océan Pacifique, à environ 6 500 km à l'est de l'Australie. Cinq archipels (Société, Tuamotu, Gambier, Australes, Marquises) : 118 îles, dont 76 habitées.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Polynésie française",
+     "url": "https://fr.wikipedia.org/wiki/Polynésie_française"
+    },
+    {
+     "titre": "Wikidata : Polynésie française",
+     "url": "https://www.wikidata.org/wiki/Q30971"
+    }
+   ]
+  },
+  {
+   "id": "geographie-nouvelle-caledonie",
+   "recto": "Nouvelle-Calédonie : quelle mer, quelle île principale, quelle ville principale ?",
+   "verso": "En mer de Corail (Pacifique sud), en Mélanésie. L'île principale est la Grande Terre (400 km sur 64 km) et la principale commune est Nouméa. Superficie terrestre : environ 18 575 km².",
+   "perissable": false,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Nouvelle-Calédonie",
+     "url": "https://fr.wikipedia.org/wiki/Nouvelle-Calédonie"
+    },
+    {
+     "titre": "Wikidata : Nouvelle-Calédonie",
+     "url": "https://www.wikidata.org/wiki/Q33788"
+    }
+   ]
+  },
+  {
+   "id": "geographie-spm",
+   "recto": "Saint-Pierre-et-Miquelon : où est cet archipel et quel est son statut ?",
+   "verso": "En Amérique du Nord, dans le golfe du Saint-Laurent, au sud de Terre-Neuve (Canada). Collectivité d'outre-mer régie par l'article 74 de la Constitution, aussi pays et territoire d'outre-mer associé à l'Union européenne.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Saint-Pierre-et-Miquelon",
+     "url": "https://fr.wikipedia.org/wiki/Saint-Pierre-et-Miquelon"
+    },
+    {
+     "titre": "Wikidata : Saint-Pierre-et-Miquelon",
+     "url": "https://www.wikidata.org/wiki/Q34617"
+    }
+   ]
+  },
+  {
+   "id": "geographie-wallis-futuna",
+   "recto": "Wallis-et-Futuna : quel statut, quelle organisation, quel chef-lieu ?",
+   "verso": "Collectivité d'outre-mer de l'hémisphère sud formée de trois royaumes coutumiers polynésiens. Chef-lieu : Mata-Utu. Codes postaux et Insee en 986.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Wallis-et-Futuna",
+     "url": "https://fr.wikipedia.org/wiki/Wallis-et-Futuna"
+    },
+    {
+     "titre": "Wikidata : Wallis-et-Futuna",
+     "url": "https://www.wikidata.org/wiki/Q35555"
+    }
+   ]
+  },
+  {
+   "id": "geographie-saint-martin",
+   "recto": "Saint-Martin (Antilles françaises) : quel statut, depuis quand, de quoi dépendait-elle ?",
+   "verso": "Collectivité d'outre-mer des Petites Antilles (partie nord de l'île de Saint-Martin et îlots), devenue COM le 15 juillet 2007 ; ancienne commune de la Guadeloupe.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Saint-Martin (Antilles françaises)",
+     "url": "https://fr.wikipedia.org/wiki/Saint-Martin_(Antilles_françaises)"
+    },
+    {
+     "titre": "Wikidata : Saint-Martin",
+     "url": "https://www.wikidata.org/wiki/Q126125"
+    }
+   ]
+  },
+  {
+   "id": "geographie-saint-barthelemy",
+   "recto": "Saint-Barthélemy : quel statut, depuis quand, de quoi dépendait-elle ?",
+   "verso": "Île des Petites Antilles (mer des Caraïbes) et îlots proches, collectivité d'outre-mer au sens de l'article 74 depuis le 15 juillet 2007 ; auparavant commune de la Guadeloupe.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Saint-Barthélemy (Antilles françaises)",
+     "url": "https://fr.wikipedia.org/wiki/Saint-Barthélemy_(Antilles_françaises)"
+    },
+    {
+     "titre": "Wikidata : Saint-Barthélemy",
+     "url": "https://www.wikidata.org/wiki/Q25362"
+    }
+   ]
+  },
+  {
+   "id": "geographie-taaf",
+   "recto": "TAAF : que signifie ce sigle, quel statut, quelle ressource ?",
+   "verso": "Terres australes et antarctiques françaises : collectivité sui generis d'outre-mer, créée par la loi du 6 août 1955 (article 72-3 de la Constitution). Les terres australes font de la France le premier producteur mondial de légine.",
+   "perissable": true,
+   "revu": "2026-10-11",
+   "sources": [
+    {
+     "titre": "Wikipédia : Terres australes et antarctiques françaises",
+     "url": "https://fr.wikipedia.org/wiki/Terres_australes_et_antarctiques_françaises"
+    },
+    {
+     "titre": "Wikidata : TAAF",
+     "url": "https://www.wikidata.org/wiki/Q129003"
+    }
+   ]
+  }
+ ]
+}

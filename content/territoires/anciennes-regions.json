@@ -1,0 +1,494 @@
+[
+ {
+  "code": "11",
+  "nom": "Île-de-France",
+  "region_actuelle": "11",
+  "departements": [
+   "75",
+   "77",
+   "78",
+   "91",
+   "92",
+   "93",
+   "94",
+   "95"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "21",
+  "nom": "Champagne-Ardenne",
+  "region_actuelle": "44",
+  "departements": [
+   "08",
+   "10",
+   "51",
+   "52"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "22",
+  "nom": "Picardie",
+  "region_actuelle": "32",
+  "departements": [
+   "02",
+   "60",
+   "80"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "23",
+  "nom": "Haute-Normandie",
+  "region_actuelle": "28",
+  "departements": [
+   "27",
+   "76"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "24",
+  "nom": "Centre",
+  "region_actuelle": "24",
+  "departements": [
+   "18",
+   "28",
+   "36",
+   "37",
+   "41",
+   "45"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "25",
+  "nom": "Basse-Normandie",
+  "region_actuelle": "28",
+  "departements": [
+   "14",
+   "50",
+   "61"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "26",
+  "nom": "Bourgogne",
+  "region_actuelle": "27",
+  "departements": [
+   "21",
+   "58",
+   "71",
+   "89"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "31",
+  "nom": "Nord-Pas-de-Calais",
+  "region_actuelle": "32",
+  "departements": [
+   "59",
+   "62"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "41",
+  "nom": "Lorraine",
+  "region_actuelle": "44",
+  "departements": [
+   "54",
+   "55",
+   "57",
+   "88"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "42",
+  "nom": "Alsace",
+  "region_actuelle": "44",
+  "departements": [
+   "67",
+   "68"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "43",
+  "nom": "Franche-Comté",
+  "region_actuelle": "27",
+  "departements": [
+   "25",
+   "39",
+   "70",
+   "90"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "52",
+  "nom": "Pays de la Loire",
+  "region_actuelle": "52",
+  "departements": [
+   "44",
+   "49",
+   "53",
+   "72",
+   "85"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "53",
+  "nom": "Bretagne",
+  "region_actuelle": "53",
+  "departements": [
+   "22",
+   "29",
+   "35",
+   "56"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "54",
+  "nom": "Poitou-Charentes",
+  "region_actuelle": "75",
+  "departements": [
+   "16",
+   "17",
+   "79",
+   "86"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "72",
+  "nom": "Aquitaine",
+  "region_actuelle": "75",
+  "departements": [
+   "24",
+   "33",
+   "40",
+   "47",
+   "64"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "73",
+  "nom": "Midi-Pyrénées",
+  "region_actuelle": "76",
+  "departements": [
+   "09",
+   "12",
+   "31",
+   "32",
+   "46",
+   "65",
+   "81",
+   "82"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "74",
+  "nom": "Limousin",
+  "region_actuelle": "75",
+  "departements": [
+   "19",
+   "23",
+   "87"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "82",
+  "nom": "Rhône-Alpes",
+  "region_actuelle": "84",
+  "departements": [
+   "01",
+   "07",
+   "26",
+   "38",
+   "42",
+   "69",
+   "73",
+   "74"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "83",
+  "nom": "Auvergne",
+  "region_actuelle": "84",
+  "departements": [
+   "03",
+   "15",
+   "43",
+   "63"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "91",
+  "nom": "Languedoc-Roussillon",
+  "region_actuelle": "76",
+  "departements": [
+   "11",
+   "30",
+   "34",
+   "48",
+   "66"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "93",
+  "nom": "Provence-Alpes-Côte d'Azur",
+  "region_actuelle": "93",
+  "departements": [
+   "04",
+   "05",
+   "06",
+   "13",
+   "83",
+   "84"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ },
+ {
+  "code": "94",
+  "nom": "Corse",
+  "region_actuelle": "94",
+  "departements": [
+   "2A",
+   "2B"
+  ],
+  "sources": [
+   {
+    "titre": "france-geojson (tracés IGN Admin Express COG 2018, licence ouverte Etalab)",
+    "url": "https://github.com/gregoiredavid/france-geojson"
+   },
+   {
+    "titre": "Wikipédia : Région française (anciennes régions)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+   }
+  ],
+  "revu": "2026-10-11"
+ }
+]

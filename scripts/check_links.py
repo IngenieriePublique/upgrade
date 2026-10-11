@@ -10,6 +10,7 @@ import ssl
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -44,7 +45,8 @@ def collecter(chemins):
 def tester(u, essais=2):
     for i in range(essais):
         try:
-            req = urllib.request.Request(u, headers=UA)
+            # les adresses de Wikipédia contiennent des accents : on les encode comme le ferait un navigateur
+            req = urllib.request.Request(urllib.parse.quote(u, safe=":/?&=%#()_',-.~+;@!*"), headers=UA)
             with urllib.request.urlopen(req, timeout=20, context=ssl.create_default_context()) as r:
                 r.read(2000)
                 return u, r.status, ""

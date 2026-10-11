@@ -13,6 +13,7 @@ import * as recit from './modules/recit.js';
 import * as oral from './modules/oral.js';
 import * as reseau from './modules/reseau.js';
 import * as choix from './modules/choix.js';
+import * as territoires from './modules/territoires.js';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -49,6 +50,12 @@ async function main() {
     { path: '/brief', render: brief.render },
     { path: '/cartes', render: cartes.renderListe },
     { path: '/cartes/reviser', render: cartes.renderRevision },
+    { path: '/territoires', render: territoires.renderMenu },
+    { path: '/territoires/jeu', render: territoires.renderJeu },
+    { path: '/territoires/plusmoins', render: territoires.renderPlusMoins },
+    { path: '/territoires/qui', render: territoires.renderQui },
+    { path: '/territoires/fiches', render: territoires.renderFiches },
+    { path: '/territoires/fiche', render: territoires.renderFiche },
     { path: '/sprint', render: sprint.render },
     { path: '/sprint/radar', render: radar.render },
     { path: '/sprint/recit', render: recit.render },

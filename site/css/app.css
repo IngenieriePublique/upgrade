@@ -140,3 +140,50 @@ audio { width: 100%; margin: .5rem 0; }
 table { border-collapse: collapse; width: 100%; font-size: .92rem; }
 th, td { border: 1px solid var(--bord); padding: .4rem .5rem; text-align: left; vertical-align: top; }
 thead th { background: var(--fond); }
+
+/* Territoires : cartes SVG et jeu */
+main:has(.carte-svg) { max-width: 56rem; }
+.carte-cadre { margin: .6rem auto; max-width: 40rem; }
+.carte-cadre.petite { max-width: 26rem; }
+.carte-svg { width: 100%; height: auto; max-height: 68vh; display: block; }
+.carte-svg .t { fill: var(--carte); stroke: var(--doux); stroke-width: .7; stroke-linejoin: round; transition: fill .15s; }
+.carte-svg .t.cliquable { cursor: pointer; }
+.carte-svg .t.cliquable:hover { fill: color-mix(in srgb, var(--accent) 25%, var(--carte)); }
+.carte-svg .contour-fond path { fill: none; stroke: var(--texte); stroke-width: 1.6; stroke-opacity: .55; stroke-linejoin: round; }
+.carte-svg .cadre { fill: none; stroke: var(--bord); stroke-width: 1; stroke-dasharray: 4 3; }
+.carte-svg .cadre-nom { fill: var(--doux); font-size: 11px; }
+.carte-svg .t.m0, .pastille.m0 { fill: var(--carte); background: var(--carte); }
+.carte-svg .t.m1, .pastille.m1 { fill: color-mix(in srgb, var(--n1) 55%, var(--carte)); background: color-mix(in srgb, var(--n1) 55%, var(--carte)); }
+.carte-svg .t.m2, .pastille.m2 { fill: color-mix(in srgb, var(--n2) 55%, var(--carte)); background: color-mix(in srgb, var(--n2) 55%, var(--carte)); }
+.carte-svg .t.m3, .pastille.m3 { fill: var(--n3); background: var(--n3); }
+.carte-svg .t.cible { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); stroke: var(--accent); stroke-width: 1.6; }
+.carte-svg .t.voisin { fill: color-mix(in srgb, var(--n1) 35%, var(--carte)); }
+.carte-svg .t.sel { fill: color-mix(in srgb, var(--n1) 55%, var(--carte)); stroke: var(--n1); stroke-width: 1.6; }
+.carte-svg .t.ok { fill: color-mix(in srgb, var(--ok) 60%, var(--carte)); stroke: var(--ok); stroke-width: 1.8; }
+.carte-svg .t.faux { fill: color-mix(in srgb, var(--erreur) 55%, var(--carte)); stroke: var(--erreur); stroke-width: 1.8; }
+.carte-svg .t.manque { fill: color-mix(in srgb, var(--ok) 25%, var(--carte)); stroke: var(--ok); stroke-width: 1.8; stroke-dasharray: 4 2; }
+.legende { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .82rem; color: var(--doux); margin: .4rem 0; }
+.pastille { display: inline-block; width: .9rem; height: .9rem; border: 1px solid var(--doux); border-radius: 3px; margin-right: .3rem; vertical-align: -.1rem; }
+.modes { display: grid; gap: .5rem; }
+.mode { display: flex; justify-content: space-between; align-items: center; gap: .8rem; padding: .4rem 0; border-bottom: 1px solid var(--bord); }
+.mode p { margin: 0; }
+.choix { display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; margin-top: 1rem; }
+.choix-btn { text-align: left; padding: .7rem .9rem; font-size: 1.02rem; }
+.choix-btn.ok { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, var(--carte)); }
+.choix-btn.faux { border-color: var(--erreur); background: color-mix(in srgb, var(--erreur) 18%, var(--carte)); }
+@media (max-width: 30rem) { .choix { grid-template-columns: 1fr; } }
+.retour { margin-top: 1rem; border-top: 1px dashed var(--bord); padding-top: .6rem; }
+.retour:empty { display: none; }
+.bravo { color: var(--ok); font-weight: 700; } .rate { color: var(--erreur); font-weight: 700; }
+.duels { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: 1rem 0; }
+.duel { display: flex; flex-direction: column; gap: .3rem; padding: 1.6rem .6rem; font-size: 1.2rem; align-items: center; }
+.duel.ok { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, var(--carte)); }
+.duel.faux { border-color: var(--erreur); background: color-mix(in srgb, var(--erreur) 18%, var(--carte)); }
+.duel .valeur { font-size: .95rem; color: var(--doux); }
+.indices { padding-left: 1.3rem; } .indices li { margin: .3rem 0; }
+.liste-fiches { columns: 2; list-style: none; padding: 0; }
+@media (max-width: 30rem) { .liste-fiches { columns: 1; } }
+.faits { margin: .8rem 0; } .fait { display: grid; grid-template-columns: 11rem 1fr; gap: .6rem; padding: .25rem 0; border-bottom: 1px solid var(--bord); }
+.fait dt { color: var(--doux); } .fait dd { margin: 0; }
+@media (max-width: 30rem) { .fait { grid-template-columns: 1fr; gap: 0; } }
+blockquote { margin: .4rem 0; padding-left: .8rem; border-left: 3px solid var(--bord); }

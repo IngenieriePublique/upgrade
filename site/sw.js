@@ -1,14 +1,14 @@
 // Service worker : fonctionnement hors ligne. Les fichiers du site sont servis depuis le cache
 // puis rafraîchis en arrière-plan (la version à jour apparaît au chargement suivant).
 // Changer VERSION à chaque déploiement qui modifie la liste CORE.
-const VERSION = 'upgrade-0.3.0';
+const VERSION = 'upgrade-0.4.0';
 const CORE = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css', 'icons/icon.svg',
   'js/app.js', 'js/version.js', 'js/srs.js', 'js/store.js', 'js/ui.js', 'js/router.js', 'js/timer.js', 'js/backup.js',
-  'js/ia.js', 'js/data.js', 'js/candidature.js', 'js/recorder.js',
+  'js/ia.js', 'js/data.js', 'js/territoires.js', 'js/carte-svg.js', 'js/candidature.js', 'js/recorder.js',
   'js/modules/aujourdhui.js', 'js/modules/brief.js', 'js/modules/cartes.js', 'js/modules/sauvegarde.js',
-  'js/modules/sprint.js', 'js/modules/radar.js', 'js/modules/recit.js', 'js/modules/oral.js', 'js/modules/reseau.js', 'js/modules/choix.js',
-  'data/cartes/index.json', 'data/brief/latest.json', 'data/brief/index.json',
+  'js/modules/sprint.js', 'js/modules/radar.js', 'js/modules/recit.js', 'js/modules/oral.js', 'js/modules/reseau.js', 'js/modules/choix.js', 'js/modules/territoires.js',
+  'data/cartes/index.json', 'data/territoires/data.json', 'data/geo/france.json', 'data/brief/latest.json', 'data/brief/index.json',
   'data/radar/employeurs.json', 'data/radar/note-carriere.json', 'data/oral/questions.json', 'data/oral/gabarits.json',
 ];
 

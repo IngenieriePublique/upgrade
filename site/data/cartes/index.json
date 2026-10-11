@@ -1,6 +1,13 @@
 {
  "paquets": [
   {
+   "id": "geographie",
+   "titre": "Géographie de la France",
+   "description": "Fleuves, massifs, îles et collectivités d'outre-mer : les repères qui complètent le jeu Territoires.",
+   "fichier": "geographie.json",
+   "nombre": 35
+  },
+  {
    "id": "sigles",
    "titre": "Sigles de l'action publique territoriale",
    "description": "Administrations, dispositifs, lois et fonds que l'on croise dans les offres, les rapports et les entretiens.",
