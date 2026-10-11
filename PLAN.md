@@ -6,7 +6,7 @@ Tableau d'état (à mettre à jour à la fin de chaque séance). Le plan détail
 |---|---|
 | 0 Cadrage (S0) | fait le 2026-10-11 (squelette, git, CLAUDE.md, docs/decisions.md) ; dépôt GitHub non créé (accord à demander) |
 | 1 Noyau (S1-S2) | fait le 2026-10-11 en une séance : PWA hors ligne, routeur, `store.js`, `srs.js`, révision, Aujourd'hui, export/import, sauvegarde dans un dossier, 49 cartes de sigles sourcées, workflows Pages/validation prêts. **Reste à faire par l'utilisateur** : créer le dépôt GitHub « upgrade » et pousser (déploiement Pages). Reste à compléter plus tard : 49 → ~60 sigles |
-| 2 Brief (S3-S4) | à faire |
+| 2 Brief (S3-S4) | fait le 2026-10-11 en une séance : 36 flux testés (`fetch_feeds.py --check`), `build_brief.py` (dédoublonnage, score, plafond 13), `brief.yml` (cron quotidien + redéploiement), écran Brief, dossier de la semaine, truc du jour (Wikipédia), adaptateur IA facultatif (Gemini / Mistral / Groq, repli « prompt à coller »). **Reste à faire** : (1) l'utilisateur crée le dépôt GitHub et pousse, puis lance une fois « Brief quotidien » à la main ; (2) désabonner les newsletters (`docs/brief.md`) ; (3) vérifier le 2026-12-10 que le cron tourne encore (règle des 60 jours). Fonctionnement : `docs/brief.md` |
 | 3 Sprint candidature (S5) | à faire, à terminer avant mi-novembre 2026 |
 | 4 Territoires (S6-S8) | à faire |
 | 5 Fondations (S9+) | à faire |

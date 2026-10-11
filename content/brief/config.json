@@ -1,0 +1,62 @@
+{
+  "_commentaire": "Sources et règles du Brief. Chaque flux a été testé par python -I scripts/fetch_feeds.py --check (disponibilité, date du dernier article) avant d'être listé ici. Écartés au 2026-10-11 : Vie-publique (défi JavaScript anti-robot), La Gazette des communes et Euractiv (403), Les Échos (403), ANCT (flux vide), INSEE (pas de flux public trouvé), Localtis.info (domaine disparu).",
+  "plafonds": {
+    "france": 5,
+    "monde": 5,
+    "action_publique": 3
+  },
+  "max_par_groupe": 2,
+  "fenetre_heures": {
+    "presse": 48,
+    "institution": 168,
+    "fond": 336
+  },
+  "rubriques": {
+    "france": "France",
+    "monde": "Monde",
+    "action_publique": "Action publique"
+  },
+  "sources": [
+    {"id": "lemonde-une", "nom": "Le Monde", "groupe": "lemonde", "url": "https://www.lemonde.fr/rss/une.xml", "rubrique": "france", "type": "presse", "priorite": 2, "payant": true, "reclasser": true},
+    {"id": "lemonde-politique", "nom": "Le Monde", "groupe": "lemonde", "url": "https://www.lemonde.fr/politique/rss_full.xml", "rubrique": "france", "type": "presse", "priorite": 2, "payant": true},
+    {"id": "lemonde-economie", "nom": "Le Monde", "groupe": "lemonde", "url": "https://www.lemonde.fr/economie/rss_full.xml", "rubrique": "france", "type": "presse", "priorite": 2, "payant": true},
+    {"id": "franceinfo-titres", "nom": "franceinfo", "groupe": "franceinfo", "url": "https://www.franceinfo.fr/titres.rss", "rubrique": "france", "type": "presse", "priorite": 2, "reclasser": true},
+    {"id": "franceinfo-politique", "nom": "franceinfo", "groupe": "franceinfo", "url": "https://www.franceinfo.fr/politique.rss", "rubrique": "france", "type": "presse", "priorite": 2},
+    {"id": "liberation", "nom": "Libération", "groupe": "liberation", "url": "https://www.liberation.fr/arc/outboundfeeds/rss-all/?outputType=xml", "rubrique": "france", "type": "presse", "priorite": 1, "payant": true, "reclasser": true},
+    {"id": "lefigaro", "nom": "Le Figaro", "groupe": "lefigaro", "url": "https://www.lefigaro.fr/rss/figaro_actualites-a-la-une.xml", "rubrique": "france", "type": "presse", "priorite": 1, "payant": true, "reclasser": true},
+    {"id": "sudouest", "nom": "Sud Ouest", "groupe": "sudouest", "url": "https://www.sudouest.fr/rss.xml", "rubrique": "france", "type": "presse", "priorite": 1, "payant": true, "reclasser": true},
+    {"id": "latribune", "nom": "La Tribune", "groupe": "latribune", "url": "https://www.latribune.fr/rss/rubriques/actualite.html", "rubrique": "france", "type": "presse", "priorite": 1, "payant": true, "reclasser": true},
+    {"id": "mediacites", "nom": "Mediacités", "groupe": "mediacites", "url": "https://www.mediacites.fr/feed/", "rubrique": "france", "type": "presse", "priorite": 2, "payant": true},
+    {"id": "lemonde-international", "nom": "Le Monde", "groupe": "lemonde", "url": "https://www.lemonde.fr/international/rss_full.xml", "rubrique": "monde", "type": "presse", "priorite": 2, "payant": true},
+    {"id": "franceinfo-monde", "nom": "franceinfo", "groupe": "franceinfo", "url": "https://www.franceinfo.fr/monde.rss", "rubrique": "monde", "type": "presse", "priorite": 2},
+    {"id": "rfi-monde", "nom": "RFI", "groupe": "rfi", "url": "https://www.rfi.fr/fr/monde/rss", "rubrique": "monde", "type": "presse", "priorite": 2},
+    {"id": "france24", "nom": "France 24", "groupe": "france24", "url": "https://www.france24.com/fr/rss", "rubrique": "monde", "type": "presse", "priorite": 2},
+    {"id": "france24-europe", "nom": "France 24", "groupe": "france24", "url": "https://www.france24.com/fr/europe/rss", "rubrique": "monde", "type": "presse", "priorite": 2},
+    {"id": "courrier-international", "nom": "Courrier international", "groupe": "courrier", "url": "https://www.courrierinternational.com/feed/all/rss.xml", "rubrique": "monde", "type": "presse", "priorite": 2, "payant": true},
+    {"id": "touteleurope", "nom": "Toute l'Europe", "groupe": "touteleurope", "url": "https://www.touteleurope.eu/feed/", "rubrique": "monde", "type": "presse", "priorite": 3},
+    {"id": "localtis", "nom": "Banque des Territoires (Localtis)", "groupe": "localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "localtis-organisation", "nom": "Banque des Territoires (Localtis)", "groupe": "localtis", "url": "https://www.banquedesterritoires.fr/flux/organisation-territoriale-elus-et-institutions/localtis.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "localtis-finances", "nom": "Banque des Territoires (Localtis)", "groupe": "localtis", "url": "https://www.banquedesterritoires.fr/flux/finances-et-fiscalite/localtis.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "localtis-cohesion", "nom": "Banque des Territoires (Localtis)", "groupe": "localtis", "url": "https://www.banquedesterritoires.fr/flux/cohesion-des-territoires/localtis.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "localtis-fonction-publique", "nom": "Banque des Territoires (Localtis)", "groupe": "localtis", "url": "https://www.banquedesterritoires.fr/flux/fonction-publique/localtis.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "maire-info", "nom": "Maire-info (AMF)", "groupe": "maire-info", "url": "https://www.maire-info.com/rss/", "rubrique": "action_publique", "type": "institution", "priorite": 3, "payant": true},
+    {"id": "ccomptes-actualites", "nom": "Cour des comptes", "groupe": "ccomptes", "url": "https://www.ccomptes.fr/fr/rss/actualites", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "conseil-etat-actualites", "nom": "Conseil d'État", "groupe": "conseil-etat", "url": "https://www.conseil-etat.fr/outils/flux-rss/actualites-rss", "rubrique": "action_publique", "type": "institution", "priorite": 2},
+    {"id": "senat-presse", "nom": "Sénat", "groupe": "senat", "url": "https://www.senat.fr/rss/presse.xml", "rubrique": "action_publique", "type": "institution", "priorite": 2},
+    {"id": "economie-gouv", "nom": "economie.gouv.fr", "groupe": "economie-gouv", "url": "https://www.economie.gouv.fr/rss/toutesactualites", "rubrique": "action_publique", "type": "institution", "priorite": 2},
+    {"id": "dinum-ditp", "nom": "Transformation publique (DITP)", "groupe": "ditp", "url": "https://www.modernisation.gouv.fr/rss.xml", "rubrique": "action_publique", "type": "institution", "priorite": 3},
+    {"id": "cerema", "nom": "Cerema", "groupe": "cerema", "url": "https://www.cerema.fr/fr/rss/news/feed", "rubrique": "action_publique", "type": "institution", "priorite": 2},
+    {"id": "actu-juridique", "nom": "Actu-Juridique", "groupe": "actu-juridique", "url": "https://www.actu-juridique.fr/feed/", "rubrique": "action_publique", "type": "institution", "priorite": 1},
+    {"id": "ccomptes-publications", "nom": "Cour des comptes", "groupe": "ccomptes", "url": "https://www.ccomptes.fr/fr/rss/publications", "rubrique": "action_publique", "type": "fond", "priorite": 3},
+    {"id": "conseil-etat-etudes", "nom": "Conseil d'État", "groupe": "conseil-etat", "url": "https://www.conseil-etat.fr/outils/flux-rss/etudes-rss", "rubrique": "action_publique", "type": "fond", "priorite": 3},
+    {"id": "senat-rapports", "nom": "Sénat", "groupe": "senat", "url": "https://www.senat.fr/rss/rapports.xml", "rubrique": "action_publique", "type": "fond", "priorite": 2},
+    {"id": "france-strategie", "nom": "France Stratégie", "groupe": "france-strategie", "url": "https://www.strategie-plan.gouv.fr/rss.xml", "rubrique": "action_publique", "type": "fond", "priorite": 3},
+    {"id": "alternatives-economiques", "nom": "Alternatives économiques", "groupe": "alter-eco", "url": "https://www.alternatives-economiques.fr/rss.xml", "rubrique": "action_publique", "type": "fond", "priorite": 2, "payant": true},
+    {"id": "the-conversation", "nom": "The Conversation France", "groupe": "conversation", "url": "https://theconversation.com/fr/articles.atom", "rubrique": "action_publique", "type": "fond", "priorite": 3}
+  ],
+  "mots_action": ["collectivité", "collectivités", "commune", "communes", "maire", "maires", "département", "départements", "région", "régions", "préfet", "préfecture", "intercommunalité", "intercommunalités", "décentralisation", "déconcentration", "territoire", "territoires", "territorial", "territoriale", "budget", "loi de finances", "finances publiques", "dotation", "dotations", "dette", "déficit", "fiscalité", "impôt", "impôts", "taxe", "subvention", "cour des comptes", "chambre régionale", "évaluation", "évaluer", "politique publique", "politiques publiques", "service public", "services publics", "fonction publique", "fonctionnaire", "fonctionnaires", "réforme", "projet de loi", "proposition de loi", "décret", "ordonnance", "conseil d'état", "conseil constitutionnel", "aménagement", "logement", "urbanisme", "mobilité", "transport", "énergie", "transition écologique", "ruralité", "rural", "quartiers prioritaires", "politique de la ville", "santé", "éducation", "emploi", "chômage", "insee", "statistique", "eurostat", "ocde", "rapport", "étude", "audit", "contrat de plan", "fonds européens", "zan", "artificialisation"],
+  "mots_institution": ["gouvernement", "ministre", "premier ministre", "assemblée nationale", "sénat", "parlement", "député", "députés", "sénateur", "sénateurs"],
+  "mots_jeu": ["sondage", "sondages", "polémique", "petite phrase", "petites phrases", "clash", "tacle", "buzz", "coup de gueule", "règlement de comptes", "guerre des chefs", "croche-pied", "bras de fer", "en direct", "twitte", "tweet", "dézingue", "se paie", "lance une pique", "primaire", "présidentielle", "candidat", "candidate", "campagne électorale", "investiture", "meeting"],
+  "mots_divers": ["horoscope", "recette", "people", "football", "ligue 1", "ligue des champions", "rugby", "tennis", "formule 1", "mercato", "météo", "jeu concours", "loto", "série télé", "célébrité"],
+  "exclure_titres": ["^EN DIRECT", "^DIRECT\b", "^Quiz", "^«?Le supplément", "^À la Une", "^La revue de presse", "^Podcast", "^Vidéo"]
+}

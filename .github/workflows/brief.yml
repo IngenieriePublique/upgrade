@@ -1,0 +1,50 @@
+name: Brief quotidien
+
+# Le Brief est reconstruit chaque matin, committé dans le dépôt (ce commit quotidien compte comme
+# activité : GitHub désactive les workflows planifiés d'un dépôt public inactif depuis 60 jours),
+# puis le site est redéployé. Lancement manuel : onglet Actions > Brief quotidien > Run workflow.
+# Repli sans GitHub : python -I scripts/build_brief.py, puis commit et push.
+on:
+  schedule:
+    - cron: "17 4 * * *"   # 04:17 UTC = 06:17 à Paris l'été, 05:17 l'hiver ; minute décalée (les :00 sont saturées)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Construire le Brief
+        run: python -I scripts/build_brief.py
+      - name: Committer si le Brief a changé
+        id: commit
+        run: |
+          git config user.name "upgrade-brief"
+          git config user.email "upgrade-brief@users.noreply.github.com"
+          git add site/data/brief
+          if git diff --cached --quiet; then
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            echo "Brief inchangé."
+          else
+            git commit -m "Brief du $(date -u +%F)"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          fi
+      # Un push fait avec GITHUB_TOKEN ne déclenche pas les autres workflows : on lance le déploiement à la main.
+      - name: Redéployer le site
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref "${{ github.ref_name }}"

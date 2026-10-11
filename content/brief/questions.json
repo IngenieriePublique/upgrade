@@ -1,0 +1,85 @@
+{
+  "_commentaire": "Questions génériques à poser, classées par thème détecté dans le titre et le chapô. Elles ne prétendent rien sur l'article : elles servent à transformer une lecture en conversation (objectif oral). Le thème « defaut » sert quand aucun mot-clé ne correspond.",
+  "themes": [
+    {
+      "id": "finances",
+      "motifs": ["budget", "dette", "déficit", "impôt", "taxe", "fiscal", "dotation", "finances", "subvention", "coût", "milliard"],
+      "questions": [
+        "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
+        "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+        "Si on économisait ici, qui en subirait les effets en premier ?",
+        "Quel indicateur permettrait de dire dans deux ans si cela a marché ?"
+      ]
+    },
+    {
+      "id": "territoires",
+      "motifs": ["commune", "maire", "département", "région", "préfet", "intercommunal", "collectivité", "territoire", "métropole", "rural", "élus locaux", "décentralis"],
+      "questions": [
+        "Quel niveau (commune, intercommunalité, département, région, État) est compétent, et lequel finance ?",
+        "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+        "Que dirait un maire de petite commune ? Et un préfet ?",
+        "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "motifs": ["rapport", "évaluation", "cour des comptes", "audit", "étude", "recommandation", "bilan", "contrôle", "inspection"],
+      "questions": [
+        "Que mesure-t-on exactement, et que ne mesure-t-on pas ?",
+        "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
+        "Quelle recommandation est la plus simple à appliquer, et laquelle se heurte à un blocage politique ?",
+        "Pertinence, efficacité, efficience : où le dispositif est-il le plus fragile ?"
+      ]
+    },
+    {
+      "id": "social",
+      "motifs": ["santé", "hôpital", "école", "éducation", "enseignant", "emploi", "chômage", "retraite", "logement", "pauvreté", "social", "famille", "université"],
+      "questions": [
+        "Qui sont les personnes concernées, et combien sont-elles ?",
+        "Quelle part relève d'un choix politique et quelle part d'une contrainte (démographie, budget, droit européen) ?",
+        "Que changerait ce sujet dans un département comme la Gironde ?",
+        "Quel effet inattendu cette mesure pourrait-elle avoir ?"
+      ]
+    },
+    {
+      "id": "ecologie",
+      "motifs": ["énergie", "climat", "transition", "carbone", "nucléaire", "renouvelable", "transport", "mobilité", "eau", "biodiversité", "artificialisation", "agricult"],
+      "questions": [
+        "Quel est l'arbitrage entre le court terme et le long terme ici ?",
+        "Qui supporte le coût de la transition, et qui en bénéficie ?",
+        "Quel échelon (local, national, européen) est le plus efficace pour agir sur ce point ?",
+        "Quel chiffre faut-il connaître pour en parler sans se tromper ?"
+      ]
+    },
+    {
+      "id": "international",
+      "motifs": ["guerre", "otan", "onu", "union européenne", "commission européenne", "élection", "sommet", "diplomatie", "frontière", "sanction", "président", "gaza", "ukraine", "chine", "états-unis", "afrique"],
+      "questions": [
+        "Quels sont les intérêts de chaque acteur, au-delà de ce qu'il déclare ?",
+        "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+        "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
+        "Quelle information manque pour juger ?"
+      ]
+    },
+    {
+      "id": "institutions",
+      "motifs": ["assemblée", "sénat", "parlement", "gouvernement", "loi", "décret", "conseil constitutionnel", "conseil d'état", "constitution", "ministre", "projet de loi"],
+      "questions": [
+        "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+        "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+        "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+        "Cette décision relève-t-elle de la loi, du règlement ou du juge ?"
+      ]
+    },
+    {
+      "id": "defaut",
+      "motifs": [],
+      "questions": [
+        "Quelle est la question de fond derrière ce titre ?",
+        "Qui y gagne, qui y perd, et qui n'est pas dans la discussion ?",
+        "Quel chiffre ou quel fait vérifierais-je avant d'en parler à quelqu'un ?",
+        "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?"
+      ]
+    }
+  ]
+}

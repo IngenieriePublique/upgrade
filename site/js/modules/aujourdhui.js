@@ -12,7 +12,8 @@ const JOURS_DICTEE = [1, 3, 5]; // lundi, mercredi, vendredi
 function blocs(now, dues) {
   const dow = new Date(now).getDay();
   return [
-    { id: 'brief', titre: 'Brief', min: 8, avenir: 'Phase 2 : 13 items par jour, une question à poser par item.' },
+    { id: 'brief', titre: 'Brief', min: 8, lien: '#/brief',
+      note: '13 items au plus, une question à poser par item. Chaque article s\'ouvre dans un nouvel onglet.' },
     { id: 'cartes', titre: 'Cartes', min: 12, lien: '#/cartes/reviser',
       note: dues ? `${plural(dues, 'carte à voir', 'cartes à voir')}.` : 'Rien à réviser pour le moment.' },
     { id: 'territoires', titre: 'Territoires', min: 5, avenir: 'Phase 4 : dix questions de jeu sur la carte.' },

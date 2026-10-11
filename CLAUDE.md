@@ -33,5 +33,13 @@ Voir « Architecture » dans `PLAN.md` (dossiers `site/`, `content/`, `scripts/`
 - Sites bloquant les robots (403) : ademe.fr, prefectures-regions.gouv.fr. Certificat incomplet côté Python : cnfpt.fr. Vérifier ces liens à la main.
 - Brief (phase 2) : `scripts/fetch_sigles.py` et `find_second_sources.py` montrent la méthode (API Wikipédia + Wikidata P856 + liens externes vérifiés) réutilisable pour les fiches.
 
+## Fonctionnement du Brief (phase 2)
+- Détails dans `docs/brief.md`. Config (sources, mots de score, plafonds) : `content/brief/config.json` ; questions : `content/brief/questions.json`. Pipeline : `scripts/fetch_feeds.py` (bibliothèque + `--check`) → `scripts/build_brief.py` → `site/data/brief/{latest,index}.json` + `archive/`.
+- Une nouvelle source = test `python -I scripts/fetch_feeds.py --check --url ...` puis une ligne dans `config.json`. Les tests (`tests/test_brief.py`) n'accèdent jamais au réseau.
+- Écran : `site/js/modules/brief.js` ; IA facultative : `site/js/ia.js` (clé dans le localStorage, jamais exportée ; repli « prompt à coller »). Aucun texte généré par IA dans le dépôt.
+- Le service worker sert `data/brief/` réseau d'abord (le reste : cache puis réseau). Quand on change la liste CORE de `sw.js`, changer aussi `VERSION` (sw.js et version.js).
+- Serveur local : `.claude/launch.json` sert la racine du projet, donc le site est sur `http://127.0.0.1:8765/site/` et les tests sur `/tests/index.html`.
+- Windows : la console Python est en cp1252, d'où `sys.stdout.reconfigure(encoding="utf-8")` dans les scripts. Ne pas fabriquer de fichiers de code par heredoc ou script Python avec des échappements d'octets (ils sont interprétés et corrompent le fichier) : utiliser les outils Write et Edit.
+
 ## Etat
-Phases 0 et 1 terminées (2026-10-11). Dépôt GitHub non créé (l'utilisateur le crée à la main sur github.com, nom « upgrade », public, puis `git remote add origin ...` et push : demander l'accord avant). Prochaine séance : phase 2 (Brief, S3), ou, avant, pratique : l'utilisateur fait ses cartes quelques jours.
+Phases 0, 1 et 2 terminées (2026-10-11). Dépôt GitHub non créé (l'utilisateur le crée à la main sur github.com, nom « upgrade », public, puis `git remote add origin ...` et push : demander l'accord avant). Brief en place mais le cron GitHub ne tournera qu'après création du dépôt. Prochaine séance : phase 3 (sprint candidature, avant mi-novembre 2026 : radar employeurs, pitch et STAR, banque de questions, enregistreur oral, note concours vs contractuel), surtout du contenu et de la pratique (règle 70/30). Avant, l'utilisateur utilise Cartes + Brief quelques jours.

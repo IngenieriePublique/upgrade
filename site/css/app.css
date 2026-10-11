@@ -84,3 +84,15 @@ kbd { font: inherit; font-size: .75rem; border: 1px solid currentColor; border-r
 .n0 { border-color: var(--n0); } .n1 { border-color: var(--n1); } .n2 { border-color: var(--n2); } .n3 { border-color: var(--n3); }
 @media (max-width: 30rem) { .notes { grid-template-columns: repeat(2, 1fr); } .recto { font-size: 1.35rem; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+.rubrique { margin: 1.6rem 0 .2rem; font-size: 1rem; text-transform: uppercase; letter-spacing: .06em; color: var(--doux); }
+.brief-item { padding: .8rem 1rem; }
+.brief-item.lu { opacity: .55; }
+.brief-tete { display: flex; justify-content: space-between; gap: .8rem; align-items: flex-start; }
+.brief-item h3, .carte h3 { font-size: 1.05rem; line-height: 1.35; margin: 0 0 .2rem; }
+.lu-case { white-space: nowrap; font-size: .85rem; color: var(--doux); }
+.question { background: var(--fond); border-left: 3px solid var(--accent); padding: .4rem .7rem; border-radius: 4px; margin: .5rem 0 0; }
+.ia summary { cursor: pointer; font-weight: 600; }
+.ia-form { display: grid; gap: .3rem; max-width: 28rem; margin-top: .6rem; }
+.ia-form input, .ia-form select, textarea { font: inherit; padding: .4rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); width: 100%; }
+.ia-texte { white-space: pre-wrap; font: inherit; margin: 0; }

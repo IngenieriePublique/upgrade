@@ -5,6 +5,7 @@ import { h } from './ui.js';
 import { VERSION } from './version.js';
 import * as aujourdhui from './modules/aujourdhui.js';
 import * as cartes from './modules/cartes.js';
+import * as brief from './modules/brief.js';
 import * as sauvegarde from './modules/sauvegarde.js';
 
 async function loadJson(path) {
@@ -39,6 +40,7 @@ async function main() {
 
   const routes = [
     { path: '/', render: aujourdhui.render },
+    { path: '/brief', render: brief.render },
     { path: '/cartes', render: cartes.renderListe },
     { path: '/cartes/reviser', render: cartes.renderRevision },
     { path: '/sauvegarde', render: sauvegarde.render },

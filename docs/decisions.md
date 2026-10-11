@@ -21,5 +21,13 @@ Dans un dépôt public, les workflows planifiés sont désactivés automatiqueme
 - Sigles : 49 cartes livrées sur ~60 visés. Écartées faute de seconde source vérifiable : INET et plusieurs candidats (DRAC, DRAAF, CCAS, SEM, DSP, CGCT, CAF, PNR, ORT, ACV). À compléter en croisière.
 - Méthode de sourçage : Wikipédia (intro, CC BY-SA) + site officiel (Wikidata P856) ou page institutionnelle dont l'adresse répond et contient le sujet. Faits périssables marqués et date de revue 2026-10-11.
 
+## Décisions de la séance S3-S4 : Brief (2026-10-11)
+- **Flux** : 36 sources testées et retenues (France, monde, action publique, fond). Écartées : Vie-publique (défi JavaScript anti-robot), La Gazette des communes / Euractiv / Les Échos (403), ANCT (flux vide), INSEE (aucun flux public), Localtis.info (domaine disparu).
+- **Fournisseur d'IA** : Gemini (AI Studio) en principal, format « compatible OpenAI » (Mistral, Groq) en secours. Vérifié : CORS autorisé depuis un navigateur pour les quatre API testées (Gemini, Mistral, Groq, OpenRouter). Les pages officielles Gemini (2026-10-11) ne publient plus de quotas gratuits chiffrés (à lire dans AI Studio), indiquent que le contenu du palier gratuit sert à améliorer les produits de Google, et listent des modèles Flash dont les noms changent : le champ modèle est donc modifiable (défaut `gemini-flash-latest`, non testé avec une vraie clé). Conséquence : on n'envoie que des textes publics (titres et chapôs).
+- **IA côté serveur (GitHub Actions) : non retenue** : un résumé de titre et de chapô n'apporte presque rien, et publier du texte généré dans un dépôt public pose des problèmes de fiabilité et de droits. L'IA reste dans le navigateur, à la demande.
+- **Questions à poser** : génériques par thème (pas de génération par IA), pour ne rien affirmer de faux sur un article.
+- **Cron** : `brief.yml` committe chaque jour (activité du dépôt) et relance `pages.yml` explicitement (un push fait avec GITHUB_TOKEN ne déclenche pas d'autre workflow). Non testé tant que le dépôt n'existe pas ; contrôle de la règle des 60 jours prévu le 2026-12-10.
+- **Dédoublonnage** : titres proches regroupés par liaison simple (mots communs ou similarité de chaînes) ; le nombre de médias qui reprennent un sujet augmente son score.
+
 ## Questions encore ouvertes
-Compte GitHub ; fournisseur d'IA (phase 2) ; concours ou contractuel (phase 3).
+Compte GitHub ; concours ou contractuel (phase 3).
