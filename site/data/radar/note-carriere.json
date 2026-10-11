@@ -1,0 +1,186 @@
+{
+ "titre": "Concours ou contractuel : note de décision",
+ "revu": "2026-10-11",
+ "perissable": true,
+ "resume": "Les emplois permanents de la fonction publique reviennent en principe à des fonctionnaires recrutés par concours, mais la loi autorise de nombreux contrats. Pour un jeune diplômé en évaluation et pilotage, les deux voies ne s'excluent pas. Cette note rassemble ce qui est établi par les sources, sépare les avis, et propose trois démarches à faire avant mi-novembre pour trancher en connaissance de cause.",
+ "sections": [
+  {
+   "id": "principe",
+   "titre": "Ce que dit le droit",
+   "paragraphes": [
+    "Le code général de la fonction publique pose que les emplois civils permanents ont vocation à être confiés à des fonctionnaires (article L. 311-1). Il autorise cependant les employeurs publics à recruter des contractuels dans des cas précis."
+   ],
+   "puces": [
+    "Dans les établissements publics de l'État : tous les emplois permanents, sauf ceux de la recherche.",
+    "Quand il n'existe pas de corps de fonctionnaires pour assurer les fonctions.",
+    "Quand la nature des fonctions ou les besoins du service le justifient (compétences techniques spécialisées ou nouvelles, impossibilité de trouver un fonctionnaire ayant l'expertise dans un délai raisonnable).",
+    "Pour un temps incomplet de 70 % au plus, un remplacement momentané ou une vacance d'emploi en attendant un fonctionnaire."
+   ],
+   "sources": [
+    {
+     "titre": "Fonction publique : les cas de recours aux agents contractuels (État)",
+     "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/les-cas-de-recours-aux-agents-contractuels-au-sein-de-la-fonction-publique-de-letat"
+    },
+    {
+     "titre": "Légifrance : possibilités de recrutement par contrat (articles L. 332-1 à L. 332-28)",
+     "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044416551/LEGISCTA000044421854/"
+    }
+   ]
+  },
+  {
+   "id": "contractuel",
+   "titre": "La voie contractuelle",
+   "paragraphes": [
+    "Pour les emplois permanents d'un établissement public de l'État, un CDD peut durer trois ans au maximum et être renouvelé une fois ; au-delà de six ans, il ne peut être renouvelé qu'en CDI. Le droit au CDI s'ouvre après six ans de services cumulés auprès du même employeur (une interruption de quatre mois au plus ne casse pas le décompte).",
+    "Le contrat de projet est un CDD qui prend fin à la réalisation d'un projet identifié : durée minimale d'un an, maximale de six ans.",
+    "Les offres sont publiées, en principe, sur Choisir le service public. Le recrutement doit comporter au moins un entretien pour les candidats présélectionnés."
+   ],
+   "puces": [
+    "Avantage : entrée rapide, possible dès la fin du M2, sur des postes d'étude et d'évaluation vus dans le radar.",
+    "Limite : pas de titularisation automatique. Ces règles sont celles de la fonction publique de l'État ; pour une collectivité, vérifier les articles L. 332-8 à L. 332-26 du code, car les durées et motifs ne sont pas identiques sur tous les points."
+   ],
+   "sources": [
+    {
+     "titre": "Fonction publique : la durée des contrats dans la fonction publique de l'État",
+     "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/la-duree-des-contrats-dans-la-fonction-publique-de-letat"
+    },
+    {
+     "titre": "Légifrance : possibilités de recrutement par contrat",
+     "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044416551/LEGISCTA000044421854/"
+    }
+   ]
+  },
+  {
+   "id": "concours-territorial",
+   "titre": "Le concours d'attaché territorial",
+   "paragraphes": [
+    "Les concours de la fonction publique territoriale sont organisés par les centres de gestion (en Gironde : le CDG 33), avec une phase d'admissibilité puis une phase d'admission. Pour la voie externe en catégorie A, il faut un diplôme de niveau 6 ou plus (licence, bac+3, master).",
+    "Le lauréat est inscrit sur une liste d'aptitude de valeur nationale pendant quatre ans au total, avec une demande écrite de maintien un mois avant la fin de la deuxième et de la troisième année. Réussir le concours ne garantit pas un emploi : le lauréat doit chercher un poste, et la nomination relève du maire ou du président de la collectivité."
+   ],
+   "puces": [
+    "L'attaché territorial travaille sous l'autorité de directeurs généraux, de secrétaires généraux ou de directeurs d'établissements publics et participe à la conception, à l'élaboration et à la mise en œuvre des politiques dans les domaines administratif, financier, économique, sanitaire et social.",
+    "Le concours est organisé dans une ou plusieurs spécialités : administration générale, gestion du secteur sanitaire et social, analyste, animation, urbanisme et développement des territoires.",
+    "Épreuves de la voie externe d'après la page du CNFPT : une composition, une note dans la spécialité à partir d'un dossier, un entretien avec le jury et une épreuve orale de langue vivante (à confirmer dans l'avis d'ouverture de la session).",
+    "Calendrier : à vérifier chaque année auprès du centre de gestion organisateur ; les dates définitives ne sont confirmées que par l'arrêté d'ouverture publié au Journal officiel."
+   ],
+   "sources": [
+    {
+     "titre": "CDG 33 : les concours",
+     "url": "https://www.cdg33.fr/concours/presentation-des-concours/les-concours/"
+    },
+    {
+     "titre": "CNFPT : fiche attaché (missions, spécialités, épreuves)",
+     "url": "https://www.cnfpt.fr/nous-connaitre/notre-organisation/delegations/lespace-documentation/attache/hauts-france"
+    },
+    {
+     "titre": "CDG 33 : calendrier prévisionnel régional 2026 (PDF)",
+     "url": "https://www.cdg33.fr/wp-content/uploads/ressources/20260217_Calendrier-2026_-V6.pdf"
+    }
+   ]
+  },
+  {
+   "id": "concours-etat",
+   "titre": "Les IRA (attaché d'administration de l'État)",
+   "paragraphes": [
+    "Le concours externe des instituts régionaux d'administration est ouvert à partir de bac+3. Il existe cinq IRA (Bastia, Lille, Lyon, Metz, Nantes). La formation dure 14 mois rémunérés : 8 mois de scolarité, dont un stage de six semaines en administration, puis 6 mois de stage sur le premier poste.",
+    "Au 1er janvier 2025, le traitement brut mensuel pendant la scolarité était de 1 801,74 euros, auquel s'ajoute une indemnité mensuelle de formation de 200 euros. Les lauréats deviennent attachés d'administration de l'État ; leur premier poste (administration centrale, service déconcentré, établissement public) est choisi au septième mois selon leur rang de classement."
+   ],
+   "puces": [
+    "Épreuves : une épreuve écrite (cas pratique) pour l'admissibilité, puis un entretien avec un jury pour l'admission. Le site officiel annonce le retour d'une seconde épreuve écrite d'admissibilité à partir de la session 2027.",
+    "Repère de calendrier 2026 : inscriptions du 9 février au 9 mars, admissibilité prévue le 21 avril. Le calendrier 2027 reste à consulter sur le site d'inscription des IRA.",
+    "L'IRA de Lyon propose une classe préparatoire « Talents » de neuf mois (septembre à mai) pour les candidats issus de milieux socio-économiques défavorisés : à regarder si tu es éligible."
+   ],
+   "sources": [
+    {
+     "titre": "Fonction publique : les instituts régionaux d'administration (IRA)",
+     "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/les-instituts-regionaux-dadministration-ira"
+    },
+    {
+     "titre": "Guide des concours d'accès aux IRA (PDF)",
+     "url": "https://ira-gestion.fonction-publique.gouv.fr/userfiles/promotion/12/guide-des-concours-dacccs-aux-instituts-regionaux-dadministration.pdf"
+    }
+   ]
+  },
+  {
+   "id": "grille",
+   "titre": "Grille de comparaison (à compléter par toi)",
+   "tableau": {
+    "entetes": [
+     "Critère",
+     "Concours (territorial ou IRA)",
+     "Contractuel"
+    ],
+    "lignes": [
+     [
+      "Rapidité d'entrée",
+      "Préparation de plusieurs mois, un calendrier à respecter",
+      "Candidature directe, dès les offres publiées"
+     ],
+     [
+      "Stabilité",
+      "Titularisation à terme, liste d'aptitude pendant 4 ans (territorial)",
+      "CDD de 3 ans renouvelable une fois ; CDI possible après 6 ans de services (État)"
+     ],
+     [
+      "Choix du lieu",
+      "Fort pour le territorial (on cherche un poste partout) ; l'IRA affecte selon le classement",
+      "Fort : on candidate sur l'offre qui correspond"
+     ],
+     [
+      "Coût d'opportunité",
+      "Temps de préparation : à estimer",
+      "Risque de ne pas être renouvelé"
+     ],
+     [
+      "Lien avec l'évaluation",
+      "Attaché généraliste, puis spécialisation",
+      "Postes d'étude ou d'évaluation visibles dans les offres"
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "titre": "Fonction publique : la durée des contrats dans la fonction publique de l'État",
+     "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/la-duree-des-contrats-dans-la-fonction-publique-de-letat"
+    },
+    {
+     "titre": "CDG 33 : les concours",
+     "url": "https://www.cdg33.fr/concours/presentation-des-concours/les-concours/"
+    }
+   ]
+  },
+  {
+   "id": "avis",
+   "titre": "Avis de travail (ce n'est pas un fait)",
+   "avis": true,
+   "paragraphes": [
+    "Avis Upgrade : les deux voies se préparent en parallèle plus facilement qu'elles ne s'opposent. Les candidatures de stage et de contrat sont à lancer maintenant (le calendrier des offres l'impose), pendant que la préparation d'un concours demande surtout du temps de lecture et de pratique, déjà couvert par la boucle quotidienne (Brief, cartes de sigles, notes).",
+    "Ce qui manque pour trancher : le calendrier réel des concours 2027 de la région, la rémunération effective d'un poste contractuel d'étude en Nouvelle-Aquitaine, et l'avis de deux personnes qui ont fait chacune l'un de ces chemins."
+   ],
+   "puces": [
+    "Avant mi-novembre : regarder le calendrier 2027 des concours d'attaché sur le site du CDG 33 et celui des IRA, et noter les dates dans la fiche « Ma décision ».",
+    "Avant mi-novembre : deux entretiens d'information (voir l'onglet Réseau), l'un avec un attaché territorial ou d'État, l'autre avec un contractuel d'étude ou d'évaluation. Question à poser : « Si vous deviez refaire le chemin, quelle voie prendriez-vous ? »",
+    "Avant mi-novembre : écrire ici une décision provisoire d'une phrase, avec la date de révision (fin janvier)."
+   ],
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Fonction publique : les cas de recours aux agents contractuels (État)",
+   "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/les-cas-de-recours-aux-agents-contractuels-au-sein-de-la-fonction-publique-de-letat"
+  },
+  {
+   "titre": "Fonction publique : la durée des contrats dans la fonction publique de l'État",
+   "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/la-duree-des-contrats-dans-la-fonction-publique-de-letat"
+  },
+  {
+   "titre": "Fonction publique : les IRA",
+   "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/les-instituts-regionaux-dadministration-ira"
+  },
+  {
+   "titre": "CDG 33 : les concours",
+   "url": "https://www.cdg33.fr/concours/presentation-des-concours/les-concours/"
+  }
+ ]
+}

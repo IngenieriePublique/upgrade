@@ -2,7 +2,7 @@
 // Magasins : cards (état courant), journal (toutes les révisions), meta (réglages), days (séances du jour).
 import { newState, schedule, replay } from './srs.js';
 
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 export const BACKUP_FORMAT = 'upgrade-sauvegarde';
 
 const wrap = (r) => new Promise((res, rej) => { r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
@@ -16,13 +16,16 @@ export async function openStore(name = 'upgrade') {
   if (typeof indexedDB === 'undefined') throw new Error('IndexedDB indisponible dans ce navigateur');
   const db = await new Promise((res, rej) => {
     const r = indexedDB.open(name, DB_VERSION);
-    r.onupgradeneeded = () => {
+    r.onupgradeneeded = (ev) => {
       const d = r.result;
-      d.createObjectStore('cards', { keyPath: 'id' });
-      const j = d.createObjectStore('journal', { keyPath: 'n', autoIncrement: true });
-      j.createIndex('cardId', 'cardId');
-      d.createObjectStore('meta', { keyPath: 'key' });
-      d.createObjectStore('days', { keyPath: 'day' });
+      if (ev.oldVersion < 1) {
+        d.createObjectStore('cards', { keyPath: 'id' });
+        const j = d.createObjectStore('journal', { keyPath: 'n', autoIncrement: true });
+        j.createIndex('cardId', 'cardId');
+        d.createObjectStore('meta', { keyPath: 'key' });
+        d.createObjectStore('days', { keyPath: 'day' });
+      }
+      if (ev.oldVersion < 2) d.createObjectStore('notes', { keyPath: 'id' }); // pitch, histoires, radar, réseau, oral
     };
     r.onsuccess = () => res(r.result);
     r.onerror = () => rej(r.error);
@@ -81,6 +84,28 @@ function makeStore(db, name) {
     },
     days: () => all('days'),
 
+    // Notes personnelles : { id, kind, data, updatedAt, deleted? }. L'id commence par le genre (« pitch:p90 »).
+    // Une suppression laisse une pierre tombale (deleted) pour que l'import d'une vieille sauvegarde ne la ressuscite pas.
+    async notes(kind = null) {
+      return (await all('notes')).filter((n) => !n.deleted && (kind == null || n.kind === kind));
+    },
+    async getNote(id) {
+      const n = await wrap(db.transaction('notes').objectStore('notes').get(id));
+      return n && !n.deleted ? n : null;
+    },
+    async putNote(id, data, now = Date.now()) {
+      const note = { id, kind: id.split(':')[0], data, updatedAt: now };
+      const tx = db.transaction('notes', 'readwrite');
+      tx.objectStore('notes').put(note);
+      await done(tx);
+      return note;
+    },
+    async deleteNote(id, now = Date.now()) {
+      const tx = db.transaction('notes', 'readwrite');
+      tx.objectStore('notes').put({ id, kind: id.split(':')[0], data: null, updatedAt: now, deleted: true });
+      await done(tx);
+    },
+
     async addFlag(cardId, ts = Date.now()) {
       const flags = await api.getMeta('flags', []);
       if (!flags.some((f) => f.cardId === cardId)) flags.push({ cardId, ts });
@@ -94,10 +119,11 @@ function makeStore(db, name) {
       for (const m of await all('meta')) if (!m.key.startsWith('_')) meta[m.key] = m.value;
       return {
         format: BACKUP_FORMAT,
-        version: 1,
+        version: 2,
         exportedAt: Date.now(),
         journal: (await api.journal()).map(({ cardId, ts, grade }) => ({ cardId, ts, grade })),
         days: await api.days(),
+        notes: await all('notes'),
         meta,
       };
     },
@@ -119,7 +145,10 @@ function makeStore(db, name) {
       const flags = [...flagsLocal];
       for (const f of flagsIn) if (!flags.some((x) => x.cardId === f.cardId)) flags.push(f);
 
-      const tx = db.transaction(['cards', 'journal', 'meta', 'days'], 'readwrite');
+      const notesIn = (Array.isArray(data.notes) ? data.notes : [])
+        .filter((n) => n && typeof n.id === 'string' && n.id.includes(':') && Number.isFinite(n.updatedAt));
+
+      const tx = db.transaction(['cards', 'journal', 'meta', 'days', 'notes'], 'readwrite');
       const j = tx.objectStore('journal');
       for (const e of fresh) j.add({ cardId: e.cardId, ts: e.ts, grade: e.grade });
       const c = tx.objectStore('cards');
@@ -139,8 +168,18 @@ function makeStore(db, name) {
           ? { ...cur, done: { ...day.done, ...cur.done }, finished: cur.finished || day.finished }
           : day);
       }
+      // Notes : la version la plus récente de chaque note l'emporte.
+      const nt = tx.objectStore('notes');
+      let notes = 0;
+      for (const n of notesIn) {
+        const cur = await wrap(nt.get(n.id));
+        if (!cur || n.updatedAt > cur.updatedAt) {
+          nt.put({ id: n.id, kind: n.id.split(':')[0], data: n.data ?? null, updatedAt: n.updatedAt, ...(n.deleted ? { deleted: true } : {}) });
+          notes++;
+        }
+      }
       await done(tx);
-      return { ajoutees: fresh.length, total: merged.length, cartes: states.size };
+      return { ajoutees: fresh.length, total: merged.length, cartes: states.size, notes };
     },
 
     close: () => db.close(),

@@ -96,3 +96,47 @@ kbd { font: inherit; font-size: .75rem; border: 1px solid currentColor; border-r
 .ia-form { display: grid; gap: .3rem; max-width: 28rem; margin-top: .6rem; }
 .ia-form input, .ia-form select, textarea { font: inherit; padding: .4rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); width: 100%; }
 .ia-texte { white-space: pre-wrap; font: inherit; margin: 0; }
+
+/* Sprint candidature */
+.onglets, .sous-onglets { display: flex; flex-wrap: wrap; gap: .3rem; margin: .4rem 0 1rem; }
+.onglets a, .sous-onglets a { padding: .3rem .75rem; border-radius: 99px; text-decoration: none; color: var(--doux); border: 1px solid var(--bord); }
+.onglets a.actif, .sous-onglets a.actif { background: var(--accent); color: var(--accent-texte); border-color: var(--accent); }
+.prochaine { border-left: 4px solid var(--accent); }
+.etapes { list-style: none; padding: 0; margin: .4rem 0 1rem; display: grid; gap: .4rem; }
+.etapes li { display: flex; gap: .6rem; align-items: baseline; }
+.etapes .case { display: inline-grid; place-items: center; width: 1.4rem; height: 1.4rem; border: 2px solid var(--bord); border-radius: 50%; font-size: .85rem; flex: none; }
+.etapes li.fait .case { background: var(--ok); border-color: var(--ok); color: var(--accent-texte); }
+.etapes li.fait a { opacity: .7; }
+
+.filtres { display: flex; flex-wrap: wrap; gap: .6rem 1rem; margin: .8rem 0; }
+.filtre { display: grid; gap: .15rem; font-size: .88rem; color: var(--doux); }
+.filtre select, .filtre input { font: inherit; padding: .35rem .5rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); }
+.puce { flex: none; display: inline-grid; place-items: center; min-width: 1.6rem; height: 1.6rem; border-radius: 99px; font-weight: 700; font-size: .85rem; border: 2px solid var(--bord); }
+.prio-A { border-color: var(--ok); color: var(--ok); } .prio-B { border-color: var(--n3); color: var(--n3); } .prio-C { border-color: var(--doux); color: var(--doux); }
+.emp.ecarte { opacity: .5; }
+.carte.fait { border-color: var(--ok); }
+.carte.avis { border-style: dashed; }
+
+.champ { margin: .8rem 0; }
+.champ label { display: block; font-weight: 600; }
+.champ textarea { margin-top: .25rem; resize: vertical; }
+.etat-save { margin-left: .6rem; font-weight: 400; font-size: .8rem; color: var(--ok); }
+.conseils { color: var(--doux); }
+
+.question-carte .recto { font-size: 1.35rem; }
+.enreg { display: flex; align-items: center; gap: 1rem; margin: 1rem 0; }
+.rec { color: var(--erreur); animation: clignote 1.2s infinite; font-size: 1.4rem; }
+@keyframes clignote { 50% { opacity: .2; } }
+.chrono { font-variant-numeric: tabular-nums; font-size: 1.6rem; font-weight: 600; }
+.chrono.depasse { color: var(--erreur); }
+.critere { display: flex; justify-content: space-between; align-items: center; gap: .6rem; padding: .3rem 0; border-bottom: 1px solid var(--bord); }
+.echelle { display: inline-flex; gap: .3rem; }
+.echelle button { min-width: 2.4rem; padding: .35rem .5rem; }
+.echelle button.actif { background: var(--accent); color: var(--accent-texte); border-color: var(--accent); }
+.tics { align-items: center; }
+audio { width: 100%; margin: .5rem 0; }
+
+.defile { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+th, td { border: 1px solid var(--bord); padding: .4rem .5rem; text-align: left; vertical-align: top; }
+thead th { background: var(--fond); }

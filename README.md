@@ -11,6 +11,8 @@ python -m http.server 8765 --bind 127.0.0.1     # puis http://localhost:8765/sit
 python -m unittest discover -s tests -t .       # tests Python
 # tests JavaScript : ouvrir http://localhost:8765/tests/index.html
 python scripts/build_content.py                 # valide content/cartes/*.json et publie dans site/data/cartes/
+python scripts/build_sprint.py                  # valide le radar, les questions, les gabarits, la note carrière
+python -I scripts/check_links.py                # teste les adresses citées par le radar et l'oral
 ```
 Sur `localhost`, le service worker (hors ligne) est désactivé ; l'activer avec `?sw` dans l'adresse.
 

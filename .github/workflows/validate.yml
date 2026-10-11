@@ -22,4 +22,5 @@ jobs:
       - name: Les données publiées correspondent au contenu source
         run: |
           python scripts/build_content.py
+          python scripts/build_sprint.py
           git diff --exit-code site/data

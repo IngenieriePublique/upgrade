@@ -1,0 +1,200 @@
+{
+ "revu": "2026-10-11",
+ "avertissement": "Ces gabarits sont des structures vides. Ton pitch et tes histoires restent dans ton navigateur et dans tes sauvegardes, jamais dans le dépôt.",
+ "pitchs": [
+  {
+   "id": "p30",
+   "titre": "Pitch de 30 secondes",
+   "secondes": 30,
+   "usage": "Se présenter dans un réseau, un forum, un webinaire, un couloir.",
+   "champs": [
+    {
+     "id": "qui",
+     "label": "Qui je suis",
+     "aide": "Une phrase : formation et statut (« Étudiant en M2 d'ingénierie du développement territorial à Bordeaux »)."
+    },
+    {
+     "id": "preuve",
+     "label": "Ma preuve",
+     "aide": "Une réalisation concrète et chiffrée si possible (un livrable, un résultat de stage)."
+    },
+    {
+     "id": "demande",
+     "label": "Ce que je cherche",
+     "aide": "Une demande précise : un conseil, un stage de six mois à partir de mars, un contact."
+    }
+   ]
+  },
+  {
+   "id": "p90",
+   "titre": "Pitch de 90 secondes",
+   "secondes": 90,
+   "usage": "Début d'entretien (« présentez-vous »).",
+   "champs": [
+    {
+     "id": "qui",
+     "label": "Qui je suis",
+     "aide": "Parcours en trois repères, avec le fil conducteur (pas la chronologie)."
+    },
+    {
+     "id": "preuves",
+     "label": "Deux preuves",
+     "aide": "Deux réalisations différentes, chacune en une phrase : situation, action, résultat."
+    },
+    {
+     "id": "pourquoi",
+     "label": "Pourquoi cette structure",
+     "aide": "Un fait vérifié sur la structure et le lien avec ton projet."
+    },
+    {
+     "id": "demande",
+     "label": "Ce que j'apporte et ce que je cherche",
+     "aide": "Une compétence mobilisable tout de suite et une compétence à développer."
+    }
+   ]
+  },
+  {
+   "id": "p180",
+   "titre": "Pitch de 3 minutes",
+   "secondes": 180,
+   "usage": "Entretien long, jury de concours (« parlez-nous de votre parcours »).",
+   "champs": [
+    {
+     "id": "accroche",
+     "label": "Accroche",
+     "aide": "Une phrase qui donne l'idée directrice du parcours."
+    },
+    {
+     "id": "formation",
+     "label": "Formation",
+     "aide": "Ce que chaque étape t'a donné d'utile pour le métier visé."
+    },
+    {
+     "id": "experiences",
+     "label": "Trois expériences",
+     "aide": "Trois histoires courtes, choisies parmi tes histoires STAR."
+    },
+    {
+     "id": "projet",
+     "label": "Projet professionnel",
+     "aide": "Le métier visé, les compétences à construire, la contribution que tu veux apporter."
+    },
+    {
+     "id": "structure",
+     "label": "Lien avec cette structure",
+     "aide": "Un fait vérifié et une raison personnelle."
+    }
+   ]
+  }
+ ],
+ "star": {
+  "champs": [
+   {
+    "id": "situation",
+    "label": "Situation",
+    "aide": "Le contexte : structure, équipe, enjeu, objectif de départ (2-3 phrases)."
+   },
+   {
+    "id": "tache",
+    "label": "Tâche",
+    "aide": "Ce qu'on attendait de toi précisément, ta responsabilité propre."
+   },
+   {
+    "id": "action",
+    "label": "Action",
+    "aide": "Ce que tu as fait toi (« je »), les décisions prises, les compétences et outils utilisés."
+   },
+   {
+    "id": "resultat",
+    "label": "Résultat",
+    "aide": "Ce qui a changé, avec un chiffre ou un livrable si possible, y compris ce qui n'a pas marché."
+   },
+   {
+    "id": "apprentissage",
+    "label": "Apprentissage",
+    "aide": "Ce que tu ferais autrement aujourd'hui."
+   }
+  ],
+  "emplacements": [
+   {
+    "id": "s1",
+    "titre": "Un livrable dont je suis fier",
+    "question_type": "Quel livrable avez-vous produit ?"
+   },
+   {
+    "id": "s2",
+    "titre": "Une donnée analysée",
+    "question_type": "Quelle donnée avez-vous produite ou analysée ?"
+   },
+   {
+    "id": "s3",
+    "titre": "Un travail d'équipe",
+    "question_type": "Quelle a été votre contribution dans un travail d'équipe ?"
+   },
+   {
+    "id": "s4",
+    "titre": "Un problème résolu",
+    "question_type": "Racontez un moment où un projet n'avançait pas."
+   },
+   {
+    "id": "s5",
+    "titre": "Un échec",
+    "question_type": "Parlez-moi d'un échec."
+   },
+   {
+    "id": "s6",
+    "titre": "Une initiative",
+    "question_type": "Qu'avez-vous fait que personne ne vous avait demandé ?"
+   },
+   {
+    "id": "s7",
+    "titre": "Un désaccord ou une persuasion",
+    "question_type": "Comment gérez-vous un désaccord ?"
+   },
+   {
+    "id": "s8",
+    "titre": "Une contrainte de temps",
+    "question_type": "Comment travaillez-vous sous pression ?"
+   }
+  ],
+  "conseils": [
+   "Prépare trois ou quatre expériences marquantes, puis découpe chacune selon les quatre étapes.",
+   "Mets l'accent sur le « je » : ton rôle précis, pas seulement celui de l'équipe.",
+   "Chiffre le résultat quand c'est possible.",
+   "Entraîne-toi à l'oral avec l'enregistreur : une histoire doit tenir en 90 secondes environ."
+  ],
+  "sources": [
+   {
+    "titre": "France Travail : trouver son premier emploi (la méthode STAR appliquée aux stages)",
+    "url": "https://www.francetravail.fr/candidat/jeunes/premier-emploi-comment-decrocher.html"
+   },
+   {
+    "titre": "L'Étudiant : l'arsenal de questions des recruteurs",
+    "url": "https://www.letudiant.fr/jobsstages/lettres-de-motivation_1/entretien-d-embauche-zoom-sur-l-arsenal-de-questions-des-recruteurs.html"
+   }
+  ]
+ },
+ "entretien_info": {
+  "titre": "Entretien d'information (enquête métier)",
+  "principe": "Un entretien d'information est une demande de conseils et d'informations, pas une demande d'emploi. Il sert à recueillir des renseignements à la source, confronter ses représentations à la réalité du métier et construire son réseau.",
+  "etapes": [
+   "Choisir une personne dans le radar (un employeur, un poste, un ancien du master) et trouver comment la joindre.",
+   "Envoyer un message court : qui je suis, pourquoi cette personne, ce que je demande (une demi-heure environ).",
+   "Préparer 4 ou 5 questions directes (voir la banque, catégorie « À poser à un professionnel »).",
+   "Poser les questions, écouter, prendre des notes, ne pas demander d'emploi.",
+   "Terminer par : « Connaissez-vous quelqu'un que je pourrais rencontrer ? »",
+   "Remercier par écrit sous 48 heures, puis tenir la personne informée de ce que tu as fait de ses conseils."
+  ],
+  "message_modele": "Bonjour [prénom nom],\n\nJe suis étudiant en [formation] à [ville] et je réfléchis à une orientation vers [métier ou secteur]. J'ai lu [un fait précis vérifié : un rapport, une intervention, une page de poste] et votre parcours m'a paru très éclairant.\n\nPourriez-vous m'accorder une demi-heure, par téléphone ou en visio, pour répondre à quelques questions sur votre métier ? Je ne cherche pas un emploi, seulement des conseils pour mieux construire mon projet.\n\nMerci de votre attention,\n[prénom nom]",
+  "sources": [
+   {
+    "titre": "Choisir le service public : les bonnes pratiques de l'enquête métier",
+    "url": "https://choisirleservicepublic.gouv.fr/conseils/parole-dexpert-les-bonnes-pratiques-de-lenquete-metier/"
+   },
+   {
+    "titre": "Université de Bordeaux, Espace Orientation Carrières : guide de l'enquête métier",
+    "url": "https://u-bordeaux.fr/download_file/force/eb8a90d2-ef33-48ad-b43a-6af764968945/6633"
+   }
+  ]
+ }
+}

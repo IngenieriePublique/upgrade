@@ -29,5 +29,13 @@ Dans un dépôt public, les workflows planifiés sont désactivés automatiqueme
 - **Cron** : `brief.yml` committe chaque jour (activité du dépôt) et relance `pages.yml` explicitement (un push fait avec GITHUB_TOKEN ne déclenche pas d'autre workflow). Non testé tant que le dépôt n'existe pas ; contrôle de la règle des 60 jours prévu le 2026-12-10.
 - **Dédoublonnage** : titres proches regroupés par liaison simple (mots communs ou similarité de chaînes) ; le nombre de médias qui reprennent un sujet augmente son score.
 
+## Décisions de la séance S5 : sprint candidature (2026-10-11)
+- **Données personnelles dans un magasin `notes` unique** (IndexedDB v2) plutôt que dans `meta` : l'import fusionne par date de modification au lieu d'ignorer une clé déjà présente, et les suppressions ne ressuscitent pas.
+- **Audio jamais conservé** : l'enregistreur garde le son en mémoire pour la réécoute et la grille d'auto-évaluation ; seul le résumé (durée, notes, tics, commentaire) est enregistré. Repli chronomètre sans micro.
+- **Radar de 32 employeurs** (au-delà des 30 prévus) : 5 portails d'offres en plus. Écartés : OFGL (plutôt une source de données qu'un employeur), cabinets privés d'évaluation (aucun nom étayé par les sources lues ; méthode à retenir : attributaires des marchés BOAMP/DECP et liste des adhérents SFE), associations de collectivités autres que Départements de France.
+- **Concours ou contractuel** : l'utilisateur tranche ; la note pose les faits sourcés (CDG 33, fonction-publique.gouv.fr, IRA, CNFPT), sépare un « avis de travail » (voies en parallèle) et laisse une décision provisoire datée à écrire.
+- **Pas de pitch ni d'histoires rédigés par Claude** : ce sont des faits sur le parcours de l'utilisateur, que Claude ne connaît pas ; le site fournit des gabarits, un « prompt à coller » et l'enregistreur.
+- **Matrice de compétences VEILLE reportée** : 4 offres « oui » et 16 « peut-être » seulement, collecte récente (depuis 2026-10-09 pour la base actuelle) ; trop mince pour piloter un curriculum.
+
 ## Questions encore ouvertes
-Compte GitHub ; concours ou contractuel (phase 3).
+Compte GitHub ; décision concours / contractuel (à écrire par l'utilisateur dans l'écran Concours ou contrat avant le 2026-11-15).

@@ -1,0 +1,1166 @@
+{
+ "revu": "2026-10-11",
+ "portails": [
+  {
+   "id": "choisir-service-public",
+   "titre": "Choisir le service public",
+   "url": "https://choisirleservicepublic.gouv.fr/",
+   "description": "Offres d'emploi et de stage de la fonction publique (État, territoriale, hospitalière). Chaque fiche employeur du radar propose une recherche prête par mot-clé.",
+   "sources": [
+    {
+     "titre": "Choisir le service public (accueil)",
+     "url": "https://choisirleservicepublic.gouv.fr/"
+    },
+    {
+     "titre": "DGAFP : page « Rejoignez-nous » (renvoie vers ce site pour les emplois)",
+     "url": "https://www.fonction-publique.gouv.fr/la-dgafp/nous-connaitre/rejoignez-nous"
+    }
+   ]
+  },
+  {
+   "id": "pass",
+   "titre": "PASS (stages et apprentissages de la fonction publique)",
+   "url": "https://www.pass.fonction-publique.gouv.fr/",
+   "description": "Portail dédié aux stages et à l'apprentissage dans la fonction publique.",
+   "sources": [
+    {
+     "titre": "PASS (accueil)",
+     "url": "https://www.pass.fonction-publique.gouv.fr/"
+    },
+    {
+     "titre": "DGAFP : page « Rejoignez-nous » (cite ce portail pour les stages)",
+     "url": "https://www.fonction-publique.gouv.fr/la-dgafp/nous-connaitre/rejoignez-nous"
+    }
+   ]
+  },
+  {
+   "id": "emploi-territorial",
+   "titre": "emploi-territorial.fr",
+   "url": "https://www.emploi-territorial.fr/",
+   "description": "Offres des collectivités territoriales (mairies, départements, régions, intercommunalités).",
+   "sources": [
+    {
+     "titre": "emploi-territorial.fr (accueil)",
+     "url": "https://www.emploi-territorial.fr/"
+    },
+    {
+     "titre": "Offre de la Région Nouvelle-Aquitaine sur Choisir le service public (renvoie vers emploi-territorial.fr)",
+     "url": "https://choisirleservicepublic.gouv.fr/offre-emploi/charge-e-de-mission-territoriale-hf---region-nouvelle-aquitaine-reference-O033260615001189/"
+    }
+   ]
+  },
+  {
+   "id": "sfe-offres",
+   "titre": "Offres d'emploi et de stage de la SFE",
+   "url": "https://www.sfe-asso.fr/les-offres-demploi-et-de-stage/",
+   "description": "La Société française de l'évaluation recense les offres d'emploi, de stage et d'apprentissage en évaluation des politiques publiques. C'est la liste la plus ciblée sur le métier visé : à consulter chaque semaine.",
+   "sources": [
+    {
+     "titre": "SFE : offres d'emploi et de stage",
+     "url": "https://www.sfe-asso.fr/les-offres-demploi-et-de-stage/"
+    },
+    {
+     "titre": "SFE : qui sommes-nous",
+     "url": "https://www.sfe-asso.fr/qui-sommes-nous/"
+    }
+   ]
+  },
+  {
+   "id": "orientation-environnement",
+   "titre": "Orientation Environnement",
+   "url": "https://orientation-environnement.fr/",
+   "description": "Emplois, stages et formations en environnement, aménagement des territoires et développement durable (utile pour les agences, associations et bureaux d'études).",
+   "sources": [
+    {
+     "titre": "Orientation Environnement (accueil)",
+     "url": "https://orientation-environnement.fr/"
+    },
+    {
+     "titre": "Orientation Environnement : fiche AREC Nouvelle-Aquitaine",
+     "url": "https://orientation-environnement.fr/arec-nouvelle-aquitaine"
+    }
+   ]
+  }
+ ],
+ "employeurs": [
+  {
+   "id": "ditp",
+   "nom": "Direction interministérielle de la transformation publique",
+   "sigle": "DITP",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "Paris",
+   "priorite": "A",
+   "mission": "Direction rattachée au ministre chargé de la fonction publique et de la réforme de l'État. Elle assure la mise en œuvre du programme de transformation publique et des politiques prioritaires fixées par le Gouvernement, pour rendre l'action publique plus proche, plus simple et plus efficace.",
+   "pourquoi": "Pilotage de politiques prioritaires au niveau national : le cœur du métier visé. Lecture Upgrade : bon endroit pour comprendre comment on suit les résultats d'une politique.",
+   "a_verifier": "Wikipédia indique qu'en 2026 le Premier ministre a annoncé sa transformation en « direction des Services publics » : vérifier le nom actuel et le site avant de candidater.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « DITP » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/DITP/"
+    },
+    {
+     "titre": "Site de la DITP",
+     "url": "https://www.modernisation.gouv.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Direction interministérielle de la Transformation publique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_interminist%C3%A9rielle_de_la_Transformation_publique"
+    },
+    {
+     "titre": "Site de la DITP",
+     "url": "https://www.modernisation.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "anct",
+   "nom": "Agence nationale de la cohésion des territoires",
+   "sigle": "ANCT",
+   "type": "Opérateur ou agence de l'État",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "A",
+   "mission": "Établissement public créé en 2019, en fonctionnement depuis le 1er janvier 2020. Il soutient les collectivités dans leurs projets de territoire et pilote des programmes nationaux (France services, Action cœur de ville, Petites villes de demain, Villages d'avenir), en ciblant d'abord les territoires cumulant des difficultés.",
+   "pourquoi": "Programmes territoriaux nationaux, donc des politiques à évaluer et à piloter à l'échelle de tout le pays. Lecture Upgrade : employeur central pour un profil développement territorial.",
+   "a_verifier": "",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Nous rejoindre (offres d'emploi de l'ANCT)",
+     "url": "https://anct.gouv.fr/nous-rejoindre"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Agence nationale de la cohésion des territoires — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_nationale_de_la_coh%C3%A9sion_des_territoires"
+    },
+    {
+     "titre": "ANCT : nous rejoindre",
+     "url": "https://anct.gouv.fr/nous-rejoindre"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "direction-du-budget",
+   "nom": "Direction du Budget",
+   "sigle": "DB",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "Paris",
+   "priorite": "B",
+   "mission": "Direction d'état-major du ministère de l'Économie et des Finances, créée en 1919. Elle élabore le budget de l'État par négociation avec les ministères dépensiers, accompagne son exécution et joue un rôle central dans le pilotage de l'ensemble des finances publiques.",
+   "pourquoi": "Comprendre la mécanique budgétaire de l'intérieur, au cœur du pilotage des finances publiques. Lecture Upgrade : un stage ici donne une crédibilité forte sur les finances publiques.",
+   "a_verifier": "Un stage au bureau du pilotage, des outils et de la performance de la gestion publique (2POP) est apparu dans la veille le 2026-09-24 : regarder s'il est encore ouvert.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « Direction du Budget » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/Direction%20du%20Budget/"
+    },
+    {
+     "titre": "Stages et apprentissages de la fonction publique (PASS)",
+     "url": "https://www.pass.fonction-publique.gouv.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Direction du Budget — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_du_Budget"
+    },
+    {
+     "titre": "Direction du Budget (site du ministère)",
+     "url": "https://www.budget.gouv.fr/direction-du-budget"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "dgafp",
+   "nom": "Direction générale de l'administration et de la fonction publique",
+   "sigle": "DGAFP",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "Paris",
+   "priorite": "B",
+   "mission": "Direction d'administration centrale rattachée au ministère de la fonction publique, créée en 1945. Elle conseille les employeurs publics, joue un rôle de DRH de l'État et accompagne les chantiers RH interministériels et la modernisation de la fonction publique.",
+   "pourquoi": "Connaître de l'intérieur le fonctionnement de la fonction publique (statuts, concours, contractuels), utile pour trancher concours ou contractuel. Lecture Upgrade : profil RH et juridique dominant, moins évaluation.",
+   "a_verifier": "",
+   "voies": [
+    "emploi",
+    "stage",
+    "apprentissage",
+    "candidature spontanée"
+   ],
+   "candidater": [
+    {
+     "titre": "Page « Rejoignez-nous » de la DGAFP (emplois, stages, candidature spontanée)",
+     "url": "https://www.fonction-publique.gouv.fr/la-dgafp/nous-connaitre/rejoignez-nous"
+    },
+    {
+     "titre": "Stages et apprentissages de la fonction publique (PASS)",
+     "url": "https://www.pass.fonction-publique.gouv.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Direction générale de l'Administration et de la Fonction publique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_de_l%27Administration_et_de_la_Fonction_publique"
+    },
+    {
+     "titre": "DGAFP : rejoignez-nous",
+     "url": "https://www.fonction-publique.gouv.fr/la-dgafp/nous-connaitre/rejoignez-nous"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "dgcl",
+   "nom": "Direction générale des collectivités locales",
+   "sigle": "DGCL",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "B",
+   "mission": "Administration centrale (sous ce nom depuis 1960) chargée d'instruire et de mettre en œuvre les relations entre l'État et les collectivités territoriales. Sa tutelle a été pleinement transférée en 2018 aux ministères de l'aménagement du territoire, du logement et de la ville.",
+   "pourquoi": "Relations entre l'État et les collectivités : le socle de ton futur domaine. Lecture Upgrade : institution citée dans les sources des notes du portfolio.",
+   "a_verifier": "",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « DGCL » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/DGCL/"
+    },
+    {
+     "titre": "Site de la DGCL",
+     "url": "https://www.collectivites-locales.gouv.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Direction générale des Collectivités locales — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_des_Collectivit%C3%A9s_locales"
+    },
+    {
+     "titre": "Site de la DGCL (ministère)",
+     "url": "https://www.collectivites-locales.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "hcsp",
+   "nom": "Haut-commissariat à la Stratégie et au Plan (ex-France Stratégie)",
+   "sigle": "HCSP",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "B",
+   "mission": "Service du Premier ministre créé le 23 mai 2025, qui anime et coordonne les travaux de planification et de réflexion prospective de l'État. Il succède au Haut-commissariat au Plan et à France Stratégie, lequel participait à l'évaluation des politiques publiques et animait un réseau d'organismes publics.",
+   "pourquoi": "Études et évaluation au plus haut niveau de l'État. Lecture Upgrade : très sélectif, mais ses publications sont une bonne école de rédaction de notes.",
+   "a_verifier": "Structure récente (2025) : vérifier ce qui subsiste des activités d'évaluation de France Stratégie.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Offres d'emploi du Haut-commissariat",
+     "url": "https://www.strategie-plan.gouv.fr/offres-demploi"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Haut-commissariat à la Stratégie et au Plan — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Haut-commissariat_%C3%A0_la_Strat%C3%A9gie_et_au_Plan"
+    },
+    {
+     "titre": "France Stratégie — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/France_Strat%C3%A9gie"
+    },
+    {
+     "titre": "Site du Haut-commissariat : offres d'emploi",
+     "url": "https://www.strategie-plan.gouv.fr/offres-demploi"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "cour-des-comptes",
+   "nom": "Cour des comptes",
+   "sigle": "",
+   "type": "Juridiction financière",
+   "echelon": "national",
+   "lieu": "Paris (palais Cambon)",
+   "priorite": "B",
+   "mission": "Juridiction financière de l'ordre administratif, créée en 1807. Elle contrôle la régularité des comptes publics (État, établissements publics nationaux, entreprises publiques, sécurité sociale, certains organismes privés aidés) et informe le Parlement, le Gouvernement et le public. Ses rapports n'ont pas de caractère contraignant.",
+   "pourquoi": "Ses rapports sont une lecture de référence pour comprendre comment on juge une politique publique. Lecture Upgrade : voie d'entrée en général par concours ou recrutements spécifiques, à vérifier.",
+   "a_verifier": "Conditions d'accès (stages, rapporteurs, contractuels) à lire sur la page d'offres.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Offres de la Cour des comptes sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/organisme/23/"
+    },
+    {
+     "titre": "Site de la Cour des comptes",
+     "url": "https://www.ccomptes.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Cour des comptes (France) — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Cour_des_comptes_(France)"
+    },
+    {
+     "titre": "Site de la Cour des comptes",
+     "url": "https://www.ccomptes.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": false
+  },
+  {
+   "id": "cerema",
+   "nom": "Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement",
+   "sigle": "Cerema",
+   "type": "Opérateur ou agence de l'État",
+   "echelon": "national",
+   "lieu": "Siège à Lyon",
+   "priorite": "A",
+   "mission": "Établissement public administratif créé le 1er janvier 2014, sous la tutelle conjointe des ministères de la transition écologique et de l'aménagement du territoire. Il entretient des relations étroites avec les collectivités, qui siègent dans ses instances.",
+   "pourquoi": "Expertise et études pour les collectivités sur l'aménagement et la transition écologique. Lecture Upgrade : profils d'ingénierie territoriale, accessibles aux contractuels.",
+   "a_verifier": "Regarder quelles implantations régionales existent en Nouvelle-Aquitaine.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Carrières au Cerema",
+     "url": "https://www.cerema.fr/fr/recrutement"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Cerema — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Centre_d%27%C3%A9tudes_et_d%27expertise_sur_les_risques,_l%27environnement,_la_mobilit%C3%A9_et_l%27am%C3%A9nagement"
+    },
+    {
+     "titre": "Site du Cerema",
+     "url": "https://www.cerema.fr/fr/cerema"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "insee",
+   "nom": "Institut national de la statistique et des études économiques",
+   "sigle": "Insee",
+   "type": "Administration centrale",
+   "echelon": "national",
+   "lieu": "Siège à Montrouge",
+   "priorite": "B",
+   "mission": "Organisme créé en 1946, direction générale du ministère de l'Économie et des Finances, qui collecte, produit, analyse et diffuse des informations sur l'économie et la société françaises (comptabilité nationale, démographie, chômage, prix).",
+   "pourquoi": "Les données des analyses de ton portfolio viennent d'ici. Lecture Upgrade : bon pour les compétences de données, moins pour le pilotage direct.",
+   "a_verifier": "Vérifier l'existence et l'adresse d'une direction régionale à Bordeaux.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Travailler à l'Insee",
+     "url": "https://www.insee.fr/fr/information/1300628"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Insee — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Institut_national_de_la_statistique_et_des_%C3%A9tudes_%C3%A9conomiques"
+    },
+    {
+     "titre": "Insee : travailler à l'Insee",
+     "url": "https://www.insee.fr/fr/information/1300628"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "banque-des-territoires",
+   "nom": "Banque des Territoires (Caisse des Dépôts)",
+   "sigle": "BdT",
+   "type": "Opérateur ou agence de l'État",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "B",
+   "mission": "Direction opérationnelle de la Caisse des dépôts qui réunit les offres du groupe au service des territoires : conseil, prêts, investissement en fonds propres. Elle finance et structure des projets d'intérêt général portés par les collectivités, les bailleurs sociaux et les entreprises publiques locales.",
+   "pourquoi": "Relation quotidienne avec les collectivités sur le financement de leurs projets. Lecture Upgrade : voie vers l'ingénierie financière locale.",
+   "a_verifier": "Offres propres à la Banque des Territoires à chercher dans le site de recrutement du groupe ; vérifier les implantations régionales.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recrutement du groupe Caisse des Dépôts",
+     "url": "https://www.caissedesdepots.fr/recrutement"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Banque des territoires — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Banque_des_territoires"
+    },
+    {
+     "titre": "Banque des Territoires : qui sommes-nous",
+     "url": "https://www.banquedesterritoires.fr/notre-identite"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "ademe",
+   "nom": "Agence de la transition écologique",
+   "sigle": "ADEME",
+   "type": "Opérateur ou agence de l'État",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "C",
+   "mission": "Établissement public à caractère industriel et commercial créé en 1991. Il suscite, anime, coordonne et réalise des opérations de protection de l'environnement et surtout de maîtrise de l'énergie.",
+   "pourquoi": "Co-fondatrice de l'AREC Nouvelle-Aquitaine (observatoire régional). Lecture Upgrade : intéressant si tu orientes ton portfolio vers l'énergie-climat.",
+   "a_verifier": "Le site ademe.fr bloque les robots : lire la page carrières à la main. Vérifier l'implantation régionale.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site de l'ADEME (rubrique recrutement)",
+     "url": "https://www.ademe.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Agence de la transition écologique — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_de_l%27environnement_et_de_la_ma%C3%AEtrise_de_l%27%C3%A9nergie"
+    },
+    {
+     "titre": "Site de l'ADEME",
+     "url": "https://www.ademe.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "cnfpt",
+   "nom": "Centre national de la fonction publique territoriale",
+   "sigle": "CNFPT",
+   "type": "Opérateur ou agence de l'État",
+   "echelon": "national",
+   "lieu": "",
+   "priorite": "C",
+   "mission": "Établissement public paritaire et déconcentré qui conçoit et dispense la formation de tous les agents de la fonction publique territoriale, organise les concours et examens professionnels de catégorie A+ et assure l'observation des métiers territoriaux.",
+   "pourquoi": "Passage obligé si tu vises un concours de la territoriale. Lecture Upgrade : utile aussi pour le calendrier des concours (voir la note de choix).",
+   "a_verifier": "Le site cnfpt.fr a un certificat incomplet côté Python : ouvrir à la main dans le navigateur.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site du CNFPT",
+     "url": "https://www.cnfpt.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Centre national de la fonction publique territoriale — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Centre_national_de_la_fonction_publique_territoriale"
+    },
+    {
+     "titre": "Site du CNFPT",
+     "url": "https://www.cnfpt.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sgar-nouvelle-aquitaine",
+   "nom": "Secrétariat général pour les affaires régionales de Nouvelle-Aquitaine",
+   "sigle": "SGAR",
+   "type": "Service déconcentré de l'État",
+   "echelon": "régional",
+   "lieu": "Bordeaux",
+   "priorite": "A",
+   "mission": "Le SGAR est placé auprès du préfet de région. Il coordonne la politique de l'État en matière de développement économique et d'aménagement du territoire, ainsi que les relations entre l'État et le conseil régional.",
+   "pourquoi": "Employeur visé dans ton projet : il coordonne la politique de l'État dans la région et les relations avec le conseil régional. Lecture Upgrade : priorité absolue du radar.",
+   "a_verifier": "Le site prefectures-regions.gouv.fr bloque les robots et l'organigramme n'a pas pu être lu : ouvrir à la main la page « Le SGAR » (organisation, pôles) avant de contacter. Des offres du SGAR de Gironde apparaissent sur Choisir le service public.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « SGAR » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/SGAR/"
+    },
+    {
+     "titre": "Préfecture de région Nouvelle-Aquitaine (page à ouvrir à la main)",
+     "url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Secrétaire général pour les Affaires régionales — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Secr%C3%A9taire_g%C3%A9n%C3%A9ral_pour_les_Affaires_r%C3%A9gionales"
+    },
+    {
+     "titre": "Préfecture de région Nouvelle-Aquitaine (site des préfectures de région)",
+     "url": "https://www.prefectures-regions.gouv.fr/nouvelle-aquitaine"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "dreets-nouvelle-aquitaine",
+   "nom": "Direction régionale de l'économie, de l'emploi, du travail et des solidarités de Nouvelle-Aquitaine",
+   "sigle": "DREETS",
+   "type": "Service déconcentré de l'État",
+   "echelon": "régional",
+   "lieu": "Bordeaux",
+   "priorite": "A",
+   "mission": "Dans chaque région métropolitaine, service déconcentré commun aux ministères des Affaires sociales, de l'Économie et des Finances, du Travail et de l'Emploi. Placée sous l'autorité du préfet de région, elle met en œuvre les politiques de l'emploi, du travail, de la cohésion sociale et de l'économie.",
+   "pourquoi": "Pilotage régional de politiques d'emploi et de cohésion sociale (donc beaucoup de dispositifs à suivre et évaluer). Lecture Upgrade : fréquent pour des contractuels et des stages en région.",
+   "a_verifier": "",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Avis de recrutement de la DREETS Nouvelle-Aquitaine",
+     "url": "https://nouvelle-aquitaine.dreets.gouv.fr/Avis-de-recrutement"
+    },
+    {
+     "titre": "Recherche « DREETS » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/DREETS/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "DREETS — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_r%C3%A9gionale_de_l%27%C3%89conomie,_de_l%27Emploi,_du_Travail_et_des_Solidarit%C3%A9s"
+    },
+    {
+     "titre": "DREETS Nouvelle-Aquitaine (site officiel)",
+     "url": "https://nouvelle-aquitaine.dreets.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "dreal-nouvelle-aquitaine",
+   "nom": "Direction régionale de l'environnement, de l'aménagement et du logement de Nouvelle-Aquitaine",
+   "sigle": "DREAL",
+   "type": "Service déconcentré de l'État",
+   "echelon": "régional",
+   "lieu": "Nouvelle-Aquitaine",
+   "priorite": "B",
+   "mission": "Service déconcentré de l'État sous la double tutelle du ministère de la transition écologique et du ministère de l'aménagement du territoire. Ses compétences et son organisation sont fixées par le décret du 27 février 2009 modifié.",
+   "pourquoi": "Aménagement, énergie, logement et environnement dans la région. Lecture Upgrade : bon pour un stage d'aménagement du territoire. Elle siège aux côtés de la Région et de l'ADEME au comité d'orientation des observatoires de l'AREC.",
+   "a_verifier": "Le site officiel répond parfois par une erreur 503 : réessayer. Les sites de la DREAL sont d'adresse variable selon les régions.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « DREAL » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/DREAL/"
+    },
+    {
+     "titre": "Site de la DREAL Nouvelle-Aquitaine",
+     "url": "https://www.nouvelle-aquitaine.developpement-durable.gouv.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "DREAL — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Direction_r%C3%A9gionale_de_l%27Environnement,_de_l%27Am%C3%A9nagement_et_du_Logement"
+    },
+    {
+     "titre": "DREAL Nouvelle-Aquitaine (site officiel)",
+     "url": "https://www.nouvelle-aquitaine.developpement-durable.gouv.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "crc-nouvelle-aquitaine",
+   "nom": "Chambre régionale des comptes de Nouvelle-Aquitaine",
+   "sigle": "CRC",
+   "type": "Juridiction financière",
+   "echelon": "régional",
+   "lieu": "Bordeaux",
+   "priorite": "B",
+   "mission": "Les chambres régionales et territoriales des comptes sont des juridictions financières créées en 1982 lors de la décentralisation (une par région en métropole). Elles vérifient les comptes des collectivités locales et d'autres organismes publics (CCAS, entreprises publiques locales, hôpitaux, etc.).",
+   "pourquoi": "Regard indépendant sur la gestion des collectivités de la région : ses rapports sont une matière première pour des analyses financières locales. Lecture Upgrade : voie d'entrée plutôt par concours ou recrutements de greffe.",
+   "a_verifier": "Sa fiche sur ccomptes.fr décrit l'organisation. Les offres vues en octobre 2026 concernaient des postes de greffier (catégories B et C), pas des stages d'étude.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Page de la CRC Nouvelle-Aquitaine",
+     "url": "https://www.ccomptes.fr/fr/crc-nouvelle-aquitaine"
+    },
+    {
+     "titre": "Offres des juridictions financières sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/organisme/23/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Chambre régionale des comptes — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "CRC Nouvelle-Aquitaine (site de la Cour des comptes)",
+     "url": "https://www.ccomptes.fr/fr/crc-nouvelle-aquitaine"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "region-nouvelle-aquitaine",
+   "nom": "Région Nouvelle-Aquitaine",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "régional",
+   "lieu": "Bordeaux et Limoges (sites cités dans les offres)",
+   "priorite": "A",
+   "mission": "La plus vaste région française, issue de la fusion de l'Aquitaine, du Limousin et de Poitou-Charentes en 2016. Une région exerce notamment des missions de développement économique, de lycées, de transports régionaux, de formation professionnelle et d'aménagement du territoire. Le site de la Région cite l'économie et l'emploi, la jeunesse, l'aménagement du territoire et la transition énergétique et écologique.",
+   "pourquoi": "Chef de file du développement économique et de l'aménagement dans la région, avec contrats, fonds européens et schémas à suivre. Lecture Upgrade : employeur central pour ton profil, et grosse structure (plusieurs milliers d'agents d'après les annonces).",
+   "a_verifier": "Aucune page de recrutement propre n'a été trouvée par script ; les offres passent par Choisir le service public (qui renvoie vers emploi-territorial.fr). Chercher une rubrique « stage » à la main sur nouvelle-aquitaine.fr.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Recherche « Région Nouvelle-Aquitaine » sur Choisir le service public",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/R%C3%A9gion%20Nouvelle-Aquitaine/"
+    },
+    {
+     "titre": "Site de la Région",
+     "url": "https://www.nouvelle-aquitaine.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Région française — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+    },
+    {
+     "titre": "Nouvelle-Aquitaine — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine"
+    },
+    {
+     "titre": "Site de la Région Nouvelle-Aquitaine",
+     "url": "https://www.nouvelle-aquitaine.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "departement-gironde",
+   "nom": "Département de la Gironde",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "local",
+   "lieu": "Bordeaux",
+   "priorite": "A",
+   "mission": "Collectivité territoriale (le département est à la fois une collectivité et une circonscription de l'État) qui exerce ses compétences par son conseil départemental et son président.",
+   "pourquoi": "Département visé dans ton projet : beaucoup de politiques départementales à piloter et à évaluer. Lecture Upgrade : page d'offres déjà suivie par la veille.",
+   "a_verifier": "Lire sur gironde.fr la liste des compétences et l'organigramme (existe-t-il une direction de l'évaluation ou du pilotage ?).",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Le Département recrute (offres d'emploi)",
+     "url": "https://www.gironde.fr/offres-d-emploi"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Département français — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
+    },
+    {
+     "titre": "Site du Département de la Gironde",
+     "url": "https://www.gironde.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "bordeaux-metropole",
+   "nom": "Bordeaux Métropole",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "local",
+   "lieu": "Bordeaux",
+   "priorite": "A",
+   "mission": "Métropole de 28 communes (854 334 habitants en 2023), qui a pris la suite de la communauté urbaine de Bordeaux le 1er janvier 2015. D'après Wikipédia, elle exerce notamment l'urbanisme (PLU intercommunal), l'habitat, la politique de la ville et l'environnement ; son site cite l'urbanisme, les transports et déplacements, les déchets et l'eau.",
+   "pourquoi": "Grande intercommunalité de ton lieu d'études : aménagement, mobilité, politique de la ville. Lecture Upgrade : employeur très accessible pour un stage ou un premier poste.",
+   "a_verifier": "Budget de 1,85 milliard d'euros en 2021 d'après Wikipédia (donnée datée).",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site d'offres d'emploi de Bordeaux Métropole",
+     "url": "https://recrutement.bordeaux-metropole.fr/"
+    },
+    {
+     "titre": "Bordeaux Métropole recrute",
+     "url": "https://www.bordeaux-metropole.fr/metropole/linstitution-territoire/organisation-fonctionnement-metropole/recrutement/bordeaux"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Bordeaux Métropole — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Bordeaux_M%C3%A9tropole"
+    },
+    {
+     "titre": "Site de Bordeaux Métropole",
+     "url": "https://www.bordeaux-metropole.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "ville-de-bordeaux",
+   "nom": "Ville de Bordeaux",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "local",
+   "lieu": "Bordeaux",
+   "priorite": "C",
+   "mission": "Commune de 267 991 habitants en 2023, préfecture de la Gironde et chef-lieu de la région, siège de Bordeaux Métropole.",
+   "pourquoi": "Ville-centre : politiques de proximité (éducation, culture, espaces publics). Lecture Upgrade : la commune et la métropole partagent des services, regarder où se trouvent les postes d'étude.",
+   "a_verifier": "Aucune page de recrutement propre trouvée par script : voir la rubrique « Travailler et entreprendre » et le portail de la métropole.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Travailler et entreprendre à Bordeaux",
+     "url": "https://www.bordeaux.fr/travailler-et-entreprendre-a-bordeaux"
+    },
+    {
+     "titre": "Site d'offres d'emploi de Bordeaux Métropole",
+     "url": "https://recrutement.bordeaux-metropole.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Bordeaux — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Bordeaux"
+    },
+    {
+     "titre": "Site officiel de la ville de Bordeaux",
+     "url": "https://www.bordeaux.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "region-ile-de-france",
+   "nom": "Région Île-de-France",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "régional",
+   "lieu": "Île-de-France",
+   "priorite": "B",
+   "mission": "Région la plus peuplée de France (12,46 millions d'habitants en 2023). Comme toute région, elle exerce notamment le développement économique, les lycées, les transports régionaux, la formation professionnelle et l'aménagement du territoire.",
+   "pourquoi": "Pour l'option Paris de ton projet : grandes politiques régionales (transports, lycées, aménagement). Lecture Upgrade : page d'offres qui regroupe emplois et stages.",
+   "a_verifier": "",
+   "voies": [
+    "emploi",
+    "stage"
+   ],
+   "candidater": [
+    {
+     "titre": "Offres d'emploi et de stage de la Région Île-de-France",
+     "url": "https://www.iledefrance.fr/region-recrute"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Île-de-France (région) — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/%C3%8Ele-de-France"
+    },
+    {
+     "titre": "Région Île-de-France : offres d'emploi et de stage",
+     "url": "https://www.iledefrance.fr/region-recrute"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "ville-de-paris",
+   "nom": "Ville de Paris",
+   "sigle": "",
+   "type": "Collectivité territoriale",
+   "echelon": "local",
+   "lieu": "Paris",
+   "priorite": "B",
+   "mission": "Capitale et chef-lieu de la région Île-de-France. Sur sa page de recrutement, la Ville indique chaque année environ 3 000 emplois à pourvoir par concours ou recrutements sans condition de diplôme, des contrats à durée déterminée ou des vacations en moindre nombre et 380 contrats d'apprentissage.",
+   "pourquoi": "Pour l'option Paris : très grande administration locale avec ses propres concours. Lecture Upgrade : voie concours et voie contractuelle toutes deux visibles.",
+   "a_verifier": "Chiffres de recrutement tirés de la page « Paris recrute » à la date de revue.",
+   "voies": [
+    "concours",
+    "contractuel",
+    "apprentissage"
+   ],
+   "candidater": [
+    {
+     "titre": "Paris recrute",
+     "url": "https://www.paris.fr/paris-recrute"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Paris — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Paris"
+    },
+    {
+     "titre": "Ville de Paris : Paris recrute",
+     "url": "https://www.paris.fr/paris-recrute"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "inspection-generale-ville-de-paris",
+   "nom": "Inspection générale de la Ville de Paris",
+   "sigle": "IGVP",
+   "type": "Service d'une collectivité",
+   "echelon": "local",
+   "lieu": "Paris",
+   "priorite": "A",
+   "mission": "Service de la Ville de Paris qui exerce les missions d'audit et d'évaluation des services de l'administration parisienne et contribue à l'efficacité de l'action publique et à la modernisation de l'administration. Ses rapports sont publiés sur paris.fr.",
+   "pourquoi": "Évaluation de politiques publiques locales, donc exactement le métier visé, dans un cadre où les rapports sont publics. Lecture Upgrade : lire quelques rapports d'évaluation est un excellent entraînement.",
+   "a_verifier": "Pas de page de recrutement propre : passer par « Paris recrute » ou un contact direct. Chercher aussi des offres d'évaluation dans les directions.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Paris recrute",
+     "url": "https://www.paris.fr/paris-recrute"
+    },
+    {
+     "titre": "Page Évaluation et Inspection générale (rapports publiés)",
+     "url": "https://www.paris.fr/pages/evaluation-inspection-generale-183"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Ville de Paris : Évaluation, Inspection générale",
+     "url": "https://www.paris.fr/pages/evaluation-inspection-generale-183"
+    },
+    {
+     "titre": "Ville de Paris : Paris recrute",
+     "url": "https://www.paris.fr/paris-recrute"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "aurba",
+   "nom": "a'urba, agence d'urbanisme Bordeaux Aquitaine",
+   "sigle": "a'urba",
+   "type": "Agence ou satellite des collectivités",
+   "echelon": "local",
+   "lieu": "Bordeaux",
+   "priorite": "A",
+   "mission": "Agence d'urbanisme de la métropole bordelaise. Son site liste ses domaines de production : aménagement urbain et paysage, économie et emploi, environnement et climat, habitat, mobilités, planification territoriale, populations et modes de vie. Les agences d'urbanisme sont nées de la loi d'orientation foncière de 1967.",
+   "pourquoi": "Études territoriales pour les collectivités du territoire : ce que fait un chargé d'étude dans ton domaine. Lecture Upgrade : accepte les candidatures spontanées, priorité A à Bordeaux.",
+   "a_verifier": "La page des offres n'affichait aucune offre précise le 2026-10-11 ; candidature spontanée possible par courriel (adresse sur la page).",
+   "voies": [
+    "candidature spontanée"
+   ],
+   "candidater": [
+    {
+     "titre": "Offres d'emploi et stage de a'urba (candidature spontanée : recrutement@aurba.org)",
+     "url": "https://www.aurba.org/offres/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "a'urba : offres d'emploi et stage",
+     "url": "https://www.aurba.org/offres/"
+    },
+    {
+     "titre": "Agence d'urbanisme — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Agence_d%27urbanisme"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "arec-nouvelle-aquitaine",
+   "nom": "Agence régionale d'évaluation environnement et climat de Nouvelle-Aquitaine",
+   "sigle": "AREC",
+   "type": "Agence ou satellite des collectivités",
+   "echelon": "régional",
+   "lieu": "Poitiers et Bordeaux",
+   "priorite": "A",
+   "mission": "Agence régionale qui coordonne et anime deux observatoires partenaires : l'ORDEC (déchets et économie circulaire) et l'OREGES (énergie, gaz à effet de serre et biomasse). Ils produisent des connaissances et suivent les politiques de planification régionale (SRADDET) et territoriale (PCAET). Un comité d'orientation réunit la Région, l'ADEME et la DREAL.",
+   "pourquoi": "Le mot « évaluation » est dans son nom : suivi de politiques publiques régionales sur des données. Lecture Upgrade : petite structure, parfaite pour un premier poste ou un stage d'étude.",
+   "a_verifier": "Pas de page de recrutement trouvée par script : voir la rubrique offres de son site ou Orientation Environnement.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site de l'AREC Nouvelle-Aquitaine",
+     "url": "https://www.arec-nouvelleaquitaine.com/"
+    },
+    {
+     "titre": "Fiche AREC sur Orientation Environnement",
+     "url": "https://orientation-environnement.fr/arec-nouvelle-aquitaine"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Observatoire des territoires : fiche AREC Nouvelle-Aquitaine",
+     "url": "https://www.observatoire-des-territoires.gouv.fr/partenaires/agence-regionale-devaluation-environnement-et-climat-nouvelle-aquitaine"
+    },
+    {
+     "titre": "Site de l'AREC Nouvelle-Aquitaine",
+     "url": "https://www.arec-nouvelleaquitaine.com/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "adi-nouvelle-aquitaine",
+   "nom": "Agence de développement et d'innovation de Nouvelle-Aquitaine",
+   "sigle": "ADI N-A",
+   "type": "Agence ou satellite des collectivités",
+   "echelon": "régional",
+   "lieu": "Pessac, Pau, Poitiers, La Rochelle, Limoges, Bidart",
+   "priorite": "C",
+   "mission": "Agence régionale de développement économique et d'innovation. Elle accompagne les entreprises et les territoires dans leurs projets d'innovation et recrute régulièrement des chefs de projet (offres de 2024 et 2025 publiées sur son site).",
+   "pourquoi": "Mise en œuvre de la stratégie économique régionale (SRDEII). Lecture Upgrade : plus orienté entreprises qu'évaluation ; en réserve.",
+   "a_verifier": "Les effectifs et sites cités viennent d'un rapport d'activité et d'offres de 2025 : revérifier. Pas de page « recrutement » trouvée par script.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site de l'ADI N-A",
+     "url": "https://www.adi-na.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Site de l'ADI Nouvelle-Aquitaine",
+     "url": "https://www.adi-na.fr/"
+    },
+    {
+     "titre": "ADI N-A : offre de chef(fe) de projets 2025 (PDF)",
+     "url": "https://www.adi-na.fr/sites/default/files/2025-11/OE%20Chef.fe%20de%20projets%202025%20externe.pdf"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "ceser-nouvelle-aquitaine",
+   "nom": "Conseil économique, social et environnemental régional de Nouvelle-Aquitaine",
+   "sigle": "CESER",
+   "type": "Assemblée consultative",
+   "echelon": "régional",
+   "lieu": "Bordeaux",
+   "priorite": "B",
+   "mission": "Institution consultative présente dans chaque région, qui représente les forces vives du territoire et donne des avis sur des questions touchant aux compétences du conseil régional. Celui de Nouvelle-Aquitaine publie des avis sur les projets de délibération de la Région et des rapports (mobilité en milieu rural, intelligence artificielle, capacité financière de la Région).",
+   "pourquoi": "Rapports régionaux argumentés et publics : un modèle d'analyse transversale, et un réseau d'experts à rencontrer. Lecture Upgrade : beaucoup de rapports, peu d'agents ; bon lieu d'entretien d'information.",
+   "a_verifier": "Aucune rubrique de recrutement ou de stage sur la page d'accueil : écrire via la page Contact.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site du CESER Nouvelle-Aquitaine (page Contact)",
+     "url": "https://www.ceser-nouvelle-aquitaine.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Conseil économique, social et environnemental régional — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Conseil_%C3%A9conomique,_social_et_environnemental_r%C3%A9gional"
+    },
+    {
+     "titre": "Site du CESER Nouvelle-Aquitaine",
+     "url": "https://www.ceser-nouvelle-aquitaine.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "institut-paris-region",
+   "nom": "L'Institut Paris Région",
+   "sigle": "IPR",
+   "type": "Agence ou satellite des collectivités",
+   "echelon": "régional",
+   "lieu": "Saint-Denis",
+   "priorite": "B",
+   "mission": "Anciennement IAU Île-de-France : la plus ancienne et la plus grande agence d'urbanisme de France, active aussi à l'étranger. Sa page d'offres regroupe celles de l'Institut et de ses départements : biodiversité (ARB), énergie-climat (AREC), déchets (ORDIF) et santé (ORS).",
+   "pourquoi": "Pour l'option Paris : études régionales de grande taille. Lecture Upgrade : stages de M2 de 6 mois visibles en ligne.",
+   "a_verifier": "Les trois offres vues le 2026-10-11 étaient des stages de M2 de 6 mois sur la biodiversité et la naturalité des forêts : thèmes à adapter à ton profil.",
+   "voies": [
+    "stage"
+   ],
+   "candidater": [
+    {
+     "titre": "Offres d'emploi et de stage de l'Institut Paris Région",
+     "url": "https://www.institutparisregion.fr/offres-demploi-et-de-stage/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "L'Institut Paris Région — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/L%27Institut_Paris_R%C3%A9gion"
+    },
+    {
+     "titre": "Institut Paris Région : offres d'emploi et de stage",
+     "url": "https://www.institutparisregion.fr/offres-demploi-et-de-stage/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "sfe",
+   "nom": "Société française de l'évaluation",
+   "sigle": "SFE",
+   "type": "Réseau et recherche en évaluation",
+   "echelon": "national",
+   "lieu": "En ligne, clubs régionaux",
+   "priorite": "A",
+   "mission": "Association qui participe au développement de l'évaluation des politiques publiques. Son site cite des groupes thématiques (emploi et formation, territoires, transition écologique…), des clubs régionaux, un réseau de jeunes évaluateurs (JEEunes), un baromètre, des cahiers de l'évaluation, les Journées françaises de l'évaluation, des webinaires « Parlons évaluation » et des offres d'emploi.",
+   "pourquoi": "Le réseau du métier visé : se connecter ici est la façon la plus rapide d'avoir des contacts humains dans l'évaluation. Lecture Upgrade : adhérer, assister à un webinaire, regarder le club régional.",
+   "a_verifier": "La rubrique stage de la page d'offres était vide le 2026-10-11 ; seule une offre d'emploi (chargé d'évaluation) y figurait.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Offres d'emploi et de stage de la SFE",
+     "url": "https://www.sfe-asso.fr/les-offres-demploi-et-de-stage/"
+    },
+    {
+     "titre": "Qui sommes-nous (groupes, clubs, réseaux)",
+     "url": "https://www.sfe-asso.fr/qui-sommes-nous/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "SFE : qui sommes-nous",
+     "url": "https://www.sfe-asso.fr/qui-sommes-nous/"
+    },
+    {
+     "titre": "SFE : offres d'emploi et de stage",
+     "url": "https://www.sfe-asso.fr/les-offres-demploi-et-de-stage/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "ipp",
+   "nom": "Institut des politiques publiques",
+   "sigle": "IPP",
+   "type": "Réseau et recherche en évaluation",
+   "echelon": "national",
+   "lieu": "Paris",
+   "priorite": "C",
+   "mission": "Institut français dont l'objectif est de développer et promouvoir l'analyse et l'évaluation quantitatives des politiques publiques en France.",
+   "pourquoi": "Évaluation quantitative de haut niveau : méthode et références utiles pour ton portfolio. Lecture Upgrade : profils très quantitatifs, plutôt un lieu pour s'inspirer que pour candidater.",
+   "a_verifier": "Aucune page de recrutement trouvée par script : voir le site.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site de l'IPP",
+     "url": "https://www.ipp.eu/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Institut des politiques publiques — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Institut_des_politiques_publiques"
+    },
+    {
+     "titre": "Site de l'IPP",
+     "url": "https://www.ipp.eu/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "liepp",
+   "nom": "Laboratoire interdisciplinaire d'évaluation des politiques publiques",
+   "sigle": "LIEPP",
+   "type": "Réseau et recherche en évaluation",
+   "echelon": "national",
+   "lieu": "Paris (Sciences Po)",
+   "priorite": "C",
+   "mission": "Laboratoire de Sciences Po. Axes de recherche : discriminations et politiques catégorielles, évaluation de la démocratie, politiques socio-fiscales, santé, éducation et environnement. Il recrute régulièrement des assistants de recherche, des post-doctorants et des vacataires.",
+   "pourquoi": "Recherche en évaluation et ateliers publics : bon réseau et bonne littérature. Lecture Upgrade : poste d'assistant de recherche possible après le M2.",
+   "a_verifier": "La page de recrutements ne mentionnait ni stages ni chargés d'étude le 2026-10-11.",
+   "voies": [
+    "assistant de recherche",
+    "vacation"
+   ],
+   "candidater": [
+    {
+     "titre": "Recrutements du LIEPP",
+     "url": "https://www.sciencespo.fr/liepp/fr/recrutements/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "LIEPP (Sciences Po)",
+     "url": "https://www.sciencespo.fr/liepp/fr/"
+    },
+    {
+     "titre": "LIEPP : recrutements",
+     "url": "https://www.sciencespo.fr/liepp/fr/recrutements/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  },
+  {
+   "id": "departements-de-france",
+   "nom": "Départements de France",
+   "sigle": "DF",
+   "type": "Réseau et recherche en évaluation",
+   "echelon": "national",
+   "lieu": "Paris",
+   "priorite": "C",
+   "mission": "Association pluraliste créée en 1946 qui réunit les présidents des 103 collectivités adhérentes (95 départements et 8 collectivités à compétences départementales).",
+   "pourquoi": "Représente les départements auprès de l'État : lieu pour comprendre les enjeux communs (financement de l'action sociale, etc.). Lecture Upgrade : réseau et veille plus qu'employeur.",
+   "a_verifier": "Aucune page de recrutement trouvée par script.",
+   "voies": [],
+   "candidater": [
+    {
+     "titre": "Site de Départements de France",
+     "url": "https://www.departements.fr/"
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Assemblée des départements de France — Wikipédia (CC BY-SA 4.0)",
+     "url": "https://fr.wikipedia.org/wiki/Assembl%C3%A9e_des_d%C3%A9partements_de_France"
+    },
+    {
+     "titre": "Site de Départements de France",
+     "url": "https://www.departements.fr/"
+    }
+   ],
+   "revu": "2026-10-11",
+   "perissable": true
+  }
+ ]
+}

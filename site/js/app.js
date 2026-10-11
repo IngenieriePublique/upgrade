@@ -7,6 +7,12 @@ import * as aujourdhui from './modules/aujourdhui.js';
 import * as cartes from './modules/cartes.js';
 import * as brief from './modules/brief.js';
 import * as sauvegarde from './modules/sauvegarde.js';
+import * as sprint from './modules/sprint.js';
+import * as radar from './modules/radar.js';
+import * as recit from './modules/recit.js';
+import * as oral from './modules/oral.js';
+import * as reseau from './modules/reseau.js';
+import * as choix from './modules/choix.js';
 
 async function loadJson(path) {
   const r = await fetch(path);
@@ -43,6 +49,12 @@ async function main() {
     { path: '/brief', render: brief.render },
     { path: '/cartes', render: cartes.renderListe },
     { path: '/cartes/reviser', render: cartes.renderRevision },
+    { path: '/sprint', render: sprint.render },
+    { path: '/sprint/radar', render: radar.render },
+    { path: '/sprint/recit', render: recit.render },
+    { path: '/sprint/oral', render: oral.render },
+    { path: '/sprint/reseau', render: reseau.render },
+    { path: '/sprint/choix', render: choix.render },
     { path: '/sauvegarde', render: sauvegarde.render },
     { path: '*', render: ({ view }) => view.append(h('h1', null, 'Page introuvable'), h('a', { href: '#/' }, 'Retour')) },
   ];

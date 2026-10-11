@@ -4,12 +4,14 @@ import { buildQueue, countNewToday, dayKey, addDays } from '../srs.js';
 import { startTimer, stopTimer, timerLabel } from '../timer.js';
 import { sauvegarderDansDossier } from '../backup.js';
 import { NEW_PER_DAY } from './cartes.js';
+import { loadData } from '../data.js';
+import { etapes, prochaineEtape, joursRestants, sprintActif } from '../candidature.js';
 
 const PROFOND = ['Revue hebdomadaire', 'Institutions et action publique', 'Culture générale',
   'Évaluation et données', 'Atelier d\'écriture / portfolio', 'Oral', 'Lecture longue ou podcast'];
 const JOURS_DICTEE = [1, 3, 5]; // lundi, mercredi, vendredi
 
-function blocs(now, dues) {
+function blocs(now, dues, sprint = null) {
   const dow = new Date(now).getDay();
   return [
     { id: 'brief', titre: 'Brief', min: 8, lien: '#/brief',
@@ -17,8 +19,11 @@ function blocs(now, dues) {
     { id: 'cartes', titre: 'Cartes', min: 12, lien: '#/cartes/reviser',
       note: dues ? `${plural(dues, 'carte à voir', 'cartes à voir')}.` : 'Rien à réviser pour le moment.' },
     { id: 'territoires', titre: 'Territoires', min: 5, avenir: 'Phase 4 : dix questions de jeu sur la carte.' },
-    { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, manuel: true,
-      note: 'Fiches et kits à venir (phase 5). En attendant : un dossier de Vie-publique ou un rapport sur le thème du jour.' },
+    sprint
+      ? { id: 'profond', titre: `Sprint candidature (jusqu'au 15 novembre)`, min: 25, lien: sprint.lien,
+        note: `${sprint.jours} jour${sprint.jours > 1 ? 's' : ''} restant${sprint.jours > 1 ? 's' : ''}. Prochaine étape : ${sprint.titre}.` }
+      : { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, manuel: true,
+        note: 'Fiches et kits à venir (phase 5). En attendant : un dossier de Vie-publique ou un rapport sur le thème du jour.' },
     JOURS_DICTEE.includes(dow)
       ? { id: 'dictee', titre: 'Dictée', min: 10, avenir: 'Phase 6 : dictée sur papier, correction à l\'écran.' }
       : { id: 'mot', titre: 'Mot du jour et sigles', min: 10, avenir: 'À venir. Les sigles tournent déjà dans les cartes.' },
@@ -32,7 +37,15 @@ export async function render({ view, store, decks }) {
     store.states(), store.days(), store.journalCount(), store.getMeta('lastBackup', null)]);
   const queue = buildQueue(decks.flatMap((d) => d.cartes), states, now,
     { newLimit: NEW_PER_DAY, newToday: countNewToday(states, now) });
-  const list = blocs(now, queue.length);
+  let sprint = null;
+  if (sprintActif(now)) {
+    try {
+      const [gabarits, notes] = await Promise.all([loadData('oral/gabarits.json'), store.notes()]);
+      const suivante = prochaineEtape(etapes(notes, gabarits));
+      if (suivante) sprint = { lien: suivante.lien, titre: suivante.titre.charAt(0).toLowerCase() + suivante.titre.slice(1), jours: joursRestants(now) };
+    } catch (e) { console.warn('sprint', e); } // le bloc normal reste affiché
+  }
+  const list = blocs(now, queue.length, sprint);
   let rec = days.find((d) => d.day === today) ?? { day: today, done: {}, finished: false };
   const finishedDays = new Set(days.filter((d) => d.finished).map((d) => d.day));
 
