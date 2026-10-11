@@ -1,0 +1,604 @@
+{
+ "id": "c04-methodes-causales",
+ "parcours": "C",
+ "ordre": 4,
+ "titre": "Mesurer un effet causal : contrefactuel, essai randomisé, différence de différences, discontinuité",
+ "accroche": "Pour savoir si une politique a vraiment produit un effet, il faut imaginer ce qui serait arrivé sans elle. Les quatre grandes méthodes d'impact répondent à cette question avec des hypothèses différentes ; les connaître évite d'être dupe d'une simple corrélation.",
+ "duree_min": 120,
+ "perissable": false,
+ "perissable_note": "Cadre conceptuel stable. Les exemples cités (Card et Krueger 1994, Nobel d'économie 2019 et 2021) sont des faits datés. Les guides français de référence sont plutôt de 2016 : vérifier l'existence de versions plus récentes avant de les citer.",
+ "revu": "2026-10-12",
+ "fiche": [
+  {
+   "titre": "Le problème : le contrefactuel",
+   "paragraphes": [
+    "Le glossaire de l'OCDE définit le scénario contrefactuel comme la situation dans laquelle se trouveraient les personnes, les organisations ou les groupes concernés si l'intervention n'avait pas eu lieu. On ne l'observe jamais : un habitant a bénéficié de l'aide, ou non. L'évaluation d'impact consiste donc à estimer ce contrefactuel, par exemple avec un groupe témoin, un groupe de comparaison ou une situation hypothétique, puis à comparer.",
+    "Comparer simplement avant et après, ou bénéficiaires et non-bénéficiaires, est trompeur. Avant-après mélange l'effet de la politique et l'évolution du contexte. Bénéficiaires contre non-bénéficiaires mélange l'effet de la politique et les différences préexistantes (ceux qui demandent une aide ne sont pas comparables à ceux qui n'en demandent pas : c'est un biais de sélection). Toutes les méthodes ci-dessous sont des manières de construire une comparaison crédible, avec des hypothèses qu'il faut connaître et discuter. Le guide de France Stratégie (2016) rappelle que ces méthodes demandent d'anticiper l'évaluation dès la conception de la politique, notamment l'accès aux données, et de les combiner, aucune ne saisissant seule tous les effets.",
+    "L'inférence causale est ce champ de méthodes situé à la croisée des statistiques, de l'économétrie et de l'épidémiologie : elle cherche à déduire une relation de causalité entre un facteur et ses effets. Les Nobel d'économie 2019 (Abhijit Banerjee, Esther Duflo, Michael Kremer, pour l'approche expérimentale de la lutte contre la pauvreté) et 2021 (David Card, Joshua Angrist, Guido Imbens, pour les expériences naturelles et l'inférence causale) ont consacré cette révolution méthodologique."
+   ]
+  },
+  {
+   "titre": "L'essai randomisé et les quasi-expériences",
+   "paragraphes": [
+    "L'essai contrôlé randomisé (randomized controlled trial, RCT) tire au sort les participants entre un groupe qui reçoit l'intervention et un groupe qui reçoit une alternative ou rien. Comme le hasard décide, on ne peut pas orienter les participants vers un groupe : cela réduit le biais de sélection, et répartit en moyenne les caractéristiques connues et inconnues de manière équilibrée, de sorte que la différence de résultats est plus sûrement attribuée à l'intervention. Le réseau J-PAL, fondé en 2003 au MIT par Banerjee, Duflo et Mullainathan, a popularisé ces expériences de terrain pour évaluer des politiques sociales. Les limites : coût et lenteur, difficulté éthique ou pratique de tirer au sort des bénéficiaires d'une politique publique, validité externe (un résultat obtenu sur un échantillon sélectionné se transpose mal), dépendance au contexte pour les politiques qui changent les comportements.",
+    "Quand on ne peut pas tirer au sort, on cherche des quasi-expériences. La différence de différences compare l'évolution d'un résultat dans le groupe traité et dans un groupe de contrôle, avant et après : on retranche l'évolution du groupe de contrôle, qui approxime ce qui serait arrivé de toute façon. L'hypothèse clé est celle des tendances parallèles : sans traitement, les deux groupes auraient suivi la même trajectoire, ce que l'on soutient en examinant les tendances avant la mise en œuvre. L'exemple classique est l'étude de Card et Krueger (1994) sur la hausse du salaire minimum du New Jersey en 1992, avec la Pennsylvanie voisine comme groupe de contrôle. Limite : tout choc touchant un seul groupe, ou un mauvais groupe de comparaison, fausse le résultat.",
+    "La régression sur discontinuité s'applique quand l'accès à une politique dépend du franchissement d'un seuil (âge, revenu, note, taille de commune). Comparer les individus juste au-dessus et juste au-dessous du seuil approche une comparaison aléatoire, à condition qu'ils ne puissent pas contrôler précisément leur position par rapport au seuil. Limite : l'estimation est locale, elle décrit les personnes proches du seuil et ne se généralise pas à celles qui en sont éloignées. On peut ajouter l'appariement, qui compare chaque bénéficiaire à des non-bénéficiaires de caractéristiques proches, et les variables instrumentales. Ces méthodes reposent toutes sur des hypothèses qui ne se testent qu'en partie : les citer et les discuter fait partie du rendu."
+   ]
+  },
+  {
+   "titre": "Choisir une méthode, et savoir quand ne pas en utiliser",
+   "paragraphes": [
+    "Le choix dépend de la question, du moment (ex ante, en cours, ex post), des données disponibles et de la façon dont la politique a été déployée. Une expérimentation prévue dès le départ permet le tirage au sort ; un dispositif déjà généralisé laisse la différence de différences ou la discontinuité si un seuil ou un déploiement échelonné existe ; sans comparaison crédible, mieux vaut une analyse de théorie du changement et de contribution qu'un chiffre d'impact fragile.",
+    "Dans les collectivités, les méthodes causales sont rares mais montent : quand on évalue une aide aux entreprises, un dispositif d'insertion ou un zonage (quartiers prioritaires, zones de revitalisation), il y a souvent un seuil, un échelonnement ou un tirage au sort possible. Même quand tu ne feras pas l'estimation toi-même, tu dois savoir lire un rapport d'impact et poser les bonnes questions : quel est le groupe de comparaison, quelle hypothèse le rend crédible, à qui le résultat s'applique-t-il, qu'est-ce qui n'a pas été mesuré ?"
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "France Stratégie, « Comment évaluer l'impact des politiques publiques ? » (guide, 2016)",
+  "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques",
+  "type": "guide pour décideurs et praticiens (fiche descriptive, texte complet sur le site de France Stratégie)",
+  "duree": "60 min",
+  "pourquoi": "Guide non technique qui présente les méthodes d'impact et leurs contraintes de mise en œuvre. Cherche le texte complet sur le site de France Stratégie (devenue Haut-commissariat à la Stratégie et au Plan en 2025) et lis les chapitres sur l'expérimentation et les quasi-expériences."
+ },
+ "debat": [
+  "Est-il acceptable de tirer au sort les bénéficiaires d'une aide publique pour pouvoir l'évaluer ?",
+  "Un résultat d'impact obtenu dans un territoire peut-il guider la décision dans un autre territoire très différent ?",
+  "Faut-il refuser d'évaluer une politique quand on n'a pas de groupe de comparaison crédible, ou se contenter d'une évaluation qualitative ?"
+ ],
+ "sources": [
+  {
+   "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+   "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+  },
+  {
+   "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+   "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+  },
+  {
+   "titre": "Wikipedia (en) : Difference in differences",
+   "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+  },
+  {
+   "titre": "Wikipedia (en) : Regression discontinuity design",
+   "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+  },
+  {
+   "titre": "Wikipedia (en) : Randomized controlled trial",
+   "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+  },
+  {
+   "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+   "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "c04-methodes-causales-01",
+   "recto": "Qu'est-ce que le scénario contrefactuel ?",
+   "verso": "La situation dans laquelle se trouveraient les personnes ou organisations concernées si l'intervention n'avait pas eu lieu ; on ne l'observe jamais, on l'estime.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-02",
+   "recto": "Pourquoi une comparaison avant-après est-elle trompeuse ?",
+   "verso": "Elle mélange l'effet de la politique et l'évolution du contexte.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-03",
+   "recto": "Pourquoi comparer bénéficiaires et non-bénéficiaires est-il trompeur ?",
+   "verso": "Ils différaient déjà avant la politique (biais de sélection) : ceux qui demandent une aide ne sont pas comparables aux autres.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-04",
+   "recto": "Principe d'un essai contrôlé randomisé.",
+   "verso": "Les participants sont tirés au sort entre un groupe traité et un groupe témoin ; le hasard réduit le biais de sélection et équilibre en moyenne les caractéristiques des groupes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-05",
+   "recto": "Limites d'un essai randomisé en politique publique.",
+   "verso": "Coût et lenteur, difficulté éthique et pratique du tirage au sort, validité externe limitée, dépendance au contexte.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-06",
+   "recto": "Qu'est-ce que J-PAL ?",
+   "verso": "Un réseau de chercheurs créé en 2003 au MIT (Banerjee, Duflo, Mullainathan) qui évalue des politiques sociales par des expériences de terrain à grande échelle.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-07",
+   "recto": "Principe de la différence de différences.",
+   "verso": "Comparer l'évolution d'un résultat dans le groupe traité et dans un groupe de contrôle avant et après, et retrancher l'évolution du groupe de contrôle.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-08",
+   "recto": "Hypothèse clé de la différence de différences.",
+   "verso": "Les tendances parallèles : sans traitement, les deux groupes auraient suivi la même trajectoire (on la soutient en examinant les tendances avant la mise en œuvre).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-09",
+   "recto": "Exemple classique de différence de différences.",
+   "verso": "Card et Krueger (1994) : emploi dans la restauration rapide du New Jersey, qui a relevé son salaire minimum en 1992, comparé à la Pennsylvanie voisine ; pas de baisse d'emploi observée.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-10",
+   "recto": "Principe de la régression sur discontinuité.",
+   "verso": "Comparer les individus juste au-dessus et juste au-dessous d'un seuil d'accès à la politique (âge, revenu, note...), car ils sont très proches, ce qui approche une comparaison aléatoire.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-11",
+   "recto": "Condition et limite de la régression sur discontinuité.",
+   "verso": "Condition : les individus ne contrôlent pas précisément leur position par rapport au seuil. Limite : l'effet estimé est local, il ne vaut que près du seuil.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-12",
+   "recto": "Qu'est-ce qu'une expérience naturelle ?",
+   "verso": "Une situation où l'assignation au traitement est provoquée par des causes naturelles ou politiques, et non tirée au sort pour l'étude (exemple : l'exode de Mariel utilisé par David Card).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-13",
+   "recto": "Qui a reçu le Nobel d'économie 2019 et pour quelle approche ?",
+   "verso": "Abhijit Banerjee, Esther Duflo et Michael Kremer, pour leur approche expérimentale de la lutte contre la pauvreté.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-14",
+   "recto": "Qui a reçu le Nobel d'économie 2021 pour des travaux liés à l'évaluation causale ?",
+   "verso": "David Card (expériences naturelles), ainsi que Joshua Angrist et Guido Imbens (inférence causale, variables instrumentales).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-15",
+   "recto": "Que recommande le guide de France Stratégie (2016) sur la préparation d'une évaluation d'impact ?",
+   "verso": "Anticiper l'évaluation dès la conception de la politique, notamment l'accès aux données, et combiner plusieurs méthodes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "c04-methodes-causales-16",
+   "recto": "Quatre questions à poser en lisant un rapport d'impact.",
+   "verso": "Quel est le groupe de comparaison ? Quelle hypothèse le rend crédible ? À qui le résultat s'applique-t-il ? Qu'est-ce qui n'a pas été mesuré ?",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023), entrée « scénario contrefactuel »",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"
+    },
+    {
+     "titre": "Bpifrance Création : fiche du guide de France Stratégie « Comment évaluer l'impact des politiques publiques ? » (2016)",
+     "url": "https://bpifrance-creation.fr/bibliographie/comment-evaluer-limpact-politiques-publiques"
+    },
+    {
+     "titre": "Wikipedia (en) : Difference in differences",
+     "url": "https://en.wikipedia.org/wiki/Difference_in_differences"
+    },
+    {
+     "titre": "Wikipedia (en) : Regression discontinuity design",
+     "url": "https://en.wikipedia.org/wiki/Regression_discontinuity_design"
+    },
+    {
+     "titre": "Wikipedia (en) : Randomized controlled trial",
+     "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    },
+    {
+     "titre": "Wikipédia : Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+     "url": "https://fr.wikipedia.org/wiki/Abdul_Latif_Jameel_Poverty_Action_Lab"
+    }
+   ],
+   "revu": "2026-10-12"
+  }
+ ]
+}

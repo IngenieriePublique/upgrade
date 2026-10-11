@@ -193,6 +193,54 @@
    "perissable": false,
    "revu": "2026-10-12",
    "fichier": "c03-chaine-resultats.json"
+  },
+  {
+   "id": "c04-methodes-causales",
+   "parcours": "C",
+   "ordre": 4,
+   "titre": "Mesurer un effet causal : contrefactuel, essai randomisé, différence de différences, discontinuité",
+   "accroche": "Pour savoir si une politique a vraiment produit un effet, il faut imaginer ce qui serait arrivé sans elle. Les quatre grandes méthodes d'impact répondent à cette question avec des hypothèses différentes ; les connaître évite d'être dupe d'une simple corrélation.",
+   "duree_min": 120,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "c04-methodes-causales.json"
+  },
+  {
+   "id": "c05-methodes-qualitatives-mixtes",
+   "parcours": "C",
+   "ordre": 5,
+   "titre": "Méthodes mixtes, analyse par la théorie et enquêtes qualitatives",
+   "accroche": "La plupart des politiques territoriales sont trop complexes pour un simple groupe témoin. L'évaluateur combine alors entretiens, enquêtes, études de cas et théorie du changement pour bâtir un faisceau d'indices convergents.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "c05-methodes-qualitatives-mixtes.json"
+  },
+  {
+   "id": "c06-acteurs-evaluation",
+   "parcours": "C",
+   "ordre": 6,
+   "titre": "Qui évalue en France : Parlement, Cour des comptes, administrations, recherche, société civile",
+   "accroche": "Évaluer est un métier qui se fait dans un écosystème : assemblées, juridictions financières, services de l'État, collectivités, laboratoires, cabinets, associations. Savoir qui fait quoi permet de cibler ses candidatures et de repérer les bons interlocuteurs.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "c06-acteurs-evaluation.json"
+  },
+  {
+   "id": "c08-conduire-evaluation",
+   "parcours": "C",
+   "ordre": 8,
+   "titre": "Conduire une évaluation : du mandat au rapport, et les principes de qualité",
+   "accroche": "Une évaluation réussie se joue au cadrage : mandat, questions évaluatives, instance de pilotage, données. Les principes de qualité (impartialité, pluralisme, compétence, exhaustivité, traçabilité) disent ce qu'on attend d'un rapport crédible.",
+   "duree_min": 90,
+   "nombre_cartes": 16,
+   "perissable": false,
+   "revu": "2026-10-12",
+   "fichier": "c08-conduire-evaluation.json"
   }
  ]
 }

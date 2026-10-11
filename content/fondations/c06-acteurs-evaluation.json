@@ -1,0 +1,75 @@
+{
+  "id": "c06-acteurs-evaluation",
+  "parcours": "C",
+  "ordre": 6,
+  "titre": "Qui évalue en France : Parlement, Cour des comptes, administrations, recherche, société civile",
+  "accroche": "Évaluer est un métier qui se fait dans un écosystème : assemblées, juridictions financières, services de l'État, collectivités, laboratoires, cabinets, associations. Savoir qui fait quoi permet de cibler ses candidatures et de repérer les bons interlocuteurs.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "Les organigrammes bougent : France Stratégie a fusionné le 23 mai 2025 dans le Haut-commissariat à la Stratégie et au Plan ; la DITP doit devenir en 2026 la direction des Services publics (annonce du Premier ministre). Revue du 2026-10-12 ; revérifier avant tout entretien.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Le Parlement et les juridictions financières",
+      "paragraphes": [
+        "Depuis 2008, l'article 24 de la Constitution donne au Parlement une troisième mission aux côtés du vote de la loi et du contrôle du Gouvernement : il évalue les politiques publiques. À l'Assemblée nationale, le Comité d'évaluation et de contrôle des politiques publiques (CEC), créé en 2009, prolonge la Mission d'évaluation et de contrôle de 1999 ; le Sénat a de son côté des instruments de contrôle et d'évaluation. L'article 48 réserve une semaine de séance sur quatre, par priorité, au contrôle de l'action du Gouvernement et à l'évaluation des politiques publiques.",
+        "La Cour des comptes est une juridiction indépendante, à équidistance du Parlement et du Gouvernement qu'elle assiste, selon l'article 47-2 de la Constitution. Elle a quatre missions : contrôler, certifier (les comptes de l'État et de la sécurité sociale), juger (depuis 2023, un régime unifié de responsabilité financière des gestionnaires publics devant une chambre du contentieux) et évaluer. Pour l'évaluation, elle cherche à vérifier si les résultats d'une politique sont à la hauteur des objectifs fixés et si les moyens sont utilisés de façon efficace et efficiente ; son rôle n'est pas de commenter les choix politiques mais d'en évaluer les conséquences et de formuler des recommandations. Ses exemples d'évaluation incluent le soutien à l'agriculture biologique et le RSA, et elle tient une plateforme publique qui recense plus de 900 évaluations.",
+        "Les chambres régionales et territoriales des comptes vérifient les comptes des collectivités locales et de nombreux organismes publics ; elles forment avec la Cour un ensemble de juridictions financières. Leurs rapports sur la gestion d'une collectivité, publics, sont une source de base pour qui prépare un entretien avec une région, un département ou une intercommunalité. Les rapports de la Cour n'ont pas de caractère contraignant : leur force vient de leur publicité et du suivi des recommandations."
+      ]
+    },
+    {
+      "titre": "Les services de l'État, les collectivités et la recherche",
+      "paragraphes": [
+        "Au niveau de l'État, la direction interministérielle de la transformation publique (DITP) coordonne et accompagne l'action des administrations pour mettre en œuvre les politiques prioritaires du Gouvernement, améliorer la qualité du service rendu aux usagers et simplifier les démarches ; en 2026, le Premier ministre a annoncé sa transformation en direction des Services publics. France Stratégie, qui animait notamment des évaluations d'impact et produisait des guides de méthode, a été fusionnée le 23 mai 2025 dans le Haut-commissariat à la Stratégie et au Plan, service du Premier ministre chargé d'animer les travaux de planification et de prospective. S'y ajoutent les corps d'inspection ministériels et interministériels et, dans chaque ministère, des services d'études et d'évaluation.",
+        "Les collectivités sont de gros commanditaires : l'évaluation des contrats de plan État-Région depuis 1993 et celle des programmes européens ont fait des conseils régionaux des acteurs majeurs. Beaucoup de régions, de départements et de métropoles ont une direction ou une mission d'évaluation, de prospective ou de contrôle de gestion. Une grande part de l'évaluation est confiée à des prestataires : bureaux d'études et cabinets, souvent via des marchés publics dont on étudie les cahiers des charges.",
+        "Côté recherche, on trouve des laboratoires académiques et des instituts spécialisés : l'Institut des politiques publiques (IPP), qui développe l'analyse et l'évaluation quantitatives des politiques publiques, le Conseil d'analyse économique (créé en 1997, conseille le Premier ministre), des chaires universitaires et le réseau J-PAL. La Cour des comptes cite parmi les évaluateurs, à côté des juridictions financières, des directions ministérielles, des laboratoires, des services d'inspection, des collectivités, des sociétés de conseil, des fédérations professionnelles, des think tanks et des associations."
+      ]
+    },
+    {
+      "titre": "La communauté professionnelle : la SFE",
+      "paragraphes": [
+        "La Société française de l'évaluation (SFE), créée en 1999, structure et promeut la professionnalisation de l'évaluation en France. Elle organise des rencontres, des groupes de travail (dont un sur les technologies numériques et l'IA), publie des textes de référence et décerne un prix du mémoire de master en évaluation de politiques publiques, ce qui concerne directement un étudiant en master. Elle a publié un manifeste pour une évaluation transformatrice des politiques publiques, avec Horizons Publics.",
+        "À l'échelle européenne, l'European Evaluation Society tient sa 16e conférence biennale du 26 au 30 octobre 2026 au Grand Palais de Lille, avec la participation annoncée de la SFE : une occasion de rencontrer évaluateurs, commanditaires et chercheurs. Quand tu prépares ton réseau, ces lieux (SFE, EES, séminaires des chaires et de l'IPP) valent plus que des candidatures en aveugle : on y repère qui commande, qui fait et ce qui se dit des méthodes."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Société française de l'évaluation (site officiel)",
+    "url": "https://www.sfe-asso.fr/",
+    "type": "site d'association professionnelle",
+    "duree": "30 min",
+    "pourquoi": "Lis les actualités, le manifeste et le prix du mémoire de master, repère les groupes de travail, l'agenda des rencontres et la conférence européenne de Lille. C'est le point d'entrée du réseau de l'évaluation en France."
+  },
+  "debat": [
+    "L'évaluation est-elle plus crédible quand elle est faite par une juridiction indépendante comme la Cour des comptes que par l'administration qui porte la politique ?",
+    "Un service d'évaluation interne à une région peut-il juger librement les politiques de sa propre collectivité ?",
+    "Faut-il confier l'essentiel des évaluations à des cabinets privés mis en concurrence par marché public, ou renforcer les services internes ?"
+  ],
+  "sources": [
+    {"titre": "Cour des comptes : Rôle et activités (contrôler, certifier, juger, évaluer)", "url": "https://www.ccomptes.fr/fr/cour-des-comptes/nous-decouvrir/role-et-activites"},
+    {"titre": "Cour des comptes : Plateforme des évaluations de politique publique", "url": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique"},
+    {"titre": "Société française de l'évaluation : site officiel (actualités consultées le 2026-10-12)", "url": "https://www.sfe-asso.fr/"},
+    {"titre": "Wikipédia : Direction interministérielle de la transformation publique", "url": "https://fr.wikipedia.org/wiki/Direction_interminist%C3%A9rielle_de_la_Transformation_publique"},
+    {"titre": "Wikipédia : Haut-commissariat à la Stratégie et au Plan", "url": "https://fr.wikipedia.org/wiki/Haut-commissariat_%C3%A0_la_Strat%C3%A9gie_et_au_Plan"},
+    {"titre": "Wikipédia : Évaluation des politiques publiques (histoire en France)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"},
+    {"titre": "Conseil constitutionnel : Constitution du 4 octobre 1958, texte en vigueur (articles 24, 47-2, 48)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+  ],
+  "cartes": [
+    {"id": "c06-acteurs-evaluation-01", "recto": "Les trois missions du Parlement à l'article 24 de la Constitution.", "verso": "Voter la loi, contrôler l'action du Gouvernement, évaluer les politiques publiques.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-02", "recto": "Que réserve l'article 48 de la Constitution au contrôle et à l'évaluation ?", "verso": "Une semaine de séance sur quatre, par priorité, au contrôle de l'action du Gouvernement et à l'évaluation des politiques publiques.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-03", "recto": "Quelles sont les quatre missions de la Cour des comptes ?", "verso": "Contrôler, certifier, juger, évaluer.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-04", "recto": "Position de la Cour des comptes par rapport au Parlement et au Gouvernement.", "verso": "Juridiction indépendante, à équidistance de l'un et de l'autre, qu'elle assiste selon l'article 47-2 de la Constitution.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-05", "recto": "Quel est le rôle de la Cour des comptes en évaluation, et ce qu'il n'est pas ?", "verso": "Vérifier si les résultats sont à la hauteur des objectifs et si les moyens sont utilisés de manière efficace et efficiente ; pas commenter les choix politiques mais en évaluer les conséquences et recommander.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-06", "recto": "Quelle réforme a lieu à la Cour des comptes au 1er janvier 2023 en matière de responsabilité ?", "verso": "Un régime unifié de responsabilité financière des gestionnaires publics, avec jugement devant une seule chambre du contentieux (et une Cour d'appel financière).", "perissable": false},
+    {"id": "c06-acteurs-evaluation-07", "recto": "Rôle des chambres régionales et territoriales des comptes.", "verso": "Vérifier les comptes des collectivités locales et de nombreux organismes publics ; avec la Cour, elles forment les juridictions financières.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-08", "recto": "Les rapports de la Cour des comptes sont-ils contraignants ?", "verso": "Non : leur force vient de leur publicité et du suivi des recommandations.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-09", "recto": "Quelle est la mission principale de la DITP ?", "verso": "Coordonner et accompagner les administrations pour mettre en œuvre les politiques prioritaires du Gouvernement, améliorer le service rendu aux usagers et simplifier les démarches.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-10", "recto": "Que devient la DITP en 2026 ?", "verso": "Le Premier ministre a annoncé sa transformation en direction des Services publics (DSP).", "perissable": true},
+    {"id": "c06-acteurs-evaluation-11", "recto": "Que s'est-il passé pour France Stratégie le 23 mai 2025 ?", "verso": "Elle a été fusionnée, avec le Haut-commissariat au Plan, dans le Haut-commissariat à la Stratégie et au Plan, service du Premier ministre chargé de planification et de prospective.", "perissable": true},
+    {"id": "c06-acteurs-evaluation-12", "recto": "Qu'est-ce que l'IPP ?", "verso": "L'Institut des politiques publiques, qui développe et promeut l'analyse et l'évaluation quantitatives des politiques publiques en France.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-13", "recto": "Qu'est-ce que le Conseil d'analyse économique ?", "verso": "Un groupe de réflexion pluraliste d'économistes, créé en 1997, qui conseille le Premier ministre.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-14", "recto": "Qu'est-ce que la SFE et quand a-t-elle été créée ?", "verso": "La Société française de l'évaluation, créée en 1999, qui structure et promeut la professionnalisation de l'évaluation en France.", "perissable": false},
+    {"id": "c06-acteurs-evaluation-15", "recto": "Quelle récompense de la SFE concerne un étudiant en master ?", "verso": "Le prix du mémoire de master en évaluation de politiques publiques.", "perissable": true},
+    {"id": "c06-acteurs-evaluation-16", "recto": "Où et quand a lieu la 16e conférence de l'European Evaluation Society ?", "verso": "Au Grand Palais de Lille, du 26 au 30 octobre 2026.", "perissable": true}
+  ]
+}

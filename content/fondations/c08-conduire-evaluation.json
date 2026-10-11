@@ -1,0 +1,73 @@
+{
+  "id": "c08-conduire-evaluation",
+  "parcours": "C",
+  "ordre": 8,
+  "titre": "Conduire une évaluation : du mandat au rapport, et les principes de qualité",
+  "accroche": "Une évaluation réussie se joue au cadrage : mandat, questions évaluatives, instance de pilotage, données. Les principes de qualité (impartialité, pluralisme, compétence, exhaustivité, traçabilité) disent ce qu'on attend d'un rapport crédible.",
+  "duree_min": 90,
+  "perissable": false,
+  "perissable_note": "Les cinq principes viennent d'une page du ministère de la Transition écologique (publiée en 2019, mise à jour le 12 décembre 2024). L'enchaînement des étapes est une synthèse de pratiques courantes à partir de ces sources, du glossaire de l'OCDE et de la synthèse de Wikipédia : il varie d'un commanditaire à l'autre.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Du mandat aux questions évaluatives",
+      "paragraphes": [
+        "Une évaluation commence par une commande, formalisée dans un mandat (termes de référence) : le glossaire de l'OCDE le définit comme le document écrit qui présente le but et le périmètre de l'évaluation, les méthodes à utiliser, la référence au regard de laquelle la performance est jugée, les ressources et le temps alloués, et les exigences de rendu. C'est le document le plus important : un cahier des charges flou produit une évaluation floue. Il précise pourquoi on évalue (rendre des comptes, améliorer, décider d'une reconduction), pour qui, et quelles décisions dépendent des résultats.",
+        "Le travail de cadrage consiste à transformer ce besoin en un petit nombre de questions évaluatives (cinq à dix suffisent) rattachées à des critères, puis à les inscrire dans un référentiel d'évaluation, grille qui conduit à questionner la politique selon plusieurs angles et critères. On vérifie l'évaluabilité : objectifs clairs, données disponibles, situation de référence documentée. Si la logique d'intervention n'est pas écrite, on la reconstruit avec une théorie du changement.",
+        "Une instance de pilotage, souvent appelée comité de pilotage, suit l'évaluation. En France, la démarche pluraliste a ouvert progressivement ces comités aux partenaires, institutionnels ou non, avec lesquels le jugement est coproduit. Il faut y prévoir les rôles : commanditaire, évaluateurs, services chargés de la politique, partenaires, représentants des publics concernés."
+      ]
+    },
+    {
+      "titre": "Collecte, analyse, jugement, restitution",
+      "paragraphes": [
+        "Vient ensuite la conception méthodologique : quelles données, quelles méthodes (quantitatives, qualitatives, mixtes), quel échantillon d'entretiens ou de cas, quel calendrier. Les données administratives existantes (budgets, bases de bénéficiaires, résultats de suivi) sont exploitées d'abord ; la collecte nouvelle (enquêtes, entretiens, études de cas) vient combler les manques. On teste les premières hypothèses avec le comité avant de produire le rapport final.",
+        "L'analyse répond question par question, en croisant les sources (triangulation) et en disant ce qui est établi, probable ou incertain. Le jugement évaluatif confronte ces constats à la référence du mandat. Les recommandations découlent des constats et sont hiérarchisées (priorité, faisabilité, responsable, calendrier) : une recommandation sans responsable n'est pas appliquée. La restitution combine un rapport, une synthèse courte pour les décideurs et, souvent, une présentation au comité et aux élus.",
+        "L'évaluation n'est utile que si elle sert : le glossaire de l'OCDE parle de retour d'information (feedback) et d'utilisation des résultats. En pratique, il faut prévoir dès le mandat comment les conclusions seront diffusées et suivies : plan d'action, calendrier de mise en œuvre, rendez-vous de suivi un an plus tard. Beaucoup de rapports restent dans les tiroirs faute d'un commanditaire qui s'est engagé à répondre."
+      ]
+    },
+    {
+      "titre": "Les cinq principes de qualité d'une évaluation",
+      "paragraphes": [
+        "Le ministère de la Transition écologique s'appuie sur cinq principes directeurs pour ses évaluations. Impartialité et transparence : la démarche est conduite avec une autonomie suffisante par rapport aux processus de gestion et de décision, en évitant tout conflit d'intérêt ; la transparence s'applique au contenu (méthodes, données) et à toutes les étapes jusqu'à la diffusion des résultats. Pluralisme : le recueil des points de vue pertinents, d'experts ou d'autres acteurs, fait partie de la démarche, et le dossier est ouvert à la controverse. Compétence : les évaluateurs mettent en œuvre des compétences spécifiques, leurs qualifications et leur expérience étant prises en compte.",
+        "Exhaustivité : toute évaluation prend en compte l'ensemble des données connues, identifie l'information pertinente et mentionne les biais, lacunes et approximations, avec un souci permanent de proportionnalité des moyens aux enjeux. Traçabilité : les éléments de l'évaluation sont identifiés pour qu'un tiers puisse reconstituer les choix opérés. Ces principes se déclinent en règles pratiques : lister les données utilisées et celles connues mais écartées (avec le motif), décrire les moyens, le temps et le mode opératoire, signaler les hypothèses et interprétations alternatives écartées, évaluer les incertitudes et indiquer comment l'indépendance a été garantie.",
+        "La Société française de l'évaluation a aussi adopté une charte de principes et travaille à des annexes sur l'usage de l'intelligence artificielle ; ses textes sont à consulter sur son site. Retiens la logique : un bon rapport montre ses sources, ses limites et ses choix, et accepte d'être contesté. C'est ce qui le distingue d'un document de communication."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Ministère de la Transition écologique, « Les principes pour la qualité des évaluations »",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/principes-qualite-evaluations",
+    "type": "page institutionnelle (3 minutes de lecture)",
+    "duree": "20 min",
+    "pourquoi": "Lis les cinq principes et les règles qui en découlent, puis relis un rapport d'évaluation de la plateforme de la Cour des comptes avec cette grille : liste-t-il les données écartées ? signale-t-il ses incertitudes ?"
+  },
+  "debat": [
+    "Un évaluateur payé par le commanditaire peut-il vraiment rester impartial sur les résultats d'une politique que celui-ci porte ?",
+    "Faut-il publier systématiquement les rapports d'évaluation, y compris ceux qui sont défavorables à la politique évaluée ?",
+    "Un comité de pilotage qui associe les services chargés de la politique renforce-t-il l'utilité de l'évaluation ou menace-t-il son indépendance ?"
+  ],
+  "sources": [
+    {"titre": "Ministère de la Transition écologique : Les principes pour la qualité des évaluations (mise à jour le 12 décembre 2024)", "url": "https://www.ecologie.gouv.fr/politiques-publiques/principes-qualite-evaluations"},
+    {"titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"},
+    {"titre": "Wikipédia : Évaluation des politiques publiques (référentiel, pilotage, démarches)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"},
+    {"titre": "Société française de l'évaluation : site officiel (charte et annexes)", "url": "https://www.sfe-asso.fr/"}
+  ],
+  "cartes": [
+    {"id": "c08-conduire-evaluation-01", "recto": "Qu'est-ce que le mandat (termes de référence) d'une évaluation ?", "verso": "Le document écrit qui présente le but et le périmètre, les méthodes, la référence de jugement, les ressources et le temps alloués, les exigences de rendu.", "perissable": false},
+    {"id": "c08-conduire-evaluation-02", "recto": "Pourquoi le mandat est-il le document le plus important ?", "verso": "Un cahier des charges flou produit une évaluation floue : il fixe le pourquoi, le pour qui et les décisions qui dépendent des résultats.", "perissable": false},
+    {"id": "c08-conduire-evaluation-03", "recto": "Qu'est-ce qu'une question évaluative ?", "verso": "Une question précise, rattachée à un critère, à laquelle l'évaluation doit répondre ; cinq à dix suffisent généralement.", "perissable": false},
+    {"id": "c08-conduire-evaluation-04", "recto": "Qu'est-ce qu'un référentiel d'évaluation ?", "verso": "La grille qui conduit à questionner la politique selon plusieurs angles de vue et une batterie de critères.", "perissable": false},
+    {"id": "c08-conduire-evaluation-05", "recto": "Que vérifie-t-on avant de lancer une évaluation ?", "verso": "L'évaluabilité : objectifs clairs, données disponibles, situation de référence documentée ; sinon on reconstruit la logique d'intervention.", "perissable": false},
+    {"id": "c08-conduire-evaluation-06", "recto": "Rôle de l'instance de pilotage (comité de pilotage).", "verso": "Suivre l'évaluation ; dans la démarche pluraliste française, elle associe partenaires et parties prenantes, avec lesquels le jugement est coproduit.", "perissable": false},
+    {"id": "c08-conduire-evaluation-07", "recto": "Pourquoi exploiter d'abord les données existantes ?", "verso": "C'est moins coûteux et plus rapide ; la collecte nouvelle (enquêtes, entretiens, études de cas) comble ensuite les manques.", "perissable": false},
+    {"id": "c08-conduire-evaluation-08", "recto": "Comment présenter les recommandations d'une évaluation ?", "verso": "Découlant des constats, hiérarchisées (priorité, faisabilité), avec un responsable et un calendrier : sans responsable, elles ne sont pas appliquées.", "perissable": false},
+    {"id": "c08-conduire-evaluation-09", "recto": "Quels sont les cinq principes de qualité des évaluations du ministère de la Transition écologique ?", "verso": "Impartialité et transparence, pluralisme, compétence, exhaustivité, traçabilité.", "perissable": false},
+    {"id": "c08-conduire-evaluation-10", "recto": "Principe d'impartialité et de transparence.", "verso": "Autonomie suffisante par rapport aux processus de gestion et de décision, absence de conflit d'intérêt ; transparence sur les méthodes, les données et toutes les étapes jusqu'à la diffusion.", "perissable": false},
+    {"id": "c08-conduire-evaluation-11", "recto": "Principe de pluralisme.", "verso": "Recueillir les points de vue pertinents d'experts et d'acteurs concernés ; le dossier est ouvert à la controverse, qui est intégrée au produit final.", "perissable": false},
+    {"id": "c08-conduire-evaluation-12", "recto": "Principe d'exhaustivité.", "verso": "Prendre en compte l'ensemble des données connues, mentionner biais, lacunes et approximations, avec proportionnalité des moyens aux enjeux.", "perissable": false},
+    {"id": "c08-conduire-evaluation-13", "recto": "Principe de traçabilité.", "verso": "Identifier les éléments de l'évaluation pour qu'un tiers puisse reconstituer les choix opérés et faciliter le suivi ultérieur.", "perissable": false},
+    {"id": "c08-conduire-evaluation-14", "recto": "Que doit contenir une évaluation sur ses données ?", "verso": "La liste des données et sources utilisées, et celle des données connues mais écartées avec le motif ; les données confidentielles sont signalées et leur confidentialité motivée.", "perissable": false},
+    {"id": "c08-conduire-evaluation-15", "recto": "Que doit signaler une évaluation sur ses méthodes ?", "verso": "Les méthodes employées, les hypothèses et interprétations alternatives écartées à chaque étape, et les incertitudes sur les données et les résultats.", "perissable": false},
+    {"id": "c08-conduire-evaluation-16", "recto": "Que faut-il prévoir dès le mandat pour que l'évaluation serve ?", "verso": "La diffusion des conclusions et leur suivi : plan d'action, calendrier de mise en œuvre, rendez-vous de suivi.", "perissable": false}
+  ]
+}

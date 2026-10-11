@@ -1,0 +1,73 @@
+{
+  "id": "c05-methodes-qualitatives-mixtes",
+  "parcours": "C",
+  "ordre": 5,
+  "titre": "Méthodes mixtes, analyse par la théorie et enquêtes qualitatives",
+  "accroche": "La plupart des politiques territoriales sont trop complexes pour un simple groupe témoin. L'évaluateur combine alors entretiens, enquêtes, études de cas et théorie du changement pour bâtir un faisceau d'indices convergents.",
+  "duree_min": 90,
+  "perissable": false,
+  "perissable_note": "Panorama méthodologique stable. Les formulations proviennent d'une synthèse encyclopédique sur l'évaluation des politiques publiques et de fiches méthodologiques ; en cas de commande réelle, suivre le guide du commanditaire.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Pourquoi un contrefactuel ne suffit pas toujours",
+      "paragraphes": [
+        "L'évaluation doit presque toujours traiter des politiques trop compliquées pour qu'un simple contrefactuel suffise. C'est le cas quand la chaîne causale entre actions et effets attendus est longue ou multiple (une politique de prise en charge de la dépendance et d'accompagnement des aidants), quand le contexte joue fortement (la démographie pour une politique de transmission d'entreprises), quand les effets ne se mesurent pas par un seul indicateur (l'amélioration durable des compétences après une formation), ou quand les publics et les modes de mise en œuvre sont multiples (un programme de rénovation urbaine visant habitants, jeunes, chômeurs, personnes âgées).",
+        "La méthode expérimentale a aussi ses limites : l'acceptation sociale du tirage au sort (limiter l'accès au RSA à certaines personnes pour disposer d'un groupe de contrôle a été mal perçu), son adaptation aux projets simples ou aux expérimentations plutôt qu'aux programmes en cours, et la difficulté de généraliser les constats. D'autres protocoles comparent des groupes statistiquement semblables, avant et après ou avec et sans l'intervention, mais exigent des données collectées dès le départ, ce qui est rare, d'autant que les politiques ont souvent des effets inattendus, de sorte qu'on ne sait pas toujours quels indicateurs auraient été utiles.",
+        "On parle alors de méthodes mixtes : combiner plusieurs outils de structuration, de collecte et d'analyse pour aboutir, par un faisceau d'indices convergents, à une analyse valide des effets et de la manière dont ils ont été obtenus. Rien n'empêche d'y intégrer des outils purement quantitatifs pour traiter des hypothèses précises."
+      ]
+    },
+    {
+      "titre": "L'évaluation par la théorie et l'analyse de contribution",
+      "paragraphes": [
+        "Dans les méthodes mixtes, l'analyse des impacts consiste d'abord à rendre visibles, étape par étape, les hypothèses de causalité qui lient l'action publique aux effets attendus, puis à vérifier dans les faits si ce qui était prévu s'est produit, et pourquoi. C'est l'évaluation basée sur la théorie (theory-based evaluation) : elle teste la théorie d'action de l'intervention, reconstruite à l'aide d'outils comme le cadre logique (surtout pour les projets de développement) ou le logigramme. Le kit sur la chaîne de résultats et la théorie du changement fournit ce vocabulaire.",
+        "L'analyse de contribution est une variante : elle repose sur une revue systématique de tous les éléments de preuve qui peuvent infirmer ou confirmer les hypothèses causales, jusqu'à produire un « récit de contribution » fidèle aux données recueillies. On ne prétend pas isoler l'effet net de la politique, mais montrer de manière crédible comment et dans quelle mesure elle a contribué au changement, aux côtés d'autres facteurs. C'est souvent la bonne réponse à la question d'un élu : « notre politique y est-elle pour quelque chose ? »",
+        "Trois démarches évaluatives coexistent : managériale (confiée à l'administration, souvent à des experts, avec l'indépendance et l'objectivité comme critères de qualité), pluraliste (ouverte aux partenaires et aux publics concernés, plus fréquente en France, avec l'objectif d'une base d'information acceptée par tous) et démocratique (nourrir le débat entre exécutif et législatif, les élus formulant publiquement les jugements). Elles ne s'excluent pas, et le choix commande les méthodes de collecte."
+      ]
+    },
+    {
+      "titre": "Les outils de collecte qualitative",
+      "paragraphes": [
+        "L'entretien semi-directif oriente en partie le discours des personnes autour de thèmes définis à l'avance et consignés dans un guide d'entretien. Il complète utilement une enquête quantitative : il apporte de la précision, permet les relances et fournit des verbatims, ces citations qui donnent leur force aux rapports. Il révèle des représentations qu'un questionnaire ne saisit pas. Le guide se construit soit à partir d'entretiens non directifs préalables qui font apparaître des thèmes récurrents, soit à partir des objectifs de l'enquête, des hypothèses ou de la littérature ; l'entretien commence de façon non directive, puis introduit les thèmes du guide non abordés spontanément.",
+        "L'étude de cas vise l'étude approfondie d'un cas spécifique (un projet, un territoire, un dispositif). Elle combine observation directe et sources documentaires sur les pratiques et les discours, et saisit l'objet dans ses dimensions de temps et d'espace. En évaluation, on choisit souvent quelques cas contrastés (un territoire où le dispositif fonctionne, un où il fonctionne mal) pour comprendre les mécanismes. Les entretiens de groupe, les enquêtes par questionnaire et l'exploitation de données administratives complètent la panoplie.",
+        "Le principe de triangulation guide l'ensemble : croiser des sources, des méthodes et des points de vue pour qu'aucune conclusion ne repose sur une seule voix. Dans le rapport, il faut dire qui a été interrogé, selon quelle logique de choix, ce qui reste incertain et ce que les données ne permettent pas d'affirmer. Un récit convaincant sans ces précautions est de l'éloquence, pas de l'évaluation."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "Wikipédia, « Entretien semi-directif » (procédure en cinq phases, d'après Anne Revillard)",
+    "url": "https://fr.wikipedia.org/wiki/Entretien_semi-directif",
+    "type": "article de référence (licence CC BY-SA)",
+    "duree": "30 min",
+    "pourquoi": "Lis la procédure en cinq phases puis rédige un guide d'entretien d'une page pour interroger un chargé de mission d'une collectivité sur une politique de ton choix. Garde-le : il resservira pour tes entretiens d'information."
+  },
+  "debat": [
+    "Un « récit de contribution » appuyé sur des entretiens est-il aussi crédible qu'un chiffre d'impact estimé par une méthode quantitative ?",
+    "Dans une évaluation pluraliste, que faire quand les parties prenantes refusent de se mettre d'accord sur le jugement final ?",
+    "Combien d'entretiens faut-il pour considérer qu'un constat qualitatif est solide ?"
+  ],
+  "sources": [
+    {"titre": "Wikipédia : Évaluation des politiques publiques (méthodes mixtes, analyse de contribution, démarches évaluatives)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"},
+    {"titre": "Wikipédia : Entretien semi-directif", "url": "https://fr.wikipedia.org/wiki/Entretien_semi-directif"},
+    {"titre": "Wikipédia : Étude de cas", "url": "https://fr.wikipedia.org/wiki/%C3%89tude_de_cas"},
+    {"titre": "OCDE : Glossaire des principaux termes relatifs à l'évaluation et à la gestion axée sur les résultats (2023)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/glossary-of-key-terms-in-evaluation-and-results-based-management-for-sustainable-development-second-edition_2767e14e/632da462-en-fr-es.pdf"}
+  ],
+  "cartes": [
+    {"id": "c05-methodes-qualitatives-mixtes-01", "recto": "Dans quels cas un simple contrefactuel ne suffit-il pas ?", "verso": "Chaîne causale longue ou multiple, contexte déterminant, effets non mesurables par un seul indicateur, publics et modes de mise en œuvre multiples.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-02", "recto": "Trois limites de la méthode expérimentale en politique publique.", "verso": "Acceptation sociale du tirage au sort, difficulté pour les programmes complexes en cours, généralisation difficile des constats.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-03", "recto": "Qu'est-ce qu'une méthode mixte ?", "verso": "La combinaison de plusieurs outils de structuration, de collecte et d'analyse pour aboutir, par un faisceau d'indices convergents, à une analyse valide des effets et de leur mécanisme.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-04", "recto": "Qu'est-ce que l'évaluation basée sur la théorie ?", "verso": "Estimer les impacts en rendant visibles les hypothèses causales de l'intervention puis en vérifiant dans les faits si ce qui était prévu s'est produit, et pourquoi.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-05", "recto": "Outils pour reconstruire la logique d'une intervention.", "verso": "Le cadre logique (surtout les projets de développement) et le logigramme.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-06", "recto": "Qu'est-ce que l'analyse de contribution ?", "verso": "Une revue systématique des éléments de preuve qui confirment ou infirment les hypothèses causales, aboutissant à un « récit de contribution » fidèle aux données.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-07", "recto": "Démarche managériale, pluraliste, démocratique : différences.", "verso": "Managériale : administration et experts, indépendance et objectivité. Pluraliste : partenaires et publics associés, base d'information acceptée par tous. Démocratique : alimenter le débat exécutif-législatif, les élus jugent publiquement.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-08", "recto": "Quelle démarche est plus fréquente en France que dans la plupart des démocraties occidentales ?", "verso": "La démarche pluraliste, ouverte aux partenaires et aux publics concernés.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-09", "recto": "Qu'est-ce qu'un entretien semi-directif ?", "verso": "Une technique d'enquête qualitative qui oriente en partie le discours autour de thèmes définis à l'avance dans un guide d'entretien.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-10", "recto": "Deux façons de construire un guide d'entretien.", "verso": "À partir d'entretiens non directifs préalables qui font apparaître des thèmes récurrents, ou à partir des objectifs de l'enquête, des hypothèses et de la littérature.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-11", "recto": "Atouts de l'entretien semi-directif en évaluation.", "verso": "Précision et richesse, possibilités de relance, verbatims percutants, accès à des représentations qu'un questionnaire ne saisit pas ; il complète une enquête quantitative.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-12", "recto": "Comment débute un entretien semi-directif ?", "verso": "Comme un entretien non directif (consigne large), puis une reformulation de synthèse et l'introduction des thèmes du guide non abordés spontanément.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-13", "recto": "Qu'est-ce qu'une étude de cas ?", "verso": "L'étude approfondie d'un cas spécifique (projet, territoire, dispositif) qui combine observation directe et sources documentaires.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-14", "recto": "Pourquoi choisir des cas contrastés en évaluation ?", "verso": "Comparer un territoire où le dispositif marche et un où il marche mal aide à comprendre les mécanismes.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-15", "recto": "Qu'est-ce que la triangulation ?", "verso": "Croiser sources, méthodes et points de vue pour qu'aucune conclusion ne repose sur une seule voix.", "perissable": false},
+    {"id": "c05-methodes-qualitatives-mixtes-16", "recto": "Que doit préciser un rapport qui s'appuie sur des entretiens ?", "verso": "Qui a été interrogé et selon quelle logique de choix, ce qui reste incertain, ce que les données ne permettent pas d'affirmer.", "perissable": false}
+  ]
+}
