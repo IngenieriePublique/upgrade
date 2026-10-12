@@ -39,3 +39,12 @@ Dans un dépôt public, les workflows planifiés sont désactivés automatiqueme
 
 ## Questions encore ouvertes
 Compte GitHub ; décision concours / contractuel (à écrire par l'utilisateur dans l'écran Concours ou contrat avant le 2026-11-15).
+
+## Décisions des phases 7 à 9 : atelier, portfolio, bilan, croisière (2026-10-12)
+- **Contrôle des nombres plutôt que confiance dans la rédaction** : une note modèle est écrite par Claude, donc susceptible d'inventer. Le validateur (`build_atelier.py`) refuse tout nombre absent du corpus, de la commande ou d'une liste « calculs » écrite avec sa formule. Le corpus est un résumé rédigé d'après les documents lus (pas une copie), avec la limite du document et le lien de l'original.
+- **Le portfolio appartient à l'utilisateur** : Upgrade cadre quatre projets (questions, données ouvertes vérifiées avec licence, étapes, pièges, liste de contrôle de publication) mais ne rédige aucun livrable ; l'étape « relire par une personne du métier » est obligatoire avant « publier ». Les données DVF ne doivent pas permettre de retrouver une personne.
+- **Note modèle après l'auto-évaluation seulement** : voir la solution avant de s'être jugé annule l'exercice ; les sept critères doivent être remplis avant l'affichage du modèle.
+- **Bilan lu une fois par semaine** : pas de série ni de compte à rebours ; six repères à trois mois présentés comme des repères et non des notes. Le temps passé sur les réseaux est saisi à la main (aucune API ne le fournit à un site web) et comparé à une référence relevée avant le blocage.
+- **Blocage des réseaux : instructions, jamais un réglage** : l'utilisateur applique lui-même (LeechBlock NG, Bien-être numérique, Temps d'écran) ; chaque outil dit ce qui reste à vérifier (compatibilité Edge, noms de menus, guide Apple lu pour Mac seulement). Les conseils sans source (désinstaller, couper les notifications) sont étiquetés comme tels.
+- **Croisière = routine, pas phase** : un audit automatique des dates de revue, un lecteur des erreurs signalées, un calendrier ; production à raison d'une séance de contenu par mois. Le bloc « mot du jour » de Aujourd'hui, jamais réalisé, est remplacé par une lecture libre pour ne pas laisser une promesse vide à l'écran.
+- **Limites assumées** : communiqué du CPER Sud lu par capture d'écran (chiffres recoupés par addition) ; synthèse courte de REACT-EU extraite avec perte (seuls les chiffres lisibles sont cités) ; statut provisoire ou définitif des données OFGL 2025 non précisé dans la notice.

@@ -26,7 +26,10 @@ function blocs(now, dues, sprint = null, kit = null, dictee = null, atelier = nu
     sprint
       ? { id: 'profond', titre: `Sprint candidature (jusqu'au 15 novembre)`, min: 25, lien: sprint.lien,
         note: `${sprint.jours} jour${sprint.jours > 1 ? 's' : ''} restant${sprint.jours > 1 ? 's' : ''}. Prochaine étape : ${sprint.titre}.` }
-      : atelier
+      : dow === 0
+        ? { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, lien: '#/bilan/revue',
+          note: 'Quinze minutes : les chiffres de la semaine, le temps passé sur les réseaux, cinq questions, la sauvegarde, une intention. Le reste du temps : lecture longue ou repos.' }
+        : atelier
         ? { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, lien: atelier.href, note: atelier.note }
         : kit
         ? { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, lien: `#/fondations/kit?id=${kit.id}`,

@@ -1,0 +1,296 @@
+{
+ "revu": "2026-10-12",
+ "objectifs": {
+  "avertissement": "Les six repères viennent du plan d'Upgrade : ce sont des cibles à trois mois, pas des notes. Un repère non atteint dit où porter l'effort, pas que le système échoue.",
+  "duree_mois": 3,
+  "jours_tenus_sur_28": 20,
+  "kits_publies": 30,
+  "livrables_portfolio": 1,
+  "entretiens_information": 6,
+  "reduction_reseaux_pct": 50,
+  "territoires_niveau": 2
+ },
+ "revue": {
+  "duree_min": 15,
+  "etapes": [
+   {
+    "id": "chiffres",
+    "titre": "Regarder la semaine (3 minutes)",
+    "texte": "Les chiffres s'affichent seuls : jours tenus, cartes révisées, dictées, notes, contact humain. Ne les juge pas, regarde seulement ce qui a manqué."
+   },
+   {
+    "id": "ecran",
+    "titre": "Noter le temps passé sur les réseaux (2 minutes)",
+    "texte": "Ouvre le bilan d'usage de ton téléphone ou de ton navigateur et saisis le total de la semaine, en minutes. Une estimation honnête vaut mieux qu'un chiffre arrondi."
+   },
+   {
+    "id": "questions",
+    "titre": "Répondre à cinq questions (7 minutes)",
+    "texte": "Écris deux ou trois lignes par question : c'est le seul moment de la semaine où tu regardes ton propre fonctionnement."
+   },
+   {
+    "id": "sauvegarde",
+    "titre": "Sauvegarder (2 minutes)",
+    "texte": "Exporte une sauvegarde dans ton dossier : un navigateur peut être vidé sans prévenir."
+   },
+   {
+    "id": "intention",
+    "titre": "Choisir une intention (1 minute)",
+    "texte": "Une seule chose à protéger la semaine prochaine, formulée en une phrase."
+   }
+  ],
+  "questions": [
+   {
+    "id": "reussi",
+    "label": "Qu'est-ce qui a bien marché cette semaine, et qu'est-ce que j'ai appris ?",
+    "aide": "Un fait précis : une carte enfin retenue, une note plus claire, une conversation."
+   },
+   {
+    "id": "bloque",
+    "label": "Qu'est-ce qui m'a empêché de tenir la séance un ou plusieurs jours ?",
+    "aide": "Un obstacle, pas un jugement : fatigue, horaires, appareil, motivation."
+   },
+   {
+    "id": "contact",
+    "label": "Avec quelle personne vais-je échanger cette semaine (entretien d'information, ancien du master, webinaire) ?",
+    "aide": "Un nom ou un événement, et une date. Un contact humain par semaine."
+   },
+   {
+    "id": "reseaux",
+    "label": "Quand ai-je ouvert un réseau social sans l'avoir décidé, et que cherchais-je ?",
+    "aide": "Repère le besoin (actualité, ennui, appartenance) et regarde le tableau « besoin et substitut »."
+   },
+   {
+    "id": "ecrire",
+    "label": "Qu'est-ce que j'ai produit cette semaine (note, livrable, message) ?",
+    "aide": "La production prouve ta valeur mieux que la lecture."
+   }
+  ]
+ },
+ "audit": {
+  "avertissement": "Le curriculum est dimensionné pour environ 300 heures par an. Chaque trimestre, on regarde ce qui est vraiment utilisé et on coupe ce qui ne sert pas : un système qu'on n'ose pas réduire finit abandonné.",
+  "modules": [
+   {
+    "id": "brief",
+    "titre": "Brief",
+    "bloc": "brief",
+    "question": "Le Brief te donne-t-il des sujets de conversation, ou seulement le sentiment d'être informé ?"
+   },
+   {
+    "id": "cartes",
+    "titre": "Cartes (sigles, géographie, kits, règles)",
+    "bloc": "cartes",
+    "question": "Les cartes dues sont-elles tenables en douze minutes ? Faut-il réduire le nombre de nouvelles cartes par jour ?"
+   },
+   {
+    "id": "territoires",
+    "titre": "Territoires",
+    "bloc": "territoires",
+    "question": "La carte de maîtrise progresse-t-elle ? Les modes qui t'ennuient peuvent-ils être retirés ?"
+   },
+   {
+    "id": "profond",
+    "titre": "Bloc profond (kits, atelier, portfolio, oral)",
+    "bloc": "profond",
+    "question": "Quel jour as-tu le plus appris, quel jour as-tu le moins appris ?"
+   },
+   {
+    "id": "dictee",
+    "titre": "Dictées",
+    "bloc": "dictee",
+    "question": "Les fautes diminuent-elles ? Trois dictées par semaine, est-ce trop ?"
+   },
+   {
+    "id": "lecture",
+    "titre": "Lecture libre",
+    "bloc": "mot",
+    "question": "Ces dix minutes servent-elles à lire, ou à remplir ? Veux-tu les rendre à ta journée ?"
+   }
+  ],
+  "decisions": [
+   {
+    "id": "garder",
+    "label": "Garder tel quel"
+   },
+   {
+    "id": "reduire",
+    "label": "Réduire"
+   },
+   {
+    "id": "supprimer",
+    "label": "Supprimer"
+   },
+   {
+    "id": "approfondir",
+    "label": "Approfondir"
+   }
+  ],
+  "questions": [
+   {
+    "id": "objectifs",
+    "label": "Regarde les six repères du bilan : lesquels sont atteints, lesquels ne le seront pas, et pourquoi ?",
+    "aide": "Pour chaque repère manqué : manque de temps, mauvais repère ou mauvaise méthode ?"
+   },
+   {
+    "id": "emploi",
+    "label": "Où en est ma recherche (stage, emploi, concours) et qu'est-ce que le système change à mes chances ?",
+    "aide": "Entretiens d'information faits, candidatures, retours."
+   },
+   {
+    "id": "contenu",
+    "label": "Quels kits ou exercices a-t-il manqué, et quelles sources faut-il revoir ?",
+    "aide": "Un sujet d'entretien où tu as manqué de matière ; un fait périmé repéré."
+   },
+   {
+    "id": "decision",
+    "label": "Qu'est-ce que je supprime ou que j'ajoute pour le trimestre qui vient ?",
+    "aide": "Une suppression au moins : la règle 70/30 vaut aussi pour moi."
+   }
+  ]
+ },
+ "reseaux": {
+  "avertissement": "Upgrade ne modifie aucun réglage de ton ordinateur ni de ton téléphone : tu appliques toi-même les étapes ci-dessous, en quelques minutes. Les étapes viennent des pages d'aide officielles des outils ; les menus changent selon les versions et les appareils.",
+  "principe": "Bloquer ne suffit pas : un besoin non satisfait revient. On met donc trois choses ensemble : de la friction (bloquer ou limiter), un substitut pour chaque besoin, et une mesure honnête (le temps passé, saisi chaque semaine).",
+  "mesure": "Avant de bloquer, relève ta situation de départ : ouvre le bilan d'usage de ton téléphone (temps d'écran) et de ton navigateur pour la semaine écoulée, et saisis le total en minutes sur la page « Réseaux » du bilan. C'est la référence qui permet de vérifier la division par deux visée à trois mois.",
+  "besoins": [
+   {
+    "besoin": "Se tenir au courant de l'actualité",
+    "substitut": "Le Brief : 13 items au plus, une question à poser par item, et rien après.",
+    "ou": "#/brief"
+   },
+   {
+    "besoin": "Une petite récompense immédiate",
+    "substitut": "La carte de maîtrise des Territoires et les cartes mûres : un progrès visible, sans fil infini.",
+    "ou": "#/territoires"
+   },
+   {
+    "besoin": "Satisfaire la curiosité",
+    "substitut": "Le « truc du jour » du Brief, puis le dossier de la semaine.",
+    "ou": "#/brief"
+   },
+   {
+    "besoin": "Appartenir à un groupe, être vu",
+    "substitut": "Un contact humain par semaine : entretien d'information, ancien du master, webinaire d'une structure du métier.",
+    "ou": "#/sprint/reseau"
+   },
+   {
+    "besoin": "S'exprimer et être reconnu",
+    "substitut": "Une note de l'atelier d'écriture, puis un livrable de portfolio publié sous ton nom.",
+    "ou": "#/atelier"
+   },
+   {
+    "besoin": "Occuper une attente (transport, file, soirée)",
+    "substitut": "Une lecture longue ou un podcast hors écran, prévu à l'avance : le bloc « Lecture libre » de Aujourd'hui.",
+    "ou": "#/"
+   },
+   {
+    "besoin": "Suivre son métier",
+    "substitut": "Les flux institutionnels du Brief, le radar des employeurs et les webinaires des structures cibles.",
+    "ou": "#/sprint/radar"
+   }
+  ],
+  "blocage": [
+   {
+    "id": "leechblock",
+    "outil": "LeechBlock NG (extension de navigateur gratuite)",
+    "plateforme": "Ordinateur : Chrome, Edge (extension du Chrome Web Store) ou Firefox",
+    "ce_que_ca_fait": "Selon sa fiche, jusqu'à 30 ensembles de sites, avec des plages horaires, une limite de temps (par exemple dix minutes par heure) ou les deux ; un mode « verrouillage » qui bloque tout de suite pour une durée ; un code aléatoire ou un mot de passe pour protéger les réglages ; un compte à rebours qui retarde l'accès au lieu de le refuser.",
+    "etapes": [
+     "Installe l'extension depuis le magasin de ton navigateur (page de l'extension, bouton d'installation).",
+     "Ouvre ses options, crée un ensemble « Réseaux » et liste les sites (par exemple instagram.com, facebook.com, x.com, tiktok.com, reddit.com).",
+     "Choisis la règle : bloquer en permanence les heures de séance, ou limiter à dix minutes par jour en dehors.",
+     "Dans l'onglet de verrouillage de l'accès aux options, demande un code aléatoire : le but est que modifier la règle soit plus pénible que la respecter."
+    ],
+    "a_verifier": "Sur Edge, une page du magasin Edge signalait une incompatibilité avec la version du navigateur au moment de la consultation : vérifie dans ton navigateur. Le Chrome Web Store fonctionne dans Edge après autorisation.",
+    "sources": [
+     {
+      "titre": "LeechBlock NG sur le Chrome Web Store",
+      "url": "https://chrome.google.com/webstore/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok"
+     },
+     {
+      "titre": "LeechBlock NG sur Mozilla Add-ons",
+      "url": "https://addons.mozilla.org/firefox/addon/leechblock-ng/"
+     }
+    ]
+   },
+   {
+    "id": "android",
+    "outil": "Bien-être numérique (Android)",
+    "plateforme": "Téléphone Android",
+    "ce_que_ca_fait": "Selon l'aide de Google : un minuteur par application (à l'échéance, l'application se ferme et son icône est grisée jusqu'à minuit) et un mode Concentration qui met en pause les applications choisies, avec la possibilité de faire une pause.",
+    "etapes": [
+     "Ouvre Paramètres, puis « Bien-être numérique et contrôle parental ».",
+     "Relève d'abord le temps d'écran de la semaine pour chaque réseau et note le total.",
+     "À côté de chaque réseau, touche « Définir un minuteur » et choisis une durée (par exemple dix minutes).",
+     "Crée un mode Concentration qui met en pause les réseaux pendant les heures de séance."
+    ],
+    "a_verifier": "Les noms des menus varient selon le fabricant et la version d'Android.",
+    "sources": [
+     {
+      "titre": "Aide Google : gérer le temps passé sur un téléphone Android avec Bien-être numérique",
+      "url": "https://support.google.com/android/answer/9346420?hl=fr"
+     },
+     {
+      "titre": "Google Digital Wellbeing : présentation du programme",
+      "url": "https://wellbeing.google/"
+     }
+    ]
+   },
+   {
+    "id": "ios",
+    "outil": "Temps d'écran (iPhone, iPad, Mac)",
+    "plateforme": "Appareils Apple",
+    "ce_que_ca_fait": "Selon le guide Apple pour Mac : des limites par application, catégorie ou site, avec une durée identique chaque jour ou personnalisée ; l'option « Bloquer à la fin de la limite » ; un message cinq minutes avant la fin ; les limites sont conservées quand on les désactive.",
+    "etapes": [
+     "Ouvre Réglages, puis Temps d'écran, et relève le temps de la semaine par application.",
+     "Choisis « Limites d'app », ajoute la catégorie Réseaux sociaux et fixe la durée.",
+     "Active « Bloquer à la fin de la limite ».",
+     "Conseil d'Upgrade, qui ne vient pas de la source : confie le code de Temps d'écran à une personne de confiance, pour que le contourner demande un effort."
+    ],
+    "a_verifier": "La source citée est le guide pour Mac ; vérifie les noms exacts des menus sur ton iPhone ou ton iPad.",
+    "sources": [
+     {
+      "titre": "Assistance Apple : définir des limites de temps pour les apps et les sites web (Mac)",
+      "url": "https://support.apple.com/guide/mac-help/mchl630bc02f"
+     },
+     {
+      "titre": "Assistance Apple : modifier les réglages des limites d'app dans Temps d'écran (Mac)",
+      "url": "https://support.apple.com/guide/mac-help/mchld1c137dd/mac"
+     }
+    ]
+   },
+   {
+    "id": "habitudes",
+    "outil": "Réglages d'usage (sans source externe)",
+    "plateforme": "Tous appareils",
+    "ce_que_ca_fait": "Ce sont des conseils pratiques d'Upgrade, non des résultats de recherche : ils réduisent le nombre d'occasions de rouvrir l'application.",
+    "etapes": [
+     "Déconnecte-toi des comptes sur l'ordinateur et désinstalle les applications du téléphone si tu peux t'en passer (tu peux les réinstaller en cinq minutes si tu en as vraiment besoin).",
+     "Coupe les notifications des réseaux.",
+     "Déplace les applications restantes hors de l'écran d'accueil.",
+     "Charge le téléphone hors de la chambre."
+    ],
+    "a_verifier": "Aucune source : à adapter à ta situation.",
+    "sources": []
+   }
+  ],
+  "si_alors": {
+   "titre": "Quand l'envie arrive",
+   "texte": "Écris trois phrases du type « Quand j'ai envie d'ouvrir un réseau pour…, alors je fais … à la place ». Choisis le substitut avant d'avoir envie, pas pendant.",
+   "champs": [
+    {
+     "id": "ennui",
+     "label": "Quand je m'ennuie ou j'attends…"
+    },
+    {
+     "id": "fatigue",
+     "label": "Quand je suis fatigué ou j'évite une tâche…"
+    },
+    {
+     "id": "social",
+     "label": "Quand j'ai envie de voir ce que font les autres…"
+    }
+   ]
+  }
+ }
+}

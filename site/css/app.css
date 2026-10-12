@@ -248,3 +248,23 @@ textarea.redaction { min-height: 22rem; line-height: 1.6; resize: vertical; }
 .etape-corps { flex: 1; }
 .etape-corps label { display: block; font-weight: 400; }
 input[type="url"] { font: inherit; padding: .4rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); width: 100%; }
+
+/* Bilan */
+.reperes { list-style: none; padding: 0; display: grid; gap: .7rem; }
+.reperes li { background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); padding: .6rem .9rem; }
+.reperes li.ok { border-color: var(--ok); }
+.repere-tete { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; }
+.repere-tete .etat { font-size: .8rem; color: var(--doux); }
+.reperes li.ok .etat { color: var(--ok); font-weight: 600; }
+.semaines { display: flex; gap: .35rem; align-items: flex-end; height: 5.5rem; margin: .6rem 0; }
+.sem { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; gap: .1rem; }
+.sem-barre { width: 100%; min-height: 2px; background: var(--bord); border-radius: 3px 3px 0 0; }
+.sem.ok .sem-barre { background: var(--ok); }
+.sem.courante .sem-barre { outline: 2px dashed var(--doux); outline-offset: 1px; }
+.ecran-barres { display: grid; gap: .25rem; margin: .5rem 0; }
+.ecran-ligne { display: grid; grid-template-columns: 6.5rem 1fr 5rem; gap: .5rem; align-items: center; }
+.ecran-ligne .barre { margin: 0; }
+.ecran-ligne .barre .base { background: var(--doux); }
+.chiffres-semaine { list-style: none; padding: 0; display: grid; gap: .25rem; }
+input[type="number"] { font: inherit; padding: .4rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); width: 10rem; }
+select { font: inherit; padding: .35rem .5rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); max-width: 100%; }

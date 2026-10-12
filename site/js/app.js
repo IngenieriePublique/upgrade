@@ -18,6 +18,7 @@ import * as fondations from './modules/fondations.js';
 import * as dictee from './modules/dictee.js';
 import * as atelier from './modules/atelier.js';
 import * as portfolio from './modules/portfolio.js';
+import * as bilan from './modules/bilan.js';
 import { categoriesActives, ajouterRegles } from './dictee.js';
 import { notesParKit, ajouterCartesKit } from './fondations.js';
 
@@ -95,6 +96,10 @@ async function main() {
     { path: '/atelier/grille', render: atelier.renderGrille },
     { path: '/atelier/portfolio', render: portfolio.renderListe },
     { path: '/atelier/projet', render: portfolio.renderProjet },
+    { path: '/bilan', render: bilan.renderBilan },
+    { path: '/bilan/revue', render: bilan.renderRevue },
+    { path: '/bilan/audit', render: bilan.renderAudit },
+    { path: '/bilan/reseaux', render: bilan.renderReseaux },
     { path: '/sprint', render: sprint.render },
     { path: '/sprint/radar', render: radar.render },
     { path: '/sprint/recit', render: recit.render },
