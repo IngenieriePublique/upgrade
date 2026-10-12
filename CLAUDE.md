@@ -2,7 +2,13 @@
 
 **But** : système personnel 100 % gratuit pour l'utilisateur (M2 ingénierie du développement territorial, Bordeaux) qui vise l'évaluation et le pilotage des politiques publiques (département, région, SGAR, Paris). Il remplace ses réseaux sociaux par une boucle quotidienne finie de 60 minutes : actualité (Brief), cartes à répétition espacée, mini-jeu des territoires, curriculum (institutions, finances locales, évaluation, culture générale), dictées, atelier d'écriture, oral et réseau, radar métier. Le plan complet est dans `PLAN.md` : **lisez `PLAN.md` puis ce fichier avant toute séance**.
 
-## Règles de travail
+## ÉTAT ACTUEL (2026-10-12) : système Upgrade EN VEILLE, « First Upgrade » en service
+L'utilisateur a changé d'usage : plus de boucle de 60 minutes ni d'obligation. **Le site public est maintenant First Upgrade** (`site/index.html`, code dans `site/first/`) : une page d'accueil sobre avec quatre hexagones (jeu des territoires, cartes de culture, brief d'actualité, lecture territoriale), chaque activité tenant sur un écran qui ne défile pas, charte graphique de VEILLE (sombre, accent bleu, sans volet de navigation). Il appelle le noyau d'Upgrade (`site/js/` : `srs.js`, `store.js`, `territoires.js`, `carte-svg.js`, `data.js`, `router.js`, `ui.js`) et ses données (`site/data/`). Détails : `docs/first-upgrade.md`.
+- **Rien n'est supprimé** : l'ancien système (Aujourd'hui, Fondations, Dictées, Atelier, Candidature, Bilan, Sauvegarde…) vit toujours dans `site/upgrade.html` (même dossier, mêmes chemins relatifs), avec la même base IndexedDB `upgrade` (progression commune). Pour le relancer : ouvrir `site/upgrade.html` ; rien d'autre à faire (voir `docs/first-upgrade.md`, section « Relancer Upgrade »).
+- Les règles « une séance = une phase », « 70/30 » et le calendrier de croisière sont **suspendus** ; les règles de contenu (sources vérifiées, pas de donnée personnelle dans le dépôt, accord avant push) restent valables.
+- Contenu de First Upgrade : lectures dans `content/lectures/lectures.json` (`python scripts/build_lectures.py`) ; Brief inchangé (`scripts/build_brief.py`, cron `brief.yml`).
+
+## Règles de travail (système Upgrade, en veille)
 - Une séance = une phase (ou moitié de phase) du tableau de `PLAN.md`. En fin de séance : tests, commit git, mise à jour du tableau de `PLAN.md` et de ce fichier ; l'utilisateur fait `/clear`.
 - Règle 70/30 à partir de la phase 2 : au plus une séance de code sur trois, les autres produisent du contenu ou de la pratique. Pas de fonctionnalité sans une phrase « ce que ça change pour les objectifs de l'utilisateur ».
 - Réponses à l'utilisateur en français. Chemins relatifs uniquement (dossier déplaçable).

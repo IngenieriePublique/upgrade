@@ -1,9 +1,9 @@
 // Service worker : fonctionnement hors ligne. Les fichiers du site sont servis depuis le cache
 // puis rafraîchis en arrière-plan (la version à jour apparaît au chargement suivant).
 // Changer VERSION à chaque déploiement qui modifie la liste CORE.
-const VERSION = 'upgrade-0.8.0';
+const VERSION = 'upgrade-0.8.1';
 const CORE = [
-  './', 'index.html', 'manifest.webmanifest', 'css/app.css', 'icons/icon.svg',
+  './', 'index.html', 'upgrade.html', 'manifest.webmanifest', 'css/app.css', 'icons/icon.svg',
   'js/app.js', 'js/version.js', 'js/srs.js', 'js/store.js', 'js/ui.js', 'js/router.js', 'js/timer.js', 'js/backup.js',
   'js/ia.js', 'js/data.js', 'js/territoires.js', 'js/carte-svg.js', 'js/fondations.js', 'js/candidature.js', 'js/recorder.js', 'js/dictee.js', 'js/atelier.js', 'js/bilan.js',
   'js/modules/aujourdhui.js', 'js/modules/brief.js', 'js/modules/cartes.js', 'js/modules/sauvegarde.js',
@@ -53,6 +53,6 @@ self.addEventListener('fetch', (e) => {
       if (res.ok) cache.put(req, res.clone());
       return res;
     }).catch(() => null);
-    return hit ?? (await net) ?? (req.mode === 'navigate' ? cache.match('index.html') : Response.error());
+    return hit ?? (await net) ?? (req.mode === 'navigate' ? cache.match('upgrade.html') : Response.error());
   }));
 });

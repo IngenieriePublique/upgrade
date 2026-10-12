@@ -1,5 +1,7 @@
 # Upgrade
 
+> **Mise en veille (2026-10-12).** Le site public est désormais **First Upgrade** : une page d'accueil à quatre hexagones (jeu des territoires, cartes de culture, brief d'actualité, lecture territoriale), sans rien d'imposé. L'ancien système décrit ci-dessous reste intact dans `site/upgrade.html`. Voir `docs/first-upgrade.md`.
+
 Boucle quotidienne finie de 60 minutes pour apprendre, se tenir informé et s'entraîner (institutions, finances locales, évaluation des politiques publiques, culture générale). Site statique, sans compte ni serveur : la progression reste dans le navigateur.
 
 ## Utiliser
