@@ -1,0 +1,108 @@
+{
+  "titre": "Grille d'auto-évaluation d'une note",
+  "revu": "2026-10-12",
+  "avertissement": "Cette grille est celle d'Upgrade : elle s'inspire des critères d'un rapport de jury de concours (attaché d'administration de l'État, session 2023) et des consignes générales de préparation à l'épreuve de note, mais ce n'est pas une grille officielle. Elle sert à repérer ce qui manque avant de relire une note modèle, pas à se mettre une note.",
+  "echelle": [
+    { "niveau": 0, "label": "Absent" },
+    { "niveau": 1, "label": "Fragile" },
+    { "niveau": 2, "label": "Correct" },
+    { "niveau": 3, "label": "Solide" }
+  ],
+  "criteres": [
+    {
+      "id": "probleme",
+      "titre": "Le problème posé",
+      "question": "Un lecteur pressé comprend-il en trois lignes ce que tu lui dis et pourquoi c'est important pour lui ?",
+      "niveaux": [
+        "Pas de problème posé : la note commence par un résumé des documents.",
+        "Le sujet est reformulé mais sans message : on ne sait pas ce que la note conclut.",
+        "Le problème est posé et le message principal figure dans l'introduction.",
+        "Le message principal tient en deux ou trois phrases, il répond à la commande du destinataire et annonce le plan."
+      ],
+      "pieges": ["Recopier l'intitulé de la commande.", "Poser une question sans y répondre dans la note.", "Commencer par l'historique du sujet."]
+    },
+    {
+      "id": "plan",
+      "titre": "Le plan",
+      "question": "Les titres, lus seuls, racontent-ils la note ? Les parties sont-elles équilibrées et annoncées ?",
+      "niveaux": [
+        "Pas de plan lisible, un seul bloc de texte.",
+        "Un résumé de chaque document l'un après l'autre.",
+        "Un plan en deux ou trois parties, annoncé, mais aux titres vagues (« Le contexte », « Les enjeux »).",
+        "Un plan en constat puis propositions (ou équivalent), aux titres informatifs, respecté de bout en bout."
+      ],
+      "pieges": ["Une partie « contexte » qui occupe la moitié de la note.", "Des titres qui sont des thèmes et non des messages."]
+    },
+    {
+      "id": "hierarchisation",
+      "titre": "La hiérarchisation",
+      "question": "As-tu trié : ce qui compte pour la décision est en haut, le reste est coupé ou en annexe ?",
+      "niveaux": [
+        "Tout est mis sur le même plan, ou des pans entiers du corpus sont ignorés.",
+        "Les idées sont dans l'ordre des documents ; peu de tri.",
+        "Les idées importantes viennent d'abord, mais des détails inutiles restent.",
+        "Chaque paragraphe porte une idée utile à la décision ; ce qui est secondaire est coupé, et les documents sont croisés, pas résumés un par un."
+      ],
+      "pieges": ["Paraphraser tout le dossier.", "Garder un chiffre parce qu'il est dans le texte et non parce qu'il sert."]
+    },
+    {
+      "id": "chiffres",
+      "titre": "Les chiffres clés",
+      "question": "Les trois ou quatre chiffres qui portent le raisonnement sont-ils là, datés, sourcés et comparés à une référence ?",
+      "niveaux": [
+        "Aucun chiffre.",
+        "Des chiffres isolés, sans date, sans source ou sans point de comparaison.",
+        "Des chiffres justes et sourcés, mais trop nombreux ou sans interprétation.",
+        "Peu de chiffres, datés, sourcés (renvoi au document), comparés (à l'année précédente, à un seuil, à une moyenne) et interprétés."
+      ],
+      "pieges": ["Un chiffre sans unité ni année.", "Un chiffre recalculé sans dire comment.", "Mélanger deux périmètres (consolidé et budget principal, par exemple)."]
+    },
+    {
+      "id": "recommandation",
+      "titre": "La recommandation",
+      "question": "Le destinataire sait-il quoi faire demain matin : quoi, qui, quand, avec quels moyens ?",
+      "niveaux": [
+        "Aucune proposition.",
+        "Des souhaits généraux (« il faudrait renforcer le suivi »).",
+        "Des propositions concrètes mais sans responsable, calendrier ou moyens.",
+        "Deux ou trois propositions hiérarchisées, chacune avec un responsable, une échéance et ce qu'elle suppose."
+      ],
+      "pieges": ["Dix recommandations de même poids.", "Une recommandation qui ne découle pas du constat."]
+    },
+    {
+      "id": "risques",
+      "titre": "Les risques et les limites",
+      "question": "Dis-tu ce qui pourrait rendre la recommandation fausse ou difficile, et ce que tu ne sais pas ?",
+      "niveaux": [
+        "Rien sur les risques ni sur les limites des données.",
+        "Une mention générale (« sous réserve de… »).",
+        "Les principaux risques sont cités, sans effet sur la recommandation.",
+        "Les risques sont hiérarchisés, les limites des données sont dites (périmètre, date, statut provisoire) et la recommandation prévoit une parade ou une vérification."
+      ],
+      "pieges": ["Affirmer une cause que les documents ne démontrent pas.", "Cacher une incertitude pour faire plus net."]
+    },
+    {
+      "id": "style",
+      "titre": "Le style et l'orthographe",
+      "question": "Phrases courtes, neutres, sans style télégraphique ni formules grandiloquentes, sans faute ?",
+      "niveaux": [
+        "Style familier, télégraphique ou nombreuses fautes.",
+        "Des phrases longues ou lourdes, des fautes répétées.",
+        "Style clair et neutre, quelques fautes ou lourdeurs.",
+        "Phrases courtes, verbes précis, ton neutre, orthographe maîtrisée ; chaque phrase peut être lue à voix haute sans reprise."
+      ],
+      "pieges": ["Les adverbes d'intensité (« très », « fortement »).", "Un ton injonctif envers un supérieur.", "Un vocabulaire d'initiés non défini (sigles)."]
+    }
+  ],
+  "mise_en_forme": [
+    "En-tête complet : service émetteur, destinataire, objet, date, « affaire suivie par » si l'exercice le demande.",
+    "Deux pages au plus (environ 800 à 900 mots), titres informatifs, un seul message par paragraphe.",
+    "Chaque chiffre renvoie à un document du corpus (D1, D2…) ou à un calcul expliqué.",
+    "Une phrase de conclusion ou de décision demandée en fin de note.",
+    "Relecture orthographique à voix haute, après une pause."
+  ],
+  "sources": [
+    { "titre": "IPAG (Université Paris Nanterre) : extrait du rapport du jury du concours d'attaché d'administration de l'État 2023, épreuve de note", "url": "https://ipag.parisnanterre.fr/telechargements/ipag-extrait-du-rapport-du-concours-aae-2023" },
+    { "titre": "Cned : l'épreuve de note aux concours administratifs (note administrative, note avec propositions, note de synthèse)", "url": "https://www.cned.fr/concours-fonction-publique/epreuve-de-note-aux-concours-administratifs" }
+  ]
+}

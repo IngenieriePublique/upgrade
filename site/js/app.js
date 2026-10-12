@@ -16,6 +16,8 @@ import * as choix from './modules/choix.js';
 import * as territoires from './modules/territoires.js';
 import * as fondations from './modules/fondations.js';
 import * as dictee from './modules/dictee.js';
+import * as atelier from './modules/atelier.js';
+import * as portfolio from './modules/portfolio.js';
 import { categoriesActives, ajouterRegles } from './dictee.js';
 import { notesParKit, ajouterCartesKit } from './fondations.js';
 
@@ -85,6 +87,14 @@ async function main() {
     { path: '/territoires/qui', render: territoires.renderQui },
     { path: '/territoires/fiches', render: territoires.renderFiches },
     { path: '/territoires/fiche', render: territoires.renderFiche },
+    { path: '/atelier', render: atelier.renderAccueil },
+    { path: '/atelier/ecrire', render: atelier.renderEcrire },
+    { path: '/atelier/evaluer', render: atelier.renderEvaluer },
+    { path: '/atelier/reecrire', render: atelier.renderReecrire },
+    { path: '/atelier/court', render: atelier.renderCourt },
+    { path: '/atelier/grille', render: atelier.renderGrille },
+    { path: '/atelier/portfolio', render: portfolio.renderListe },
+    { path: '/atelier/projet', render: portfolio.renderProjet },
     { path: '/sprint', render: sprint.render },
     { path: '/sprint/radar', render: radar.render },
     { path: '/sprint/recit', render: recit.render },

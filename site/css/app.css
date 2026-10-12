@@ -228,3 +228,23 @@ span.mot { cursor: default; }
 .segment-courant { margin: .6rem 0; } .segment-texte { font-size: 1.15rem; padding: .5rem .8rem; border-left: 3px solid var(--accent); }
 .case { display: block; margin: .4rem 0; }
 details.carte > summary { cursor: pointer; }
+
+/* Atelier d'écriture et portfolio */
+.statut.st-nouveau { color: var(--doux); }
+.document summary { cursor: pointer; }
+.document .chiffres { padding-left: 1.2rem; }
+.commande { border-left: 4px solid var(--accent); }
+textarea.redaction { min-height: 22rem; line-height: 1.6; resize: vertical; }
+.modele { border-left: 4px solid var(--ok); }
+.modele h3 { font-size: 1rem; margin: 1rem 0 .2rem; }
+.entete-note { border-bottom: 1px dashed var(--bord); padding-bottom: .6rem; }
+.critere-carte h3 { margin: 0; font-size: 1rem; }
+.critere-carte .echelle { flex-wrap: wrap; margin: .5rem 0; }
+.niveaux-liste { padding-left: 1.2rem; }
+.cases { list-style: none; padding: 0; display: grid; gap: .3rem; }
+.cases label { display: flex; gap: .5rem; align-items: baseline; font-weight: 400; }
+.projet-etapes { counter-reset: none; }
+.projet-etapes li { align-items: flex-start; }
+.etape-corps { flex: 1; }
+.etape-corps label { display: block; font-weight: 400; }
+input[type="url"] { font: inherit; padding: .4rem; border: 1px solid var(--bord); border-radius: 6px; background: var(--carte); color: var(--texte); width: 100%; }

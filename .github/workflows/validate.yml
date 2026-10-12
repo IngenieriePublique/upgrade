@@ -25,4 +25,5 @@ jobs:
           python scripts/build_sprint.py
           python scripts/build_fondations.py
           python scripts/build_dictees.py
+          python scripts/build_atelier.py
           git diff --exit-code site/data

@@ -1,0 +1,352 @@
+{
+ "revu": "2026-10-12",
+ "avertissement": "Le portfolio est la preuve que tes analyses ont de la valeur : elles doivent donc être les tiennes. Upgrade fournit le cadrage, les sources de données vérifiées, les étapes et une liste de contrôle ; il ne fournit ni l'analyse ni la rédaction. Les adresses de données ont été vérifiées le 2026-10-12 ; les jeux de données évoluent, relis la fiche de chaque jeu avant de t'en servir.",
+ "principes": [
+  "Une question évaluative précise (« les départements du Sud-Ouest ont-ils les mêmes marges de manœuvre ? »), pas un thème (« les finances locales »).",
+  "Des données ouvertes, citées avec leur licence et leur date de téléchargement, pour que n'importe qui puisse refaire le calcul.",
+  "Un livrable de 3 à 5 pages : question, données et limites, méthode, résultats en trois enseignements, recommandations, ce que l'analyse ne permet pas de conclure.",
+  "Une relecture par une personne du métier avant publication : un ancien du master, un contact rencontré en entretien d'information.",
+  "Un texte publiable sous ton nom, sans donnée personnelle ni information confidentielle d'un stage."
+ ],
+ "publication": [
+  "Les données sont sous licence ouverte et la source est citée (organisme, jeu de données, date de téléchargement).",
+  "Le calcul est reproductible : un script ou un classeur est fourni avec le texte, ou la méthode est assez détaillée pour être refaite.",
+  "Aucune donnée personnelle ou indirectement identifiante n'est publiée (les fichiers de transactions immobilières, en particulier, ne doivent pas permettre de retrouver une personne).",
+  "Les limites sont dites (périmètre, période, qualité des données, statut provisoire ou définitif).",
+  "Aucune information venant d'un stage ou d'un employeur n'est utilisée sans accord écrit.",
+  "Une personne a relu le texte et tu as noté ses remarques.",
+  "Le texte est publié à une adresse stable (dépôt public, site personnel, PDF) et son lien est noté ici."
+ ],
+ "projets": [
+  {
+   "id": "p1",
+   "titre": "Analyse financière comparée des départements néo-aquitains, 2018-2025",
+   "niveau": 1,
+   "duree_h": 12,
+   "question": "Les douze départements néo-aquitains ont-ils les mêmes marges de manœuvre financières, et qu'est-ce qui explique les écarts ?",
+   "preuve": "Tu sais lire des comptes locaux, calculer les ratios standard, comparer à des seuils et expliquer des écarts : la compétence centrale d'un poste d'analyste en finances locales.",
+   "donnees": [
+    {
+     "titre": "OFGL, comptes consolidés des départements 2012-2025",
+     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
+     "licence": "Licence ouverte 2.0",
+     "note": "Budgets principaux et annexes consolidés d'après les balances comptables de la DGFiP. Vérifie le statut des données 2025."
+    },
+    {
+     "titre": "Insee, Le compte des administrations publiques en 2025 (Insee Première n° 2106)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691",
+     "licence": "Licence ouverte",
+     "note": "Pour replacer les départements dans les finances publiques."
+    }
+   ],
+   "outil": "python -I scripts/portfolio_ofgl.py : télécharge les agrégats de la région et écrit un CSV dans data_local/portfolio/ (hors dépôt) avec le taux d'épargne brute, la capacité de désendettement et les montants par habitant. Option --region pour une autre région.",
+   "etapes": [
+    {
+     "id": "cadrer",
+     "titre": "Cadrer la question et le périmètre",
+     "detail": "Quels départements, quelle période, budget principal ou consolidé ? Écris la question en une phrase et ce que tu attends comme réponse."
+    },
+    {
+     "id": "donnees",
+     "titre": "Récupérer et contrôler les données",
+     "detail": "Lance le script, ouvre le CSV, vérifie les ordres de grandeur (population, recettes de fonctionnement) contre un autre document, repère les valeurs manquantes."
+    },
+    {
+     "id": "ratios",
+     "titre": "Calculer et comparer",
+     "detail": "Taux d'épargne brute, capacité de désendettement, dépenses sociales par habitant. Compare à un seuil (7 % ; 9 à 12 ans) et entre départements de même type (rural ou urbain, tranche de population)."
+    },
+    {
+     "id": "expliquer",
+     "titre": "Expliquer les écarts",
+     "detail": "Pour les trois ou quatre départements qui s'écartent, cherche une explication dans les agrégats (allocations de solidarité, personnel, droits de mutation, équipement) et dans un rapport de chambre régionale des comptes. Ne conclus pas sans preuve."
+    },
+    {
+     "id": "ecrire",
+     "titre": "Écrire le livrable",
+     "detail": "Trois à cinq pages : question, données et limites, trois enseignements chiffrés, recommandations, ce que l'analyse ne dit pas."
+    },
+    {
+     "id": "relire",
+     "titre": "Faire relire et corriger",
+     "detail": "Une personne du métier relit ; note ses remarques et ce que tu as changé."
+    },
+    {
+     "id": "publier",
+     "titre": "Publier",
+     "detail": "Passe la liste de contrôle, publie et note l'adresse du texte."
+    }
+   ],
+   "livrable": {
+    "format": "Note de 3 à 5 pages (PDF) et un tableau de données en annexe",
+    "sections": [
+     "Question et résumé en cinq lignes",
+     "Données, périmètre et limites",
+     "Méthode",
+     "Trois enseignements chiffrés",
+     "Recommandations",
+     "Ce que l'analyse ne permet pas de conclure"
+    ]
+   },
+   "pieges": [
+    "Comparer des départements très différents sans les regrouper.",
+    "Conclure sur une seule année (la Cour insiste sur les séries).",
+    "Confondre consolidé (budgets annexes inclus) et budget principal.",
+    "Affirmer une cause sans la prouver."
+   ],
+   "kits": [
+    "b02",
+    "b04",
+    "b05",
+    "c06"
+   ]
+  },
+  {
+   "id": "p2",
+   "titre": "Action cœur de ville a-t-il changé le marché immobilier des centres-villes ?",
+   "niveau": 3,
+   "duree_h": 25,
+   "question": "Dans les villes moyennes de Nouvelle-Aquitaine retenues en 2018, le nombre ou le prix des transactions immobilières a-t-il évolué autrement que dans des villes comparables non retenues ?",
+   "preuve": "Tu sais poser une question d'évaluation d'impact, choisir un groupe de comparaison, appliquer une différence de différences, et dire honnêtement ce que la méthode permet de conclure.",
+   "donnees": [
+    {
+     "titre": "Programme Action cœur de ville (ACV), liste des communes sélectionnées",
+     "url": "https://www.data.gouv.fr/datasets/programme-action-coeur-de-ville",
+     "licence": "à lire sur la fiche du jeu",
+     "note": "Créé en avril 2018, mis à jour annuellement. Le programme a retenu 222 villes en 2018 ; vérifie dans le fichier les entrées ultérieures."
+    },
+    {
+     "titre": "Demandes de valeurs foncières (DVF), DGFiP",
+     "url": "https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres/",
+     "licence": "Licence ouverte 2.0",
+     "note": "Fichiers volumineux, actualisés deux fois par an. Ils ne doivent pas permettre de retrouver une personne ni être indexés par des moteurs de recherche : n'en publie que des agrégats."
+    }
+   ],
+   "outil": "Aucun script fourni : le travail de préparation des données (appariement des communes, agrégation par année) fait partie de la preuve. Python (pandas) ou R sont conseillés ; voir le kit C4 pour la méthode.",
+   "etapes": [
+    {
+     "id": "cadrer",
+     "titre": "Cadrer la question et définir l'effet attendu",
+     "detail": "Quel effet un programme de revitalisation pourrait-il avoir sur les transactions ? Écris la chaîne de résultats (kit C3) et choisis un indicateur mesurable avec DVF."
+    },
+    {
+     "id": "groupes",
+     "titre": "Constituer les groupes",
+     "detail": "Villes retenues et villes comparables non retenues (taille, région, dynamique). Justifie le choix : la comparaison est le point faible de toute évaluation non expérimentale."
+    },
+    {
+     "id": "donnees",
+     "titre": "Préparer les données DVF",
+     "detail": "Télécharge les années utiles, filtre les ventes de logements, agrège par commune et par année, contrôle les doublons."
+    },
+    {
+     "id": "methode",
+     "titre": "Appliquer une différence de différences",
+     "detail": "Compare l'évolution avant et après 2018 entre les deux groupes (kit C4). Teste l'hypothèse de tendances parallèles avant le programme."
+    },
+    {
+     "id": "limites",
+     "titre": "Écrire les limites",
+     "detail": "Qu'est-ce que la méthode ne prouve pas (autres politiques, effet de la crise sanitaire, taux d'intérêt) ? Qu'aurait-il fallu pour conclure à une causalité ?"
+    },
+    {
+     "id": "ecrire",
+     "titre": "Écrire le livrable",
+     "detail": "Quatre à cinq pages ; un graphique lisible en trois enseignements ; recommandations sur les données qu'il faudrait collecter pour une vraie évaluation."
+    },
+    {
+     "id": "relire",
+     "titre": "Faire relire et corriger",
+     "detail": "Idéalement par quelqu'un qui connaît l'évaluation d'impact."
+    },
+    {
+     "id": "publier",
+     "titre": "Publier",
+     "detail": "Passe la liste de contrôle, sans donnée individuelle de transaction."
+    }
+   ],
+   "livrable": {
+    "format": "Note de 4 à 5 pages (PDF) avec un graphique, et le code ou la méthode détaillée",
+    "sections": [
+     "Question et résumé",
+     "Programme et chaîne de résultats",
+     "Données et groupes de comparaison",
+     "Méthode et résultats",
+     "Limites",
+     "Recommandations"
+    ]
+   },
+   "pieges": [
+    "Un groupe de comparaison mal choisi.",
+    "Conclure à une causalité sans vérifier les tendances d'avant le programme.",
+    "Publier des données de transactions qui permettent d'identifier des personnes."
+   ],
+   "kits": [
+    "c01",
+    "c03",
+    "c04",
+    "c02"
+   ]
+  },
+  {
+   "id": "p3",
+   "titre": "Sobriété foncière : où en est la consommation d'espaces dans mon département ?",
+   "niveau": 2,
+   "duree_h": 15,
+   "question": "Dans un département de Nouvelle-Aquitaine, quelles intercommunalités ont le plus consommé d'espaces naturels, agricoles et forestiers sur 2011-2024, et que dit cette série de la marge restante pour les prochaines années ?",
+   "preuve": "Tu sais traiter des données territoriales, les replacer dans un cadre réglementaire en mouvement (ZAN, TRACE) et écrire une note d'enjeux utile à un élu.",
+   "donnees": [
+    {
+     "titre": "Consommation d'espaces naturels, agricoles et forestiers du 1er janvier 2011 au 1er janvier 2025 (CONSOENAF 2011-2025)",
+     "url": "https://www.data.gouv.fr/datasets/6a01b9280dd2d45907e5fc61",
+     "licence": "à lire sur la fiche du jeu",
+     "note": "Indicateurs communaux produits par le Cerema pour le Portail national de l'artificialisation, d'après les fichiers fonciers. Les données au niveau de la parcelle sont réservées aux ayants droit : travaille au niveau communal."
+    },
+    {
+     "titre": "Portail national de l'artificialisation : méthode et chiffres officiels",
+     "url": "https://artificialisation.developpement-durable.gouv.fr/",
+     "licence": "voir le site",
+     "note": "Les chiffres officiels servent de référence pour les bilans nationaux ; vérifie leur statut avant de les citer."
+    }
+   ],
+   "outil": "Aucun script fourni. Le fichier est communal : agrège par intercommunalité avec une table de passage commune-EPCI (Insee ou ANCT).",
+   "etapes": [
+    {
+     "id": "cadrer",
+     "titre": "Cadrer la question",
+     "detail": "Choisis un département et une période de référence. Écris ce que veut dire « marge restante » pour une intercommunalité (kit A8)."
+    },
+    {
+     "id": "donnees",
+     "titre": "Récupérer et agréger les données",
+     "detail": "Télécharge le fichier, filtre le département, agrège par EPCI, rapporte la consommation à la surface ou à la population."
+    },
+    {
+     "id": "cadre",
+     "titre": "Replacer dans le cadre en vigueur",
+     "detail": "Quelles règles s'appliquent (loi Climat et résilience, loi de 2023, état de TRACE) ? Cite les textes, pas des résumés."
+    },
+    {
+     "id": "analyse",
+     "titre": "Analyser la série",
+     "detail": "Identifie les EPCI qui consomment le plus et ceux dont la consommation baisse ; compare à la moitié de la consommation de 2011-2021 pour la décennie en cours."
+    },
+    {
+     "id": "ecrire",
+     "titre": "Écrire une note pour un élu",
+     "detail": "Deux pages et un tableau : message, trois enseignements, deux recommandations, limites."
+    },
+    {
+     "id": "relire",
+     "titre": "Faire relire et corriger",
+     "detail": "Par un agent d'urbanisme ou de SCoT si possible."
+    },
+    {
+     "id": "publier",
+     "titre": "Publier",
+     "detail": "Passe la liste de contrôle et date la note (le cadre réglementaire change)."
+    }
+   ],
+   "livrable": {
+    "format": "Note de 3 à 4 pages (PDF) avec un tableau par intercommunalité et une carte facultative",
+    "sections": [
+     "Question et résumé",
+     "Cadre en vigueur (daté)",
+     "Données et limites",
+     "Résultats par intercommunalité",
+     "Recommandations",
+     "Ce qui peut changer"
+    ]
+   },
+   "pieges": [
+    "Citer un cadre réglementaire sans date.",
+    "Comparer des intercommunalités de taille très différente sans rapporter les chiffres.",
+    "Utiliser les données comme un droit à consommer sans rappeler les règles locales."
+   ],
+   "kits": [
+    "a08",
+    "a05"
+   ]
+  },
+  {
+   "id": "p4",
+   "titre": "Où va l'argent européen dans ma région ?",
+   "niveau": 2,
+   "duree_h": 15,
+   "question": "Dans une région ou un département, quelles priorités et quels types de bénéficiaires reçoivent le plus de crédits FEDER et FSE+ ?",
+   "preuve": "Tu sais lire une programmation, croiser des données publiques de projets et poser les bonnes questions d'évaluation à un programme européen.",
+   "donnees": [
+    {
+     "titre": "Kohesio, plateforme de la Commission européenne sur les projets de la politique de cohésion",
+     "url": "https://kohesio.ec.europa.eu/",
+     "licence": "voir la page de services du site",
+     "note": "Données téléchargeables (CSV, RDF). La période 2014-2020 est couverte ; la mise à jour de 2021-2027 est progressive : vérifie ce qui est disponible pour la France avant de t'engager (à vérifier)."
+    },
+    {
+     "titre": "Europe en France (ANCT) : portail des fonds européens",
+     "url": "https://www.europe-en-france.gouv.fr/",
+     "licence": "voir le site",
+     "note": "Programmes, listes d'opérations des autorités de gestion, évaluations (par exemple celle de REACT-EU)."
+    }
+   ],
+   "outil": "Aucun script fourni : si les données de la France ne sont pas encore complètes dans Kohesio, utilise les listes d'opérations publiées par l'autorité de gestion de ta région.",
+   "etapes": [
+    {
+     "id": "cadrer",
+     "titre": "Cadrer la question",
+     "detail": "Quelle région, quel fonds, quelle période ? Qu'est-ce qui rendrait la réponse utile à une autorité de gestion ?"
+    },
+    {
+     "id": "donnees",
+     "titre": "Trouver et contrôler les données",
+     "detail": "Compare la liste d'opérations de l'autorité de gestion et Kohesio ; repère les différences de périmètre et de date."
+    },
+    {
+     "id": "analyse",
+     "titre": "Analyser la répartition",
+     "detail": "Par priorité, par type de bénéficiaire, par territoire (département, intercommunalité) ; rapporte à la population ou à la superficie."
+    },
+    {
+     "id": "evaluation",
+     "titre": "Poser les questions d'évaluation",
+     "detail": "À partir du règlement (kit C7) : efficacité, efficience, pertinence, cohérence, valeur ajoutée ; quelles données manquent pour y répondre ?"
+    },
+    {
+     "id": "ecrire",
+     "titre": "Écrire le livrable",
+     "detail": "Trois à quatre pages : cartographie de la programmation, trois enseignements, questions d'évaluation qu'on pourrait poser."
+    },
+    {
+     "id": "relire",
+     "titre": "Faire relire et corriger",
+     "detail": "Par une personne d'une autorité de gestion ou d'un service Europe si possible."
+    },
+    {
+     "id": "publier",
+     "titre": "Publier",
+     "detail": "Passe la liste de contrôle ; date la note (la programmation évolue chaque année)."
+    }
+   ],
+   "livrable": {
+    "format": "Note de 3 à 4 pages (PDF) avec un tableau ou un graphique",
+    "sections": [
+     "Question et résumé",
+     "Programmation et données",
+     "Répartition par priorité et par territoire",
+     "Questions d'évaluation",
+     "Limites"
+    ]
+   },
+   "pieges": [
+    "Prendre les montants programmés pour des montants payés.",
+    "Comparer deux périodes de programmation sans rappeler leurs règles différentes.",
+    "Tirer d'une répartition des crédits une conclusion sur l'efficacité."
+   ],
+   "kits": [
+    "a07",
+    "c07",
+    "c02"
+   ]
+  }
+ ]
+}

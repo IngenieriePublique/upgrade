@@ -1,0 +1,395 @@
+{
+ "revu": "2026-10-12",
+ "types": {
+  "titres": {
+   "label": "Titres qui disent quelque chose",
+   "aide": "Un titre de note est un message, pas un thème : il doit contenir le verbe et le chiffre qui comptent."
+  },
+  "dix-lignes": {
+   "label": "Réécrire en 10 lignes",
+   "aide": "Garder ce qui sert la décision : le fait principal, un ou deux chiffres, la conséquence."
+  },
+  "une-page": {
+   "label": "Une page pour un élu",
+   "aide": "Un élu lit debout : message, trois faits, une décision à prendre, une phrase de prudence."
+  },
+  "graphique": {
+   "label": "Lire un tableau en trois enseignements",
+   "aide": "Trois phrases : ce qui bouge, ce qui détonne, ce qu'il faut vérifier avant de conclure."
+  }
+ },
+ "courts": [
+  {
+   "id": "c01",
+   "type": "titres",
+   "titre": "Finances des départements : cinq titres à reformuler",
+   "duree_min": 10,
+   "consigne": "Réécris chacun des cinq titres vagues en une phrase qui énonce le message, en t'appuyant sur les faits ci-dessous.",
+   "matiere": {
+    "faits": [
+     "Les départements, qui avaient frôlé le seuil d'alerte d'épargne brute de 7 % en 2024, s'en éloignent en 2025.",
+     "Les DMTO, l'accise sur les énergies et la TVA représentent 52,5 % des recettes de fonctionnement des départements en 2025.",
+     "Pour 16 départements, l'épargne brute reste inférieure à 7 % des produits de fonctionnement.",
+     "Les dépenses de fonctionnement des collectivités augmentent de 1,4 % en 2025, contre 4,4 % en 2024 ; leurs recettes de fonctionnement de 2,3 %.",
+     "La contribution nette des collectivités au redressement des finances publiques est de 4,3 Md€ en 2025 et de 3,5 Md€ en 2026 ; la Cour recommande de la redéfinir."
+    ],
+    "liste": [
+     "Les finances des départements",
+     "Les recettes départementales",
+     "Les disparités",
+     "La situation en 2025",
+     "La contribution au redressement"
+    ]
+   },
+   "source": {
+    "titre": "Cour des comptes et DGCL (voir l'exercice n01, documents D1 et D2)",
+    "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+   },
+   "modele": {
+    "liste": [
+     "Les départements s'éloignent en 2025 du seuil d'alerte qu'ils avaient frôlé en 2024",
+     "Plus de la moitié des recettes de fonctionnement des départements (52,5 %) dépend de trois ressources sensibles à la conjoncture",
+     "Derrière l'embellie, 16 départements restent sous le seuil d'épargne de 7 %",
+     "En 2025, les dépenses de fonctionnement ralentissent (1,4 % contre 4,4 %) et les recettes progressent plus vite (2,3 %)",
+     "La contribution des collectivités au redressement baisse en 2026 (3,5 Md€ contre 4,3 Md€), mais la Cour la juge à redéfinir"
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "Chaque titre contient un verbe et, quand c'est possible, un chiffre.",
+    "Lus à la suite, les cinq titres racontent la note."
+   ]
+  },
+  {
+   "id": "c02",
+   "type": "titres",
+   "titre": "ZAN et TRACE : cinq titres à reformuler",
+   "duree_min": 10,
+   "consigne": "Réécris chacun des cinq titres vagues en une phrase qui énonce le message, en t'appuyant sur les faits ci-dessous.",
+   "matiere": {
+    "faits": [
+     "La proposition de loi TRACE a été adoptée par le Sénat le 18 mars 2025 et transmise à l'Assemblée nationale.",
+     "Le 24 juin 2026, le texte n'est toujours pas inscrit à l'ordre du jour de l'Assemblée nationale.",
+     "Le Gouvernement conditionne l'inscription à un accord préalable entre les deux assemblées.",
+     "Selon la ministre, les deux tiers des régions ont déjà adopté la révision de leur Sraddet.",
+     "TRACE ne touche pas à l'objectif final d'absence d'artificialisation nette en 2050."
+    ],
+    "liste": [
+     "Le ZAN en 2026",
+     "La position du Gouvernement",
+     "L'état d'avancement",
+     "Les enjeux pour les collectivités",
+     "Perspectives"
+    ]
+   },
+   "source": {
+    "titre": "Sénat (voir l'exercice n03, documents D1 et D2)",
+    "url": "https://www.senat.fr/questions/base/2026/qSEQ26060949G.html"
+   },
+   "modele": {
+    "liste": [
+     "Le ZAN reste en discussion en 2026 : l'objectif de 2050 n'est pas remis en cause",
+     "Le Gouvernement n'inscrira TRACE à l'Assemblée qu'après un accord entre les deux assemblées",
+     "Adopté par le Sénat le 18 mars 2025, TRACE n'est toujours pas inscrit à l'Assemblée nationale au 24 juin 2026",
+     "Les deux tiers des régions ayant déjà révisé leur Sraddet, changer les règles reviendrait à les modifier en cours de route",
+     "Quelle que soit l'issue de TRACE, l'objectif de 2050 reste le cadre de la révision des documents d'urbanisme"
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "Un titre de partie n'est jamais un thème (« Perspectives ») : il annonce ce que la partie démontre."
+   ]
+  },
+  {
+   "id": "c03",
+   "type": "dix-lignes",
+   "titre": "La contribution des collectivités au redressement : un texte à ramener à dix lignes",
+   "duree_min": 10,
+   "consigne": "Résume ce passage en dix lignes au plus (environ 120 mots), pour un élu qui n'a pas le temps de lire le rapport.",
+   "matiere": {
+    "texte": [
+     "Depuis 2025, les collectivités participent au redressement des finances publiques, surtout en reversant une partie de leurs recettes à l'État et à la Sécurité sociale. Nette des mesures en leur faveur, cette contribution a atteint 4,3 Md€ en 2025, mais son effet sur la trésorerie des collectivités n'est que de 1,7 Md€. Selon la loi de finances pour 2026, elle atteindrait 3,5 Md€ en 2026, avec un effet de trésorerie de 2,4 Md€ ; son montant augmentera à l'exécution de la loi et la Cour l'établira définitivement dans son rapport de 2027.",
+     "Les collectivités représentent près de 18 % de la dépense publique et les finances publiques sont très dégradées : la Cour estime donc qu'une contribution significative se justifie. Sans se prononcer sur son montant, elle demande de la redéfinir, car les contributions de 2025 et de 2026 présentent des limites : pas de programmation pluriannuelle, une multiplicité de mesures (8 en 2026 après 6 en 2025) parfois incohérentes, une répartition jugée inéquitable (les communes sont préservées par principe alors que leur capacité financière est la plus grande, les intercommunalités sont fortement mises à contribution en 2026 après les régions en 2025) et une péréquation insuffisante. Elle formule cinq recommandations, dont la définition d'une trajectoire financière pluriannuelle, la modulation par niveau de collectivité selon la capacité à contribuer et la suppression du prélèvement dit DILICO au profit de fonds de réserve nationaux."
+    ]
+   },
+   "source": {
+    "titre": "Cour des comptes, Les finances publiques locales : résultats 2025 et perspectives 2026 (9 juillet 2026)",
+    "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+   },
+   "modele": {
+    "paragraphes": [
+     "La Cour des comptes juge justifiée une contribution significative des collectivités au redressement des finances publiques, puisqu'elles pèsent près de 18 % de la dépense publique. Mais les dispositifs de 2025 et de 2026 (4,3 Md€ puis 3,5 Md€ nets) ont des limites : absence de programmation pluriannuelle, multiplication des mesures (8 en 2026 après 6 en 2025), répartition inéquitable entre niveaux de collectivités et péréquation insuffisante. Elle recommande donc de redéfinir cette contribution : une trajectoire pluriannuelle explicite, une modulation par niveau selon la capacité à contribuer, la suppression du DILICO au profit de fonds de réserve nationaux. Son montant définitif pour 2026 sera connu dans le rapport de 2027."
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "Le modèle garde le jugement de la Cour, le constat (limites) et la recommandation ; il coupe le détail des effets de trésorerie.",
+    "Il fait environ 110 mots : la contrainte oblige à choisir."
+   ]
+  },
+  {
+   "id": "c04",
+   "type": "dix-lignes",
+   "titre": "La proposition de loi TRACE : un texte à ramener à dix lignes",
+   "duree_min": 10,
+   "consigne": "Résume ce passage en dix lignes au plus (environ 120 mots), pour un directeur général des services qui veut savoir en une minute ce que propose TRACE.",
+   "matiere": {
+    "texte": [
+     "La proposition de loi visant à instaurer une trajectoire de réduction de l'artificialisation concertée avec les élus locaux, dite TRACE, présentée par des sénateurs, a été adoptée par le Sénat en première lecture le 18 mars 2025. Elle vise à lever les difficultés qui persistent, notamment dans les territoires ruraux, malgré la loi du 20 juillet 2023. Elle propose de simplifier la comptabilisation de l'artificialisation en pérennisant le décompte de la consommation d'espaces naturels, agricoles et forestiers, d'abroger l'objectif intermédiaire de réduction de moitié du rythme d'artificialisation sur 2021-2031, de repousser les dates butoirs de révision des documents de planification et de partir des besoins des collectivités pour fixer les objectifs, sans toucher à l'objectif final de 2050.",
+     "Le Sénat y a ajouté la possibilité, pour les régions, de fixer leur propre trajectoire avec un premier jalon en 2034, un poids accru des élus locaux dans les conférences régionales de gouvernance, l'exemption du décompte jusqu'en 2036 de certains projets (implantations industrielles, énergies renouvelables, logement social dans les communes carencées, réseaux d'eau), un dépassement de droit de 20 % des enveloppes foncières locales, une bonification en cas de requalification de friches et une mutualisation facilitée de la garantie de développement communal de 1 hectare au sein de l'intercommunalité."
+    ]
+   },
+   "source": {
+    "titre": "Sénat, la loi en clair : proposition de loi TRACE",
+    "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-instaurer-une-trajectoire-de-reduction-de-lartificialisation-concertee-avec-les-elus-locaux.html"
+   },
+   "modele": {
+    "paragraphes": [
+     "Adoptée par le Sénat le 18 mars 2025, la proposition de loi TRACE assouplit le dispositif de zéro artificialisation nette sans toucher à l'objectif final de 2050. Elle pérennise le décompte de la consommation d'espaces naturels, agricoles et forestiers, abroge l'objectif intermédiaire de réduction de moitié sur 2021-2031 et repousse les dates de révision des documents de planification. Le Sénat y a ajouté des souplesses locales : un dépassement de droit de 20 % des enveloppes foncières, une bonification pour les friches et une mutualisation de la garantie communale de 1 hectare au sein de l'intercommunalité. Le texte a été transmis à l'Assemblée nationale."
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "Le modèle commence par ce que le texte change pour le lecteur, pas par son historique.",
+    "Les exemptions sectorielles et le jalon de 2034, utiles à un juriste, sont coupés."
+   ]
+  },
+  {
+   "id": "c05",
+   "type": "une-page",
+   "titre": "REACT-EU : une page pour la vice-présidente de la Région",
+   "duree_min": 20,
+   "consigne": "La vice-présidente chargée de l'Europe doit répondre en commission à une question sur l'efficacité de REACT-EU. Rédige une page (environ 250 mots) : message, trois faits, une décision ou un point de prudence.",
+   "matiere": {
+    "faits": [
+     "REACT-EU a apporté 50,06 Md€ aux États membres en décembre 2020 ; la France reçoit 3,9 Md€, soit près de 8 % de l'enveloppe, troisième bénéficiaire.",
+     "L'évaluation nationale a été menée fin 2024 avec un bilan physico-financier, une enquête (22 % de retour), 10 études de cas et 8 focus ; elle a été publiée en janvier 2025.",
+     "Au 18 juillet 2024, 3 592 dossiers étaient programmés ; le taux de paiement du FEDER atteint 81,6 % contre 79,1 % au niveau européen.",
+     "Près de 80 % des porteurs interrogés jugent les effets durables.",
+     "Les porteurs soulignent la complexité des procédures ; les autorités de gestion ont dû clôturer 2014-2020, déployer REACT-EU et préparer 2021-2027 en même temps."
+    ]
+   },
+   "source": {
+    "titre": "ANCT, évaluation de l'initiative REACT-EU en France (voir l'exercice n04)",
+    "url": "https://www.europe-en-france.gouv.fr/en/ressources/evaluation-initiative-react-eu-en-france"
+   },
+   "modele": {
+    "paragraphes": [
+     "REACT-EU a été jugée pertinente et efficace par l'évaluation nationale, avec des réserves sur les procédures.",
+     "Trois faits à retenir. La France a reçu 3,9 Md€ sur 50,06 Md€, soit près de 8 % de l'enveloppe, troisième bénéficiaire. Au 18 juillet 2024, 3 592 dossiers étaient programmés et le taux de paiement du FEDER atteignait 81,6 %, contre 79,1 % au niveau européen. Près de 80 % des porteurs interrogés jugent les effets durables.",
+     "Point de vigilance : les porteurs insistent sur la complexité des procédures, et l'enquête n'a obtenu que 22 % de réponses : ses résultats décrivent l'avis des répondants, pas de l'ensemble des porteurs.",
+     "Position suggérée : saluer la rapidité de mobilisation des crédits, et demander que les procédures simplifiées expérimentées soient conservées pour 2021-2027."
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "Le message tient en une phrase, qu'on peut dire à voix haute devant une commission.",
+    "La limite de l'enquête (22 %) est dite en une phrase, sans jargon."
+   ]
+  },
+  {
+   "id": "c06",
+   "type": "une-page",
+   "titre": "TRACE : une page pour un maire rural",
+   "duree_min": 20,
+   "consigne": "Le maire d'une commune de 600 habitants, qui prépare l'arrêt de son PLUi avec l'intercommunalité, demande si TRACE change quelque chose pour lui. Rédige une page (environ 250 mots) : message, trois faits, ce qu'il doit faire maintenant.",
+   "matiere": {
+    "faits": [
+     "TRACE a été adopté par le Sénat le 18 mars 2025 et n'est pas devenu loi : il est transmis à l'Assemblée nationale et n'y était pas inscrit au 24 juin 2026.",
+     "Le texte maintiendrait l'objectif de 2050, abrogerait l'objectif de réduction de moitié sur 2021-2031 et faciliterait la mutualisation de la garantie communale de 1 hectare au sein de l'intercommunalité.",
+     "Il prévoit aussi un dépassement de droit de 20 % des enveloppes foncières locales et une bonification en cas de requalification de friches.",
+     "La ministre indique que le Gouvernement souhaite un accord préalable entre les deux assemblées et que les deux tiers des régions ont déjà révisé leur Sraddet."
+    ]
+   },
+   "source": {
+    "titre": "Sénat (voir l'exercice n03, documents D1 et D2)",
+    "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-instaurer-une-trajectoire-de-reduction-de-lartificialisation-concertee-avec-les-elus-locaux.html"
+   },
+   "modele": {
+    "paragraphes": [
+     "Pour votre commune, TRACE ne change rien aujourd'hui : ce n'est pas une loi.",
+     "Trois faits. Le Sénat l'a adopté le 18 mars 2025, mais l'Assemblée nationale ne l'avait pas inscrit au 24 juin 2026. S'il était adopté, il faciliterait la mutualisation de la garantie communale de 1 hectare au sein de l'intercommunalité, ce qui peut vous intéresser si votre commune a peu de projets. Il prévoit aussi un dépassement de droit de 20 % des enveloppes foncières locales et une bonification en cas de requalification de friches. Mais l'objectif de 2050 est maintenu.",
+     "Ce que je vous propose : continuer le PLUi avec les règles en vigueur, en listant dès maintenant vos besoins en foncier et vos friches, ce qui servira dans les deux cas. Le Gouvernement veut un accord entre les assemblées avant d'inscrire le texte, et la plupart des régions ont déjà révisé leur schéma : l'issue reste incertaine."
+    ]
+   },
+   "calculs": [],
+   "lecons": [
+    "La première phrase répond à la question posée (« rien aujourd'hui »).",
+    "La note évite le vocabulaire juridique non défini et reste prudente sur l'avenir."
+   ]
+  },
+  {
+   "id": "c07",
+   "type": "graphique",
+   "titre": "Taux d'épargne brute des départements néo-aquitains, 2023-2025",
+   "duree_min": 15,
+   "consigne": "Lis ce tableau et écris trois enseignements en trois phrases : ce qui bouge, ce qui détonne, ce qu'il faut vérifier avant de conclure.",
+   "matiere": {
+    "tableau": {
+     "colonnes": [
+      "Département",
+      "Taux d'épargne brute 2023 (%)",
+      "2024 (%)",
+      "2025 (%)"
+     ],
+     "lignes": [
+      [
+       "Charente",
+       "11,5",
+       "7,6",
+       "8,3"
+      ],
+      [
+       "Charente-Maritime",
+       "13,7",
+       "10,1",
+       "14,5"
+      ],
+      [
+       "Corrèze",
+       "24,5",
+       "11,7",
+       "24,8"
+      ],
+      [
+       "Creuse",
+       "10,0",
+       "7,3",
+       "9,1"
+      ],
+      [
+       "Deux-Sèvres",
+       "11,2",
+       "11,4",
+       "12,3"
+      ],
+      [
+       "Dordogne",
+       "9,4",
+       "6,4",
+       "8,0"
+      ],
+      [
+       "Gironde",
+       "-0,3",
+       "-3,6",
+       "0,6"
+      ],
+      [
+       "Haute-Vienne",
+       "14,2",
+       "9,6",
+       "9,2"
+      ],
+      [
+       "Landes",
+       "11,3",
+       "8,8",
+       "10,3"
+      ],
+      [
+       "Lot-et-Garonne",
+       "11,7",
+       "6,5",
+       "9,9"
+      ],
+      [
+       "Pyrénées-Atlantiques",
+       "8,9",
+       "5,8",
+       "9,8"
+      ],
+      [
+       "Vienne",
+       "9,6",
+       "7,3",
+       "9,7"
+      ]
+     ]
+    },
+    "texte": [
+     "Seuil d'alerte de l'épargne brute : 7 % des recettes de fonctionnement (Cour des comptes). Source des données : OFGL, comptes consolidés des départements."
+    ]
+   },
+   "source": {
+    "titre": "OFGL, comptes consolidés des départements (voir l'exercice n01, document D3)",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/"
+   },
+   "modele": {
+    "liste": [
+     "Ce qui bouge : le taux d'épargne baisse en 2024 dans onze départements sur douze (seules les Deux-Sèvres progressent) puis remonte en 2025 dans onze sur douze (seule la Haute-Vienne recule) : le mouvement est commun, ce qui évoque une cause partagée plutôt qu'une gestion locale.",
+     "Ce qui détonne : la Gironde est le seul département sous le seuil de 7 % en 2025 (0,6 %) et le seul à avoir une épargne négative en 2023 et en 2024 ; à l'inverse la Corrèze atteint 24,5 % en 2023 et 24,8 % en 2025, avec un creux à 11,7 % en 2024.",
+     "À vérifier avant de conclure : l'ampleur de la variation de la Corrèze (une recette exceptionnelle ?) et le statut, provisoire ou définitif, des données 2025 ; le tableau ne dit rien des causes, ni de la dette."
+    ]
+   },
+   "calculs": [
+    "Onze départements sur douze en baisse en 2024 : tous sauf les Deux-Sèvres (11,2 puis 11,4).",
+    "Onze départements sur douze en hausse en 2025 : tous sauf la Haute-Vienne (9,6 puis 9,2).",
+    "Trois enseignements : décompte de la liste."
+   ],
+   "lecons": [
+    "Le premier enseignement décrit un mouvement d'ensemble avant les cas particuliers.",
+    "Le troisième dit ce qu'on ne peut pas conclure : c'est la phrase qui protège de l'erreur."
+   ]
+  },
+  {
+   "id": "c08",
+   "type": "graphique",
+   "titre": "Évolution des dépenses des collectivités, 2024 et 2025",
+   "duree_min": 15,
+   "consigne": "Lis ce tableau et écris trois enseignements en trois phrases : ce qui bouge, ce qui détonne, ce qu'il faut vérifier avant de conclure.",
+   "matiere": {
+    "tableau": {
+     "colonnes": [
+      "Indicateur (collectivités, ensemble)",
+      "2024",
+      "2025"
+     ],
+     "lignes": [
+      [
+       "Évolution des dépenses de fonctionnement",
+       "+4,4 %",
+       "+1,4 %"
+      ],
+      [
+       "Évolution des dépenses d'investissement",
+       "+6,8 %",
+       "+2,2 %"
+      ],
+      [
+       "Évolution des recettes de fonctionnement",
+       "non disponible",
+       "+2,3 %"
+      ],
+      [
+       "Déficit en comptabilité nationale (Md€)",
+       "12,0",
+       "9,3"
+      ]
+     ]
+    },
+    "texte": [
+     "Le déficit de 2024 est calculé : 9,3 Md€ en 2025, soit 2,7 Md€ de moins qu'en 2024 (Cour des comptes). Les départements ont réduit leurs dépenses d'investissement pour la deuxième année consécutive ; les droits de mutation ont rebondi en 2025."
+    ]
+   },
+   "source": {
+    "titre": "Cour des comptes, Les finances publiques locales : résultats 2025 et perspectives 2026",
+    "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026"
+   },
+   "modele": {
+    "liste": [
+     "Ce qui bouge : tout ralentit en 2025, les dépenses de fonctionnement (de 4,4 % à 1,4 %) comme l'investissement (de 6,8 % à 2,2 %), et le déficit se réduit de 12,0 à 9,3 Md€.",
+     "Ce qui détonne : en 2025 les recettes de fonctionnement (2,3 %) progressent plus vite que les dépenses de fonctionnement (1,4 %) ; la réduction du déficit tient donc à cet écart, qui s'explique en partie par le rebond des droits de mutation.",
+     "À vérifier avant de conclure : le déficit de 2024 est ici recalculé et les pourcentages portent sur l'ensemble des collectivités, ce qui masque les différences entre niveaux ; le tableau ne dit pas si le ralentissement de l'investissement est un choix ou une contrainte."
+    ]
+   },
+   "calculs": [
+    "Déficit 2024 : 9,3 + 2,7 = 12,0 Md€ (Cour des comptes)."
+   ],
+   "lecons": [
+    "Le modèle repère un écart (recettes plus dynamiques que dépenses) plutôt que de commenter chaque ligne.",
+    "Il signale qu'un chiffre est recalculé, ce qui protège d'une erreur de lecture."
+   ]
+  }
+ ]
+}

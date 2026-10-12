@@ -8,12 +8,13 @@ import { loadData } from '../data.js';
 import { etapes, prochaineEtape, joursRestants, sprintActif } from '../candidature.js';
 import { prochainKit } from '../fondations.js';
 import { essaisDepuisNotes, choisirProchaine } from '../dictee.js';
+import { blocJeudi } from './atelier.js';
 
 const PROFOND = ['Revue hebdomadaire', 'Institutions et action publique', 'Culture générale',
   'Évaluation et données', 'Atelier d\'écriture / portfolio', 'Oral', 'Lecture longue ou podcast'];
 const JOURS_DICTEE = [1, 3, 5]; // lundi, mercredi, vendredi
 
-function blocs(now, dues, sprint = null, kit = null, dictee = null) {
+function blocs(now, dues, sprint = null, kit = null, dictee = null, atelier = null) {
   const dow = new Date(now).getDay();
   return [
     { id: 'brief', titre: 'Brief', min: 8, lien: '#/brief',
@@ -25,7 +26,9 @@ function blocs(now, dues, sprint = null, kit = null, dictee = null) {
     sprint
       ? { id: 'profond', titre: `Sprint candidature (jusqu'au 15 novembre)`, min: 25, lien: sprint.lien,
         note: `${sprint.jours} jour${sprint.jours > 1 ? 's' : ''} restant${sprint.jours > 1 ? 's' : ''}. Prochaine étape : ${sprint.titre}.` }
-      : kit
+      : atelier
+        ? { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, lien: atelier.href, note: atelier.note }
+        : kit
         ? { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, lien: `#/fondations/kit?id=${kit.id}`,
           note: `Kit « ${kit.titre} ». ${kit.accroche}` }
         : { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, manuel: true,
@@ -33,7 +36,8 @@ function blocs(now, dues, sprint = null, kit = null, dictee = null) {
     JOURS_DICTEE.includes(dow)
       ? { id: 'dictee', titre: 'Dictée', min: 10, lien: dictee ? `#/dictee/ecrire?id=${dictee.id}` : '#/dictee',
         note: dictee ? `Sur papier : « ${dictee.titre} » (niveau ${dictee.niveau}, ${dictee.mots} mots), puis correction à l'écran.` : 'Dictée sur papier, correction à l\'écran.' }
-      : { id: 'mot', titre: 'Mot du jour et sigles', min: 10, avenir: 'À venir. Les sigles tournent déjà dans les cartes.' },
+      : { id: 'mot', titre: 'Lecture libre', min: 10, manuel: true,
+        note: 'Le dossier de la semaine du Brief, ou le livre ou le podcast en cours. Les sigles et le vocabulaire tournent déjà dans les cartes.' },
   ];
 }
 
@@ -59,6 +63,10 @@ export async function render({ view, store, decks }) {
       kit = prochainKit(index, notesKits, new Date(now).getDay());
     } catch (e) { console.warn('kit du jour', e); } // le bloc reste affiché sans kit
   }
+  let atelier = null;
+  if (!sprint && new Date(now).getDay() === 4) {
+    try { atelier = await blocJeudi(store); } catch (e) { console.warn('atelier du jeudi', e); } // le bloc reste affiché sans lien
+  }
   let dictee = null;
   if (JOURS_DICTEE.includes(new Date(now).getDay())) {
     try {
@@ -66,7 +74,7 @@ export async function render({ view, store, decks }) {
       dictee = choisirProchaine(data.dictees, essaisDepuisNotes(notesDictees), regles.categories.map((c) => c.id));
     } catch (e) { console.warn('dictée du jour', e); } // le bloc reste affiché sans dictée précise
   }
-  const list = blocs(now, queue.length, sprint, kit, dictee);
+  const list = blocs(now, queue.length, sprint, kit, dictee, atelier);
   let rec = days.find((d) => d.day === today) ?? { day: today, done: {}, finished: false };
   const finishedDays = new Set(days.filter((d) => d.finished).map((d) => d.day));
 

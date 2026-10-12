@@ -1,0 +1,732 @@
+{
+ "revu": "2026-10-12",
+ "avertissement": "Les résumés du corpus sont rédigés pour l'exercice d'après les documents lus : ils ne remplacent pas les originaux, qui font foi (liens fournis). Les situations (service, destinataire) sont fictives ; les chiffres et les faits viennent des documents. Les notes modèles n'utilisent que des faits du corpus ; les chiffres calculés sont listés dans « calculs ».",
+ "notes": [
+  {
+   "id": "n01",
+   "titre": "Les finances des départements néo-aquitains en 2025",
+   "parcours": "Finances locales",
+   "duree_min": 60,
+   "mots": {
+    "min": 400,
+    "max": 900
+   },
+   "commande": {
+    "role": "Chargé(e) de mission au secrétariat général pour les affaires régionales (SGAR) de Nouvelle-Aquitaine",
+    "destinataire": "Le secrétaire général pour les affaires régionales",
+    "objet": "Situation financière des douze départements de la région avant le dialogue avec les présidents de conseils départementaux",
+    "contexte": "Octobre 2026. Le SGAR doit rencontrer les présidents de conseils départementaux dans les semaines qui viennent. Il veut savoir si la situation financière des départements s'est vraiment redressée en 2025 et sur quoi concentrer le dialogue.",
+    "consigne": "Rédige une note de deux pages au plus : un message principal, trois enseignements chiffrés, deux ou trois propositions, les risques et les limites."
+   },
+   "corpus": [
+    {
+     "id": "D1",
+     "titre": "Les finances publiques locales : résultats 2025 et perspectives 2026",
+     "organisme": "Cour des comptes",
+     "type": "Rapport annuel (page de présentation)",
+     "date": "9 juillet 2026",
+     "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-resultats-2025-et-perspectives-2026",
+     "resume": [
+      "Dix mois avant les échéances électorales de 2027, la Cour fait le point sur les comptes 2025 des communes, départements, régions et de leurs groupements. Les collectivités sont en déficit depuis 2023, un déficit qui a doublé en 2024 sous l'effet de la hausse des dépenses et de la chute des droits de mutation à titre onéreux (DMTO). En 2025, il se réduit à 9,3 Md€ en comptabilité nationale (2,7 Md€ de moins qu'en 2024) et à 11,3 Md€ en comptabilité budgétaire (0,5 Md€ de moins).",
+      "Les recettes de fonctionnement progressent de 2,3 % et les dépenses de fonctionnement de 1,4 % (contre 4,4 % en 2024). Les DMTO rebondissent grâce au retournement du marché immobilier et au relèvement de leur taux à 5 % par la plupart des départements, que la loi de finances pour 2025 leur permettait. Les dépenses d'investissement augmentent de 2,2 % (6,8 % en 2024) ; elles baissent pour les départements pour la deuxième année consécutive.",
+      "Le seuil d'alerte de l'épargne brute est de 7 % des produits de fonctionnement. Les départements, qui l'avaient frôlé en 2024, s'en éloignent, mais l'embellie ne doit pas masquer la dynamique de leurs dépenses sociales. Pour 16 départements, l'épargne brute reste inférieure à 7 % ; pour 9 départements, l'endettement dépasse l'autre seuil d'alerte, exprimé en années d'épargne brute.",
+      "Pour 2026, le déficit des collectivités se réduirait à 4,4 Md€ selon le rapport d'avancement d'avril 2026, mais la Cour juge les prévisions de DMTO et de taxes foncières moins bien corroborées et note que la remontée de l'inflation n'est pas prise en compte. La contribution nette des collectivités au redressement des finances publiques est de 4,3 Md€ en 2025 et de 3,5 Md€ en 2026 d'après la loi de finances pour 2026 ; la Cour recommande de la redéfinir."
+     ],
+     "chiffres": [
+      {
+       "label": "Déficit des collectivités 2025 (comptabilité nationale)",
+       "valeur": "9,3 Md€ (−2,7 Md€ par rapport à 2024)"
+      },
+      {
+       "label": "Déficit prévu en 2026",
+       "valeur": "4,4 Md€"
+      },
+      {
+       "label": "Seuil d'alerte d'épargne brute",
+       "valeur": "7 % des produits de fonctionnement"
+      },
+      {
+       "label": "Départements sous le seuil d'épargne (France)",
+       "valeur": "16"
+      }
+     ],
+     "limite": "Résumé de la page de présentation du rapport ; le rapport complet (PDF) détaille chaque niveau de collectivité. Les chiffres nationaux ne disent rien d'un département précis."
+    },
+    {
+     "id": "D2",
+     "titre": "BIS 216 : La sensibilité des recettes des départements aux variations des DMTO, de la TVA et de la TICPE",
+     "organisme": "Direction générale des collectivités locales (DGCL)",
+     "type": "Bulletin d'information statistique (page de présentation)",
+     "date": "22 septembre 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-216-la-sensibilite-des-recettes-des-departements-aux-variations-des-dmto-de-la-tva-et-de-la",
+     "resume": [
+      "En 2025, les DMTO, l'accise sur les énergies (ex-TICPE) et la fraction de TVA représentent plus de la moitié des recettes de fonctionnement des départements : 52,5 %, soit 38,5 Md€. Ces ressources dépendent de la conjoncture et peuvent fluctuer.",
+      "Entre 2012 et 2025, l'accise sur les énergies a été relativement stable alors que les DMTO ont connu les plus fortes variations. L'effet de ces fluctuations sur les recettes de fonctionnement varie d'un département à l'autre selon les mécanismes de péréquation et les autres sources de financement : la sensibilité peut être modérée, intermédiaire ou élevée, quelle que soit la part des trois taxes dans les recettes."
+     ],
+     "chiffres": [
+      {
+       "label": "Part des DMTO, de l'accise sur les énergies et de la TVA dans les recettes de fonctionnement des départements, 2025",
+       "valeur": "52,5 % (38,5 Md€)"
+      }
+     ],
+     "limite": "La page présente l'étude sans donner les résultats par département : pour savoir si un département est très sensible, il faut lire l'étude complète."
+    },
+    {
+     "id": "D3",
+     "titre": "Comptes consolidés des départements 2012-2025 : douze départements de Nouvelle-Aquitaine",
+     "organisme": "Observatoire des finances et de la gestion publique locales (OFGL), d'après les balances comptables de la DGFiP",
+     "type": "Données ouvertes (Licence ouverte 2.0), tableau calculé pour l'exercice",
+     "date": "Jeu de données mis à jour le 17 juillet 2026",
+     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
+     "resume": [
+      "Les comptes consolidés agrègent le budget principal et les budgets annexes de chaque département, après neutralisation des flux croisés. Le taux d'épargne brute est l'épargne brute divisée par les recettes de fonctionnement ; la capacité de désendettement est l'encours de dette divisé par l'épargne brute (elle n'a pas de sens quand l'épargne brute est nulle ou négative, noté « sans objet »).",
+      "Repères de lecture : seuil d'alerte de 7 % pour le taux d'épargne brute (Cour des comptes) ; seuils critiques de 9 à 12 ans de capacité de désendettement selon les catégories de collectivités (Cour des comptes, synthèse de juin 2025)."
+     ],
+     "tableau": {
+      "colonnes": [
+       "Département",
+       "Épargne brute 2023 (M€)",
+       "Taux d'épargne brute 2023 (%)",
+       "Épargne brute 2024 (M€)",
+       "Taux d'épargne brute 2024 (%)",
+       "Épargne brute 2025 (M€)",
+       "Taux d'épargne brute 2025 (%)",
+       "Encours de dette fin 2025 (M€)",
+       "Désendettement 2025 (années)"
+      ],
+      "lignes": [
+       [
+        "Charente (16)",
+        "54,8",
+        "11,5",
+        "36,2",
+        "7,6",
+        "40,4",
+        "8,3",
+        "182,4",
+        "4,5"
+       ],
+       [
+        "Charente-Maritime (17)",
+        "113,9",
+        "13,7",
+        "82,5",
+        "10,1",
+        "122,7",
+        "14,5",
+        "403,1",
+        "3,3"
+       ],
+       [
+        "Corrèze (19)",
+        "83,8",
+        "24,5",
+        "40,6",
+        "11,7",
+        "86,2",
+        "24,8",
+        "181,7",
+        "2,1"
+       ],
+       [
+        "Creuse (23)",
+        "19,9",
+        "10,0",
+        "14,6",
+        "7,3",
+        "17,9",
+        "9,1",
+        "85,9",
+        "4,8"
+       ],
+       [
+        "Deux-Sèvres (79)",
+        "44,5",
+        "11,2",
+        "45,7",
+        "11,4",
+        "50,0",
+        "12,3",
+        "113,4",
+        "2,3"
+       ],
+       [
+        "Dordogne (24)",
+        "53,1",
+        "9,4",
+        "36,4",
+        "6,4",
+        "46,1",
+        "8,0",
+        "448,3",
+        "9,7"
+       ],
+       [
+        "Gironde (33)",
+        "-5,4",
+        "-0,3",
+        "-62,5",
+        "-3,6",
+        "11,5",
+        "0,6",
+        "1225,9",
+        "106,7"
+       ],
+       [
+        "Haute-Vienne (87)",
+        "64,4",
+        "14,2",
+        "42,8",
+        "9,6",
+        "42,5",
+        "9,2",
+        "22,7",
+        "0,5"
+       ],
+       [
+        "Landes (40)",
+        "60,0",
+        "11,3",
+        "47,0",
+        "8,8",
+        "56,2",
+        "10,3",
+        "136,5",
+        "2,4"
+       ],
+       [
+        "Lot-et-Garonne (47)",
+        "50,9",
+        "11,7",
+        "28,7",
+        "6,5",
+        "43,5",
+        "9,9",
+        "207,3",
+        "4,8"
+       ],
+       [
+        "Pyrénées-Atlantiques (64)",
+        "66,6",
+        "8,9",
+        "43,6",
+        "5,8",
+        "78,3",
+        "9,8",
+        "382,7",
+        "4,9"
+       ],
+       [
+        "Vienne (86)",
+        "44,4",
+        "9,6",
+        "34,0",
+        "7,3",
+        "46,6",
+        "9,7",
+        "244,8",
+        "5,2"
+       ]
+      ]
+     },
+     "limite": "Tableau produit par scripts/portfolio_ofgl.py à partir du jeu de données ; le statut provisoire ou définitif des données 2025 n'est pas précisé dans la notice lue. Le périmètre consolidé peut différer des comptes publiés par chaque département."
+    }
+   ],
+   "modele": {
+    "titre": "Départements néo-aquitains : un rebond en 2025, sauf en Gironde, sur des recettes volatiles",
+    "en_tete": [
+     "De : chargé de mission, SGAR de Nouvelle-Aquitaine",
+     "À : Monsieur le secrétaire général pour les affaires régionales",
+     "Objet : Situation financière des douze départements néo-aquitains avant le dialogue avec les présidents de conseils départementaux",
+     "Date : octobre 2026"
+    ],
+    "sections": [
+     {
+      "titre": "Message principal",
+      "paragraphes": [
+       "En 2025, onze des douze départements néo-aquitains ont une épargne brute supérieure au seuil d'alerte de 7 % de leurs recettes de fonctionnement. La Gironde fait exception : 0,6 %, pour un encours de dette de 1 225,9 M€ [D3]. Ce rebond suit un creux en 2024 et repose sur des recettes volatiles [D1, D2] : il ne dit rien de 2026. Je propose de concentrer le dialogue sur la Gironde, puis sur la Dordogne et la Charente, les plus proches du seuil."
+      ]
+     },
+     {
+      "titre": "Un rebond réel en 2025, après le creux de 2024",
+      "paragraphes": [
+       "Au niveau national, la Cour des comptes relève que les départements, qui avaient frôlé le seuil d'alerte en 2024, s'en éloignent en 2025, grâce au rebond des droits de mutation (DMTO) et au relèvement de leur taux à 5 % par la plupart des départements [D1]. La région suit ce mouvement [D3] :"
+      ],
+      "liste": [
+       "en 2024, quatre départements passent sous 7 % : la Dordogne (6,4 %), le Lot-et-Garonne (6,5 %), les Pyrénées-Atlantiques (5,8 %) et la Gironde (−3,6 %) ;",
+       "en 2025, seule la Gironde reste sous le seuil (0,6 %) ; les onze autres vont de 8,0 % (Dordogne) à 24,8 % (Corrèze)."
+      ]
+     },
+     {
+      "titre": "Trois points de fragilité subsistent",
+      "paragraphes": [
+       "La Gironde. Son épargne brute n'est que de 11,5 M€ en 2025 (−62,5 M€ en 2024) face à 1 225,9 M€ de dette : la capacité de désendettement atteint 106,7 années, très au-delà des seuils critiques de 9 à 12 ans [D3]. La dette ne peut plus être couverte par l'épargne ; seul un retour durable de l'épargne ou un ralentissement de l'investissement change cette lecture.",
+       "La Dordogne et la Charente. Elles sont à 8,0 % et 8,3 % d'épargne brute, soit moins de 1,5 point au-dessus du seuil, et la Dordogne cumule 9,7 années de désendettement [D3]. Leur marge est faible sur les deux ratios.",
+       "La structure des recettes. Les DMTO, l'accise sur les énergies et la TVA représentent 52,5 % des recettes de fonctionnement des départements (38,5 Md€ en 2025), et les DMTO ont connu les plus fortes variations depuis 2012 [D2]. La Cour rappelle en outre que la dynamique des dépenses sociales continue de peser [D1]."
+      ]
+     },
+     {
+      "titre": "Ce qui reste incertain en 2026",
+      "paragraphes": [
+       "Le déficit des collectivités devrait passer de 9,3 Md€ en 2025 à 4,4 Md€ en 2026, mais la Cour juge les prévisions de DMTO et de taxes foncières moins bien corroborées et note que la remontée de l'inflation n'est pas intégrée [D1]. La contribution nette des collectivités au redressement des finances publiques passe de 4,3 Md€ à 3,5 Md€ [D1] : son évolution peut encore changer les marges de chacun."
+      ]
+     },
+     {
+      "titre": "Propositions",
+      "liste": [
+       "Placer la Gironde en suivi renforcé : demander au département, avant la fin 2026, sa trajectoire pluriannuelle d'épargne et d'investissement (SGAR, avec la direction départementale des finances publiques).",
+       "Demander à la Dordogne et à la Charente une simulation de l'effet d'une nouvelle baisse des DMTO sur leur épargne brute, avant la préparation de leur budget 2027.",
+       "Avant tout échange avec la Corrèze, faire expliquer la variation de son taux d'épargne (24,5 % en 2023, 11,7 % en 2024, 24,8 % en 2025) : une opération exceptionnelle peut fausser la comparaison."
+      ]
+     },
+     {
+      "titre": "Risques et limites",
+      "paragraphes": [
+       "Les chiffres départementaux viennent des comptes consolidés de l'OFGL (budgets principaux et annexes), d'après les balances comptables de la DGFiP ; leur périmètre peut différer des comptes publiés par chaque département. Le statut, provisoire ou définitif, des données 2025 n'est pas précisé dans la notice lue : à vérifier avant toute diffusion. Un taux d'épargne élevé peut aussi provenir d'une recette exceptionnelle : c'est la série, et non l'année, qui doit guider le dialogue.",
+       "Décision demandée : validation du suivi renforcé de la Gironde et de la demande de simulation à la Dordogne et à la Charente."
+      ]
+     }
+    ],
+    "calculs": [
+     "Onze départements sur douze au-dessus de 7 % en 2025 : tous sauf la Gironde (tableau D3).",
+     "Quatre départements sous 7 % en 2024 : Dordogne, Lot-et-Garonne, Pyrénées-Atlantiques, Gironde (tableau D3).",
+     "Douze départements : liste du tableau D3.",
+     "Moins de 1,5 point au-dessus du seuil : 8,0 − 7 = 1,0 point (Dordogne) et 8,3 − 7 = 1,3 point (Charente)."
+    ],
+    "lecons": [
+     "Le message principal tient dans le premier paragraphe : un lecteur qui s'arrête là a déjà l'essentiel.",
+     "Les trois enseignements sont chiffrés, datés, comparés à un seuil et renvoient à un document.",
+     "Les propositions ont un responsable ou un destinataire et une échéance.",
+     "Les limites disent ce que l'on ne sait pas (statut des données 2025, périmètre) au lieu de l'affirmer.",
+     "Aucune cause n'est affirmée pour la Corrèze : la note demande une explication."
+    ]
+   }
+  },
+  {
+   "id": "n02",
+   "titre": "Le suivi du CPER 2021-2027 de Provence-Alpes-Côte d'Azur",
+   "parcours": "Contractualisation et évaluation",
+   "duree_min": 60,
+   "mots": {
+    "min": 400,
+    "max": 900
+   },
+   "commande": {
+    "role": "Chargé(e) de mission au secrétariat général pour les affaires régionales (SGAR) de Provence-Alpes-Côte d'Azur",
+    "destinataire": "Le préfet de région, par l'intermédiaire du secrétaire général pour les affaires régionales",
+    "objet": "Dispositif de suivi et d'évaluation du CPER 2021-2027 à proposer pour 2023",
+    "contexte": "Fin décembre 2022. Le premier comité stratégique de pilotage, d'évaluation et de suivi (CoSPES) du contrat de plan État-Région vient de se réunir. Le préfet veut que le suivi du contrat ne reproduise pas les défauts relevés par la Cour des comptes pour la génération 2007-2013.",
+    "consigne": "Rédige une note de deux pages au plus : ce que le comité a présenté et ne dit pas, les risques, deux ou trois propositions pour 2023, les limites."
+   },
+   "corpus": [
+    {
+     "id": "D1",
+     "titre": "1er Comité stratégique de pilotage, d'évaluation et de suivi du CPER 2021-2027",
+     "organisme": "Préfecture de la région Provence-Alpes-Côte d'Azur et Région Sud",
+     "type": "Communiqué de presse",
+     "date": "21 décembre 2022",
+     "url": "https://www.bouches-du-rhone.gouv.fr/contenu/telechargement/50381/368293/file/CP - 1er Comité stratégique de pilotage d'évaluation et de suivi du CPER 2021-2027 - 21.12.2022.pdf",
+     "resume": [
+      "Le CPER a été signé en mars 2022. Le comité stratégique (CoSPES), coprésidé par le préfet de région et le président de la Région, s'est réuni pour la première fois le 20 décembre 2022. Il contrôle et mesure l'avancement du programme, définit la stratégie et les objectifs de programmation de l'année à venir, valide le bilan annuel d'exécution et décide de l'évolution des opérations de chaque priorité. Y participent les préfets de départements, les présidents des unions des maires, du CESER, des conseils départementaux et des métropoles, ainsi que des représentants de l'État et du conseil régional.",
+      "Au total, 1,68 Md€ seront investis conjointement par l'État (857 M€) et la Région (824 M€). Au 30 juin 2022, l'État (315 M€) et la Région (259 M€) avaient déjà alloué 574 M€ aux projets des territoires. Six conventions d'ambition territoriale, une par département, ont été présentées pour 618 M€ (318 M€ de l'État et 300 M€ de la Région). Le contrat s'organise en neuf priorités opérationnelles. Quatre comités de programmation sont prévus en 2023, coprésidés par l'État et la Région."
+     ],
+     "chiffres": [
+      {
+       "label": "Montant total du CPER (État + Région)",
+       "valeur": "1,68 Md€ (857 M€ + 824 M€)"
+      },
+      {
+       "label": "Alloué au 30 juin 2022",
+       "valeur": "574 M€ (315 M€ État, 259 M€ Région)"
+      },
+      {
+       "label": "Conventions d'ambition territoriale",
+       "valeur": "6, pour 618 M€"
+      }
+     ],
+     "limite": "Un communiqué de presse : il donne des montants alloués, ni taux de paiement ni indicateurs de résultats. Les chiffres ont été lus sur le PDF et recoupés par addition (857 + 824 ; 315 + 259 ; 318 + 300). Le communiqué ne précise pas si les 618 M€ des conventions sont inclus dans les 1,68 Md€."
+    },
+    {
+     "id": "D2",
+     "titre": "Contrats de plan État-Région",
+     "organisme": "Ministères chargés de la transition écologique et de l'aménagement du territoire",
+     "type": "Page de présentation",
+     "date": "Publiée le 8 août 2022, mise à jour le 25 avril 2023",
+     "url": "https://www.ecologie.gouv.fr/politiques-publiques/contrats-plan-etat-region",
+     "resume": [
+      "Les CPER réunissent les financements de l'État et des régions autour de projets structurants pour l'aménagement du territoire. La génération 2021-2027 repose sur quatre principes : une démarche ascendante, un périmètre élargi à de nouvelles thématiques (santé, agriculture, sports, éducation et jeunesse, égalité entre les femmes et les hommes, mer et littoral), la différenciation territoriale et une articulation étroite avec les fonds européens 2021-2027 et le plan de relance.",
+      "Sur les 28 Md€ que l'État mobilisera dans les CPER 2021-2027, 8,6 Md€ de crédits régionalisés du plan de relance alimenteront le volet relance. L'accord de partenariat du 28 septembre 2020 fixe un engagement minimal de 20 Md€ de l'État et de 20 Md€ des régions. Pour 2015-2020, les CPER avaient mobilisé près de 30 Md€ (État, régions et collectivités infrarégionales). Les projets se concentrent sur six volets, auxquels s'ajoute une priorité transversale, l'emploi."
+     ],
+     "chiffres": [
+      {
+       "label": "Engagement de l'État dans les CPER 2021-2027 (national)",
+       "valeur": "28 Md€, dont 8,6 Md€ de relance"
+      },
+      {
+       "label": "Engagement minimal fixé en 2020",
+       "valeur": "20 Md€ État, 20 Md€ régions"
+      }
+     ],
+     "limite": "Présentation générale au niveau national ; elle ne dit rien de l'exécution."
+    },
+    {
+     "id": "D3",
+     "titre": "La Cour des comptes formule huit propositions pour améliorer les contrats de plan",
+     "organisme": "Localtis, Banque des Territoires",
+     "type": "Article de presse spécialisée sur une enquête de la Cour des comptes (non encore publiée à l'époque)",
+     "date": "17 octobre 2014",
+     "url": "https://www.banquedesterritoires.fr/la-cour-des-comptes-formule-huit-propositions-pour-ameliorer-les-contrats-de-plan",
+     "resume": [
+      "Présentée au Sénat le 15 octobre 2014, l'enquête de la Cour relève pour les CPER 2007-2013 des taux d'exécution très inégaux selon les secteurs et les régions, l'absence d'étude d'impact et de faisabilité préalable, un trop grand nombre de priorités qui conduit à un saupoudrage, l'absence d'évaluation à mi-parcours pourtant prévue en 2010, et le lancement de programmes nationaux concurrents (investissements d'avenir, plan Campus, plans de transport).",
+      "Le logiciel de suivi Presage a été déployé après la signature des contrats : les régions ne s'en sont pas servies et ont développé leurs propres outils, ce qui a causé beaucoup d'incompréhensions entre l'État et les régions. Parmi ses huit propositions, la Cour demande d'inscrire les contrats dans une stratégie nationale, d'exiger des études préalables de faisabilité, de ne pas adopter seul des plans sectoriels susceptibles de perturber l'exécution pendant les deux ou trois premières années, et de mettre en place un comité de suivi national et des comités régionaux établissant chaque année un bilan d'exécution, avec une évaluation à mi-parcours permettant des réajustements."
+     ],
+     "chiffres": [
+      {
+       "label": "Enveloppe de l'État, génération 2015-2020 contre 2007-2013",
+       "valeur": "12,2 Md€ contre 12,7 Md€"
+      }
+     ],
+     "limite": "Article de presse sur une génération antérieure (2007-2013) ; il rapporte les propos d'un magistrat de la Cour et non le rapport lui-même."
+    }
+   ],
+   "modele": {
+    "titre": "CPER 2021-2027 : en 2023, tenir les exigences que la Cour réclamait déjà en 2014",
+    "en_tete": [
+     "De : chargé de mission, SGAR de Provence-Alpes-Côte d'Azur",
+     "À : Monsieur le préfet de région, sous couvert de Monsieur le secrétaire général pour les affaires régionales",
+     "Objet : Dispositif de suivi et d'évaluation du CPER 2021-2027 à proposer pour 2023",
+     "Date : décembre 2022"
+    ],
+    "sections": [
+     {
+      "titre": "Message principal",
+      "paragraphes": [
+       "Le premier comité stratégique (20 décembre 2022) a présenté un contrat de 1,68 Md€ dont 574 M€ étaient déjà alloués au 30 juin 2022 [D1]. Ce chiffre mesure des montants alloués, pas des projets réalisés ni des résultats. Pour éviter les défauts relevés par la Cour pour 2007-2013 [D3], je propose trois mesures dès 2023 : un tableau de bord commun État-Région, un cadrage de l'évaluation à mi-parcours et un recensement des programmes nationaux parallèles."
+      ]
+     },
+     {
+      "titre": "Ce que le comité a montré, et ce qu'il ne dit pas",
+      "paragraphes": [
+       "Le comité contrôle et mesure l'avancement, fixe les objectifs de l'année et valide un bilan annuel d'exécution [D1]. Il a présenté 1,68 Md€ (État 857 M€, Région 824 M€), 574 M€ alloués et six conventions d'ambition territoriale pour 618 M€ [D1]. Le communiqué ne donne ni taux de paiement ni indicateur de résultat, et ne précise pas si les 618 M€ des conventions sont inclus dans les 1,68 Md€.",
+       "Le cadre national est plus large qu'en 2014 : l'État mobilisera 28 Md€ dont 8,6 Md€ de relance, sur six volets et une priorité emploi, en articulation étroite avec les fonds européens 2021-2027 [D2]. Plus le périmètre s'élargit, plus le suivi devient difficile."
+      ]
+     },
+     {
+      "titre": "Le risque : refaire en 2023 ce que la Cour décrivait en 2014",
+      "paragraphes": [
+       "Pour 2007-2013, la Cour relevait des taux d'exécution très inégaux, l'absence d'évaluation à mi-parcours pourtant prévue, et des programmes nationaux concurrents [D3]. Elle expliquait aussi que le logiciel de suivi, déployé après la signature des contrats, n'avait pas été utilisé par les régions, qui avaient leurs propres outils : l'État et la Région ne parlaient pas des mêmes chiffres [D3]. Trois de ces risques sont présents ici : des chiffres différents d'un partenaire à l'autre, un suivi limité aux crédits alloués et un calendrier d'évaluation non fixé."
+      ]
+     },
+     {
+      "titre": "Propositions pour 2023",
+      "liste": [
+       "Un tableau de bord commun. Définir avant la fin du premier semestre 2023, avec les services de la Région, trois niveaux de suivi (alloué, engagé, payé) par priorité et par département, à partir d'une seule source de données. Responsable : SGAR, avec les services de la Région.",
+       "Un cadrage de l'évaluation à mi-parcours. Faire inscrire à l'ordre du jour d'un comité de 2023 la date, les questions et l'indépendance d'une évaluation à mi-parcours, qui se situe vers 2024 pour une période 2021-2027 ; la Cour la jugeait nécessaire pour réajuster le contrat [D3].",
+       "Un recensement des programmes nationaux parallèles. Demander aux services de l'État de signaler tout plan sectoriel national susceptible de perturber l'exécution d'une priorité, la Cour recommandant d'éviter d'en adopter seul pendant les deux ou trois premières années [D3]."
+      ]
+     },
+     {
+      "titre": "Limites",
+      "paragraphes": [
+       "Cette note repose sur un communiqué de presse (D1), non sur les données d'exécution ; les enseignements de 2014 concernent une autre génération de contrats et sont rapportés par la presse spécialisée [D3]. Il faut vérifier auprès des services si un tableau de bord commun existe déjà avant de proposer d'en créer un. Décision demandée : accord sur les trois mesures et sur leur inscription à l'ordre du jour du prochain comité."
+      ]
+     }
+    ],
+    "calculs": [
+     "Vers 2024 : milieu de la période 2021-2027 (calcul : 2021 + 2027, divisé par 2).",
+     "Trois risques et trois mesures : décompte des paragraphes de la note.",
+     "Premier semestre : repère de calendrier proposé par l'auteur, non issu du corpus."
+    ],
+    "lecons": [
+     "La note rapproche deux documents de dates très différentes (2014 et 2022) pour en tirer un risque précis.",
+     "Elle distingue ce que le document dit (montants alloués) de ce qu'il ne dit pas (paiements, résultats).",
+     "Chaque proposition répond à un défaut identifié dans le corpus.",
+     "Elle assume une limite : un communiqué de presse n'est pas un bilan d'exécution."
+    ]
+   }
+  },
+  {
+   "id": "n03",
+   "titre": "Faut-il attendre la loi TRACE pour réviser un PLUi ?",
+   "parcours": "Aménagement et sobriété foncière",
+   "duree_min": 60,
+   "mots": {
+    "min": 400,
+    "max": 900
+   },
+   "commande": {
+    "role": "Chargé(e) de mission aménagement dans une communauté de communes rurale de Nouvelle-Aquitaine (collectivité fictive)",
+    "destinataire": "Le directeur général des services",
+    "objet": "Révision du plan local d'urbanisme intercommunal (PLUi) : poursuivre ou suspendre dans l'attente de la proposition de loi TRACE ?",
+    "contexte": "Octobre 2026. Des élus proposent de suspendre la révision du PLUi, qui doit intégrer l'objectif de zéro artificialisation nette (ZAN), jusqu'à l'adoption de la proposition de loi TRACE. Le directeur général des services demande une analyse et une recommandation.",
+    "consigne": "Rédige une note de deux pages au plus : où en est TRACE, ce qui est stable, ce qui peut changer, une recommandation, les risques."
+   },
+   "corpus": [
+    {
+     "id": "D1",
+     "titre": "Proposition de loi visant à instaurer une trajectoire de réduction de l'artificialisation concertée avec les élus locaux (TRACE)",
+     "organisme": "Sénat (la loi en clair)",
+     "type": "Page de présentation d'un texte législatif",
+     "date": "Texte adopté par le Sénat le 18 mars 2025",
+     "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-instaurer-une-trajectoire-de-reduction-de-lartificialisation-concertee-avec-les-elus-locaux.html",
+     "resume": [
+      "La loi Climat et résilience a fixé deux objectifs : réduire de moitié le rythme d'artificialisation sur 2021-2031 par rapport à la décennie précédente, puis atteindre en 2050 l'absence d'artificialisation nette. Malgré les assouplissements de la loi du 20 juillet 2023, des difficultés persistent, notamment dans les territoires ruraux. La proposition de loi TRACE, examinée par la commission des affaires économiques du Sénat le 9 février 2025 puis en séance les 12 et 13 mars 2025, a été adoptée en première lecture le 18 mars 2025 et transmise à l'Assemblée nationale.",
+      "Le texte propose notamment de simplifier la comptabilisation (en pérennisant le décompte de la consommation d'espaces naturels, agricoles et forestiers, dit ENAF), d'abroger l'objectif intermédiaire de réduction de moitié sur 2021-2031, de repousser les dates butoirs de révision des documents de planification (2026 pour les documents régionaux, 2031 pour les SCoT, 2036 pour les PLU(i)) et de partir des besoins des collectivités pour territorialiser les objectifs, sans toucher à l'objectif final de 2050. Le Sénat l'a enrichi, par exemple d'un dépassement de droit de 20 % des enveloppes foncières locales, d'une bonification en cas de requalification de friches et d'une mutualisation facilitée, au sein de l'intercommunalité, de la garantie de développement communal de 1 hectare."
+     ],
+     "chiffres": [
+      {
+       "label": "Adoption par le Sénat",
+       "valeur": "18 mars 2025 (première lecture), transmis à l'Assemblée nationale"
+      },
+      {
+       "label": "Objectif maintenu par le texte",
+       "valeur": "absence d'artificialisation nette en 2050"
+      }
+     ],
+     "limite": "Présentation rédigée par le Sénat : elle expose le point de vue de la chambre qui a adopté le texte. Le texte a pu évoluer depuis."
+    },
+    {
+     "id": "D2",
+     "titre": "Zéro artificialisation nette des sols et PPL TRACE (question d'actualité au Gouvernement)",
+     "organisme": "Sénat, compte rendu de la séance publique du 24 juin 2026",
+     "type": "Question d'actualité au Gouvernement et réponse de la ministre",
+     "date": "24 juin 2026 (publiée le 25 juin 2026)",
+     "url": "https://www.senat.fr/questions/base/2026/qSEQ26060949G.html",
+     "resume": [
+      "Le sénateur Jean-Baptiste Blanc rappelle que la proposition de loi TRACE a été adoptée par le Sénat à une très large majorité et retrace les reports successifs de son inscription à l'Assemblée nationale : promesse d'une inscription à l'automne 2025, report en octobre 2025, inscription annoncée en février 2026 pour le mois de juin sous réserve d'un compromis entre les deux assemblées. À la fin du mois de juin 2026, le texte n'est toujours pas inscrit.",
+      "La ministre de l'aménagement du territoire et de la décentralisation répond en quatre points : le Gouvernement souhaite qu'un accord préalable soit trouvé entre l'Assemblée nationale et le Sénat avant l'inscription ; les évolutions du ZAN doivent rester compatibles avec la sobriété foncière et un jalon intermédiaire sera conservé au cours de la décennie 2030 ; il faut sécuriser les travaux des collectivités, car les deux tiers des régions ont déjà adopté la révision de leur schéma régional (Sraddet) et changer les règles maintenant reviendrait à les modifier en cours de route ; des adaptations analogues à celles des contrats de mixité sociale sont envisageables. Le sénateur annonce la reprise des travaux du Sénat par une nouvelle commission."
+     ],
+     "chiffres": [
+      {
+       "label": "Régions ayant déjà adopté la révision de leur Sraddet",
+       "valeur": "deux tiers (selon la ministre)"
+      }
+     ],
+     "limite": "Débat parlementaire : chaque intervenant défend une position. Aucune date d'inscription à l'Assemblée nationale n'y figure."
+    },
+    {
+     "id": "D3",
+     "titre": "Zéro artificialisation nette",
+     "organisme": "Wikipédia (licence CC BY-SA)",
+     "type": "Encyclopédie en ligne",
+     "date": "Consulté le 12 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Z%C3%A9ro_artificialisation_nette",
+     "resume": [
+      "L'objectif de zéro artificialisation nette vise à ralentir et à compenser l'artificialisation des sols. Il apparaît en 2018 avec le plan biodiversité, est repris par la Convention citoyenne pour le climat en 2020 puis inscrit dans la loi climat et résilience de 2021 : le rythme d'artificialisation des dix années suivant la promulgation doit être tel que la consommation totale d'espace soit inférieure à la moitié de celle des dix années précédentes, pour atteindre la neutralité en 2050. La loi du 20 juillet 2023 précise ensuite le dispositif d'application.",
+      "Selon l'article, la sobriété foncière passe par la densification, la mobilisation des espaces vacants et la réglementation, notamment par la révision des documents de planification (schéma régional, SCoT, PLU) ; en l'absence de mise en application, les sanctions peuvent aller du gel des autorisations d'urbanisme pour le PLU à la suspension de l'ouverture de zones à urbaniser. Les programmes de revitalisation, de rénovation et de reconversion de friches sont présentés comme des outils."
+     ],
+     "chiffres": [
+      {
+       "label": "Échéances de la loi Climat et résilience",
+       "valeur": "moitié du rythme sur 2021-2031 ; absence d'artificialisation nette en 2050"
+      }
+     ],
+     "limite": "Source secondaire, utile pour le cadre général, à recouper avec les textes officiels avant de s'appuyer sur un détail (en particulier les délais de révision, que la loi de 2023 a modifiés)."
+    }
+   ],
+   "modele": {
+    "titre": "PLUi et ZAN : poursuivre la révision sur la base du décompte ENAF, sans attendre TRACE",
+    "en_tete": [
+     "De : chargé de mission aménagement",
+     "À : Monsieur le directeur général des services",
+     "Objet : Révision du PLUi : poursuivre ou suspendre dans l'attente de la proposition de loi TRACE ?",
+     "Date : octobre 2026"
+    ],
+    "sections": [
+     {
+      "titre": "Message principal",
+      "paragraphes": [
+       "Je recommande de poursuivre la révision du PLUi sans attendre TRACE. Le texte n'est pas inscrit à l'Assemblée nationale à la fin de juin 2026 [D2], son contenu peut changer, et ce qu'il propose de pérenniser, le décompte de la consommation d'espaces naturels, agricoles et forestiers (ENAF) [D1], est déjà la base du travail. Il faut en revanche construire le dossier pour qu'il résiste aux deux issues possibles."
+      ]
+     },
+     {
+      "titre": "Ce qui est stable",
+      "paragraphes": [
+       "L'objectif de 2050 (absence d'artificialisation nette) n'est contesté ni par la loi Climat et résilience ni par TRACE, qui n'y touche pas [D1, D3]. La ministre affirme que le Gouvernement veut préserver la sobriété foncière et conserver un jalon intermédiaire dans la décennie 2030 [D2]. Quelle que soit l'issue, un PLUi qui maîtrise la consommation d'ENAF et mobilise d'abord friches, logements vacants et espaces déjà urbanisés ne sera pas à refaire [D3]."
+      ]
+     },
+     {
+      "titre": "Ce qui peut changer",
+      "paragraphes": [
+       "TRACE, adopté par le Sénat le 18 mars 2025 et transmis à l'Assemblée nationale [D1], supprimerait l'objectif intermédiaire de réduction de moitié sur 2021-2031, repousserait les dates butoirs (2031 pour les SCoT, 2036 pour les PLU(i)) et ajouterait des souplesses : dépassement de droit de 20 % des enveloppes, bonification pour les friches, mutualisation de la garantie de développement communal de 1 hectare au sein de l'intercommunalité [D1]. Le Gouvernement subordonne l'inscription à un accord préalable entre les deux assemblées et prévient que changer les règles maintenant reviendrait à les modifier en cours de route pour les deux tiers des régions qui ont déjà révisé leur Sraddet [D2]. Aucune date d'examen n'est annoncée [D2]."
+      ]
+     },
+     {
+      "titre": "Recommandation",
+      "liste": [
+       "Poursuivre la révision sur la base du cadre en vigueur et du décompte ENAF, avec un calendrier qui laisse la possibilité d'une phase d'ajustement après l'arrêt du projet.",
+       "Documenter dès maintenant, dans le rapport de présentation, les besoins en foncier et les friches mobilisables : ces éléments serviront dans les deux scénarios, y compris pour demander une bonification si TRACE est adoptée.",
+       "Faire un point d'étape avec les services de l'État et la région avant l'arrêt du projet, pour vérifier la compatibilité avec le schéma régional (Sraddet) de la région."
+      ]
+     },
+     {
+      "titre": "Risques et limites",
+      "paragraphes": [
+       "Risque de retard : suspendre exposerait la collectivité, selon l'article consulté, à des sanctions allant jusqu'au gel des autorisations d'urbanisme pour le PLU en cas de non-application ; ce point est à vérifier sur les textes officiels, car les délais ont changé avec la loi de 2023 [D3]. Risque inverse : une adoption rapide de TRACE rendrait caduques certaines contraintes ; la révision devra alors être ajustée. Cette note repose sur des présentations parlementaires et une source encyclopédique ; elle doit être validée par le service juridique avant toute décision."
+      ]
+     }
+    ],
+    "calculs": [
+     "Fin de juin 2026 : le compte rendu du 24 juin 2026 constate que le texte n'est pas inscrit (D2).",
+     "Deux issues : TRACE adopté ou non (raisonnement de l'auteur)."
+    ],
+    "lecons": [
+     "La recommandation tient en une phrase et est expliquée par ce qui est stable, avant ce qui peut changer.",
+     "La note sépare le droit en vigueur du droit en discussion.",
+     "Elle signale que la source encyclopédique doit être recoupée avec les textes avant décision.",
+     "Elle ne prédit pas le vote : elle construit une décision robuste aux deux issues."
+    ]
+   }
+  },
+  {
+   "id": "n04",
+   "titre": "Ce que l'évaluation de REACT-EU enseigne pour 2021-2027",
+   "parcours": "Évaluation et fonds européens",
+   "duree_min": 60,
+   "mots": {
+    "min": 400,
+    "max": 900
+   },
+   "commande": {
+    "role": "Chargé(e) de mission au service des fonds européens d'un conseil régional, autorité de gestion du FEDER et du FSE+ (collectivité fictive)",
+    "destinataire": "La directrice des affaires européennes",
+    "objet": "Enseignements de l'évaluation nationale de l'initiative REACT-EU pour le suivi et l'évaluation du programme régional 2021-2027",
+    "contexte": "Octobre 2026. La directrice prépare la feuille de route d'évaluation du programme régional et demande ce qu'il faut retenir de l'évaluation nationale de REACT-EU, publiée en janvier 2025.",
+    "consigne": "Rédige une note de deux pages au plus : ce que l'évaluation a constaté, ce qui vaut pour notre programme, trois propositions, les limites."
+   },
+   "corpus": [
+    {
+     "id": "D1",
+     "titre": "[Évaluation] de l'Initiative REACT-EU en France",
+     "organisme": "Agence nationale de la cohésion des territoires (ANCT), portail Europe en France",
+     "type": "Fiche de présentation de l'évaluation",
+     "date": "Publiée le 23 janvier 2025",
+     "url": "https://www.europe-en-france.gouv.fr/en/ressources/evaluation-initiative-react-eu-en-france",
+     "resume": [
+      "En décembre 2020, l'initiative REACT-EU a apporté 50,06 Md€ aux États membres, en plus des financements de la politique de cohésion 2014-2020. La France reçoit 3,9 Md€, soit près de 8 % de l'enveloppe totale, ce qui en fait le troisième bénéficiaire. Les règlements européens imposent à chaque État membre d'évaluer l'initiative avant le 31 décembre 2024. L'évaluation a été conduite par l'ANCT avec les autorités de gestion du FEDER, du FSE et du FEAD, et comprend un rapport final, des annexes, une synthèse et des synthèses courtes."
+     ],
+     "chiffres": [
+      {
+       "label": "Enveloppe REACT-EU, Union européenne",
+       "valeur": "50,06 Md€"
+      },
+      {
+       "label": "Enveloppe REACT-EU, France",
+       "valeur": "3,9 Md€ (près de 8 %), 3e bénéficiaire"
+      },
+      {
+       "label": "Échéance de l'évaluation",
+       "valeur": "31 décembre 2024"
+      }
+     ],
+     "limite": "Fiche de présentation : les constats sont dans la synthèse (D2) et le rapport final."
+    },
+    {
+     "id": "D2",
+     "titre": "Évaluation de l'initiative REACT-EU en France : synthèse courte",
+     "organisme": "ANCT, évaluation menée par le groupement Teritéo / Aster Europe fin 2024",
+     "type": "Synthèse d'évaluation",
+     "date": "21 février 2025",
+     "url": "https://www.europe-en-france.gouv.fr/sites/default/files/2025-03/21.02.2025_-_synthese_courte_-_evaluation_de_linitiative_react-eu_en_france.pdf",
+     "resume": [
+      "Méthode : un bilan physico-financier des soutiens FEDER, FSE et FEAD, une enquête en ligne auprès des porteurs de projets (taux de retour de 22 %), des entretiens avec des acteurs institutionnels (conseils régionaux, DGEFP), 10 études de cas et 8 focus thématiques et territoriaux. Au 18 juillet 2024, 3 592 dossiers étaient programmés.",
+      "Constats : une initiative pertinente et adaptée, qui a financé des projets dans la santé, le numérique, les mobilités durables et la compétitivité des TPE et PME ; les régions ultrapériphériques concentrent 36 % des dotations FEDER et 70 % des dotations FSE (hors programme national FSE). La plus-value varie selon les thèmes : effet déclencheur (besoins nouveaux), amplificateur (besoins renforcés), accélérateur (infrastructures en outre-mer) et de notoriété. Près de 80 % des porteurs interrogés jugent les effets durables. La programmation a dépassé 100 % et le taux de paiement atteint 81,6 % pour le FEDER, contre 79,1 % au niveau européen.",
+      "Difficultés : un calendrier inédit, avec un triple défi (clôturer 2014-2020, déployer REACT-EU, préparer 2021-2027), un risque de double financement avec la facilité pour la reprise et la résilience, limité par des procédures internes mais avec un manque de visibilité, et la complexité des procédures soulignée par les porteurs. Cinq recommandations : capitaliser les bonnes pratiques, réfléchir aux instruments financiers, approfondir la simplification, assouplir les procédures en cas de crise, et renforcer le suivi-évaluation, dont la collecte et la qualité des données pour les indicateurs 2021-2027."
+     ],
+     "chiffres": [
+      {
+       "label": "Dossiers programmés au 18 juillet 2024",
+       "valeur": "3 592"
+      },
+      {
+       "label": "Taux de retour de l'enquête auprès des porteurs",
+       "valeur": "22 %"
+      },
+      {
+       "label": "Taux de paiement FEDER",
+       "valeur": "81,6 % (79,1 % au niveau européen)"
+      }
+     ],
+     "limite": "Synthèse courte lue dans une version PDF dont le texte s'extrait mal : les chiffres cités ont été relevés avec prudence ; certaines phrases sont incomplètes dans l'extraction."
+    },
+    {
+     "id": "D3",
+     "titre": "Règlement (UE) 2021/1060 (règlement portant dispositions communes), articles 18 et 44, et portail Europe en France sur la performance",
+     "organisme": "Union européenne ; ANCT",
+     "type": "Texte réglementaire (résumé) et page de présentation",
+     "date": "Règlement de 2021 ; page de performance consultée en octobre 2026",
+     "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021R1060",
+     "resume": [
+      "L'article 44 organise l'évaluation menée par l'État membre ou l'autorité de gestion au regard d'un ou plusieurs de cinq critères : efficacité, efficience, pertinence, cohérence et valeur ajoutée de l'Union. Une évaluation distincte apprécie l'impact de chaque programme au plus tard le 30 juin 2029. Les évaluations sont confiées à des experts internes ou externes, indépendants sur le plan fonctionnel, l'autorité de gestion met en place les procédures qui produisent et collectent les données nécessaires, et les évaluations sont publiées. L'article 18 impose un examen à mi-parcours de chaque programme.",
+      "Le cadre de performance comprend des indicateurs de réalisation et de résultat, des valeurs intermédiaires à atteindre d'ici la fin de 2024 et des valeurs cibles d'ici la fin de 2029. Pour la période 2014-2020, un programme jugé performant recevait une réserve de performance de 6 % de son enveloppe."
+     ],
+     "chiffres": [
+      {
+       "label": "Évaluation d'impact de chaque programme",
+       "valeur": "au plus tard le 30 juin 2029"
+      },
+      {
+       "label": "Valeurs intermédiaires / cibles du cadre de performance",
+       "valeur": "fin 2024 / fin 2029"
+      }
+     ],
+     "limite": "Résumé des articles tel que lu pour le kit C7 d'Upgrade ; le texte intégral de l'article 44 fait foi. La réserve de performance de 6 % concernait la période 2014-2020."
+    }
+   ],
+   "modele": {
+    "titre": "REACT-EU : trois enseignements pour préparer l'évaluation d'impact du programme régional",
+    "en_tete": [
+     "De : chargé de mission, service des fonds européens",
+     "À : Madame la directrice des affaires européennes",
+     "Objet : Enseignements de l'évaluation nationale de REACT-EU pour le suivi et l'évaluation du programme régional 2021-2027",
+     "Date : octobre 2026"
+    ],
+    "sections": [
+     {
+      "titre": "Message principal",
+      "paragraphes": [
+       "L'évaluation nationale de REACT-EU (3,9 Md€ pour la France [D1]) montre qu'une initiative peut être jugée pertinente et efficace tout en laissant des angles morts : un taux de retour de 22 % à l'enquête auprès des porteurs [D2], des effets très variables selon les thèmes [D2] et des difficultés de données [D2]. Pour notre programme, l'évaluation d'impact doit être remise au plus tard le 30 juin 2029 [D3] : je propose de sécuriser dès maintenant les données, le calendrier et les questions."
+      ]
+     },
+     {
+      "titre": "Ce que l'évaluation de REACT-EU a constaté",
+      "paragraphes": [
+       "Méthode mixte : bilan physico-financier, enquête, 10 études de cas et 8 focus [D2]. Résultats : 3 592 dossiers programmés au 18 juillet 2024, un taux de paiement du FEDER de 81,6 % contre 79,1 % au niveau européen et près de 80 % des porteurs qui jugent les effets durables [D2]. La plus-value dépend des thèmes : elle est déclencheuse pour les besoins nouveaux, amplificatrice pour les besoins renforcés, accélératrice pour certaines infrastructures [D2]. Les porteurs insistent sur la complexité des procédures [D2], et les autorités de gestion ont dû mener de front la clôture de 2014-2020, REACT-EU et le démarrage de 2021-2027 [D2]."
+      ]
+     },
+     {
+      "titre": "Ce qui vaut pour notre programme",
+      "paragraphes": [
+       "Le règlement impose une évaluation d'impact avant le 30 juin 2029, des experts indépendants sur le plan fonctionnel et des procédures de collecte de données mises en place par l'autorité de gestion [D3]. Le cadre de performance fixe des valeurs intermédiaires pour la fin de 2024 et des cibles pour la fin de 2029 [D3] : la qualité des données de nos indicateurs est donc déjà un enjeu, ce que l'évaluation de REACT-EU recommande explicitement de renforcer [D2]."
+      ]
+     },
+     {
+      "titre": "Propositions",
+      "liste": [
+       "Auditer les données des indicateurs 2021-2027 : vérifier, pour chaque priorité, qui collecte, à quelle date et avec quel taux de complétude ; corriger avant la fin 2026 (service des fonds européens, avec les services instructeurs).",
+       "Prévoir dans le cahier des charges de la future évaluation d'impact une enquête avec relance et plusieurs méthodes, car un taux de retour de 22 % limite la portée d'une enquête seule [D2], et distinguer les effets par type de plus-value plutôt qu'un effet global [D2].",
+       "Fixer un calendrier inversé à partir de la date du 30 juin 2029 : lancement de la consultation, remise du rapport, relecture par un comité d'évaluation indépendant, publication [D3]."
+      ]
+     },
+     {
+      "titre": "Limites",
+      "paragraphes": [
+       "L'évaluation de REACT-EU porte sur une initiative de crise, avec des taux de cofinancement et des délais spécifiques : ses enseignements ne se transposent pas tels quels à un programme ordinaire. Je n'ai lu que la synthèse courte, dont le texte s'extrait mal ; le rapport final devrait être lu avant de finaliser le cahier des charges. Décision demandée : accord sur l'audit des données et sur le calendrier inversé."
+      ]
+     }
+    ],
+    "calculs": [
+     "Fin 2026 : échéance proposée par l'auteur pour corriger les données (repère de calendrier, non issu du corpus).",
+     "Trois propositions : décompte de la liste.",
+     "Cinq critères : efficacité, efficience, pertinence, cohérence, valeur ajoutée (D3)."
+    ],
+    "lecons": [
+     "La note ne recopie pas les constats : elle choisit trois enseignements transposables.",
+     "Elle part d'une échéance réglementaire (juin 2029) pour dater les propositions.",
+     "Elle dit ce que la source ne permet pas (transposition d'une initiative de crise, synthèse courte seulement).",
+     "Elle contient des chiffres, tous datés et sourcés."
+    ]
+   }
+  }
+ ]
+}
