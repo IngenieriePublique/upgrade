@@ -1,7 +1,7 @@
 {
  "version": 1,
- "date": "2026-10-11",
- "genere": "2026-10-11T21:09Z",
+ "date": "2026-10-12",
+ "genere": "2026-10-12T04:33Z",
  "plafond": 13,
  "items": [
   {
@@ -14,7 +14,7 @@
    "chapo": "Le ministre de l’économie défend un déficit ramené à 5 % « quoi qu’il en coûte », alors que les députés ont rejeté en commission la partie recettes du texte, qui sera discuté mardi dans l’Hémicycle.",
    "theme": "finances",
    "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
-   "score": 7.07,
+   "score": 6.91,
    "payant": true,
    "reprises": 3
   },
@@ -28,21 +28,8 @@
    "chapo": "Le statut, qui rencontre un vif succès depuis sa création, en 2008, présente de nombreux « risques » pour ses bénéficiaires et pour les finances publiques, selon une « évaluation » publiée, vendredi…",
    "theme": "evaluation",
    "question": "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
-   "score": 6.04,
+   "score": 5.89,
    "payant": true
-  },
-  {
-   "id": "a7d2c146da",
-   "rubrique": "france",
-   "titre": "Trois questions sur la procédure de dissolution visant Egalité et Réconciliation, l'association de l'essayiste d'extrême droite Alain Soral",
-   "lien": "https://www.franceinfo.fr/politique/trois-questions-sur-la-procedure-de-dissolution-visant-egalite-et-reconciliation-l-association-de-l-essayiste-d-extreme-droite-alain-soral_8232799.html",
-   "source": "franceinfo",
-   "date": "2026-10-11T17:19Z",
-   "chapo": "Dans un courrier détaillé, le ministère de l'Intérieur reproche à l'association présidée par le polémiste d'extrême droite de provoquer la violence \"envers les personnes juives, immigrées, les femmes…",
-   "theme": "defaut",
-   "question": "Qui y gagne, qui y perd, et qui n'est pas dans la discussion ?",
-   "score": 5.22,
-   "reprises": 4
   },
   {
    "id": "a20af3803c",
@@ -54,7 +41,20 @@
    "chapo": "Il a également promis une réponse spécifique aux stations-service des communes les plus isolées, afin qu'elles puissent baisser les prix du gazole.",
    "theme": "finances",
    "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
-   "score": 5.07
+   "score": 4.92
+  },
+  {
+   "id": "60cb76fa9a",
+   "rubrique": "france",
+   "titre": "Raphaël Glucksmann enfariné après sa victoire à la primaire de la gauche sociale-démocrate",
+   "lien": "https://www.franceinfo.fr/politique/raphael-glucksmann/raphael-glucksmann-enfarine-apres-sa-victoire-a-la-primaire-de-la-gauche-sociale-democrate_8233216.html",
+   "source": "franceinfo",
+   "date": "2026-10-12T04:17Z",
+   "chapo": "Le député européen sortait du bar parisien où il célébrait sa victoire lorsqu'une personne a vidé, au niveau de sa tête, le contenu d'un paquet de farine.",
+   "theme": "defaut",
+   "question": "Quel chiffre ou quel fait vérifierais-je avant d'en parler à quelqu'un ?",
+   "score": 4.59,
+   "reprises": 6
   },
   {
    "id": "7039fc13d8",
@@ -66,7 +66,7 @@
    "chapo": "DÉCRYPTAGE - David Amiel accuse les députés de la commission des finances d’avoir voté en faveur de mesures dégradant le déficit public de 8 milliards d’euros.",
    "theme": "finances",
    "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
-   "score": 4.74,
+   "score": 4.58,
    "payant": true
   },
   {
@@ -79,7 +79,35 @@
    "chapo": "L’homme qui menaçait de commettre cette attaque a été arrêté, ont annoncé le premier ministre et le ministre de l’intérieur.",
    "theme": "institutions",
    "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
-   "score": 5.8,
+   "score": 5.64,
+   "payant": true,
+   "reprises": 5
+  },
+  {
+   "id": "2034ba7378",
+   "rubrique": "monde",
+   "titre": "Après l’accord entre Donald Trump et Vladimir Poutine sur le diesel russe, l’Ukraine et l’Europe s’efforcent de maintenir la pression sur le Kremlin",
+   "lien": "https://www.lemonde.fr/international/article/2026/10/12/apres-l-accord-entre-donald-trump-et-vladimir-poutine-sur-le-diesel-russe-l-ukraine-et-l-europe-s-efforcent-de-maintenir-la-pression-sur-le-kremlin_6792418_3210.html",
+   "source": "Le Monde",
+   "date": "2026-10-12T04:00Z",
+   "chapo": "Donald Trump a annoncé, dimanche, un cessez-le-feu sur les infrastructures énergétiques russes et ukrainiennes, sans que Kiev n’en ait été informé.",
+   "theme": "international",
+   "question": "Quelle information manque pour juger ?",
+   "score": 5.29,
+   "payant": true,
+   "reprises": 7
+  },
+  {
+   "id": "f160632377",
+   "rubrique": "monde",
+   "titre": "Trump crée la surprise en annonçant un “cessez-le-feu énergétique” entre Kiev et Moscou",
+   "lien": "https://www.courrierinternational.com/article/ukraine-trump-cree-la-surprise-en-annoncant-un-cessez-le-feu-energetique-entre-kiev-et-moscou_277896",
+   "source": "Courrier international",
+   "date": "2026-10-12T04:12Z",
+   "chapo": "Le président américain a semé la confusion dimanche en annonçant un accord entre la Russie et l’Ukraine, prenant de court Volodymyr Zelensky.",
+   "theme": "international",
+   "question": "Quelle information manque pour juger ?",
+   "score": 5.29,
    "payant": true,
    "reprises": 5
   },
@@ -93,21 +121,8 @@
    "chapo": "Les autorités saoudiennes ont fait état de blessés lors d'une nouvelle attaque contre l'aéroport international de Riyad survenue dimanche, au lendemain d'un assaut contre ce même aéroport…",
    "theme": "defaut",
    "question": "Quel chiffre ou quel fait vérifierais-je avant d'en parler à quelqu'un ?",
-   "score": 5.29,
+   "score": 5.13,
    "reprises": 5
-  },
-  {
-   "id": "0c7afba2c3",
-   "rubrique": "monde",
-   "titre": "Donald Trump assure que Moscou et Kiev ont conclu \"un cessez-le-feu énergétique\", Volodymyr Zelensky dit ne pas être au courant mais en accepter le principe",
-   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/donald-trump-assure-que-la-russie-et-l-ukraine-ont-conclu-un-cessez-le-feu-energetique_8232820.html",
-   "source": "franceinfo",
-   "date": "2026-10-11T18:16Z",
-   "chapo": "Le président des Etats-Unis n'a livré aucun détail sur cet accord annoncé, alors qu'il appelait Kiev à cesser de frapper les infrastructure énergétiques russes, et que Moscou cible régulièrement…",
-   "theme": "international",
-   "question": "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
-   "score": 5.24,
-   "reprises": 4
   },
   {
    "id": "c5f4547414",
@@ -119,22 +134,8 @@
    "chapo": "Le Premier ministre espagnol Pedro Sánchez a promis samedi de \"renforcer\" la législation sur le logement s'il obtient une majorité absolue aux élections législatives prévues le 29 novembre.",
    "theme": "social",
    "question": "Quel effet inattendu cette mesure pourrait-elle avoir ?",
-   "score": 5.22,
+   "score": 5.07,
    "reprises": 2
-  },
-  {
-   "id": "3a9bc66548",
-   "rubrique": "monde",
-   "titre": "L’accord Trump-Poutine sur le diesel revient à “financer le terrorisme”",
-   "lien": "https://www.courrierinternational.com/article/vu-d-ukraine-l-accord-trump-poutine-sur-le-diesel-revient-a-financer-le-terrorisme_277797",
-   "source": "Courrier international",
-   "date": "2026-10-11T14:21Z",
-   "chapo": "Depuis l’annonce de l’accord entre Washington et Moscou sur des livraisons de carburant russe, les dirigeants et les médias ukrainiens ne décolèrent pas.",
-   "theme": "defaut",
-   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
-   "score": 5.16,
-   "payant": true,
-   "reprises": 6
   },
   {
    "id": "4939fcc28d",
@@ -146,7 +147,8 @@
    "chapo": "Retrouvez ici nos articles consacrés au suivi du projet de loi de finances (PLF) et de financement de la sécurité sociale (PLFSS) pour 2027, présentés le 1er octobre.",
    "theme": "finances",
    "question": "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
-   "score": 6.72
+   "score": 7.37,
+   "reprises": 2
   },
   {
    "id": "f1120b3ff0",
@@ -158,7 +160,7 @@
    "chapo": "Le projet de loi de finances 2027 préserve les accompagnements à destination des moins de 26 ans, au détriment des différents dispositifs en faveur de demandeurs d’emploi et des budgets de…",
    "theme": "institutions",
    "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
-   "score": 6.72
+   "score": 6.67
   },
   {
    "id": "d836390b24",
@@ -170,27 +172,27 @@
    "chapo": "Depuis le 8 octobre 2026, toutes les entreprises, en France métropolitaine ainsi que dans les départements et régions d’outre-mer, peuvent joindre la Direction générale des Finances publiques (DGFiP)…",
    "theme": "finances",
    "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
-   "score": 5.85
+   "score": 5.81
   }
  ],
  "dossier": {
-  "id": "370727f868",
+  "id": "3fd30a1cf7",
   "rubrique": "action_publique",
-  "titre": "Synthèse régionale : les centres départementaux de gestion (CDG) de la fonction publique territoriale bretons",
-  "lien": "https://www.ccomptes.fr/fr/publications/synthese-regionale-les-centres-departementaux-de-gestion-cdg-de-la-fonction-publique",
-  "source": "Cour des comptes",
-  "date": "2026-10-09T08:36Z",
-  "chapo": "En 2024, les quatre centres départementaux de gestion (CDG) bretons interviennent auprès de 1 726 organismes, dont 69 % sont des communes.",
-  "theme": "defaut",
-  "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
-  "score": 7.02,
-  "semaine": "2026-W41"
+  "titre": "Modernisation de la radio - rapport n° 18",
+  "lien": "http://www.senat.fr/rap/l26-018/l26-018.html",
+  "source": "Sénat",
+  "date": "2026-10-10T05:50Z",
+  "chapo": "Rapport n° 18 de M. Laurent LAFON, fait au nom de la commission de la culture, de l'éducation, de la communication et du sport, sur la proposition de loi relative à la modernisation de la radio (7…",
+  "theme": "evaluation",
+  "question": "Que mesure-t-on exactement, et que ne mesure-t-on pas ?",
+  "score": 6.06,
+  "semaine": "2026-W42"
  },
  "truc": {
   "type": "fait",
-  "titre": "1962 : ouverture du concile Vatican II.",
-  "extrait": "Le deuxième concile œcuménique du Vatican, plus couramment appelé concile Vatican II, est le XXIe concile œcuménique de l'Église catholique. Il est ouvert le 11 octobre 1962 par le pape Jean XXIII et se termine le 8 décembre 1965 sous le pontificat de Paul VI.",
-  "lien": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_concile_%C5%93cum%C3%A9nique_du_Vatican",
+  "titre": "1929 : signature de la convention de Varsovie régissant le transport aérien.",
+  "extrait": "La Convention de Varsovie est une convention internationale qui régit tout transport international de personnes, bagages ou marchandises, effectué par aéronef contre rémunération.",
+  "lien": "https://fr.wikipedia.org/wiki/Convention_de_Varsovie",
   "source": "Wikipédia",
   "licence": "CC BY-SA 4.0"
  },
