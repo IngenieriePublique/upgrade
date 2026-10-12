@@ -15,6 +15,8 @@ import * as reseau from './modules/reseau.js';
 import * as choix from './modules/choix.js';
 import * as territoires from './modules/territoires.js';
 import * as fondations from './modules/fondations.js';
+import * as dictee from './modules/dictee.js';
+import { categoriesActives, ajouterRegles } from './dictee.js';
 import { notesParKit, ajouterCartesKit } from './fondations.js';
 
 async function loadJson(path) {
@@ -43,6 +45,12 @@ async function ajouterCartesDesKits(store, decks) {
   }
 }
 
+// Les règles des catégories où l'utilisateur a marqué des fautes de dictée rejoignent la révision.
+async function ajouterReglesDeDictee(store, decks) {
+  const actives = categoriesActives(await store.notes('regle'));
+  if (actives.size) ajouterRegles(decks, await loadJson('data/dictees/regles.json'), actives);
+}
+
 async function main() {
   const outlet = document.getElementById('app');
   document.getElementById('version').textContent = `v${VERSION}`;
@@ -54,6 +62,7 @@ async function main() {
     store = await openStore();
     decks = await loadDecks();
     await ajouterCartesDesKits(store, decks);
+    await ajouterReglesDeDictee(store, decks);
   } catch (e) {
     outlet.replaceChildren(h('div', { class: 'carte erreur' }, h('h1', null, 'Impossible de démarrer'), h('p', null, String(e.message ?? e)),
       h('p', { class: 'petit' }, 'Vérifie que le navigateur autorise le stockage du site (pas de navigation privée) et recharge la page.')));
@@ -67,6 +76,9 @@ async function main() {
     { path: '/cartes/reviser', render: cartes.renderRevision },
     { path: '/fondations', render: fondations.renderListe },
     { path: '/fondations/kit', render: fondations.renderKit },
+    { path: '/dictee', render: dictee.renderMenu },
+    { path: '/dictee/ecrire', render: dictee.renderEcrire },
+    { path: '/dictee/corriger', render: dictee.renderCorriger },
     { path: '/territoires', render: territoires.renderMenu },
     { path: '/territoires/jeu', render: territoires.renderJeu },
     { path: '/territoires/plusmoins', render: territoires.renderPlusMoins },

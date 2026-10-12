@@ -7,12 +7,13 @@ import { NEW_PER_DAY } from './cartes.js';
 import { loadData } from '../data.js';
 import { etapes, prochaineEtape, joursRestants, sprintActif } from '../candidature.js';
 import { prochainKit } from '../fondations.js';
+import { essaisDepuisNotes, choisirProchaine } from '../dictee.js';
 
 const PROFOND = ['Revue hebdomadaire', 'Institutions et action publique', 'Culture générale',
   'Évaluation et données', 'Atelier d\'écriture / portfolio', 'Oral', 'Lecture longue ou podcast'];
 const JOURS_DICTEE = [1, 3, 5]; // lundi, mercredi, vendredi
 
-function blocs(now, dues, sprint = null, kit = null) {
+function blocs(now, dues, sprint = null, kit = null, dictee = null) {
   const dow = new Date(now).getDay();
   return [
     { id: 'brief', titre: 'Brief', min: 8, lien: '#/brief',
@@ -30,7 +31,8 @@ function blocs(now, dues, sprint = null, kit = null) {
         : { id: 'profond', titre: `Bloc profond : ${PROFOND[dow]}`, min: 25, manuel: true,
           note: 'Pas de kit prévu ce jour-là : un dossier de fond, un rapport ou la lecture en cours sur le thème du jour.' },
     JOURS_DICTEE.includes(dow)
-      ? { id: 'dictee', titre: 'Dictée', min: 10, avenir: 'Phase 6 : dictée sur papier, correction à l\'écran.' }
+      ? { id: 'dictee', titre: 'Dictée', min: 10, lien: dictee ? `#/dictee/ecrire?id=${dictee.id}` : '#/dictee',
+        note: dictee ? `Sur papier : « ${dictee.titre} » (niveau ${dictee.niveau}, ${dictee.mots} mots), puis correction à l'écran.` : 'Dictée sur papier, correction à l\'écran.' }
       : { id: 'mot', titre: 'Mot du jour et sigles', min: 10, avenir: 'À venir. Les sigles tournent déjà dans les cartes.' },
   ];
 }
@@ -57,7 +59,14 @@ export async function render({ view, store, decks }) {
       kit = prochainKit(index, notesKits, new Date(now).getDay());
     } catch (e) { console.warn('kit du jour', e); } // le bloc reste affiché sans kit
   }
-  const list = blocs(now, queue.length, sprint, kit);
+  let dictee = null;
+  if (JOURS_DICTEE.includes(new Date(now).getDay())) {
+    try {
+      const [data, regles, notesDictees] = await Promise.all([loadData('dictees/dictees.json'), loadData('dictees/regles.json'), store.notes('dictee')]);
+      dictee = choisirProchaine(data.dictees, essaisDepuisNotes(notesDictees), regles.categories.map((c) => c.id));
+    } catch (e) { console.warn('dictée du jour', e); } // le bloc reste affiché sans dictée précise
+  }
+  const list = blocs(now, queue.length, sprint, kit, dictee);
   let rec = days.find((d) => d.day === today) ?? { day: today, done: {}, finished: false };
   const finishedDays = new Set(days.filter((d) => d.finished).map((d) => d.day));
 

@@ -31,7 +31,6 @@ PAGES = [
     "Le Horla (recueil, Ollendorff 1895)/Le Horla",
     "De la démocratie en Amérique/Édition 1848/Tome 1/Introduction",
     "De la démocratie en Amérique/Édition 1848/Tome 1/Première partie/Chapitre 5",
-    "Le Père Goriot (1855)",
 ]
 
 

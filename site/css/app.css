@@ -196,3 +196,35 @@ blockquote { margin: .4rem 0; padding-left: .8rem; border-left: 3px solid var(--
 .kit.termine .statut { border-color: var(--ok); color: var(--ok); }
 .fiche h2 { margin-top: 1.4rem; font-size: 1.15rem; }
 .fiche p, .fiche li { max-width: 42rem; }
+
+/* Dictées */
+:root { --c-pp: #b3392f; --c-homophone: #1d5fa6; --c-sujet-verbe: #7a3fa0; --c-gn: #1f7a4d; --c-conjugaison: #b9770e; --c-lexicale: #0f7b86; --c-ponctuation: #6b6f78; }
+@media (prefers-color-scheme: dark) {
+  :root { --c-pp: #e0685d; --c-homophone: #6fb0ee; --c-sujet-verbe: #c79be6; --c-gn: #5cc48e; --c-conjugaison: #e0a04a; --c-lexicale: #5fd0dc; --c-ponctuation: #aab0bb; }
+}
+[data-cat="pp"] { --cat: var(--c-pp); } [data-cat="homophone"] { --cat: var(--c-homophone); }
+[data-cat="sujet-verbe"] { --cat: var(--c-sujet-verbe); } [data-cat="gn"] { --cat: var(--c-gn); }
+[data-cat="conjugaison"] { --cat: var(--c-conjugaison); } [data-cat="lexicale"] { --cat: var(--c-lexicale); }
+[data-cat="ponctuation"] { --cat: var(--c-ponctuation); }
+.sigle { display: inline-block; font-size: .7rem; font-weight: 700; line-height: 1; padding: .12rem .3rem; border-radius: 4px;
+  color: var(--cat); border: 1px solid var(--cat); vertical-align: baseline; }
+sup.sigle { margin-left: .15rem; vertical-align: super; }
+.palette { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0; }
+.pastille-cat { padding: .35rem .7rem; border-radius: 99px; font-size: .9rem; border-color: var(--cat); }
+.pastille-cat.choisi { background: color-mix(in srgb, var(--cat) 20%, var(--carte)); font-weight: 600; box-shadow: 0 0 0 2px var(--cat); }
+.pastille-cat .compte { margin-left: .4rem; font-weight: 700; color: var(--cat); }
+.texte-dictee p { margin: .5rem 0; font-size: 1.12rem; line-height: 1.9; }
+.texte-dictee .mot { font: inherit; display: inline; padding: 0 .12rem; border: 0; border-radius: 4px; background: none; color: inherit; cursor: pointer; }
+span.mot { cursor: default; }
+.texte-dictee button.mot:hover { background: color-mix(in srgb, var(--cat, var(--accent)) 18%, transparent); outline: 1px dashed var(--doux); }
+.texte-dictee .mot.faute { background: color-mix(in srgb, var(--cat) 22%, transparent); text-decoration: underline wavy var(--cat); text-underline-offset: 3px; }
+.stats-fautes { list-style: none; padding: 0; margin: .5rem 0; display: grid; gap: .35rem; }
+.stats-fautes li { display: grid; grid-template-columns: 14rem 1fr 7rem auto; gap: .6rem; align-items: center; }
+.stats-fautes .barre { margin: 0; } .stats-fautes .barre > div { background: var(--cat, var(--accent)); }
+
+.cat-val { font-size: .88rem; color: var(--doux); }
+@media (max-width: 36rem) { .stats-fautes li { grid-template-columns: 1fr auto; } .stats-fautes .barre { grid-column: 1 / -1; order: 3; } }
+.etapes-dictee { padding-left: 1.2rem; } .etapes-dictee > li { margin: 1rem 0; }
+.segment-courant { margin: .6rem 0; } .segment-texte { font-size: 1.15rem; padding: .5rem .8rem; border-left: 3px solid var(--accent); }
+.case { display: block; margin: .4rem 0; }
+details.carte > summary { cursor: pointer; }

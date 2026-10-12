@@ -1,0 +1,790 @@
+{
+ "id": "regles",
+ "titre": "Règles d’orthographe (dictées)",
+ "description": "Les règles qui font l’essentiel des fautes de dictée, par catégorie. Les cartes d’une catégorie entrent dans la révision quand tu y marques des fautes.",
+ "categories": [
+  {
+   "id": "pp",
+   "libelle": "Accord du participe passé",
+   "aide": "Participe passé avec avoir, avec être, des verbes pronominaux, suivi d’un infinitif…"
+  },
+  {
+   "id": "homophone",
+   "libelle": "Homophones grammaticaux",
+   "aide": "a/à, ces/ses, c’est/s’est, ce/se, quelle/qu’elle, leur/leurs, on/ont, son/sont, ou/où…"
+  },
+  {
+   "id": "sujet-verbe",
+   "libelle": "Accord sujet-verbe",
+   "aide": "Repérer le sujet, sujet inversé ou éloigné, sujets coordonnés par et / ou, plus d’un…"
+  },
+  {
+   "id": "gn",
+   "libelle": "Accord dans le groupe nominal",
+   "aide": "Adjectifs après plusieurs noms ou un complément du nom, tout, même…"
+  },
+  {
+   "id": "conjugaison",
+   "libelle": "Conjugaison",
+   "aide": "Passé simple, subjonctif imparfait, futur et conditionnel, accents circonflexes."
+  },
+  {
+   "id": "lexicale",
+   "libelle": "Orthographe lexicale",
+   "aide": "m devant m, b, p ; consonnes doubles ; consonnes finales muettes."
+  },
+  {
+   "id": "ponctuation",
+   "libelle": "Ponctuation",
+   "aide": "Virgule (interdite, obligatoire, facultative), apposition, mais, point-virgule."
+  }
+ ],
+ "cartes": [
+  {
+   "id": "regles-pp-01",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Participe passé avec l’auxiliaire avoir : quand s’accorde-t-il, et avec quoi ?",
+   "verso": "Avec le complément direct (CD), en genre et en nombre, à condition que ce CD soit placé avant le verbe. CD après le verbe, ou absence de CD : le participe reste invariable. Les lettres que j’ai écrites (que = les lettres, avant le verbe) ; J’ai écrit des lettres (CD après).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé employé avec l’auxiliaire AVOIR",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1546"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-02",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Comment repérer le complément direct d’un verbe, et sous quelle forme le trouve-t-on quand il y a accord ?",
+   "verso": "On pose « qui ? » (être animé) ou « quoi ? » après le verbe : j’ai reçu qui ? Quand il y a accord, le CD est placé avant le verbe, le plus souvent sous forme de pronom (le, la, l’, les, que) : Ces étudiantes, je les ai reçues. Pour un verbe pronominal, on remplace d’abord être par avoir avant de poser la question.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé employé avec l’auxiliaire AVOIR",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1546"
+    },
+    {
+     "titre": "BDL (OQLF) : Verbes occasionnellement pronominaux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2942"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-03",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Participe passé employé avec l’auxiliaire être : avec quoi s’accorde-t-il ?",
+   "verso": "Avec le sujet, en genre et en nombre : pour les verbes qui se conjuguent avec être (Les invités sont arrivés ; Rachel est sortie) comme pour la forme passive (Cette vedette est poursuivie par les journalistes ; Les étudiants ont été accusés à tort).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé employé avec l’auxiliaire ÊTRE",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=1547"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-04",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Verbe pronominal : pourquoi écrit-on « elle s’est lavée », « elle s’est lavé les mains » et « elles se sont parlé » ?",
+   "verso": "Même règle qu’avec avoir : on accorde avec le CD s’il est placé avant le verbe. Si le CD est le pronom se (elle a lavé qui ? elle-même), accord avec se, donc avec le sujet : elle s’est lavée. Si le CD est un autre mot placé après (les mains), invariable : elle s’est lavé les mains. Si se est un complément indirect (on parle à quelqu’un), invariable : elles se sont parlé.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Verbes occasionnellement pronominaux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2942"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-05",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Participe passé suivi d’un infinitif : « les bernaches que j’ai vues migrer » mais « les canards que j’ai vu abattre ». Quelle différence ?",
+   "verso": "Accord si le pronom CD (le, la, les, que) placé avant est le sujet sous-entendu de l’infinitif (les bernaches migrent). Pas d’accord s’il est le CD de l’infinitif (on abat les canards). Après un verbe comme voir, l’infinitif met l’accent sur l’action (voir traiter), le participe sur le résultat (voir traités).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé suivi d’un infinitif",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=1859"
+    },
+    {
+     "titre": "BDL (OQLF) : Infinitif et participe passé, distinctions",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1614"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-06",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« Les grands froids qu’il a fait en janvier » : pourquoi « fait » est-il invariable ?",
+   "verso": "Le participe passé d’un verbe impersonnel, ou employé impersonnellement (il pleut, il faut, il fait, il y a), est toujours invariable, même avec un CD placé avant : les négociations qu’il a fallu ; les festivités qu’il y a eu.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé des verbes impersonnels",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1544"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-07",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« Les dix jours qu’a duré la compétition », « les risques qu’il a courus » : quand le participe d’un verbe de quantité s’accorde-t-il ?",
+   "verso": "Avec coûter, valoir, peser, mesurer, durer, régner, vivre, marcher, courir, dormir, le complément de prix, de durée, de poids ou de distance n’est pas un vrai CD : participe invariable (les deux années que Patrice a vécu en Allemagne). Si le verbe est transitif et que le complément est une vraie chose, accord : les risques qu’il a courus.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé des verbes exprimant une quantité",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1856"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-pp-08",
+   "categorie": "pp",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« Elle est plus autonome que je ne l’avais pensé » : pourquoi « pensé » reste-t-il invariable ?",
+   "verso": "Quand le pronom l’ (CD) remplace toute une idée (une phrase), le participe est invariable : je ne l’ai appris qu’hier. Quand l’ remplace un nom, on accorde avec ce nom : Carole a retrouvé sa chambre telle qu’elle l’avait laissée.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Participe passé ayant L’ pour complément",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1878"
+    },
+    {
+     "titre": "Wikipédia : Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-01",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "a ou à ? Quel test appliquer ?",
+   "verso": "Remplacer par « avait » : si la phrase reste correcte, c’est a (verbe avoir, sans accent) ; sinon c’est à (préposition). Il a rédigé son rapport à temps (avait rédigé ; pas « avait temps »).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : A et À, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2599"
+    },
+    {
+     "titre": "BDL (OQLF) : Les manipulations syntaxiques",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4266"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-02",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "ces ou ses ?",
+   "verso": "Ces = déterminant démonstratif pluriel (au singulier : ce, cet, cette) : ces toiles sont magnifiques. Ses = déterminant possessif pluriel (au singulier : son, sa) : Marcelle a du talent et ses toiles sont magnifiques (les toiles de Marcelle).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : CES et SES, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2359"
+    },
+    {
+     "titre": "Wiktionnaire : son (déterminant possessif, pluriel ses)",
+     "url": "https://fr.wiktionary.org/wiki/son"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-03",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "c’est ou s’est ?",
+   "verso": "C’est = ce + est, on peut le remplacer par « cela est » : c’est un vrai régal. S’est = se + est, toujours précédé d’un sujet et suivi d’un participe passé (verbe pronominal) ; avec « je », il devient « me suis » : il s’est blessé (je me suis blessé).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : C’EST et S’EST, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2602"
+    },
+    {
+     "titre": "BDL (OQLF) : CE et SE, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2440"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-04",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "ce ou se ?",
+   "verso": "Ce = démonstratif : déterminant (ce gâteau) ou pronom (c’était, ce que, ce faisant). Se = pronom personnel réfléchi, uniquement dans un verbe pronominal : il se regarde, ils se regardent.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : CE et SE, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2440"
+    },
+    {
+     "titre": "BDL (OQLF) : C’EST et S’EST, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2602"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-05",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "quelle ou qu’elle ?",
+   "verso": "Quelle (un mot) = déterminant avec un nom féminin singulier : Quelle belle journée ! ; quelle que soit la raison. Qu’elle = que + elle, remplaçable par « qu’il » : Je veux qu’elle vienne (je veux qu’il vienne).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : QU’ELLE et QUELLE, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2601"
+    },
+    {
+     "titre": "BDL (OQLF) : Les manipulations syntaxiques",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4266"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-06",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "leur ou leurs ?",
+   "verso": "Pronom personnel (devant un verbe, « à eux ») : leur, jamais de s, c’est le pluriel de lui : je leur ai dit. Déterminant possessif : il s’accorde avec le nom : leur maison, leurs feuilles. On met leurs si chacun possède plusieurs choses, ou s’il y a réciprocité ou comparaison.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : LEUR et LEUR(S), distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2360"
+    },
+    {
+     "titre": "BDL (OQLF) : LEUR et LEURS, accord du déterminant possessif",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2773"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-07",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "plutôt ou plus tôt ?",
+   "verso": "Plutôt (un mot) exprime une préférence (« de préférence », « au lieu de »), une nuance (« plus exactement ») ou « assez » : il fait plutôt froid. Plus tôt (deux mots) = avant, plus vite, le contraire de plus tard ; test : remplacer par plus tard.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : PLUTÔT et PLUS TÔT, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2219"
+    },
+    {
+     "titre": "BDL (OQLF) : Les homophones lexicaux et grammaticaux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2645"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-08",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "quelque ou quel que ?",
+   "verso": "Quelque (un mot) : déterminant qui s’accorde avec le nom (quelques livres) ou adverbe invariable devant un nombre, au sens d’« environ » (quelque quarante personnes). Quel que (deux mots) : quel s’accorde avec le sujet de être : quelle que soit la raison de ton absence.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : QUELQUE et QUEL QUE, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1570"
+    },
+    {
+     "titre": "BDL (OQLF) : QU’ELLE et QUELLE, distinguer ces homophones",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2601"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-09",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "on ou ont ?",
+   "verso": "On = pronom indéfini sujet (on nous a mariés). Ont = 3e personne du pluriel du présent de avoir (ils ont). Astuce, même principe que a/avait : remplacer par « avaient » ; si la phrase reste correcte, c’est ont.",
+   "sources": [
+    {
+     "titre": "Wiktionnaire : ont (forme du verbe avoir)",
+     "url": "https://fr.wiktionary.org/wiki/ont"
+    },
+    {
+     "titre": "Wiktionnaire : on (pronom indéfini)",
+     "url": "https://fr.wiktionary.org/wiki/on"
+    },
+    {
+     "titre": "BDL (OQLF) : Les manipulations syntaxiques (substitution)",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4266"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-10",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "son ou sont ?",
+   "verso": "Son = déterminant possessif (pluriel : ses) : son projet, ses projets. Sont = 3e personne du pluriel du présent de être (ils sont). Astuce : remplacer par « étaient » ; si la phrase reste correcte, c’est sont.",
+   "sources": [
+    {
+     "titre": "Wiktionnaire : sont (forme du verbe être)",
+     "url": "https://fr.wiktionary.org/wiki/sont"
+    },
+    {
+     "titre": "Wiktionnaire : son (déterminant possessif)",
+     "url": "https://fr.wiktionary.org/wiki/son"
+    },
+    {
+     "titre": "BDL (OQLF) : Les manipulations syntaxiques (substitution)",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4266"
+    }
+   ]
+  },
+  {
+   "id": "regles-homophone-11",
+   "categorie": "homophone",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "ou ou où ?",
+   "verso": "Où (accent grave) = pronom relatif ou adverbe, qui renvoie à un lieu ou à un temps ou qui interroge : la pièce où il passe son temps ; l’année où j’habitais Trois-Rivières ; Où êtes-vous ? Ou (sans accent) = conjonction de coordination. Hors quelques emprunts ou régionalismes, c’est le seul mot français contenant ù.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : OÙ, pronom relatif ou adverbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=1461"
+    },
+    {
+     "titre": "Wiktionnaire : où",
+     "url": "https://fr.wiktionary.org/wiki/o%C3%B9"
+    }
+   ]
+  },
+  {
+   "id": "regles-sujet-verbe-01",
+   "categorie": "sujet-verbe",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Comment repérer le sujet avant d’accorder le verbe ?",
+   "verso": "L’encadrer par « c’est … qui » ou le remplacer par un pronom (il, elle, ils) : C’est la nièce de nos amis Isabelle et Serge qui voyageait souvent en Espagne. Le sujet peut aussi être un groupe infinitif : Finir de lire ces livres pourrait devenir une idée fixe.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Repérage du sujet pour éviter les erreurs d’accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=5319"
+    },
+    {
+     "titre": "BDL (OQLF) : Verbe ayant plusieurs sujets, accord",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4434"
+    }
+   ]
+  },
+  {
+   "id": "regles-sujet-verbe-02",
+   "categorie": "sujet-verbe",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Quels sont les trois pièges les plus fréquents de l’accord sujet-verbe ?",
+   "verso": "1) Le sujet inversé : Dans cette humble demeure habitent mes parents. 2) Le sujet éloigné du verbe : Les vedettes de ce film mangent fréquemment au restaurant. 3) Un pronom entre le sujet et le verbe : Ils la voient souvent ; C’est moi qui irai chercher les enfants.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Repérage du sujet pour éviter les erreurs d’accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=5319"
+    },
+    {
+     "titre": "BDL (OQLF) : Verbe ayant plusieurs sujets, accord",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4434"
+    }
+   ]
+  },
+  {
+   "id": "regles-sujet-verbe-03",
+   "categorie": "sujet-verbe",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Deux sujets joints par « et » : le verbe se met-il au singulier ou au pluriel ? Et à quelle personne ?",
+   "verso": "Au pluriel, même si les sujets sont au singulier : Zachary et Marielle se marieront. La personne prioritaire l’emporte : la 1re sur la 2e et la 3e, la 2e sur la 3e (Ma voisine et moi faisons du covoiturage). Singulier possible quand les deux sujets expriment une seule idée : Vivre et laisser vivre est une philosophie.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : ET liant des sujets, accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4542"
+    },
+    {
+     "titre": "BDL (OQLF) : Verbe ayant plusieurs sujets, accord",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4434"
+    }
+   ]
+  },
+  {
+   "id": "regles-sujet-verbe-04",
+   "categorie": "sujet-verbe",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Sujets unis par « ou » : singulier ou pluriel ?",
+   "verso": "Cela dépend du sens. Si tous les sujets peuvent faire l’action : pluriel (Le directeur ou le chef de service doivent être présents). Si un seul peut la faire : singulier (La directrice ou son adjointe prendra la parole). Si l’un des sujets est au pluriel, le pluriel est obligatoire.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Sujets unis par OU, accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1460"
+    },
+    {
+     "titre": "BDL (OQLF) : ET liant des sujets, accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4542"
+    }
+   ]
+  },
+  {
+   "id": "regles-sujet-verbe-05",
+   "categorie": "sujet-verbe",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Accord du verbe avec « plus d’un » et « plus de deux » ?",
+   "verso": "Après plus d’un / plus d’une, le verbe se met en général au singulier : Plus d’un homme sensé a commis cette erreur ; Plus d’une candidate a été admise. Avec plus de deux, le verbe se met toujours au pluriel. Si plus d’un est répété ou si l’action est réciproque, pluriel.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : PLUS D’UN, PLUS D’UNE, accord du verbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1701"
+    },
+    {
+     "titre": "BDL (OQLF) : Verbe ayant plusieurs sujets, accord",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4434"
+    }
+   ]
+  },
+  {
+   "id": "regles-gn-01",
+   "categorie": "gn",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Un adjectif qui complète plusieurs noms joints par « et » : singulier ou pluriel, masculin ou féminin ?",
+   "verso": "Pluriel en général : une blouse et une jupe neuves. Si les noms sont de genres différents, masculin pluriel (mieux vaut placer le nom masculin près de l’adjectif). Singulier si les noms désignent une seule réalité (un mari et un père extraordinaire) ou si l’adjectif ne dépend que d’un nom (votre mère et votre sœur cadette).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Accord de l’adjectif avec des noms joints par ET",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1740"
+    },
+    {
+     "titre": "BDL (OQLF) : Adjectif après un complément du nom",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?t1=1&id=1099"
+    }
+   ]
+  },
+  {
+   "id": "regles-gn-02",
+   "categorie": "gn",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Adjectif ou participe après « nom + de + nom » : avec lequel des deux s’accorde-t-il ?",
+   "verso": "Selon le sens, avec le premier ou le second nom : des cuisses de poulet surgelées (ce sont les cuisses), une caisse d’oranges californiennes (ce sont les oranges), une rouelle de porc frais (c’est le porc). Il faut lire toute la phrase pour savoir ce que l’adjectif qualifie.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Adjectif après un complément du nom, règles d’accord",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?t1=1&id=1099"
+    },
+    {
+     "titre": "BDL (OQLF) : Accord de l’adjectif avec des noms joints par ET",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1740"
+    }
+   ]
+  },
+  {
+   "id": "regles-gn-03",
+   "categorie": "gn",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« Tout » adverbe devant un adjectif (« tout contents », « toute surprise ») : quand varie-t-il ?",
+   "verso": "Tout (au sens de « tout à fait ») est invariable devant un adjectif masculin et devant un adjectif féminin commençant par une voyelle ou un h muet : ils étaient tout contents ; elle était tout heureuse. Il s’accorde devant un adjectif féminin commençant par une consonne ou un h aspiré : elle était toute surprise ; elles sont toutes honteuses.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : TOUT employé comme adverbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2907"
+    },
+    {
+     "titre": "BDL (OQLF) : TOUT employé comme déterminant",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2910"
+    }
+   ]
+  },
+  {
+   "id": "regles-gn-04",
+   "categorie": "gn",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« Tout » devant un nom (« tous les candidats », « toute la semaine ») : accord ?",
+   "verso": "Quand tout accompagne un nom, c’est un déterminant indéfini : il s’accorde en genre et en nombre avec le nom (tous les dossiers ; toutes ces fleurs ; toute la semaine). Il peut y avoir un autre déterminant entre tous/toutes et le nom.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : TOUT employé comme déterminant",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2910"
+    },
+    {
+     "titre": "BDL (OQLF) : TOUT employé comme adverbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2907"
+    }
+   ]
+  },
+  {
+   "id": "regles-gn-05",
+   "categorie": "gn",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "« même » : adverbe invariable ou adjectif variable ?",
+   "verso": "Adverbe (« y compris ») : invariable : même les élèves exigeants ont été satisfaits. Adjectif : accord avec le nom ou le pronom, et trait d’union avec les pronoms personnels : les mêmes articles ; nous-mêmes, elles-mêmes. Après un nom : les élèves mêmes (= eux-mêmes), les élèves même (= même les élèves).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : MÊME, adverbe et adjectif",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=1319"
+    },
+    {
+     "titre": "BDL (OQLF) : TOUT employé comme adverbe",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=2907"
+    }
+   ]
+  },
+  {
+   "id": "regles-conjugaison-01",
+   "categorie": "conjugaison",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Passé simple des verbes en -er : quelles terminaisons, et où est l’accent circonflexe ?",
+   "verso": "-ai, -as, -a, -âmes, -âtes, -èrent (je demandai, il demanda, nous demandâmes, ils demandèrent). Au passé simple, tous les verbes prennent un accent circonflexe aux 1re et 2e personnes du pluriel (nous eûmes, vous fîtes).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Le passé simple, formes et conjugaison",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4207"
+    },
+    {
+     "titre": "BDL (OQLF) : Accent circonflexe, fonction dans les formes verbales",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3701"
+    }
+   ]
+  },
+  {
+   "id": "regles-conjugaison-02",
+   "categorie": "conjugaison",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Passé simple des verbes en -ir, -dre, -re, -oir : -is/-it ou -us/-ut ?",
+   "verso": "Terminaisons -is, -is, -it, -îmes, -îtes, -irent pour les verbes en -ir réguliers et nombre d’irréguliers (partir, rendre, dire, voir, craindre). Terminaisons -us, -us, -ut, -ûmes, -ûtes, -urent pour la quasi-totalité des autres irréguliers (devoir, courir, vivre, connaître, lire, croire, être). Tenir et venir : je vins, il vint, nous vînmes.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Le passé simple, formes et conjugaison",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4207"
+    },
+    {
+     "titre": "BDL (OQLF) : Accent circonflexe, fonction dans les formes verbales",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3701"
+    }
+   ]
+  },
+  {
+   "id": "regles-conjugaison-03",
+   "categorie": "conjugaison",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Imparfait du subjonctif des verbes en -er : terminaisons et accent à la 3e personne du singulier ?",
+   "verso": "-asse, -asses, -ât, -assions, -assiez, -assent (que je donnasse, qu’il chantât). À l’imparfait du subjonctif, tous les verbes prennent un accent circonflexe à la 3e personne du singulier : qu’il arrivât ; au plus-que-parfait, l’auxiliaire aussi : qu’il fût revenu.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Le subjonctif, formes et conjugaison",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4237"
+    },
+    {
+     "titre": "BDL (OQLF) : Accent circonflexe, fonction dans les formes verbales",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3701"
+    }
+   ]
+  },
+  {
+   "id": "regles-conjugaison-04",
+   "categorie": "conjugaison",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Futur et conditionnel des verbes en -er : quelles terminaisons, et que devient le e du radical ?",
+   "verso": "Futur : -rai, -ras, -ra, -rons, -rez, -ront ; conditionnel : -rais, -rais, -rait, -rions, -riez, -raient. On garde le radical de l’infinitif suivi d’un e, même muet à l’oral : nous crierons, il créerait, vous louerez. Après ce e, certains verbes changent e en è (il pèsera, il achèterait) ou doublent la consonne (appeler, jeter).",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Le futur simple, formes et conjugaison",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4655"
+    },
+    {
+     "titre": "BDL (OQLF) : Le conditionnel, formes et conjugaison",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4137"
+    }
+   ]
+  },
+  {
+   "id": "regles-lexicale-01",
+   "categorie": "lexicale",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Quand écrit-on m (et non n) devant une consonne ?",
+   "verso": "Devant m, b, p, une voyelle nasale s’écrit avec m : lampe, ampoule, chambre, emmener, humble, ombre. Exceptions : bonbon, bonbonnière, embonpoint, mainmise, perlimpinpin, néanmoins.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Emploi du M devant les consonnes M, B et P",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=4050"
+    },
+    {
+     "titre": "BDL (OQLF) : Consonnes doubles, généralités et exemples",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3794"
+    }
+   ]
+  },
+  {
+   "id": "regles-lexicale-02",
+   "categorie": "lexicale",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Consonnes doubles : lesquelles ne doublent jamais, et quels mots piègent souvent ?",
+   "verso": "Ne doublent jamais : j, q, v, w, x. Les plus souvent doubles : c, f, l, m, n, p, r, s, t. Avec double consonne : atterrir, millionnaire, tranquillité, étonner, nourrir, interroger. Sans double consonne (souvent écrits avec) : honorable, amener, moment, familier, colonel, rationalité.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Consonnes doubles, généralités et exemples",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3794"
+    },
+    {
+     "titre": "BDL (OQLF) : Consonnes doubles, erreurs fréquentes",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4465"
+    }
+   ]
+  },
+  {
+   "id": "regles-lexicale-03",
+   "categorie": "lexicale",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Pourquoi la consonne finale muette est-elle une source d’erreurs, et à quoi sert-elle ?",
+   "verso": "On a tendance à omettre à l’écrit une lettre qu’on n’entend pas. Elle sert pourtant à distinguer des homophones : vain, vin, vingt ; porc, pore, port ; poids, pois ; ris, riz ; tribu, tribut. Seule une trentaine de noms féminins se terminent par une consonne muette (brebis, dent, fois, paix, voix) : la plupart des noms et adjectifs ainsi terminés sont masculins.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Consonnes finales muettes, généralités",
+     "url": "https://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=3737"
+    },
+    {
+     "titre": "BDL (OQLF) : Les homophones lexicaux et grammaticaux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=2645"
+    }
+   ]
+  },
+  {
+   "id": "regles-ponctuation-01",
+   "categorie": "ponctuation",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Où la virgule est-elle interdite, et où est-elle obligatoire ?",
+   "verso": "Interdite entre le sujet et le verbe (sauf si le sujet est relativement long) et entre le verbe et son complément : « Martin, est parti en voyage » est fautif. Obligatoire avant et après une incise, entre les termes d’une énumération juxtaposée et avant etc. : Il a, faut-il le préciser, apporté son appareil photo, son maillot et ses palmes.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Ponctuation, principes généraux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3323"
+    },
+    {
+     "titre": "BDL (OQLF) : Virgule, usages et emplois",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3443"
+    }
+   ]
+  },
+  {
+   "id": "regles-ponctuation-02",
+   "categorie": "ponctuation",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Comment ponctue-t-on un élément mis en apposition (« Le ministre de l’Environnement, M. Levert, a parlé ») ?",
+   "verso": "Par une virgule double (avant et après), qui montre que l’élément est accessoire : Ce petit village, niché au cœur des montagnes, est un paradis. En début de phrase la première virgule disparaît ; en fin de phrase, la seconde disparaît au profit du point.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Virgule et appositions",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3442"
+    },
+    {
+     "titre": "BDL (OQLF) : Ponctuation, principes généraux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3323"
+    }
+   ]
+  },
+  {
+   "id": "regles-ponctuation-03",
+   "categorie": "ponctuation",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Où met-on la virgule autour d’un complément de phrase (« Depuis qu’il a découvert les sushis, Alexandre ne mange que ça ») ?",
+   "verso": "Une virgule après le complément placé au début de la phrase ; deux virgules s’il est au milieu ; en général aucune s’il est à la fin. La virgule double signale que le complément a été déplacé : Nathalie sera, au cas où on la demanderait, dans la salle de réunion.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Virgule et compléments de phrase",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3405"
+    },
+    {
+     "titre": "BDL (OQLF) : Virgule et appositions",
+     "url": "http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3442"
+    }
+   ]
+  },
+  {
+   "id": "regles-ponctuation-04",
+   "categorie": "ponctuation",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "Virgule devant « mais » : obligatoire, facultative ou interdite ?",
+   "verso": "Obligatoire quand les deux éléments s’opposent par la négation (Les enfants n’ont pas besoin de mesures disciplinaires, mais d’encouragements) et avec non seulement… mais… Facultative si les éléments sont courts (Aaron est négatif mais sociable). Après mais, elle est rare, sauf pour encadrer une incise.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : MAIS, règles d’emploi de la virgule",
+     "url": "http://bdl.oqlf.gouv.qc.ca/BDL/gabarit_bdl.asp?id=3445"
+    },
+    {
+     "titre": "BDL (OQLF) : Ponctuation, principes généraux",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3323"
+    }
+   ]
+  },
+  {
+   "id": "regles-ponctuation-05",
+   "categorie": "ponctuation",
+   "perissable": false,
+   "revu": "2026-10-12",
+   "recto": "À quoi sert le point-virgule, et que met-on après ?",
+   "verso": "C’est un signe de ponctuation moyenne : sa valeur est entre celle de la virgule et celle du point. Il lie deux phrases unies par le sens (ou sépare des membres de phrase indépendants liés logiquement), surtout dans les phrases longues. Le mot qui suit ne prend pas de majuscule, sauf nom propre.",
+   "sources": [
+    {
+     "titre": "BDL (OQLF) : Point-virgule, fonctions et emplois",
+     "url": "https://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=3345"
+    },
+    {
+     "titre": "Wikipédia : Point-virgule",
+     "url": "https://fr.wikipedia.org/wiki/Point-virgule"
+    }
+   ]
+  }
+ ]
+}
