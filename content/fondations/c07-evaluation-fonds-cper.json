@@ -1,0 +1,79 @@
+{
+  "id": "c07-evaluation-fonds-cper",
+  "parcours": "C",
+  "ordre": 7,
+  "titre": "Évaluer les fonds européens et les CPER : ce que le règlement impose, ce que la Cour des comptes reproche",
+  "accroche": "Les programmes européens sont les évaluations les plus encadrées de France : un plan d'évaluation, des critères, une date limite, des experts indépendants. Les CPER le sont beaucoup moins. Savoir pourquoi, c'est savoir ce que demande un commanditaire régional.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "Dates et obligations du règlement (UE) 2021/1060 pour la période 2021-2027 (évaluation d'impact au plus tard le 30 juin 2029, évaluation rétrospective de la Commission au plus tard le 31 décembre 2031). L'examen à mi-parcours devait être transmis à la Commission avant le 31 mars 2025 : il est fait. Le cadre de la période suivante (2028-2034) est en négociation. Pour les CPER 2021-2027, le dispositif de suivi et d'évaluation varie selon les régions et n'a pas été lu en détail : consulter le texte de chaque contrat.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Ce que le règlement impose aux programmes européens 2021-2027",
+      "paragraphes": [
+        "Le règlement (UE) 2021/1060, dit règlement portant dispositions communes (RDC), fixe les règles de tous les programmes cofinancés par le FEDER, le FSE+, le Fonds de cohésion, le Fonds pour une transition juste et le FEAMPA. Son article 44 organise l'évaluation menée par l'État membre. L'État ou l'autorité de gestion évalue les programmes au regard d'un ou plusieurs de cinq critères : l'efficacité, l'efficience, la pertinence, la cohérence et la valeur ajoutée de l'Union. Le but est d'améliorer la qualité de conception et de mise en œuvre des programmes ; d'autres critères sont possibles, comme le caractère inclusif, la non-discrimination ou la visibilité, et une évaluation peut couvrir plusieurs programmes.",
+        "Ces cinq critères ressemblent à ceux de l'OCDE sans leur être identiques : la valeur ajoutée de l'Union y remplace l'impact et la durabilité, et c'est une évaluation distincte qui doit apprécier l'impact de chaque programme, au plus tard le 30 juin 2029. Les évaluations sont confiées à des experts internes ou externes, mais indépendants sur le plan fonctionnel. L'autorité de gestion doit mettre en place les procédures qui produisent et collectent les données nécessaires. Toutes les évaluations sont publiées sur le site internet du programme."
+      ],
+      "points": [
+        "Le plan d'évaluation est élaboré par l'État membre ou l'autorité de gestion ; il peut couvrir plusieurs programmes.",
+        "Il est transmis au comité de suivi au plus tard un an après la décision d'approbation du programme ; le comité de suivi approuve le plan et ses modifications.",
+        "Le comité de suivi examine aussi l'avancement des évaluations et les suites données aux constatations."
+      ]
+    },
+    {
+      "titre": "Performance, examen à mi-parcours et évaluations de la Commission",
+      "paragraphes": [
+        "Chaque État membre met en place un cadre de performance pour suivre, évaluer et rendre compte des performances du programme. Il comprend des indicateurs de réalisation et de résultat liés aux objectifs spécifiques, des valeurs intermédiaires à atteindre d'ici la fin de 2024 et des valeurs cibles à atteindre d'ici la fin de 2029. Le portail Europe en France (ANCT) distingue les indicateurs de réalisation (ce que le programme finance et produit : nombre d'entreprises soutenues) des indicateurs de résultat (le changement recherché : taux de survie à trois ans des entreprises accompagnées). Pour la période 2014-2020, un programme jugé performant recevait une réserve de performance de 6 % de son enveloppe, et la Commission pouvait suspendre des versements ou imposer des corrections financières en cas d'échec.",
+        "Pour 2021-2027, l'article 18 impose un examen à mi-parcours de chaque programme FEDER, FSE+, Fonds de cohésion et FTJ. L'État y tient compte, entre autres, des nouveaux défis identifiés dans les recommandations par pays de 2024, de la situation socioéconomique, des principaux résultats des évaluations pertinentes et des progrès vers les valeurs intermédiaires. Il présente à la Commission, avant le 31 mars 2025, une évaluation de ses résultats avec une proposition d'affectation définitive du montant de la flexibilité. La Commission procède de son côté à une évaluation à mi-parcours de chaque Fonds d'ici la fin de 2024 et à une évaluation rétrospective au plus tard le 31 décembre 2031, qui insiste sur l'impact social, économique et territorial du FEDER, du FSE+, du Fonds de cohésion et du FEAMPA.",
+        "En France, l'ANCT conduit des évaluations nationales avec les autorités de gestion : celle de l'initiative REACT-EU (3,9 milliards d'euros pour la France, soit près de 8 % de l'enveloppe totale) devait être faite avant le 31 décembre 2024 et a été publiée en janvier 2025 avec un rapport final, des annexes et des synthèses."
+      ]
+    },
+    {
+      "titre": "Les CPER : une évaluation plus fragile",
+      "paragraphes": [
+        "Le contrat de plan État-région n'a pas de règlement européen derrière lui. L'évaluation des CPER a commencé dès 1993, pour la période 1994-1998, et elle est devenue une exigence de toutes les contractualisations ; les conseils régionaux sont devenus des acteurs majeurs de l'évaluation. Mais la pratique est inégale. Dans une enquête présentée le 15 octobre 2014 à la commission des finances du Sénat, la Cour des comptes avait relevé pour la génération 2007-2013 des taux d'exécution très inégaux selon les secteurs, les régions et les projets ; l'absence d'étude d'impact et de faisabilité physique ou financière préalable ; un trop grand nombre de priorités, qui conduisait à un saupoudrage des crédits ; l'absence d'évaluation à mi-parcours pourtant prévue en 2010 ; enfin le lancement en parallèle de programmes nationaux concurrents (programme d'investissements d'avenir, plan Campus, plans de transport).",
+        "Ses propositions pour la génération suivante dessinent le dispositif idéal : inscrire les contrats dans une stratégie nationale définie avec les régions ; exiger des études préalables de faisabilité ; éviter, pendant les deux ou trois premières années, que l'État adopte seul des plans sectoriels qui perturbent l'exécution ; mettre en place un comité de suivi national et des comités régionaux pour établir chaque année un bilan d'exécution, avec une évaluation à mi-parcours permettant des réajustements. La génération 2021-2027 est articulée avec les fonds européens et les contrats de relance et de transition écologique (voir la fiche A6) ; c'est donc au niveau de chaque contrat régional qu'il faut aller voir quelles instances et quels indicateurs ont été retenus.",
+        "Pour un entretien, la comparaison est instructive : d'un côté une évaluation prévue par un texte, avec des critères, des échéances, de l'indépendance et de la publicité ; de l'autre un contrat négocié entre l'État et la région, dont le suivi dépend de la volonté des signataires. Une partie du travail de l'évaluateur consiste à vérifier d'abord que la politique est évaluable : objectifs précis, indicateurs, données, calendrier."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "ANCT, « Évaluation de l'Initiative REACT-EU en France » (rapport final, synthèse, annexes)",
+    "url": "https://www.europe-en-france.gouv.fr/en/ressources/evaluation-initiative-react-eu-en-france",
+    "type": "évaluation nationale (rapport et synthèses)",
+    "duree": "45 min",
+    "pourquoi": "Un exemple réel d'évaluation de fonds européens conduite par l'ANCT avec les autorités de gestion : lis la synthèse, repère les questions évaluatives, les critères, les sources de données, puis la façon de formuler les recommandations."
+  },
+  "debat": [
+    "Faut-il aligner l'évaluation des CPER sur le modèle européen (plan d'évaluation, critères, experts indépendants, publication), au risque d'alourdir un contrat négocié entre l'État et la région ?",
+    "Un indicateur de réalisation (nombre d'entreprises soutenues) peut-il suffire à juger la performance d'un programme, ou faut-il toujours exiger des indicateurs de résultat ?",
+    "Qui doit évaluer une politique : l'autorité qui la gère avec des experts « indépendants sur le plan fonctionnel », ou une instance extérieure comme la Cour des comptes ?"
+  ],
+  "sources": [
+    {"titre": "EUR-Lex : Règlement (UE) 2021/1060, articles 16, 18, 40, 44 et 45", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021R1060"},
+    {"titre": "Europe en France (ANCT) : La performance des fonds européens", "url": "https://www.europe-en-france.gouv.fr/fr/fonds-europeens/la-performance-des-fonds-europeens"},
+    {"titre": "Europe en France (ANCT) : Évaluation de l'Initiative REACT-EU en France", "url": "https://www.europe-en-france.gouv.fr/en/ressources/evaluation-initiative-react-eu-en-france"},
+    {"titre": "Banque des Territoires (Localtis), 17 octobre 2014 : La Cour des comptes formule huit propositions pour améliorer les contrats de plan", "url": "https://www.banquedesterritoires.fr/la-cour-des-comptes-formule-huit-propositions-pour-ameliorer-les-contrats-de-plan"},
+    {"titre": "Wikipédia : Évaluation des politiques publiques (l'évaluation des CPER depuis 1993)", "url": "https://fr.wikipedia.org/wiki/%C3%89valuation_des_politiques_publiques"}
+  ],
+  "cartes": [
+    {"id": "c07-evaluation-fonds-cper-01", "recto": "Quel article du règlement (UE) 2021/1060 organise l'évaluation des programmes par l'État membre ?", "verso": "L'article 44 : l'État membre ou l'autorité de gestion réalise les évaluations des programmes.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-02", "recto": "Quels sont les cinq critères d'évaluation de l'article 44 ?", "verso": "L'efficacité, l'efficience, la pertinence, la cohérence et la valeur ajoutée de l'Union (un ou plusieurs de ces critères).", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-03", "recto": "En quoi les critères de l'article 44 diffèrent-ils de ceux de l'OCDE ?", "verso": "Ils reprennent pertinence, cohérence, efficacité et efficience, mais remplacent l'impact et la durabilité par la valeur ajoutée de l'Union ; l'impact fait l'objet d'une évaluation distincte.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-04", "recto": "Avant quelle date doit être réalisée l'évaluation d'impact de chaque programme 2021-2027 ?", "verso": "Au plus tard le 30 juin 2029.", "perissable": true},
+    {"id": "c07-evaluation-fonds-cper-05", "recto": "Qui réalise les évaluations des programmes européens, et avec quelle garantie ?", "verso": "Des experts internes ou externes, indépendants sur le plan fonctionnel.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-06", "recto": "Qu'est-ce que le plan d'évaluation d'un programme européen, et à qui est-il transmis ?", "verso": "Le document, élaboré par l'État membre ou l'autorité de gestion (possible pour plusieurs programmes), qui planifie les évaluations ; transmis au comité de suivi au plus tard un an après l'approbation du programme.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-07", "recto": "Que fait le comité de suivi en matière d'évaluation ?", "verso": "Il approuve le plan d'évaluation et ses modifications, et examine l'avancement des évaluations et les suites données à leurs constatations.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-08", "recto": "Où sont publiées les évaluations des programmes européens ?", "verso": "Sur le site internet du programme (site visé à l'article 49 du règlement) : toutes les évaluations sont publiées.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-09", "recto": "Que contient le cadre de performance d'un programme 2021-2027 ?", "verso": "Des indicateurs de réalisation et de résultat, des valeurs intermédiaires à atteindre d'ici fin 2024 et des valeurs cibles d'ici fin 2029.", "perissable": true},
+    {"id": "c07-evaluation-fonds-cper-10", "recto": "Différence entre indicateur de réalisation et indicateur de résultat (fonds européens) ? Un exemple de chacun pour le FEDER.", "verso": "Réalisation : ce que le programme finance et produit (nombre d'entreprises soutenues). Résultat : le changement recherché (taux de survie à 3 ans des entreprises accompagnées).", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-11", "recto": "Qu'est-ce que l'examen à mi-parcours des programmes 2021-2027 (article 18) ?", "verso": "Un examen de chaque programme FEDER, FSE+, Fonds de cohésion et FTJ à la lumière des nouveaux défis, des résultats des évaluations et des valeurs intermédiaires ; évaluation transmise à la Commission avant le 31 mars 2025, avec proposition sur le montant de la flexibilité.", "perissable": true},
+    {"id": "c07-evaluation-fonds-cper-12", "recto": "Quelles évaluations la Commission européenne conduit-elle sur les Fonds 2021-2027 ?", "verso": "Une évaluation à mi-parcours d'ici fin 2024, et une évaluation rétrospective au plus tard le 31 décembre 2031, centrée pour le FEDER, le FSE+, le Fonds de cohésion et le FEAMPA sur l'impact social, économique et territorial.", "perissable": true},
+    {"id": "c07-evaluation-fonds-cper-13", "recto": "Quelle institution française a conduit l'évaluation de l'initiative REACT-EU, et avec qui ?", "verso": "L'ANCT, avec la participation des autorités de gestion FEDER, FSE et FEAD (évaluation due avant le 31 décembre 2024).", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-14", "recto": "Depuis quand évalue-t-on les contrats de plan État-région ?", "verso": "Depuis 1993, pour la période 1994-1998 ; l'évaluation est devenue une exigence pour toutes les contractualisations.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-15", "recto": "Quels défauts la Cour des comptes a-t-elle relevés dans les CPER 2007-2013 (enquête présentée au Sénat en octobre 2014) ?", "verso": "Des taux d'exécution très inégaux, pas d'étude d'impact ni de faisabilité préalable, un saupoudrage des crédits (trop de priorités), pas d'évaluation à mi-parcours alors que prévue en 2010, et des programmes nationaux concurrents (PIA, plan Campus).", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-16", "recto": "Quel dispositif de suivi la Cour des comptes recommandait-elle pour les CPER ?", "verso": "Un comité de suivi national et des comités dans chaque région, avec un bilan d'exécution annuel et une évaluation à mi-parcours permettant des réajustements.", "perissable": false},
+    {"id": "c07-evaluation-fonds-cper-17", "recto": "Pourquoi l'évaluation des fonds européens est-elle plus encadrée que celle des CPER ?", "verso": "Les fonds européens reposent sur un règlement (plan d'évaluation, critères, dates, indépendance, publication) ; le CPER est un contrat négocié entre l'État et la région, dont le suivi dépend des signataires.", "perissable": false}
+  ]
+}

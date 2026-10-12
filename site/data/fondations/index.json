@@ -135,6 +135,30 @@
    "fichier": "a07-fonds-europeens.json"
   },
   {
+   "id": "a08-amenagement-urbanisme-zan",
+   "parcours": "A",
+   "ordre": 8,
+   "titre": "Aménagement et urbanisme : SRADDET, SCoT, PLU(i) et l'objectif « zéro artificialisation nette »",
+   "accroche": "Le ZAN est devenu le sujet de tension entre l'État, les régions et les maires : il structure les documents d'urbanisme, les enveloppes foncières et une grande partie des dossiers d'aménagement. Il faut comprendre l'emboîtement des documents avant de comprendre pourquoi il est si disputé.",
+   "duree_min": 120,
+   "nombre_cartes": 20,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "a08-amenagement-urbanisme-zan.json"
+  },
+  {
+   "id": "a09-services-publics-locaux",
+   "parcours": "A",
+   "ordre": 9,
+   "titre": "Les services publics locaux : eau, déchets, transports, et les modes de gestion (régie, délégation, SPL)",
+   "accroche": "Eau, déchets, transports : ce sont des services que le citoyen paie et voit fonctionner, et le premier terrain des évaluations locales. Entre la régie, le marché et la délégation, le choix du mode de gestion change qui porte le risque et comment on contrôle.",
+   "duree_min": 90,
+   "nombre_cartes": 17,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "a09-services-publics-locaux.json"
+  },
+  {
    "id": "b01-lolf-lois-de-finances",
    "parcours": "B",
    "ordre": 1,
@@ -181,6 +205,18 @@
    "perissable": true,
    "revu": "2026-10-11",
    "fichier": "b04-analyse-financiere.json"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle",
+   "parcours": "B",
+   "ordre": 5,
+   "titre": "Ordres de grandeur des finances publiques en 2025 et contrôle des comptes locaux (Cour des comptes, chambres régionales)",
+   "accroche": "En entretien, un chiffre juste vaut mieux qu'un long discours : déficit, dette, part des collectivités. Et les chambres régionales des comptes, qui contrôlent les collectivités et peuvent désormais les évaluer, sont à la fois un outil, une source et un employeur possible.",
+   "duree_min": 90,
+   "nombre_cartes": 19,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "b05-ordres-grandeur-controle.json"
   },
   {
    "id": "c01-evaluation-definition",
@@ -253,6 +289,18 @@
    "perissable": true,
    "revu": "2026-10-12",
    "fichier": "c06-acteurs-evaluation.json"
+  },
+  {
+   "id": "c07-evaluation-fonds-cper",
+   "parcours": "C",
+   "ordre": 7,
+   "titre": "Évaluer les fonds européens et les CPER : ce que le règlement impose, ce que la Cour des comptes reproche",
+   "accroche": "Les programmes européens sont les évaluations les plus encadrées de France : un plan d'évaluation, des critères, une date limite, des experts indépendants. Les CPER le sont beaucoup moins. Savoir pourquoi, c'est savoir ce que demande un commanditaire régional.",
+   "duree_min": 90,
+   "nombre_cartes": 17,
+   "perissable": true,
+   "revu": "2026-10-12",
+   "fichier": "c07-evaluation-fonds-cper.json"
   },
   {
    "id": "c08-conduire-evaluation",

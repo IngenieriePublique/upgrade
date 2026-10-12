@@ -22,9 +22,10 @@ A Institutions et action publique (lundi), B Finances publiques et locales (lund
 3. Ne mettre dans les cartes que ce que la fiche affirme. Vérifier à part les chiffres (une source officielle de préférence).
 4. `python -I scripts/check_links.py content/fondations` (403 et 429 = à vérifier à la main).
 
-## État au 2026-10-12 (22 fichiers, 21 kits)
-- A : Ve République, État territorial, décentralisation, collectivités, intercommunalité, contractualisation (CPER, CRTE), fonds européens (A1 à A7).
-- B : LOLF et lois de finances, budget local, recettes locales, analyse financière (B1 à B4).
-- C : définition de l'évaluation, critères OCDE, chaîne de résultats, méthodes causales, méthodes mixtes, acteurs, conduite d'une évaluation (C1 à C6 et C8 ; C7 « évaluation des fonds européens et des CPER » reste à écrire).
+## État au 2026-10-12 (26 fichiers, 25 kits)
+- A : Ve République, État territorial, décentralisation, collectivités, intercommunalité, contractualisation (CPER, CRTE), fonds européens, aménagement et ZAN, services publics locaux (A1 à A9).
+- B : LOLF et lois de finances, budget local, recettes locales, analyse financière, ordres de grandeur 2025 et contrôle des comptes locaux (B1 à B5).
+- C : définition de l'évaluation, critères OCDE, chaîne de résultats, méthodes causales, méthodes mixtes, acteurs, conduite d'une évaluation et évaluation des fonds européens et des CPER (C1 à C8).
 - D1 Union européenne, E1 action publique, F1 fonction publique territoriale (premiers kits de ces parcours).
-- Reste à produire (croisière, 4 kits par mois) : A8 aménagement (ZAN, urbanisme), A9 services publics locaux ; B5 ordres de grandeur de l'État et contrôle (CRC) ; C7 ; D (histoire, géographie, géopolitique) ; E (arts, lettres, idées) ; F (marché de l'évaluation, outils et réseau).
+- Mois d'octobre 2026 : C7, A8, A9 et B5 faits (les sources lourdes ont été lues dans le navigateur intégré quand EUR-Lex, Légifrance ou des PDF bloquaient les scripts ; certains PDF à polices CID ne s'extraient pas). A8 et B5 reposent sur des faits à revérifier : ZAN (proposition TRACE non inscrite à l'Assemblée au 25 juin 2026) et chiffres 2025 de l'Insee.
+- Reste à produire (croisière, 4 kits par mois) : D (histoire, géographie, géopolitique) ; E (arts, lettres, idées) ; F (marché de l'évaluation, outils et réseau).

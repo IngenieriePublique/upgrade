@@ -1,0 +1,85 @@
+{
+  "id": "a09-services-publics-locaux",
+  "parcours": "A",
+  "ordre": 9,
+  "titre": "Les services publics locaux : eau, déchets, transports, et les modes de gestion (régie, délégation, SPL)",
+  "accroche": "Eau, déchets, transports : ce sont des services que le citoyen paie et voit fonctionner, et le premier terrain des évaluations locales. Entre la régie, le marché et la délégation, le choix du mode de gestion change qui porte le risque et comment on contrôle.",
+  "duree_min": 90,
+  "perissable": true,
+  "perissable_note": "La compétence eau et assainissement a changé en avril 2025 (loi du 11 avril 2025) ; la répartition des modes de financement des déchets citée date de 2012 (Wikipédia). Revérifier les règles en vigueur sur Légifrance et sur le site de la préfecture ou de la DDT avant de les citer pour un territoire précis.",
+  "revu": "2026-10-12",
+  "fiche": [
+    {
+      "titre": "Une compétence, plusieurs façons de gérer",
+      "paragraphes": [
+        "Une collectivité qui a la responsabilité d'un service public local choisit comment l'exercer. En régie, elle l'assure elle-même : dans la régie simple, la collectivité gère le service avec son propre personnel et procède à toutes les dépenses ; elle peut aussi créer une régie dotée d'une autonomie financière (régie autonome) ou de la personnalité morale (régie personnalisée). Elle peut aussi acheter des prestations par des marchés publics : elle paie un prix et garde le risque. Enfin, elle peut déléguer.",
+        "La délégation de service public (DSP) est une concession de service : un opérateur économique reçoit la gestion du service, avec un risque lié à l'exploitation et une rémunération substantiellement liée au résultat d'exploitation. Ses formes économiques principales sont la concession, l'affermage et la régie intéressée. La DSP échappe au régime des marchés publics précisément parce que le délégataire supporte une part substantielle du risque financier, alors que dans un marché le risque reste entièrement à la collectivité ; elle suit en France la procédure issue de la loi Sapin du 29 janvier 1993 (publicité, libre discussion avec les candidats, approbation du choix par l'assemblée délibérante). Les missions qui relèvent des prérogatives de puissance publique (état civil, organisation des élections…) ne peuvent pas être déléguées.",
+        "Entre les deux, les entreprises publiques locales : la société d'économie mixte (SEM) peut exploiter des services publics industriels et commerciaux (assainissement, déchets, pompes funèbres) ou toute activité d'intérêt général ; la société publique locale (SPL), société anonyme détenue exclusivement par des collectivités, réalise les missions que ces dernières lui confient par un contrat de la commande publique, sans mise en concurrence entre les collectivités actionnaires et elle. Une régie peut être administrative ou industrielle et commerciale : un service public industriel et commercial est soumis principalement au droit privé et à la compétence du juge judiciaire."
+      ],
+      "points": [
+        "Régie : la collectivité gère, avec son personnel ou une structure qu'elle crée.",
+        "Marché public : un prix payé à un prestataire, risque pour la collectivité.",
+        "DSP (concession, affermage, régie intéressée) : risque d'exploitation transféré au délégataire.",
+        "SEM, SPL : sociétés dont les collectivités sont actionnaires."
+      ]
+    },
+    {
+      "titre": "Eau et assainissement : un transfert devenu facultatif",
+      "paragraphes": [
+        "L'eau potable et l'assainissement sont des compétences de proximité que se partagent communes, syndicats et intercommunalités. Le transfert aux communautés de communes était obligatoire à la date du 1er janvier 2026. La loi n° 2025-327 du 11 avril 2025 visant à assouplir la gestion des compétences « eau » et « assainissement » y a mis fin : les communes qui n'avaient pas encore transféré ces compétences à leur communauté de communes ne sont plus obligées de le faire. Elles peuvent les conserver ou les transférer, mais les transferts déjà effectués ne sont pas remis en cause.",
+        "Le texte consacre aussi le caractère « sécable » de la compétence assainissement (collectif et non collectif), sécurise la création de nouveaux syndicats pour mutualiser l'exercice (en les exonérant de la compatibilité avec le schéma départemental de coopération intercommunale), prévoit que la commission départementale de la coopération intercommunale se réunit une fois par mandature pour évoquer la qualité et la quantité de la ressource, et inscrit dans la loi la possibilité pour les communes de se fournir mutuellement de l'eau en cas de pénurie.",
+        "Pour l'évaluation, ce secteur a une particularité : un observatoire national, SISPEA (Observatoire des services publics de l'eau et de l'assainissement), collecte chaque année des données de prix et de performance des services ; l'Office français de la biodiversité publie en juin un panorama national. Il permet de comparer des services et des modes de gestion, à condition de bien lire la qualité des données."
+      ]
+    },
+    {
+      "titre": "Déchets et transports",
+      "paragraphes": [
+        "Selon le type de déchet, la gestion relève de la commune, de l'EPCI, du département, de la région (qui produit un plan régional de prévention et de gestion des déchets) ou de l'État ; le plus souvent, la commune délègue la compétence à l'EPCI dont elle fait partie. Le financement de la collecte et du traitement des ordures ménagères repose principalement sur la taxe d'enlèvement des ordures ménagères (TEOM), un impôt facultatif institué en 1926 et payé par les propriétaires soumis à la taxe foncière sur les propriétés bâties, ou sur une redevance (REOM), versée par l'usager en fonction du service rendu. Selon la source consultée, en 2012 seules 3 % des communes ou EPCI finançaient les déchets par le budget général, 68 % utilisaient la TEOM et 29 % la REOM.",
+        "Les transports urbains relèvent des autorités organisatrices de la mobilité (AOM), nom donné par la loi MAPTAM du 27 janvier 2014 : le transport urbain, le transport à la demande, le transport scolaire, les mobilités actives, le covoiturage. L'AOM peut percevoir le versement mobilité. Dans la majorité des cas, ce sont les communautés d'agglomération, communautés urbaines et métropoles ; la région Île-de-France fait exception avec Île-de-France Mobilités.",
+        "Dans tous ces secteurs, la question d'évaluation est voisine : le service est-il rendu à un coût et avec une qualité acceptables, par qui est porté le risque, et la collectivité a-t-elle les moyens de contrôler son opérateur ? C'est à cette dernière question que le choix du mode de gestion, et la qualité du suivi du contrat, répondent."
+      ]
+    }
+  ],
+  "ressource": {
+    "titre": "SISPEA, Observatoire des services publics de l'eau et de l'assainissement (services.eaufrance.fr)",
+    "url": "https://www.services.eaufrance.fr/",
+    "type": "observatoire national (données et indicateurs)",
+    "duree": "30 min",
+    "pourquoi": "Cherche le prix et les indicateurs de performance du service d'eau de ta commune ou de ta région : c'est un exemple concret de ce qu'on peut évaluer avec des données ouvertes, et de ce qui manque encore."
+  },
+  "debat": [
+    "Régie ou délégation : qui protège le mieux l'usager de l'eau, et sur quels critères (prix, qualité, investissement, contrôle) le mesurer ?",
+    "Faut-il rendre obligatoire le transfert de l'eau et de l'assainissement aux intercommunalités pour mutualiser les moyens, ou laisser chaque commune décider ?",
+    "La TEOM, impôt foncier sans lien avec la quantité de déchets produite, est-elle compatible avec l'objectif de réduire les déchets ? Que changerait une redevance incitative ?"
+  ],
+  "sources": [
+    {"titre": "Wikipédia : Délégation de service public (code de la commande publique, loi Sapin, formes)", "url": "https://fr.wikipedia.org/wiki/D%C3%A9l%C3%A9gation_de_service_public"},
+    {"titre": "Wikipédia : Régie en droit public français", "url": "https://fr.wikipedia.org/wiki/R%C3%A9gie_en_droit_public_fran%C3%A7ais"},
+    {"titre": "Wikipédia : Société publique locale", "url": "https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_publique_locale"},
+    {"titre": "Wikipédia : Service public industriel et commercial", "url": "https://fr.wikipedia.org/wiki/Service_public_industriel_et_commercial"},
+    {"titre": "Banque des Territoires (Localtis), 14 avril 2025 : la loi sur la fin du transfert obligatoire de l'eau et de l'assainissement promulguée", "url": "https://www.banquedesterritoires.fr/gestion-de-leau-et-de-lassainissement-la-loi-sur-la-fin-du-transfert-obligatoire-aux"},
+    {"titre": "SISPEA : Observatoire des services publics de l'eau et de l'assainissement", "url": "https://www.services.eaufrance.fr/"},
+    {"titre": "Wikipédia : Taxe d'enlèvement des ordures ménagères", "url": "https://fr.wikipedia.org/wiki/Taxe_d%27enl%C3%A8vement_des_ordures_m%C3%A9nag%C3%A8res"},
+    {"titre": "Wikipédia : Gestion des déchets en France", "url": "https://fr.wikipedia.org/wiki/Gestion_des_d%C3%A9chets_en_France"},
+    {"titre": "Wikipédia : Autorité organisatrice de la mobilité", "url": "https://fr.wikipedia.org/wiki/Autorit%C3%A9_organisatrice_de_la_mobilit%C3%A9"}
+  ],
+  "cartes": [
+    {"id": "a09-services-publics-locaux-01", "recto": "Qu'est-ce qu'une régie (modes de gestion d'un service public local) ?", "verso": "La collectivité gère elle-même le service (régie simple, avec son personnel) ou par une structure qu'elle crée : régie autonome (autonomie financière) ou personnalisée (personnalité morale). Elle s'oppose à la délégation.", "perissable": false},
+    {"id": "a09-services-publics-locaux-02", "recto": "Qu'est-ce qu'une délégation de service public (DSP) ?", "verso": "Une concession de service par laquelle une collectivité confie la gestion d'un service public à un opérateur économique, qui supporte un risque lié à l'exploitation et dont la rémunération est substantiellement liée au résultat d'exploitation.", "perissable": false},
+    {"id": "a09-services-publics-locaux-03", "recto": "Quelles sont les trois formes principales de DSP ?", "verso": "La concession, l'affermage et la régie intéressée.", "perissable": false},
+    {"id": "a09-services-publics-locaux-04", "recto": "Pourquoi la DSP n'est-elle pas soumise au régime des marchés publics ?", "verso": "Parce que le délégataire supporte une part substantielle du risque financier de l'exploitation, alors que dans un marché public le risque est entièrement reporté sur la collectivité, qui paie un prix.", "perissable": false},
+    {"id": "a09-services-publics-locaux-05", "recto": "Quelle loi organise la procédure de passation d'une DSP, et quel est son principe ?", "verso": "La loi Sapin du 29 janvier 1993 : publicité, libre discussion avec les candidats, et approbation du choix par l'assemblée délibérante.", "perissable": false},
+    {"id": "a09-services-publics-locaux-06", "recto": "Quelles missions ne peuvent pas être déléguées ?", "verso": "Celles qui relèvent directement des prérogatives de puissance publique (organisation des élections, actes d'état civil, etc.).", "perissable": false},
+    {"id": "a09-services-publics-locaux-07", "recto": "Qu'est-ce qu'une SPL ?", "verso": "Une société publique locale : société anonyme détenue exclusivement par des collectivités (ou leurs groupements), qui réalise les missions que celles-ci lui confient par un contrat de la commande publique, sans mise en concurrence entre actionnaires et société.", "perissable": false},
+    {"id": "a09-services-publics-locaux-08", "recto": "Qu'est-ce qu'une SEM locale, et que peut-elle exploiter ?", "verso": "Une société d'économie mixte dont la collectivité est actionnaire majoritaire ; elle peut exploiter des services publics industriels et commerciaux (assainissement, déchets, pompes funèbres) ou toute activité d'intérêt général.", "perissable": false},
+    {"id": "a09-services-publics-locaux-09", "recto": "Quel droit et quel juge pour un service public industriel et commercial (SPIC) ?", "verso": "Principalement le droit privé et le juge judiciaire ; un service public administratif (SPA) relève du droit administratif.", "perissable": false},
+    {"id": "a09-services-publics-locaux-10", "recto": "Que prévoit la loi n° 2025-327 du 11 avril 2025 sur l'eau et l'assainissement ?", "verso": "Le transfert aux communautés de communes n'est plus obligatoire au 1er janvier 2026 : les communes qui n'ont pas transféré peuvent conserver ou transférer ; les transferts déjà faits ne sont pas remis en cause.", "perissable": true},
+    {"id": "a09-services-publics-locaux-11", "recto": "Que signifie le caractère « sécable » de la compétence assainissement ?", "verso": "L'assainissement collectif et l'assainissement non collectif peuvent être transférés séparément : une commune ayant transféré une partie de la compétence est libre de transférer ou non l'autre.", "perissable": true},
+    {"id": "a09-services-publics-locaux-12", "recto": "Quelle réunion la loi de 2025 impose-t-elle à la CDCI sur l'eau ?", "verso": "Une réunion une fois tous les six ans, en début de mandature, sur la qualité et la quantité de la ressource, la performance des services et les perspectives à dix ans ; communes et EPCI compétents doivent ensuite en débattre.", "perissable": true},
+    {"id": "a09-services-publics-locaux-13", "recto": "Qu'est-ce que SISPEA ?", "verso": "L'Observatoire national des services publics de l'eau et de l'assainissement : il collecte les données de prix et de performance des services ; l'OFB publie chaque mois de juin un panorama national.", "perissable": false},
+    {"id": "a09-services-publics-locaux-14", "recto": "Qui exerce en général la compétence de collecte et de traitement des déchets ménagers ?", "verso": "La commune la délègue le plus souvent à l'EPCI dont elle fait partie ; selon le type de déchet, d'autres niveaux interviennent (département, région avec son plan régional, État).", "perissable": false},
+    {"id": "a09-services-publics-locaux-15", "recto": "TEOM et REOM : quelle différence ?", "verso": "La taxe d'enlèvement des ordures ménagères est un impôt facultatif payé par les propriétaires soumis à la taxe foncière sur les propriétés bâties ; la redevance (REOM) est versée par l'usager en fonction du service rendu. La TEOM est le principal mode de financement.", "perissable": false},
+    {"id": "a09-services-publics-locaux-16", "recto": "Qu'est-ce qu'une AOM, et qui l'est le plus souvent ?", "verso": "Une autorité organisatrice de la mobilité (nom donné par la loi MAPTAM de 2014) : transport urbain, transport à la demande, scolaire, mobilités actives, covoiturage ; le plus souvent une communauté d'agglomération, une communauté urbaine ou une métropole.", "perissable": false},
+    {"id": "a09-services-publics-locaux-17", "recto": "Quelle ressource finance les AOM ?", "verso": "Le versement mobilité (ancien versement transport), que l'AOM peut percevoir.", "perissable": false}
+  ]
+}

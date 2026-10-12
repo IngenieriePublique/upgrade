@@ -1,0 +1,543 @@
+{
+ "id": "b05-ordres-grandeur-controle",
+ "parcours": "B",
+ "ordre": 5,
+ "titre": "Ordres de grandeur des finances publiques en 2025 et contrôle des comptes locaux (Cour des comptes, chambres régionales)",
+ "accroche": "En entretien, un chiffre juste vaut mieux qu'un long discours : déficit, dette, part des collectivités. Et les chambres régionales des comptes, qui contrôlent les collectivités et peuvent désormais les évaluer, sont à la fois un outil, une source et un employeur possible.",
+ "duree_min": 90,
+ "perissable": true,
+ "perissable_note": "Chiffres de l'année 2025 (Insee Première n° 2106, 29 mai 2026). Ils sont révisés et remplacés chaque année : revérifier sur insee.fr avant de les citer. Le rapport 2026 de l'Observatoire des finances et de la gestion publiques locales (OFGL) sur l'année 2025 existe mais n'a pas pu être lu en détail ici : consulter le site de la DGCL pour les ordres de grandeur propres aux collectivités.",
+ "revu": "2026-10-12",
+ "fiche": [
+  {
+   "titre": "Les ordres de grandeur de 2025",
+   "paragraphes": [
+    "Selon l'Insee (Insee Première n° 2106, mai 2026), le déficit public au sens de Maastricht atteint 152,5 milliards d'euros en 2025, soit 5,1 % du PIB (5,8 % en 2024, 169,1 milliards). Les recettes accélèrent (+3,9 %) tandis que les dépenses ralentissent (+2,5 % après +4,0 %). Les dépenses des administrations publiques représentent 57,3 % du PIB. La dette publique s'établit à 3 460,5 milliards d'euros, soit 115,7 % du PIB (112,6 % fin 2024) ; la dette nette est de 108,5 % du PIB.",
+    "Ce déficit se répartit entre quatre sous-secteurs. L'État est à -128,1 milliards ; les organismes divers d'administration centrale (ODAC) à -2,2 ; les administrations publiques locales (APUL) à -15,6 ; les administrations de sécurité sociale (ASSO) à -6,7, après un léger excédent en 2024. Dans les APUL, les collectivités territoriales pèsent -9,3 milliards (communes -4,4, départements -2,0, régions -2,1) et les organismes divers d'administration locale (ODAL, dont Île-de-France Mobilités et la Société des grands projets) -6,2. Côté dette, l'État porte 2 822,7 milliards, les APUL 275,7 (environ 8 % du total), les ASSO 293,1 et les ODAC 69,0.",
+    "Les collectivités ne sont donc ni le gros du déficit ni le gros de la dette, mais elles portent l'investissement public local : 70,7 milliards d'euros en 2025 pour les APUL, en hausse de 3,4 % après +8,1 % en 2024. Leurs dépenses augmentent de 1,5 % et leurs recettes de 2,3 % ; les départements profitent du rebond des droits de mutation (+19,8 %) ; l'État leur transfère 40,7 milliards d'euros de transferts courants (-1,7 %)."
+   ]
+  },
+  {
+   "titre": "Qui contrôle : la Cour des comptes et les chambres régionales et territoriales",
+   "paragraphes": [
+    "Les chambres régionales et territoriales des comptes (CRTC) sont des juridictions financières créées par la loi du 2 mars 1982 sur les droits et libertés des communes, des départements et des régions, lors de la décentralisation. Il y en a aujourd'hui vingt-trois : treize en métropole (une par région) et dix en outre-mer réparties sur quatre sites ; elles comptaient environ 1 005 agents en 2023, pour un tiers de magistrats, un tiers de vérificateurs et un tiers de personnels administratifs. Avec la Cour des comptes, elles forment un ensemble de juridictions régi par le code des juridictions financières. La Constitution (article 47-2) dispose que la Cour des comptes assiste le Parlement dans le contrôle de l'action du Gouvernement, et le Parlement comme le Gouvernement dans le contrôle de l'exécution des lois de finances et des lois de financement de la sécurité sociale ainsi que dans l'évaluation des politiques publiques.",
+    "Leur contrôle prend plusieurs formes. L'examen de la gestion porte sur la régularité mais aussi sur la qualité de la gestion : les chambres n'ont pas à apprécier l'opportunité des choix politiques des élus, mais la sincérité des comptes, l'équilibre financier, l'économie des moyens mis en œuvre et leur efficience, c'est-à-dire la comparaison des moyens avec les résultats obtenus. Les rapports d'observations, d'abord provisoires puis définitifs, sont portés à la connaissance de l'assemblée délibérante et rendus publics (plus de 800 par an en moyenne). Le contrôle dure en moyenne dix mois ; les « audits flash » raccourcissent le délai à un ou deux mois.",
+    "Le contrôle budgétaire est différent : contemporain des faits et non a posteriori, il intervient quand un budget n'est pas voté dans les délais, est voté en déséquilibre, qu'un compte est fortement déficitaire, que les crédits d'une dépense obligatoire sont insuffisants ou que le compte administratif est rejeté. Le préfet ne peut alors régler le budget qu'après avis de la chambre. Le préfet peut aussi consulter la chambre sur une convention de délégation de service public ou sur un marché."
+   ]
+  },
+  {
+   "titre": "Responsabilité des gestionnaires et évaluation depuis 2023",
+   "paragraphes": [
+    "Depuis le 1er janvier 2023, un régime de responsabilité commun aux comptables et aux ordonnateurs remplace la responsabilité personnelle et pécuniaire du comptable public (ordonnance du 23 mars 2022). La Cour de discipline budgétaire et financière a été supprimée au 31 décembre 2022 ; les comptables comme les ordonnateurs sont désormais jugés par la chambre du contentieux, située à la Cour des comptes et composée à parité de magistrats de la Cour et des CRTC.",
+    "Depuis la même date, les CRTC peuvent aussi conduire des évaluations de politiques publiques, de leur propre initiative, à la demande de leur organe délibérant ou à la demande d'un président de conseil régional, de conseil départemental ou de conseil de métropole. Pour un évaluateur territorial, c'est un point d'attention : une même collectivité peut être évaluée par un prestataire qu'elle a choisi, par un service interne, ou par la chambre régionale des comptes. Les rapports publics des chambres sont aussi une source d'analyses comparatives sur les finances, les services publics et les organismes locaux."
+   ]
+  }
+ ],
+ "ressource": {
+  "titre": "Insee, « Le compte des administrations publiques en 2025 » (Insee Première n° 2106, mai 2026)",
+  "url": "https://www.insee.fr/fr/statistiques/8997691",
+  "type": "publication statistique",
+  "duree": "30 min",
+  "pourquoi": "La source des chiffres de cette fiche : lis les figures (ratios, dépenses et recettes par sous-secteur, dette par niveau) et prépare cinq chiffres que tu sauras citer de mémoire, avec l'année et la source."
+ },
+ "debat": [
+  "Les collectivités doivent-elles contribuer davantage à la réduction du déficit public, alors qu'elles portent l'essentiel de l'investissement public local et une faible part de la dette ?",
+  "Les chambres régionales des comptes ne jugent pas l'opportunité des choix politiques : est-ce une limite ou une garantie d'indépendance quand elles évaluent une politique publique ?",
+  "Un évaluateur qui travaille pour une collectivité peut-il être aussi indépendant qu'une chambre régionale des comptes ? À quelles conditions ?"
+ ],
+ "sources": [
+  {
+   "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+   "url": "https://www.insee.fr/fr/statistiques/8997691"
+  },
+  {
+   "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+   "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+  },
+  {
+   "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+   "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  {
+   "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+   "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+  }
+ ],
+ "cartes": [
+  {
+   "id": "b05-ordres-grandeur-controle-01",
+   "recto": "Quel est le déficit public de la France en 2025 (Insee, Maastricht) ?",
+   "verso": "152,5 milliards d'euros, soit 5,1 % du PIB (5,8 % en 2024).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-02",
+   "recto": "Quelle est la dette publique de la France fin 2025 ?",
+   "verso": "3 460,5 milliards d'euros, soit 115,7 % du PIB (112,6 % fin 2024) ; dette nette : 108,5 % du PIB.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-03",
+   "recto": "Quel est le poids des dépenses des administrations publiques en 2025 ?",
+   "verso": "57,3 % du PIB ; en valeur, elles progressent de 2,5 % (après 4,0 %), tandis que les recettes progressent de 3,9 %.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-04",
+   "recto": "Quels sont les quatre sous-secteurs des administrations publiques ?",
+   "verso": "L'État, les organismes divers d'administration centrale (ODAC), les administrations publiques locales (APUL, dont les ODAL) et les administrations de sécurité sociale (ASSO).",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-05",
+   "recto": "Quel est le solde de l'État en 2025, et celui des administrations publiques locales ?",
+   "verso": "État : -128,1 Md€ ; APUL : -15,6 Md€ (collectivités -9,3 ; ODAL -6,2).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-06",
+   "recto": "Quel est le déficit des collectivités territoriales en 2025 et sa répartition ?",
+   "verso": "-9,3 Md€ : communes -4,4 ; départements -2,0 ; régions -2,1.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-07",
+   "recto": "Quelles entités font l'essentiel du déficit des ODAL ?",
+   "verso": "Île-de-France Mobilités et la Société des grands projets (ODAL : -6,2 Md€ en 2025).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-08",
+   "recto": "Quelle est la dette des administrations publiques locales fin 2025, et quelle part du total ?",
+   "verso": "275,7 Md€, environ 8 % de la dette publique (État : 2 822,7 Md€ ; sécurité sociale : 293,1 ; ODAC : 69,0).",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-09",
+   "recto": "Quel est le niveau de l'investissement des administrations publiques locales en 2025 ?",
+   "verso": "70,7 Md€, en hausse de 3,4 % après +8,1 % en 2024.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-10",
+   "recto": "Pourquoi les recettes des départements ont-elles bien progressé en 2025 ?",
+   "verso": "Rebond des droits de mutation à titre onéreux (+19,8 % après -12,5 % en 2024), avec la reprise du marché immobilier.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-11",
+   "recto": "Quand et comment ont été créées les chambres régionales des comptes ?",
+   "verso": "Par la loi du 2 mars 1982 relative aux droits et libertés des communes, des départements et des régions, lors de la décentralisation : un contrôle a posteriori substitué à la tutelle a priori.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-12",
+   "recto": "Combien y a-t-il de chambres régionales et territoriales des comptes ?",
+   "verso": "Vingt-trois : treize en métropole (une par région) et dix en outre-mer sur quatre sites.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-13",
+   "recto": "Que contrôle l'examen de la gestion d'une chambre régionale des comptes, et que ne contrôle-t-il pas ?",
+   "verso": "La régularité et la qualité de la gestion : sincérité des comptes, équilibre financier, économie des moyens et efficience. Pas l'opportunité des choix politiques des élus.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-14",
+   "recto": "Que deviennent les observations d'une chambre régionale des comptes ?",
+   "verso": "Rapport provisoire puis définitif, porté à la connaissance de l'assemblée délibérante et rendu public ; plus de 800 par an en moyenne.",
+   "perissable": true,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-15",
+   "recto": "Qu'est-ce qu'un audit flash ?",
+   "verso": "Un contrôle de gestion réalisé par une chambre en un ou deux mois, contre dix mois en moyenne pour un contrôle des comptes et de la gestion classique.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-16",
+   "recto": "Dans quels cas intervient le contrôle budgétaire d'une chambre ?",
+   "verso": "Budget non voté dans les délais, voté en déséquilibre, compte fortement déficitaire, dépense obligatoire insuffisamment dotée, rejet du compte administratif : le préfet ne règle le budget qu'après avis de la chambre.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-17",
+   "recto": "Qu'a changé le 1er janvier 2023 pour la responsabilité des gestionnaires publics ?",
+   "verso": "Un régime commun aux comptables et aux ordonnateurs (ordonnance du 23 mars 2022) ; la Cour de discipline budgétaire et financière est supprimée ; jugement par la chambre du contentieux de la Cour des comptes.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-18",
+   "recto": "Depuis quand les chambres régionales des comptes peuvent-elles évaluer des politiques publiques, et à la demande de qui ?",
+   "verso": "Depuis le 1er janvier 2023 : de leur propre initiative, à la demande de leur organe délibérant, ou à celle d'un président de conseil régional, départemental ou de métropole.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  },
+  {
+   "id": "b05-ordres-grandeur-controle-19",
+   "recto": "Que dit l'article 47-2 de la Constitution de la Cour des comptes ?",
+   "verso": "Elle assiste le Parlement dans le contrôle de l'action du Gouvernement, et le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances et de l'application des lois de financement de la sécurité sociale ainsi que dans l'évaluation des politiques publiques ; par ses rapports publics, elle contribue à l'information des citoyens.",
+   "perissable": false,
+   "sources": [
+    {
+     "titre": "Insee : Le compte des administrations publiques en 2025 (Insee Première n° 2106, 29 mai 2026)",
+     "url": "https://www.insee.fr/fr/statistiques/8997691"
+    },
+    {
+     "titre": "Wikipédia : Chambre régionale des comptes (organisation, missions, évaluation depuis 2023)",
+     "url": "https://fr.wikipedia.org/wiki/Chambre_r%C3%A9gionale_des_comptes"
+    },
+    {
+     "titre": "Conseil constitutionnel : texte intégral de la Constitution du 4 octobre 1958 (article 47-2)",
+     "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    },
+    {
+     "titre": "DGCL : Pré-rapport de l'OFGL sur les finances locales, édition 2026",
+     "url": "https://www.collectivites-locales.gouv.fr/actualites/pre-rapport-de-lofgl-sur-les-finances-locales-edition-2026"
+    }
+   ],
+   "revu": "2026-10-12"
+  }
+ ]
+}
