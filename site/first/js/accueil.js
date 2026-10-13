@@ -1,6 +1,6 @@
-// Accueil : quatre hexagones en losange au centre ; le nom de l'activité apparaît au survol.
+// Accueil : quatre hexagones autour d'un hexagone central (suivi de la méthode de travail) ; le nom apparaît au survol.
 import { h } from '../../js/ui.js';
-import { trace } from './icones.js';
+import { detaillee } from './icones.js';
 import { pointsHexagone } from './cadre.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -8,10 +8,11 @@ const R = 100;                 // rayon d'un hexagone (unités du viewBox)
 const PAS = Math.sqrt(3) * R;  // distance entre deux centres voisins d'une même rangée
 
 export const ACTIVITES = [
-  { id: 'territoires', titre: 'Jeu des territoires', icone: 'territoires', x: 0, y: -1.5 * R },
-  { id: 'cartes', titre: 'Cartes de culture', icone: 'cartes', x: -PAS / 2, y: 0 },
-  { id: 'brief', titre: 'Brief d\'actualité', icone: 'brief', x: PAS / 2, y: 0 },
-  { id: 'lecture', titre: 'Lecture territoriale', icone: 'lecture', x: 0, y: 1.5 * R },
+  { id: 'territoires', titre: 'Jeu des territoires', icone: 'territoires', x: -PAS / 2, y: -1.5 * R },
+  { id: 'cartes', titre: 'Cartes de culture', icone: 'cartes', x: PAS / 2, y: -1.5 * R },
+  { id: 'brief', titre: 'Brief d\'actualité', icone: 'brief', x: -PAS / 2, y: 1.5 * R },
+  { id: 'lecture', titre: 'Lecture territoriale', icone: 'lecture', x: PAS / 2, y: 1.5 * R },
+  { id: 'methode', titre: 'Méthode de travail', icone: 'methode', x: 0, y: 0, centre: true },
 ];
 
 function el(tag, attrs = {}) {
@@ -21,15 +22,14 @@ function el(tag, attrs = {}) {
 }
 
 function hexagone(a, rang) {
-  const lien = el('a', { href: `#/${a.id}`, class: 'hex', 'aria-label': a.titre, style: `--rang:${rang}` });
+  const lien = el('a', { href: `#/${a.id}`, class: `hex${a.centre ? ' hex-centre' : ''}`, 'aria-label': a.titre, style: `--rang:${rang}` });
   const g = el('g', { transform: `translate(${a.x.toFixed(2)} ${a.y.toFixed(2)})` });
   const corps = el('g', { class: 'hex-corps' });
   corps.append(el('polygon', { points: pointsHexagone(R * 0.94) }));
-  const ico = el('svg', { viewBox: '0 0 24 24', x: -30, y: -34, width: 60, height: 60, class: 'ico', fill: 'none', stroke: 'currentColor',
-    'stroke-width': 1.5, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' });
-  ico.append(trace(a.icone));
+  const ico = el('svg', { viewBox: '0 0 48 48', x: -45, y: -50, width: 90, height: 90, class: 'ico' });
+  ico.append(detaillee(a.icone));
   corps.append(ico);
-  const legende = el('text', { class: 'hex-nom', y: 52, 'text-anchor': 'middle' });
+  const legende = el('text', { class: 'hex-nom', y: 63, 'text-anchor': 'middle' });
   legende.textContent = a.titre;
   corps.append(legende);
   g.append(corps);

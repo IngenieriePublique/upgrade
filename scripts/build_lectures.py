@@ -1,7 +1,9 @@
 """Valide les lectures de First Upgrade (content/lectures/lectures.json) et les publie dans site/data/lectures/lectures.json.
 
 Règles : identifiants uniques ; thème connu ; année entre 2020 et 2026 ; adresse https ; auteurs, source et résumé
-renseignés ; un résumé court (moins de 500 caractères) pour tenir sur l'écran sans défilement.
+renseignés ; un résumé court (moins de 500 caractères) pour la première ligne de l'écran. Facultatifs, ajoutés par
+scripts/enrich_lectures.py : `texte_auteur` (résumé complet de l'auteur recopié de la notice, 3 600 caractères au plus, avec sa
+`texte_source`) et `mots_cles` (liste de textes).
 
 Usage : python scripts/build_lectures.py
 """
@@ -53,6 +55,13 @@ def valider(d):
             err.append(f"{nom} : url manquante")
         if non_vide(l.get("resume")) and len(l["resume"]) > 500:
             err.append(f"{nom} : résumé trop long ({len(l['resume'])} caractères, 500 au plus)")
+        if "texte_auteur" in l:
+            if not non_vide(l["texte_auteur"]) or len(l["texte_auteur"]) > 3600:
+                err.append(f"{nom} : texte_auteur vide ou trop long (3 600 caractères au plus)")
+            if not non_vide(l.get("texte_source")):
+                err.append(f"{nom} : texte_source manquant (d'où vient le résumé de l'auteur ?)")
+        if "mots_cles" in l and (not isinstance(l["mots_cles"], list) or not all(non_vide(k) for k in l["mots_cles"])):
+            err.append(f"{nom} : mots_cles doit être une liste de textes")
         if "pages" in l and (not isinstance(l["pages"], int) or l["pages"] <= 0):
             err.append(f"{nom} : pages doit être un entier positif")
     for cle in themes:

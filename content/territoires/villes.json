@@ -1,0 +1,257 @@
+{
+ "revu": "2026-10-12",
+ "sources": [
+  {
+   "titre": "Wikidata : population et coordonnées des communes (CC0)",
+   "url": "https://www.wikidata.org/wiki/Q484170"
+  }
+ ],
+ "regle": "communes de métropole de plus de 100000 habitants, hors communes à moins de 15 km d'une commune plus peuplée",
+ "villes": [
+  {
+   "qid": "Q90",
+   "nom": "Paris",
+   "population": 2103778,
+   "lon": 2.3522,
+   "lat": 48.8567
+  },
+  {
+   "qid": "Q23482",
+   "nom": "Marseille",
+   "population": 886040,
+   "lon": 5.3764,
+   "lat": 43.2967
+  },
+  {
+   "qid": "Q456",
+   "nom": "Lyon",
+   "population": 519127,
+   "lon": 4.835,
+   "lat": 45.7675
+  },
+  {
+   "qid": "Q7880",
+   "nom": "Toulouse",
+   "population": 514819,
+   "lon": 1.4433,
+   "lat": 43.6044
+  },
+  {
+   "qid": "Q33959",
+   "nom": "Nice",
+   "population": 357737,
+   "lon": 7.2683,
+   "lat": 43.7019
+  },
+  {
+   "qid": "Q12191",
+   "nom": "Nantes",
+   "population": 327734,
+   "lon": -1.5539,
+   "lat": 47.2172
+  },
+  {
+   "qid": "Q6441",
+   "nom": "Montpellier",
+   "population": 310240,
+   "lon": 3.8772,
+   "lat": 43.6109
+  },
+  {
+   "qid": "Q6602",
+   "nom": "Strasbourg",
+   "population": 293771,
+   "lon": 7.7522,
+   "lat": 48.5733
+  },
+  {
+   "qid": "Q1479",
+   "nom": "Bordeaux",
+   "population": 267991,
+   "lon": -0.5794,
+   "lat": 44.8378
+  },
+  {
+   "qid": "Q648",
+   "nom": "Lille",
+   "population": 238246,
+   "lon": 3.0575,
+   "lat": 50.6319
+  },
+  {
+   "qid": "Q647",
+   "nom": "Rennes",
+   "population": 230890,
+   "lon": -1.6808,
+   "lat": 48.1142
+  },
+  {
+   "qid": "Q44160",
+   "nom": "Toulon",
+   "population": 179116,
+   "lon": 5.9306,
+   "lat": 43.125
+  },
+  {
+   "qid": "Q41876",
+   "nom": "Reims",
+   "population": 177674,
+   "lon": 4.0286,
+   "lat": 49.2653
+  },
+  {
+   "qid": "Q42716",
+   "nom": "Saint-Étienne",
+   "population": 173136,
+   "lon": 4.3897,
+   "lat": 45.4339
+  },
+  {
+   "qid": "Q42810",
+   "nom": "Le Havre",
+   "population": 166687,
+   "lon": 0.1081,
+   "lat": 49.4942
+  },
+  {
+   "qid": "Q7003",
+   "nom": "Dijon",
+   "population": 161830,
+   "lon": 5.0419,
+   "lat": 47.3231
+  },
+  {
+   "qid": "Q38380",
+   "nom": "Angers",
+   "population": 159022,
+   "lon": -0.5556,
+   "lat": 47.4728
+  },
+  {
+   "qid": "Q1289",
+   "nom": "Grenoble",
+   "population": 156140,
+   "lon": 5.7264,
+   "lat": 45.1869
+  },
+  {
+   "qid": "Q42807",
+   "nom": "Nîmes",
+   "population": 151839,
+   "lon": 4.3597,
+   "lat": 43.8383
+  },
+  {
+   "qid": "Q47465",
+   "nom": "Aix-en-Provence",
+   "population": 149695,
+   "lon": 5.4456,
+   "lat": 43.5278
+  },
+  {
+   "qid": "Q42168",
+   "nom": "Clermont-Ferrand",
+   "population": 146351,
+   "lon": 3.0869,
+   "lat": 45.7797
+  },
+  {
+   "qid": "Q1476",
+   "nom": "Le Mans",
+   "population": 146249,
+   "lon": 0.1969,
+   "lat": 48.0042
+  },
+  {
+   "qid": "Q12193",
+   "nom": "Brest",
+   "population": 142346,
+   "lon": -4.4861,
+   "lat": 48.3906
+  },
+  {
+   "qid": "Q288",
+   "nom": "Tours",
+   "population": 139259,
+   "lon": 0.6883,
+   "lat": 47.3928
+  },
+  {
+   "qid": "Q41604",
+   "nom": "Amiens",
+   "population": 136449,
+   "lon": 2.2978,
+   "lat": 49.8919
+  },
+  {
+   "qid": "Q50189",
+   "nom": "Annecy",
+   "population": 132117,
+   "lon": 6.1294,
+   "lat": 45.8992
+  },
+  {
+   "qid": "Q45656",
+   "nom": "Limoges",
+   "population": 129937,
+   "lon": 1.2617,
+   "lat": 45.8344
+  },
+  {
+   "qid": "Q22690",
+   "nom": "Metz",
+   "population": 122572,
+   "lon": 6.1769,
+   "lat": 49.1197
+  },
+  {
+   "qid": "Q6730",
+   "nom": "Perpignan",
+   "population": 121616,
+   "lon": 2.8947,
+   "lat": 42.6975
+  },
+  {
+   "qid": "Q37776",
+   "nom": "Besançon",
+   "population": 118489,
+   "lon": 6.0214,
+   "lat": 47.2422
+  },
+  {
+   "qid": "Q30974",
+   "nom": "Rouen",
+   "population": 117662,
+   "lon": 1.1025,
+   "lat": 49.4431
+  },
+  {
+   "qid": "Q6548",
+   "nom": "Orléans",
+   "population": 116357,
+   "lon": 1.9042,
+   "lat": 47.9022
+  },
+  {
+   "qid": "Q41185",
+   "nom": "Caen",
+   "population": 109400,
+   "lon": -0.3636,
+   "lat": 49.1814
+  },
+  {
+   "qid": "Q79815",
+   "nom": "Mulhouse",
+   "population": 104978,
+   "lon": 7.3392,
+   "lat": 47.7486
+  },
+  {
+   "qid": "Q40898",
+   "nom": "Nancy",
+   "population": 103671,
+   "lon": 6.1836,
+   "lat": 48.6928
+  }
+ ]
+}

@@ -9,7 +9,7 @@ export const pointsHexagone = (rayon, cx = 0, cy = 0) => Array.from({ length: 6 
   return `${(cx + rayon * Math.cos(a)).toFixed(2)},${(cy + rayon * Math.sin(a)).toFixed(2)}`;
 }).join(' ');
 
-function boutonRetour() {
+function boutonRetour(href = '#/', titre = 'Accueil') {
   const svg = document.createElementNS(NS, 'svg');
   svg.setAttribute('viewBox', '-20 -20 40 40');
   svg.setAttribute('width', 40);
@@ -23,14 +23,14 @@ function boutonRetour() {
   ico.setAttribute('x', -9);
   ico.setAttribute('y', -9);
   svg.append(ico);
-  return h('a', { class: 'retour', href: '#/', 'aria-label': 'Retour à l\'accueil', title: 'Accueil' }, svg);
+  return h('a', { class: 'retour', href, 'aria-label': `Retour : ${titre}`, title: titre }, svg);
 }
 
-// outils : éléments placés à droite du titre (filtres, compteurs).
-export function cadre({ titre, nom, outils = [], corps }) {
+// outils : éléments placés à droite du titre (filtres, compteurs). retour : { href, titre } d'une sous-page (par défaut l'accueil).
+export function cadre({ titre, nom, outils = [], corps, retour = { href: '#/', titre: 'Accueil' } }) {
   return h('section', { class: `activite activite-${nom}` },
     h('header', { class: 'barre' },
-      boutonRetour(),
+      boutonRetour(retour.href, retour.titre),
       h('h1', null, titre),
       h('div', { class: 'outils' }, outils)),
     h('div', { class: 'corps' }, corps));
@@ -53,4 +53,26 @@ export function melanger(tab, rng = Math.random) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+// Pastille « lu » : un petit cercle vide qu'on coche quand on a lu l'article (rempli et coché ensuite).
+// onChange(lu) est appelé après chaque clic avec le nouvel état ; le clic ne se propage pas (la pastille peut flotter sur un article cliquable).
+export function pastilleLu({ lu = false, onChange, objet = 'cet article' }) {
+  const b = h('button', { type: 'button', class: 'pastille-lu' });
+  const maj = (etat) => {
+    b.classList.toggle('lu', etat);
+    b.setAttribute('aria-pressed', String(etat));
+    b.setAttribute('aria-label', etat ? `Lu : ${objet} (cliquer pour décocher)` : `Marquer ${objet} comme lu`);
+    b.title = etat ? 'Lu (cliquer pour décocher)' : 'Marquer comme lu';
+    b.replaceChildren(...(etat ? [icone('coche', { taille: 14 })] : []));
+  };
+  let etat = lu;
+  maj(etat);
+  b.addEventListener('click', async (e) => {
+    e.stopPropagation();
+    etat = !etat;
+    maj(etat);
+    await onChange?.(etat);
+  });
+  return b;
 }

@@ -54,6 +54,23 @@ class LecturesTest(unittest.TestCase):
         self.d["lectures"][0]["resume"] = "x" * 501
         self.assertTrue(any("trop long" in e for e in bl.valider(self.d)))
 
+    def test_texte_de_l_auteur_sans_source(self):
+        self.d["lectures"][0]["texte_auteur"] = "Un résumé."
+        self.d["lectures"][0].pop("texte_source", None)
+        self.assertTrue(any("texte_source" in e for e in bl.valider(self.d)))
+
+    def test_texte_de_l_auteur_trop_long(self):
+        self.d["lectures"][0].update(texte_auteur="x" * 3601, texte_source="HAL")
+        self.assertTrue(any("trop long" in e for e in bl.valider(self.d)))
+
+    def test_mots_cles_invalides(self):
+        self.d["lectures"][0]["mots_cles"] = "pas une liste"
+        self.assertTrue(any("mots_cles" in e for e in bl.valider(self.d)))
+
+    def test_la_plupart_des_lectures_ont_le_texte_de_l_auteur(self):
+        avec = [l for l in self.d["lectures"] if l.get("texte_auteur")]
+        self.assertGreaterEqual(len(avec), 15)
+
 
 if __name__ == "__main__":
     unittest.main()

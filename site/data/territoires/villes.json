@@ -1,0 +1,326 @@
+{
+ "revu": "2026-10-12",
+ "sources": [
+  {
+   "titre": "Wikidata : population et coordonnées des communes (CC0)",
+   "url": "https://www.wikidata.org/wiki/Q484170"
+  }
+ ],
+ "villes": [
+  {
+   "id": "Q90",
+   "nom": "Paris",
+   "population": 2103778,
+   "departement": "75",
+   "departement_nom": "Paris",
+   "x": 561.4,
+   "y": 256.4
+  },
+  {
+   "id": "Q23482",
+   "nom": "Marseille",
+   "population": 886040,
+   "departement": "13",
+   "departement_nom": "Bouches-du-Rhône",
+   "x": 801.8,
+   "y": 871.4
+  },
+  {
+   "id": "Q456",
+   "nom": "Lyon",
+   "population": 519127,
+   "departement": "69",
+   "departement_nom": "Rhône",
+   "x": 751.5,
+   "y": 598.2
+  },
+  {
+   "id": "Q7880",
+   "nom": "Toulouse",
+   "population": 514819,
+   "departement": "31",
+   "departement_nom": "Haute-Garonne",
+   "x": 483.2,
+   "y": 838.9
+  },
+  {
+   "id": "Q33959",
+   "nom": "Nice",
+   "population": 357737,
+   "departement": "06",
+   "departement_nom": "Alpes-Maritimes",
+   "x": 952.9,
+   "y": 820.0
+  },
+  {
+   "id": "Q12191",
+   "nom": "Nantes",
+   "population": 327734,
+   "departement": "44",
+   "departement_nom": "Loire-Atlantique",
+   "x": 264.4,
+   "y": 428.9
+  },
+  {
+   "id": "Q6441",
+   "nom": "Montpellier",
+   "population": 310240,
+   "departement": "34",
+   "departement_nom": "Hérault",
+   "x": 679.7,
+   "y": 839.0
+  },
+  {
+   "id": "Q6602",
+   "nom": "Strasbourg",
+   "population": 293771,
+   "departement": "67",
+   "departement_nom": "Bas-Rhin",
+   "x": 959.3,
+   "y": 277.6
+  },
+  {
+   "id": "Q1479",
+   "nom": "Bordeaux",
+   "population": 267991,
+   "departement": "33",
+   "departement_nom": "Gironde",
+   "x": 326.1,
+   "y": 696.7
+  },
+  {
+   "id": "Q648",
+   "nom": "Lille",
+   "population": 238246,
+   "departement": "59",
+   "departement_nom": "Nord",
+   "x": 613.0,
+   "y": 59.0
+  },
+  {
+   "id": "Q647",
+   "nom": "Rennes",
+   "population": 230890,
+   "departement": "35",
+   "departement_nom": "Ille-et-Vilaine",
+   "x": 260.8,
+   "y": 328.8
+  },
+  {
+   "id": "Q44160",
+   "nom": "Toulon",
+   "population": 179116,
+   "departement": "83",
+   "departement_nom": "Var",
+   "x": 847.5,
+   "y": 889.0
+  },
+  {
+   "id": "Q41876",
+   "nom": "Reims",
+   "population": 177674,
+   "departement": "51",
+   "departement_nom": "Marne",
+   "x": 683.8,
+   "y": 210.7
+  },
+  {
+   "id": "Q42716",
+   "nom": "Saint-Étienne",
+   "population": 173136,
+   "departement": "42",
+   "departement_nom": "Loire",
+   "x": 717.6,
+   "y": 635.9
+  },
+  {
+   "id": "Q42810",
+   "nom": "Le Havre",
+   "population": 166687,
+   "departement": "76",
+   "departement_nom": "Seine-Maritime",
+   "x": 399.4,
+   "y": 181.9
+  },
+  {
+   "id": "Q7003",
+   "nom": "Dijon",
+   "population": 161830,
+   "departement": "21",
+   "departement_nom": "Côte-d'Or",
+   "x": 763.1,
+   "y": 425.1
+  },
+  {
+   "id": "Q38380",
+   "nom": "Angers",
+   "population": 159022,
+   "departement": "49",
+   "departement_nom": "Maine-et-Loire",
+   "x": 341.2,
+   "y": 404.4
+  },
+  {
+   "id": "Q1289",
+   "nom": "Grenoble",
+   "population": 156140,
+   "departement": "38",
+   "departement_nom": "Isère",
+   "x": 823.0,
+   "y": 660.6
+  },
+  {
+   "id": "Q42807",
+   "nom": "Nîmes",
+   "population": 151839,
+   "departement": "30",
+   "departement_nom": "Gard",
+   "x": 718.3,
+   "y": 813.2
+  },
+  {
+   "id": "Q47465",
+   "nom": "Aix-en-Provence",
+   "population": 149695,
+   "departement": "13",
+   "departement_nom": "Bouches-du-Rhône",
+   "x": 806.6,
+   "y": 845.6
+  },
+  {
+   "id": "Q42168",
+   "nom": "Clermont-Ferrand",
+   "population": 146351,
+   "departement": "63",
+   "departement_nom": "Puy-de-Dôme",
+   "x": 615.7,
+   "y": 598.5
+  },
+  {
+   "id": "Q1476",
+   "nom": "Le Mans",
+   "population": 146249,
+   "departement": "72",
+   "departement_nom": "Sarthe",
+   "x": 399.9,
+   "y": 347.7
+  },
+  {
+   "id": "Q12193",
+   "nom": "Brest",
+   "population": 142346,
+   "departement": "29",
+   "departement_nom": "Finistère",
+   "x": 55.5,
+   "y": 282.2
+  },
+  {
+   "id": "Q288",
+   "nom": "Tours",
+   "population": 139259,
+   "departement": "37",
+   "departement_nom": "Indre-et-Loire",
+   "x": 434.5,
+   "y": 416.8
+  },
+  {
+   "id": "Q41604",
+   "nom": "Amiens",
+   "population": 136449,
+   "departement": "80",
+   "departement_nom": "Somme",
+   "x": 558.4,
+   "y": 141.2
+  },
+  {
+   "id": "Q50189",
+   "nom": "Annecy",
+   "population": 132117,
+   "departement": "74",
+   "departement_nom": "Haute-Savoie",
+   "x": 851.5,
+   "y": 580.4
+  },
+  {
+   "id": "Q45656",
+   "nom": "Limoges",
+   "population": 129937,
+   "departement": "87",
+   "departement_nom": "Haute-Vienne",
+   "x": 474.0,
+   "y": 590.9
+  },
+  {
+   "id": "Q22690",
+   "nom": "Metz",
+   "population": 122572,
+   "departement": "57",
+   "departement_nom": "Moselle",
+   "x": 840.8,
+   "y": 222.7
+  },
+  {
+   "id": "Q6730",
+   "nom": "Perpignan",
+   "population": 121616,
+   "departement": "66",
+   "departement_nom": "Pyrénées-Orientales",
+   "x": 600.3,
+   "y": 940.9
+  },
+  {
+   "id": "Q37776",
+   "nom": "Besançon",
+   "population": 118489,
+   "departement": "25",
+   "departement_nom": "Doubs",
+   "x": 837.4,
+   "y": 431.7
+  },
+  {
+   "id": "Q30974",
+   "nom": "Rouen",
+   "population": 117662,
+   "departement": "76",
+   "departement_nom": "Seine-Maritime",
+   "x": 471.3,
+   "y": 189.8
+  },
+  {
+   "id": "Q6548",
+   "nom": "Orléans",
+   "population": 116357,
+   "departement": "45",
+   "departement_nom": "Loiret",
+   "x": 527.0,
+   "y": 362.2
+  },
+  {
+   "id": "Q41185",
+   "nom": "Caen",
+   "population": 109400,
+   "departement": "14",
+   "departement_nom": "Calvados",
+   "x": 363.7,
+   "y": 215.3
+  },
+  {
+   "id": "Q79815",
+   "nom": "Mulhouse",
+   "population": 104978,
+   "departement": "68",
+   "departement_nom": "Haut-Rhin",
+   "x": 933.9,
+   "y": 370.9
+  },
+  {
+   "id": "Q40898",
+   "nom": "Nancy",
+   "population": 103671,
+   "departement": "54",
+   "departement_nom": "Meurthe-et-Moselle",
+   "x": 843.2,
+   "y": 270.1
+  }
+ ]
+}

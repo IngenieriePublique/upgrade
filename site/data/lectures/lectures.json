@@ -18,7 +18,9 @@
    "theme": "decentralisation",
    "url": "https://www.senat.fr/notice-rapport/2023/r23-629-notice.html",
    "resume": "Deux ans après la loi 3DS, une délégation sénatoriale vérifie si la différenciation des règles selon les territoires a réellement rendu l'action publique plus efficace. Sa conclusion : sans révision de l'article 72 de la Constitution, la marge reste étroite, et il ne s'agit pas de créer des collectivités autonomes à statut d'exception.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "La délégation du Sénat aux collectivités territoriales a souhaité réaliser une première évaluation des possibilités de différenciation offertes par la loi « 3DS » du 21 février 2022 : est-on passé du « D » de la différenciation au « E » de l'efficacité de l'action publique ?\nLa mission aboutit à la conclusion qu'en dépit des améliorations apportées par le Sénat à la loi « 3DS », seule une révision de la Constitution et de son article 72 permettra de respecter pleinement la diversité et les spécificités nos territoires, sans créer un droit d'exception en faveur de collectivités autonomes dotées de statuts particuliers.",
+   "texte_source": "Résumé de la notice du Sénat"
   },
   {
    "id": "public-senat-contribution-2025",
@@ -44,7 +46,16 @@
    "doi": "https://doi.org/10.4000/soe.7896",
    "pages": 16,
    "resume": "Distingue deux choses souvent confondues : appliquer des règles nationales différentes selon les territoires, ce que le droit français pratique de plus en plus, et laisser les autorités locales écrire leurs propres règles, que l'État encadre encore très frileusement. Les réformes récentes restent, selon l'autrice, modestes.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "La différenciation territoriale pourrait être définie comme « la prise en compte du territoire comme critère de distinction pour fonder une différence de traitement juridique » ; elle renvoie en réalité à deux définitions. La « territorialisation de la norme nationale » suppose l' application de règles différenciées territorialement et a tendance à entrer dans les moeurs juridiques de notre pays, en multipliant les cas d' asymétrie institutionnelle. La territorialisation du pouvoir normatif, c' est-à-dire le fait d' accorder aux autorités locales la possibilité d'édicter des règles propres à leur territoire, suscite en revanche plus de méfiance de la part de l'État et reste encore très frileusement encadrée. À cet égard, les évolutions législatives récentes restent bien modestes et ne permettent pas réellement d'en consacrer le principe, et donc de libérer l'initiative locale en responsabilisant davantage les collectivités territoriales.",
+   "mots_cles": [
+    "TERRITORIALISATION OF DOMESTIC NORM",
+    "TERRITORIALISATION OF THE NORMATIVE POWER",
+    "ASYMETRY",
+    "DECENTRALIZATION",
+    "EQUAL RIGHTS"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "lelidec-fusion-regions-2024",
@@ -57,7 +68,12 @@
    "url": "https://hal.science/hal-04829525v1",
    "pages": 28,
    "resume": "Reconstitue pourquoi le gouvernement a décidé de fusionner les régions, une mesure absente du programme présidentiel. L'explication tient à la pression européenne et financière pour réduire la dépense et rationaliser le « millefeuille », face à de faibles capacités de réforme et à des acteurs capables de bloquer.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "L’article reconstitue les processus qui conduisent à une décision étonnante, jusqu’ici inexpliquée et non annoncée par le programme de F. Hollande, à savoir la fusion des régions. Cette décision ne peut être comprise qu’à l’articulation de deux mécanismes : de très fortes pressions supranationales s’exercent sur le gouvernement français pour qu’il adopte une politique de baisse des dépenses publiques et de rationalisation du « millefeuille territorial », mais il ne dispose que de faibles capacités à mettre en œuvre de telles orientations. Pour résoudre la contradiction entre de fortes pressions conjointes (de la Commission, de la Banque centrale européenne, des pairs et des « marchés financiers ») en faveur d’une consolidation budgétaire qui passe notamment par une réforme de l’architecture territoriale, et de faibles capacités d’action (liées à des engagements électoraux pris et des rapports de force parlementaires défavorables), l’exécutif opte pour une politique symbolique : la fusion des régions. Le paradoxe de cette fusion est d’être conçue comme une mesure placebo, ayant vocation à montrer que le gouvernement “fait quelque choseˮ pour s'attaquer à un problème politique difficile. Fusionner sert de gage de « sérieux budgétaire » quand bien même la fusion ne générerait aucune économie.",
+   "mots_cles": [
+    "CONDITIONALITY – CREDIBILITY - DECISION-MAKING PROCESS – MERGER – PLACEBO POLICY - EXCESSIVE DEFICIT PROCEDURE – REGION – FISCAL CONSOLIDATION - STRUCTURAL REFORM –TERRITORIAL ARCHITECTURE"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "pinson-metropoles-2020",
@@ -71,7 +87,20 @@
    "doi": "https://doi.org/10.3917/pro.374.0047",
    "pages": 4,
    "resume": "Les métropoles devaient réduire les inégalités entre territoires, mais leur gouvernance, au-delà de 400 000 habitants, reste peu lisible pour les citoyens. Un texte court qui pose la question démocratique des grands ensembles intercommunaux. Idéal pour une pause de dix minutes.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "La création de métropoles avait, à l’origine, pour objectif de réduire les inégalités entre les territoires. Mais, en matière de démocratie, la gouvernance de ces ensembles de plus de 400 000 habitants est pour le moins opaque. Comment les rapprocher des citoyens ?",
+   "mots_cles": [
+    "Intercommunalité",
+    "Métropoles",
+    "Gouvernance",
+    "Démocratie",
+    "Nantes",
+    "Grand Lyon",
+    "Maires",
+    "Bordeaux",
+    "Rennes"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "carassus-gouvernance-epci-2020",
@@ -84,7 +113,19 @@
    "url": "https://univ-pau.hal.science/hal-02404770v1",
    "doi": "https://doi.org/10.4000/fcs.3990",
    "resume": "Propose une grille pour lire la gouvernance d'une intercommunalité, puis l'applique à quatre communautés. Résultat exploratoire : deux sur quatre n'ont pas de projet communautaire, trois sur quatre décident dans un cercle fermé et communiquent peu.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Notre objectif est de proposer une grille de lecture de la gouvernance locale et d'étudier de manière exploratoire les pratiques intercommunales, à partir d'une recherche qualitative. Les analyses permettent de conclure, tout d'abord, à la cohérence de nos résultats avec les études antérieures. En effet, au regard de nos résultats, deux communautés étudiées sur quatre ne disposent pas d'un projet communautaire, n'ont mis en place que des structures réglementaires de gouvernance et ont des relations souvent distantes avec les usagers. Également, trois communautés étudiées sur quatre disposent d'une gouvernance décisionnelle fermée, peu éclairée, confinée aux mains des instances réglementaires et d'une communication réduite.",
+   "mots_cles": [
+    "Local governance",
+    "Project of intercommunal organization",
+    "Models of governance",
+    "Local innovation",
+    "Gouvernance locale",
+    "Intercommunalité de projet",
+    "Modèles de gouvernance",
+    "Innovation locale"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "perrin-epci-energie-2023",
@@ -98,7 +139,23 @@
    "doi": "https://doi.org/10.3166/ges.2023.0022",
    "pages": 21,
    "resume": "Étudie comment les intercommunalités entrent dans la gouvernance multi-niveaux de l'énergie à travers les énergies renouvelables. Selon leurs motivations de départ, elles mobilisent des instruments différents, et l'énergie devient pour elles un moyen d'élargir leurs compétences.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "En France, les collectivités territoriales disposent désormais de nouvelles compétences pour agir en faveur du développement des énergies renouvelables et de la transition énergétique. Elles prennent place dans un jeu d’acteurs interdépendants pour des raisons de compétences et de financement. Cet article propose d’analyser l’introduction des EPCI dans la gouvernance multi-niveaux de l’énergie par l’intermédiaire d’une étude de cas de leurs stratégies. En questionnant le rôle des EPCI en tant qu’opérateur territorial des énergies renouvelables (Durand et Landel, 2020), l’analyse des ressorts de cette action publique locale montre qu’ils cherchent à mobiliser des instruments d’action publique différents en fonction de leurs motivations de départ. Aussi, les énergies renouvelables représentent un vecteur de développement permettant d’élargir leurs savoir-faire et leurs compétences en sus d’obtenir des revenus financiers. Or, la politisation de leurs stratégies énergétiques se limite à leurs seuls périmètres mettant à mal la possibilité d’élaborer des stratégies avec les territoires limitrophes. Par conséquent, certains EPCI cherchent à élargir leurs champs d’action et à gagner en légitimité à travers des pratiques innovantes mettant sur le devant de la scène le besoin de se situer dans un système relationnel pluri-scalaires pour parvenir à se concerter avec les autres acteurs et à gouverner leurs transitions énergétiques.",
+   "mots_cles": [
+    "Renewable energy",
+    "Policy",
+    "Local authority",
+    "Concertation",
+    "France",
+    "Energy",
+    "Politique publique local authority",
+    "Énergie",
+    "Intercommunalité",
+    "Intercommunalité concertation énergie France politique publique local authority concertation energy France policy",
+    "Politique publique",
+    "Energie renouvelable"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "jaaidane-dgf-2024",
@@ -112,7 +169,16 @@
    "doi": "https://doi.org/10.3917/redp.341.0011",
    "pages": 37,
    "resume": "L'État pousse les communes à la rigueur en jouant sur l'intercommunalité et sur la baisse de la DGF. Sur un panel de communes de plus de 1 000 habitants (2018-2023), les auteures montrent que la péréquation verticale (la DGF) est bien plus efficace que la péréquation horizontale du FPIC.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Afin de mieux maîtriser les finances publiques, l’État français cherche à inciter les collectivités locales, et en particulier les communes, à plus de rigueur budgétaire. Il mobilise depuis 30 ans le levier de l’intercommunalité, en pariant sur une rationalisation des dépenses, et, plus récemment, celui de la réduction de son transfert aux communes, la dotation globale de fonctionnement (DGF). La DGF étant également un instrument de péréquation verticale, nous étudions ses performances, en tenant compte de l’existence du fonds de péréquation intercommunal (FPIC), un dispositif de redistribution horizontale à l’échelon du bloc communal. Notre analyse, menée sur un panel de communes de plus de 1000 habitants observé sur la période 2018-2023, montre, d’une part, que la péréquation verticale est largement plus performante que celle qui passe par le FPIC et, d’autre part, que l’articulation des deux systèmes fait apparaître des dysfonctionnements. Enfin, alors que le montant de la DGF est officiellement déterminé selon une formule, nous mettons en évidence un biais politique dans son allocation susceptible d’altérer sa performance péréquatrice. Nous remercions le Comité de rédaction de la revue et deux rapporteurs anonymes pour leurs remarques et critiques constructives. Ce travail a bénéficié de discussions avec les participants au 62ème Congrès de la Société Canadienne de Science Économique (Québec, mai 2023) et avec les membres de la Commission Territoires du Conseil National de l’Information Statistique (Paris, novembre 2022). Nous tenons à remercier Luc Brière, Chef du département des études et des statistiques locales (DESL) de la Direction générale des collectivités locales (DGCL), pour son aide précieuse à l’accès aux données, sans que lui-même ou ses structures de rattachement ne puissent être tenus pour responsables des analyses développées dans la présente étude. Nous remercions enfin l’Observatoire des Finances et de la Gestion publique Locales (OFGL) pour nous avoir facilité l’accès à certaines données.",
+   "mots_cles": [
+    "Politics Regression",
+    "Fiscal equalization",
+    "Inter-governmental transfers",
+    "Local governments",
+    "Discontinuity Design"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "delpech-bloc-communal-2020",
@@ -125,7 +191,9 @@
    "url": "https://hal.science/hal-03292070v1",
    "doi": "https://doi.org/10.3917/leco.085.0008",
    "resume": "Les communes et intercommunalités ont vu leurs compétences s'élargir depuis les années 1980 : encore faut-il qu'elles aient les moyens fiscaux et financiers de les exercer et d'arbitrer leurs dépenses. Un point d'entrée clair sur la question de l'autonomie financière locale.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Suite aux actes successifs de décentralisation, depuis les années 1980, les collectivités en général, les communes et leurs intercommunalités à fiscalité propre en particulier, ont vu leurs compétences s’élargir de façon notoire, au point de devenir des acteurs majeurs dans l’offre d’équipements et de services publics locaux. Intervenant dans des domaines aussi variés que l’aménagement de l’espace, la conduite des politiques de l’habitat, le développement économique, la préservation de l’environnement, ainsi que pour la fourniture des services de proximité, leur « pouvoir d’agir » revêt une grande importance. Un fonctionnement décentralisé suppose que toutes ces entités locales disposent de moyens fiscaux et financiers suffisants pour assumer les missions qui leur sont dévolues. Il suppose également que leurs représentants puissent procéder à des arbitrages, moduler les dépenses à effectuer, les recettes à percevoir de façon à les rendre cohérentes avec les politiques qu’ils adoptent pour leur territoire. Il en va de leur libre administration ainsi que de leur autonomie financière et de gestion. Ces principes sont posés dans la Constitution elle-même. Les capacités d’action des décideurs locaux peuvent toutefois être contrariées. Tout d’abord, elles ne s’avèrent pas toujours suffisantes pour s’adapter à l’hétérogénéité des situations territoriales, aux multiples priorités ou choix locaux. L’unité n’est pas toujours aisée à conjuguer avec la diversité… Surtout quand celle-ci se manifeste par une insuffisance ou une érosion des ressources, suite au départ d’entreprises ou à un moindre dynamisme du développement local…",
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "grandclement-fonciere-2024",
@@ -139,7 +207,24 @@
    "doi": "https://doi.org/10.3917/reru.243.0443",
    "pages": 16,
    "resume": "Montre comment les Fichiers fonciers permettent de voir, commune par commune, ce que les locaux d'activité rapportent à la taxe sur le foncier bâti. Appliqué à la métropole d'Aix-Marseille, cela éclaire les écarts de recettes entre communes dans le contexte des réformes de la fiscalité locale.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Cette note de recherche discute la façon dont les Fichiers Fonciers peuvent enrichir l’analyse géographique des recettes fiscales du bloc communal. Cette source pallie les limites d’autres bases de données fiscales en permettant d’identifier à la maille communale la contribution des locaux à usage d’activités à la taxe sur le foncier bâti. À partir du cas de la Métropole d’Aix-Marseille, le texte présente des pistes pour analyser les disparités spatiales entre communes en matière de recettes fiscales, en fonction de la géographie et de la composition sectorielle du tissu économique métropolitain. Il montre l’importance de cette source dans le contexte récent des réformes de la fiscalité locale.",
+   "mots_cles": [
+    "Business land",
+    "Firms",
+    "Land files",
+    "Local taxes",
+    "Fiscalité locale",
+    "Entreprises",
+    "Fichiers fonciers",
+    "Foncier économique",
+    "Entreprises fichiers fonciers fiscalité locale foncier économique Business land firms land files local taxes Classification JEL H71 R12 R14",
+    "Foncier économique Business land",
+    "R14",
+    "R12",
+    "Local taxes Classification JEL H71"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "viessant-fiscalite-verte-2023",
@@ -152,7 +237,9 @@
    "url": "https://amu.hal.science/hal-04540246v1",
    "pages": 10,
    "resume": "La fiscalité écologique doit trouver sa place dans le panier fiscal des collectivités, mais l'autrice défend qu'elle ne peut pas en devenir l'élément central. Un article bref pour se faire un avis sur l'avenir des recettes locales.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "La fiscalité verte peut difficilement être l’avenir de la fiscalité locale. Elle doit incontestablement faire partie du « panier fiscal » des collectivités territoriales mais elle ne peut pas en constituer l’élément essentiel pour diverses raisons.",
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "behar-zan-2022",
@@ -164,7 +251,9 @@
    "theme": "amenagement",
    "url": "https://hal.science/hal-04293390v1",
    "resume": "Fixer le « zéro artificialisation nette » comme objectif est une vraie rupture pour l'aménagement. Les auteurs soutiennent que la sobriété foncière bute autant sur sa faisabilité urbanistique et économique que sur les questions institutionnelles, fiscales et politiques.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Si la rhétorique en faveur d'une urbanisation plus contenue n'est pas neuve, fixer l'absence d'artificialisation des sols comme objectif constitue une rupture majeure pour l'aménagement du territoire. La sobriété foncière paraît buter au moins autant sur sa faisabilité urbanistique et les enjeux économiques qu'elle charrie que sur des questions institutionnelles, fiscales et politiques. Depuis son inscription dans la loi Climat et résilience d'août 2021, l'objectif de « zéro artificialisation nette » (ZAN) fait l'objet de débats passionnés dans le monde de l'aménagement du territoire, des collectivités territoriales et de l'immobilier. Sa finalité ? Amener les territoires de France, à partir de 2050, à des projets de développement qui n'utilisent pas plus de nouvelles terres que ce qu'ils sont capables d'en rendre à la nature ou à l'agriculture.",
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "ausello-zan-donnees-2026",
@@ -177,7 +266,15 @@
    "url": "https://hal.science/hal-05694348v1",
    "doi": "https://doi.org/10.56698/metropolitiques.2318",
    "resume": "Le décret de 2022 sur le ZAN impose une définition légale de l'artificialisation, donc des données géographiques précises. L'article évalue ce que cette quantification impose aux acteurs locaux. Une lecture récente sur la façon dont les chiffres pilotent l'action publique.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "En 2022, le décret Zéro artificialisation nette impose une définition légale de l’artificialisation qui nécessite des données géographiques précises afin de mesurer le phénomène. L’article évalue les effets contraignants de cette quantification sur les acteurs locaux.",
+   "mots_cles": [
+    "ZAN",
+    "Artificialisation des sols",
+    "Foncier",
+    "Données"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "rodier-cte-2022",
@@ -190,7 +287,21 @@
    "url": "https://hal.inrae.fr/hal-04066182v1",
    "doi": "https://doi.org/10.4000/developpementdurable.20290",
    "resume": "À partir des Contrats de transition écologique, l'enquête distingue trois récits successifs : accompagner les territoires en difficulté, valoriser des territoires exemplaires, puis viser une transition pour tous. Ils révèlent comment l'État redéfinit son rôle de solidarité envers les territoires.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Cet article s’intéresse à la construction de l’action publique en matière de transition écologique à travers une enquête sur les Contrats de transition écologique. L’analyse mobilise une approche par les récits d’action publique et décrit la succession de trois grands récits partiellement en tension et portés par des acteurs différents. Ces récits mettent en scène d’abord une transition centrée sur l’accompagnement des territoires en difficulté, puis une transition par les territoires exemplaires, et enfin une transition plus inclusive pour tous les territoires. Nous montrons que ces récits témoignent d’un processus de construction d’un sens donné à la transition, et à l’action publique plus largement, autour notamment de la définition du rôle de l’État vis-à-vis des territoires en termes de solidarité et d’équité territoriales.",
+   "mots_cles": [
+    "Ecological transition",
+    "Territories",
+    "Ecological transition contracts",
+    "Policy narratives",
+    "State/Territories rel",
+    "Transition écologique",
+    "Territoires",
+    "Contrats de transition écologique",
+    "Récits d’action publique",
+    "Relations État/territoires"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "godoye-services-2023",
@@ -204,7 +315,20 @@
    "doi": "https://doi.org/10.3917/reru.233.0411",
    "pages": 22,
    "resume": "Compare, entre 2007 et 2017 en région Sud, les fermetures d'antennes de services publics et d'agences bancaires, et leur effet sur l'accessibilité. Les résultats nuancent fortement l'idée d'un « délaissement des territoires » : les logiques de fermeture varient selon le service et l'échelle.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "En France, la rétraction des services publics s’est accentuée avec la mise en place depuis 2000 de politiques d’austérité budgétaire. Les agences bancaires ont également connu un repli, lié au changement de pratiques des clients et à des impératifs économiques. Dans cette étude, l’objectif est de comparer les logiques de fermetures, entre 2007 et 2017 en région SUD, des antennes de plusieurs types de services publics et des agences bancaires du Crédit Agricole (CA), prises comme exemple de service privé, puis d’en mesurer les impacts sur l’accessibilité. Il s’agit de voir si les fermetures pour les secteurs privé et public suivent les mêmes logiques et impactent les mêmes territoires. Les résultats nuancent fortement les discours sur le « délaissement des territoires » en montrant que les logiques de fermeture diffèrent selon les services et les échelles et que les impacts sur l’accessibilité restent limités.",
+   "mots_cles": [
+    "Accessibility",
+    "Territorial abandon",
+    "Public services",
+    "Financial austerity",
+    "Délaissement territorial",
+    "Accessibilité",
+    "Services publics",
+    "Crédit Agricole",
+    "Austérité"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "fijalkow-services-2020",
@@ -229,7 +353,20 @@
    "theme": "inegalites",
    "url": "https://hal.science/hal-04438261v1",
    "resume": "Interroge la logique de répartition d'une politique censée corriger les inégalités entre quartiers : soutenir la création d'entreprise dans les quartiers prioritaires. L'enquête de terrain auprès de trois structures d'accompagnement s'inscrit dans les travaux sur le rôle des politiques locales dans la production des inégalités.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Alors que les acteurs politiques nationaux promeuvent l'accès aux ressources pour la création d'entreprise dans les quartiers afin que leurs habitants « entreprennent » et améliorent leurs conditions de vie, l'article interroge la logique distributive de la politique de soutien à l'entrepreneuriat comme outil de justice spatiale. Il s'appuie sur une enquête de terrain qualitative menée auprès de trois structures d'accompagnement localisées dans des quartiers prioritaires. Il s'inscrit ainsi en continuité des travaux de recherche urbaine qui étudient le rôle des politiques publiques territoriales dans la production des inégalités.",
+   "mots_cles": [
+    "Business support",
+    "Equality",
+    "Spatial justice",
+    "Urban policy",
+    "Justice",
+    "Quartier prioritaire",
+    "Accompagnement",
+    "Entrepreneuriat",
+    "Égalité"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "belrhomari-ccomptes-2026",
@@ -242,7 +379,17 @@
    "url": "https://insee.hal.science/hal-05684932v1",
    "pages": 22,
    "resume": "Les juridictions financières, Cour des comptes et chambres régionales, ont une mission d'évaluation des politiques publiques et recourent de plus en plus à l'analyse statistique, à la manière des articles académiques. Le collège de magistrats et le contradictoire y remplacent la revue par les pairs. Au cœur du métier d'évaluateur.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Les juridictions financières -Cour des comptes et Chambres régionales et territoriales des comptes -à travers leur nouvelle mission d'évaluation des politiques publiques, font un usage croissant de l'analyse statistique comme élément de démonstration dans leurs rapports. Celle-ci leur permet d'aller plus loin dans leur mission de jugement du bon usage de l'argent public. Ce dispositif emprunte son cadre conceptuel et ses méthodes à la recherche -le recours aux outils quantitatifs de l'évaluation se fait de plus en plus à la façon des articles académiques -en conservant l'essentiel de ses propres normes et procédures. Le délibéré collégial et le contradictoire jouent, dans le cadre institutionnel des juridictions financières, le rôle de validation que la reproductibilité et la revue par les pairs assurent en recherche.",
+   "mots_cles": [
+    "Court of Auditors -- Statistics",
+    "Budgetary control -- Methodology -- France",
+    "Public policy -- Evaluation -- France",
+    "Contrôle budgétaire -- Méthodologie -- France",
+    "Cour des comptes -- Statistiques",
+    "Politiques publiques -- Évaluation -- France"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   },
   {
    "id": "kirszbaum-sru-2021",
@@ -255,7 +402,13 @@
    "url": "https://hal.science/hal-04180672v1",
    "pages": 41,
    "resume": "Revue de littérature d'une centaine de travaux (droit, économie, géographie, sociologie, science politique) sur l'obligation de logements sociaux dans les communes déficitaires. Un exemple de ce que donne l'évaluation d'une politique nationale quand on la lit à l'échelle des décisions locales.",
-   "libre": true
+   "libre": true,
+   "texte_auteur": "Cette revue de la littérature est tirée d’un rapport de recherche intitulé « Promouvoir le logement social dans les communes déficitaires : les facteurs influençant les (non)décisions locales en France et aux États-Unis ». Cette recherche comparative, réalisée avec Edward G. Goetz et Yi Wang du Center for Urban and Regional Affairs de l’Université du Minnesota, a bénéficié du soutien de l’Agence nationale de la cohésion des territoires, de la Caisse des dépôts et consignations, du Défenseur des droits, du Plan urbanisme construction architecture et de l’Union sociale pour l’habitat. Les principaux résultats de cette recherche sont présentés au fil de cette revue de la littérature. La revue de la littérature consacrée à l’article 55 de la loi SRU repose sur l’exploitation d’une centaine de travaux scientifiques dans des disciplines variées : droit, économie, géographie, sociologie et science politique. Les sources sont elles-mêmes diverses : ouvrages, articles, rapports de recherche, thèses, mémoires... S’ajoutent également des éléments tirés de la « littérature grise » notamment des rapports parlementaires ou émanant d’organismes officiels.",
+   "mots_cles": [
+    "Logement social",
+    "Mixité sociale"
+   ],
+   "texte_source": "Résumé de l'auteur, notice HAL"
   }
  ]
 }

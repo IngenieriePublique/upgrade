@@ -1,0 +1,718 @@
+{
+ "revu": "2026-10-12",
+ "sources": [
+  {
+   "titre": "Wikidata : chef-lieu (P36) et coordonnées de chaque département (CC0)",
+   "url": "https://www.wikidata.org/wiki/Property:P36"
+  }
+ ],
+ "prefectures": [
+  {
+   "code": "01",
+   "nom": "Bourg-en-Bresse",
+   "qid": "Q133069",
+   "lon": 5.2281,
+   "lat": 46.2047
+  },
+  {
+   "code": "02",
+   "nom": "Laon",
+   "qid": "Q167141",
+   "lon": 3.6206,
+   "lat": 49.5644
+  },
+  {
+   "code": "03",
+   "nom": "Moulins",
+   "qid": "Q184883",
+   "lon": 3.3325,
+   "lat": 46.5647
+  },
+  {
+   "code": "04",
+   "nom": "Digne-les-Bains",
+   "qid": "Q181306",
+   "lon": 6.2356,
+   "lat": 44.0925
+  },
+  {
+   "code": "05",
+   "nom": "Gap",
+   "qid": "Q175081",
+   "lon": 6.0778,
+   "lat": 44.5586
+  },
+  {
+   "code": "06",
+   "nom": "Nice",
+   "qid": "Q33959",
+   "lon": 7.2683,
+   "lat": 43.7019
+  },
+  {
+   "code": "07",
+   "nom": "Privas",
+   "qid": "Q193060",
+   "lon": 4.5992,
+   "lat": 44.735
+  },
+  {
+   "code": "08",
+   "nom": "Charleville-Mézières",
+   "qid": "Q47383",
+   "lon": 4.7194,
+   "lat": 49.76
+  },
+  {
+   "code": "09",
+   "nom": "Foix",
+   "qid": "Q184392",
+   "lon": 1.6069,
+   "lat": 42.9653
+  },
+  {
+   "code": "10",
+   "nom": "Troyes",
+   "qid": "Q5489",
+   "lon": 4.0781,
+   "lat": 48.2989
+  },
+  {
+   "code": "11",
+   "nom": "Carcassonne",
+   "qid": "Q6582",
+   "lon": 2.3514,
+   "lat": 43.2158
+  },
+  {
+   "code": "12",
+   "nom": "Rodez",
+   "qid": "Q188780",
+   "lon": 2.5742,
+   "lat": 44.35
+  },
+  {
+   "code": "13",
+   "nom": "Marseille",
+   "qid": "Q23482",
+   "lon": 5.3764,
+   "lat": 43.2967
+  },
+  {
+   "code": "14",
+   "nom": "Caen",
+   "qid": "Q41185",
+   "lon": -0.3636,
+   "lat": 49.1814
+  },
+  {
+   "code": "15",
+   "nom": "Aurillac",
+   "qid": "Q174234",
+   "lon": 2.4397,
+   "lat": 44.9253
+  },
+  {
+   "code": "16",
+   "nom": "Angoulême",
+   "qid": "Q134346",
+   "lon": 0.1594,
+   "lat": 45.6494
+  },
+  {
+   "code": "17",
+   "nom": "La Rochelle",
+   "qid": "Q82185",
+   "lon": -1.1514,
+   "lat": 46.1594
+  },
+  {
+   "code": "18",
+   "nom": "Bourges",
+   "qid": "Q132404",
+   "lon": 2.3958,
+   "lat": 47.0794
+  },
+  {
+   "code": "19",
+   "nom": "Tulle",
+   "qid": "Q157713",
+   "lon": 1.7706,
+   "lat": 45.2678
+  },
+  {
+   "code": "21",
+   "nom": "Dijon",
+   "qid": "Q7003",
+   "lon": 5.0419,
+   "lat": 47.3231
+  },
+  {
+   "code": "22",
+   "nom": "Saint-Brieuc",
+   "qid": "Q29234",
+   "lon": -2.7603,
+   "lat": 48.5136
+  },
+  {
+   "code": "23",
+   "nom": "Guéret",
+   "qid": "Q188511",
+   "lon": 1.8683,
+   "lat": 46.1706
+  },
+  {
+   "code": "24",
+   "nom": "Périgueux",
+   "qid": "Q6588",
+   "lon": 0.7181,
+   "lat": 45.1842
+  },
+  {
+   "code": "25",
+   "nom": "Besançon",
+   "qid": "Q37776",
+   "lon": 6.0214,
+   "lat": 47.2422
+  },
+  {
+   "code": "26",
+   "nom": "Valence",
+   "qid": "Q8848",
+   "lon": 4.8908,
+   "lat": 44.9325
+  },
+  {
+   "code": "27",
+   "nom": "Évreux",
+   "qid": "Q171800",
+   "lon": 1.1525,
+   "lat": 49.0233
+  },
+  {
+   "code": "28",
+   "nom": "Chartres",
+   "qid": "Q130272",
+   "lon": 1.4883,
+   "lat": 48.4467
+  },
+  {
+   "code": "29",
+   "nom": "Quimper",
+   "qid": "Q342",
+   "lon": -4.0978,
+   "lat": 47.9958
+  },
+  {
+   "code": "2A",
+   "nom": "Ajaccio",
+   "qid": "Q40104",
+   "lon": 8.7364,
+   "lat": 41.9256
+  },
+  {
+   "code": "2B",
+   "nom": "Bastia",
+   "qid": "Q134698",
+   "lon": 9.4494,
+   "lat": 42.7
+  },
+  {
+   "code": "30",
+   "nom": "Nîmes",
+   "qid": "Q42807",
+   "lon": 4.3597,
+   "lat": 43.8383
+  },
+  {
+   "code": "31",
+   "nom": "Toulouse",
+   "qid": "Q7880",
+   "lon": 1.4433,
+   "lat": 43.6044
+  },
+  {
+   "code": "32",
+   "nom": "Auch",
+   "qid": "Q181725",
+   "lon": 0.5886,
+   "lat": 43.6453
+  },
+  {
+   "code": "33",
+   "nom": "Bordeaux",
+   "qid": "Q1479",
+   "lon": -0.5794,
+   "lat": 44.8378
+  },
+  {
+   "code": "34",
+   "nom": "Montpellier",
+   "qid": "Q6441",
+   "lon": 3.8772,
+   "lat": 43.6109
+  },
+  {
+   "code": "35",
+   "nom": "Rennes",
+   "qid": "Q647",
+   "lon": -1.6808,
+   "lat": 48.1142
+  },
+  {
+   "code": "36",
+   "nom": "Châteauroux",
+   "qid": "Q174251",
+   "lon": 1.6903,
+   "lat": 46.8097
+  },
+  {
+   "code": "37",
+   "nom": "Tours",
+   "qid": "Q288",
+   "lon": 0.6883,
+   "lat": 47.3928
+  },
+  {
+   "code": "38",
+   "nom": "Grenoble",
+   "qid": "Q1289",
+   "lon": 5.7264,
+   "lat": 45.1869
+  },
+  {
+   "code": "39",
+   "nom": "Lons-le-Saunier",
+   "qid": "Q203529",
+   "lon": 5.5539,
+   "lat": 46.6744
+  },
+  {
+   "code": "40",
+   "nom": "Mont-de-Marsan",
+   "qid": "Q188033",
+   "lon": -0.5006,
+   "lat": 43.8903
+  },
+  {
+   "code": "41",
+   "nom": "Blois",
+   "qid": "Q160927",
+   "lon": 1.3272,
+   "lat": 47.5931
+  },
+  {
+   "code": "42",
+   "nom": "Saint-Étienne",
+   "qid": "Q42716",
+   "lon": 4.3897,
+   "lat": 45.4339
+  },
+  {
+   "code": "43",
+   "nom": "Le Puy-en-Velay",
+   "qid": "Q184359",
+   "lon": 3.885,
+   "lat": 45.0433
+  },
+  {
+   "code": "44",
+   "nom": "Nantes",
+   "qid": "Q12191",
+   "lon": -1.5539,
+   "lat": 47.2172
+  },
+  {
+   "code": "45",
+   "nom": "Orléans",
+   "qid": "Q6548",
+   "lon": 1.9042,
+   "lat": 47.9022
+  },
+  {
+   "code": "46",
+   "nom": "Cahors",
+   "qid": "Q23047",
+   "lon": 1.4406,
+   "lat": 44.4475
+  },
+  {
+   "code": "47",
+   "nom": "Agen",
+   "qid": "Q6625",
+   "lon": 0.6186,
+   "lat": 44.2031
+  },
+  {
+   "code": "48",
+   "nom": "Mende",
+   "qid": "Q191772",
+   "lon": 3.5006,
+   "lat": 44.5183
+  },
+  {
+   "code": "49",
+   "nom": "Angers",
+   "qid": "Q38380",
+   "lon": -0.5556,
+   "lat": 47.4728
+  },
+  {
+   "code": "50",
+   "nom": "Saint-Lô",
+   "qid": "Q181704",
+   "lon": -1.0917,
+   "lat": 49.1144
+  },
+  {
+   "code": "51",
+   "nom": "Châlons-en-Champagne",
+   "qid": "Q47135",
+   "lon": 4.3644,
+   "lat": 48.9567
+  },
+  {
+   "code": "52",
+   "nom": "Chaumont",
+   "qid": "Q193880",
+   "lon": 5.1386,
+   "lat": 48.1108
+  },
+  {
+   "code": "53",
+   "nom": "Laval",
+   "qid": "Q184154",
+   "lon": -0.77,
+   "lat": 48.0728
+  },
+  {
+   "code": "54",
+   "nom": "Nancy",
+   "qid": "Q40898",
+   "lon": 6.1836,
+   "lat": 48.6928
+  },
+  {
+   "code": "55",
+   "nom": "Bar-le-Duc",
+   "qid": "Q185721",
+   "lon": 5.1672,
+   "lat": 48.7717
+  },
+  {
+   "code": "56",
+   "nom": "Vannes",
+   "qid": "Q6593",
+   "lon": -2.7617,
+   "lat": 47.655
+  },
+  {
+   "code": "57",
+   "nom": "Metz",
+   "qid": "Q22690",
+   "lon": 6.1769,
+   "lat": 49.1197
+  },
+  {
+   "code": "58",
+   "nom": "Nevers",
+   "qid": "Q166997",
+   "lon": 3.1567,
+   "lat": 46.9925
+  },
+  {
+   "code": "59",
+   "nom": "Lille",
+   "qid": "Q648",
+   "lon": 3.0575,
+   "lat": 50.6319
+  },
+  {
+   "code": "60",
+   "nom": "Beauvais",
+   "qid": "Q174257",
+   "lon": 2.0875,
+   "lat": 49.4342
+  },
+  {
+   "code": "61",
+   "nom": "Alençon",
+   "qid": "Q181269",
+   "lon": 0.0919,
+   "lat": 48.4297
+  },
+  {
+   "code": "62",
+   "nom": "Arras",
+   "qid": "Q131329",
+   "lon": 2.78,
+   "lat": 50.2892
+  },
+  {
+   "code": "63",
+   "nom": "Clermont-Ferrand",
+   "qid": "Q42168",
+   "lon": 3.0869,
+   "lat": 45.7797
+  },
+  {
+   "code": "64",
+   "nom": "Pau",
+   "qid": "Q132671",
+   "lon": -0.37,
+   "lat": 43.3008
+  },
+  {
+   "code": "65",
+   "nom": "Tarbes",
+   "qid": "Q184023",
+   "lon": 0.0744,
+   "lat": 43.2328
+  },
+  {
+   "code": "66",
+   "nom": "Perpignan",
+   "qid": "Q6730",
+   "lon": 2.8947,
+   "lat": 42.6975
+  },
+  {
+   "code": "67",
+   "nom": "Strasbourg",
+   "qid": "Q6602",
+   "lon": 7.7522,
+   "lat": 48.5733
+  },
+  {
+   "code": "68",
+   "nom": "Colmar",
+   "qid": "Q130994",
+   "lon": 7.355,
+   "lat": 48.0811
+  },
+  {
+   "code": "69",
+   "nom": "Lyon",
+   "qid": "Q456",
+   "lon": 4.835,
+   "lat": 45.7675
+  },
+  {
+   "code": "70",
+   "nom": "Vesoul",
+   "qid": "Q203309",
+   "lon": 6.1553,
+   "lat": 47.6222
+  },
+  {
+   "code": "71",
+   "nom": "Mâcon",
+   "qid": "Q174247",
+   "lon": 4.8319,
+   "lat": 46.3067
+  },
+  {
+   "code": "72",
+   "nom": "Le Mans",
+   "qid": "Q1476",
+   "lon": 0.1969,
+   "lat": 48.0042
+  },
+  {
+   "code": "73",
+   "nom": "Chambéry",
+   "qid": "Q165090",
+   "lon": 5.9208,
+   "lat": 45.5664
+  },
+  {
+   "code": "74",
+   "nom": "Annecy",
+   "qid": "Q50189",
+   "lon": 6.1294,
+   "lat": 45.8992
+  },
+  {
+   "code": "75",
+   "nom": "Paris",
+   "qid": "Q90",
+   "lon": 2.3522,
+   "lat": 48.8567
+  },
+  {
+   "code": "76",
+   "nom": "Rouen",
+   "qid": "Q30974",
+   "lon": 1.1025,
+   "lat": 49.4431
+  },
+  {
+   "code": "77",
+   "nom": "Melun",
+   "qid": "Q41139",
+   "lon": 2.6592,
+   "lat": 48.5397
+  },
+  {
+   "code": "78",
+   "nom": "Versailles",
+   "qid": "Q621",
+   "lon": 2.135,
+   "lat": 48.805
+  },
+  {
+   "code": "79",
+   "nom": "Niort",
+   "qid": "Q184159",
+   "lon": -0.4622,
+   "lat": 46.325
+  },
+  {
+   "code": "80",
+   "nom": "Amiens",
+   "qid": "Q41604",
+   "lon": 2.2978,
+   "lat": 49.8919
+  },
+  {
+   "code": "81",
+   "nom": "Albi",
+   "qid": "Q132801",
+   "lon": 2.1458,
+   "lat": 43.9281
+  },
+  {
+   "code": "82",
+   "nom": "Montauban",
+   "qid": "Q172593",
+   "lon": 1.355,
+   "lat": 44.0172
+  },
+  {
+   "code": "83",
+   "nom": "Toulon",
+   "qid": "Q44160",
+   "lon": 5.9306,
+   "lat": 43.125
+  },
+  {
+   "code": "84",
+   "nom": "Avignon",
+   "qid": "Q6397",
+   "lon": 4.8083,
+   "lat": 43.9486
+  },
+  {
+   "code": "85",
+   "nom": "La Roche-sur-Yon",
+   "qid": "Q190118",
+   "lon": -1.4278,
+   "lat": 46.6697
+  },
+  {
+   "code": "86",
+   "nom": "Poitiers",
+   "qid": "Q6616",
+   "lon": 0.3353,
+   "lat": 46.5811
+  },
+  {
+   "code": "87",
+   "nom": "Limoges",
+   "qid": "Q45656",
+   "lon": 1.2617,
+   "lat": 45.8344
+  },
+  {
+   "code": "88",
+   "nom": "Épinal",
+   "qid": "Q173695",
+   "lon": 6.4517,
+   "lat": 48.1736
+  },
+  {
+   "code": "89",
+   "nom": "Auxerre",
+   "qid": "Q167600",
+   "lon": 3.5669,
+   "lat": 47.7975
+  },
+  {
+   "code": "90",
+   "nom": "Belfort",
+   "qid": "Q171545",
+   "lon": 6.8628,
+   "lat": 47.6375
+  },
+  {
+   "code": "91",
+   "nom": "Évry-Courcouronnes",
+   "qid": "Q57782245",
+   "lon": 2.4296,
+   "lat": 48.6238
+  },
+  {
+   "code": "92",
+   "nom": "Nanterre",
+   "qid": "Q170507",
+   "lon": 2.2036,
+   "lat": 48.8906
+  },
+  {
+   "code": "93",
+   "nom": "Bobigny",
+   "qid": "Q154724",
+   "lon": 2.4386,
+   "lat": 48.9097
+  },
+  {
+   "code": "94",
+   "nom": "Créteil",
+   "qid": "Q46135",
+   "lon": 2.4531,
+   "lat": 48.7778
+  },
+  {
+   "code": "95",
+   "nom": "Cergy",
+   "qid": "Q193903",
+   "lon": 2.0361,
+   "lat": 49.0522
+  },
+  {
+   "code": "971",
+   "nom": "Basse-Terre",
+   "qid": "Q167024",
+   "lon": -61.7328,
+   "lat": 15.9969
+  },
+  {
+   "code": "972",
+   "nom": "Fort-de-France",
+   "qid": "Q81621",
+   "lon": -61.0667,
+   "lat": 14.6
+  },
+  {
+   "code": "973",
+   "nom": "Cayenne",
+   "qid": "Q44401",
+   "lon": -52.335,
+   "lat": 4.9386
+  },
+  {
+   "code": "974",
+   "nom": "Saint-Denis",
+   "qid": "Q47045",
+   "lon": 55.4481,
+   "lat": -20.8789
+  },
+  {
+   "code": "976",
+   "nom": "Mamoudzou",
+   "qid": "Q132676",
+   "lon": 45.2317,
+   "lat": -12.7814
+  }
+ ]
+}
