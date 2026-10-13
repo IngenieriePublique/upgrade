@@ -325,12 +325,13 @@ test('séance : arrêt depuis la pause, reprise après arrêt', () => {
   eq([S.phase(e), e.arret], ['travail', false]);
 });
 
-test('séance : page restée fermée, repli sur le dernier signe de vie', () => {
+test('séance : une séance qui court garde son début, le temps compte même page fermée', () => {
   const e = S.demarrer(S.etatVide(), 0);
-  eq(S.reprise(e, 2 * min).interrompue, false);
-  const r = S.reprise(e, 90 * min);
-  eq([r.interrompue, r.a, S.phase(r.etat), S.tempsActif(r.etat.segments)], [true, 0, 'pause', 0]);
-  eq(S.reprise(S.mettreEnPause(e, min), 90 * min).interrompue, false);
+  const rechargee = JSON.parse(JSON.stringify(e)); // ce que retrouve la page après une fermeture
+  eq(S.phase(rechargee), 'travail');
+  eq(S.tempsActif(rechargee.segments, 5 * 60 * min), 5 * 60 * min);
+  const fin = S.arreter(rechargee, 5 * 60 * min);
+  eq(S.creerSeance(fin, { now: 6 * 60 * min }).duree, 5 * 3600);
 });
 
 test('conseil : dix minutes d\'abord, pause à quarante', () => {

@@ -56,16 +56,17 @@ export async function render({ view, store }) {
   let debutProgramme = await lire(store, S.CLE_DEBUT, null);
   const brouillon = await lire(store, S.CLE_EN_COURS, null);
   let etat = S.estEtat(brouillon) ? { ...S.etatVide(), ...brouillon } : S.etatVide();
-  let note = '';          // message passager affiché au repos (séance archivée, page restée inactive)
+  let note = '';          // message affiché sous le chronomètre jusqu'au prochain clic (séance archivée, séance retrouvée en cours)
   let ajout = false;      // champ de nouvelle étiquette ouvert
   let jourAffiche = S.jourLocal(Date.now());
   let minutesAffichees = -1;
 
   const sauver = () => ecrire(store, S.CLE_EN_COURS, etat);
+  // Demande au navigateur de ne pas effacer ces données quand l'espace manque (sans effet visible si c'est déjà accordé).
+  try { navigator.storage?.persist?.().catch(() => {}); } catch { /* sans conséquence */ }
 
-  // Séance restée ouverte pendant que la page était fermée : mise en pause à son dernier signe de vie.
-  const r0 = S.reprise(etat, Date.now());
-  if (r0.interrompue) { etat = r0.etat; note = `Page fermée pendant la séance : mise en pause à ${heure(r0.a)}.`; sauver(); }
+  // Séance retrouvée en cours à l'ouverture (page fermée, serveur coupé, ordinateur éteint) : le temps écoulé est compté.
+  if (S.phase(etat) === 'travail') note = `Séance en cours depuis ${heure(etat.segments[0].d)} : le temps passé page fermée est compté. Arrête-la quand tu as fini.`;
 
   const elHisto = h('div', { class: 'histo' });
   const elObjectif = h('div', { class: 'objectif' });
@@ -115,7 +116,7 @@ export async function render({ view, store }) {
     elChrono.classList.toggle('fini', p === 'arret');
     const texte = {
       repos: note,
-      travail: S.conseil(etat, now),
+      travail: note || [`Séance en cours depuis ${heure(etat.segments[0].d)}`, S.conseil(etat, now)].filter(Boolean).join(' · '),
       pause: 'En pause',
       arret: 'Séance terminée : écris la tâche accomplie, puis archive-la.',
     }[p];
@@ -238,15 +239,6 @@ export async function render({ view, store }) {
   // ---------- horloge ----------
   function tick() {
     const now = Date.now();
-    const r = S.reprise(etat, now);
-    if (r.interrompue) {
-      etat = r.etat;
-      note = `Page restée inactive : séance mise en pause à ${heure(r.a)}.`;
-      sauver();
-      dessinerTout();
-      return;
-    }
-    if (S.phase(etat) === 'travail' && now - (etat.vu ?? 0) >= 15000) { etat.vu = now; sauver(); }
     majChrono(now);
     const jour = S.jourLocal(now);
     const minutes = Math.floor(actifSec(now) / 60);

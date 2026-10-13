@@ -43,8 +43,9 @@ export function objectifMinutes(semaine) {
 // ---------- état d'une séance en cours : { segments: [{ d, f }], tags, tache, arret } ----------
 // Chaque segment est une période de travail (début, fin ; fin = null tant qu'il court) : on stocke des instants,
 // jamais un compteur, donc recharger la page ne perd rien.
-// `vu` : dernier instant où la page a confirmé que la séance courait (battement toutes les 15 s).
-export const etatVide = (tags = []) => ({ segments: [], tags: [...tags], tache: '', arret: false, vu: null });
+// Une séance qui court n'a pas de fin : son temps est toujours « maintenant moins début ». Page fermée, serveur coupé ou
+// ordinateur éteint, le travail continue de compter jusqu'au clic sur Arrêter.
+export const etatVide = (tags = []) => ({ segments: [], tags: [...tags], tache: '', arret: false });
 
 export const estEtat = (e) => Boolean(e) && typeof e === 'object' && Array.isArray(e.tags) && typeof e.tache === 'string'
   && Array.isArray(e.segments) && e.segments.every((g) => g && Number.isFinite(g.d) && (g.f == null || Number.isFinite(g.f)));
@@ -57,19 +58,11 @@ export function phase(etat) {
   return enCours(etat.segments) ? 'travail' : 'pause';
 }
 
-export const demarrer = (etat, now) => ({ ...etat, arret: false, vu: now, segments: [{ d: now, f: null }] });
-export const reprendre = (etat, now) => ({ ...etat, arret: false, vu: now, segments: [...etat.segments, { d: now, f: null }] });
+export const demarrer = (etat, now) => ({ ...etat, arret: false, segments: [{ d: now, f: null }] });
+export const reprendre = (etat, now) => ({ ...etat, arret: false, segments: [...etat.segments, { d: now, f: null }] });
 const fermer = (segments, now) => segments.map((g, i) => (i === segments.length - 1 && g.f == null ? { ...g, f: now } : g));
 export const mettreEnPause = (etat, now) => ({ ...etat, segments: fermer(etat.segments, now) });
 export const arreter = (etat, now) => ({ ...etat, arret: true, segments: fermer(etat.segments, now) });
-
-// Page fermée ou ordinateur en veille pendant que la séance courait : on ne compte pas ce silence, la séance repasse en
-// pause à son dernier signe de vie (sinon un onglet oublié donnerait une séance de vingt heures).
-export const SILENCE_MAX = 3 * 60000;
-export function reprise(etat, now) {
-  if (phase(etat) !== 'travail' || etat.vu == null || now - etat.vu <= SILENCE_MAX) return { etat, interrompue: false };
-  return { etat: mettreEnPause(etat, etat.vu), interrompue: true, a: etat.vu };
-}
 
 export const tempsActif = (segments, now = Date.now()) => segments.reduce((s, g) => s + Math.max(0, (g.f ?? now) - g.d), 0);
 export function tempsPause(segments) {
