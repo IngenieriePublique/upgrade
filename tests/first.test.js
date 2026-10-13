@@ -15,7 +15,7 @@ import { lectureDuJour, lectureAutre } from '../site/first/js/lecture.js';
 import { ilYa } from '../site/first/js/brief.js';
 import { pointsHexagone } from '../site/first/js/cadre.js';
 import * as S from '../site/first/js/suivi.js';
-import { histogramme } from '../site/first/js/methode.js';
+import { histogramme, render as renderMethode } from '../site/first/js/methode.js';
 
 const T0 = new Date(2026, 9, 12, 9, 30).getTime();
 const finDeJournee = new Date(2026, 9, 12, 24, 0, 0, 0).getTime();
@@ -384,4 +384,24 @@ test('histogramme : une barre par jour, la moyenne en pointillés, aujourd\'hui 
   eq(svg.querySelectorAll('.histo-moyenne').length, 1);
   eq(histogramme(serie, null, '2026-10-13').querySelectorAll('.histo-moyenne').length, 0);
   ok(svg.getAttribute('aria-label').includes('moyenne 10 min'));
+});
+
+test('écran méthode : ouverture au repos, en séance, en pause et à l\'arrêt, sans erreur', async () => {
+  const now = Date.now();
+  const cas = {
+    repos: null,
+    travail: { segments: [{ d: now - 3 * 3600000, f: null }], tags: [], tache: 'x', arret: false },
+    pause: { segments: [{ d: now - 600000, f: now - 300000 }], tags: [], tache: '', arret: false },
+    arret: { segments: [{ d: now - 600000, f: now - 300000 }], tags: [], tache: '', arret: true },
+  };
+  for (const [nom, etat] of Object.entries(cas)) {
+    const store = { memoire: false, getMeta: async (cle, defaut) => (cle === 'first-methode-en-cours' && etat ? etat : defaut), setMeta: async () => {} };
+    const view = document.createElement('div');
+    const nettoyer = await renderMethode({ view, store });
+    ok(view.querySelector('.chrono'), nom);
+    ok(view.querySelectorAll('.actions button').length >= 1, nom);
+    eq(view.querySelectorAll('.histo-jour').length, 14, nom);
+    if (nom === 'travail') ok(view.querySelector('.etat-seance').textContent.startsWith('Séance en cours depuis'), nom);
+    nettoyer();
+  }
 });

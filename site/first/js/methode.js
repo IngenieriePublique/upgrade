@@ -114,12 +114,13 @@ export async function render({ view, store }) {
     const p = S.phase(etat);
     elChrono.classList.toggle('en-pause', p === 'pause');
     elChrono.classList.toggle('fini', p === 'arret');
-    const texte = {
-      repos: note,
-      travail: note || [`Séance en cours depuis ${heure(etat.segments[0].d)}`, S.conseil(etat, now)].filter(Boolean).join(' · '),
-      pause: 'En pause',
-      arret: 'Séance terminée : écris la tâche accomplie, puis archive-la.',
-    }[p];
+    const textes = {
+      repos: () => note,
+      travail: () => note || [`Séance en cours depuis ${heure(etat.segments[0].d)}`, S.conseil(etat, now)].filter(Boolean).join(' · '),
+      pause: () => 'En pause',
+      arret: () => 'Séance terminée : écris la tâche accomplie, puis archive-la.',
+    };
+    const texte = textes[p]();
     if (elEtat.textContent !== texte) elEtat.textContent = texte;
   }
 
