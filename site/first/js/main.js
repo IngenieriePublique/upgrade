@@ -10,6 +10,7 @@ import * as brief from './brief.js';
 import * as lecture from './lecture.js';
 import * as methode from './methode.js';
 import * as seances from './seances.js';
+import * as calcul from './calcul.js';
 
 // Sans stockage disponible (navigation privée), les activités restent jouables : la progression vit en mémoire.
 function magasinMemoire() {
@@ -50,6 +51,7 @@ async function main() {
     { path: '/cartes', render: cartes.render },
     { path: '/brief', render: brief.render },
     { path: '/lecture', render: lecture.render },
+    { path: '/calcul', render: calcul.render },
     { path: '/methode', render: methode.render },
     { path: '/methode/seances', render: seances.render },
     { path: '*', render: ({ view }) => view.append(h('main', { class: 'perdu' }, h('p', null, 'Page introuvable.'), h('a', { href: '#/' }, 'Retour à l\'accueil'))) },

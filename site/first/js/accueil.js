@@ -13,6 +13,7 @@ export const ACTIVITES = [
   { id: 'brief', titre: 'Brief d\'actualité', icone: 'brief', x: -PAS / 2, y: 1.5 * R },
   { id: 'lecture', titre: 'Lecture territoriale', icone: 'lecture', x: PAS / 2, y: 1.5 * R },
   { id: 'methode', titre: 'Méthode de travail', icone: 'methode', x: 0, y: 0, centre: true },
+  { id: 'calcul', titre: 'Calcul mental', icone: 'calcul', x: PAS, y: 0 },
 ];
 
 function el(tag, attrs = {}) {
@@ -38,7 +39,7 @@ function hexagone(a, rang) {
 }
 
 export function render({ view }) {
-  const demi = PAS + 10;
+  const demi = 1.5 * PAS + 10;
   const svg = el('svg', { class: 'ruche', viewBox: `${-demi} -255 ${2 * demi} 510`, role: 'group', 'aria-label': 'Activités' });
   ACTIVITES.forEach((a, i) => svg.append(hexagone(a, i)));
 

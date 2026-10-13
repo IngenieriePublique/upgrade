@@ -16,6 +16,8 @@ import { ilYa } from '../site/first/js/brief.js';
 import { pointsHexagone } from '../site/first/js/cadre.js';
 import * as S from '../site/first/js/suivi.js';
 import { histogramme, render as renderMethode } from '../site/first/js/methode.js';
+import { NIVEAUX, TYPES, question, lireReponse, nombre } from '../site/first/js/calcul-mental.js';
+import { render as renderCalcul } from '../site/first/js/calcul.js';
 
 const T0 = new Date(2026, 9, 12, 9, 30).getTime();
 const finDeJournee = new Date(2026, 9, 12, 24, 0, 0, 0).getTime();
@@ -404,4 +406,75 @@ test('écran méthode : ouverture au repos, en séance, en pause et à l\'arrêt
     if (nom === 'travail') ok(view.querySelector('.etat-seance').textContent.startsWith('Séance en cours depuis'), nom);
     nettoyer();
   }
+});
+
+// ---------- calcul mental ----------
+
+// Recalcule la réponse à partir du texte de la question, indépendamment du générateur.
+function recalcul(t) {
+  const sans = t.replace(/[\s\u202f]/g, '');
+  let m;
+  if ((m = sans.match(/^(\d+)²$/))) return Number(m[1]) ** 2;
+  if ((m = t.match(/^Double de (\d+)$/))) return 2 * Number(m[1]);
+  if ((m = t.match(/^Moitié de (\d+)$/))) return Number(m[1]) / 2;
+  if ((m = t.replace(/\u202f/g, '').match(/^(\d+) % de (\d+)$/))) return (Number(m[1]) * Number(m[2])) / 100;
+  if ((m = t.match(/^(\d+)\/(\d+) de (\d+)$/))) return (Number(m[3]) / Number(m[2])) * Number(m[1]);
+  if ((m = t.match(/^(\d+) ([+−]) (\d+) %$/))) return Number(m[1]) + (m[2] === '+' ? 1 : -1) * (Number(m[1]) * Number(m[3])) / 100;
+  return Function(`return ${sans.replace(/×/g, '*').replace(/÷/g, '/').replace(/−/g, '-')}`)();
+}
+
+test('calcul mental : quatre niveaux, chacun avec ses types de question', () => {
+  eq(Object.keys(NIVEAUX), ['1', '2', '3', '4']);
+  for (const n of Object.keys(NIVEAUX)) ok(TYPES.filter((t) => t.niveau === Number(n)).length >= 4, `niveau ${n}`);
+});
+
+test('calcul mental : 400 questions par niveau, réponses entières et exactes, astuce sans la solution', () => {
+  for (const niveau of [1, 2, 3, 4]) {
+    const rng = mulberry32(niveau * 7919);
+    let prec = null;
+    const vus = new Set();
+    for (let i = 0; i < 400; i++) {
+      const x = question(niveau, rng, prec);
+      ok(Number.isInteger(x.reponse) && x.reponse >= 0, `${x.texte} → ${x.reponse}`);
+      eq(x.reponse, recalcul(x.texte), x.texte);
+      ok(x.astuce.length > 20, x.type);
+      ok(!x.astuce.includes(`${x.texte} =`), `l'astuce donne la solution de ${x.texte}`);
+      if (prec) ok(prec.type !== x.type && prec.texte !== x.texte, 'même type de suite');
+      vus.add(x.type);
+      prec = x;
+    }
+    eq(vus.size, TYPES.filter((t) => t.niveau === niveau).length, `niveau ${niveau} : tous les types sortent`);
+  }
+});
+
+test('calcul mental : niveau inconnu refusé ; lecture de la réponse saisie', () => {
+  let erreur = false;
+  try { question(9); } catch { erreur = true; }
+  ok(erreur);
+  eq([lireReponse('85'), lireReponse(' 1 234 '), lireReponse('1\u202f234'), lireReponse('12,5'), lireReponse('−7')], [85, 1234, 1234, 12.5, -7]);
+  ok(Number.isNaN(lireReponse('')) && Number.isNaN(lireReponse('abc')) && Number.isNaN(lireReponse('1+2')));
+  eq([nombre(12), nombre(1000), nombre(1234567)], ['12', `1\u202f000`, `1\u202f234\u202f567`]);
+});
+
+test('écran calcul : bonne réponse comptée, mauvaise réponse montre la solution, astuce présente', async () => {
+  const store = { memoire: false, getMeta: async (_, d) => d, setMeta: async () => {} };
+  const view = document.createElement('div');
+  document.body.append(view);
+  const nettoyer = await renderCalcul({ view, store, params: { n: '1' } });
+  const champ = view.querySelector('.calcul-reponse');
+  const entree = () => champ.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+  ok(view.querySelector('.calcul-question').textContent.length > 2);
+  ok(view.querySelector('.tip-bulle').textContent.length > 20);
+  eq(view.querySelector('.filtre.actif').textContent, 'Facile');
+  champ.value = String(recalcul(view.querySelector('.calcul-question').textContent));
+  entree();
+  eq(view.querySelector('.compteur').textContent, '1 / 1');
+  nettoyer(); // annule l'enchaînement automatique
+  champ.readOnly = false;
+  champ.value = '999999';
+  entree();
+  eq(view.querySelector('.compteur').textContent, '1 / 2');
+  ok(view.querySelector('.calcul-solution').textContent.startsWith('= '));
+  ok(champ.classList.contains('faux'));
+  view.remove();
 });

@@ -17,6 +17,7 @@ const TRACES = {
   jouer: 'M7 4.5v15l12-7.5Z',
   pause: 'M8 5v14M16 5v14',
   stop: 'M6.5 6.5h11v11h-11Z',
+  tip: 'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z',
   liste: 'M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01',
 };
 
@@ -58,6 +59,8 @@ const DETAILLEES = {
   lecture: `<path class="plein" d="M24 12c-3.6-2.8-8.6-3.6-15-3.1v26.2c6.4-.5 11.4.3 15 3.2 3.6-2.9 8.6-3.7 15-3.2V8.9c-6.4-.5-11.4.3-15 3.1Z"/>
     <path d="M24 12v26.3"/><path class="fin" d="M13 16.5c2.8 0 5.2.5 7.5 1.6M13 21.2c2.8 0 5.2.5 7.5 1.6M13 25.9c2.8 0 5.2.5 7.5 1.6M13 30.6c2.8 0 5.2.5 7.5 1.6M35 21.2c-2.8 0-5.2.5-7.5 1.6M35 25.9c-2.8 0-5.2.5-7.5 1.6M35 30.6c-2.8 0-5.2.5-7.5 1.6"/>
     <path d="M31.5 9.4v9.6l2.7-2.2 2.7 2.2V9.2"/><path class="fin" d="M10 42h28"/>`,
+  calcul: `<rect class="plein" x="9" y="6" width="30" height="36" rx="4"/><rect class="fin" x="13" y="10" width="22" height="9" rx="1.5"/>
+    <path d="M17 26.5h6M20 23.5v6M28.5 26.5h6"/><path d="M17.5 33.5l5 5M22.5 33.5l-5 5"/><path d="M28.5 36h6"/><circle class="pt" cx="31.5" cy="33" r="1.1"/><circle class="pt" cx="31.5" cy="39" r="1.1"/>`,
   methode: `<circle class="plein" cx="24" cy="27" r="15"/><path d="M20 6h8M24 6v6M36 13l3-3"/>
     <path d="M24 27V18.5M24 27l6 3.5"/><circle class="pt" cx="24" cy="27" r="1.9"/>
     <path class="fin" d="M24 15.5v2M24 36.5v2M12.5 27h2M33.5 27h2"/><path class="fin dash" d="M31.2 17.8a11.5 11.5 0 0 1 3.6 7.2"/>`,
