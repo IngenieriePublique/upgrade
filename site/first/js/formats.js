@@ -1,4 +1,4 @@
-// Logique pure du jeu des territoires de First Upgrade : trois formats (régions, départements d'une région, villes),
+// Logique pure du jeu des territoires de First Upgrade : quatre formats (régions, départements d'une région, villes, pays d'un continent),
 // choix du type de question selon la progression, questions. Aucun accès au DOM : testable seul (tests/first.test.js).
 // Chaque question reste une carte du moteur de répétition espacée (srs.js), identifiant « terr-<mode>-<code> » :
 // les modes déjà connus d'Upgrade (placer-reg, chef-reg, placer-dep, nom-dep, pref-dep, dep-pref, num-code) partagent leur progression.
@@ -21,6 +21,11 @@ export const FORMATS = {
     detail: 'Les principales villes de France',
     modes: ['ville-placer', 'ville-nom'],
   },
+  pays: {
+    titre: 'Pays',
+    detail: 'Un continent à la fois : pays et capitales',
+    modes: ['pays-placer', 'pays-nom', 'pays-capitale', 'capitale-pays'],
+  },
 };
 
 export const TITRES_MODES = {
@@ -34,6 +39,10 @@ export const TITRES_MODES = {
   'num-code': 'Département d\'un numéro',
   'ville-placer': 'Placer une ville',
   'ville-nom': 'Nommer la ville',
+  'pays-placer': 'Placer un pays',
+  'pays-nom': 'Nommer le pays',
+  'pays-capitale': 'Capitale d\'un pays',
+  'capitale-pays': 'Pays d\'une capitale',
 };
 
 export const OUTRE_MER = 'om';
@@ -49,6 +58,10 @@ export function groupes(data) {
 
 export const groupe = (data, code) => groupes(data).find((g) => g.code === code) ?? null;
 
+// Continents proposés pour le format « pays » : { code, nom, pays: [{ id, nom, capitale, … }] }. monde : site/data/territoires/pays.json.
+export const continents = (monde) => monde.continents.map((c) => ({ ...c, pays: monde.pays.filter((p) => p.continent === c.code) }));
+export const continent = (monde, code) => continents(monde).find((c) => c.code === code) ?? null;
+
 // Éléments à étudier (liste affichée avant le jeu) : { code, titre, detail }.
 export function lignesEtude(format, data, villes, g = null) {
   const idx = { dep: new Map(data.departements.map((d) => [d.code, d])), reg: new Map(data.regions.map((r) => [r.code, r])) };
@@ -59,6 +72,7 @@ export function lignesEtude(format, data, villes, g = null) {
   if (format === 'departements') {
     return g.deps.map((c) => idx.dep.get(c)).map((d) => ({ code: d.code, titre: `${d.code} ${d.nom}`, detail: d.prefecture }));
   }
+  if (format === 'pays') return g.pays.map((p) => ({ code: p.id, titre: p.nom, detail: p.capitale }));
   return villes.map((v) => ({ code: v.id, titre: v.nom, detail: `dép. ${v.departement}` }));
 }
 
@@ -66,6 +80,7 @@ export function lignesEtude(format, data, villes, g = null) {
 export function codesDuFormat(format, data, villes, g = null) {
   if (format === 'regions') return data.regions.map((r) => r.code);
   if (format === 'departements') return [...g.deps];
+  if (format === 'pays') return g.pays.map((p) => p.id);
   return villes.map((v) => v.id);
 }
 
@@ -139,10 +154,47 @@ function questionOutreMer(item, data, rng) {
   }
 }
 
-// Construit la question d'un élément de série. villes : [{ id, nom, departement, departement_nom, x, y }].
-export function creerQuestionFirst(item, data, villes, rng = Math.random) {
+// Le nom d'un pays avec son article (« la France », « les Bahamas », « Cuba ») et après « de » (« de la France », « du Japon », « d'Haïti »).
+export function avecArticle(p) {
+  return p.article === "l'" ? `l'${p.nom}` : p.article ? `${p.article} ${p.nom}` : p.nom;
+}
+export function dePays(p) {
+  switch (p.article) {
+    case 'le': return `du ${p.nom}`;
+    case 'les': return `des ${p.nom}`;
+    case 'la': return `de la ${p.nom}`;
+    case "l'": return `de l'${p.nom}`;
+    default: return /^[AEIOUHÀÂÉÈÊÎÔÛ]/i.test(p.nom) ? `d'${p.nom}` : `de ${p.nom}`;
+  }
+}
+
+// Questions sur les pays d'un continent. autres : les pays du même continent ; les mauvaises réponses viennent d'abord des voisins.
+function questionPays(item, p, autres, rng) {
+  const base = { id: item.id, mode: item.mode, code: item.code, couche: 'pays', surbrillance: p.id };
+  const proches = [...autres].sort((a, b) => Math.hypot(a.cx - p.cx, a.cy - p.cy) - Math.hypot(b.cx - p.cx, b.cy - p.cy));
+  const explication = `${p.nom} : capitale ${p.capitale}.${p.note ? ` ${p.note}` : ''}`;
+  const noms = () => tirer(proches.slice(0, 8), proches, p.nom, 3, (x) => x.nom, rng).map((x) => ({ valeur: x.id, libelle: x.nom }));
+  switch (item.mode) {
+    case 'pays-placer':
+      return { ...base, type: 'clic', cible: p.id, surbrillance: null, consigne: `Clique sur ${avecArticle(p)}.`, explication };
+    case 'pays-nom':
+      return { ...base, ...qcm(p.id, p.nom, noms(), rng), consigne: 'Quel est le pays en couleur ?', explication };
+    case 'pays-capitale': {
+      const caps = tirer(proches.slice(0, 8), proches, p.capitale, 3, (x) => x.capitale, rng).map((x) => ({ valeur: x.capitale, libelle: x.capitale }));
+      return { ...base, ...qcm(p.capitale, p.capitale, caps, rng), consigne: `Quelle est la capitale ${dePays(p)} ?`, explication };
+    }
+    default: // capitale-pays
+      return { ...base, ...qcm(p.id, p.nom, noms(), rng), couche: null, surbrillance: null, consigne: `${p.capitale} est la capitale de quel pays ?`, explication };
+  }
+}
+
+// Construit la question d'un élément de série. villes : [{ id, nom, departement, departement_nom, x, y }] ;
+// pays : les pays du continent joué (format « pays »), [{ id, nom, capitale, note, cx, cy }].
+export function creerQuestionFirst(item, data, villes, rng = Math.random, pays = null) {
   const base = { id: item.id, mode: item.mode, code: item.code };
   switch (item.mode) {
+    case 'pays-placer': case 'pays-nom': case 'pays-capitale': case 'capitale-pays':
+      return questionPays(item, pays.find((x) => x.id === item.code), pays.filter((x) => x.id !== item.code), rng);
     case 'nom-reg': {
       const r = data.regions.find((x) => x.code === item.code);
       const memeType = data.regions.filter((x) => x.code !== r.code && x.outre_mer === r.outre_mer);

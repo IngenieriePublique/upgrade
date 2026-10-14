@@ -1,9 +1,9 @@
 import { test, eq, ok } from './runner.js';
 import { mulberry32 } from '../site/js/territoires.js';
 import {
-  FORMATS, groupes, groupe, lignesEtude, codesDuFormat, choisirMode, serie, creerQuestionFirst, OUTRE_MER,
+  FORMATS, groupes, groupe, lignesEtude, codesDuFormat, choisirMode, serie, creerQuestionFirst, OUTRE_MER, continents, continent, avecArticle, dePays,
 } from '../site/first/js/formats.js';
-import { bornes, vueDe, vueEncarts, optionsCarte } from '../site/first/js/carte-first.js';
+import { bornes, vueDe, vueEncarts, optionsCarte, cartePays, carteMonde } from '../site/first/js/carte-first.js';
 import { idItem } from '../site/js/territoires.js';
 import { creerCarte } from '../site/js/carte-svg.js';
 import { placer, rectCentre, candidatsAutour, candidatsCentre, chevauche, largeur } from '../site/first/js/etiquettes.js';
@@ -26,9 +26,107 @@ const data = await (await fetch('../site/data/territoires/data.json')).json();
 const geo = await (await fetch('../site/data/geo/france.json')).json();
 const villes = (await (await fetch('../site/data/territoires/villes.json')).json()).villes;
 
-test('formats : trois formats, chacun avec ses types de question', () => {
-  eq(Object.keys(FORMATS), ['regions', 'departements', 'villes']);
+test('formats : quatre formats, chacun avec ses types de question', () => {
+  eq(Object.keys(FORMATS), ['regions', 'departements', 'villes', 'pays']);
   for (const f of Object.values(FORMATS)) ok(f.modes.length >= 2 && f.titre && f.detail);
+});
+
+const monde = await (await fetch('../site/data/territoires/pays.json')).json();
+const geoOm = await (await fetch('../site/data/geo/monde-om.json')).json();
+
+test('pays : 193 États répartis en sept continents, chacun avec sa capitale, son article et ses coordonnées dans la carte du continent', async () => {
+  eq(monde.pays.length, 193);
+  eq(new Set(monde.pays.map((p) => p.id)).size, 193);
+  eq(monde.continents.map((c) => c.code), ['europe', 'asie', 'afrique', 'amerique-nord', 'caraibes', 'amerique-sud', 'oceanie']);
+  eq(continents(monde).map((c) => c.pays.length), [44, 46, 54, 10, 13, 12, 14]);
+  eq(continent(monde, 'asie').nom, 'Asie');
+  eq(continent(monde, 'xx'), null);
+  for (const c of monde.continents) {
+    const geoC = await (await fetch(`../site/data/geo/monde-${c.code}.json`)).json();
+    const [, , l, h] = geoC.viewBox.split(' ').map(Number);
+    for (const p of monde.pays.filter((x) => x.continent === c.code)) {
+      ok(p.nom && p.capitale, `${p.id} : nom ou capitale manquant`);
+      ok(['le', 'la', 'les', "l'", ''].includes(p.article), `${p.nom} : article`);
+      ok(p.cx >= 0 && p.cx <= l && p.cy >= 0 && p.cy <= h, `${p.nom} : centre hors de la carte`);
+      ok(p.x >= 0 && p.x <= l && p.y >= 0 && p.y <= h, `${p.nom} : capitale hors de la carte`);
+      ok(geoC.pays[p.id], `${p.nom} : absent de la carte`);
+    }
+  }
+  const cap = (id) => monde.pays.find((p) => p.id === id).capitale;
+  eq([cap('FR'), cap('JP'), cap('BR'), cap('AU'), cap('EG'), cap('CA')], ['Paris', 'Tokyo', 'Brasilia', 'Canberra', 'Le Caire', 'Ottawa']);
+  ok(monde.pays.find((p) => p.id === 'ZA').note.includes('Le Cap'), 'note sur les capitales multiples');
+});
+
+test('pays : le nom avec son article, et après « de »', () => {
+  const p = (id) => monde.pays.find((x) => x.id === id);
+  eq(['FR', 'JP', 'IT', 'BS', 'CU', 'US'].map((id) => avecArticle(p(id))), ['la France', 'le Japon', "l'Italie", 'les Bahamas', 'Cuba', 'les États-Unis']);
+  eq(['FR', 'JP', 'IT', 'BS', 'CU', 'HT', 'US', 'IQ'].map((id) => dePays(p(id))), ['de la France', 'du Japon', "de l'Italie", 'des Bahamas', 'de Cuba', "d'Haïti", 'des États-Unis', "de l'Irak"]);
+});
+
+test('pays : révision, série et questions de chaque continent', () => {
+  const rng = mulberry32(21);
+  let n = 0;
+  for (const c of continents(monde)) {
+    const lignes = lignesEtude('pays', data, villes, c);
+    eq(lignes.length, c.pays.length);
+    ok(lignes.every((l) => l.titre && l.detail));
+    eq(codesDuFormat('pays', data, villes, c), c.pays.map((p) => p.id));
+    const s = serie('pays', data, villes, c, new Map(), rng);
+    eq(new Set(s.map((q) => q.code)).size, c.pays.length);
+    ok(s.every((q) => FORMATS.pays.modes.includes(q.mode)));
+    for (const p of c.pays) {
+      for (const mode of FORMATS.pays.modes) {
+        const q = creerQuestionFirst({ id: idItem(mode, p.id), mode, code: p.id }, data, villes, rng, c.pays);
+        n++;
+        ok(q.consigne && q.explication.includes(p.capitale), `${mode} ${p.nom}`);
+        if (q.type === 'qcm') {
+          ok(q.choix.some((x) => x.valeur === q.bonne), `${mode} ${p.nom} : bonne réponse absente`);
+          eq(new Set(q.choix.map((x) => x.libelle)).size, 4, `${mode} ${p.nom} : quatre choix distincts`);
+        } else eq([q.type, q.cible], ['clic', p.id]);
+      }
+    }
+  }
+  eq(n, 193 * 4);
+});
+
+test('pays : la carte d\'un continent, ses pastilles de petits pays et ses étiquettes', async () => {
+  const eu = continent(monde, 'europe');
+  const geoEu = await (await fetch('../site/data/geo/monde-europe.json')).json();
+  const actifs = new Set(eu.pays.map((p) => p.id));
+  const noms = new Map(eu.pays.map((p) => [p.id, p.nom]));
+  let clic = null;
+  const carte = cartePays(geoEu, actifs, noms, { onClic: (code) => { clic = code; } });
+  eq(carte.el.querySelectorAll('.pays:not(.hors)').length, 44);
+  ok(carte.el.querySelectorAll('.pays.hors').length > 5, 'pays voisins en contexte');
+  const mc = carte.chemin('MC');
+  ok(mc.querySelector('circle.pt'), 'Monaco a une pastille');
+  ok(!carte.chemin('FR').querySelector('circle.pt'), 'la France n\'en a pas');
+  ok(!carte.chemin('TR'), 'la Turquie n\'est pas un pays du jeu');
+  mc.dispatchEvent(new MouseEvent('click'));
+  eq(clic, 'MC');
+  carte.marquer('MC', 'cible');
+  ok(mc.classList.contains('cible'));
+  carte.retirer('cible');
+  ok(!mc.classList.contains('cible'));
+  carte.nommer('FR'); carte.nommer('FR');
+  eq([...carte.el.querySelectorAll('.noms text')].map((t) => t.textContent), ['France']);
+  carte.nommerTout();
+  eq(carte.el.querySelectorAll('.noms text').length, 44);
+});
+
+test('outre-mer : la carte du monde repère les cinq départements d\'outre-mer et la métropole, par code de région ou de département', () => {
+  const m = carteMonde(geoOm, data);
+  eq(geoOm.marqueurs.map((x) => x.code), ['971', '972', '973', '974', '976', 'metropole']);
+  ok(m.el.querySelector('.t.fr'), 'la France est mise en évidence');
+  for (const r of data.regions.filter((x) => x.outre_mer)) {
+    ok(m.chemin(r.code), `repère de ${r.nom}`);
+    eq(m.chemin(r.code), m.chemin(r.departements[0]));
+  }
+  const [, , l, h] = geoOm.viewBox.split(' ').map(Number);
+  ok(geoOm.marqueurs.every((x) => x.x > 0 && x.x < l && x.y > 0 && x.y < h), 'repères dans la carte');
+  const x = Object.fromEntries(geoOm.marqueurs.map((q) => [q.code, q]));
+  ok(x['973'].x < x.metropole.x && x['974'].x > x.metropole.x, 'la Guyane est à l\'ouest de la métropole, La Réunion à l\'est');
+  ok(x['974'].y > x.metropole.y, 'La Réunion est au sud de la métropole');
 });
 
 test('groupes de départements : 13 régions de métropole puis l\'outre-mer ; chaque département une seule fois', () => {
@@ -476,5 +574,16 @@ test('écran calcul : bonne réponse comptée, mauvaise réponse montre la solut
   eq(view.querySelector('.compteur').textContent, '1 / 2');
   ok(view.querySelector('.calcul-solution').textContent.startsWith('= '));
   ok(champ.classList.contains('faux'));
+  entree(); // solution affichée : Entrée passe à la question suivante
+  eq(champ.value, '');
+  ok(!champ.readOnly);
+  entree(); // champ vide : Entrée ne fait rien (ni réponse comptée, ni solution)
+  eq(view.querySelector('.compteur').textContent, '1 / 2');
+  eq(view.querySelector('.calcul-solution').textContent, '');
+  const passer = view.querySelector('.calcul-passer');
+  eq(passer.title, 'Je ne sais pas');
+  passer.click(); // la flèche montre la solution et compte comme une erreur
+  eq(view.querySelector('.compteur').textContent, '1 / 3');
+  ok(view.querySelector('.calcul-solution').textContent.startsWith('= '));
   view.remove();
 });

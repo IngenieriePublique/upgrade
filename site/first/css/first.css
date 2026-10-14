@@ -86,6 +86,8 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 /* ---------- jeu des territoires ---------- */
 .jeu { height: 100%; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 36px; align-items: stretch; }
 .jeu.sans-carte { grid-template-columns: minmax(0, 1fr); }
+.jeu.pays-jeu { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 28px; }
+.jeu.pays-jeu.sans-carte { grid-template-columns: minmax(0, 1fr); }
 .jeu-carte { min-height: 0; display: flex; align-items: center; justify-content: center; }
 .carte-svg { width: 100%; height: 100%; display: block; }
 .carte-svg .t { fill: var(--carte); stroke: var(--bord-fort); stroke-width: .7; stroke-linejoin: round; transition: fill .15s; }
@@ -120,7 +122,7 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 
 /* choix du format, de la région, révision avant la série */
 .jeu.menu { display: grid; place-items: center; }
-.formats { width: min(880px, 100%); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.formats { width: min(1040px, 100%); display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
 .format { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; padding: 30px 18px 26px; color: var(--texte);
   background: var(--carte); border: 1px solid var(--bord); border-radius: 8px; text-decoration: none; transition: background .15s, border-color .15s; }
 .format:hover, .format:focus-visible { background: var(--carte-survol); border-color: var(--lien); }
@@ -164,10 +166,36 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .carte-svg .villes .ville .pt { fill: var(--lien); stroke: var(--fond); stroke-width: 1.5; transition: fill .15s; }
 .carte-svg .villes .ville.cliquable { cursor: pointer; }
 .carte-svg .villes .ville.cliquable:hover .pt, .carte-svg .villes .ville.survol .pt { fill: #fff; }
-.carte-svg .villes .ville.cible .pt { fill: #fff; stroke: var(--accent); stroke-width: 3; r: 12; animation: bat 1.1s ease-in-out infinite alternate; }
+.carte-svg .villes .ville.cible .pt { fill: #fff; stroke: #fff; stroke-width: 6; r: 13; filter: drop-shadow(0 0 6px #fff) drop-shadow(0 0 16px rgba(255, 255, 255, .8));
+  animation: bat 1.1s ease-in-out infinite alternate; }
 .carte-svg .villes .ville.ok .pt { fill: var(--ok); stroke: var(--fond); r: 8; }
 .carte-svg .villes .ville.faux .pt { fill: var(--erreur); r: 8; }
-@keyframes bat { to { stroke-width: 1; } }
+@keyframes bat { to { stroke-width: 3; filter: drop-shadow(0 0 4px #fff) drop-shadow(0 0 10px rgba(255, 255, 255, .6)); } }
+
+/* pays d'un continent : un <g class="pays"> par pays (tracé + pastille quand il est trop petit pour être cliqué) */
+.carte-svg .pays.cliquable { cursor: pointer; }
+.carte-svg .pays.cliquable:hover .t, .carte-svg .pays.survol .t { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); }
+.carte-svg .pays .pt { fill: color-mix(in srgb, var(--lien) 40%, var(--carte)); stroke: var(--lien); stroke-width: 1.2; transition: fill .15s; }
+.carte-svg .pays.cliquable:hover .pt, .carte-svg .pays.survol .pt { fill: #fff; }
+.carte-svg .pays.survol .t { stroke: var(--lien); stroke-width: 1.5; }
+.carte-svg .pays.cible .t { fill: color-mix(in srgb, var(--accent) 55%, var(--carte)); stroke: var(--lien); stroke-width: 1.6; }
+.carte-svg .pays.cible .pt { fill: #fff; stroke: var(--accent); stroke-width: 2.5; animation: bat 1.1s ease-in-out infinite alternate; }
+.carte-svg .pays.ok .t { fill: color-mix(in srgb, var(--ok) 55%, var(--carte)); stroke: var(--ok); stroke-width: 1.8; }
+.carte-svg .pays.ok .pt { fill: var(--ok); stroke: var(--fond); }
+.carte-svg .pays.faux .t { fill: color-mix(in srgb, var(--erreur) 50%, var(--carte)); stroke: var(--erreur); stroke-width: 1.8; }
+.carte-svg .pays.faux .pt { fill: var(--erreur); stroke: var(--fond); }
+.regions-grille.continents { grid-template-columns: repeat(auto-fill, minmax(116px, 1fr)); }
+.regions-grille.continents .region-mini { height: clamp(70px, 15vh, 120px); }
+
+/* petite carte du monde de l'écran de révision de l'outre-mer */
+.monde-mini { display: flex; flex-direction: column; gap: 4px; flex: 0 1 auto; height: clamp(110px, 30vh, 260px); min-height: 0; }
+.monde-mini .etiquette { font-size: .72rem; flex: none; }
+.monde-mini .carte-monde { flex: 1 1 0; min-height: 0; width: 100%; height: 100%; }
+.carte-monde .t.hors { fill: color-mix(in srgb, var(--carte) 85%, var(--fond)); stroke: var(--bord-fort); stroke-width: .8; }
+.carte-monde .t.fr { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); stroke: var(--lien); stroke-width: 1; }
+.carte-monde .om circle { fill: var(--lien); stroke: var(--fond); stroke-width: 2; transition: fill .15s; }
+.carte-monde .om.survol circle { fill: #fff; }
+.carte-monde .om.survol text { fill: #fff; }
 
 /* ---------- cartes de culture ---------- */
 .cartes-zone { height: 100%; display: grid; place-items: center; }
@@ -353,7 +381,7 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   .outils { margin-left: 0; width: 100%; justify-content: space-between; }
   .filtres { justify-content: flex-start; }
   .corps { padding: 4px 16px 16px; }
-  .jeu { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 37%) minmax(0, 1fr); gap: 8px; }
+  .jeu, .jeu.pays-jeu { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 37%) minmax(0, 1fr); gap: 8px; }
   .jeu .panneau { justify-content: flex-start; gap: 8px; }
   .jeu .choix-btn { padding: 6px 12px; }
   .retour-jeu { gap: 3px; }
@@ -365,6 +393,7 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   .format svg { width: 36px; height: 36px; margin: 0; grid-row: span 3; }
   .format-detail { flex-basis: 100%; }
   .liste-etude.deux, .liste-etude.trois { grid-template-columns: 1fr 1fr; }
+  .monde-mini { display: none; }
   .liste-etude li { padding: 2px 6px; }
   .liste-etude li b { font-size: .8rem; } .liste-etude li span { font-size: .75rem; }
   .jeu .panneau.etude .consigne { font-size: .95rem; }

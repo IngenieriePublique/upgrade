@@ -69,6 +69,8 @@ const DETAILLEES = {
   departements: nid(),
   villes: `<path class="plein" d="M8 41V23h8v18M16 41V11.5h10V41M26 41V26h7v15M33 41V18h8v23"/><path d="M5 41h38"/>
     <path class="fin" d="M19 16h4M19 21h4M19 26h4M19 31h4M11 28h2M11 33h2M29 31h1.5M29 36h1.5M36 24h2M36 29h2M36 34h2"/>`,
+  pays: `<circle class="plein" cx="24" cy="24" r="17"/><path class="fin" d="M7 24h34M24 7c-8 8.5-8 25.5 0 34M24 7c8 8.5 8 25.5 0 34M10.5 14.5c9 3.5 18 3.5 27 0M10.5 33.5c9-3.5 18-3.5 27 0"/>
+    <path d="M17 16.5c2.5-1 4.5 0 5 2s-2 3-1.5 5.5 3 2 3 4.5-3.5 4.5-4.5 2.5-3-3.5-3.5-6.5.5-6.5 1.5-8Z"/><circle class="pt" cx="33" cy="20" r="1.6"/>`,
 };
 
 // Éléments SVG d'une icône détaillée, à placer dans un <svg viewBox="0 0 48 48"> ; contenu statique, défini ci-dessus.

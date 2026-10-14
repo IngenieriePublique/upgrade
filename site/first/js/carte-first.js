@@ -177,3 +177,90 @@ export function carteVilles(geo, data, villes, { onClic = null, population = fal
     nommerTout() { villes.forEach(etiquette); },
   };
 }
+
+// ---------- carte des pays d'un continent ----------
+
+// geo : site/data/geo/monde-<continent>.json ({ viewBox, rayon, pays: { ISO: { d, c, petit?, cap? } } }) ; actifs : Set des pays du jeu (les autres
+// sont dessinés en contexte) ; noms : Map ISO -> nom français. Un pays trop petit pour être cliqué reçoit une pastille (`petit`).
+// Renvoie la même interface que creerCarte : { el, marquer, retirer, chemin } + nommer(code) / nommerTout() ; chemin(code) est le <g> du pays.
+export function cartePays(geo, actifs, noms, { onClic = null } = {}) {
+  const racine = svg('svg', { viewBox: geo.viewBox, class: 'carte-svg', role: 'img', 'aria-label': 'Carte des pays du continent' });
+  const fond = svg('g', { class: 'territoires' });
+  const groupes = new Map();
+  const entrees = Object.entries(geo.pays).sort(([a, ta], [b, tb]) => (actifs.has(a) ? 1 + (ta.petit ? 1 : 0) : 0) - (actifs.has(b) ? 1 + (tb.petit ? 1 : 0) : 0));
+  for (const [code, t] of entrees) {
+    const actif = actifs.has(code);
+    const grp = svg('g', { class: `pays${actif ? '' : ' hors'}${actif && onClic ? ' cliquable' : ''}`, 'data-code': code });
+    if (t.d) grp.append(svg('path', { d: t.d, class: `t${actif ? '' : ' hors'}` }));
+    if (actif && t.petit) grp.append(svg('circle', { class: 'pt', cx: t.c[0], cy: t.c[1], r: geo.rayon }));
+    if (actif && onClic) grp.addEventListener('click', () => onClic(code));
+    fond.append(grp);
+    if (actif) groupes.set(code, grp);
+  }
+  racine.append(fond);
+
+  // Emplacement de chaque nom, calculé une fois (les grands pays d'abord) ; affiché à la demande.
+  const taille = largeurVue({ el: racine }) / 60;
+  const h = taille * 1.3;
+  const rects = new Map();
+  for (const [code, t] of Object.entries(geo.pays)) if (actifs.has(code) && t.petit) rects.set(code, { x0: t.c[0] - geo.rayon, y0: t.c[1] - geo.rayon, x1: t.c[0] + geo.rayon, y1: t.c[1] + geo.rayon });
+  const ordre = [...groupes.keys()].sort((a, b) => Number(!!geo.pays[a].petit) - Number(!!geo.pays[b].petit));
+  const places = placer(ordre.map((code) => {
+    const t = geo.pays[code];
+    const w = largeur(noms.get(code) ?? '', taille, true) + taille * 0.3;
+    return { id: code, w, h, candidats: t.petit ? candidatsAutour(rects.get(code), w, h, taille * 0.1) : candidatsCentre(t.c[0], t.c[1], taille * 1.1) };
+  }), { obstacles: [...rects.values()], bornes: bornesVue({ el: racine }) });
+  const etiquettes = svg('g', { class: 'noms', 'pointer-events': 'none' });
+  racine.append(etiquettes);
+  const poses = new Set();
+  function nommer(code) {
+    if (poses.has(code) || !places.has(code)) return;
+    poses.add(code);
+    const c = places.get(code);
+    const texte = svg('text', { x: c.cx.toFixed(1), y: c.cy.toFixed(1), class: 'etiq', 'text-anchor': 'middle', 'dominant-baseline': 'central', 'font-size': taille.toFixed(1) });
+    texte.textContent = noms.get(code);
+    etiquettes.append(texte);
+  }
+  return {
+    el: racine,
+    chemin: (code) => groupes.get(code),
+    marquer(code, classe) { const g = groupes.get(code); if (g) { g.classList.add(classe); g.parentNode.append(g); } },
+    retirer(classe) { for (const g of groupes.values()) g.classList.remove(classe); },
+    nommer,
+    nommerTout() { ordre.forEach(nommer); },
+  };
+}
+
+// ---------- carte du monde centrée sur les territoires français ----------
+
+// geo : site/data/geo/monde-om.json ({ viewBox, pays, marqueurs: [{ code, nom, x, y }] }). Chaque marqueur est un département
+// d'outre-mer (code « 971 »…) ou la métropole ; chemin(code) accepte aussi le code de la région d'outre-mer correspondante.
+export function carteMonde(geo, data) {
+  const racine = svg('svg', { viewBox: geo.viewBox, class: 'carte-svg carte-monde', role: 'img', 'aria-label': 'Position des territoires français dans le monde' });
+  const fond = svg('g', { class: 'territoires' });
+  for (const [code, t] of Object.entries(geo.pays)) fond.append(svg('path', { d: t.d, class: code === 'FR' ? 't fr' : 't hors', 'pointer-events': 'none' }));
+  racine.append(fond);
+  const taille = largeurVue({ el: racine }) / 30;
+  const rayon = taille * 0.4;
+  const rects = geo.marqueurs.map((m) => ({ x0: m.x - rayon, y0: m.y - rayon, x1: m.x + rayon, y1: m.y + rayon }));
+  const places = placer(geo.marqueurs.map((m, i) => {
+    const w = largeur(m.nom, taille) + taille * 0.3;
+    const h = taille * 1.3;
+    return { id: m.code, w, h, candidats: candidatsAutour(rects[i], w, h, taille * 0.1) };
+  }), { obstacles: rects, bornes: bornesVue({ el: racine }) });
+  const par = new Map();
+  const reperes = svg('g', { class: 'reperes-om', 'pointer-events': 'none' });
+  for (const m of geo.marqueurs) {
+    const g = svg('g', { class: 'om', 'data-code': m.code });
+    g.append(svg('circle', { cx: m.x, cy: m.y, r: rayon.toFixed(1) }));
+    const c = places.get(m.code);
+    const t = svg('text', { x: c.cx.toFixed(1), y: c.cy.toFixed(1), class: 'etiq sous', 'text-anchor': 'middle', 'dominant-baseline': 'central', 'font-size': taille.toFixed(1) });
+    t.textContent = m.nom;
+    g.append(t);
+    reperes.append(g);
+    par.set(m.code, g);
+  }
+  racine.append(reperes);
+  for (const r of data.regions.filter((x) => x.outre_mer)) par.set(r.code, par.get(r.departements[0]));
+  return { el: racine, chemin: (code) => par.get(code) };
+}
