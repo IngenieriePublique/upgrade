@@ -185,6 +185,7 @@ async function jouer({ zone, compteur, store, data, geo, villes, prefectures, fo
     async function repondre(juste) {
       if (verrou) return;
       verrou = true;
+      reponses.querySelector('.inconnu')?.remove();
       const etat = await store.review(item.id, noterReponse(juste, Date.now() - debut), Date.now());
       states.set(item.id, etat);
       bilan.reponses++;
@@ -219,7 +220,7 @@ async function jouer({ zone, compteur, store, data, geo, villes, prefectures, fo
         reponses.append(b);
       });
     } else {
-      reponses.append(h('button', { class: 'secondaire', onclick: () => {
+      reponses.append(h('button', { class: 'secondaire inconnu', onclick: () => {
         if (verrou) return;
         carte.marquer(q.cible, 'ok');
         carte.nommer?.(q.cible);

@@ -1,5 +1,5 @@
 // Calcul mental : une question à la fois, sans fin. On tape la réponse et on valide avec Entrée ; une bonne réponse enchaîne
-// aussitôt, une mauvaise (ou Entrée sur un champ vide) montre la solution. L'ampoule donne une astuce de méthode au survol.
+// aussitôt, une mauvaise (ou la flèche « Je ne sais pas ») montre la solution ; Entrée sur un champ vide ne fait rien. L'ampoule donne une astuce de méthode au survol.
 // Le niveau se choisit en haut et est retenu d'une visite à l'autre.
 import { h } from '../../js/ui.js';
 import { cadre, filtres } from './cadre.js';
@@ -26,6 +26,8 @@ export async function render({ view, store, params }) {
     enterkeyhint: 'done', 'aria-label': 'Réponse' });
   const elSolution = h('p', { class: 'calcul-solution', 'aria-live': 'polite' });
   const suivant = h('button', { type: 'button', class: 'secondaire', hidden: true, onclick: () => suivante() }, 'Suivant');
+  const passer = h('button', { type: 'button', class: 'calcul-passer', title: 'Je ne sais pas', 'aria-label': 'Je ne sais pas',
+    onclick: () => { if (!revelee && !champ.readOnly) { montrerSolution(); champ.focus({ preventScroll: true }); } } }, icone('suivant', { taille: 22 }));
   const bulle = h('div', { class: 'tip-bulle', id: 'calcul-astuce', role: 'tooltip' });
   const compteur = h('span', { class: 'compteur', title: 'Bonnes réponses', 'aria-label': 'Bonnes réponses' }, '0 / 0');
 
@@ -56,7 +58,7 @@ export async function render({ view, store, params }) {
 
   function valider() {
     if (revelee) { suivante(); return; }
-    if (!champ.value.trim()) { montrerSolution(); return; }
+    if (!champ.value.trim()) return; // Entrée sur un champ vide ne fait rien (la flèche sert à passer)
     const r = lireReponse(champ.value);
     if (Number.isNaN(r)) return; // ni nombre ni vide : on laisse corriger
     if (r === courante.reponse) {
@@ -84,7 +86,7 @@ export async function render({ view, store, params }) {
     nom: 'calcul',
     outils: [filtres('/calcul', 'n', NIVEAUX, String(niveau)), compteur],
     corps: h('div', { class: 'calcul' },
-      h('div', { class: 'calcul-zone' }, astuce, elQuestion, champ, elSolution, suivant)),
+      h('div', { class: 'calcul-zone' }, astuce, elQuestion, h('div', { class: 'calcul-saisie' }, champ, passer), elSolution, suivant)),
   }));
   suivante();
   return () => clearTimeout(relance);

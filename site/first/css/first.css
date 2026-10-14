@@ -109,6 +109,8 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .retour-jeu p:first-child { color: inherit; }
 .retour-jeu .juste, .retour-jeu .rate { color: inherit; }
 .retour-jeu .juste { color: var(--ok); } .retour-jeu .rate { color: var(--erreur); }
+.retour-jeu p.juste { align-self: stretch; font-size: 1.6rem; font-weight: 700; color: #fff; background: color-mix(in srgb, var(--ok) 55%, var(--carte)); border: 1px solid var(--ok);
+  border-radius: 8px; padding: 6px 14px; }
 .retour-jeu button { margin-top: 4px; }
 .jeu.sans-carte .panneau { max-width: 680px; width: 100%; gap: 18px; }
 .jeu.sans-carte .consigne { font-size: clamp(1.4rem, 4.2vh, 2rem); }
@@ -162,7 +164,7 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .carte-svg .villes .ville .pt { fill: var(--lien); stroke: var(--fond); stroke-width: 1.5; transition: fill .15s; }
 .carte-svg .villes .ville.cliquable { cursor: pointer; }
 .carte-svg .villes .ville.cliquable:hover .pt, .carte-svg .villes .ville.survol .pt { fill: #fff; }
-.carte-svg .villes .ville.cible .pt { fill: var(--accent); stroke: var(--lien); stroke-width: 2.5; r: 9; animation: bat 1.1s ease-in-out infinite alternate; }
+.carte-svg .villes .ville.cible .pt { fill: #fff; stroke: var(--accent); stroke-width: 3; r: 12; animation: bat 1.1s ease-in-out infinite alternate; }
 .carte-svg .villes .ville.ok .pt { fill: var(--ok); stroke: var(--fond); r: 8; }
 .carte-svg .villes .ville.faux .pt { fill: var(--erreur); r: 8; }
 @keyframes bat { to { stroke-width: 1; } }
@@ -327,6 +329,11 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .calcul-reponse:focus { border-color: var(--accent); }
 .calcul-reponse.juste { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, var(--champ)); }
 .calcul-reponse.faux { border-color: var(--erreur); background: color-mix(in srgb, var(--erreur) 14%, var(--champ)); }
+.calcul-saisie { position: relative; font-size: clamp(1.6rem, 6vh, 2.4rem); width: min(11em, 100%); }
+.calcul-saisie .calcul-reponse { width: 100%; font-size: inherit; box-sizing: border-box; }
+.calcul-passer { position: absolute; left: calc(100% + 10px); top: 50%; transform: translateY(-50%); width: 38px; height: 38px; padding: 0; border-radius: 50%;
+  background: transparent; color: var(--discret); border: 1px solid var(--bord); }
+.calcul-passer:hover, .calcul-passer:focus-visible { background: rgba(255, 255, 255, .06); color: var(--lien); border-color: var(--lien); }
 .calcul-solution { min-height: 1.6em; font-size: 1.5rem; font-weight: 600; color: var(--ok); font-variant-numeric: tabular-nums; }
 .calcul-zone > button { min-height: 36px; }
 .calcul-zone > button[hidden] { display: block; visibility: hidden; }
