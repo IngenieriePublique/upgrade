@@ -119,8 +119,10 @@ def normaliser(s):
 
 
 def nettoyer_lien(url):
-    """Retire les paramètres de suivi (pk_campaign, utm_…) et le fragment."""
+    """Retire les paramètres de suivi (pk_campaign, utm_…) et le fragment ; passe en https (certains flux donnent des liens en http)."""
     p = urllib.parse.urlsplit(url.strip())
+    if p.scheme == "http":
+        p = p._replace(scheme="https", netloc=p.netloc.removesuffix(":80"))
     q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True) if not PARAMS_SUIVI.match(k)]
     return urllib.parse.urlunsplit((p.scheme, p.netloc.replace(":443", ""), p.path, urllib.parse.urlencode(q), ""))
 

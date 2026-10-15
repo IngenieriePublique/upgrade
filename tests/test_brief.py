@@ -51,6 +51,11 @@ def resultats(**par_source):
 
 
 class AnalyseTest(unittest.TestCase):
+    def test_liens_toujours_en_https_et_sans_suivi(self):
+        self.assertEqual(ff.nettoyer_lien("http://www.maire-info.com/article.asp?param=31173"), "https://www.maire-info.com/article.asp?param=31173")
+        self.assertEqual(ff.nettoyer_lien("http://www.senat.fr:80/rap/x.html#haut"), "https://www.senat.fr/rap/x.html")
+        self.assertEqual(ff.nettoyer_lien("https://exemple.fr/a?utm_source=x&id=2"), "https://exemple.fr/a?id=2")
+
     def test_rss(self):
         e = ff.parse_feed(RSS)
         self.assertEqual(len(e), 3)
