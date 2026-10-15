@@ -34,7 +34,7 @@ REVU = "2026-10-14"
 
 LARGEUR = 1000.0   # largeur du viewBox de chaque carte
 RAYON = 5.0        # rayon (unités du viewBox) de la pastille d'un pays trop petit pour être cliqué
-TOLERANCE = 0.45   # simplification des tracés (unités du viewBox)
+TOLERANCE = 0.45   # simplification des traces (unités du viewBox)
 
 # Continents : centre de la projection (lon, lat) et fenêtre affichée (lon min, lat min, lon max, lat max).
 CONTINENTS = [
@@ -412,6 +412,45 @@ def construire_monde_om(ne110, prefectures):
     return {"viewBox": f"0 0 {LARGEUR:.0f} {hauteur:.1f}", "pays": pays, "marqueurs": marqueurs}
 
 
+def construire_monde_mini(ne110, items):
+    """Planisphère minuscule (équirectangulaire) : un tracé par continent du jeu, pour situer le continent joué."""
+    largeur = 360.0
+    k = math.cos(math.radians(15))
+    fenetre = (-180, -56, 180, 84)  # lon min, lat min, lon max, lat max
+    ech = largeur / ((fenetre[2] - fenetre[0]) * k)
+    hauteur = (fenetre[3] - fenetre[1]) * ech
+    proj = equirectangulaire(15)
+    transf = (fenetre[0] * k, fenetre[3], ech)
+    cadre = (-1, -1, largeur + 1, hauteur + 1)
+    traces = {}
+    for code, e in ne110.items():
+        if e["props"]["CONTINENT"] == "Antarctica":
+            continue
+        if code in items:
+            cont = items[code]["continent"]
+        else:
+            try:
+                cont = continent_de(code, e["props"])
+            except ValueError:
+                continue
+        polys = projeter_polygones(e["geoms"], proj, transf, cadre)
+        simples = simplifier(polys, 0.35) if polys else []
+        if simples:
+            traces.setdefault(cont, []).append((code, simples))
+    continents = {}
+    for cont in CODES_CONTINENTS:
+        morceaux = traces.get(cont, [])
+        # l'étendue d'un continent est celle de ses capitales (les îles absentes du fichier à 110 m comptent aussi)
+        pts = [proj(e["lon"], e["lat"]) for e in items.values() if e["continent"] == cont]
+        xs = [(x - transf[0]) * ech for x, _ in pts]
+        ys = [(transf[1] - y) * ech for _, y in pts]
+        continents[cont] = {"d": "".join(g.chemin_svg(s) for _, s in morceaux)}
+        if max(max(xs) - min(xs), max(ys) - min(ys)) < 30:  # trop petit pour se voir à cette échelle (Caraïbes) : un cercle le repère
+            continents[cont]["repere"] = [round(sum(xs) / len(xs), 1), round(sum(ys) / len(ys), 1)]
+    reste = [s for cont, morceaux in traces.items() if cont not in CODES_CONTINENTS for _, s in morceaux]
+    return {"viewBox": f"0 0 {largeur:.0f} {hauteur:.1f}", "continents": continents, "autres": "".join(g.chemin_svg(s) for s in reste)}
+
+
 def construire():
     src = json.loads(SOURCE.read_text(encoding="utf-8"))
     items = {p["id"]: p for p in src["pays"]}
@@ -429,7 +468,9 @@ def construire():
         nb = sum(1 for e in items.values() if e["continent"] == cont["code"])
         print(f"{cont['code']} : {nb} pays, {(GEO / ('monde-' + cont['code'] + '.json')).stat().st_size // 1024} Ko")
     prefs = json.loads(PREFECTURES.read_text(encoding="utf-8"))["prefectures"]
-    ecrire_json(GEO / "monde-om.json", construire_monde_om(charger_ne("ne_110m_admin_0_countries.geojson"), prefs), compact=True)
+    ne110 = charger_ne("ne_110m_admin_0_countries.geojson")
+    ecrire_json(GEO / "monde-om.json", construire_monde_om(ne110, prefs), compact=True)
+    ecrire_json(GEO / "monde-mini.json", construire_monde_mini(ne110, items), compact=True)
     sortie = {"revu": src["revu"], "sources": src["sources"], "regle": src["regle"],
               "continents": [{"code": c["code"], "nom": c["nom"]} for c in CONTINENTS], "pays": publies}
     ecrire_json(CIBLE, sortie)

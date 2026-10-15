@@ -8,11 +8,22 @@ import { noterReponse } from '../../js/territoires.js';
 import { cadre } from './cadre.js';
 import { iconeDetaillee } from './icones.js';
 import { bornes, carteMonde, cartePays, carteVilles, largeurVue, legendesEncarts, optionsCarte, poserRevision } from './carte-first.js';
-import { FORMATS, TITRES_MODES, continent, continents, creerQuestionFirst, groupe, groupes, lignesEtude, serie } from './formats.js';
+import { FORMATS, OPTIONS_QUESTIONS, TITRES_MODES, continent, continents, creerQuestionFirst, groupe, groupes, lignesEtude, optionsDuFormat, serie } from './formats.js';
+import { texteAvecDrapeau, drapeau } from './drapeaux.js';
+import { choisirCoin, hauteurMini, miniMonde, poserRevisionPays, vueEnTexte, vueEtendue } from './revision-pays.js';
 
 const ICONES_FORMAT = { regions: 'regions', departements: 'departements', villes: 'villes', pays: 'pays' };
 
 // Adresse de l'écran de choix (région, continent) d'un format ; sans choix intermédiaire, le menu des formats.
+// Familles de questions activées ou non (capitales, préfectures, numéros de département) : un réglage de confort, gardé dans ce navigateur.
+const CLE_OPTIONS = 'first.territoires.options';
+function lireOptions() {
+  try { return JSON.parse(localStorage.getItem(CLE_OPTIONS)) ?? {}; } catch { return {}; }
+}
+function ecrireOptions(options) {
+  try { localStorage.setItem(CLE_OPTIONS, JSON.stringify(options)); } catch { /* stockage indisponible : le réglage ne dure que pour la séance */ }
+}
+
 const retourFormat = (format) => (format === 'departements' || format === 'pays' ? `#/territoires?f=${format}` : '#/territoires');
 
 export async function render({ view, store, params }) {
@@ -40,8 +51,9 @@ export async function render({ view, store, params }) {
   if (format === 'pays' && !g) { await choixContinent(zone, monde); return undefined; }
   // Cartes supplémentaires : un continent pour les pays ; le monde centré sur les territoires français pour l'outre-mer.
   const geoPays = format === 'pays' ? await loadData(`geo/monde-${g.code}.json`) : null;
+  const geoMini = format === 'pays' ? await loadData('geo/monde-mini.json') : null;
   const geoOm = format === 'regions' || (format === 'departements' && g.outreMer) ? await loadData('geo/monde-om.json') : null;
-  return jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes, prefectures, format, g });
+  return jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm, villes, prefectures, format, g });
 }
 
 // ---------- choix du format ----------
@@ -94,8 +106,9 @@ async function choixContinent(zone, monde) {
 
 // ---------- révision puis jeu ----------
 
-async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes, prefectures, format, g }) {
+async function jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm, villes, prefectures, format, g }) {
   const states = await store.states();
+  const options = lireOptions();
   zone.classList.toggle('pays-jeu', format === 'pays');
   const lignes = lignesEtude(format, data, villes, g);
   const titreFormat = format === 'departements' ? `Départements · ${g.nom}` : format === 'pays' ? `Pays · ${g.nom}` : FORMATS[format].titre;
@@ -107,6 +120,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
   let bilan = { reponses: 0, justes: 0 };
   let courant = null;
   let verrou = false;
+  let enRevision = false;
   const reposees = new Set();
 
   // Carte de la question ou de la révision, selon le format.
@@ -131,13 +145,6 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
       });
       return poserRevision(carte, { zones, pins, taille, evite: legendesEncarts(geo) });
     }
-    if (format === 'pays') {
-      // Nom du pays au centre de la carte, pin et nom de la capitale ; un pays trop petit reçoit un seul nom, pays et capitale.
-      const t = vb / 64;
-      const zones = g.pays.filter((p) => !p.petit).map((p) => ({ id: p.id, x: p.cx, y: p.cy, texte: p.nom }));
-      const pins = g.pays.map((p) => ({ id: p.id, x: p.x, y: p.y, nom: p.petit && p.nom !== p.capitale ? `${p.nom} (${p.capitale})` : p.capitale }));
-      return poserRevision(carte, { zones, pins, taille: t });
-    }
     const taille = vb / 44;
     if (g.outreMer) {
       return poserRevision(carte, { pins: g.deps.map((c) => ({ id: c, x: prefectures[c].x, y: prefectures[c].y, nom: prefectures[c].nom })), taille, evite: legendesEncarts(geo) });
@@ -149,8 +156,49 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
     return poserRevision(carte, { zones, pins, taille });
   }
 
+  // Cases à cocher : familles de questions du format (capitales, préfectures, numéros de département) ; le réglage vaut pour les séries suivantes.
+  function puces() {
+    const cles = optionsDuFormat(format);
+    if (!cles.length) return null;
+    return h('div', { class: 'options-questions' }, h('span', { class: 'discret' }, 'Questions sur'),
+      cles.map((cle) => h('label', { class: 'option' },
+        h('input', { type: 'checkbox', checked: options[cle] !== false, onchange: (e) => { options[cle] = e.target.checked; ecrireOptions(options); } }),
+        h('span', null, OPTIONS_QUESTIONS[cle].titre))));
+  }
+
+  // ----- écran de révision d'un continent : la carte seule, en grand, le titre au centre en haut, la mini-carte du monde dans un coin libre
+  function etudePays() {
+    courant = null;
+    enRevision = true;
+    compteur.textContent = '';
+    zone.classList.remove('sans-carte', 'menu');
+    zone.classList.add('revision-pays');
+    const corps = h('div', { class: 'revision-carte' });
+    fill(zone,
+      h('div', { class: 'revision-entete' },
+        h('div', { class: 'revision-gauche' }, puces()),
+        h('h2', { class: 'revision-titre' }, g.nom),
+        h('div', { class: 'revision-droite' },
+          h('a', { class: 'bouton secondaire', href: retourFormat(format) }, 'Changer'),
+          h('button', { id: 'commencer', onclick: nouvelleSerie }, 'Commencer', h('kbd', null, 'Entrée')))),
+      corps);
+    document.getElementById('commencer')?.focus();
+    // La carte est agrandie, par de la mer autour, à la forme exacte de la zone d'affichage : elle la remplit, et la marge sert à la mini-carte.
+    const zoneCarte = corps.getBoundingClientRect();
+    const vue = vueEtendue(geoPays.viewBox, zoneCarte.width, zoneCarte.height);
+    const carte = cartePays(geoPays, actifsPays, nomsPays, { vue: vueEnTexte(vue) });
+    corps.append(carte.el);
+    const echelle = zoneCarte.width > 0 ? Math.min(zoneCarte.width / vue.w, zoneCarte.height / vue.h) : 0.7;
+    const marge = (vue.w - Number(geoPays.viewBox.split(' ')[2])) / 2;
+    const largeurMini = marge >= 220 ? Math.min(300, marge - 24) : 200;
+    const coin = choisirCoin(geoPays, vue, largeurMini, hauteurMini(geoMini, largeurMini), g.pays.flatMap((p) => [{ x: p.cx, y: p.cy }, { x: p.x, y: p.y }]));
+    carte.el.append(miniMonde(geoMini, g.code, { x: coin.x0, y: coin.y0, w: largeurMini }));
+    poserRevisionPays(carte.el, geoPays, g.pays, { vue, echelle, evite: [coin] });
+  }
+
   // ----- écran de révision : noms et préfectures avant de jouer
   function etude() {
+    if (format === 'pays') { etudePays(); return; }
     courant = null;
     compteur.textContent = '';
     zone.classList.remove('sans-carte', 'menu');
@@ -171,8 +219,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
       cible?.addEventListener('pointerleave', () => allume(false));
       return li;
     });
-    const enTete = { regions: 'Régions et préfectures de région', departements: `Départements et préfectures · ${g?.nom ?? ''}`, villes: 'Principales villes de France',
-      pays: `Pays et capitales · ${g?.nom ?? ''}` }[format];
+    const enTete = { regions: 'Régions et préfectures de région', departements: `Départements et préfectures · ${g?.nom ?? ''}`, villes: 'Principales villes de France' }[format];
     fill(zone,
       h('div', { class: 'jeu-carte' }, carte.el),
       h('div', { class: 'panneau etude' },
@@ -181,6 +228,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
         format === 'villes' ? h('p', { class: 'discret legende-etude' }, 'La taille des pastilles suit la population (Wikidata).') : null,
         h('ul', { class: `liste-etude${lignes.length > 24 ? ' trois compacte' : monde && lignes.length > 6 ? ' deux compacte' : lignes.length > 12 ? ' deux' : ''}` }, items),
         monde ? h('div', { class: 'monde-mini' }, h('p', { class: 'etiquette' }, 'Position dans le monde'), monde.el) : null,
+        puces(),
         h('div', { class: 'rangee' },
           h('button', { id: 'commencer', onclick: nouvelleSerie }, 'Commencer', h('kbd', null, 'Entrée')),
           h('a', { class: 'bouton secondaire', href: retourFormat(format) }, 'Changer'))));
@@ -188,7 +236,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
   }
 
   function nouvelleSerie() {
-    file = serie(format, data, villes, g, states);
+    file = serie(format, data, villes, g, states, Math.random, options);
     total = file.length;
     bilan = { reponses: 0, justes: 0 };
     reposees.clear();
@@ -197,7 +245,9 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
 
   function fin() {
     courant = null;
+    enRevision = false;
     compteur.textContent = '';
+    zone.classList.remove('revision-pays');
     zone.classList.add('sans-carte');
     fill(zone, h('div', { class: 'panneau centre' },
       h('p', { class: 'etiquette' }, titreFormat),
@@ -212,6 +262,8 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
   function suivante() {
     if (!file.length) { fin(); return; }
     verrou = false;
+    enRevision = false;
+    zone.classList.remove('revision-pays');
     const item = file.shift();
     const q = creerQuestionFirst(item, data, villes, Math.random, g?.pays);
     const debut = Date.now();
@@ -234,7 +286,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
       else if (!reposees.has(item.id)) { reposees.add(item.id); file.push({ ...item }); }
       fill(retour,
         h('p', { class: juste ? 'juste' : 'rate' }, juste ? 'Juste.' : 'Pas tout à fait.'),
-        h('p', null, q.explication),
+        h('p', null, q.drapeau ? texteAvecDrapeau(q.explication, q.nomPays, q.drapeau) : q.explication),
         h('button', { id: 'suivant', onclick: suivante }, file.length ? 'Suivante' : 'Terminer', h('kbd', null, 'Entrée')));
       document.getElementById('suivant')?.focus();
     }
@@ -257,7 +309,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
           reponses.querySelectorAll('button').forEach((x) => { x.disabled = true; if (x.dataset.valeur === q.bonne) x.classList.add('ok'); });
           if (carte && q.surbrillance) { carte.retirer('cible'); carte.marquer(q.surbrillance, 'ok'); carte.nommer?.(q.surbrillance); }
           repondre(juste);
-        } }, h('span', null, c.libelle), h('kbd', null, String(i + 1)));
+        } }, h('span', null, c.libelle, c.drapeau ? ['\u00a0', drapeau(c.drapeau)] : null), h('kbd', null, String(i + 1)));
         reponses.append(b);
       });
     } else {
@@ -274,7 +326,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
       h('div', { class: `panneau${carte ? '' : ' centre'}` },
         h('div', { class: 'progression', 'aria-hidden': 'true' }, h('i', { style: `width:${Math.max(0, Math.round(100 * (total - file.length - 1) / total))}%` })),
         h('p', { class: 'etiquette' }, `${titreFormat} · ${TITRES_MODES[item.mode]}`),
-        h('p', { class: 'consigne' }, q.consigne),
+        h('p', { class: 'consigne' }, q.drapeauConsigne ? texteAvecDrapeau(q.consigne, q.nomPays, q.drapeauConsigne) : q.consigne),
         reponses,
         retour));
     zone.classList.toggle('sans-carte', !carte);
@@ -291,6 +343,17 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoOm, villes,
     }
   }
   document.addEventListener('keydown', surTouche);
+  // La carte de révision d'un continent épouse la forme de la fenêtre : on la recalcule quand celle-ci change.
+  let minuteur = null;
+  const surRedimension = () => {
+    clearTimeout(minuteur);
+    minuteur = setTimeout(() => { if (enRevision) etude(); }, 250);
+  };
+  window.addEventListener('resize', surRedimension);
   etude();
-  return () => document.removeEventListener('keydown', surTouche);
+  return () => {
+    clearTimeout(minuteur);
+    document.removeEventListener('keydown', surTouche);
+    window.removeEventListener('resize', surRedimension);
+  };
 }

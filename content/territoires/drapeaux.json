@@ -1,0 +1,781 @@
+{
+ "revu": "2026-10-14",
+ "source": {
+  "titre": "Wikidata (P41, image du drapeau) et Wikimedia Commons",
+  "url": "https://www.wikidata.org/wiki/Property:P41"
+ },
+ "pays": {
+  "AD": {
+   "fichier": "Flag of Andorra.svg",
+   "licence": "Public domain"
+  },
+  "AE": {
+   "fichier": "Flag of the United Arab Emirates.svg",
+   "licence": "Public domain"
+  },
+  "AF": {
+   "fichier": "Flag of the Taliban.svg",
+   "licence": "Public domain"
+  },
+  "AG": {
+   "fichier": "Flag of Antigua and Barbuda.svg",
+   "licence": "Public domain"
+  },
+  "AL": {
+   "fichier": "Flag of Albania.svg",
+   "licence": "Public domain"
+  },
+  "AM": {
+   "fichier": "Flag of Armenia.svg",
+   "licence": "Public domain"
+  },
+  "AO": {
+   "fichier": "Flag of Angola.svg",
+   "licence": "Public domain"
+  },
+  "AR": {
+   "fichier": "Flag of Argentina.svg",
+   "licence": "Public domain"
+  },
+  "AT": {
+   "fichier": "Flag of Austria.svg",
+   "licence": "Public domain"
+  },
+  "AU": {
+   "fichier": "Flag of Australia (converted).svg",
+   "licence": "Public domain"
+  },
+  "AZ": {
+   "fichier": "Flag of Azerbaijan.svg",
+   "licence": "Public domain"
+  },
+  "BA": {
+   "fichier": "Flag of Bosnia and Herzegovina.svg",
+   "licence": "Public domain"
+  },
+  "BB": {
+   "fichier": "Flag of Barbados.svg",
+   "licence": "Public domain"
+  },
+  "BD": {
+   "fichier": "Flag of Bangladesh.svg",
+   "licence": "Public domain"
+  },
+  "BE": {
+   "fichier": "Flag of Belgium.svg",
+   "licence": "Public domain"
+  },
+  "BF": {
+   "fichier": "Flag of Burkina Faso.svg",
+   "licence": "Public domain"
+  },
+  "BG": {
+   "fichier": "Flag of Bulgaria.svg",
+   "licence": "Public domain"
+  },
+  "BH": {
+   "fichier": "Flag of Bahrain.svg",
+   "licence": "Public domain"
+  },
+  "BI": {
+   "fichier": "Flag of Burundi.svg",
+   "licence": "Public domain"
+  },
+  "BJ": {
+   "fichier": "Flag of Benin.svg",
+   "licence": "Public domain"
+  },
+  "BN": {
+   "fichier": "Flag of Brunei.svg",
+   "licence": "Public domain"
+  },
+  "BO": {
+   "fichier": "Flag of Bolivia.svg",
+   "licence": "Public domain"
+  },
+  "BR": {
+   "fichier": "Flag of Brazil.svg",
+   "licence": "Public domain"
+  },
+  "BS": {
+   "fichier": "Flag of the Bahamas.svg",
+   "licence": "Public domain"
+  },
+  "BT": {
+   "fichier": "Flag of Bhutan.svg",
+   "licence": "Public domain"
+  },
+  "BW": {
+   "fichier": "Flag of Botswana.svg",
+   "licence": "Public domain"
+  },
+  "BY": {
+   "fichier": "Flag of Belarus.svg",
+   "licence": "Public domain"
+  },
+  "BZ": {
+   "fichier": "Flag of Belize.svg",
+   "licence": "Public domain"
+  },
+  "CA": {
+   "fichier": "Flag of Canada (Pantone).svg",
+   "licence": "Public domain"
+  },
+  "CD": {
+   "fichier": "Flag of the Democratic Republic of the Congo.svg",
+   "licence": "Public domain"
+  },
+  "CF": {
+   "fichier": "Flag of the Central African Republic.svg",
+   "licence": "Public domain"
+  },
+  "CG": {
+   "fichier": "Flag of the Republic of the Congo.svg",
+   "licence": "Public domain"
+  },
+  "CH": {
+   "fichier": "Flag of Switzerland.svg",
+   "licence": "Public domain"
+  },
+  "CI": {
+   "fichier": "Flag of Côte d'Ivoire.svg",
+   "licence": "Public domain"
+  },
+  "CL": {
+   "fichier": "Flag of Chile.svg",
+   "licence": "Public domain"
+  },
+  "CM": {
+   "fichier": "Flag of Cameroon.svg",
+   "licence": "Public domain"
+  },
+  "CN": {
+   "fichier": "Flag of the People's Republic of China.svg",
+   "licence": "Public domain"
+  },
+  "CO": {
+   "fichier": "Flag of Colombia.svg",
+   "licence": "Public domain"
+  },
+  "CR": {
+   "fichier": "Flag of Costa Rica.svg",
+   "licence": "Public domain"
+  },
+  "CU": {
+   "fichier": "Flag of Cuba.svg",
+   "licence": "Public domain"
+  },
+  "CV": {
+   "fichier": "Flag of Cape Verde (10-17).svg",
+   "licence": "Public domain"
+  },
+  "CY": {
+   "fichier": "Flag of Cyprus.svg",
+   "licence": "Public domain"
+  },
+  "CZ": {
+   "fichier": "Flag of the Czech Republic.svg",
+   "licence": "Public domain"
+  },
+  "DE": {
+   "fichier": "Flag of Germany.svg",
+   "licence": "Public domain"
+  },
+  "DJ": {
+   "fichier": "Flag of Djibouti.svg",
+   "licence": "Public domain"
+  },
+  "DK": {
+   "fichier": "Flag of Denmark.svg",
+   "licence": "Public domain"
+  },
+  "DM": {
+   "fichier": "Flag of Dominica.svg",
+   "licence": "Public domain"
+  },
+  "DO": {
+   "fichier": "Flag of the Dominican Republic.svg",
+   "licence": "Public domain"
+  },
+  "DZ": {
+   "fichier": "Flag of Algeria.svg",
+   "licence": "Public domain"
+  },
+  "EC": {
+   "fichier": "Flag of Ecuador.svg",
+   "licence": "Public domain"
+  },
+  "EE": {
+   "fichier": "Flag of Estonia.svg",
+   "licence": "Public domain"
+  },
+  "EG": {
+   "fichier": "Flag of Egypt.svg",
+   "licence": "Public domain"
+  },
+  "ER": {
+   "fichier": "Flag of Eritrea.svg",
+   "licence": "Public domain"
+  },
+  "ES": {
+   "fichier": "Flag of Spain.svg",
+   "licence": "Public domain"
+  },
+  "ET": {
+   "fichier": "Flag of Ethiopia.svg",
+   "licence": "Public domain"
+  },
+  "FI": {
+   "fichier": "Flag of Finland.svg",
+   "licence": "Public domain"
+  },
+  "FJ": {
+   "fichier": "Flag of Fiji.svg",
+   "licence": "Public domain"
+  },
+  "FM": {
+   "fichier": "Flag of the Federated States of Micronesia.svg",
+   "licence": "Public domain"
+  },
+  "FR": {
+   "fichier": "Flag of France.svg",
+   "licence": "Public domain"
+  },
+  "GA": {
+   "fichier": "Flag of Gabon.svg",
+   "licence": "Public domain"
+  },
+  "GB": {
+   "fichier": "Flag of the United Kingdom (3-5).svg",
+   "licence": "Public domain"
+  },
+  "GD": {
+   "fichier": "Flag of Grenada.svg",
+   "licence": "Public domain"
+  },
+  "GE": {
+   "fichier": "Flag of Georgia.svg",
+   "licence": "Public domain"
+  },
+  "GH": {
+   "fichier": "Flag of Ghana.svg",
+   "licence": "Public domain"
+  },
+  "GM": {
+   "fichier": "Flag of The Gambia.svg",
+   "licence": "Public domain"
+  },
+  "GN": {
+   "fichier": "Flag of Guinea.svg",
+   "licence": "Public domain"
+  },
+  "GQ": {
+   "fichier": "Flag of Equatorial Guinea.svg",
+   "licence": "Public domain"
+  },
+  "GR": {
+   "fichier": "Flag of Greece.svg",
+   "licence": "Public domain"
+  },
+  "GT": {
+   "fichier": "Flag of Guatemala.svg",
+   "licence": "Public domain"
+  },
+  "GW": {
+   "fichier": "Flag of Guinea-Bissau.svg",
+   "licence": "Public domain"
+  },
+  "GY": {
+   "fichier": "Flag of Guyana.svg",
+   "licence": "Public domain"
+  },
+  "HN": {
+   "fichier": "Flag of Honduras (1949–2022, 2026–present).svg",
+   "licence": "Public domain"
+  },
+  "HR": {
+   "fichier": "Flag of Croatia.svg",
+   "licence": "Public domain"
+  },
+  "HT": {
+   "fichier": "Flag of Haiti.svg",
+   "licence": "Public domain"
+  },
+  "HU": {
+   "fichier": "Flag of Hungary.svg",
+   "licence": "Public domain"
+  },
+  "ID": {
+   "fichier": "Flag of Indonesia.svg",
+   "licence": "Public domain"
+  },
+  "IE": {
+   "fichier": "Flag of Ireland.svg",
+   "licence": "Public domain"
+  },
+  "IL": {
+   "fichier": "Flag of Israel.svg",
+   "licence": "Public domain"
+  },
+  "IN": {
+   "fichier": "Flag of India.svg",
+   "licence": "Public domain"
+  },
+  "IQ": {
+   "fichier": "Flag of Iraq.svg",
+   "licence": "Public domain"
+  },
+  "IR": {
+   "fichier": "Flag of Iran.svg",
+   "licence": "Public domain"
+  },
+  "IS": {
+   "fichier": "Flag of Iceland.svg",
+   "licence": "Public domain"
+  },
+  "IT": {
+   "fichier": "Flag of Italy.svg",
+   "licence": "Public domain"
+  },
+  "JM": {
+   "fichier": "Flag of Jamaica.svg",
+   "licence": "Public domain"
+  },
+  "JO": {
+   "fichier": "Flag of Jordan.svg",
+   "licence": "Public domain"
+  },
+  "JP": {
+   "fichier": "Flag of Japan.svg",
+   "licence": "Public domain"
+  },
+  "KE": {
+   "fichier": "Flag of Kenya.svg",
+   "licence": "Public domain"
+  },
+  "KG": {
+   "fichier": "Flag of Kyrgyzstan.svg",
+   "licence": "Public domain"
+  },
+  "KH": {
+   "fichier": "Flag of Cambodia.svg",
+   "licence": "Public domain"
+  },
+  "KI": {
+   "fichier": "Flag of Kiribati.svg",
+   "licence": "Public domain"
+  },
+  "KM": {
+   "fichier": "Flag of the Comoros.svg",
+   "licence": "Public domain"
+  },
+  "KN": {
+   "fichier": "Flag of Saint Kitts and Nevis.svg",
+   "licence": "Public domain"
+  },
+  "KP": {
+   "fichier": "Flag of North Korea.svg",
+   "licence": "Public domain"
+  },
+  "KR": {
+   "fichier": "Flag of South Korea.svg",
+   "licence": "Public domain"
+  },
+  "KW": {
+   "fichier": "Flag of Kuwait.svg",
+   "licence": "Public domain"
+  },
+  "KZ": {
+   "fichier": "Flag of Kazakhstan.svg",
+   "licence": "Public domain"
+  },
+  "LA": {
+   "fichier": "Flag of Laos.svg",
+   "licence": "Public domain"
+  },
+  "LB": {
+   "fichier": "Flag of Lebanon.svg",
+   "licence": "Public domain"
+  },
+  "LC": {
+   "fichier": "Flag of Saint Lucia.svg",
+   "licence": "Public domain"
+  },
+  "LI": {
+   "fichier": "Flag of Liechtenstein.svg",
+   "licence": "Public domain"
+  },
+  "LK": {
+   "fichier": "Flag of Sri Lanka.svg",
+   "licence": "Public domain"
+  },
+  "LR": {
+   "fichier": "Flag of Liberia.svg",
+   "licence": "Public domain"
+  },
+  "LS": {
+   "fichier": "Flag of Lesotho.svg",
+   "licence": "Public domain"
+  },
+  "LT": {
+   "fichier": "Flag of Lithuania.svg",
+   "licence": "Public domain"
+  },
+  "LU": {
+   "fichier": "Flag of Luxembourg.svg",
+   "licence": "Public domain"
+  },
+  "LV": {
+   "fichier": "Flag of Latvia.svg",
+   "licence": "Public domain"
+  },
+  "LY": {
+   "fichier": "Flag of Libya.svg",
+   "licence": "Public domain"
+  },
+  "MA": {
+   "fichier": "Flag of Morocco.svg",
+   "licence": "Public domain"
+  },
+  "MC": {
+   "fichier": "Flag of Monaco.svg",
+   "licence": "Public domain"
+  },
+  "MD": {
+   "fichier": "Flag of Moldova.svg",
+   "licence": "Public domain"
+  },
+  "ME": {
+   "fichier": "Flag of Montenegro.svg",
+   "licence": "Public domain"
+  },
+  "MG": {
+   "fichier": "Flag of Madagascar.svg",
+   "licence": "Public domain"
+  },
+  "MH": {
+   "fichier": "Flag of the Marshall Islands.svg",
+   "licence": "Public domain"
+  },
+  "MK": {
+   "fichier": "Flag of North Macedonia.svg",
+   "licence": "Public domain"
+  },
+  "ML": {
+   "fichier": "Flag of Mali.svg",
+   "licence": "Public domain"
+  },
+  "MM": {
+   "fichier": "Flag of Myanmar.svg",
+   "licence": "Public domain"
+  },
+  "MN": {
+   "fichier": "Flag of Mongolia.svg",
+   "licence": "Public domain"
+  },
+  "MR": {
+   "fichier": "Flag of Mauritania.svg",
+   "licence": "Public domain"
+  },
+  "MT": {
+   "fichier": "Flag of Malta.svg",
+   "licence": "Public domain"
+  },
+  "MU": {
+   "fichier": "Flag of Mauritius.svg",
+   "licence": "Public domain"
+  },
+  "MV": {
+   "fichier": "Flag of Maldives.svg",
+   "licence": "Public domain"
+  },
+  "MW": {
+   "fichier": "Flag of Malawi.svg",
+   "licence": "Public domain"
+  },
+  "MX": {
+   "fichier": "Flag of Mexico.svg",
+   "licence": "Public domain"
+  },
+  "MY": {
+   "fichier": "Flag of Malaysia.svg",
+   "licence": "Public domain"
+  },
+  "MZ": {
+   "fichier": "Flag of Mozambique.svg",
+   "licence": "Public domain"
+  },
+  "NA": {
+   "fichier": "Flag of Namibia.svg",
+   "licence": "Public domain"
+  },
+  "NE": {
+   "fichier": "Flag of Niger.svg",
+   "licence": "Public domain"
+  },
+  "NG": {
+   "fichier": "Flag of Nigeria.svg",
+   "licence": "Public domain"
+  },
+  "NI": {
+   "fichier": "Flag of Nicaragua.svg",
+   "licence": "Public domain"
+  },
+  "NL": {
+   "fichier": "Flag of the Netherlands.svg",
+   "licence": "Public domain"
+  },
+  "NO": {
+   "fichier": "Flag of Norway.svg",
+   "licence": "Public domain"
+  },
+  "NP": {
+   "fichier": "Flag of Nepal.svg",
+   "licence": "Public domain"
+  },
+  "NR": {
+   "fichier": "Flag of Nauru.svg",
+   "licence": "Public domain"
+  },
+  "NZ": {
+   "fichier": "Flag of New Zealand.svg",
+   "licence": "Public domain"
+  },
+  "OM": {
+   "fichier": "Flag of Oman.svg",
+   "licence": "OGL-om 1.0"
+  },
+  "PA": {
+   "fichier": "Flag of Panama.svg",
+   "licence": "Public domain"
+  },
+  "PE": {
+   "fichier": "Flag of Peru.svg",
+   "licence": "Public domain"
+  },
+  "PG": {
+   "fichier": "Flag of Papua New Guinea.svg",
+   "licence": "Public domain"
+  },
+  "PH": {
+   "fichier": "Flag of the Philippines.svg",
+   "licence": "Public domain"
+  },
+  "PK": {
+   "fichier": "Flag of Pakistan.svg",
+   "licence": "Public domain"
+  },
+  "PL": {
+   "fichier": "Flag of Poland.svg",
+   "licence": "Public domain"
+  },
+  "PT": {
+   "fichier": "Flag of Portugal (official).svg",
+   "licence": "Public domain"
+  },
+  "PW": {
+   "fichier": "Flag of Palau.svg",
+   "licence": "Public domain"
+  },
+  "PY": {
+   "fichier": "Flag of Paraguay.svg",
+   "licence": "Public domain"
+  },
+  "QA": {
+   "fichier": "Flag of Qatar.svg",
+   "licence": "Public domain"
+  },
+  "RO": {
+   "fichier": "Flag of Romania.svg",
+   "licence": "Public domain"
+  },
+  "RS": {
+   "fichier": "Flag of Serbia.svg",
+   "licence": "Public domain"
+  },
+  "RU": {
+   "fichier": "Flag of Russia.svg",
+   "licence": "Public domain"
+  },
+  "RW": {
+   "fichier": "Flag of Rwanda.svg",
+   "licence": "Public domain"
+  },
+  "SA": {
+   "fichier": "Flag of Saudi Arabia.svg",
+   "licence": "Public domain"
+  },
+  "SB": {
+   "fichier": "Flag of the Solomon Islands.svg",
+   "licence": "Public domain"
+  },
+  "SC": {
+   "fichier": "Flag of Seychelles.svg",
+   "licence": "Public domain"
+  },
+  "SD": {
+   "fichier": "Flag of Sudan.svg",
+   "licence": "Public domain"
+  },
+  "SE": {
+   "fichier": "Flag of Sweden.svg",
+   "licence": "Public domain"
+  },
+  "SG": {
+   "fichier": "Flag of Singapore.svg",
+   "licence": "Public domain"
+  },
+  "SI": {
+   "fichier": "Flag of Slovenia.svg",
+   "licence": "Public domain"
+  },
+  "SK": {
+   "fichier": "Flag of Slovakia.svg",
+   "licence": "Public domain"
+  },
+  "SL": {
+   "fichier": "Flag of Sierra Leone.svg",
+   "licence": "Public domain"
+  },
+  "SM": {
+   "fichier": "Flag of San Marino.svg",
+   "licence": "Public domain"
+  },
+  "SN": {
+   "fichier": "Flag of Senegal.svg",
+   "licence": "Public domain"
+  },
+  "SO": {
+   "fichier": "Flag of Somalia.svg",
+   "licence": "Public domain"
+  },
+  "SR": {
+   "fichier": "Flag of Suriname.svg",
+   "licence": "Public domain"
+  },
+  "SS": {
+   "fichier": "Flag of South Sudan.svg",
+   "licence": "Public domain"
+  },
+  "ST": {
+   "fichier": "Flag of São Tomé and Príncipe.svg",
+   "licence": "Public domain"
+  },
+  "SV": {
+   "fichier": "Flag of El Salvador.svg",
+   "licence": "Public domain"
+  },
+  "SY": {
+   "fichier": "Flag of Syria (2025-).svg",
+   "licence": "Public domain"
+  },
+  "SZ": {
+   "fichier": "Flag of Eswatini.svg",
+   "licence": "Public domain"
+  },
+  "TD": {
+   "fichier": "Flag of Chad.svg",
+   "licence": "Public domain"
+  },
+  "TG": {
+   "fichier": "Flag of Togo (3-2).svg",
+   "licence": "Public domain"
+  },
+  "TH": {
+   "fichier": "Flag of Thailand.svg",
+   "licence": "Public domain"
+  },
+  "TJ": {
+   "fichier": "Flag of Tajikistan.svg",
+   "licence": "Public domain"
+  },
+  "TL": {
+   "fichier": "Flag of East Timor.svg",
+   "licence": "Public domain"
+  },
+  "TM": {
+   "fichier": "Flag of Turkmenistan.svg",
+   "licence": "Public domain"
+  },
+  "TN": {
+   "fichier": "Flag of Tunisia.svg",
+   "licence": "Public domain"
+  },
+  "TO": {
+   "fichier": "Flag of Tonga.svg",
+   "licence": "Public domain"
+  },
+  "TR": {
+   "fichier": "Flag of Turkey.svg",
+   "licence": "Public domain"
+  },
+  "TT": {
+   "fichier": "Flag of Trinidad and Tobago.svg",
+   "licence": "Public domain"
+  },
+  "TV": {
+   "fichier": "Flag of Tuvalu.svg",
+   "licence": "Public domain"
+  },
+  "TZ": {
+   "fichier": "Flag of Tanzania.svg",
+   "licence": "Public domain"
+  },
+  "UA": {
+   "fichier": "Flag of Ukraine.svg",
+   "licence": "Public domain"
+  },
+  "UG": {
+   "fichier": "Flag of Uganda.svg",
+   "licence": "Public domain"
+  },
+  "US": {
+   "fichier": "Flag of the United States (DDD-F-416E specifications).svg",
+   "licence": "Public domain"
+  },
+  "UY": {
+   "fichier": "Flag of Uruguay.svg",
+   "licence": "Public domain"
+  },
+  "UZ": {
+   "fichier": "Flag of Uzbekistan.svg",
+   "licence": "Public domain"
+  },
+  "VC": {
+   "fichier": "Flag of Saint Vincent and the Grenadines.svg",
+   "licence": "Public domain"
+  },
+  "VE": {
+   "fichier": "Flag of Venezuela.svg",
+   "licence": "Public domain"
+  },
+  "VN": {
+   "fichier": "Flag of Vietnam.svg",
+   "licence": "Public domain"
+  },
+  "VU": {
+   "fichier": "Flag of Vanuatu.svg",
+   "licence": "Public domain"
+  },
+  "WS": {
+   "fichier": "Flag of Samoa.svg",
+   "licence": "Public domain"
+  },
+  "YE": {
+   "fichier": "Flag of Yemen.svg",
+   "licence": "Public domain"
+  },
+  "ZA": {
+   "fichier": "Flag of South Africa.svg",
+   "licence": "Public domain"
+  },
+  "ZM": {
+   "fichier": "Flag of Zambia.svg",
+   "licence": "Public domain"
+  },
+  "ZW": {
+   "fichier": "Flag of Zimbabwe.svg",
+   "licence": "Public domain"
+  }
+ }
+}

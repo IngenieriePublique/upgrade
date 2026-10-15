@@ -7,10 +7,13 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "scripts"))
 import build_monde as bm  # noqa: E402
+import fetch_drapeaux as fd  # noqa: E402
 
 SOURCE = RACINE / "content" / "territoires" / "pays.json"
 PUBLIE = RACINE / "site" / "data" / "territoires" / "pays.json"
 GEO = RACINE / "site" / "data" / "geo"
+DRAPEAUX = RACINE / "site" / "data" / "drapeaux"
+SOURCE_DRAPEAUX = RACINE / "content" / "territoires" / "drapeaux.json"
 
 
 def ligne(rang, cap, coord="Point(2.35 48.85)"):
@@ -162,9 +165,51 @@ class PublicationTest(unittest.TestCase):
         self.assertNotIn("JP", om["pays"])
         self.assertNotIn("AU", om["pays"])
 
+    def test_planisphere_miniature(self):
+        mini = json.loads((GEO / "monde-mini.json").read_text(encoding="utf-8"))
+        self.assertEqual(list(mini["continents"]), bm.CODES_CONTINENTS)
+        self.assertTrue(all(c["d"].startswith("M") for c in mini["continents"].values()))
+        # seules les Caraïbes sont trop petites pour se voir : un cercle les repère
+        self.assertEqual([k for k, c in mini["continents"].items() if "repere" in c], ["caraibes"])
+        _, _, largeur, hauteur = (float(v) for v in mini["viewBox"].split())
+        self.assertTrue(largeur > hauteur > 0)
+        self.assertLess((GEO / "monde-mini.json").stat().st_size, 80_000)
+
     def test_poids_raisonnable(self):
         total = sum(f.stat().st_size for f in GEO.glob("monde-*.json"))
         self.assertLess(total, 600_000, total)
+
+
+class DrapeauxTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.pays = json.loads(SOURCE.read_text(encoding="utf-8"))["pays"]
+        cls.src = json.loads(SOURCE_DRAPEAUX.read_text(encoding="utf-8"))
+
+    def test_une_image_png_par_pays(self):
+        for p in self.pays:
+            f = DRAPEAUX / f"{p['id'].lower()}.png"
+            self.assertTrue(f.exists(), p["nom"])
+            octets = f.read_bytes()
+            self.assertEqual(octets[1:4], b"PNG", p["nom"])
+            self.assertLess(len(octets), 20_000, p["nom"])
+        self.assertEqual(len(list(DRAPEAUX.glob("*.png"))), 193)
+
+    def test_la_source_nomme_le_fichier_de_commons_de_chaque_drapeau(self):
+        self.assertEqual(sorted(self.src["pays"]), sorted(p["id"] for p in self.pays))
+        for iso, e in self.src["pays"].items():
+            self.assertTrue(e["fichier"].startswith("Flag of") and e["fichier"].endswith(".svg"), iso)
+            self.assertTrue(e["licence"], iso)
+        self.assertIn("wikidata.org", self.src["source"]["url"])
+
+    def test_choix_de_l_image(self):
+        def ligne(fichier, rang="NormalRank"):
+            return {"flag": {"value": "http://commons.wikimedia.org/wiki/Special:FilePath/" + fichier}, "rank": {"value": "http://wikiba.se/ontology#" + rang}}
+        self.assertEqual(fd.choisir([ligne("Flag%20of%20France.svg")]), ["Flag of France.svg"])
+        # une image dépréciée est écartée ; l'image préférée l'emporte sur les autres
+        self.assertEqual(fd.choisir([ligne("A.svg", "DeprecatedRank"), ligne("B.svg")]), ["B.svg"])
+        self.assertEqual(fd.choisir([ligne("A.svg"), ligne("B.svg", "PreferredRank")]), ["B.svg"])
+        self.assertEqual(len(fd.choisir([ligne("A.svg"), ligne("B.svg")])), 2)  # ambigu : le script s'arrête
 
 
 if __name__ == "__main__":

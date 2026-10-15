@@ -5,7 +5,7 @@ import { candidatsAutour, candidatsCentre, largeur, placer } from './etiquettes.
 
 const NS = 'http://www.w3.org/2000/svg';
 
-function svg(tag, attrs = {}) {
+export function svg(tag, attrs = {}) {
   const el = document.createElementNS(NS, tag);
   for (const [k, v] of Object.entries(attrs)) if (v != null) el.setAttribute(k, v);
   return el;
@@ -56,7 +56,7 @@ const bornesVue = (carte) => { const [x, y, w, h] = carte.el.getAttribute('viewB
 // ---------- pins et étiquettes de la révision ----------
 
 // Contour d'un pin (goutte dont la pointe est sur le lieu), de hauteur 1.
-const GOUTTE = 'M0 0C-.28-.42-.36-.58-.36-.7a.36.36 0 1 1 .72 0C.36-.58.28-.42 0 0Z';
+export const GOUTTE = 'M0 0C-.28-.42-.36-.58-.36-.7a.36.36 0 1 1 .72 0C.36-.58.28-.42 0 0Z';
 
 // Rectangle occupé par un pin de hauteur h planté sur (x, y).
 export const rectPin = (x, y, h) => ({ x0: x - h * 0.38, y0: y - h, x1: x + h * 0.38, y1: y });
@@ -183,8 +183,9 @@ export function carteVilles(geo, data, villes, { onClic = null, population = fal
 // geo : site/data/geo/monde-<continent>.json ({ viewBox, rayon, pays: { ISO: { d, c, petit?, cap? } } }) ; actifs : Set des pays du jeu (les autres
 // sont dessinés en contexte) ; noms : Map ISO -> nom français. Un pays trop petit pour être cliqué reçoit une pastille (`petit`).
 // Renvoie la même interface que creerCarte : { el, marquer, retirer, chemin } + nommer(code) / nommerTout() ; chemin(code) est le <g> du pays.
-export function cartePays(geo, actifs, noms, { onClic = null } = {}) {
-  const racine = svg('svg', { viewBox: geo.viewBox, class: 'carte-svg', role: 'img', 'aria-label': 'Carte des pays du continent' });
+// vue : viewBox à employer à la place de celui du fichier (une marge de mer autour du continent, pour la révision) ; les noms gardent leur taille.
+export function cartePays(geo, actifs, noms, { onClic = null, vue = null } = {}) {
+  const racine = svg('svg', { viewBox: vue ?? geo.viewBox, class: 'carte-svg', role: 'img', 'aria-label': 'Carte des pays du continent' });
   const fond = svg('g', { class: 'territoires' });
   const groupes = new Map();
   const entrees = Object.entries(geo.pays).sort(([a, ta], [b, tb]) => (actifs.has(a) ? 1 + (ta.petit ? 1 : 0) : 0) - (actifs.has(b) ? 1 + (tb.petit ? 1 : 0) : 0));
@@ -199,24 +200,24 @@ export function cartePays(geo, actifs, noms, { onClic = null } = {}) {
   }
   racine.append(fond);
 
-  // Emplacement de chaque nom, calculé une fois (les grands pays d'abord) ; affiché à la demande.
-  const taille = largeurVue({ el: racine }) / 60;
+  // Un nom se pose à la demande, à côté de la pastille du pays s'il est petit, sinon au centre du pays, en évitant les pastilles et les noms déjà posés.
+  const taille = Number(geo.viewBox.split(' ')[2]) / 60;
   const h = taille * 1.3;
   const rects = new Map();
   for (const [code, t] of Object.entries(geo.pays)) if (actifs.has(code) && t.petit) rects.set(code, { x0: t.c[0] - geo.rayon, y0: t.c[1] - geo.rayon, x1: t.c[0] + geo.rayon, y1: t.c[1] + geo.rayon });
   const ordre = [...groupes.keys()].sort((a, b) => Number(!!geo.pays[a].petit) - Number(!!geo.pays[b].petit));
-  const places = placer(ordre.map((code) => {
-    const t = geo.pays[code];
-    const w = largeur(noms.get(code) ?? '', taille, true) + taille * 0.3;
-    return { id: code, w, h, candidats: t.petit ? candidatsAutour(rects.get(code), w, h, taille * 0.1) : candidatsCentre(t.c[0], t.c[1], taille * 1.1) };
-  }), { obstacles: [...rects.values()], bornes: bornesVue({ el: racine }) });
   const etiquettes = svg('g', { class: 'noms', 'pointer-events': 'none' });
   racine.append(etiquettes);
   const poses = new Set();
+  const occupes = [];
   function nommer(code) {
-    if (poses.has(code) || !places.has(code)) return;
+    if (poses.has(code) || !groupes.has(code)) return;
     poses.add(code);
-    const c = places.get(code);
+    const t = geo.pays[code];
+    const w = largeur(noms.get(code) ?? '', taille, true) + taille * 0.3;
+    const c = placer([{ id: code, w, h, candidats: t.petit ? candidatsAutour(rects.get(code), w, h, taille * 0.1) : candidatsCentre(t.c[0], t.c[1], taille * 1.1) }],
+      { obstacles: [...rects.values(), ...occupes], bornes: bornesVue({ el: racine }) }).get(code);
+    occupes.push(c.rect);
     const texte = svg('text', { x: c.cx.toFixed(1), y: c.cy.toFixed(1), class: 'etiq', 'text-anchor': 'middle', 'dominant-baseline': 'central', 'font-size': taille.toFixed(1) });
     texte.textContent = noms.get(code);
     etiquettes.append(texte);

@@ -6,6 +6,11 @@ import { creerQuestion, idItem, ORDRE_REGIONS } from '../../js/territoires.js';
 import { melanger } from './cadre.js';
 
 export const FORMATS = {
+  pays: {
+    titre: 'Pays',
+    detail: 'Un continent à la fois : pays et capitales',
+    modes: ['pays-placer', 'pays-nom', 'pays-capitale', 'capitale-pays'],
+  },
   regions: {
     titre: 'Régions',
     detail: '18 régions et leurs préfectures',
@@ -20,11 +25,6 @@ export const FORMATS = {
     titre: 'Villes',
     detail: 'Les principales villes de France',
     modes: ['ville-placer', 'ville-nom'],
-  },
-  pays: {
-    titre: 'Pays',
-    detail: 'Un continent à la fois : pays et capitales',
-    modes: ['pays-placer', 'pays-nom', 'pays-capitale', 'capitale-pays'],
   },
 };
 
@@ -44,6 +44,24 @@ export const TITRES_MODES = {
   'pays-capitale': 'Capitale d\'un pays',
   'capitale-pays': 'Pays d\'une capitale',
 };
+
+// Familles de questions qu'on peut activer ou désactiver : chacune regroupe des types de question (modes) de plusieurs formats.
+export const OPTIONS_QUESTIONS = {
+  capitales: { titre: 'Capitales', modes: ['pays-capitale', 'capitale-pays'] },
+  prefectures: { titre: 'Préfectures', modes: ['chef-reg', 'pref-dep', 'dep-pref'] },
+  numeros: { titre: 'Numéros de département', modes: ['num-code'] },
+};
+
+// Familles qui concernent un format (celles dont au moins un type de question en fait partie).
+export const optionsDuFormat = (format) => Object.keys(OPTIONS_QUESTIONS).filter((k) => OPTIONS_QUESTIONS[k].modes.some((m) => FORMATS[format].modes.includes(m)));
+
+// Types de question retenus pour un format. options : { capitales?, prefectures?, numeros? } (faux = famille désactivée ; absente = activée).
+// Un format garde toujours ses types de question de base : s'il ne restait rien, tous seraient conservés.
+export function modesActifs(format, options = {}) {
+  const exclus = new Set(Object.entries(OPTIONS_QUESTIONS).filter(([k]) => options[k] === false).flatMap(([, o]) => o.modes));
+  const gardes = FORMATS[format].modes.filter((m) => !exclus.has(m));
+  return gardes.length ? gardes : FORMATS[format].modes;
+}
 
 export const OUTRE_MER = 'om';
 
@@ -98,8 +116,8 @@ export function choisirMode(code, modes, states, rng = Math.random) {
 }
 
 // Série complète : un élément par question, dans un ordre aléatoire (le choix du jeu, lui, ne l'est plus).
-export function serie(format, data, villes, g, states, rng = Math.random) {
-  const modes = FORMATS[format].modes;
+export function serie(format, data, villes, g, states, rng = Math.random, options = {}) {
+  const modes = modesActifs(format, options);
   return melanger(codesDuFormat(format, data, villes, g), rng).map((code) => {
     const mode = choisirMode(code, modes, states, rng);
     return { id: idItem(mode, code), mode, code };
@@ -108,8 +126,8 @@ export function serie(format, data, villes, g, states, rng = Math.random) {
 
 // --- Questions ----------------------------------------------------------------------------------------
 
-function qcm(bonne, libelleBonne, autres, rng) {
-  const choix = melanger([{ valeur: bonne, libelle: libelleBonne }, ...autres], rng);
+function qcm(bonne, libelleBonne, autres, rng, drapeauBon = null) {
+  const choix = melanger([{ valeur: bonne, libelle: libelleBonne, ...(drapeauBon ? { drapeau: drapeauBon } : {}) }, ...autres], rng);
   return { type: 'qcm', choix, bonne };
 }
 
@@ -170,21 +188,23 @@ export function dePays(p) {
 
 // Questions sur les pays d'un continent. autres : les pays du même continent ; les mauvaises réponses viennent d'abord des voisins.
 function questionPays(item, p, autres, rng) {
-  const base = { id: item.id, mode: item.mode, code: item.code, couche: 'pays', surbrillance: p.id };
+  // drapeau : code du pays dont l'explication cite le nom ; drapeauConsigne : idem pour la consigne quand elle le cite (elle ne le fait pas
+  // pour « X est la capitale de quel pays ? », où le drapeau donnerait la réponse). Le drapeau s'affiche après le nom ; purement décoratif.
+  const base = { id: item.id, mode: item.mode, code: item.code, couche: 'pays', surbrillance: p.id, drapeau: p.id, nomPays: p.nom };
   const proches = [...autres].sort((a, b) => Math.hypot(a.cx - p.cx, a.cy - p.cy) - Math.hypot(b.cx - p.cx, b.cy - p.cy));
   const explication = `${p.nom} : capitale ${p.capitale}.${p.note ? ` ${p.note}` : ''}`;
-  const noms = () => tirer(proches.slice(0, 8), proches, p.nom, 3, (x) => x.nom, rng).map((x) => ({ valeur: x.id, libelle: x.nom }));
+  const noms = () => tirer(proches.slice(0, 8), proches, p.nom, 3, (x) => x.nom, rng).map((x) => ({ valeur: x.id, libelle: x.nom, drapeau: x.id }));
   switch (item.mode) {
     case 'pays-placer':
-      return { ...base, type: 'clic', cible: p.id, surbrillance: null, consigne: `Clique sur ${avecArticle(p)}.`, explication };
+      return { ...base, type: 'clic', cible: p.id, surbrillance: null, drapeauConsigne: p.id, consigne: `Clique sur ${avecArticle(p)}.`, explication };
     case 'pays-nom':
-      return { ...base, ...qcm(p.id, p.nom, noms(), rng), consigne: 'Quel est le pays en couleur ?', explication };
+      return { ...base, ...qcm(p.id, p.nom, noms(), rng, p.id), consigne: 'Quel est le pays en couleur ?', explication };
     case 'pays-capitale': {
       const caps = tirer(proches.slice(0, 8), proches, p.capitale, 3, (x) => x.capitale, rng).map((x) => ({ valeur: x.capitale, libelle: x.capitale }));
-      return { ...base, ...qcm(p.capitale, p.capitale, caps, rng), consigne: `Quelle est la capitale ${dePays(p)} ?`, explication };
+      return { ...base, ...qcm(p.capitale, p.capitale, caps, rng), drapeauConsigne: p.id, consigne: `Quelle est la capitale ${dePays(p)} ?`, explication };
     }
     default: // capitale-pays
-      return { ...base, ...qcm(p.id, p.nom, noms(), rng), couche: null, surbrillance: null, consigne: `${p.capitale} est la capitale de quel pays ?`, explication };
+      return { ...base, ...qcm(p.id, p.nom, noms(), rng, p.id), couche: null, surbrillance: null, consigne: `${p.capitale} est la capitale de quel pays ?`, explication };
   }
 }
 
