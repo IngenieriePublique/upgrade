@@ -129,7 +129,8 @@ function makeStore(db, name) {
     },
 
     // Fusion sûre et répétable : union des journaux, états recalculés, séances et signalements fusionnés.
-    async importMerge(data) {
+    // Un réglage (meta) déjà présent est gardé, sauf avec { prioriteImport: true } (le fichier importé fait alors foi : version locale).
+    async importMerge(data, { prioriteImport = false } = {}) {
       if (!data || data.format !== BACKUP_FORMAT || !Array.isArray(data.journal)) {
         throw new Error('fichier de sauvegarde non reconnu');
       }
@@ -157,8 +158,7 @@ function makeStore(db, name) {
       const m = tx.objectStore('meta');
       for (const [key, value] of Object.entries(data.meta ?? {})) {
         if (key.startsWith('_') || key === 'flags') continue;
-        const exists = await wrap(m.get(key));
-        if (!exists) m.put({ key, value });
+        if (prioriteImport || !(await wrap(m.get(key)))) m.put({ key, value });
       }
       m.put({ key: 'flags', value: flags });
       const d = tx.objectStore('days');

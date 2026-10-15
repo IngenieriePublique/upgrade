@@ -81,3 +81,13 @@ test('import ignore les lignes de journal invalides', () => avecBase(async (s) =
     { cardId: 'a', ts: T, grade: 2 }, { cardId: 'b', ts: 'x', grade: 2 }, { cardId: 'c', ts: T, grade: 9 }, null] });
   eq(r.ajoutees, 1);
 }));
+
+test('import : un réglage déjà présent est gardé, sauf avec prioriteImport (le fichier du serveur local fait foi)', () => avecBase(async (s) => {
+  await s.setMeta('first-methode-debut', '2026-10-01');
+  const data = { format: 'upgrade-sauvegarde', version: 2, journal: [], meta: { 'first-methode-debut': '2026-10-12', autre: 7 } };
+  await s.importMerge(data);
+  eq(await s.getMeta('first-methode-debut'), '2026-10-01');
+  eq(await s.getMeta('autre'), 7);
+  await s.importMerge(data, { prioriteImport: true });
+  eq(await s.getMeta('first-methode-debut'), '2026-10-12');
+}));

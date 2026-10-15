@@ -1,12 +1,14 @@
 import { test, eq, ok } from './runner.js';
 import { mulberry32 } from '../site/js/territoires.js';
 import {
-  FORMATS, groupes, groupe, lignesEtude, codesDuFormat, choisirMode, serie, creerQuestionFirst, OUTRE_MER, continents, continent, avecArticle, dePays,
+  FORMATS, TITRES_MODES, OPTIONS_QUESTIONS, optionsDuFormat, modesActifs, groupes, groupe, lignesEtude, codesDuFormat, choisirMode, serie, creerQuestionFirst, OUTRE_MER, continents, continent, avecArticle, dePays,
 } from '../site/first/js/formats.js';
 import { bornes, vueDe, vueEncarts, optionsCarte, cartePays, carteMonde } from '../site/first/js/carte-first.js';
 import { idItem } from '../site/js/territoires.js';
 import { creerCarte } from '../site/js/carte-svg.js';
-import { placer, rectCentre, candidatsAutour, candidatsCentre, chevauche, largeur } from '../site/first/js/etiquettes.js';
+import { placer, placerRecuit, rectCentre, candidatsAutour, candidatsCentre, chevauche, largeur } from '../site/first/js/etiquettes.js';
+import { texteAvecDrapeau, adresseDrapeau } from '../site/first/js/drapeaux.js';
+import { PX, vueEtendue, vueEnTexte, fractionTerre, choisirCoin, miniMonde, hauteurMini, planifier, poserRevisionPays } from '../site/first/js/revision-pays.js';
 import { elaguer } from '../site/first/js/lus.js';
 import { pastilleLu } from '../site/first/js/cadre.js';
 import { rectPin } from '../site/first/js/carte-first.js';
@@ -27,7 +29,7 @@ const geo = await (await fetch('../site/data/geo/france.json')).json();
 const villes = (await (await fetch('../site/data/territoires/villes.json')).json()).villes;
 
 test('formats : quatre formats, chacun avec ses types de question', () => {
-  eq(Object.keys(FORMATS), ['regions', 'departements', 'villes', 'pays']);
+  eq(Object.keys(FORMATS), ['pays', 'regions', 'departements', 'villes']); // « Pays » en premier dans le menu
   for (const f of Object.values(FORMATS)) ok(f.modes.length >= 2 && f.titre && f.detail);
 });
 
@@ -112,6 +114,134 @@ test('pays : la carte d\'un continent, ses pastilles de petits pays et ses étiq
   eq([...carte.el.querySelectorAll('.noms text')].map((t) => t.textContent), ['France']);
   carte.nommerTout();
   eq(carte.el.querySelectorAll('.noms text').length, 44);
+});
+
+test('options de questions : capitales, préfectures, numéros ; une famille désactivée retire ses types de question', () => {
+  eq(Object.keys(OPTIONS_QUESTIONS), ['capitales', 'prefectures', 'numeros']);
+  eq(optionsDuFormat('pays'), ['capitales']);
+  eq(optionsDuFormat('regions'), ['prefectures']);
+  eq(optionsDuFormat('departements'), ['prefectures', 'numeros']);
+  eq(optionsDuFormat('villes'), []);
+  eq(modesActifs('pays', {}), FORMATS.pays.modes);
+  eq(modesActifs('pays', { capitales: false }), ['pays-placer', 'pays-nom']);
+  eq(modesActifs('regions', { prefectures: false }), ['placer-reg', 'nom-reg']);
+  eq(modesActifs('departements', { numeros: false }), ['placer-dep', 'nom-dep', 'pref-dep', 'dep-pref']);
+  eq(modesActifs('departements', { prefectures: false, numeros: false }), ['placer-dep', 'nom-dep']);
+  eq(modesActifs('departements', { prefectures: true, numeros: true }), FORMATS.departements.modes);
+  for (const f of Object.keys(FORMATS)) ok(modesActifs(f, { capitales: false, prefectures: false, numeros: false }).length >= 2, `${f} : plus aucun type de question`);
+  const rng = mulberry32(5);
+  const sansCapitales = serie('pays', data, villes, continent(monde, 'europe'), new Map(), rng, { capitales: false });
+  eq(sansCapitales.length, 44);
+  ok(sansCapitales.every((q) => ['pays-placer', 'pays-nom'].includes(q.mode)), 'une question sur les capitales malgré le réglage');
+  const sansPref = serie('departements', data, villes, groupes(data)[0], new Map(), rng, { prefectures: false, numeros: false });
+  ok(sansPref.every((q) => ['placer-dep', 'nom-dep'].includes(q.mode)), 'préfecture ou numéro malgré le réglage');
+  const toutes = serie('departements', data, villes, groupes(data)[0], new Map(), rng);
+  ok(toutes.some((q) => ['pref-dep', 'dep-pref', 'num-code'].includes(q.mode)) || toutes.length < 4, 'sans réglage, tous les types servent');
+});
+
+test('drapeaux : décoratifs, après le nom du pays dans la consigne, les réponses et l\'explication, jamais demandés', () => {
+  ok(!FORMATS.pays.modes.some((m) => /drapeau/.test(m)) && !Object.keys(TITRES_MODES).some((m) => /drapeau/.test(m)), 'une question sur les drapeaux');
+  const eu = continent(monde, 'europe').pays;
+  const rng = mulberry32(8);
+  const faire = (mode, code) => creerQuestionFirst({ id: idItem(mode, code), mode, code }, data, villes, rng, eu);
+  const qPlacer = faire('pays-placer', 'FR');
+  eq([qPlacer.drapeau, qPlacer.drapeauConsigne, qPlacer.nomPays], ['FR', 'FR', 'France']);
+  const cap = faire('pays-capitale', 'DE');
+  eq([cap.drapeau, cap.drapeauConsigne, cap.nomPays], ['DE', 'DE', 'Allemagne']);
+  ok(cap.choix.every((c) => !c.drapeau), 'une capitale n\'a pas de drapeau');
+  const nom = faire('pays-nom', 'IT');
+  ok(!nom.drapeauConsigne, 'le pays en couleur n\'est pas nommé dans la consigne');
+  ok(nom.choix.every((c) => c.drapeau === c.valeur), 'chaque pays proposé porte son drapeau');
+  // « Luxembourg est la capitale de quel pays ? » : un drapeau après le mot Luxembourg de la consigne donnerait la réponse
+  const inverse = faire('capitale-pays', 'LU');
+  ok(!inverse.drapeauConsigne, 'drapeau dans la consigne d\'une capitale');
+  ok(inverse.choix.every((c) => c.drapeau === c.valeur), 'chaque pays proposé porte son drapeau');
+  eq(inverse.drapeau, 'LU');
+  for (const q of [qPlacer, cap, nom, inverse]) ok(q.explication.startsWith(q.nomPays), 'l\'explication commence par le nom du pays');
+});
+
+test('drapeaux : texteAvecDrapeau place l\'image après la première mention du nom, une espace insécable entre les deux', () => {
+  const n = texteAvecDrapeau('Clique sur la France.', 'France', 'FR');
+  eq(n.length, 4);
+  eq([n[0], n[1], n[3]], ['Clique sur la France', '\u00a0', '.']);
+  eq(n[2].tagName, 'IMG');
+  ok(n[2].getAttribute('src').endsWith('/data/drapeaux/fr.png'), n[2].getAttribute('src'));
+  eq([n[2].getAttribute('alt'), n[2].getAttribute('aria-hidden')], ['', 'true']);
+  const fin = texteAvecDrapeau('Luxembourg : capitale Luxembourg.', 'Luxembourg', 'LU');
+  eq(fin[0], 'Luxembourg');
+  eq(fin.at(-1), ' : capitale Luxembourg.');
+  eq(texteAvecDrapeau('Paris', 'France', 'FR'), ['Paris']);
+  eq(texteAvecDrapeau('France', 'France', 'FR').length, 3);
+  eq(texteAvecDrapeau('France', 'France', null), ['France']);
+  eq(adresseDrapeau('GB').split('/').slice(-2), ['drapeaux', 'gb.png']);
+});
+
+test('drapeaux : une image PNG pour chacun des 193 pays', async () => {
+  const reponses = await Promise.all(monde.pays.map((p) => fetch(adresseDrapeau(p.id))));
+  reponses.forEach((r, i) => { ok(r.ok && r.headers.get('content-type') === 'image/png', `drapeau de ${monde.pays[i].nom} : ${r.status}`); });
+});
+
+test('révision d\'un continent : la vue épouse la forme de la zone sans rogner la carte', () => {
+  eq(vueEtendue('0 0 1000 700', 2000, 700), { x: -500, y: 0, w: 2000, h: 700 });
+  const haute = vueEtendue('0 0 1000 700', 700, 1000);
+  eq([haute.x, haute.w], [0, 1000]);
+  ok(Math.abs(haute.h - 1000 / 0.7) < 1e-6 && Math.abs(haute.y - (700 - haute.h) / 2) < 1e-6, 'zone en hauteur');
+  eq(vueEtendue('0 0 1000 700', 0, 0), { x: 0, y: 0, w: 1000, h: 700 });
+  eq(vueEnTexte({ x: -500, y: 0, w: 2000, h: 700 }), '-500.0 0.0 2000.0 700.0');
+});
+
+const geoMini = await (await fetch('../site/data/geo/monde-mini.json')).json();
+
+test('mini-carte du monde : un tracé par continent, celui du jeu en bleu, un cercle pour les Caraïbes', () => {
+  eq(Object.keys(geoMini.continents), monde.continents.map((c) => c.code));
+  ok(Object.values(geoMini.continents).every((c) => c.d.startsWith('M')), 'continent sans tracé');
+  const g = miniMonde(geoMini, 'europe', { x: 10, y: 20, w: 200 });
+  eq(g.querySelectorAll('.mini-cible').length, 1);
+  eq(g.querySelectorAll('.mini-terre').length, 6);
+  eq(g.querySelectorAll('.mini-repere').length, 0);
+  eq(miniMonde(geoMini, 'caraibes', { x: 0, y: 0, w: 200 }).querySelectorAll('.mini-repere').length, 1);
+  const [, , mw, mh] = geoMini.viewBox.split(' ').map(Number);
+  ok(Math.abs(hauteurMini(geoMini, 200) - ((mh + 12) * 200) / (mw + 12)) < 1e-9);
+});
+
+test('révision d\'un continent : pour chaque continent, toutes les étiquettes tiennent sans se recouvrir, à plusieurs tailles d\'écran', async () => {
+  for (const [largeurZone, hauteurZone] of [[1232, 560], [1800, 860]]) {
+    for (const c of continents(monde)) {
+      const geoC = await (await fetch(`../site/data/geo/monde-${c.code}.json`)).json();
+      const vue = vueEtendue(geoC.viewBox, largeurZone, hauteurZone);
+      const echelle = Math.min(largeurZone / vue.w, hauteurZone / vue.h);
+      const bornesVue = { x0: vue.x, y0: vue.y, x1: vue.x + vue.w, y1: vue.y + vue.h };
+      const lm = 200;
+      const coin = choisirCoin(geoC, vue, lm, hauteurMini(geoMini, lm), c.pays.flatMap((p) => [{ x: p.cx, y: p.cy }, { x: p.x, y: p.y }]));
+      ok(fractionTerre(geoC, coin) < 0.1, `${c.nom} : la mini-carte est sur des terres`);
+      ok(coin.x0 >= bornesVue.x0 && coin.x1 <= bornesVue.x1 && coin.y0 >= bornesVue.y0 && coin.y1 <= bornesVue.y1, `${c.nom} : mini-carte hors de la vue`);
+      const racine = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      const r = poserRevisionPays(racine, geoC, c.pays, { vue, echelle, evite: [coin] });
+      eq(r.collisions, [], `${c.nom} (${largeurZone}x${hauteurZone}) : étiquettes qui se recouvrent`);
+      ok(r.px >= PX.fin - 1e-6, `${c.nom} : corps de texte trop petit (${r.px} px)`);
+      eq(racine.querySelectorAll('text.etiq:not(.sous)').length, c.pays.length, `${c.nom} : un nom par pays`);
+      // contrôle indépendant des recouvrements, à partir du plan calculé
+      const plan = planifier(geoC, c.pays, { taille: r.px / echelle, evite: [coin], bornes: bornesVue, vue });
+      const rects = plan.items.map((it) => plan.places.get(it.id).rect);
+      eq(rects.length, c.pays.length);
+      rects.forEach((a, i) => {
+        ok(a.x0 >= bornesVue.x0 - 0.5 && a.x1 <= bornesVue.x1 + 0.5 && a.y0 >= bornesVue.y0 - 0.5 && a.y1 <= bornesVue.y1 + 0.5, `${c.nom} : étiquette hors de la vue`);
+        ok(!chevauche(a, coin), `${c.nom} : étiquette sous la mini-carte`);
+        plan.pins.forEach((p) => ok(!chevauche(a, rectPin(p.x, p.y, p.h)), `${c.nom} : étiquette sur un pin`));
+        rects.slice(i + 1).forEach((b) => ok(!chevauche(a, b), `${c.nom} : deux étiquettes superposées`));
+      });
+    }
+  }
+});
+
+test('étiquettes : le recuit simulé place sans recouvrement ce que le placement glouton ne sait pas placer', () => {
+  const pin = { x0: 95, y0: 95, x1: 105, y1: 105 };
+  const items = ['A', 'B', 'C', 'D', 'E'].map((id) => ({ id, w: 60, h: 12, ancre: { x: 100, y: 100 }, candidats: candidatsAutour(pin, 60, 12, 1) }));
+  const res = placerRecuit(items, { obstacles: [pin] });
+  const rects = [...res.values()];
+  ok(rects.every((r) => r.cout === 0), 'recouvrement restant');
+  rects.forEach((a, i) => { ok(!chevauche(a.rect, pin)); rects.slice(i + 1).forEach((b) => ok(!chevauche(a.rect, b.rect))); });
+  eq([...placerRecuit(items, { obstacles: [pin] }).values()].map((r) => [r.cx, r.cy]), rects.map((r) => [r.cx, r.cy]), 'résultat reproductible');
 });
 
 test('outre-mer : la carte du monde repère les cinq départements d\'outre-mer et la métropole, par code de région ou de département', () => {
@@ -586,4 +716,33 @@ test('écran calcul : bonne réponse comptée, mauvaise réponse montre la solut
   eq(view.querySelector('.compteur').textContent, '1 / 3');
   ok(view.querySelector('.calcul-solution').textContent.startsWith('= '));
   view.remove();
+});
+
+/* ---------- version locale / version light ---------- */
+import { ACTIVITES, grisee, render as renderAccueil } from '../site/first/js/accueil.js';
+import { detecter } from '../site/first/js/local.js';
+
+test('light : méthode, brief et lecture sont grisés, les jeux restent actifs ; en local rien n\'est grisé', () => {
+  eq(ACTIVITES.filter((a) => grisee(a, false)).map((a) => a.id).sort(), ['brief', 'lecture', 'methode']);
+  eq(ACTIVITES.filter((a) => grisee(a, true)).length, 0);
+  ok(!grisee(ACTIVITES.find((a) => a.id === 'calcul'), false));
+});
+
+test('accueil light : les hexagones grisés n\'ont pas d\'adresse, les autres si ; la marque s\'appelle Upgrade light', () => {
+  const view = document.createElement('div');
+  renderAccueil({ view, local: false });
+  eq([...view.querySelectorAll('a.hex[href]')].map((a) => a.getAttribute('href')).sort(), ['#/calcul', '#/cartes', '#/territoires']);
+  eq(view.querySelectorAll('a.hex-grise:not([href])').length, 3);
+  ok(view.querySelector('.hex-centre').classList.contains('hex-grise'));
+  eq(view.querySelector('.marque').textContent, 'Upgrade light');
+  const local = document.createElement('div');
+  renderAccueil({ view: local, local: true });
+  eq(local.querySelectorAll('a.hex[href]').length, 6);
+  eq(local.querySelector('.marque').textContent, 'First Upgrade');
+});
+
+test('detecter : ?light force la version light, même quand le serveur local répond', async () => {
+  eq(await detecter('?light'), false);
+  eq(await detecter('?x=1&light'), false);
+  eq(typeof (await detecter('')), 'boolean'); // avec ou sans API : jamais d'exception
 });

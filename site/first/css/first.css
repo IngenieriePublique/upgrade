@@ -197,6 +197,33 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .carte-monde .om.survol circle { fill: #fff; }
 .carte-monde .om.survol text { fill: #fff; }
 
+/* révision d'un continent : la carte en grand, titre au centre en haut, mini-carte du monde dans un coin libre */
+.jeu.revision-pays { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); gap: 4px; }
+.revision-entete { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; }
+.revision-titre { grid-column: 2; text-align: center; font-size: 1.25rem; font-weight: 600; white-space: nowrap; }
+.revision-gauche { grid-column: 1; grid-row: 1; justify-self: start; }
+.revision-droite { grid-column: 3; grid-row: 1; justify-self: end; display: flex; gap: 8px; align-items: center; }
+.corps:has(.jeu.revision-pays) { padding: 0 12px 6px; }
+.revision-entete .bouton, .revision-entete button { padding: 5px 14px; }
+.revision-carte { min-height: 0; min-width: 0; position: relative; }
+.revision-carte .carte-svg { position: absolute; inset: 0; }
+.carte-svg .etiq .cap { fill: var(--lien); font-weight: 400; }
+.carte-svg .repere-pt { fill: var(--lien); fill-opacity: .85; }
+.mini-cadre { fill: var(--fond); fill-opacity: .92; stroke: var(--bord-fort); stroke-width: 1; }
+.mini-terre { fill: color-mix(in srgb, var(--carte) 75%, var(--bord)); stroke: var(--bord-fort); stroke-width: .35; stroke-linejoin: round; }
+.mini-cible { fill: var(--accent); stroke: var(--lien); stroke-width: .6; stroke-linejoin: round; }
+.mini-repere { fill: none; stroke: var(--lien); stroke-width: 1.8; }
+
+/* familles de questions à activer ou non */
+.options-questions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: .85rem; }
+.option { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border: 1px solid var(--bord); border-radius: 14px; background: var(--carte); cursor: pointer; user-select: none; }
+.option:hover { border-color: var(--lien); }
+.option input { accent-color: var(--accent); margin: 0; cursor: pointer; }
+.option:has(input:not(:checked)) { color: var(--tenue); text-decoration: line-through; }
+
+/* drapeaux : décoratifs, à la suite du nom d'un pays */
+.drapeau { height: .9em; width: auto; vertical-align: -.1em; margin-left: .05em; border-radius: 2px; outline: 1px solid rgba(255, 255, 255, .22); }
+
 /* ---------- cartes de culture ---------- */
 .cartes-zone { height: 100%; display: grid; place-items: center; }
 .carte-culture { width: min(760px, 100%); max-height: 100%; background: var(--carte); border: 1px solid var(--bord); border-radius: 8px;
@@ -269,6 +296,18 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 /* ---------- hexagone central (méthode de travail) : bords bleus ---------- */
 .hex-centre polygon { stroke: var(--accent); stroke-width: 3; }
 .hex-centre:hover polygon, .hex-centre:focus-visible polygon { stroke: var(--lien); }
+
+/* ---------- version light : activités réservées à la version locale, grisées ---------- */
+.hex.hex-grise { cursor: not-allowed; }
+.hex.hex-grise .hex-corps { opacity: .38; filter: grayscale(1); }
+.hex.hex-grise:hover .hex-corps { transform: none; }
+.hex.hex-grise polygon, .hex.hex-grise:hover polygon { fill: var(--carte); stroke: var(--bord); stroke-dasharray: 6 6; }
+.hex.hex-grise .ico, .hex.hex-grise:hover .ico { color: var(--discret); }
+.hex.hex-grise .detail .plein, .hex.hex-grise:hover .detail .plein { fill: var(--carte); }
+
+/* alerte quand la progression ne peut pas être écrite sur l'ordinateur (version locale) */
+.alerte-local { position: fixed; z-index: 20; left: 50%; bottom: 14px; transform: translateX(-50%); max-width: min(92vw, 560px); padding: 8px 14px;
+  background: var(--carte-survol); border: 1px solid var(--erreur); border-radius: 8px; color: var(--erreur); font-size: .85rem; text-align: center; }
 
 /* ---------- méthode de travail ---------- */
 .methode { height: 100%; max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
@@ -394,6 +433,11 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   .format-detail { flex-basis: 100%; }
   .liste-etude.deux, .liste-etude.trois { grid-template-columns: 1fr 1fr; }
   .monde-mini { display: none; }
+  .jeu.revision-pays { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); gap: 4px; }
+  .revision-entete { grid-template-columns: minmax(0, 1fr) auto; row-gap: 4px; }
+  .revision-titre { grid-column: 1 / -1; grid-row: 1; font-size: 1.05rem; }
+  .revision-gauche { grid-row: 2; } .revision-droite { grid-column: 2; grid-row: 2; }
+  .revision-droite .bouton, .revision-droite button { padding: 5px 12px; }
   .liste-etude li { padding: 2px 6px; }
   .liste-etude li b { font-size: .8rem; } .liste-etude li span { font-size: .75rem; }
   .jeu .panneau.etude .consigne { font-size: .95rem; }
