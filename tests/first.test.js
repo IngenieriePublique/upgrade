@@ -722,8 +722,8 @@ test('écran calcul : bonne réponse comptée, mauvaise réponse montre la solut
 import { ACTIVITES, grisee, render as renderAccueil } from '../site/first/js/accueil.js';
 import { detecter } from '../site/first/js/local.js';
 
-test('light : méthode, brief et lecture sont grisés, les jeux restent actifs ; en local rien n\'est grisé', () => {
-  eq(ACTIVITES.filter((a) => grisee(a, false)).map((a) => a.id).sort(), ['brief', 'lecture', 'methode']);
+test('light : seule la méthode de travail est grisée ; en local rien n\'est grisé', () => {
+  eq(ACTIVITES.filter((a) => grisee(a, false)).map((a) => a.id), ['methode']);
   eq(ACTIVITES.filter((a) => grisee(a, true)).length, 0);
   ok(!grisee(ACTIVITES.find((a) => a.id === 'calcul'), false));
 });
@@ -731,8 +731,8 @@ test('light : méthode, brief et lecture sont grisés, les jeux restent actifs ;
 test('accueil light : les hexagones grisés n\'ont pas d\'adresse, les autres si ; la marque s\'appelle Upgrade light', () => {
   const view = document.createElement('div');
   renderAccueil({ view, local: false });
-  eq([...view.querySelectorAll('a.hex[href]')].map((a) => a.getAttribute('href')).sort(), ['#/calcul', '#/cartes', '#/territoires']);
-  eq(view.querySelectorAll('a.hex-grise:not([href])').length, 3);
+  eq([...view.querySelectorAll('a.hex[href]')].map((a) => a.getAttribute('href')).sort(), ['#/brief', '#/calcul', '#/cartes', '#/lecture', '#/territoires']);
+  eq(view.querySelectorAll('a.hex-grise:not([href])').length, 1);
   ok(view.querySelector('.hex-centre').classList.contains('hex-grise'));
   eq(view.querySelector('.marque').textContent, 'Upgrade light');
   const local = document.createElement('div');

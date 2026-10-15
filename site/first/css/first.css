@@ -33,7 +33,7 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .accueil { height: 100%; display: grid; grid-template-rows: auto minmax(0, 1fr); padding: 22px 28px 28px; }
 .marque { font-size: 1rem; font-weight: 600; letter-spacing: .01em; color: var(--discret); }
 .ruche-zone { min-height: 0; display: grid; place-items: center; }
-.ruche { height: 100%; max-height: 450px; width: auto; max-width: 100%; overflow: visible; }
+.ruche { height: min(450px, calc(100vh - 84px)); height: min(450px, calc(100dvh - 84px)); width: auto; max-width: 100%; overflow: visible; }
 .hex { outline: none; cursor: pointer; }
 .hex-corps { transform-box: fill-box; transform-origin: center; transition: transform .18s ease;
   animation: apparait .5s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(var(--rang) * 70ms); }
@@ -141,18 +141,6 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .region-choix:hover .region-mini .carte-svg .t { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); }
 .region-nom { font-size: .85rem; font-weight: 600; line-height: 1.2; }
 .region-nb { font-size: .75rem; color: var(--tenue); }
-.panneau.etude { gap: 12px; justify-content: flex-start; align-self: center; max-height: 100%; }
-.liste-etude { list-style: none; margin: 0; padding: 0; min-height: 0; overflow: auto; scrollbar-width: thin; scrollbar-color: var(--bord-fort) transparent;
-  display: grid; grid-template-columns: 1fr; gap: 1px 14px; align-content: start; }
-.liste-etude.deux { grid-template-columns: 1fr 1fr; }
-.liste-etude.trois { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.liste-etude.compacte li { flex-direction: row; align-items: baseline; justify-content: space-between; gap: 6px; padding: 3px 8px; }
-.liste-etude.compacte li b { font-size: .88rem; }
-.liste-etude.compacte li span { font-size: .78rem; white-space: nowrap; }
-.liste-etude li { display: flex; flex-direction: column; padding: 4px 8px; border-radius: 6px; line-height: 1.25; cursor: default; }
-.liste-etude li b { font-weight: 600; font-size: .92rem; }
-.liste-etude li span { color: var(--discret); font-size: .85rem; }
-.liste-etude li.survol { background: rgba(255, 255, 255, .08); }
 .carte-svg .t.hors { fill: color-mix(in srgb, var(--carte) 30%, var(--fond)); stroke: var(--bord); stroke-width: .5; pointer-events: none; }
 .carte-svg .t.survol { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); stroke: var(--lien); stroke-width: 1.5; }
 .carte-svg .etiq { fill: var(--texte); stroke: var(--fond); stroke-width: .28em; paint-order: stroke; stroke-linejoin: round; font-weight: 600; }
@@ -160,7 +148,6 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .carte-svg .repere { stroke: var(--lien); stroke-opacity: .65; }
 .carte-svg .pin .trou { fill: var(--fond); }
 .carte-svg .pin.survol path { fill: #fff; }
-.legende-etude { font-size: .85rem; }
 .carte-svg .etiq.sous { fill: var(--lien); font-weight: 400; }
 .carte-svg .villes .ville .zone { fill: transparent; }
 .carte-svg .villes .ville .pt { fill: var(--lien); stroke: var(--fond); stroke-width: 1.5; transition: fill .15s; }
@@ -187,10 +174,10 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 .regions-grille.continents { grid-template-columns: repeat(auto-fill, minmax(116px, 1fr)); }
 .regions-grille.continents .region-mini { height: clamp(70px, 15vh, 120px); }
 
-/* petite carte du monde de l'écran de révision de l'outre-mer */
-.monde-mini { display: flex; flex-direction: column; gap: 4px; flex: 0 1 auto; height: clamp(110px, 30vh, 260px); min-height: 0; }
-.monde-mini .etiquette { font-size: .72rem; flex: none; }
-.monde-mini .carte-monde { flex: 1 1 0; min-height: 0; width: 100%; height: 100%; }
+/* médaillon : position de l'outre-mer dans le monde, posé dans un coin de la carte de révision */
+.monde-inset { position: absolute; right: 6px; top: 6px; width: clamp(120px, 26%, 240px); padding: 4px; border-radius: 8px; border: 1px solid var(--bord-fort);
+  background: color-mix(in srgb, var(--fond) 90%, transparent); pointer-events: none; }
+.monde-inset .carte-monde { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 703.6; }
 .carte-monde .t.hors { fill: color-mix(in srgb, var(--carte) 85%, var(--fond)); stroke: var(--bord-fort); stroke-width: .8; }
 .carte-monde .t.fr { fill: color-mix(in srgb, var(--accent) 45%, var(--carte)); stroke: var(--lien); stroke-width: 1; }
 .carte-monde .om circle { fill: var(--lien); stroke: var(--fond); stroke-width: 2; transition: fill .15s; }
@@ -200,7 +187,8 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
 /* révision d'un continent : la carte en grand, titre au centre en haut, mini-carte du monde dans un coin libre */
 .jeu.revision-pays { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); gap: 4px; }
 .revision-entete { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; }
-.revision-titre { grid-column: 2; text-align: center; font-size: 1.25rem; font-weight: 600; white-space: nowrap; }
+.revision-titre { grid-column: 2; text-align: center; font-size: 1.25rem; font-weight: 600; line-height: 1.2; }
+.revision-titre small { display: block; font-size: .72rem; font-weight: 400; }
 .revision-gauche { grid-column: 1; grid-row: 1; justify-self: start; }
 .revision-droite { grid-column: 3; grid-row: 1; justify-self: end; display: flex; gap: 8px; align-items: center; }
 .corps:has(.jeu.revision-pays) { padding: 0 12px 6px; }
@@ -414,38 +402,36 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   opacity: 0; visibility: hidden; transform: translateY(4px); transition: opacity .15s, transform .15s, visibility .15s; pointer-events: none; }
 .calcul-tip:hover .tip-bulle, .calcul-tip:focus-within .tip-bulle { opacity: 1; visibility: visible; transform: none; }
 
-/* ---------- petits écrans : la carte passe au-dessus, rien ne défile ---------- */
+/* ---------- téléphones ----------
+   Trois blocs : tout petit écran (réglages communs), portrait (la carte au-dessus des réponses), paysage (la carte à gauche, les réponses à droite).
+   Un menu trop long défile dans sa zone ; le reste de la page ne défile pas. */
+.jeu.menu { overflow: auto; }
+.astuce-paysage { display: none; }
 @media (max-width: 820px) {
   .barre { flex-wrap: wrap; padding: 10px 16px; row-gap: 6px; }
   .outils { margin-left: 0; width: 100%; justify-content: space-between; }
   .filtres { justify-content: flex-start; }
-  .corps { padding: 4px 16px 16px; }
-  .jeu, .jeu.pays-jeu { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 37%) minmax(0, 1fr); gap: 8px; }
+  .corps { padding: 4px 12px 12px; }
   .jeu .panneau { justify-content: flex-start; gap: 8px; }
   .jeu .choix-btn { padding: 6px 12px; }
   .retour-jeu { gap: 3px; }
   .jeu .etiquette { display: none; }
   .retour-jeu button { padding: 5px 14px; }
-  .jeu.sans-carte { grid-template-rows: minmax(0, 1fr); }
-  .formats { grid-template-columns: 1fr; gap: 10px; }
+  .jeu.sans-carte { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); }
+  .jeu.menu { place-items: start center; }
+  .formats { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .format { flex-direction: row; flex-wrap: wrap; justify-content: flex-start; text-align: left; padding: 12px 16px; gap: 2px 12px; }
   .format svg { width: 36px; height: 36px; margin: 0; grid-row: span 3; }
   .format-detail { flex-basis: 100%; }
-  .liste-etude.deux, .liste-etude.trois { grid-template-columns: 1fr 1fr; }
-  .monde-mini { display: none; }
-  .jeu.revision-pays { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); gap: 4px; }
+  .regions-choix { justify-content: flex-start; height: auto; }
+  .regions-grille, .regions-grille.continents { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 6px; }
   .revision-entete { grid-template-columns: minmax(0, 1fr) auto; row-gap: 4px; }
-  .revision-titre { grid-column: 1 / -1; grid-row: 1; font-size: 1.05rem; }
+  .revision-titre { grid-column: 1 / -1; grid-row: 1; font-size: 1.02rem; }
   .revision-gauche { grid-row: 2; } .revision-droite { grid-column: 2; grid-row: 2; }
   .revision-droite .bouton, .revision-droite button { padding: 5px 12px; }
-  .liste-etude li { padding: 2px 6px; }
-  .liste-etude li b { font-size: .8rem; } .liste-etude li span { font-size: .75rem; }
-  .jeu .panneau.etude .consigne { font-size: .95rem; }
-  .regions-grille { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; }
+  .corps:has(.jeu.revision-pays) { padding: 0 6px 6px; }
   .consigne { font-size: 1.1rem; }
-  .choix { grid-template-columns: 1fr; gap: 6px; }
   .choix-btn { padding: 8px 12px; }
-  .retour-jeu { min-height: 0; }
   .carte-culture, .lecture { padding: 14px 16px; gap: 10px; }
   .barre h1 { font-size: 1.05rem; }
   .filtre { padding: 3px 8px; font-size: .78rem; }
@@ -456,6 +442,8 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   .recto { font-size: 1.15rem; }
   .verso { font-size: .9rem; }
   .notes { gap: 5px; }
+  .calcul-passer { left: auto; right: 6px; width: 34px; height: 34px; }
+  .calcul-saisie .calcul-reponse { padding-right: 46px; padding-left: 46px; }
   kbd { display: none; }
   .methode { gap: 10px; }
   .seance { padding: 12px 14px 14px; gap: 9px; }
@@ -467,6 +455,62 @@ button:focus-visible, .bouton:focus-visible, a:focus-visible { outline: 2px soli
   .seance-tete { grid-template-columns: minmax(0, 1fr) auto auto; gap: 4px 10px; padding: 9px 12px; }
   .seance-tags { grid-column: 1 / -1; grid-row: 2; }
   .seance-corps { padding: 2px 12px 12px; }
+}
+.activite-territoires .barre { row-gap: 2px; }
+.activite-territoires h1 { font-size: .95rem; }
+.activite-territoires .outils { flex: 1 1 auto; width: auto; margin-left: auto; justify-content: flex-end; gap: 8px; }
+.activite-territoires .filtres { flex-wrap: nowrap; gap: 0; }
+.activite-territoires .filtre { padding: 3px 6px; }
+/* portrait : la carte occupe tout ce que les réponses ne prennent pas ; les quatre choix tiennent sur deux colonnes */
+@media (max-width: 820px) and (orientation: portrait) {
+  .jeu, .jeu.pays-jeu { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; gap: 6px; }
+  .jeu.revision-pays { grid-template-rows: auto minmax(0, 1fr); }
+  .jeu.sans-carte { grid-template-rows: minmax(0, 1fr); }
+  .choix { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .retour-jeu { min-height: 5.6rem; }
+  .jeu-carte { position: relative; }
+  .jeu.pays-jeu .astuce-paysage { animation: none; }
+  /* un conseil discret, qui s'efface seul : la carte est plus grande en paysage */
+  .astuce-paysage { display: block; position: absolute; z-index: 3; left: 50%; bottom: 8px; transform: translateX(-50%); padding: 5px 12px; border-radius: 999px; pointer-events: none;
+    background: var(--carte-survol); border: 1px solid var(--bord-fort); color: var(--discret); font-size: .78rem; white-space: nowrap; animation: astuce 7s ease forwards; }
+}
+@keyframes astuce { 0%, 80% { opacity: 1; } 100% { opacity: 0; visibility: hidden; } }
+/* paysage sur téléphone : barre fine, la carte à gauche et les réponses à droite */
+@media (orientation: landscape) and (max-height: 520px) {
+  .barre { flex-wrap: nowrap; padding: 4px 12px; gap: 10px; }
+  .barre h1 { font-size: 1rem; }
+  .retour svg { width: 32px; height: 32px; }
+  .outils { width: auto; margin-left: auto; flex-wrap: nowrap; gap: 8px; }
+  .corps { padding: 0 12px 6px; }
+  .corps:has(.jeu.revision-pays) { padding: 0 8px 4px; }
+  .jeu, .jeu.pays-jeu { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); gap: 14px; }
+  .jeu.sans-carte, .jeu.pays-jeu.sans-carte { grid-template-columns: minmax(0, 1fr); }
+  .jeu.revision-pays { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); gap: 2px; }
+  .jeu .panneau { justify-content: center; gap: 6px; }
+  .consigne, .jeu.sans-carte .consigne { font-size: 1rem; }
+  .choix { grid-template-columns: 1fr; gap: 4px; }
+  .choix-btn, .jeu.sans-carte .choix-btn { padding: 5px 12px; font-size: .92rem; }
+  .jeu.sans-carte .choix { grid-template-columns: 1fr 1fr; }
+  .retour-jeu { min-height: 4.2rem; }
+  .retour-jeu p.juste { font-size: 1.1rem; padding: 3px 12px; }
+  .revision-entete { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); row-gap: 0; }
+  .revision-titre { grid-column: 2; grid-row: 1; font-size: .98rem; }
+  .revision-titre small { display: none; }
+  .revision-gauche { grid-row: 1; } .revision-droite { grid-column: 3; grid-row: 1; }
+  .options-questions { font-size: .78rem; gap: 2px 6px; }
+  .options-questions > .discret { display: none; }
+  .formats { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .format { flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 10px 6px; }
+  .format svg { width: 40px; height: 40px; }
+  .format-titre { font-size: 1.05rem; }
+  .format-detail { display: none; }
+  .regions-grille, .regions-grille.continents { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); }
+  .region-mini, .regions-grille.continents .region-mini { height: 56px; }
+  .grand { font-size: 1.5rem; }
+  .carte-culture, .lecture { padding: 10px 14px; gap: 8px; }
+  .recto { font-size: 1.05rem; }
+  .brief-pied { min-height: 28px; }
+  .calcul-zone { gap: 8px; padding-top: 6px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .hex-corps { animation: none; transition: none; }

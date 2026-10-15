@@ -1,5 +1,5 @@
 // Accueil : quatre hexagones autour d'un hexagone central (suivi de la méthode de travail) ; le nom apparaît au survol.
-// Version light : l'hexagone central, le brief et la lecture sont grisés (ils n'existent que dans la version locale).
+// Version light : l'hexagone central (méthode de travail) est grisé : il n'existe que dans la version locale.
 import { h } from '../../js/ui.js';
 import { detaillee } from './icones.js';
 import { pointsHexagone } from './cadre.js';
@@ -12,8 +12,8 @@ const PAS = Math.sqrt(3) * R;  // distance entre deux centres voisins d'une mêm
 export const ACTIVITES = [
   { id: 'territoires', titre: 'Jeu des territoires', icone: 'territoires', x: -PAS / 2, y: -1.5 * R },
   { id: 'cartes', titre: 'Cartes de culture', icone: 'cartes', x: PAS / 2, y: -1.5 * R },
-  { id: 'brief', titre: 'Brief d\'actualité', icone: 'brief', x: -PAS / 2, y: 1.5 * R, local: true },
-  { id: 'lecture', titre: 'Lecture territoriale', icone: 'lecture', x: PAS / 2, y: 1.5 * R, local: true },
+  { id: 'brief', titre: 'Brief d\'actualité', icone: 'brief', x: -PAS / 2, y: 1.5 * R },
+  { id: 'lecture', titre: 'Lecture territoriale', icone: 'lecture', x: PAS / 2, y: 1.5 * R },
   { id: 'methode', titre: 'Méthode de travail', icone: 'methode', x: 0, y: 0, centre: true, local: true },
   { id: 'calcul', titre: 'Calcul mental', icone: 'calcul', x: PAS, y: 0 },
 ];

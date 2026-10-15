@@ -1,5 +1,5 @@
 // Jeu des territoires. Quatre formats au choix avant de jouer (régions, départements d'une région, villes, pays d'un continent) ;
-// avant chaque série, un écran de révision montre la carte zoomée avec les noms et les préfectures.
+// avant chaque série, un écran de révision montre la carte en grand avec tous les noms (et les préfectures) dessus.
 // Logique des questions : formats.js et site/js/territoires.js (partagée avec Upgrade) ; progression : répétition espacée d'Upgrade.
 import { h, fill } from '../../js/ui.js';
 import { loadData } from '../../js/data.js';
@@ -8,7 +8,7 @@ import { noterReponse } from '../../js/territoires.js';
 import { cadre } from './cadre.js';
 import { iconeDetaillee } from './icones.js';
 import { bornes, carteMonde, cartePays, carteVilles, largeurVue, legendesEncarts, optionsCarte, poserRevision } from './carte-first.js';
-import { FORMATS, OPTIONS_QUESTIONS, TITRES_MODES, continent, continents, creerQuestionFirst, groupe, groupes, lignesEtude, optionsDuFormat, serie } from './formats.js';
+import { FORMATS, OPTIONS_QUESTIONS, TITRES_MODES, continent, continents, creerQuestionFirst, groupe, groupes, optionsDuFormat, serie } from './formats.js';
 import { texteAvecDrapeau, drapeau } from './drapeaux.js';
 import { choisirCoin, hauteurMini, miniMonde, poserRevisionPays, vueEnTexte, vueEtendue } from './revision-pays.js';
 
@@ -23,6 +23,9 @@ function lireOptions() {
 function ecrireOptions(options) {
   try { localStorage.setItem(CLE_OPTIONS, JSON.stringify(options)); } catch { /* stockage indisponible : le réglage ne dure que pour la séance */ }
 }
+
+// Conseil qui n'apparaît que sur un téléphone tenu en portrait (voir .astuce-paysage dans first.css) et s'efface seul.
+const astuce = () => h('p', { class: 'astuce-paysage', 'aria-hidden': 'true' }, 'Carte plus grande en paysage : tourne le téléphone');
 
 const retourFormat = (format) => (format === 'departements' || format === 'pays' ? `#/territoires?f=${format}` : '#/territoires');
 
@@ -110,7 +113,6 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm
   const states = await store.states();
   const options = lireOptions();
   zone.classList.toggle('pays-jeu', format === 'pays');
-  const lignes = lignesEtude(format, data, villes, g);
   const titreFormat = format === 'departements' ? `Départements · ${g.nom}` : format === 'pays' ? `Pays · ${g.nom}` : FORMATS[format].titre;
   const actifsPays = format === 'pays' ? new Set(g.pays.map((p) => p.id)) : null;
   const nomsPays = format === 'pays' ? new Map(g.pays.map((p) => [p.id, p.nom])) : null;
@@ -174,6 +176,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm
     zone.classList.remove('sans-carte', 'menu');
     zone.classList.add('revision-pays');
     const corps = h('div', { class: 'revision-carte' });
+    corps.append(astuce());
     fill(zone,
       h('div', { class: 'revision-entete' },
         h('div', { class: 'revision-gauche' }, puces()),
@@ -196,42 +199,29 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm
     poserRevisionPays(carte.el, geoPays, g.pays, { vue, echelle, evite: [coin] });
   }
 
-  // ----- écran de révision : noms et préfectures avant de jouer
+  // ----- écran de révision : une grande carte avec tous les noms (et les préfectures) dessus, sans liste
   function etude() {
     if (format === 'pays') { etudePays(); return; }
     courant = null;
     compteur.textContent = '';
     zone.classList.remove('sans-carte', 'menu');
+    zone.classList.add('revision-pays');
     const carte = fabriquerCarte(null, { legendes: true });
-    let pins = new Map();
     if (format === 'villes') carte.nommerTout();
-    else pins = poserPins(carte);
+    else poserPins(carte);
+    // Outre-mer : une petite carte du monde en médaillon, dans un coin de la carte.
     const monde = geoOm ? carteMonde(geoOm, data) : null;
-    const items = lignes.map((l) => {
-      const li = h('li', { 'data-code': l.code }, h('b', null, l.titre), h('span', null, l.detail));
-      const cible = carte.chemin(l.code);
-      const pin = pins.get(l.code);
-      const repere = monde?.chemin(l.code);
-      const allume = (on) => { li.classList.toggle('survol', on); cible?.classList.toggle('survol', on); pin?.classList.toggle('survol', on); repere?.classList.toggle('survol', on); };
-      li.addEventListener('pointerenter', () => allume(true));
-      li.addEventListener('pointerleave', () => allume(false));
-      cible?.addEventListener('pointerenter', () => allume(true));
-      cible?.addEventListener('pointerleave', () => allume(false));
-      return li;
-    });
     const enTete = { regions: 'Régions et préfectures de région', departements: `Départements et préfectures · ${g?.nom ?? ''}`, villes: 'Principales villes de France' }[format];
     fill(zone,
-      h('div', { class: 'jeu-carte' }, carte.el),
-      h('div', { class: 'panneau etude' },
-        h('p', { class: 'etiquette' }, 'À revoir avant de jouer'),
-        h('h2', { class: 'consigne' }, enTete),
-        format === 'villes' ? h('p', { class: 'discret legende-etude' }, 'La taille des pastilles suit la population (Wikidata).') : null,
-        h('ul', { class: `liste-etude${lignes.length > 24 ? ' trois compacte' : monde && lignes.length > 6 ? ' deux compacte' : lignes.length > 12 ? ' deux' : ''}` }, items),
-        monde ? h('div', { class: 'monde-mini' }, h('p', { class: 'etiquette' }, 'Position dans le monde'), monde.el) : null,
-        puces(),
-        h('div', { class: 'rangee' },
-          h('button', { id: 'commencer', onclick: nouvelleSerie }, 'Commencer', h('kbd', null, 'Entrée')),
-          h('a', { class: 'bouton secondaire', href: retourFormat(format) }, 'Changer'))));
+      h('div', { class: 'revision-entete' },
+        h('div', { class: 'revision-gauche' }, puces()),
+        h('h2', { class: 'revision-titre' }, enTete,
+          format === 'villes' ? h('small', { class: 'discret' }, 'Taille des pastilles : population (Wikidata)') : null),
+        h('div', { class: 'revision-droite' },
+          h('a', { class: 'bouton secondaire', href: retourFormat(format) }, 'Changer'),
+          h('button', { id: 'commencer', onclick: nouvelleSerie }, 'Commencer', h('kbd', null, 'Entrée')))),
+      h('div', { class: 'revision-carte' }, carte.el, astuce(),
+        monde ? h('div', { class: 'monde-inset', 'aria-label': 'Position dans le monde' }, monde.el) : null));
     document.getElementById('commencer')?.focus();
   }
 
@@ -322,7 +312,7 @@ async function jouer({ zone, compteur, store, data, geo, geoPays, geoMini, geoOm
     }
 
     fill(zone,
-      carte ? h('div', { class: 'jeu-carte' }, carte.el) : null,
+      carte ? h('div', { class: 'jeu-carte' }, carte.el, format === 'pays' || total - file.length === 1 ? astuce() : null) : null,
       h('div', { class: `panneau${carte ? '' : ' centre'}` },
         h('div', { class: 'progression', 'aria-hidden': 'true' }, h('i', { style: `width:${Math.max(0, Math.round(100 * (total - file.length - 1) / total))}%` })),
         h('p', { class: 'etiquette' }, `${titreFormat} · ${TITRES_MODES[item.mode]}`),
