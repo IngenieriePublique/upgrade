@@ -1,7 +1,7 @@
 {
  "version": 1,
- "date": "2026-10-17",
- "genere": "2026-10-17T04:42Z",
+ "date": "2026-10-18",
+ "genere": "2026-10-18T04:41Z",
  "plafond": 13,
  "items": [
   {
@@ -14,20 +14,7 @@
    "chapo": "Les intercommunalités et certaines communes sont appelées à verser la nouvelle « contribution progressive à l’effort budgétaire », voulue par le gouvernement dans le cadre du projet de loi de…",
    "theme": "institutions",
    "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
-   "score": 6.09,
-   "payant": true
-  },
-  {
-   "id": "3e445c6bab",
-   "rubrique": "france",
-   "titre": "Budget 2027 : sur les aides aux seniors, les départements dénoncent un « tour de passe-passe » du gouvernement",
-   "lien": "https://www.lemonde.fr/societe/article/2026/10/16/budget-2027-sur-les-aides-aux-seniors-les-departements-denoncent-un-tour-de-passe-passe-du-gouvernement_6795427_3224.html",
-   "source": "Le Monde",
-   "date": "2026-10-16T07:42Z",
-   "chapo": "Dans le projet de loi de financement de la Sécurité sociale, l’exécutif prévoit de réduire les dépenses pour l’allocation personnalisée d’autonomie et de ponctionner une partie des recettes de la…",
-   "theme": "institutions",
-   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
-   "score": 6.06,
+   "score": 5.59,
    "payant": true
   },
   {
@@ -40,20 +27,20 @@
    "chapo": "Les associations de lutte contre la pauvreté déplorent que le projet de loi de finances et le projet de loi de finances de la Sécurité sociale pour 2027 « n’apportent aucune réponse structurelle »…",
    "theme": "finances",
    "question": "Si on économisait ici, qui en subirait les effets en premier ?",
-   "score": 5.97,
+   "score": 5.47,
    "payant": true
   },
   {
-   "id": "7440f5c534",
+   "id": "41c8847e82",
    "rubrique": "france",
-   "titre": "Budget 2027 : l’Assemblée nationale rejette la taxe Zucman sur les plus grandes fortunes",
-   "lien": "https://www.sudouest.fr/economie/budget-2027-l-assemblee-nationale-rejette-la-taxe-zucman-sur-les-plus-grandes-fortunes-31105264.php",
+   "titre": "Environnement : face aux baisses de dotations et aux aléas climatiques, les collectivités de l’Hérault sont prises en étau",
+   "lien": "https://www.sudouest.fr/environnement/climat/environnement-face-aux-baisses-de-dotations-et-aux-aleas-climatiques-les-collectivites-de-l-herault-sont-prises-en-etau-31108253.php",
    "source": "Sud Ouest",
-   "date": "2026-10-16T19:10Z",
-   "chapo": "Les députés ont rejeté plusieurs propositions de la gauche visant à instaurer un impôt minimum sur le patrimoine des ultrariches et à rétablir l’impôt de solidarité sur la fortune",
-   "theme": "finances",
-   "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
-   "score": 5.6,
+   "date": "2026-10-17T08:19Z",
+   "chapo": "Entre les dégâts causés par les intempéries et les économies réclamées par le gouvernement, les communes héraultaises s’inquiètent pour le financement de leurs infrastructures",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 5.08,
    "payant": true
   },
   {
@@ -66,7 +53,75 @@
    "chapo": "Réclamant sa venue jeudi, le président de l'Assemblée des départements de France, le centriste François Sauvadet, n'a pas apprécié la réponse du Premier ministre, un courrier envoyé quelques heures…",
    "theme": "institutions",
    "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
-   "score": 5.52
+   "score": 5.02
+  },
+  {
+   "id": "44395bd156",
+   "rubrique": "france",
+   "titre": "\"Nous ne nous laisserons pas intimider\", prévient Sébastien Lecornu, dénonçant les violences en marge des manifestations du 17 octobre",
+   "lien": "https://www.franceinfo.fr/economie/greve/nous-ne-nous-laisserons-pas-intimider-previent-sebastien-lecornu-denoncant-les-violences-en-marge-des-manifestations-du-17-octobre_8242030.html",
+   "source": "franceinfo",
+   "date": "2026-10-17T17:37Z",
+   "chapo": "Le Premier ministre a apporté \"tout\" son soutien aux forces de l'ordre \"qui ont affronté une violence d'une extrême intensité\".",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 4.97,
+   "reprises": 3
+  },
+  {
+   "id": "9a7185ada3",
+   "rubrique": "monde",
+   "titre": "En Cisjordanie occupée, des colons attaquent un convoi diplomatique européen et frappent un maire français",
+   "lien": "https://www.lemonde.fr/international/article/2026/10/18/en-cisjordanie-des-colons-attaquent-un-convoi-diplomatique-europeen-et-frappent-un-maire-du-nord-de-la-france_6796789_3210.html",
+   "source": "Le Monde",
+   "date": "2026-10-18T01:00Z",
+   "chapo": "Le bureau du premier ministre israélien, Benyamin Nétanyahou, a affirmé que les diplomates auraient dû coordonner leurs déplacements avec l’armée de l’Etat hébreu.",
+   "theme": "territoires",
+   "question": "Que dirait un maire de petite commune ? Et un préfet ?",
+   "score": 6.82,
+   "payant": true,
+   "reprises": 5
+  },
+  {
+   "id": "022f1e9342",
+   "rubrique": "monde",
+   "titre": "Scènes de “chaos” en France : les manifestations contre la vie chère “dégénèrent en émeutes et en pillages”",
+   "lien": "https://www.courrierinternational.com/article/vu-de-l-etranger-scenes-de-chaos-en-france-les-manifestations-contre-la-vie-chere-degenerent-en-emeutes-et-en-pillages_279613",
+   "source": "Courrier international",
+   "date": "2026-10-18T03:56Z",
+   "chapo": "La journée de mobilisation a réuni 550 000 personnes, samedi, à travers le pays, selon le ministère de l’Intérieur.",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 5.28,
+   "payant": true,
+   "reprises": 4
+  },
+  {
+   "id": "f6d1efa47d",
+   "rubrique": "monde",
+   "titre": "Donald Trump exempte la Russie de nouvelles sanctions et inflige un nouveau camouflet à Kiev",
+   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/donald-trump-exempte-la-russie-de-nouvelles-sanctions-et-inflige-un-nouveau-camouflet-a-kiev_8241421.html",
+   "source": "franceinfo",
+   "date": "2026-10-17T10:40Z",
+   "chapo": "Le décret présidentiel vide le Graham Act, dont la portée était déjà largement symbolique, de toute substance.",
+   "theme": "institutions",
+   "question": "Cette décision relève-t-elle de la loi, du règlement ou du juge ?",
+   "score": 5.22,
+   "reprises": 3
+  },
+  {
+   "id": "5a8dc46a21",
+   "rubrique": "monde",
+   "titre": "Le pape Léon XIV, jugé « apte » à quitter l’hôpital, est de retour au Vatican, quatre jours après son opération au poumon",
+   "lien": "https://www.lemonde.fr/international/article/2026/10/18/le-pape-leon-xiv-juge-apte-a-quitter-l-hopital-est-de-retour-au-vatican-quatre-jours-apres-son-operation-au-poumon_6796756_3210.html",
+   "source": "Le Monde",
+   "date": "2026-10-17T23:37Z",
+   "chapo": "Après avoir été opéré d’un nodule pulmonaire cancéreux à la polyclinique Gemelli de Rome, le souverain pontife de 71 ans se trouve dans un « état clinique absolument satisfaisant », a affirmé l’un de…",
+   "theme": "social",
+   "question": "Que changerait ce sujet dans un département comme la Gironde ?",
+   "score": 5.19,
+   "payant": true,
+   "reprises": 6
   },
   {
    "id": "9a3da1f096",
@@ -78,59 +133,8 @@
    "chapo": "\"Plutôt que l’option de la docilité attendue par Donald Trump, le président ukrainien a finalement opté pour la confrontation\", attaque Le Monde.",
    "theme": "international",
    "question": "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
-   "score": 5.92,
-   "reprises": 4
-  },
-  {
-   "id": "9b2a980afb",
-   "rubrique": "monde",
-   "titre": "La porte-parole de la Maison-Blanche limogée cinq jours après sa prise de fonctions",
-   "lien": "https://www.courrierinternational.com/article/etats-unis-la-porte-parole-de-la-maison-blanche-limogee-cinq-jours-apres-sa-prise-de-fonctions_279480",
-   "source": "Courrier international",
-   "date": "2026-10-17T03:57Z",
-   "chapo": "Katie Zacharia, qui remplaçait depuis lundi Karoline Leavitt au poste de porte-parole de la Maison-Blanche, a été limogée vendredi, cinq jours seulement après sa prise de fonctions.",
-   "theme": "defaut",
-   "question": "Qui y gagne, qui y perd, et qui n'est pas dans la discussion ?",
-   "score": 5.28,
-   "payant": true,
-   "reprises": 6
-  },
-  {
-   "id": "719b8c3839",
-   "rubrique": "monde",
-   "titre": "\"D'un coup, ils m'ont attaquée\" : une journaliste américaine blessée par des colons israéliens en Cisjordanie occupée",
-   "lien": "https://www.franceinfo.fr/monde/proche-orient/d-un-coup-ils-m-ont-attaquee-une-journaliste-americaine-blessee-par-des-colons-israeliens-en-cisjordanie-occupee_8241010.html",
-   "source": "franceinfo",
-   "date": "2026-10-16T21:00Z",
-   "chapo": "Heidi Levine couvrait la récolte des olives, quand, \"soudain\", elle a \"vu plus de 50 hommes masqués\" et armés de bâtons et de barres de fer se ruer sur elle.",
-   "theme": "defaut",
-   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
-   "score": 5.14,
-   "reprises": 4
-  },
-  {
-   "id": "366b61a2de",
-   "rubrique": "monde",
-   "titre": "Pierre Moscovici : \"Il est compliqué d’adopter un budget européen avant des élections majeures\"",
-   "lien": "https://www.france24.com/fr/%C3%A9missions/ici-l-europe/20261016-pierre-moscovici-il-est-compliqu%C3%A9-d-adopter-un-budget-europ%C3%A9en-avant-des-%C3%A9lections-majeures",
-   "source": "France 24",
-   "date": "2026-10-16T16:05Z",
-   "chapo": "Depuis 1977, la Cour des comptes agit comme un auditeur externe de l’Union européenne, examinant la gestion financière et le budget de l’Union.",
-   "theme": "finances",
-   "question": "Si on économisait ici, qui en subirait les effets en premier ?",
-   "score": 4.94
-  },
-  {
-   "id": "44852a2de1",
-   "rubrique": "monde",
-   "titre": "Acheter ou louer en Europe : quelle surface peut-on avoir dans sa ville avec un tiers du revenu moyen ?",
-   "lien": "https://www.touteleurope.eu/societe/acheter-ou-louer-en-europe-quelle-surface-peut-on-avoir-dans-sa-ville-avec-un-tiers-du-revenu-moyen/",
-   "source": "Toute l'Europe",
-   "date": "2026-10-16T09:00Z",
-   "chapo": "La crise de l'accessibilité financière du logement ne touche pas l'Europe de manière uniforme.",
-   "theme": "social",
-   "question": "Que changerait ce sujet dans un département comme la Gironde ?",
-   "score": 4.79
+   "score": 4.72,
+   "reprises": 3
   },
   {
    "id": "d3459e3e29",
@@ -142,7 +146,7 @@
    "chapo": "La 36e Convention d'Intercommunalités de France s'est poursuivie ce vendredi 16 octobre à Dunkerque.",
    "theme": "territoires",
    "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
-   "score": 7.13
+   "score": 6.99
   },
   {
    "id": "5d7eac1326",
@@ -154,7 +158,7 @@
    "chapo": "Comme chaque année à la même période, la Direction générale de l’administration et de la fonction publique (DGAFP) a publié son Rapport annuel sur l’état de la fonction publique, un volumineux…",
    "theme": "evaluation",
    "question": "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
-   "score": 7.03,
+   "score": 6.89,
    "payant": true
   },
   {
@@ -167,7 +171,7 @@
    "chapo": "La plupart des associations nationales d'élus locaux ont rendu publique le 14 octobre une déclaration commune dans laquelle elles manifestent leur \"opposition ferme\" au volet finances locales du…",
    "theme": "finances",
    "question": "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
-   "score": 6.96
+   "score": 6.82
   }
  ],
  "dossier": {
@@ -185,9 +189,9 @@
  },
  "truc": {
   "type": "fait",
-  "titre": "1917 : début de la bataille du détroit de Muhu opposant l'Empire allemand et la jeune République russe pendant la Première Guerre mondiale.",
-  "extrait": "La bataille du détroit de Muhu ou du Moon-Sund est un affrontement naval livré pendant l'automne 1917 dans la mer Baltique, lors de la Première Guerre mondiale.",
-  "lien": "https://fr.wikipedia.org/wiki/Bataille_du_d%C3%A9troit_de_Muhu",
+  "titre": "1867 : les États-Unis achètent l'Alaska à l'Empire russe.",
+  "extrait": "Les États-Unis, en forme longue les États-Unis d'Amérique, également appelés de manière informelle les USA ou l'Amérique, ou familièrement les States, sont un État transcontinental dont une large majorité du territoire se situe en Amérique du Nord.",
+  "lien": "https://fr.wikipedia.org/wiki/%C3%89tats-Unis",
   "source": "Wikipédia",
   "licence": "CC BY-SA 4.0"
  },
