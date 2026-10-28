@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "date": "2026-10-28",
+ "genere": "2026-10-28T04:54Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "f51b8e78f9",
+   "rubrique": "france",
+   "titre": "Attentat raciste dans les Yvelines, mobilisation lycéenne... La séance des Questions au gouvernement à l'Assemblée nationale du 27 octobre",
+   "lien": "https://www.franceinfo.fr/politique/parlement-francais/assemblee-nationale/video-attentat-raciste-dans-les-yvelines-mobilisation-lyceenne-suivez-la-seance-des-questions-au-gouvernement-a-l-assemblee-nationale-a-partir-de-15-heures_8255923.html",
+   "source": "franceinfo",
+   "date": "2026-10-27T16:54Z",
+   "chapo": "Le maire de Trappes, Ali Rabeh, est attendu dans l'hémicycle mardi, où les députés vont observer une minute de silence en hommage à Pengo Bossio Wangi, victime de l'attentat raciste perpétré vendredi.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 6.65,
+   "reprises": 4
+  },
+  {
+   "id": "349d32f59f",
+   "rubrique": "france",
+   "titre": "Statut de la Corse : après le rejet du texte par le Sénat, Sébastien Lecornu demande à la ministre de l'Aménagement du territoire de \"réunir toutes les parties prenantes\" pour trouver des solutions",
+   "lien": "https://www.franceinfo.fr/france/corse/statut-de-la-corse-apres-le-rejet-du-texte-par-le-senat-sebastien-lecornu-demande-a-la-ministre-de-l-amenagement-du-territoire-de-reunir-toutes-les-parties-prenantes-pour-trouver-des-solutions_8255308.html",
+   "source": "franceinfo",
+   "date": "2026-10-27T07:25Z",
+   "chapo": "le camp autonomiste a annoncé lundi soir son \"retrait\" du processus de Beauvau devant conduire l'île à un statut d'autonomie dans la République, face au détricotage d'une réforme constitutionnelle…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 6.35
+  },
+  {
+   "id": "3fa6270e25",
+   "rubrique": "france",
+   "titre": "Changement climatique : la communauté scientifique appelle à décréter une « urgence sanitaire mondiale »",
+   "lien": "https://www.lemonde.fr/planete/article/2026/10/28/changement-climatique-la-communaute-scientifique-appelle-a-decreter-une-urgence-sanitaire-mondiale_6801524_3244.html",
+   "source": "Le Monde",
+   "date": "2026-10-28T04:00Z",
+   "chapo": "Le 10ᵉ rapport du Lancet Countdown montre que les effets du réchauffement sur la santé comme le nombre de décès liés à la chaleur se sont considérablement aggravés depuis la signature de l’accord de…",
+   "theme": "evaluation",
+   "question": "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
+   "score": 5.18,
+   "payant": true
+  },
+  {
+   "id": "0392177cf4",
+   "rubrique": "france",
+   "titre": "Mobilisations sociales : le projet de loi « casseurs-payeurs » approuvé et élargi par le Sénat après les violences du 17 octobre",
+   "lien": "https://www.lemonde.fr/politique/article/2026/10/28/mobilisations-sociales-le-projet-de-loi-casseurs-payeurs-approuve-et-elargi-par-le-senat-apres-les-violences-du-17-octobre_6801416_823448.html",
+   "source": "Le Monde",
+   "date": "2026-10-28T00:26Z",
+   "chapo": "Le texte, très critiqué à gauche, a été adopté à 229 voix contre 105 et est désormais transmis à l’Assemblée nationale.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 4.71,
+   "payant": true
+  },
+  {
+   "id": "593e6d5c3a",
+   "rubrique": "france",
+   "titre": "«Ce consensus historique ne rassemble plus l’ensemble de la classe politique» : le financement du Centre national du cinéma sous pression",
+   "lien": "https://www.lefigaro.fr/medias/ce-consensus-historique-ne-rassemble-plus-l-ensemble-de-la-classe-politique-le-financement-du-centre-national-du-cinema-sous-pression-20261027",
+   "source": "Le Figaro",
+   "date": "2026-10-27T20:00Z",
+   "chapo": "DÉCRYPTAGE - Si le gouvernement ne prévoit aucune nouvelle ponction sur l’institution octogénaire dans le cadre du budget 2027, certains députés souhaitent à nouveau la mettre à contribution, sur…",
+   "theme": "finances",
+   "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
+   "score": 3.61,
+   "payant": true
+  },
+  {
+   "id": "8c30dc4bb2",
+   "rubrique": "monde",
+   "titre": "Lycées : le grand écart des heures de cours en Europe",
+   "lien": "https://www.touteleurope.eu/societe/lycees-le-grand-ecart-des-heures-de-cours-en-europe/",
+   "source": "Toute l'Europe",
+   "date": "2026-10-27T08:53Z",
+   "chapo": "Selon le rapport de l'OCDE Regards sur l'éducation 2025, dans les treize États membres de l'Union européenne pour lesquels les données sont disponibles, le volume horaire prévu atteint en moyenne 903…",
+   "theme": "evaluation",
+   "question": "Pertinence, efficacité, efficience : où le dispositif est-il le plus fragile ?",
+   "score": 6.78
+  },
+  {
+   "id": "7cc15c3a0b",
+   "rubrique": "monde",
+   "titre": "La Commission européenne veut renforcer Frontex et élargir ses pouvoirs d’expulsion de migrants",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/la-commission-europeenne-veut-renforcer-frontex-et-elargir-ses-pouvoirs-d-expulsion-de-migrants/",
+   "source": "Toute l'Europe",
+   "date": "2026-10-27T15:51Z",
+   "chapo": "Nouveau tour de vis de la politique migratoire européenne. La Commission européenne a proposé ce mardi 27 octobre une vaste réforme de Frontex, l'agence européenne chargée de la surveillance des…",
+   "theme": "international",
+   "question": "Quels sont les intérêts de chaque acteur, au-delà de ce qu'il déclare ?",
+   "score": 6.33,
+   "reprises": 3
+  },
+  {
+   "id": "c397e41794",
+   "rubrique": "monde",
+   "titre": "Kylian Mbappé boycotté en Chine après ses propos sur Mao Zedong",
+   "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/kylian-mbappe-boycotte-en-chine-apres-ses-propos-sur-mao-zedong_8256385.html",
+   "source": "franceinfo",
+   "date": "2026-10-27T19:46Z",
+   "chapo": "Il a suffi de quelques mots pour que Kylian Mbappé provoque un scandale international et tombe en disgrâce en Chine. Les propos qu'il a tenus sur Mao Zedong lui coûtent cher.",
+   "theme": "international",
+   "question": "Quelle information manque pour juger ?",
+   "score": 5.11,
+   "reprises": 5
+  },
+  {
+   "id": "51b5eed2d2",
+   "rubrique": "monde",
+   "titre": "🔴 Flavio Bolsonaro a fui le Brésil pour les États-Unis, selon la presse brésilienne",
+   "lien": "https://www.france24.com/fr/am%C3%A9riques/20261027-br%C3%A9sil-passeports-flavio-bolsonaro-annul%C3%A9s-argentine-nie-toute-fuite-territoire",
+   "source": "France 24",
+   "date": "2026-10-27T20:48Z",
+   "chapo": "",
+   "theme": "international",
+   "question": "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
+   "score": 4.93,
+   "reprises": 6
+  },
+  {
+   "id": "4ecfd959c2",
+   "rubrique": "monde",
+   "titre": "Tchéquie : la réforme de l’audiovisuel public provoque une fronde contre le gouvernement",
+   "lien": "https://www.courrierinternational.com/article/medias-tchequie-la-reforme-de-l-audiovisuel-public-provoque-une-fronde-contre-le-gouvernement_282021",
+   "source": "Courrier international",
+   "date": "2026-10-27T15:33Z",
+   "chapo": "La volonté du gouvernement du Premier ministre tchèque, le populiste Andrej Babis, de réformer le financement des médias publics suscite de vives contestations.",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 4.52,
+   "payant": true
+  },
+  {
+   "id": "6c4253c48d",
+   "rubrique": "action_publique",
+   "titre": "Label \"Territoire d’eau en transition écologique\" : 16 collectivités lauréates de l'édition 2026",
+   "lien": "https://www.banquedesterritoires.fr/label-territoire-deau-en-transition-ecologique-16-collectivites-laureates-de-ledition-2026",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-10-27T13:57Z",
+   "chapo": "À l'occasion de son congrès, organisé à Lyon, Amorce a récompensé le 8 octobre les 16 collectivités lauréates (EPCI et syndicats) de l'édition 2026 du label \"Territoire d’eau en transition…",
+   "theme": "ecologie",
+   "question": "Quel est l'arbitrage entre le court terme et le long terme ici ?",
+   "score": 7.11
+  },
+  {
+   "id": "8e1d6a220f",
+   "rubrique": "action_publique",
+   "titre": "Maire et policier national dans le même ressort, c'est non !",
+   "lien": "https://www.banquedesterritoires.fr/maire-et-policier-national-dans-le-meme-ressort-cest-non",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-10-23T05:51Z",
+   "chapo": "L'article du code électoral disposant que les fonctionnaires des corps actifs de la police nationale ne peuvent être élus conseillers municipaux dans les communes situées dans le ressort où ils…",
+   "theme": "territoires",
+   "question": "Que dirait un maire de petite commune ? Et un préfet ?",
+   "score": 6.49
+  },
+  {
+   "id": "de824b77aa",
+   "rubrique": "action_publique",
+   "titre": "Violences périscolaires : le Sénat examine des mesures pour mieux protéger les enfants et outiller les maires",
+   "lien": "https://www.maire-info.com/article.asp?param=31221",
+   "source": "Maire-info (AMF)",
+   "date": "2026-10-27T00:00Z",
+   "chapo": "Largement remanié en commission des lois au Sénat avec l’adoption d’une centaine d’amendements et la suppression de 15 articles, le projet de loi relatif à la protection de l’enfance arrive ce jour…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 6.33,
+   "payant": true
+  }
+ ],
+ "dossier": {
+  "id": "e880221641",
+  "rubrique": "action_publique",
+  "titre": "Agence d'urbanisme, de développement et de prospective de la Région de Reims (AUDRR) (Marne)",
+  "lien": "https://www.ccomptes.fr/fr/publications/agence-durbanisme-de-developpement-et-de-prospective-de-la-region-de-reims-audrr-marne",
+  "source": "Cour des comptes",
+  "date": "2026-10-22T12:42Z",
+  "chapo": "La chambre régionale des comptes Grand Est a contrôlé l’agence d’urbanisme, de développement et de prospective de la région de Reims (AUDRR) pour les exercices 2020 à 2025.",
+  "theme": "territoires",
+  "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+  "score": 6.94,
+  "semaine": "2026-W44"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1940 : après le refus du Premier ministre grec Ioánnis Metaxás de céder à l'ultimatum de Mussolini, l'Italie envahit la Grèce et déclenche la guerre italo-grecque.",
+  "extrait": "La liste des Premiers ministres de Grèce présente tous les Premiers ministres et chefs du gouvernement de la Grèce de 1822 à nos jours.",
+  "lien": "https://fr.wikipedia.org/wiki/Liste_des_Premiers_ministres_de_Gr%C3%A8ce",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
