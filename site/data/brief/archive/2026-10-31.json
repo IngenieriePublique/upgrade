@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "date": "2026-10-31",
+ "genere": "2026-10-31T04:53Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "f0456090a1",
+   "rubrique": "france",
+   "titre": "Attentat raciste à Trappes : « Que faut-il de plus pour ouvrir les yeux ? », a lancé le maire, Ali Rabeh, lors du rassemblement en hommage aux victimes, pointant la responsabilité du RN",
+   "lien": "https://www.lemonde.fr/societe/article/2026/10/30/attentat-raciste-a-trappes-que-faut-il-de-plus-pour-ouvrir-les-yeux-a-lance-le-maire-ali-rabeh-lors-du-rassemblement-en-hommage-aux-victimes-pointant-la-responsabilite-du-rn_6803131_3224.html",
+   "source": "Le Monde",
+   "date": "2026-10-30T18:58Z",
+   "chapo": "Près de 12 000 personnes selon la ville de Trappes se sont rassemblées vendredi à 18 heures, dans la ville des Yvelines.",
+   "theme": "territoires",
+   "question": "Que dirait un maire de petite commune ? Et un préfet ?",
+   "score": 6.09,
+   "payant": true,
+   "reprises": 5
+  },
+  {
+   "id": "aacebc3fc5",
+   "rubrique": "france",
+   "titre": "A Trappes, « l’espoir d’un réveil » des Français, alors que l’arrivée de l’extrême droite au pouvoir est dans toutes les têtes",
+   "lien": "https://www.lemonde.fr/politique/article/2026/10/31/a-trappes-l-espoir-d-un-reveil-des-francais-alors-que-l-arrivee-de-l-extreme-droite-au-pouvoir-est-dans-toutes-les-tetes_6803379_823448.html",
+   "source": "Le Monde",
+   "date": "2026-10-31T04:00Z",
+   "chapo": "L’émotion était palpable, vendredi, lors de la cérémonie organisée par Ali Rabeh, le maire (Génération.s) de la commune, une semaine après l’attaque terroriste qui a coûté la vie à une personne et en…",
+   "theme": "territoires",
+   "question": "Quel niveau (commune, intercommunalité, département, région, État) est compétent, et lequel finance ?",
+   "score": 5.18,
+   "payant": true
+  },
+  {
+   "id": "4747f752c5",
+   "rubrique": "france",
+   "titre": "Une proposition de loi pour lutter contre la désinformation en santé, l’avis de Mathieu Molimard, chef de service de pharmacologie médicale du CHU de Bordeaux",
+   "lien": "https://www.sudouest.fr/sante/une-proposition-de-loi-pour-lutter-contre-la-desinformation-en-sante-l-avis-de-mathieu-molimard-chef-de-service-de-pharmacologie-medicale-du-chu-de-bordeaux-31301553.php",
+   "source": "Sud Ouest",
+   "date": "2026-10-30T18:00Z",
+   "chapo": "Le député LR Yannick Neuder, ancien ministre de la Santé, a déposé une proposition de loi à l’Assemblée pour protéger les scientifiques des désinformateurs en santé. Qu’en pense le professeur Molimard",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 4.57,
+   "payant": true
+  },
+  {
+   "id": "9b44575b96",
+   "rubrique": "france",
+   "titre": "L’élection n’est pas encore lancée, mais on connaît déjà le futur président de l’Association des maires du Nord",
+   "lien": "https://www.mediacites.fr/breve/lille/2026/10/29/lelection-nest-pas-encore-lancee-mais-on-connait-deja-le-futur-president-de-lassociation-des-maires-du-nord/",
+   "source": "Mediacités",
+   "date": "2026-10-29T15:00Z",
+   "chapo": "Après trois ans de mandat, Bernard Gérard, qui a cédé sa place de maire de Marcq-en-Baroeul en mars dernier, s’apprête à quitter la présidence de l’Association des maires du Nord.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 4.41,
+   "payant": true
+  },
+  {
+   "id": "21958bee88",
+   "rubrique": "france",
+   "titre": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
+   "lien": "https://www.franceinfo.fr/politique/budget-2027-il-faut-savoir-prendre-des-risques-estime-michel-barnier-qui-plaide-pour-un-49-3-du-premier-ministre-sebastien-lecornu_8260058.html",
+   "source": "franceinfo",
+   "date": "2026-10-30T07:43Z",
+   "chapo": "Invité des \"4 Vérités\" sur France 2, Michel Barnier, ancien Premier ministre et député LR de Paris, est revenu sur le vote du budget pour 2027 en cours à l'Assemblée nationale.",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 4.36
+  },
+  {
+   "id": "37a78164a8",
+   "rubrique": "monde",
+   "titre": "Le taux de chômage en Europe",
+   "lien": "https://www.touteleurope.eu/economie-et-social/le-taux-de-chomage-en-europe/",
+   "source": "Toute l'Europe",
+   "date": "2026-10-30T10:51Z",
+   "chapo": "13,8 millions d’Européens sans emploi Eurostat estime qu’en septembre 2026, 13,8 millions de personnes étaient au chômage dans l’UE, soit 6,2 % de la population active.",
+   "theme": "social",
+   "question": "Qui sont les personnes concernées, et combien sont-elles ?",
+   "score": 6.82
+  },
+  {
+   "id": "806df3e5d7",
+   "rubrique": "monde",
+   "titre": "[Carte] Une année 2025 record pour les voyages en train en Europe",
+   "lien": "https://www.touteleurope.eu/economie-et-social/carte-l-usage-du-train-en-europe/",
+   "source": "Toute l'Europe",
+   "date": "2026-10-30T15:13Z",
+   "chapo": "Une année record. Selon les dernières données publiées par l'office européen de statistiques Eurostat, le 30 octobre, le transport ferroviaire de voyageurs a augmenté de 2,6 % en 2025.",
+   "theme": "ecologie",
+   "question": "Quel est l'arbitrage entre le court terme et le long terme ici ?",
+   "score": 5.92
+  },
+  {
+   "id": "6e9d13db29",
+   "rubrique": "monde",
+   "titre": "Feu vert du gouvernement américain à la vente de 500 missiles intercepteurs Patriot à l'Ukraine",
+   "lien": "https://www.france24.com/fr/europe/20261030-ukraine-en-direct-frappes-meurtri%C3%A8res-dans-la-r%C3%A9gion-de-kiev-le-r%C3%A9seau-%C3%A9lectrique-cibl%C3%A9",
+   "source": "France 24",
+   "date": "2026-10-30T07:28Z",
+   "chapo": "Le gouvernement américain a approuvé la vente de 500 missiles intercepteurs Patriot à l'Ukraine pour un montant dépassant les deux milliards de dollars, a indiqué vendredi le département d'État.",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 5.45,
+   "reprises": 3
+  },
+  {
+   "id": "01043c0950",
+   "rubrique": "monde",
+   "titre": "En Espagne, les familles entre la colère et le désespoir après la tragédie",
+   "lien": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/en-espagne-les-familles-entre-la-colere-et-le-desespoir-apres-la-tragedie_8261027.html",
+   "source": "franceinfo",
+   "date": "2026-10-30T22:49Z",
+   "chapo": "Deux jours après la collision ferroviaire en Espagne, les familles des 67 personnes toujours portées disparues sont confrontées à une attente insoutenable.",
+   "theme": "defaut",
+   "question": "Quelle est la question de fond derrière ce titre ?",
+   "score": 5.17,
+   "reprises": 4
+  },
+  {
+   "id": "a19c8843da",
+   "rubrique": "monde",
+   "titre": "Russie : des drones ukrainiens frappent des raffineries, selon un responsable russe",
+   "lien": "https://www.france24.com/fr/vid%C3%A9o/20261030-russie-des-drones-ukrainiens-frappent-des-raffineries-selon-un-responsable-russe",
+   "source": "France 24",
+   "date": "2026-10-30T16:01Z",
+   "chapo": "L'Ukraine a frappé vendredi trois raffineries de pétrole dans la région russe de Samara, après une \"pause\" de plusieurs jours dans ce type d'attaques, selon le vice-Premier ministre russe en charge…",
+   "theme": "territoires",
+   "question": "Quel niveau (commune, intercommunalité, département, région, État) est compétent, et lequel finance ?",
+   "score": 4.53
+  },
+  {
+   "id": "f5c6a06544",
+   "rubrique": "action_publique",
+   "titre": "L'emploi d'assistant familial désormais sur la liste des activités accessoires des agents publics",
+   "lien": "https://www.banquedesterritoires.fr/lemploi-dassistant-familial-desormais-sur-la-liste-des-activites-accessoires-des-agents-publics",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-10-30T13:32Z",
+   "chapo": "En dépit de l'opposition unanime des syndicats de la fonction publique à l'encontre du texte, le gouvernement a publié ce 30 octobre le décret ouvrant la possibilité pour les agents publics d'exercer…",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 8.11,
+   "reprises": 2
+  },
+  {
+   "id": "f094fbafc8",
+   "rubrique": "action_publique",
+   "titre": "Budget 2027 : l'Assemblée vole au secours des départements",
+   "lien": "https://www.banquedesterritoires.fr/budget-2027-lassemblee-vole-au-secours-des-departements",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-10-28T16:05Z",
+   "chapo": "Après l'examen du projet de loi de financement de la sécurité sociale, l'Assemblée nationale a repris ce 27 octobre le débat en séance sur le projet de loi de finances pour 2027.",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 7.14
+  },
+  {
+   "id": "85d192e5d6",
+   "rubrique": "action_publique",
+   "titre": "Une proposition de loi pour intégrer les AESH dans la fonction publique adoptée à l'Assemblée nationale",
+   "lien": "https://www.maire-info.com/article.asp?param=31236",
+   "source": "Maire-info (AMF)",
+   "date": "2026-10-30T00:00Z",
+   "chapo": "Même dans une Assemblée nationale très divisée, ce texte porté par les députés Insoumis portant sur la revalorisation des AESH a été adopté.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 6.63,
+   "payant": true
+  }
+ ],
+ "dossier": {
+  "id": "e880221641",
+  "rubrique": "action_publique",
+  "titre": "Agence d'urbanisme, de développement et de prospective de la Région de Reims (AUDRR) (Marne)",
+  "lien": "https://www.ccomptes.fr/fr/publications/agence-durbanisme-de-developpement-et-de-prospective-de-la-region-de-reims-audrr-marne",
+  "source": "Cour des comptes",
+  "date": "2026-10-22T12:42Z",
+  "chapo": "La chambre régionale des comptes Grand Est a contrôlé l’agence d’urbanisme, de développement et de prospective de la région de Reims (AUDRR) pour les exercices 2020 à 2025.",
+  "theme": "territoires",
+  "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+  "score": 6.94,
+  "semaine": "2026-W44"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "2011 : la population mondiale atteint les sept milliards d'individus selon les estimations de l'Organisation des Nations unies.",
+  "extrait": "La population mondiale est le nombre d'êtres humains vivant sur Terre à un instant donné. L’ONU l'estime à 8 milliards le 15 novembre 2022.",
+  "lien": "https://fr.wikipedia.org/wiki/Population_mondiale",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
