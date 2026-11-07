@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "date": "2026-11-07",
+ "genere": "2026-11-07T04:59Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "e963b51b32",
+   "rubrique": "france",
+   "titre": "En Italie, une « taxe de sortie » pour les grandes fortunes",
+   "lien": "https://www.lemonde.fr/economie/article/2026/11/06/en-italie-une-taxe-de-sortie-pour-les-grandes-fortunes_6807773_3234.html",
+   "source": "Le Monde",
+   "date": "2026-11-06T10:45Z",
+   "chapo": "Le projet de loi de finances pour 2027 du gouvernement Meloni prévoit la création d’une « exit tax » visant les grandes fortunes qui décideraient de quitter l’Italie.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 6.12,
+   "payant": true
+  },
+  {
+   "id": "7abea00af4",
+   "rubrique": "france",
+   "titre": "Manifestations du 7 novembre : le dispositif de sécurité \"reconduit\" avec 70 000 policiers et gendarmes mobilisés",
+   "lien": "https://www.franceinfo.fr/societe/manifestations/manifestation-du-7-novembre-le-dispositif-de-securite-reconduit-avec-70-000-policiers-et-gendarmes-mobilises_8271407.html",
+   "source": "franceinfo",
+   "date": "2026-11-06T19:18Z",
+   "chapo": "\"Le risque est exactement le même que pour les samedis précédents\", a estimé, vendredi, le ministre de l'Intérieur, Laurent Nuñez.",
+   "theme": "institutions",
+   "question": "Cette décision relève-t-elle de la loi, du règlement ou du juge ?",
+   "score": 5.4,
+   "reprises": 5
+  },
+  {
+   "id": "7201fe368c",
+   "rubrique": "france",
+   "titre": "Conférence de Raphaël Arnault à Villeurbanne : la justice défend la «liberté d’expression» et autorise finalement l’événement",
+   "lien": "https://www.liberation.fr/politique/a-villeurbanne-la-prefecture-interdit-une-conference-de-raphael-arnault-par-crainte-daffrontements-avec-lextreme-droite-20261105_7JSEXMCYPVFPPKOHKERLOKVWDM/",
+   "source": "Libération",
+   "date": "2026-11-06T16:57Z",
+   "chapo": "Dans un arrêté rendu public jeudi 5 novembre, le préfet de la région Auvergne-Rhône-Alpes avait interdit l’événement «pour prévenir les risques de troubles à l’ordre public», alors que des militants…",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 5.35,
+   "payant": true,
+   "reprises": 3
+  },
+  {
+   "id": "ae90075847",
+   "rubrique": "france",
+   "titre": "Mouvement lycéen : après les vacances scolaires, un retour des blocages marqué par une hausse des tensions",
+   "lien": "https://www.lemonde.fr/societe/article/2026/11/07/mouvement-lyceen-apres-les-vacances-scolaires-un-retour-des-blocages-marque-par-une-hausse-des-tensions_6808168_3224.html",
+   "source": "Le Monde",
+   "date": "2026-11-07T04:45Z",
+   "chapo": "Les barrages perdurent dans un socle de lycées, dont le nombre est difficile à évaluer et apparaît sous-estimé dans la communication officielle du ministère de l’éducation nationale.",
+   "theme": "social",
+   "question": "Quelle part relève d'un choix politique et quelle part d'une contrainte (démographie, budget, droit européen) ?",
+   "score": 5.2,
+   "payant": true
+  },
+  {
+   "id": "f2e47e37b5",
+   "rubrique": "france",
+   "titre": "Accident de car dans l'Ain : le chauffeur \"indique qu'il se serait assoupi\", le pronostic vital de deux blessés \"encore engagé\", annonce le parquet",
+   "lien": "https://www.franceinfo.fr/faits-divers/accident/direct-accident-d-un-car-scolaire-dans-l-ain-deux-enfants-sont-morts-le-ministre-des-transports-attendu-sur-place_8270534.html",
+   "source": "franceinfo",
+   "date": "2026-11-06T22:55Z",
+   "chapo": "Le véhicule a \"quitté la route et heurté un arbre dans le fossé\", selon le maire de la commune de Lent, où l'accident s'est produit vendredi matin.",
+   "theme": "territoires",
+   "question": "Quel niveau (commune, intercommunalité, département, région, État) est compétent, et lequel finance ?",
+   "score": 5.07
+  },
+  {
+   "id": "f9be1303b6",
+   "rubrique": "monde",
+   "titre": "Précarité énergétique : dans quels pays et régions d'Europe a-t-on le plus de difficultés à se chauffer ?",
+   "lien": "https://www.touteleurope.eu/economie-et-social/precarite-energetique-dans-quels-pays-et-regions-d-europe-a-t-on-le-plus-de-difficultes-a-se-chauffer/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-06T10:53Z",
+   "chapo": "Précarité énergétique : \"manque d’accès aux services énergétiques essentiels qui assurent des niveaux décents de vie et de santé, notamment des systèmes adéquats de chauffage, d’eau chaude, de…",
+   "theme": "social",
+   "question": "Quelle part relève d'un choix politique et quelle part d'une contrainte (démographie, budget, droit européen) ?",
+   "score": 5.82
+  },
+  {
+   "id": "e8fc5d68bd",
+   "rubrique": "monde",
+   "titre": "Prix de l'énergie : les Européens veulent des prix maîtrisés et une action commune, tandis que 7 Français sur 10 ont modifié leur usage de la voiture",
+   "lien": "https://www.touteleurope.eu/environnement/prix-de-l-energie-les-europeens-veulent-des-prix-maitrises-et-une-action-commune-tandis-que-7-francais-sur-10-ont-modifie-leur-usage-de-la-voiture/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-05T17:48Z",
+   "chapo": "Selon la huitième enquête sur le climat de la Banque européenne d'investissement (BEI), conduite par Ipsos BVA entre le 3 et le 25 août auprès de 23 000 personnes de 16 ans et plus dans les 27 États…",
+   "theme": "ecologie",
+   "question": "Qui supporte le coût de la transition, et qui en bénéficie ?",
+   "score": 5.47
+  },
+  {
+   "id": "2157b5046d",
+   "rubrique": "monde",
+   "titre": "Donald Trump promeut son conseiller Stephen Miller, représentant de la droite identitaire,comme directeur de cabinet",
+   "lien": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-promeut-comme-directeur-de-cabinet-son-conseiller-stephen-miller-representant-de-la-droite-identitaire_8271515.html",
+   "source": "franceinfo",
+   "date": "2026-11-06T21:02Z",
+   "chapo": "Le président américain \"n'aurait pas pu faire un pire choix\" que Stephen Miller, partisan d'une ligne dure contre l'immigration, s'est indigné le chef des démocrates au Sénat américain, Chuck Schumer.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 5.43,
+   "reprises": 4
+  },
+  {
+   "id": "2e3a7ae7cb",
+   "rubrique": "monde",
+   "titre": "Ingérences russes : «La Gagaouzie est à bien des égards un territoire test»",
+   "lien": "https://www.liberation.fr/international/europe/ingerences-russes-la-gagaouzie-est-a-bien-des-egards-un-territoire-test-20261106_EOSAOMBSKFAKRILC5RLUQNQPXY/",
+   "source": "Libération",
+   "date": "2026-11-06T16:36Z",
+   "chapo": "Auteurs d’une étude sur la région autonome de Moldavie publiée le 5 novembre, les chercheurs Maxime Audinet et Kevin Limonier analysent les raisons de sa perméabilité à l’influence de Moscou et…",
+   "theme": "territoires",
+   "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+   "score": 4.94,
+   "payant": true
+  },
+  {
+   "id": "0919d3855b",
+   "rubrique": "monde",
+   "titre": "Que sait-on de la mystérieuse escale d’un avion cargo militaire britannique à Bosasso en Somalie?",
+   "lien": "https://www.rfi.fr/fr/monde/20261107-que-sait-on-de-la-myst%C3%A9rieuse-escale-d-un-avion-cargo-militaire-britannique-%C3%A0-bosasso-en-somalie",
+   "source": "RFI",
+   "date": "2026-11-07T04:51Z",
+   "chapo": "Les images d’un gros porteur militaire A400M Atlas, sur le tarmac de l’aéroport de Bosasso dans la région autonome du Puntland en Somalie, ont suscité des interrogations sur les réseaux sociaux.",
+   "theme": "territoires",
+   "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+   "score": 4.2
+  },
+  {
+   "id": "d72a01f99b",
+   "rubrique": "action_publique",
+   "titre": "Budget 2027 : l'Assemblée nationale rejette le texte à l'unanimité",
+   "lien": "https://www.banquedesterritoires.fr/thomas-3",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-05T15:59Z",
+   "chapo": "Par 458 voix contre et aucune voix pour, les députés ont repoussé en séance le 4 novembre la première partie du projet de loi de finances pour 2027, consacrée aux recettes.",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 8.28,
+   "reprises": 2
+  },
+  {
+   "id": "22125fbee3",
+   "rubrique": "action_publique",
+   "titre": "Budget 2026 : le projet de loi de \"fin de gestion\" réduit les dotations à l'investissement local",
+   "lien": "https://www.banquedesterritoires.fr/budget-2026-le-projet-de-loi-de-fin-de-gestion-reduit-les-dotations-linvestissement-local",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-04T16:16Z",
+   "chapo": "Le ministre de l’Économie, Roland Lescure, et son collègue chargé de l’Action et des Comptes publics, David Amiel, ont présenté ce 4 novembre en conseil des ministres le projet de loi de finances de…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 7.14
+  },
+  {
+   "id": "675a0a56f9",
+   "rubrique": "action_publique",
+   "titre": "Accompagner le changement de comportements dans l'action publique territoriale : les apports des sciences comportementales",
+   "lien": "https://www.modernisation.gouv.fr/mois-de-linnovation-publique/accompagner-le-changement-de-comportements-dans-laction-publique",
+   "source": "Transformation publique (DITP)",
+   "date": "2026-11-05T10:20Z",
+   "chapo": "Formation expérimentale évaluation Chloé Mortreuil jeu 05/11/2026 - 11:28 Dans les démarches d’innovation publique, l’évaluation est souvent perçue comme une étape de bilan en fin de projet.",
+   "theme": "evaluation",
+   "question": "Quelle serait la situation sans la politique évaluée (le contrefactuel) ?",
+   "score": 5.95
+  }
+ ],
+ "dossier": {
+  "id": "e880221641",
+  "rubrique": "action_publique",
+  "titre": "Agence d'urbanisme, de développement et de prospective de la Région de Reims (AUDRR) (Marne)",
+  "lien": "https://www.ccomptes.fr/fr/publications/agence-durbanisme-de-developpement-et-de-prospective-de-la-region-de-reims-audrr-marne",
+  "source": "Cour des comptes",
+  "date": "2026-10-22T12:42Z",
+  "chapo": "La chambre régionale des comptes Grand Est a contrôlé l’agence d’urbanisme, de développement et de prospective de la région de Reims (AUDRR) pour les exercices 2020 à 2025.",
+  "theme": "territoires",
+  "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+  "score": 6.44,
+  "semaine": "2026-W45"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1931 : fondation de la République soviétique chinoise pendant la guerre civile chinoise, dirigée par Mao Zedong.",
+  "extrait": "La République soviétique chinoise, parfois confondue avec le Soviet du Jiangxi, partie la plus importante de son territoire, exista de 1931 à 1937 avec le soutien de Moscou et sous la présidence de Mao Zedong.",
+  "lien": "https://fr.wikipedia.org/wiki/R%C3%A9publique_sovi%C3%A9tique_chinoise",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 34,
+  "total": 36,
+  "echecs": [
+   "actu-juridique",
+   "maire-info"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
