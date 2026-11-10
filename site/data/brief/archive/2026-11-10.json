@@ -1,0 +1,203 @@
+{
+ "version": 1,
+ "date": "2026-11-10",
+ "genere": "2026-11-10T05:02Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "2ebaa45b25",
+   "rubrique": "france",
+   "titre": "A l’ouverture du procès des policiers accusés d’avoir passé à tabac Michel Zecler, la question du racisme domine les débats",
+   "lien": "https://www.lemonde.fr/societe/article/2026/11/10/a-l-ouverture-du-proces-des-policiers-accuses-d-avoir-passe-a-tabac-michel-zecler-la-question-du-racisme-domine-les-debats_6808779_3224.html",
+   "source": "Le Monde",
+   "date": "2026-11-10T04:30Z",
+   "chapo": "Trois fonctionnaires sont jugés pour violences lors de l’interpellation du producteur de musique, à Paris, en 2020, et faux en écriture publique, mais la circonstance aggravante d’un mobile raciste…",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 6.29,
+   "payant": true,
+   "reprises": 5
+  },
+  {
+   "id": "128e3059e7",
+   "rubrique": "france",
+   "titre": "Fonction publique : la Cour des comptes avance la piste explosive du gel des avancements et des promotions pour réduire le déficit",
+   "lien": "https://www.lemonde.fr/politique/article/2026/11/09/fonction-publique-la-cour-des-comptes-avance-la-piste-explosive-du-gel-des-avancements-et-des-promotions-pour-reduire-le-deficit_6808669_823448.html",
+   "source": "Le Monde",
+   "date": "2026-11-09T16:00Z",
+   "chapo": "Une telle mesure permettrait de dégager 3,8 milliards d’euros d’économies en 2027, indique la Cour des comptes dans une « contribution au rétablissement des finances publiques », présentée lundi 9…",
+   "theme": "finances",
+   "question": "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
+   "score": 5.93,
+   "payant": true
+  },
+  {
+   "id": "cb706c7968",
+   "rubrique": "france",
+   "titre": "La France accuse l'Iran de la cyberattaque contre des frigos de supermarchés, une unité des Gardiens de la Révolution visée par une enquête",
+   "lien": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/cyberattaque-contre-des-frigos-de-supermarches-le-parquet-de-paris-ouvre-une-enquete-visant-une-unite-des-gardiens-de-la-revolution-iraniens_8274806.html",
+   "source": "franceinfo",
+   "date": "2026-11-09T17:59Z",
+   "chapo": "\"C'est une attaque d'une ampleur inédite et d'une agressivité inédite\", a déclaré le ministre des Affaires étrangères, Jean-Noël Barrot.",
+   "theme": "institutions",
+   "question": "Cette décision relève-t-elle de la loi, du règlement ou du juge ?",
+   "score": 5.37,
+   "reprises": 4
+  },
+  {
+   "id": "81b2912cdb",
+   "rubrique": "france",
+   "titre": "Caméras, brigade de surveillance… Ces communes qui luttent activement contre les dépôts sauvages d'ordures",
+   "lien": "https://www.franceinfo.fr/environnement/actions-ecologiques/gestion-des-dechets/cameras-brigade-de-surveillance-ces-communes-qui-luttent-activement-contre-les-depots-sauvages-d-ordures_8275148.html",
+   "source": "franceinfo",
+   "date": "2026-11-09T20:25Z",
+   "chapo": "C'est un problème auquel de nombreux maires se heurtent : les décharges sauvages, dont le nettoyage coûte cher aux communes. Alors, comment empêcher ces dépôts ?",
+   "theme": "defaut",
+   "question": "Quelle est la question de fond derrière ce titre ?",
+   "score": 5.02
+  },
+  {
+   "id": "29fbc3aa0a",
+   "rubrique": "france",
+   "titre": "Plus de cinquante blessés parmi les manifestants du 5 novembre à Toulouse",
+   "lien": "https://www.mediacites.fr/breve/toulouse/2026/11/09/plus-de-cinquante-blesses-parmi-les-manifestants-du-5-novembre-a-toulouse/",
+   "source": "Mediacités",
+   "date": "2026-11-09T18:25Z",
+   "chapo": "Au moins 54 manifestants ont été blessés, dont trois gravement, selon les secouristes bénévoles et l'intersyndicale. La préfecture indique que 18 policiers ont également été blessés.",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 3.98,
+   "payant": true
+  },
+  {
+   "id": "ec87ff991b",
+   "rubrique": "monde",
+   "titre": "Aux Etats-Unis, une procédure de destitution contre le ministre de la Défense a été lancée au Congrès",
+   "lien": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-une-procedure-de-destitution-contre-le-ministre-de-la-defense-a-ete-lancee-au-congres_8275211.html",
+   "source": "franceinfo",
+   "date": "2026-11-09T21:46Z",
+   "chapo": "Le député Thomas Massie dénonce notamment la guerre en Iran et la manière dont Pete Hegseth l'a menée.",
+   "theme": "international",
+   "question": "Quelle information manque pour juger ?",
+   "score": 5.75,
+   "reprises": 5
+  },
+  {
+   "id": "9b660f7441",
+   "rubrique": "monde",
+   "titre": "L'agenda européen : les principaux événements prévus du 9 au 15 novembre 2026",
+   "lien": "https://www.touteleurope.eu/economie-et-social/l-agenda-europeen-les-principaux-evenements-prevus-du-9-au-15-novembre-2026/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-09T09:07Z",
+   "chapo": "La COP31, les discussions sur le budget de l'UE et un sommet sur l'intelligence artificielle rythment la semaine. Le Parlement européen doit aussi voter de nouvelles protections pour les épargnants.",
+   "theme": "finances",
+   "question": "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
+   "score": 5.09
+  },
+  {
+   "id": "7a2dde41a1",
+   "rubrique": "monde",
+   "titre": "Midterms aux États-Unis : comprendre les résultats des élections américaines avec des cartes et des graphiques",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/midterms-aux-etats-unis-comprendre-les-resultats-des-elections-americaines-avec-des-cartes-et-des-graphiques/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-09T09:18Z",
+   "chapo": "Deux ans après le retour de Donald Trump à la Maison-Blanche, les électeurs américains ont largement sanctionné son camp.",
+   "theme": "international",
+   "question": "Quel précédent historique éclaire cette situation, et où s'en distingue-t-elle ?",
+   "score": 4.49,
+   "reprises": 2
+  },
+  {
+   "id": "5cee888d2f",
+   "rubrique": "monde",
+   "titre": "Jensen Huang, patron de Nvidia, admet une liaison avec une espionne chinoise",
+   "lien": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/jensen-huang-patron-de-nvidia-admet-une-liaison-avec-une-espionne-chinoise_8275190.html",
+   "source": "franceinfo",
+   "date": "2026-11-09T21:11Z",
+   "chapo": "Une liaison amoureuse a-t-elle permis à Pékin d’approcher les secrets d’un géant de l’intelligence artificielle ? Le patron de Nvidia, Jensen Huang, reconnaît une infidélité.",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 4.44,
+   "reprises": 3
+  },
+  {
+   "id": "869043b798",
+   "rubrique": "monde",
+   "titre": "Une semaine après son redressement judiciaire, le BHV ferme ses portes",
+   "lien": "https://www.france24.com/fr/%C3%A9co-tech/20261109-une-semaine-apr%C3%A8s-son-redressement-judiciaire-le-bhv-ferme-ses-portes",
+   "source": "France 24",
+   "date": "2026-11-09T19:38Z",
+   "chapo": "Placé en redressement judiciaire le 2 novembre, le BHV Marais, célèbre grand magasin parisien, a été contraint de fermer ses portes lundi soir.",
+   "theme": "defaut",
+   "question": "Quelle est la question de fond derrière ce titre ?",
+   "score": 4.4,
+   "reprises": 3
+  },
+  {
+   "id": "d72a01f99b",
+   "rubrique": "action_publique",
+   "titre": "Budget 2027 : l'Assemblée nationale rejette le texte à l'unanimité",
+   "lien": "https://www.banquedesterritoires.fr/thomas-3",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-05T15:59Z",
+   "chapo": "Par 458 voix contre et aucune voix pour, les députés ont repoussé en séance le 4 novembre la première partie du projet de loi de finances pour 2027, consacrée aux recettes.",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 7.15
+  },
+  {
+   "id": "b1ac8502c9",
+   "rubrique": "action_publique",
+   "titre": "Réduction du déficit : pour la Cour des comptes, l'effort des collectivités doit être plus soutenu",
+   "lien": "https://www.banquedesterritoires.fr/reduction-du-deficit-pour-la-cour-des-comptes-leffort-des-collectivites-doit-etre-plus-soutenu",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-09T16:02Z",
+   "chapo": "Alors que les élus locaux réclament quasiment à l'unisson une forte réduction des ponctions sur les collectivités inscrites dans le projet de budget pour 2027 - ponctions estimées à 5,5 milliards…",
+   "theme": "finances",
+   "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
+   "score": 7.12
+  },
+  {
+   "id": "1eb9ab7973",
+   "rubrique": "action_publique",
+   "titre": "188 communes et 33 EPCI vont toucher la dotation exceptionnelle pour l'application du Ségur de la santé",
+   "lien": "https://www.maire-info.com/article.asp?param=31268",
+   "source": "Maire-info (AMF)",
+   "date": "2026-11-09T00:00Z",
+   "chapo": "« Le personnel médical municipal reste le grand oublié du Ségur de la santé ».",
+   "theme": "finances",
+   "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+   "score": 7.03,
+   "payant": true
+  }
+ ],
+ "dossier": {
+  "id": "b476e7d587",
+  "rubrique": "action_publique",
+  "titre": "Région Centre-Val de Loire - enquête relative à « la mobilisation et aux actions du programme européen LIFE en France » (Rapport public annuel 2027)",
+  "lien": "https://www.ccomptes.fr/fr/publications/region-centre-val-de-loire-enquete-relative-la-mobilisation-et-aux-actions-du",
+  "source": "Cour des comptes",
+  "date": "2026-11-06T07:25Z",
+  "chapo": "L’essentiel : Dans le cadre du rapport public annuel 2027 de la Cour des comptes dont un chapitre est consacré au programme européen LIFE (L’instrument financier pour l’environnement) dédié aux…",
+  "theme": "evaluation",
+  "question": "Que mesure-t-on exactement, et que ne mesure-t-on pas ?",
+  "score": 6.99,
+  "semaine": "2026-W46"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1630 : lors de la journée des Dupes, Louis XIII réitère sa confiance au cardinal de Richelieu contre l'avis de sa mère Marie de Médicis, la contraignant à l'exil.",
+  "extrait": "La journée des Dupes désigne les événements des dimanche 10 et lundi 11 novembre 1630, au cours desquels, contre toute attente, le roi de France Louis XIII renouvelle sa confiance à son ministre Richelieu, élimine ses adversaires politiques[pas clair] et…",
+  "lien": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_des_Dupes",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
