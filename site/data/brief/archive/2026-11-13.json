@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "date": "2026-11-13",
+ "genere": "2026-11-13T12:12Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "f72348c5b1",
+   "rubrique": "france",
+   "titre": "Que demandent les syndicats de fonctionnaires, reçus à Matignon vendredi ?",
+   "lien": "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/que-demandent-les-syndicats-de-fonctionnaires-recus-a-matignon-vendredi_8280539.html",
+   "source": "franceinfo",
+   "date": "2026-11-13T09:18Z",
+   "chapo": "Après celles du privé mardi, les organisations syndicales de la fonction publique sont reçues vendredi matin par Sébastien Lecornu.",
+   "theme": "defaut",
+   "question": "Quelle est la question de fond derrière ce titre ?",
+   "score": 7.24,
+   "reprises": 7
+  },
+  {
+   "id": "64c7a62d3f",
+   "rubrique": "france",
+   "titre": "Présidentielle 2027 : seniors, sympathisants LR, chefs d’entreprise… Entre Bruno Retailleau et David Lisnard, des électorats proches mais pas identiques",
+   "lien": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-seniors-sympathisants-lr-chefs-d-entreprise-entre-bruno-retailleau-et-david-lisnard-des-electorats-proches-mais-pas-identiques-20261113",
+   "source": "Le Figaro",
+   "date": "2026-11-13T11:39Z",
+   "chapo": "DÉCRYPTAGE - L’ex-ministre de l’Intérieur se voit désormais rattrapé, voire dépassé dans les enquêtes d’intentions de vote par le maire Nouvelle Énergie de Cannes.",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 5.59,
+   "payant": true,
+   "reprises": 4
+  },
+  {
+   "id": "5ee307c462",
+   "rubrique": "france",
+   "titre": "Jensen Huang, désormais ex-patron de Nvidia, convoqué pour témoigner devant le Sénat américain en décembre",
+   "lien": "https://www.franceinfo.fr/internet/intelligence-artificielle/l-ancien-patron-de-nvidia-convoque-pour-temoigner-devant-le-senat-americain-en-decembre_8280839.html",
+   "source": "franceinfo",
+   "date": "2026-11-13T10:46Z",
+   "chapo": "Le dirigeant américano-taïwanais de la société phare de l'intelligence artificielle (IA) a été forcé jeudi de démissionner, emporté par le scandale de ses relations extraconjugales, dont sa liaison…",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 5.57,
+   "reprises": 5
+  },
+  {
+   "id": "2c5775bd59",
+   "rubrique": "france",
+   "titre": "Budget de la « Sécu » 2027 : le Sénat reporte à avril la baisse des allègements de cotisations patronales",
+   "lien": "https://www.lemonde.fr/politique/article/2026/11/12/budget-de-la-secu-2027-le-senat-reporte-a-avril-la-baisse-des-allegements-de-cotisations-patronales_6809117_823448.html",
+   "source": "Le Monde",
+   "date": "2026-11-12T15:14Z",
+   "chapo": "Ce report, destiné à laisser le temps au gouvernement de proposer une réforme « structurelle », prive la Sécurité sociale de 900 millions d’euros, une somme jugée trop élevée par le ministre du…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 5.36,
+   "payant": true
+  },
+  {
+   "id": "eca6f0ff44",
+   "rubrique": "france",
+   "titre": "Budget de la Sécurité sociale : mutuelles, dispositifs médicaux, groupements de pharmacies… Le Sénat s’oppose à plusieurs taxes",
+   "lien": "https://www.sudouest.fr/economie/budget-de-la-securite-sociale-mutuelles-dispositifs-medicaux-groupements-de-pharmacies-le-senat-s-oppose-a-plusieurs-taxes-31509281.php",
+   "source": "Sud Ouest",
+   "date": "2026-11-13T11:46Z",
+   "chapo": "La Chambre haute a affiché ses désaccords avec le gouvernement sur le projet de loi de financement de la Sécurité sociale en s’opposant à plusieurs taxes qui devaient rapporter plus d’un milliard…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 4.79,
+   "payant": true
+  },
+  {
+   "id": "c44a45f771",
+   "rubrique": "monde",
+   "titre": "La Russie affirme avoir abattu 1 198 drones ukrainiens dans la nuit de jeudi à vendredi et fait état de quatre morts dans la région de Volgograd",
+   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/la-russie-affirme-avoir-abattu-1-198-drones-ukrainiens-dans-la-nuit-de-jeudi-a-vendredi_8280572.html",
+   "source": "franceinfo",
+   "date": "2026-11-13T07:45Z",
+   "chapo": "Il s'agit d'une des attaques les plus importantes ayant visé le territoire russe depuis le début de la guerre en Ukraine.",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 5.11
+  },
+  {
+   "id": "20226f230c",
+   "rubrique": "monde",
+   "titre": "Italie, Royaume-Uni, Irlande : des milliers d'écoles visées par de fausses alertes à la bombe",
+   "lien": "https://www.touteleurope.eu/vie-politique-des-etats-membres/italie-royaume-uni-irlande-des-milliers-d-ecoles-visees-par-de-fausses-alertes-a-la-bombe/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-12T11:02Z",
+   "chapo": "\"Il n'a fallu que quelques heures et un e-mail maladroit et anonyme envoyé depuis un domaine taïwanais pour plonger l'Italie dans le chaos\", entame La Repubblica.",
+   "theme": "defaut",
+   "question": "Quelle est la question de fond derrière ce titre ?",
+   "score": 4.38,
+   "reprises": 2
+  },
+  {
+   "id": "a5de309bda",
+   "rubrique": "monde",
+   "titre": "Qu'est-ce que la Communauté politique européenne ?",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/qu-est-ce-que-la-communaute-politique-europeenne/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-12T09:03Z",
+   "chapo": "Ce n'est ni l'Union européenne ni le Conseil de l'Europe, mais un forum bien plus récent.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 4.33,
+   "reprises": 2
+  },
+  {
+   "id": "80638f01a9",
+   "rubrique": "monde",
+   "titre": "La Norvège va interdire aux athlètes russes de participer à des compétitions sur son territoire",
+   "lien": "https://www.franceinfo.fr/monde/norvege/la-norvege-va-interdire-aux-athletes-russes-de-participer-a-des-competitions-sur-son-territoire_8280068.html",
+   "source": "franceinfo",
+   "date": "2026-11-12T21:16Z",
+   "chapo": "Le sport de haut niveau russe entretient des liens étroits avec les autorités et ne peut donc pas être \"considéré indépendamment\" de la guerre en Ukraine, justifie le gouvernement norvégien.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 4.19
+  },
+  {
+   "id": "dc6b3a5caf",
+   "rubrique": "monde",
+   "titre": "«Tout est à l’arrêt» : en Guinée, l’armée déployée pour faire cesser l’orpaillage illégal",
+   "lien": "https://www.liberation.fr/international/afrique/tout-est-a-larret-en-guinee-larmee-deployee-pour-faire-cesser-lorpaillage-illegal-20261113_B6X43QCRXVGT5MU3LWRI4C3J54/",
+   "source": "Libération",
+   "date": "2026-11-13T10:46Z",
+   "chapo": "Dans la région aurifère de Siguiri, frontalière du Mali, des centaines de milliers de personnes ont perdu leur emploi du jour au lendemain.",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 4.17,
+   "payant": true
+  },
+  {
+   "id": "b1ac8502c9",
+   "rubrique": "action_publique",
+   "titre": "Réduction du déficit : pour la Cour des comptes, l'effort des collectivités doit être plus soutenu",
+   "lien": "https://www.banquedesterritoires.fr/reduction-du-deficit-pour-la-cour-des-comptes-leffort-des-collectivites-doit-etre-plus-soutenu",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-09T16:02Z",
+   "chapo": "Alors que les élus locaux réclament quasiment à l'unisson une forte réduction des ponctions sur les collectivités inscrites dans le projet de budget pour 2027 - ponctions estimées à 5,5 milliards…",
+   "theme": "finances",
+   "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
+   "score": 6.65
+  },
+  {
+   "id": "791236fd6c",
+   "rubrique": "action_publique",
+   "titre": "Dépenses sociales des départements : quelles tendances à horizon 2040 ?",
+   "lien": "https://www.banquedesterritoires.fr/depenses-sociales-des-departements-quelles-tendances-horizon-2040",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-09T09:04Z",
+   "chapo": "L'association d'élus Départements solidaires a confié à l'Observatoire français des conjonctures économiques une étude sur les dépenses sociales des collectivités départementales, qui dresse un état…",
+   "theme": "evaluation",
+   "question": "Pertinence, efficacité, efficience : où le dispositif est-il le plus fragile ?",
+   "score": 6.61
+  },
+  {
+   "id": "f136abcc58",
+   "rubrique": "action_publique",
+   "titre": "Modéliser, planifier et évaluer les mobilités de demain : retour sur le rendez-vous mobilités du 24 septembre 2026",
+   "lien": "https://www.cerema.fr/fr/actualites/modeliser-planifier-evaluer-mobilites-demain-retour-rendez",
+   "source": "Cerema",
+   "date": "2026-11-12T12:00Z",
+   "chapo": "Publié le Jeudi 12 novembre 2026 Gouvernance, planification et organisation des mobilités, Connaissance, modélisation et évaluation de la mobilité Mobilités actives et transports en commun à Toulon…",
+   "theme": "evaluation",
+   "question": "Que mesure-t-on exactement, et que ne mesure-t-on pas ?",
+   "score": 6.06
+  }
+ ],
+ "dossier": {
+  "id": "b476e7d587",
+  "rubrique": "action_publique",
+  "titre": "Région Centre-Val de Loire - enquête relative à « la mobilisation et aux actions du programme européen LIFE en France » (Rapport public annuel 2027)",
+  "lien": "https://www.ccomptes.fr/fr/publications/region-centre-val-de-loire-enquete-relative-la-mobilisation-et-aux-actions-du",
+  "source": "Cour des comptes",
+  "date": "2026-11-06T07:25Z",
+  "chapo": "L’essentiel : Dans le cadre du rapport public annuel 2027 de la Cour des comptes dont un chapitre est consacré au programme européen LIFE (L’instrument financier pour l’environnement) dédié aux…",
+  "theme": "evaluation",
+  "question": "Que mesure-t-on exactement, et que ne mesure-t-on pas ?",
+  "score": 6.99,
+  "semaine": "2026-W46"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1942 : début de la bataille navale de Guadalcanal opposant les États-Unis et le Japon lors de la guerre du Pacifique.",
+  "extrait": "La bataille navale de Guadalcanal, qui eut lieu entre le 13 et le 15 novembre 1942, fut l'engagement naval décisif entre la marine impériale japonaise et la marine américaine durant la bataille de Guadalcanal dans le théâtre Pacifique de la Seconde Guerre…",
+  "lien": "https://fr.wikipedia.org/wiki/Bataille_navale_de_Guadalcanal",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
