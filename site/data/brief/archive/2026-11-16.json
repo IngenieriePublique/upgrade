@@ -1,0 +1,202 @@
+{
+ "version": 1,
+ "date": "2026-11-16",
+ "genere": "2026-11-16T12:44Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "e380f69361",
+   "rubrique": "france",
+   "titre": "Loi « relance du logement » : des maires rappellent l’urgence d’un ANRU 3 pour résorber les « trappes à pauvreté » dans les quartiers populaires",
+   "lien": "https://www.lemonde.fr/societe/article/2026/11/16/loi-relance-du-logement-des-maires-rappellent-l-urgence-d-un-anru-3-pour-resorber-les-trappes-a-pauvrete-dans-les-quartiers-populaires_6811677_3224.html",
+   "source": "Le Monde",
+   "date": "2026-11-16T09:33Z",
+   "chapo": "Le lancement d’un troisième programme national de renouvellement urbain est l’un des éléments du projet de loi, dont l’examen en séance débute lundi 16 novembre à l’Assemblée nationale.",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 6.43,
+   "payant": true
+  },
+  {
+   "id": "26b2017b67",
+   "rubrique": "france",
+   "titre": "Grèves dans la fonction publique, mouvement lycéen, manifestations… A quoi s'attendre pour la mobilisation du 17 novembre ?",
+   "lien": "https://www.franceinfo.fr/societe/manifestations/greves-dans-la-fonction-publique-mouvement-lyceen-manifestations-a-quoi-s-attendre-pour-la-mobilisation-du-17-novembre_8284415.html",
+   "source": "franceinfo",
+   "date": "2026-11-16T11:11Z",
+   "chapo": "Les syndicats appellent les agents de la fonction publique, de l'Education nationale ou encore des transports à faire grève mardi.",
+   "theme": "social",
+   "question": "Que changerait ce sujet dans un département comme la Gironde ?",
+   "score": 5.87,
+   "reprises": 2
+  },
+  {
+   "id": "7539410c27",
+   "rubrique": "france",
+   "titre": "Location de passoires thermiques, pouvoirs donnés aux maires : le projet de loi sur le logement examiné à l’Assemblée nationale",
+   "lien": "https://www.liberation.fr/societe/logement/location-de-passoires-thermiques-pouvoirs-donnes-aux-maires-le-projet-de-loi-sur-le-logement-examine-a-lassemblee-nationale-20261116_GEDMP2BPWZGAZAG64BZS4ZDKMQ/",
+   "source": "Libération",
+   "date": "2026-11-16T11:12Z",
+   "chapo": "Porté par le ministre Vincent Jeanbrun, le texte prévoit notamment la remise en location décriée d’habitations mal isolées et d’autres mesures pour relancer l’offre de logement.",
+   "theme": "institutions",
+   "question": "Où en est le texte dans la procédure, et qui peut encore le bloquer ?",
+   "score": 5.77,
+   "payant": true
+  },
+  {
+   "id": "16b66ab960",
+   "rubrique": "france",
+   "titre": "La situation autour du budget 2027 \"devient intenable\", préviennent des présidents de départements avant leur rendez-vous avec le Premier ministre",
+   "lien": "https://www.franceinfo.fr/economie/budget/la-situation-autour-du-budget-2027-devient-intenable-previennent-des-presidents-de-departements-avant-leur-rendez-vous-avec-le-premier-ministre_8284391.html",
+   "source": "franceinfo",
+   "date": "2026-11-16T07:38Z",
+   "chapo": "\"C'est au moins la troisième année consécutive\" que le gouvernement demande un effort budgétaire aux départements, déplore notamment auprès de France Culture le président LR de Saône-et-Loire.",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 5.69
+  },
+  {
+   "id": "565b4065bb",
+   "rubrique": "france",
+   "titre": "Antisocial, anti ENR et anti taxe : à quoi ressemble l’opposition du Rassemblement national au conseil régional d’Occitanie",
+   "lien": "https://www.mediacites.fr/enquete/toulouse/2026/11/16/antisocial-anti-enr-et-anti-taxe-a-quoi-ressemble-lopposition-du-rassemblement-national-au-conseil-regional-doccitanie/",
+   "source": "Mediacités",
+   "date": "2026-11-16T06:53Z",
+   "chapo": "Mediacités a examiné les 836 votes des élus RN à la région Occitanie en 2025.",
+   "theme": "finances",
+   "question": "Si on économisait ici, qui en subirait les effets en premier ?",
+   "score": 5.08,
+   "payant": true
+  },
+  {
+   "id": "310c1ef2c2",
+   "rubrique": "monde",
+   "titre": "L'Ukraine a frappé contre le pont reliant la Russie à la Crimée, et lancé plus de 600 drones dans la région de Moscou",
+   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ukraine-a-frappe-contre-le-pont-reliant-la-russie-a-la-crimee-et-lance-plus-600-drones-dans-la-region-de-moscou_8284412.html",
+   "source": "franceinfo",
+   "date": "2026-11-16T08:13Z",
+   "chapo": "Le ministère de la Défense russe a affirmé que les forces aériennes avaient intercepté et détruit dans la nuit 1 336 drones ukrainiens dans plusieurs régions, y compris celle de Moscou, ainsi…",
+   "theme": "territoires",
+   "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+   "score": 6.51,
+   "reprises": 3
+  },
+  {
+   "id": "03fc468fc0",
+   "rubrique": "monde",
+   "titre": "\"Nous ne nous laisserons pas intimider” : l’Estonie fermera sa frontière avec la Russie à partir du 1er décembre, après une nouvelle tentative de sabotage",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/nous-ne-nous-laisserons-pas-intimider-l-estonie-fermera-sa-frontiere-avec-la-russie-a-partir-du-1er-decembre-apres-une-nouvelle-tentative-de-sabotage/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-16T08:54Z",
+   "chapo": "Une décision forte. Après la Finlande en 2023, l’Estonie annonce à son tour, la fermeture de tous ses points de passage routiers avec la Russie.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 6.22,
+   "reprises": 4
+  },
+  {
+   "id": "5992613235",
+   "rubrique": "monde",
+   "titre": "Les États-Unis auraient proposé une cession du Donbass contre une adhésion de l'Ukraine à l’Otan, selon Volodymyr Zelensky",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/les-etats-unis-auraient-propose-une-cession-du-donbass-contre-une-adhesion-de-l-ukraine-a-l-otan-selon-volodymyr-zelensky/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-16T11:18Z",
+   "chapo": "\"Une sortie du Donbass contre une entrée dans l'Otan ?\", s'interrogent Les Échos.",
+   "theme": "international",
+   "question": "Quelle information manque pour juger ?",
+   "score": 4.87,
+   "reprises": 2
+  },
+  {
+   "id": "8523ced81c",
+   "rubrique": "monde",
+   "titre": "Yémen : les rebelles Houthis aux portes d'Aden, capitale provisoire du pays",
+   "lien": "https://www.france24.com/fr/vid%C3%A9o/20261116-y%C3%A9men-les-rebelles-houthis-aux-portes-d-aden-capitale-provisoire-du-pays",
+   "source": "France 24",
+   "date": "2026-11-16T11:26Z",
+   "chapo": "Les Houthis pro-iraniens du Yémen se trouvaient à 60 km de la ville d'Aden dimanche 15 novembre, siège du gouvernement, vers laquelle ils avancent dans le sud du pays.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 4.87,
+   "reprises": 3
+  },
+  {
+   "id": "1834edf28a",
+   "rubrique": "monde",
+   "titre": "La dette, nouvelle arme géopolitique?",
+   "lien": "https://www.rfi.fr/fr/podcasts/g%C3%A9opolitique/20261115-la-dette-nouvelle-arme-g%C3%A9opolitique",
+   "source": "RFI",
+   "date": "2026-11-15T06:00Z",
+   "chapo": "3 600 milliards d’euros pour la France, soit 52 000 euros par habitant. 40 000 milliards de dollars pour les États-Unis, où les intérêts dépassent désormais le budget de la Défense.",
+   "theme": "finances",
+   "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+   "score": 4.56
+  },
+  {
+   "id": "979450047c",
+   "rubrique": "action_publique",
+   "titre": "Budget 2027 : le Sénat entend ramener l'effort des collectivités à \"entre 2 et 2,5 milliards d'euros\"",
+   "lien": "https://www.banquedesterritoires.fr/budget-2027-le-senat-entend-ramener-leffort-des-collectivites-entre-2-et-25-milliards-deuros",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-13T14:50Z",
+   "chapo": "La commission des finances de la Chambre haute a commencé ses travaux en première lecture sur le projet de loi de finances pour 2027.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 7.08
+  },
+  {
+   "id": "e3dabead86",
+   "rubrique": "action_publique",
+   "titre": "Budget de la « Sécu » : les villes thermales épargnées par le Sénat",
+   "lien": "https://www.maire-info.com/article.asp?param=31290",
+   "source": "Maire-info (AMF)",
+   "date": "2026-11-16T00:00Z",
+   "chapo": "Allègement sur la cotisation à la CNRACL, annulation du déremboursement des cures thermales et hausse de CSG pour les départements.",
+   "theme": "finances",
+   "question": "Si on économisait ici, qui en subirait les effets en premier ?",
+   "score": 6.42,
+   "payant": true
+  },
+  {
+   "id": "f6f6599d4f",
+   "rubrique": "action_publique",
+   "titre": "Fonction publique : hausse du Smic, points d'indice en plus, réforme des carrières… Les annonces du gouvernement",
+   "lien": "https://www.banquedesterritoires.fr/fonction-publique-hausse-du-smic-points-dindice-en-plus-reforme-des-carrieres-les-annonces-du",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-13T13:52Z",
+   "chapo": "Lors d'une réunion ce 13 novembre à Matignon avec les syndicats de la fonction publique, le Premier ministre et le ministre de l'Action et des Comptes publics ont annoncé l'application de la hausse…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 6.38
+  }
+ ],
+ "dossier": {
+  "id": "133ee8e228",
+  "rubrique": "action_publique",
+  "titre": "La Cour des comptes publie trois nouvelles notes thématiques consacrées aux politiques publiques sur l’agriculture, les transports et l’énergie",
+  "lien": "https://www.ccomptes.fr/fr/publications/la-cour-des-comptes-publie-trois-nouvelles-notes-thematiques-consacrees-aux-politiques",
+  "source": "Cour des comptes",
+  "date": "2026-11-16T10:08Z",
+  "chapo": "Dans le prolongement de la première série de travaux, publiée en septembre, la Cour des comptes publie trois nouvelles synthèses thématiques portant sur les soutiens publics aux agriculteurs, les…",
+  "theme": "evaluation",
+  "question": "Pertinence, efficacité, efficience : où le dispositif est-il le plus fragile ?",
+  "score": 7.19,
+  "semaine": "2026-W47"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1973 : lancement du vol spatial habité américain Skylab 4.",
+  "extrait": "Un vol spatial habité est un vol spatial emportant un équipage d'astronautes à bord d'un véhicule spatial.",
+  "lien": "https://fr.wikipedia.org/wiki/Vol_spatial_habit%C3%A9",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
