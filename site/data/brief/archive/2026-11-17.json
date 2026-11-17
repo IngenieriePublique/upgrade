@@ -1,0 +1,203 @@
+{
+ "version": 1,
+ "date": "2026-11-17",
+ "genere": "2026-11-17T13:26Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "f238e732f3",
+   "rubrique": "france",
+   "titre": "\"Des promesses qui ne pourront pas être tenues\", déplore le président UDI du Loiret qui décline l'invitation à Matignon concernant le budget 2027",
+   "lien": "https://www.franceinfo.fr/economie/budget/des-promesses-qui-ne-pourront-pas-etre-tenues-deplore-le-president-udi-du-loiret-qui-decline-l-invitation-a-matignon-concernant-le-budget-2027_8285018.html",
+   "source": "franceinfo",
+   "date": "2026-11-16T16:13Z",
+   "chapo": "Le Premier ministre Sébastien Lecornu a invité lundi après-midi des présidents de départements et de collectivités territoriales à compétences départementales en métropole et en Outre-mer afin de…",
+   "theme": "finances",
+   "question": "Si on économisait ici, qui en subirait les effets en premier ?",
+   "score": 6.36
+  },
+  {
+   "id": "a9d107385f",
+   "rubrique": "france",
+   "titre": "L’Etat poussé à revoir le financement des collectivités locales pour corriger les réformes Macron",
+   "lien": "https://www.lemonde.fr/politique/article/2026/11/17/l-etat-pousse-a-revoir-le-financement-des-collectivites-locales-pour-corriger-les-reformes-macron_6812961_823448.html",
+   "source": "Le Monde",
+   "date": "2026-11-17T11:03Z",
+   "chapo": "Tandis que les départements éprouvent des difficultés à boucler leur budget, le Conseil des prélèvements obligatoires tire un bilan critique des réformes menées par Emmanuel Macron, dont…",
+   "theme": "finances",
+   "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+   "score": 6.15,
+   "payant": true
+  },
+  {
+   "id": "48a3578909",
+   "rubrique": "france",
+   "titre": "Prix des carburants : une baisse dans plus de 90 % des stations-service, selon Mathieu Lefèvre, ministre délégué à la transition écologique",
+   "lien": "https://www.lemonde.fr/economie-francaise/article/2026/11/17/carburant-une-baisse-du-prix-dans-plus-de-90-des-stations-service-selon-mathieu-lefevre_6812943_1656968.html",
+   "source": "Le Monde",
+   "date": "2026-11-17T09:58Z",
+   "chapo": "Le gouvernement a commencé le 1ᵉʳ novembre à vendre à prix coûtant des barils de gazole issus des stocks stratégiques, une opération qui s’étalera pendant trois mois.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 5.43,
+   "payant": true,
+   "reprises": 2
+  },
+  {
+   "id": "fae872b9d5",
+   "rubrique": "france",
+   "titre": "Indemnités, absentéisme et déficit de pilotage… les dérives de la Chambre de métiers des Hauts-de-France",
+   "lien": "https://www.mediacites.fr/decryptage/lille/2026/11/17/indemnites-absenteisme-et-deficit-de-pilotage-les-derives-de-la-chambre-de-metiers-des-hauts-de-france/",
+   "source": "Mediacités",
+   "date": "2026-11-17T13:01Z",
+   "chapo": "Les artisans élus à la tête de l’établissement public qui organise la formation de 10 % des apprentis au nord de Paris sont dans le collimateur de la Chambre régionale des comptes.",
+   "theme": "finances",
+   "question": "Qui paie, et qui décide de la dépense : est-ce le même acteur ?",
+   "score": 5.19,
+   "payant": true
+  },
+  {
+   "id": "ad252af06c",
+   "rubrique": "france",
+   "titre": "Manifestations du 17 novembre : plusieurs milliers de manifestants présents dans les cortèges en région",
+   "lien": "https://www.franceinfo.fr/societe/manifestations/direct-greve-et-manifestations-du-17-novembre-suivez-la-journee-de-mobilisation_8285927.html",
+   "source": "franceinfo",
+   "date": "2026-11-17T12:11Z",
+   "chapo": "L'intersyndicale appelle les agents de la fonction publique à une nouvelle journée d'action pour réclamer une hausse des salaires face à l'inflation.",
+   "theme": "territoires",
+   "question": "Que dirait un maire de petite commune ? Et un préfet ?",
+   "score": 5.17
+  },
+  {
+   "id": "e3ced27c0c",
+   "rubrique": "monde",
+   "titre": "France : une nouvelle journée de mobilisation sociale",
+   "lien": "https://www.france24.com/fr/vid%C3%A9o/20261117-france-une-nouvelle-journ%C3%A9e-de-mobilisation-sociale",
+   "source": "France 24",
+   "date": "2026-11-17T11:58Z",
+   "chapo": "Une nouvelle journée de grève et de manifestations a ⁠débuté mardi en ​France à l'appel des syndicats de la fonction publique, appuyés par les organisations lycéennes et étudiantes dont le mouvement…",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 6.27,
+   "reprises": 4
+  },
+  {
+   "id": "1d1cf71532",
+   "rubrique": "monde",
+   "titre": "[Infographie] Que fait l'Union européenne pour soutenir les demandeurs d'emploi ?",
+   "lien": "https://www.touteleurope.eu/economie-et-social/infographie-que-fait-l-union-europeenne-pour-soutenir-les-demandeurs-d-emploi/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-16T14:59Z",
+   "chapo": "Chiffres clés sur le taux de chômage En septembre 2026 : L'Union européenne agit autour de quatre priorités Encourager les États à réduire le chômage de longue durée Soutenir l'amélioration des…",
+   "theme": "social",
+   "question": "Quelle part relève d'un choix politique et quelle part d'une contrainte (démographie, budget, droit européen) ?",
+   "score": 5.73
+  },
+  {
+   "id": "04a9989c25",
+   "rubrique": "monde",
+   "titre": "\"Une rupture\" avec les valeurs européennes : cinq pays de l'Union européenne s'accordent avec le Rwanda sur un projet de centre de retour pour migrants",
+   "lien": "https://www.touteleurope.eu/l-ue-dans-le-monde/une-rupture-avec-les-valeurs-europeennes-cinq-pays-de-l-union-europeenne-s-accordent-avec-le-rwanda-sur-un-projet-de-centre-de-retour-pour-migrants/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-17T11:21Z",
+   "chapo": "\"Rwanda : nouvelle frontière migratoire de l'UE\", titre le journal grec E Khatimerini. \"C'est le retour de la 'solution rwandaise' sur laquelle le Royaume-Uni avait échoué.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 5.56,
+   "reprises": 3
+  },
+  {
+   "id": "f04f7117da",
+   "rubrique": "monde",
+   "titre": "L'Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
+   "lien": "https://www.franceinfo.fr/monde/europe/union-europeenne/l-union-europeenne-appelle-la-france-et-la-belgique-a-reduire-leur-deficit-et-leur-dette_8286455.html",
+   "source": "franceinfo",
+   "date": "2026-11-17T11:52Z",
+   "chapo": "Le commissaire européen à l'Economie, Valdis Dombrovskis, a néanmoins assuré mardi qu'il ne voyait \"aucun problème imminent en matière de stabilité financière\" dans la zone euro.",
+   "theme": "finances",
+   "question": "Quel indicateur permettrait de dire dans deux ans si cela a marché ?",
+   "score": 5.17
+  },
+  {
+   "id": "afe051a017",
+   "rubrique": "monde",
+   "titre": "Robert Pattinson est déjà une star, quel James Bond sera-t-il ?",
+   "lien": "https://www.courrierinternational.com/une/une-du-jour-robert-pattinson-est-deja-une-star-quel-james-bond-sera-t-il_288231",
+   "source": "Courrier international",
+   "date": "2026-11-17T11:54Z",
+   "chapo": "L’annonce du choix de Robert Pattinson pour incarner James Bond fait la une de toute la presse britannique.",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 4.57,
+   "payant": true,
+   "reprises": 3
+  },
+  {
+   "id": "d0b1a06c65",
+   "rubrique": "action_publique",
+   "titre": "Relance du logement : le projet de loi du gouvernement arrive à l'Assemblée nationale",
+   "lien": "https://www.maire-info.com/article.asp?param=31295",
+   "source": "Maire-info (AMF)",
+   "date": "2026-11-17T00:00Z",
+   "chapo": "C’est l’un des textes les plus attendus du moment. Après son adoption au Sénat au début de l’été, le projet de loi visant à « la relance et la décentralisation du logement » est arrivé hier dans…",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 7.72,
+   "payant": true
+  },
+  {
+   "id": "a73982799b",
+   "rubrique": "action_publique",
+   "titre": "Fibre : des associations d'élus dénoncent une décision de l'Arcep qui menace les réseaux publics de faillite",
+   "lien": "https://www.maire-info.com/article.asp?param=31291",
+   "source": "Maire-info (AMF)",
+   "date": "2026-11-17T00:00Z",
+   "chapo": "Dans un communiqué de presse commun diffusé hier, l'Association des maires ruraux de France, l'Avicca, Départements de France et la FNCCR dénoncent un modèle de coûts qui vise à détériorer la santé…",
+   "theme": "social",
+   "question": "Que changerait ce sujet dans un département comme la Gironde ?",
+   "score": 7.12,
+   "payant": true
+  },
+  {
+   "id": "ff46045434",
+   "rubrique": "action_publique",
+   "titre": "Murielle Fabre : \"Il est temps de donner un nouveau cadre à notre organisation territoriale\"",
+   "lien": "https://www.banquedesterritoires.fr/murielle-fabre-il-est-temps-de-donner-un-nouveau-cadre-notre-organisation-territoriale",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-16T11:07Z",
+   "chapo": "Secrétaire générale de l'Association des maires de France (AMF) et maire de Lampertheim (Bas-Rhin), Murielle Fabre estime qu'une réforme de la décentralisation venant conforter le rôle des maires…",
+   "theme": "territoires",
+   "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+   "score": 7.04
+  }
+ ],
+ "dossier": {
+  "id": "133ee8e228",
+  "rubrique": "action_publique",
+  "titre": "La Cour des comptes publie trois nouvelles notes thématiques consacrées aux politiques publiques sur l’agriculture, les transports et l’énergie",
+  "lien": "https://www.ccomptes.fr/fr/publications/la-cour-des-comptes-publie-trois-nouvelles-notes-thematiques-consacrees-aux-politiques",
+  "source": "Cour des comptes",
+  "date": "2026-11-16T10:08Z",
+  "chapo": "Dans le prolongement de la première série de travaux, publiée en septembre, la Cour des comptes publie trois nouvelles synthèses thématiques portant sur les soutiens publics aux agriculteurs, les…",
+  "theme": "evaluation",
+  "question": "Pertinence, efficacité, efficience : où le dispositif est-il le plus fragile ?",
+  "score": 7.19,
+  "semaine": "2026-W47"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1869 : inauguration du canal de Suez par l'impératrice Eugénie ; à cette occasion le khédive Ismaïl Pacha commande à Giuseppe Verdi l'opéra Aida.",
+  "extrait": "Le canal de Suez est un canal navigable situé en Égypte. Long de 193,3 km, large de 280 à 345 m et profond de 22,5 m, il relie, via trois lacs naturels, la ville portuaire de Port-Saïd en mer Méditerranée à la ville de Suez dans le golfe de Suez au nord de la…",
+  "lien": "https://fr.wikipedia.org/wiki/Canal_de_Suez",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
