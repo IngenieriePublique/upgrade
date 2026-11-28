@@ -1,0 +1,203 @@
+{
+ "version": 1,
+ "date": "2026-11-28",
+ "genere": "2026-11-28T12:59Z",
+ "plafond": 13,
+ "items": [
+  {
+   "id": "45d79661dd",
+   "rubrique": "france",
+   "titre": "A un banquet du Canon français à Biarritz, des manifestants bloquent les participants, qu’ils accusent de véhiculer des idées d’extrême droite",
+   "lien": "https://www.lemonde.fr/societe/article/2026/11/28/a-un-banquet-du-canon-francais-a-biarritz-des-manifestants-bloquent-les-participants-qu-ils-accusent-de-vehiculer-des-idees-d-extreme-droite_6816103_3224.html",
+   "source": "Le Monde",
+   "date": "2026-11-28T12:00Z",
+   "chapo": "Des convives de cet événement cofinancé par le milliardaire Pierre-Edouard Stérin ont été pris à partie par les manifestants, qui avaient annoncé un « rempart humain » pour empêcher les 1 500…",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 5.28,
+   "payant": true,
+   "reprises": 4
+  },
+  {
+   "id": "8560479404",
+   "rubrique": "france",
+   "titre": "L’agence S&P menace de dégrader encore la note de la France, entrée en récession",
+   "lien": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+   "source": "Le Monde",
+   "date": "2026-11-27T21:18Z",
+   "chapo": "Vendredi, l’agence américaine a assorti d’une perspective négative la note actuelle de la dette française. Cela ouvre la voie à une possible dégradation à moyen terme.",
+   "theme": "finances",
+   "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+   "score": 5.27,
+   "payant": true,
+   "reprises": 3
+  },
+  {
+   "id": "a0e090c1d6",
+   "rubrique": "france",
+   "titre": "Manifestations : nouvelle journée de mobilisation samedi, notamment contre les violences faites aux femmes",
+   "lien": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-nouvelle-journee-de-mobilisation-samedi-notamment-contre-les-violences-faites-aux-femmes_8304345.html",
+   "source": "franceinfo",
+   "date": "2026-11-28T11:03Z",
+   "chapo": "Prévues dans plus d'une trentaine de villes, dont Paris, Lille, Lyon et Marseille, ces manifestations sont organisées dans le sillage de la journée internationale de lutte contre les violences faites…",
+   "theme": "defaut",
+   "question": "Comment l'expliquer en deux phrases à quelqu'un qui n'a pas suivi ?",
+   "score": 5.26,
+   "reprises": 5
+  },
+  {
+   "id": "be3c194637",
+   "rubrique": "france",
+   "titre": "Le numéro 2 de la Banque centrale européenne écarte un scénario à la grecque pour la dette française",
+   "lien": "https://www.franceinfo.fr/economie/crise/le-numero-2-de-la-banque-centrale-europeenne-ecarte-un-scenario-a-la-grecque-pour-la-dette-francaise_8304585.html",
+   "source": "franceinfo",
+   "date": "2026-11-28T12:02Z",
+   "chapo": "L'agence de notation S&P Global a abaissé vendredi la perspective de stable à négative, la menaçant d'une éventuelle dégradation à l'avenir, en raison des difficultés du pays à réduire son déficit.",
+   "theme": "finances",
+   "question": "Quel est l'ordre de grandeur, rapporté au budget de l'État ou d'une collectivité ?",
+   "score": 5.18
+  },
+  {
+   "id": "958d29db1f",
+   "rubrique": "france",
+   "titre": "Fuites au profit du RN : une affaire de secrets d’État au cœur de la haute fonction publique",
+   "lien": "https://www.sudouest.fr/justice/fuites-au-profit-du-rn-une-affaire-de-secrets-d-etat-au-coeur-de-la-haute-fonction-publique-31702223.php",
+   "source": "Sud Ouest",
+   "date": "2026-11-28T08:15Z",
+   "chapo": "L’enquête sur des soupçons de transmissions d’informations confidentielles au Rassemblement national ébranle un préfet et un magistrat parisien",
+   "theme": "territoires",
+   "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+   "score": 4.1,
+   "payant": true
+  },
+  {
+   "id": "f7770ad432",
+   "rubrique": "monde",
+   "titre": "La Russie annonce l'interception de plus de 1 200 drones ukrainiens sur son territoire",
+   "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/la-russie-annonce-l-interception-de-plus-de-1-200-drones-ukrainiens-sur-son-territoire_8304321.html",
+   "source": "franceinfo",
+   "date": "2026-11-28T09:29Z",
+   "chapo": "Le maire de Moscou avait déclaré auparavant que 462 drones ukrainiens avaient été lancés vers la capitale russe dans la nuit de vendredi à samedi.",
+   "theme": "territoires",
+   "question": "Cela change-t-il quelque chose entre une métropole et un territoire rural ?",
+   "score": 6.53,
+   "reprises": 3
+  },
+  {
+   "id": "bc957b868b",
+   "rubrique": "monde",
+   "titre": "La Cour suprême du Canada valide une loi québécoise controversée sur l’interdiction des signes religieux",
+   "lien": "https://www.courrierinternational.com/article/laicite-la-cour-supreme-du-canada-valide-une-loi-quebecoise-controversee-sur-l-interdiction-des-signes-religieux_290931",
+   "source": "Courrier international",
+   "date": "2026-11-28T04:50Z",
+   "chapo": "La “Loi 21”, adoptée en 2019, interdit aux fonctionnaires de la province d’arborer des signes religieux au nom de la laïcité.",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 5.43,
+   "payant": true,
+   "reprises": 3
+  },
+  {
+   "id": "faa945d135",
+   "rubrique": "monde",
+   "titre": "Gaza : deux employés de MSF tués par une frappe israélienne",
+   "lien": "https://www.france24.com/fr/moyen-orient/20261128-gaza-deux-employ%C3%A9s-de-msf-tu%C3%A9s-par-une-frappe-isra%C3%A9lienne",
+   "source": "France 24",
+   "date": "2026-11-28T12:23Z",
+   "chapo": "L'organisation humanitaire Médecins ⁠sans frontières (MSF) a annoncé vendredi la mort de deux de ​ses employés, tués par une frappe israélienne devant une clinique à Gaza.",
+   "theme": "international",
+   "question": "Qu'est-ce que cela change concrètement pour la France ou pour l'Union européenne ?",
+   "score": 5.29,
+   "reprises": 5
+  },
+  {
+   "id": "d8d581a458",
+   "rubrique": "monde",
+   "titre": "Nos voitures polluent-elles moins grâce aux règles européennes ?",
+   "lien": "https://www.touteleurope.eu/environnement/nos-voitures-polluent-elles-moins-grace-aux-regles-europeennes/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-28T07:50Z",
+   "chapo": "En attendant l'intégration du lecteur audio à cet article, vous pouvez écouter l'émission ici. Aujourd'hui, un tiers des oxydes d'azote que nous respirons sont émis par le transport routier.",
+   "theme": "ecologie",
+   "question": "Quel chiffre faut-il connaître pour en parler sans se tromper ?",
+   "score": 5.09
+  },
+  {
+   "id": "d82a76488d",
+   "rubrique": "monde",
+   "titre": "Pourquoi la France verse 1,4 milliard d'euros par an à l’Union européenne pour ses déchets plastiques",
+   "lien": "https://www.touteleurope.eu/environnement/pourquoi-la-france-verse-14-milliard-d-euros-par-an-a-l-union-europeenne-pour-ses-dechets-plastiques/",
+   "source": "Toute l'Europe",
+   "date": "2026-11-27T15:25Z",
+   "chapo": "D'un côté, alimenter le budget de l'Union européenne, qui doit notamment assurer le remboursement de son plan de relance. De l'autre, inciter les États membres à recycler davantage.",
+   "theme": "finances",
+   "question": "Si on économisait ici, qui en subirait les effets en premier ?",
+   "score": 4.75
+  },
+  {
+   "id": "49558c475e",
+   "rubrique": "action_publique",
+   "titre": "Mouvement lycéen : après les annonces, Édouard Geffray précise le mode d'emploi",
+   "lien": "https://www.banquedesterritoires.fr/mouvement-lyceen-apres-les-annonces-edouard-geffray-precise-le-mode-demploi",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-27T15:04Z",
+   "chapo": "Le ministre de l'Éducation nationale a détaillé devant le Sénat le train d'amendements au projet de loi de finances pour 2027 que le gouvernement présentera prochainement pour tenir ses engagements…",
+   "theme": "institutions",
+   "question": "Quelle différence cela fait-il dans la vie d'un agent public ou d'un usager ?",
+   "score": 7.67
+  },
+  {
+   "id": "d6e074d4b0",
+   "rubrique": "action_publique",
+   "titre": "Congrès des maires – Écoles, crèches, logement… des maires tenaces face aux défis de la transition démographique",
+   "lien": "https://www.banquedesterritoires.fr/congres-des-maires-ecoles-creches-logement-des-maires-tenaces-face-aux-defis-de-la-transition",
+   "source": "Banque des Territoires (Localtis)",
+   "date": "2026-11-27T09:37Z",
+   "chapo": "L'effondrement du nombre de naissances et le vieillissement de la population constituent des défis inédits pour les maires, avec des contextes extrêmement différents d'une commune à l'autre.",
+   "theme": "territoires",
+   "question": "Quel niveau (commune, intercommunalité, département, région, État) est compétent, et lequel finance ?",
+   "score": 7.04
+  },
+  {
+   "id": "90afb7b44f",
+   "rubrique": "action_publique",
+   "titre": "Accès aux services publics, Intelligence artificielle et Simplification : les priorités de la future DITSP",
+   "lien": "https://www.modernisation.gouv.fr/presse/acces-aux-services-publics-intelligence-artificielle-et-simplification-les-priorites-de-la",
+   "source": "Transformation publique (DITP)",
+   "date": "2026-11-27T10:10Z",
+   "chapo": "Accès aux services publics, Intelligence artificielle et Simplification : les priorités de la future DITSP Communiqué de presse DITP Christoph… ven 27/11/2026 - 11:10 Conformément au décret publié ce…",
+   "theme": "institutions",
+   "question": "Quel est l'argument de ceux qui s'y opposent, formulé honnêtement ?",
+   "score": 6.04
+  }
+ ],
+ "dossier": {
+  "id": "24784b0f0f",
+  "rubrique": "action_publique",
+  "titre": "Département de la Meuse",
+  "lien": "https://www.ccomptes.fr/fr/publications/departement-de-la-meuse-5",
+  "source": "Cour des comptes",
+  "date": "2026-11-21T13:33Z",
+  "chapo": "La chambre régionale des comptes Grand Est publie son rapport sur les comptes et la gestion du département de la Meuse pour les exercices 2019 et suivants.",
+  "theme": "territoires",
+  "question": "Quelle réforme de la décentralisation (1982, 2003, MAPTAM, NOTRe, 3DS) est derrière ce sujet ?",
+  "score": 7.05,
+  "semaine": "2026-W48"
+ },
+ "truc": {
+  "type": "fait",
+  "titre": "1870 : la Prusse bat la France à la bataille de Beaune-la-Rolande lors de la guerre franco-allemande.",
+  "extrait": "Le royaume de Prusse est un ancien État européen formé en 1701, à l'origine union personnelle du duché de Prusse, de la marche de Brandebourg et d'autres principautés du Saint-Empire, et intégré en 1871 à l'Empire allemand dont il est la composante principale…",
+  "lien": "https://fr.wikipedia.org/wiki/Royaume_de_Prusse",
+  "source": "Wikipédia",
+  "licence": "CC BY-SA 4.0"
+ },
+ "sources": {
+  "ok": 35,
+  "total": 36,
+  "echecs": [
+   "actu-juridique"
+  ]
+ },
+ "licences": "Titres, liens et chapôs : sources citées, usage de signalement. Truc du jour : Wikipédia, CC BY-SA 4.0."
+}
